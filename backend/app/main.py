@@ -8,6 +8,7 @@ from pydantic import ValidationError
 from .config import Settings
 from .dataset import dataset_status, artifact_status, pbf_status
 from .schemas import RouteRequest, RouteResponse, SnapPoint
+from .fleet import candidate_catalog
 
 
 def api_error(code, message, status=503):
@@ -41,6 +42,18 @@ def create_app(settings: Settings | None = None):
     @app.get("/api/dataset/status")
     async def status():
         return await dataset_status(settings)
+
+    @app.get("/api/fleet/candidates")
+    async def fleet_candidates():
+        if not (await dataset_status(settings))["ready"]:
+            api_error("DATASET_NOT_READY", "Bản đồ hoặc OSRM local chưa sẵn sàng cho fleet.")
+        try:
+            result = candidate_catalog(settings)
+            if len(result["candidates"]) < 2:
+                api_error("INSUFFICIENT_CANDIDATES", "Không đủ điểm OSM trong vùng hiển thị.")
+            return result
+        except (OSError, ValueError, KeyError, TypeError):
+            api_error("CANDIDATES_UNAVAILABLE", "Không đọc được candidate/provenance local.")
 
     @app.get("/api/map/streets")
     async def streets():
