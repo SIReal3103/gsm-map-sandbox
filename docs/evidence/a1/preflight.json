@@ -1,0 +1,24 @@
+{
+  "inputs": [
+    {
+      "path": "D:\\ThS\\VinAI\\Phase3_VRIC\\gsm-map-sandbox\\data\\raw\\vietnam-latest.osm.pbf",
+      "size_bytes": 330248138,
+      "sha256": "2fbd2ee6b4dc151eecf04fa6823cddf584b47423e190118b10fce8b6115e9d8a"
+    },
+    {
+      "path": "D:\\ThS\\VinAI\\Phase3_VRIC\\gsm-map-sandbox\\data\\processed\\hcm-q1.osm.pbf",
+      "size_bytes": 1321521,
+      "sha256": "48b3fd8935b55f65d1a7e4296016a62c36d704b77ee1329f2ba0beb4f978d3dc"
+    }
+  ],
+  "docker_version": "29.6.2",
+  "docker_desktop": "4.84",
+  "os_type": "linux",
+  "osmium_version": "1.19.0 / libosmium 2.23.1",
+  "docker_memory_bytes": 8214286336,
+  "host_available_memory_kib": 3651512,
+  "drive_d_free_bytes": 46099279872,
+  "baseline_backend": 29,
+  "baseline_frontend": 9,
+  "decision": "New smart buffered extract: manual bbox fails containment; 14 missing way members of restriction relations. Both protected inputs retained."
+}

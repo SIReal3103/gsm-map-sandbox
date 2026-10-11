@@ -1,0 +1,981 @@
+{
+  "assets": [
+    {
+      "id": "a75d9d1e3970190b",
+      "kind": "script",
+      "name": "client",
+      "sources": [
+        {
+          "kind": "resource",
+          "property": "script"
+        },
+        {
+          "kind": "attribute",
+          "nodeId": 2258,
+          "property": "src"
+        }
+      ],
+      "url": "http://127.0.0.1:5173/@vite/client"
+    },
+    {
+      "id": "8e260710244398f6",
+      "kind": "script",
+      "name": "main.tsx",
+      "sources": [
+        {
+          "kind": "resource",
+          "property": "script"
+        },
+        {
+          "kind": "attribute",
+          "nodeId": 2498,
+          "property": "src"
+        }
+      ],
+      "url": "http://127.0.0.1:5173/src/main.tsx?t=1791730478489"
+    },
+    {
+      "id": "2b38508d147849e8",
+      "kind": "script",
+      "name": "@react-refresh",
+      "sources": [
+        {
+          "kind": "resource",
+          "property": "script"
+        }
+      ],
+      "url": "http://127.0.0.1:5173/@react-refresh"
+    },
+    {
+      "id": "b64e3df9f90944bf",
+      "kind": "script",
+      "name": "env.mjs",
+      "sources": [
+        {
+          "kind": "resource",
+          "property": "script"
+        }
+      ],
+      "url": "http://127.0.0.1:5173/node_modules/vite/dist/client/env.mjs"
+    },
+    {
+      "id": "41b529b8f3fac94f",
+      "kind": "script",
+      "name": "react.js",
+      "sources": [
+        {
+          "kind": "resource",
+          "property": "script"
+        }
+      ],
+      "url": "http://127.0.0.1:5173/node_modules/.vite/deps/react.js?v=962b172b"
+    },
+    {
+      "id": "c7d2ed416f81161c",
+      "kind": "script",
+      "name": "react-dom_client.js",
+      "sources": [
+        {
+          "kind": "resource",
+          "property": "script"
+        }
+      ],
+      "url": "http://127.0.0.1:5173/node_modules/.vite/deps/react-dom_client.js?v=38d73284"
+    },
+    {
+      "id": "5ae23388af885051",
+      "kind": "stylesheet",
+      "name": "index.css",
+      "sources": [
+        {
+          "kind": "resource",
+          "property": "script"
+        }
+      ],
+      "url": "http://127.0.0.1:5173/src/index.css?t=1791730478489"
+    },
+    {
+      "id": "a53a756f56ef475c",
+      "kind": "script",
+      "name": "App.tsx",
+      "sources": [
+        {
+          "kind": "resource",
+          "property": "script"
+        }
+      ],
+      "url": "http://127.0.0.1:5173/src/App.tsx?t=1791730478489"
+    },
+    {
+      "id": "2dbcad1f0bef2558",
+      "kind": "script",
+      "name": "react_jsx-dev-runtime.js",
+      "sources": [
+        {
+          "kind": "resource",
+          "property": "script"
+        }
+      ],
+      "url": "http://127.0.0.1:5173/node_modules/.vite/deps/react_jsx-dev-runtime.js?v=962b172b"
+    },
+    {
+      "id": "e184bd7b80d0193c",
+      "kind": "script",
+      "name": "rolldown-runtime-DC62tzP2.js",
+      "sources": [
+        {
+          "kind": "resource",
+          "property": "script"
+        }
+      ],
+      "url": "http://127.0.0.1:5173/node_modules/.vite/deps/rolldown-runtime-DC62tzP2.js?v=6fdfff93"
+    },
+    {
+      "id": "db58fc4f42e3ee76",
+      "kind": "script",
+      "name": "react-dom.js",
+      "sources": [
+        {
+          "kind": "resource",
+          "property": "script"
+        }
+      ],
+      "url": "http://127.0.0.1:5173/node_modules/.vite/deps/react-dom.js?v=962b172b"
+    },
+    {
+      "id": "c9b89d5e7196e5c5",
+      "kind": "script",
+      "name": "lucide-react.js",
+      "sources": [
+        {
+          "kind": "resource",
+          "property": "script"
+        }
+      ],
+      "url": "http://127.0.0.1:5173/node_modules/.vite/deps/lucide-react.js?v=369322f7"
+    },
+    {
+      "id": "2b1c27b5bff2c399",
+      "kind": "script",
+      "name": "button.tsx",
+      "sources": [
+        {
+          "kind": "resource",
+          "property": "script"
+        }
+      ],
+      "url": "http://127.0.0.1:5173/src/components/ui/button.tsx"
+    },
+    {
+      "id": "8153c96d31aa429c",
+      "kind": "script",
+      "name": "badge.tsx",
+      "sources": [
+        {
+          "kind": "resource",
+          "property": "script"
+        }
+      ],
+      "url": "http://127.0.0.1:5173/src/components/ui/badge.tsx"
+    },
+    {
+      "id": "319d8d3b371a3acd",
+      "kind": "script",
+      "name": "slider.tsx",
+      "sources": [
+        {
+          "kind": "resource",
+          "property": "script"
+        }
+      ],
+      "url": "http://127.0.0.1:5173/src/components/ui/slider.tsx"
+    },
+    {
+      "id": "8e6b81dc93360a87",
+      "kind": "script",
+      "name": "playback.ts",
+      "sources": [
+        {
+          "kind": "resource",
+          "property": "script"
+        }
+      ],
+      "url": "http://127.0.0.1:5173/src/lib/playback.ts"
+    },
+    {
+      "id": "4f42e2637df487b4",
+      "kind": "script",
+      "name": "use-playback.ts",
+      "sources": [
+        {
+          "kind": "resource",
+          "property": "script"
+        }
+      ],
+      "url": "http://127.0.0.1:5173/src/lib/use-playback.ts"
+    },
+    {
+      "id": "f6a1d560807c8a0a",
+      "kind": "script",
+      "name": "api.ts",
+      "sources": [
+        {
+          "kind": "resource",
+          "property": "script"
+        }
+      ],
+      "url": "http://127.0.0.1:5173/src/lib/api.ts"
+    },
+    {
+      "id": "153990c2586c31d8",
+      "kind": "script",
+      "name": "sandbox-map.tsx",
+      "sources": [
+        {
+          "kind": "resource",
+          "property": "script"
+        }
+      ],
+      "url": "http://127.0.0.1:5173/src/components/sandbox-map.tsx?t=1791730478489"
+    },
+    {
+      "id": "0c643ebbd5d4f924",
+      "kind": "stylesheet",
+      "name": "App.css",
+      "sources": [
+        {
+          "kind": "resource",
+          "property": "script"
+        }
+      ],
+      "url": "http://127.0.0.1:5173/src/App.css?t=1791730458891"
+    },
+    {
+      "id": "34d0c73c09372dbc",
+      "kind": "script",
+      "name": "@base-ui_react_button.js",
+      "sources": [
+        {
+          "kind": "resource",
+          "property": "script"
+        }
+      ],
+      "url": "http://127.0.0.1:5173/node_modules/.vite/deps/@base-ui_react_button.js?v=b1e9af94"
+    },
+    {
+      "id": "291117b5d2db665b",
+      "kind": "script",
+      "name": "class-variance-authority.js",
+      "sources": [
+        {
+          "kind": "resource",
+          "property": "script"
+        }
+      ],
+      "url": "http://127.0.0.1:5173/node_modules/.vite/deps/class-variance-authority.js?v=8ac696e0"
+    },
+    {
+      "id": "8aa455bc5d0667f3",
+      "kind": "script",
+      "name": "cn.js",
+      "sources": [
+        {
+          "kind": "resource",
+          "property": "script"
+        }
+      ],
+      "url": "http://127.0.0.1:5173/node_modules/.vite/deps/cn.js?v=828ede53"
+    },
+    {
+      "id": "2e743d3d1da5b11b",
+      "kind": "script",
+      "name": "@base-ui_react_merge-props.js",
+      "sources": [
+        {
+          "kind": "resource",
+          "property": "script"
+        }
+      ],
+      "url": "http://127.0.0.1:5173/node_modules/.vite/deps/@base-ui_react_merge-props.js?v=959be0a5"
+    },
+    {
+      "id": "601e3d80db20f9b4",
+      "kind": "script",
+      "name": "@base-ui_react_use-render.js",
+      "sources": [
+        {
+          "kind": "resource",
+          "property": "script"
+        }
+      ],
+      "url": "http://127.0.0.1:5173/node_modules/.vite/deps/@base-ui_react_use-render.js?v=50f8cbf0"
+    },
+    {
+      "id": "130fff875d7f8ff2",
+      "kind": "script",
+      "name": "@base-ui_react_slider.js",
+      "sources": [
+        {
+          "kind": "resource",
+          "property": "script"
+        }
+      ],
+      "url": "http://127.0.0.1:5173/node_modules/.vite/deps/@base-ui_react_slider.js?v=5d8628d2"
+    },
+    {
+      "id": "4679841bf198f340",
+      "kind": "script",
+      "name": "formatErrorMessage-xk6KuFPl.js",
+      "sources": [
+        {
+          "kind": "resource",
+          "property": "script"
+        }
+      ],
+      "url": "http://127.0.0.1:5173/node_modules/.vite/deps/formatErrorMessage-xk6KuFPl.js?v=6fdfff93"
+    },
+    {
+      "id": "08de6b21a326e9be",
+      "kind": "script",
+      "name": "useRenderElement-HgjcGXBI.js",
+      "sources": [
+        {
+          "kind": "resource",
+          "property": "script"
+        }
+      ],
+      "url": "http://127.0.0.1:5173/node_modules/.vite/deps/useRenderElement-HgjcGXBI.js?v=6fdfff93"
+    },
+    {
+      "id": "381f460f13525a37",
+      "kind": "script",
+      "name": "merge-props-B4lpaVXg.js",
+      "sources": [
+        {
+          "kind": "resource",
+          "property": "script"
+        }
+      ],
+      "url": "http://127.0.0.1:5173/node_modules/.vite/deps/merge-props-B4lpaVXg.js?v=6fdfff93"
+    },
+    {
+      "id": "4f8d6178ed467b29",
+      "kind": "script",
+      "name": "react_jsx-runtime.js",
+      "sources": [
+        {
+          "kind": "resource",
+          "property": "script"
+        }
+      ],
+      "url": "http://127.0.0.1:5173/node_modules/.vite/deps/react_jsx-runtime.js?v=962b172b"
+    },
+    {
+      "id": "6a5e8cb8ecfe786a",
+      "kind": "script",
+      "name": "map.tsx",
+      "sources": [
+        {
+          "kind": "resource",
+          "property": "script"
+        }
+      ],
+      "url": "http://127.0.0.1:5173/src/components/ui/map.tsx"
+    },
+    {
+      "id": "d499a96fafcf12ef",
+      "kind": "script",
+      "name": "map-style.ts",
+      "sources": [
+        {
+          "kind": "resource",
+          "property": "script"
+        }
+      ],
+      "url": "http://127.0.0.1:5173/src/lib/map-style.ts?t=1791730478489"
+    },
+    {
+      "id": "29641207c9c9238e",
+      "kind": "font",
+      "name": "geist-latin-wght-normal.woff2",
+      "sources": [
+        {
+          "kind": "resource",
+          "property": "script"
+        }
+      ],
+      "url": "http://127.0.0.1:5173/node_modules/@fontsource-variable/geist/files/geist-latin-wght-normal.woff2?import&url"
+    },
+    {
+      "id": "ff8ac971f6160ede",
+      "kind": "font",
+      "name": "geist-vietnamese-wght-normal.woff2",
+      "sources": [
+        {
+          "kind": "resource",
+          "property": "script"
+        }
+      ],
+      "url": "http://127.0.0.1:5173/node_modules/@fontsource-variable/geist/files/geist-vietnamese-wght-normal.woff2?import&url"
+    },
+    {
+      "id": "91ac1ea19a24e007",
+      "kind": "script",
+      "name": "maplibre-gl.js",
+      "sources": [
+        {
+          "kind": "resource",
+          "property": "script"
+        }
+      ],
+      "url": "http://127.0.0.1:5173/node_modules/.vite/deps/maplibre-gl.js?v=9c5bc263"
+    },
+    {
+      "id": "6f6ca4c45a3930f8",
+      "kind": "stylesheet",
+      "name": "maplibre-gl.css",
+      "sources": [
+        {
+          "kind": "resource",
+          "property": "script"
+        }
+      ],
+      "url": "http://127.0.0.1:5173/node_modules/maplibre-gl/dist/maplibre-gl.css"
+    },
+    {
+      "id": "e34bf8457b93752b",
+      "kind": "script",
+      "name": "utils.ts",
+      "sources": [
+        {
+          "kind": "resource",
+          "property": "script"
+        }
+      ],
+      "url": "http://127.0.0.1:5173/src/lib/utils.ts"
+    },
+    {
+      "id": "71e9e3fbb8f70d20",
+      "kind": "font",
+      "name": "geist-latin-wght-normal.woff2",
+      "sources": [
+        {
+          "kind": "resource",
+          "property": "css"
+        },
+        {
+          "kind": "resource",
+          "property": "fetch"
+        },
+        {
+          "kind": "resource",
+          "property": "css"
+        }
+      ],
+      "url": "http://127.0.0.1:5173/node_modules/@fontsource-variable/geist/files/geist-latin-wght-normal.woff2"
+    },
+    {
+      "id": "ead3eba26dbd54b3",
+      "kind": "font",
+      "name": "geist-vietnamese-wght-normal.woff2",
+      "sources": [
+        {
+          "kind": "resource",
+          "property": "css"
+        },
+        {
+          "kind": "resource",
+          "property": "fetch"
+        },
+        {
+          "kind": "resource",
+          "property": "css"
+        }
+      ],
+      "url": "http://127.0.0.1:5173/node_modules/@fontsource-variable/geist/files/geist-vietnamese-wght-normal.woff2"
+    },
+    {
+      "id": "01457d7fa9ff068e",
+      "kind": "font",
+      "name": "geist-latin-ext-wght-normal.woff2",
+      "sources": [
+        {
+          "kind": "resource",
+          "property": "css"
+        }
+      ],
+      "url": "http://127.0.0.1:5173/node_modules/@fontsource-variable/geist/files/geist-latin-ext-wght-normal.woff2"
+    },
+    {
+      "id": "e1993e22964ce420",
+      "kind": "other",
+      "name": "status",
+      "sources": [
+        {
+          "kind": "resource",
+          "property": "fetch"
+        },
+        {
+          "kind": "resource",
+          "property": "fetch"
+        },
+        {
+          "kind": "resource",
+          "property": "fetch"
+        },
+        {
+          "kind": "resource",
+          "property": "fetch"
+        },
+        {
+          "kind": "resource",
+          "property": "fetch"
+        },
+        {
+          "kind": "resource",
+          "property": "fetch"
+        },
+        {
+          "kind": "resource",
+          "property": "fetch"
+        },
+        {
+          "kind": "resource",
+          "property": "fetch"
+        },
+        {
+          "kind": "resource",
+          "property": "fetch"
+        },
+        {
+          "kind": "resource",
+          "property": "fetch"
+        },
+        {
+          "kind": "resource",
+          "property": "fetch"
+        },
+        {
+          "kind": "resource",
+          "property": "fetch"
+        },
+        {
+          "kind": "resource",
+          "property": "fetch"
+        },
+        {
+          "kind": "resource",
+          "property": "fetch"
+        },
+        {
+          "kind": "resource",
+          "property": "fetch"
+        },
+        {
+          "kind": "resource",
+          "property": "fetch"
+        },
+        {
+          "kind": "resource",
+          "property": "fetch"
+        },
+        {
+          "kind": "resource",
+          "property": "fetch"
+        },
+        {
+          "kind": "resource",
+          "property": "fetch"
+        },
+        {
+          "kind": "resource",
+          "property": "fetch"
+        },
+        {
+          "kind": "resource",
+          "property": "fetch"
+        },
+        {
+          "kind": "resource",
+          "property": "fetch"
+        },
+        {
+          "kind": "resource",
+          "property": "fetch"
+        },
+        {
+          "kind": "resource",
+          "property": "fetch"
+        },
+        {
+          "kind": "resource",
+          "property": "fetch"
+        },
+        {
+          "kind": "resource",
+          "property": "fetch"
+        },
+        {
+          "kind": "resource",
+          "property": "fetch"
+        },
+        {
+          "kind": "resource",
+          "property": "fetch"
+        },
+        {
+          "kind": "resource",
+          "property": "fetch"
+        },
+        {
+          "kind": "resource",
+          "property": "fetch"
+        },
+        {
+          "kind": "resource",
+          "property": "fetch"
+        },
+        {
+          "kind": "resource",
+          "property": "fetch"
+        },
+        {
+          "kind": "resource",
+          "property": "fetch"
+        },
+        {
+          "kind": "resource",
+          "property": "fetch"
+        },
+        {
+          "kind": "resource",
+          "property": "fetch"
+        },
+        {
+          "kind": "resource",
+          "property": "fetch"
+        },
+        {
+          "kind": "resource",
+          "property": "fetch"
+        },
+        {
+          "kind": "resource",
+          "property": "fetch"
+        },
+        {
+          "kind": "resource",
+          "property": "fetch"
+        },
+        {
+          "kind": "resource",
+          "property": "fetch"
+        },
+        {
+          "kind": "resource",
+          "property": "fetch"
+        },
+        {
+          "kind": "resource",
+          "property": "fetch"
+        },
+        {
+          "kind": "resource",
+          "property": "fetch"
+        },
+        {
+          "kind": "resource",
+          "property": "fetch"
+        },
+        {
+          "kind": "resource",
+          "property": "fetch"
+        },
+        {
+          "kind": "resource",
+          "property": "fetch"
+        },
+        {
+          "kind": "resource",
+          "property": "fetch"
+        },
+        {
+          "kind": "resource",
+          "property": "fetch"
+        },
+        {
+          "kind": "resource",
+          "property": "fetch"
+        },
+        {
+          "kind": "resource",
+          "property": "fetch"
+        },
+        {
+          "kind": "resource",
+          "property": "fetch"
+        },
+        {
+          "kind": "resource",
+          "property": "fetch"
+        }
+      ],
+      "url": "http://127.0.0.1:5173/api/dataset/status"
+    },
+    {
+      "id": "5ec3ea090def3806",
+      "kind": "script",
+      "name": "maplibre-gl-worker.mjs",
+      "sources": [
+        {
+          "kind": "resource",
+          "property": "other"
+        }
+      ],
+      "url": "http://127.0.0.1:5173/maplibre-gl-worker.mjs"
+    },
+    {
+      "id": "2fbcb35b75d8bb7d",
+      "kind": "image",
+      "name": "favicon.svg",
+      "sources": [
+        {
+          "kind": "resource",
+          "property": "other"
+        },
+        {
+          "kind": "attribute",
+          "nodeId": 2260,
+          "property": "href"
+        }
+      ],
+      "url": "http://127.0.0.1:5173/favicon.svg"
+    },
+    {
+      "id": "0d38629106122d62",
+      "kind": "other",
+      "name": "route",
+      "sources": [
+        {
+          "kind": "resource",
+          "property": "fetch"
+        }
+      ],
+      "url": "http://127.0.0.1:5173/api/route"
+    },
+    {
+      "id": "d7f3e292abcb9689",
+      "kind": "stylesheet",
+      "name": "index.css",
+      "sources": [
+        {
+          "kind": "resource",
+          "property": "script"
+        }
+      ],
+      "url": "http://127.0.0.1:5173/src/index.css?t=1791730808996"
+    },
+    {
+      "id": "051c1a69da1202c7",
+      "kind": "script",
+      "name": "sandbox-map.tsx",
+      "sources": [
+        {
+          "kind": "resource",
+          "property": "script"
+        }
+      ],
+      "url": "http://127.0.0.1:5173/src/components/sandbox-map.tsx?t=1791730808996"
+    },
+    {
+      "id": "9bf5eb5374c5c0c1",
+      "kind": "stylesheet",
+      "name": "index.css",
+      "sources": [
+        {
+          "kind": "resource",
+          "property": "script"
+        }
+      ],
+      "url": "http://127.0.0.1:5173/src/index.css?t=1791730808999"
+    },
+    {
+      "id": "d05acc6ba250b3a6",
+      "kind": "script",
+      "name": "App.tsx",
+      "sources": [
+        {
+          "kind": "resource",
+          "property": "script"
+        }
+      ],
+      "url": "http://127.0.0.1:5173/src/App.tsx?t=1791730808999"
+    },
+    {
+      "id": "e12ebd79fa18cc8f",
+      "kind": "script",
+      "name": "api.ts",
+      "sources": [
+        {
+          "kind": "resource",
+          "property": "script"
+        }
+      ],
+      "url": "http://127.0.0.1:5173/src/lib/api.ts?t=1791730808999"
+    },
+    {
+      "id": "ee64a439b1d26a18",
+      "kind": "script",
+      "name": "App.tsx",
+      "sources": [
+        {
+          "kind": "resource",
+          "property": "script"
+        }
+      ],
+      "url": "http://127.0.0.1:5173/src/App.tsx?t=1791730809002"
+    },
+    {
+      "id": "9e7ccdd041fc53bc",
+      "kind": "stylesheet",
+      "name": "index.css",
+      "sources": [
+        {
+          "kind": "resource",
+          "property": "script"
+        }
+      ],
+      "url": "http://127.0.0.1:5173/src/index.css?t=1791730809002"
+    },
+    {
+      "id": "64532c8d8f295576",
+      "kind": "stylesheet",
+      "name": "index.css",
+      "sources": [
+        {
+          "kind": "resource",
+          "property": "script"
+        }
+      ],
+      "url": "http://127.0.0.1:5173/src/index.css?t=1791730933172"
+    },
+    {
+      "id": "66a63e324135c2a2",
+      "kind": "stylesheet",
+      "name": "index.css",
+      "sources": [
+        {
+          "kind": "resource",
+          "property": "script"
+        }
+      ],
+      "url": "http://127.0.0.1:5173/src/index.css?t=1791730933175"
+    }
+  ],
+  "id": "ff9b3f56-40f8-4b47-b1ac-0659b8924f33",
+  "inlineSvgs": [
+    {
+      "id": "ca2beb26b645a435",
+      "markup": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-navigation\" aria-hidden=\"true\"><polygon points=\"3 11 22 2 13 21 11 13 3 11\"></polygon></svg>",
+      "name": "svg-1"
+    },
+    {
+      "id": "61f6450614a7ce19",
+      "markup": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"17\" height=\"17\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-database\" aria-hidden=\"true\"><ellipse cx=\"12\" cy=\"5\" rx=\"9\" ry=\"3\"></ellipse><path d=\"M3 5V19A9 3 0 0 0 21 19V5\"></path><path d=\"M3 12A9 3 0 0 0 21 12\"></path></svg>",
+      "name": "svg-2"
+    },
+    {
+      "id": "71407b3de7775a64",
+      "markup": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"22\" height=\"22\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-file-box\" aria-hidden=\"true\"><path d=\"M14 2v5a1 1 0 001 1h5\"></path><path d=\"M14.692 22H18a2 2 0 002-2V8a2.4 2.4 0 00-.706-1.706l-3.588-3.588A2.4 2.4 0 0014 2H6a2 2 0 00-2 2v3.804\"></path><path d=\"M2.264 13.752 7 16.5l4.737-2.748\"></path><path d=\"M2.995 13.014A2 2 0 002 14.744v3.516a2 2 0 00.996 1.73l3 1.74a2 2 0 002.008 0l3-1.74A2 2 0 0012 18.26v-3.517a2 2 0 00-.995-1.73l-3-1.742a2 2 0 00-1.892-.064z\"></path><path d=\"M7 16.5V22\"></path></svg>",
+      "name": "svg-3"
+    },
+    {
+      "id": "f0e73d4ee4428aa9",
+      "markup": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"17\" height=\"17\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-arrow-up-right\" aria-hidden=\"true\"><path d=\"M7 7h10v10\"></path><path d=\"M7 17 17 7\"></path></svg>",
+      "name": "svg-4"
+    },
+    {
+      "id": "92f1ecf4279fac8c",
+      "markup": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"17\" height=\"17\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-map-pin\" aria-hidden=\"true\"><path d=\"M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0\"></path><circle cx=\"12\" cy=\"10\" r=\"3\"></circle></svg>",
+      "name": "svg-5"
+    },
+    {
+      "id": "58e89fc2586b648d",
+      "markup": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"17\" height=\"17\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-route\" aria-hidden=\"true\"><circle cx=\"6\" cy=\"19\" r=\"3\"></circle><path d=\"M9 19h8.5a3.5 3.5 0 0 0 0-7h-11a3.5 3.5 0 0 1 0-7H15\"></path><circle cx=\"18\" cy=\"5\" r=\"3\"></circle></svg>",
+      "name": "svg-6"
+    },
+    {
+      "id": "762deb90a25e8b03",
+      "markup": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-trash lucide-trash-2\" aria-hidden=\"true\"><path d=\"M10 11v6\"></path><path d=\"M14 11v6\"></path><path d=\"M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6\"></path><path d=\"M3 6h18\"></path><path d=\"M8 6V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2\"></path></svg>",
+      "name": "svg-7"
+    },
+    {
+      "id": "a9b6e91cbfe1a224",
+      "markup": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"17\" height=\"17\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-play\" aria-hidden=\"true\"><path d=\"M5 5a2 2 0 0 1 3.008-1.728l11.997 6.998a2 2 0 0 1 .003 3.458l-12 7A2 2 0 0 1 5 19z\"></path></svg>",
+      "name": "svg-8"
+    },
+    {
+      "id": "18019a882f7a1fd4",
+      "markup": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"16\" height=\"16\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-play\" aria-hidden=\"true\"><path d=\"M5 5a2 2 0 0 1 3.008-1.728l11.997 6.998a2 2 0 0 1 .003 3.458l-12 7A2 2 0 0 1 5 19z\"></path></svg>",
+      "name": "svg-9"
+    },
+    {
+      "id": "152de527392d1c25",
+      "markup": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"16\" height=\"16\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-pause\" aria-hidden=\"true\"><rect x=\"14\" y=\"3\" width=\"5\" height=\"18\" rx=\"1\"></rect><rect x=\"5\" y=\"3\" width=\"5\" height=\"18\" rx=\"1\"></rect></svg>",
+      "name": "svg-10"
+    },
+    {
+      "id": "d28aac9893efd5f2",
+      "markup": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"16\" height=\"16\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-rotate-ccw\" aria-hidden=\"true\"><path d=\"M3 12a9 9 0 1 0 9-9 9.75 9.75 0 0 0-6.74 2.74L3 8\"></path><path d=\"M3 3v5h5\"></path></svg>",
+      "name": "svg-11"
+    },
+    {
+      "id": "8cdd0215f7d3ac1d",
+      "markup": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"14\" height=\"14\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-server\" aria-hidden=\"true\"><rect width=\"20\" height=\"8\" x=\"2\" y=\"2\" rx=\"2\" ry=\"2\"></rect><rect width=\"20\" height=\"8\" x=\"2\" y=\"14\" rx=\"2\" ry=\"2\"></rect><line x1=\"6\" x2=\"6.01\" y1=\"6\" y2=\"6\"></line><line x1=\"6\" x2=\"6.01\" y1=\"18\" y2=\"18\"></line></svg>",
+      "name": "svg-12"
+    },
+    {
+      "id": "f8e0c482c7fabc8e",
+      "markup": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"15\" height=\"15\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-refresh-cw\" aria-hidden=\"true\"><path d=\"M3 12a9 9 0 0 1 9-9 9.75 9.75 0 0 1 6.74 2.74L21 8\"></path><path d=\"M21 3v5h-5\"></path><path d=\"M21 12a9 9 0 0 1-9 9 9.75 9.75 0 0 1-6.74-2.74L3 16\"></path><path d=\"M8 16H3v5\"></path></svg>",
+      "name": "svg-13"
+    },
+    {
+      "id": "1f99436c3c3b5db2",
+      "markup": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"21\" height=\"21\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-car\" aria-hidden=\"true\"><path d=\"M19 17h2c.6 0 1-.4 1-1v-3c0-.9-.7-1.7-1.5-1.9C18.7 10.6 16 10 16 10s-1.3-1.4-2.2-2.3c-.5-.4-1.1-.7-1.8-.7H5c-.6 0-1.1.4-1.4.9l-1.4 2.9A3.7 3.7 0 0 0 2 12v4c0 .6.4 1 1 1h2\"></path><circle cx=\"7\" cy=\"17\" r=\"2\"></circle><path d=\"M9 17h6\"></path><circle cx=\"17\" cy=\"17\" r=\"2\"></circle></svg>",
+      "name": "svg-14"
+    },
+    {
+      "id": "329cecc76353bf9a",
+      "markup": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-plus size-4\" aria-hidden=\"true\"><path d=\"M5 12h14\"></path><path d=\"M12 5v14\"></path></svg>",
+      "name": "svg-15"
+    },
+    {
+      "id": "e73d1d06c6365d47",
+      "markup": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-minus size-4\" aria-hidden=\"true\"><path d=\"M5 12h14\"></path></svg>",
+      "name": "svg-16"
+    },
+    {
+      "id": "e22e9feb1bd782b6",
+      "markup": "<svg viewBox=\"0 0 24 24\" class=\"size-5\" style=\"transform-style: preserve-3d; transform: rotateX(0deg) rotateZ(0deg);\"><path d=\"M12 2L16 12H12V2Z\" class=\"fill-red-500\"></path><path d=\"M12 2L8 12H12V2Z\" class=\"fill-red-300\"></path><path d=\"M12 22L16 12H12V22Z\" class=\"fill-muted-foreground/60\"></path><path d=\"M12 22L8 12H12V22Z\" class=\"fill-muted-foreground/30\"></path></svg>",
+      "name": "svg-17"
+    },
+    {
+      "id": "295c08675c7c7164",
+      "markup": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"15\" height=\"15\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-layers lucide-layers-3\" aria-hidden=\"true\"><path d=\"M12.83 2.18a2 2 0 0 0-1.66 0L2.6 6.08a1 1 0 0 0 0 1.83l8.58 3.91a2 2 0 0 0 1.66 0l8.58-3.9a1 1 0 0 0 0-1.83z\"></path><path d=\"M2 12a1 1 0 0 0 .58.91l8.6 3.91a2 2 0 0 0 1.65 0l8.58-3.9A1 1 0 0 0 22 12\"></path><path d=\"M2 17a1 1 0 0 0 .58.91l8.6 3.91a2 2 0 0 0 1.65 0l8.58-3.9A1 1 0 0 0 22 17\"></path></svg>",
+      "name": "svg-18"
+    }
+  ],
+  "pageUrl": "http://127.0.0.1:5173/",
+  "summary": {
+    "byKind": {
+      "font": 5,
+      "image": 1,
+      "other": 2,
+      "script": 37,
+      "stylesheet": 8,
+      "video": 0
+    },
+    "inlineSvgCount": 18,
+    "totalCount": 53
+  }
+}

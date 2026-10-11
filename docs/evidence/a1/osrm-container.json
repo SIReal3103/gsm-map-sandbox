@@ -1,0 +1,233 @@
+[
+    {
+        "Id": "a0cd1802a5f069802bc008c498dd5c9b1a4dd5a7483da5ab1f705ddbf4d3ed20",
+        "Created": "2026-10-11T14:53:08.784188847Z",
+        "Path": "osrm-routed",
+        "Args": [
+            "--algorithm",
+            "mld",
+            "/data/hcm-center.osrm"
+        ],
+        "State": {
+            "Status": "running",
+            "Running": true,
+            "Paused": false,
+            "Restarting": false,
+            "OOMKilled": false,
+            "Dead": false,
+            "Pid": 1051,
+            "ExitCode": 0,
+            "Error": "",
+            "StartedAt": "2026-10-11T14:53:08.94883758Z",
+            "FinishedAt": "0001-01-01T00:00:00Z"
+        },
+        "Image": "sha256:855614a38f464b0558a2ad6eaa7cb8c139f39887da9b38b485ce453c6e6e6124",
+        "ResolvConfPath": "/var/lib/docker/containers/a0cd1802a5f069802bc008c498dd5c9b1a4dd5a7483da5ab1f705ddbf4d3ed20/resolv.conf",
+        "HostnamePath": "/var/lib/docker/containers/a0cd1802a5f069802bc008c498dd5c9b1a4dd5a7483da5ab1f705ddbf4d3ed20/hostname",
+        "HostsPath": "/var/lib/docker/containers/a0cd1802a5f069802bc008c498dd5c9b1a4dd5a7483da5ab1f705ddbf4d3ed20/hosts",
+        "LogPath": "/var/lib/docker/containers/a0cd1802a5f069802bc008c498dd5c9b1a4dd5a7483da5ab1f705ddbf4d3ed20/a0cd1802a5f069802bc008c498dd5c9b1a4dd5a7483da5ab1f705ddbf4d3ed20-json.log",
+        "Name": "/gsm-map-osrm",
+        "RestartCount": 0,
+        "Driver": "overlayfs",
+        "Platform": "linux",
+        "MountLabel": "",
+        "ProcessLabel": "",
+        "AppArmorProfile": "",
+        "ExecIDs": null,
+        "HostConfig": {
+            "Binds": null,
+            "ContainerIDFile": "",
+            "LogConfig": {
+                "Type": "json-file",
+                "Config": {}
+            },
+            "NetworkMode": "bridge",
+            "PortBindings": {
+                "5000/tcp": [
+                    {
+                        "HostIp": "127.0.0.1",
+                        "HostPort": "5000"
+                    }
+                ]
+            },
+            "RestartPolicy": {
+                "Name": "no",
+                "MaximumRetryCount": 0
+            },
+            "AutoRemove": true,
+            "VolumeDriver": "",
+            "VolumesFrom": null,
+            "ConsoleSize": [
+                0,
+                0
+            ],
+            "CapAdd": null,
+            "CapDrop": null,
+            "CgroupnsMode": "host",
+            "Dns": null,
+            "DnsOptions": [],
+            "DnsSearch": [],
+            "ExtraHosts": null,
+            "GroupAdd": null,
+            "IpcMode": "private",
+            "Cgroup": "",
+            "Links": null,
+            "OomScoreAdj": 0,
+            "PidMode": "",
+            "Privileged": false,
+            "PublishAllPorts": false,
+            "ReadonlyRootfs": false,
+            "SecurityOpt": null,
+            "UTSMode": "",
+            "UsernsMode": "",
+            "ShmSize": 67108864,
+            "Runtime": "runc",
+            "Isolation": "",
+            "CpuShares": 0,
+            "Memory": 1073741824,
+            "NanoCpus": 2000000000,
+            "CgroupParent": "",
+            "BlkioWeight": 0,
+            "BlkioWeightDevice": [],
+            "BlkioDeviceReadBps": [],
+            "BlkioDeviceWriteBps": [],
+            "BlkioDeviceReadIOps": [],
+            "BlkioDeviceWriteIOps": [],
+            "CpuPeriod": 0,
+            "CpuQuota": 0,
+            "CpuRealtimePeriod": 0,
+            "CpuRealtimeRuntime": 0,
+            "CpusetCpus": "",
+            "CpusetMems": "",
+            "Devices": [],
+            "DeviceCgroupRules": null,
+            "DeviceRequests": null,
+            "MemoryReservation": 0,
+            "MemorySwap": 2147483648,
+            "MemorySwappiness": null,
+            "OomKillDisable": false,
+            "PidsLimit": null,
+            "Ulimits": [],
+            "CpuCount": 0,
+            "CpuPercent": 0,
+            "IOMaximumIOps": 0,
+            "IOMaximumBandwidth": 0,
+            "Mounts": [
+                {
+                    "Type": "bind",
+                    "Source": "D:\\ThS\\VinAI\\Phase3_VRIC\\gsm-map-sandbox\\data\\routing",
+                    "Target": "/data",
+                    "ReadOnly": true
+                }
+            ],
+            "MaskedPaths": [
+                "/proc/acpi",
+                "/proc/asound",
+                "/proc/interrupts",
+                "/proc/kcore",
+                "/proc/keys",
+                "/proc/latency_stats",
+                "/proc/sched_debug",
+                "/proc/scsi",
+                "/proc/timer_list",
+                "/proc/timer_stats",
+                "/sys/devices/virtual/powercap",
+                "/sys/firmware"
+            ],
+            "ReadonlyPaths": [
+                "/proc/bus",
+                "/proc/fs",
+                "/proc/irq",
+                "/proc/sys",
+                "/proc/sysrq-trigger"
+            ]
+        },
+        "Storage": {
+            "RootFS": {
+                "Snapshot": {
+                    "Name": "overlayfs"
+                }
+            }
+        },
+        "Mounts": [
+            {
+                "Type": "bind",
+                "Source": "D:\\ThS\\VinAI\\Phase3_VRIC\\gsm-map-sandbox\\data\\routing",
+                "Destination": "/data",
+                "Mode": "",
+                "RW": false,
+                "Propagation": "rprivate"
+            }
+        ],
+        "Config": {
+            "Hostname": "a0cd1802a5f0",
+            "Domainname": "",
+            "User": "",
+            "AttachStdin": false,
+            "AttachStdout": false,
+            "AttachStderr": false,
+            "ExposedPorts": {
+                "5000/tcp": {}
+            },
+            "Tty": false,
+            "OpenStdin": false,
+            "StdinOnce": false,
+            "Env": [
+                "PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin"
+            ],
+            "Cmd": [
+                "osrm-routed",
+                "--algorithm",
+                "mld",
+                "/data/hcm-center.osrm"
+            ],
+            "Image": "ghcr.io/project-osrm/osrm-backend@sha256:855614a38f464b0558a2ad6eaa7cb8c139f39887da9b38b485ce453c6e6e6124",
+            "Volumes": null,
+            "WorkingDir": "/opt",
+            "Entrypoint": null,
+            "Labels": {
+                "gsm-map-sandbox": "true"
+            }
+        },
+        "NetworkSettings": {
+            "SandboxID": "a55a7e3ee3e9198d05a2d64d764504b1108d97406861ed0a8b3a4ac727282147",
+            "SandboxKey": "/var/run/docker/netns/a55a7e3ee3e9",
+            "Ports": {
+                "5000/tcp": [
+                    {
+                        "HostIp": "127.0.0.1",
+                        "HostPort": "5000"
+                    }
+                ]
+            },
+            "Networks": {
+                "bridge": {
+                    "IPAMConfig": null,
+                    "Links": null,
+                    "Aliases": null,
+                    "DriverOpts": null,
+                    "GwPriority": 0,
+                    "NetworkID": "c86428a14922e8444445e3459717b4c3e6740ecc32b910590c998d0d7a675562",
+                    "EndpointID": "6ab9d97da39474fa8bcf14487368292b9f4e2a3f83f52f4c9cdb52ff33ccaa7b",
+                    "Gateway": "172.17.0.1",
+                    "IPAddress": "172.17.0.2",
+                    "MacAddress": "12:85:0d:ba:3c:18",
+                    "IPPrefixLen": 16,
+                    "IPv6Gateway": "",
+                    "GlobalIPv6Address": "",
+                    "GlobalIPv6PrefixLen": 0,
+                    "DNSNames": null
+                }
+            }
+        },
+        "ImageManifestDescriptor": {
+            "mediaType": "application/vnd.docker.distribution.manifest.v2+json",
+            "digest": "sha256:b1ca5d72da456e82f81b8732a095c2357b00710099efa844040d1eb40b4b5386",
+            "size": 1573,
+            "platform": {
+                "architecture": "amd64",
+                "os": "linux"
+            }
+        }
+    }
+]

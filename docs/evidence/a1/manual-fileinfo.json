@@ -1,0 +1,72 @@
+{
+    "file": {
+        "name": "/data/processed/hcm-q1.osm.pbf",
+        "format": "PBF",
+        "compression": "none",
+        "size": 1321521
+    },
+    "header": {
+        "boxes": [],
+        "with_history": false,
+        "option": {
+            "generator": "osmium/1.19.0",
+            "pbf_dense_nodes": "true",
+            "pbf_optional_feature_0": "Sort.Type_then_ID",
+            "sorting": "Type_then_ID"
+        }
+    },
+    "data": {
+        "bbox": [
+            106.6251455,
+            10.3486896,
+            107.0669174,
+            10.8906182
+        ],
+        "timestamp": {
+            "first": "2009-03-30T17:26:54Z",
+            "last": "2026-10-09T17:39:10Z"
+        },
+        "objects_ordered": true,
+        "multiple_versions": false,
+        "crc32": "2bb77647",
+        "count": {
+            "changesets": 0,
+            "nodes": 87560,
+            "ways": 16626,
+            "relations": 927
+        },
+        "minid": {
+            "changesets": 0,
+            "nodes": 366367233,
+            "ways": 32575984,
+            "relations": 49915
+        },
+        "maxid": {
+            "changesets": 0,
+            "nodes": 14268541229,
+            "ways": 1566840832,
+            "relations": 21599296
+        },
+        "buffers": {
+            "count": 172,
+            "size": 10731536,
+            "capacity": 11272192
+        },
+        "metadata": {
+            "all_objects": {
+                "version": true,
+                "timestamp": true,
+                "changeset": false,
+                "user": false,
+                "uid": false
+            },
+            "some_objects": {
+                "version": true,
+                "timestamp": true,
+                "changeset": false,
+                "user": false,
+                "uid": false
+            }
+        }
+    }
+}

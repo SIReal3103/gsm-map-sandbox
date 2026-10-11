@@ -1,0 +1,19 @@
+{
+  "status": 422,
+  "request": {
+    "start": [
+      106.719,
+      10.776
+    ],
+    "end": [
+      106.6983,
+      10.7723
+    ]
+  },
+  "response": {
+    "error": {
+      "code": "NOSEGMENT",
+      "message": "Không tìm thấy tuyến ô tô hoặc điểm snap phù hợp."
+    }
+  }
+}

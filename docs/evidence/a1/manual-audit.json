@@ -1,0 +1,180 @@
+{
+  "roads": 7780,
+  "oneway_ways": 1471,
+  "road_types": {
+    "residential": 1100,
+    "tertiary": 479,
+    "primary_link": 170,
+    "primary": 601,
+    "service": 3609,
+    "pedestrian": 38,
+    "footway": 1233,
+    "secondary": 285,
+    "trunk": 53,
+    "secondary_link": 43,
+    "path": 20,
+    "steps": 62,
+    "trunk_link": 15,
+    "living_street": 5,
+    "tertiary_link": 32,
+    "busway": 10,
+    "construction": 20,
+    "proposed": 2,
+    "track": 2,
+    "platform": 1
+  },
+  "display_grid_5x5_vertex_counts_south_to_north": [
+    [
+      2,
+      36,
+      8,
+      24,
+      11
+    ],
+    [
+      936,
+      2523,
+      2727,
+      1454,
+      238
+    ],
+    [
+      1246,
+      2686,
+      2956,
+      2420,
+      486
+    ],
+    [
+      903,
+      794,
+      2144,
+      1300,
+      776
+    ],
+    [
+      1730,
+      2325,
+      2200,
+      2854,
+      1101
+    ]
+  ],
+  "restrictions": 394,
+  "missing_restriction_members": [
+    {
+      "restriction": "9996672",
+      "member": {
+        "type": "way",
+        "ref": "721696783",
+        "role": "to"
+      }
+    },
+    {
+      "restriction": "15658191",
+      "member": {
+        "type": "way",
+        "ref": "1158093921",
+        "role": "from"
+      }
+    },
+    {
+      "restriction": "16029825",
+      "member": {
+        "type": "way",
+        "ref": "1158093922",
+        "role": "to"
+      }
+    },
+    {
+      "restriction": "17362929",
+      "member": {
+        "type": "way",
+        "ref": "32580725",
+        "role": "to"
+      }
+    },
+    {
+      "restriction": "17365376",
+      "member": {
+        "type": "way",
+        "ref": "1264407532",
+        "role": "to"
+      }
+    },
+    {
+      "restriction": "17368266",
+      "member": {
+        "type": "way",
+        "ref": "1176186457",
+        "role": "to"
+      }
+    },
+    {
+      "restriction": "17591633",
+      "member": {
+        "type": "way",
+        "ref": "54224020",
+        "role": "to"
+      }
+    },
+    {
+      "restriction": "18084225",
+      "member": {
+        "type": "way",
+        "ref": "1176186457",
+        "role": "from"
+      }
+    },
+    {
+      "restriction": "18258707",
+      "member": {
+        "type": "way",
+        "ref": "1264407532",
+        "role": "from"
+      }
+    },
+    {
+      "restriction": "19876748",
+      "member": {
+        "type": "way",
+        "ref": "1176186456",
+        "role": "to"
+      }
+    },
+    {
+      "restriction": "19948235",
+      "member": {
+        "type": "way",
+        "ref": "220216399",
+        "role": "to"
+      }
+    },
+    {
+      "restriction": "19948237",
+      "member": {
+        "type": "way",
+        "ref": "190241089",
+        "role": "from"
+      }
+    },
+    {
+      "restriction": "19948238",
+      "member": {
+        "type": "way",
+        "ref": "190241089",
+        "role": "from"
+      }
+    },
+    {
+      "restriction": "21132263",
+      "member": {
+        "type": "way",
+        "ref": "192289481",
+        "role": "to"
+      }
+    }
+  ],
+  "extraction_bbox_contains_display": false,
+  "extraction_bbox_contains_routing_buffer": false
+}

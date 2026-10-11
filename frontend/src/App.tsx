@@ -1,0 +1,128 @@
+import { useCallback, useEffect, useRef, useState } from 'react'
+import { ArrowUpRight, Check, ChevronRight, Database, FileBox, FolderOpen, Layers, MapPin, Navigation, Pause, Play, RefreshCw, RotateCcw, Route as RouteIcon, Server, ShieldCheck, Trash2 } from 'lucide-react'
+import { Button } from '@/components/ui/button'
+import { Badge } from '@/components/ui/badge'
+import { Slider } from '@/components/ui/slider'
+import { SandboxMap } from '@/components/sandbox-map'
+import { api, type Coordinate, type DatasetStatus, type Route } from '@/lib/api'
+import { usePlayback } from '@/lib/use-playback'
+import { positionAt } from '@/lib/playback'
+import './App.css'
+
+const coordinateText = (point: Coordinate | null) => point ? point.map(v => v.toFixed(6)).join(', ') : 'Chưa chọn trên bản đồ'
+const pbfLabels: Record<string, string> = { missing_pbf: 'Chưa có file PBF', present_unverified: 'Đã có file · chưa xác minh', invalid_extension: 'Sai phần mở rộng', unreadable_pbf: 'Không đọc được file', empty_pbf: 'File PBF rỗng' }
+
+export default function App() {
+  const [dataset, setDataset] = useState<DatasetStatus | null>(null)
+  const [connectionError, setConnectionError] = useState('')
+  const [mapError, setMapError] = useState('')
+  const [routeError, setRouteError] = useState('')
+  const [start, setStart] = useState<Coordinate | null>(null)
+  const [end, setEnd] = useState<Coordinate | null>(null)
+  const [route, setRoute] = useState<Route | null>(null)
+  const [routing, setRouting] = useState(false)
+  const [refreshKey, setRefreshKey] = useState(0)
+  const request = useRef<AbortController | null>(null)
+  const playback = usePlayback(route)
+  const ready = !!dataset?.ready && !connectionError && !mapError
+  const mapReady = !!dataset?.artifacts.map_ready
+  const pbfPresent = ['present_unverified', 'present_verified'].includes(dataset?.pbf.state ?? '')
+
+  useEffect(() => {
+    const controller = new AbortController()
+    let timer: ReturnType<typeof setTimeout>
+    async function poll() {
+      try {
+        const data = await api<DatasetStatus>('/api/dataset/status', { signal: controller.signal })
+        if (!controller.signal.aborted) { setDataset(data); setConnectionError('') }
+      } catch {
+        if (!controller.signal.aborted) setConnectionError('Backend chưa kết nối. Khởi động FastAPI trên 127.0.0.1:8000.')
+      } finally { if (!controller.signal.aborted) timer = setTimeout(poll, 10000) }
+    }
+    void poll()
+    return () => { controller.abort(); clearTimeout(timer) }
+  }, [refreshKey])
+
+  const clear = useCallback(() => {
+    request.current?.abort(); setRouting(false); setStart(null); setEnd(null); setRoute(null); setRouteError('')
+  }, [])
+  useEffect(() => { if (!ready) clear() }, [ready, clear])
+  useEffect(() => () => request.current?.abort(), [])
+
+  const select = useCallback((point: Coordinate) => {
+    if (!ready || !dataset) return
+    request.current?.abort(); setRoute(null); setRouteError(''); setRouting(false)
+    const [w, s, e, n] = dataset.region.routing_bbox
+    if (point[0] < w || point[0] > e || point[1] < s || point[1] > n) { setStart(null); setEnd(null); setRouteError('Chọn điểm trong vùng routing đã cấu hình.'); return }
+    if (!start || end) { setStart(point); setEnd(null) } else { setEnd(point) }
+  }, [ready, dataset, start, end])
+
+  useEffect(() => {
+    if (!start || !end || !ready) return
+    const controller = new AbortController(); request.current = controller; setRouting(true)
+    api<Route>('/api/route', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ start, end }), signal: controller.signal })
+      .then(data => { if (!controller.signal.aborted) setRoute(data) })
+      .catch(error => { if (!controller.signal.aborted) setRouteError(error.message) })
+      .finally(() => { if (!controller.signal.aborted) setRouting(false) })
+    return () => controller.abort()
+  }, [start, end, ready])
+
+  const refresh = () => { setMapError(''); setRefreshKey(value => value + 1) }
+  const currentPosition = route ? positionAt(route.coordinates, playback.progress) : null
+  const waitTitle = connectionError ? 'Kết nối backend để bắt đầu' : !dataset ? 'Đang kiểm tra dữ liệu local' : !pbfPresent ? 'Thêm dữ liệu để mở bản đồ' : 'PBF đã có. Chờ chuẩn bị bản đồ.'
+  const waitDescription = connectionError || (!dataset ? 'Đang đọc cấu hình và tình trạng artifact.' : !pbfPresent ? 'Sao chép file Geofabrik đã tải vào đường dẫn bên dưới. Ứng dụng sẽ tự kiểm tra lại.' : 'Chưa có artifact GeoJSON hợp lệ. Chạy pipeline local theo README rồi kiểm tra lại.')
+
+  return <div className="app-shell">
+    <header className="app-header">
+      <div className="brand"><span className="brand-icon"><Navigation size={24} /></span><div><h1>GSM Map Sandbox</h1><span className="brand-subtitle">Không gian nghiên cứu di chuyển</span></div></div>
+      <Badge variant="outline" className="local-badge"><span className="status-dot green" />Local Simulation</Badge>
+      <div className="header-status"><span><span className={mapReady && !connectionError ? 'status-dot green' : 'status-dot amber'} />{mapReady ? 'Bản đồ local' : 'Chờ dữ liệu bản đồ'}</span><span><span className={dataset?.osrm.state === 'connected' && !connectionError ? 'status-dot green' : 'status-dot'} />OSRM {dataset?.osrm.state === 'connected' && !connectionError ? 'kết nối' : 'chưa kết nối'}</span></div>
+    </header>
+    <main className="workspace">
+      <aside className="sidebar" aria-label="Cấu hình mô phỏng">
+        <div className="workspace-label">WORKSPACE <Badge variant="secondary">A1 · Local Routing</Badge></div>
+        <section className="sidebar-section"><div className="section-heading"><Database size={17} /><h2>Dữ liệu bản đồ</h2></div>
+          <div className="source-card"><div className="source-icon"><FileBox size={22} /></div><div><strong>Geofabrik Vietnam</strong><p>OpenStreetMap · nguồn PBF local</p></div><a href="https://download.geofabrik.de/asia/vietnam.html" target="_blank" rel="noreferrer" aria-label="Thông tin nguồn Geofabrik"><ArrowUpRight size={17} /></a></div>
+          <div className="data-state"><span className={pbfPresent ? 'status-dot green' : 'status-dot amber'} /><span>{dataset?.pbf.format_verified ? 'PBF đã xác minh bằng Osmium' : dataset ? pbfLabels[dataset.pbf.state] ?? dataset.pbf.state : 'Đang kiểm tra file PBF…'}</span></div>
+          <div className="data-detail">{dataset?.pbf.size_bytes ? (dataset.pbf.size_bytes / 1024 / 1024).toFixed(1) + (dataset.pbf.format_verified ? ' MiB · nguồn Geofabrik local đã kiểm tra' : ' MiB · định dạng chưa xác minh bằng Osmium') : 'Đọc từ ổ đĩa · không upload qua trình duyệt'}</div>
+          <div className="region-row"><MapPin size={17} /><div><strong>{dataset?.region.name ?? 'Trung tâm TP.HCM · Quận 1 cũ'}</strong><p>Bến Thành · Bưu điện Trung tâm và lân cận</p></div></div>
+          <div className="bbox-row">{(dataset?.region.display_bbox ?? [106.675, 10.750, 106.725, 10.795]).map(v => v.toFixed(3)).join(' / ')}</div>
+          <p className="small-note">Vùng kỹ thuật thử nghiệm, không phải ranh giới hành chính.</p>
+        </section>
+        <section className="sidebar-section"><div className="section-heading"><RouteIcon size={17} /><h2>Thiết lập hành trình</h2><span className="section-number">01</span></div>
+          <p className="section-description">Nhấp trên bản đồ để chọn A, sau đó chọn B.</p>
+          <div className="endpoint"><span className="endpoint-label">A</span><div><label>Điểm xuất phát</label><p>{coordinateText(start)}</p></div></div>
+          <div className="endpoint"><span className="endpoint-label end">B</span><div><label>Điểm đến</label><p>{coordinateText(end)}</p></div></div>
+          <div className="route-metrics"><div><label>Khoảng cách</label><strong>{route ? (route.distance / 1000).toFixed(2) + ' km' : '—'}</strong></div><div><label>Thời gian OSRM</label><strong>{route ? (route.duration / 60).toFixed(1) + ' phút' : '—'}</strong></div></div>
+          <p className="small-note">Ước tính từ profile ô tô, không phải giao thông thời gian thực.</p>
+          {routing && <p role="status" className="small-note">Đang yêu cầu tuyến từ OSRM local…</p>}
+          {routeError && <p role="alert" className="error-text">{routeError}</p>}
+          {route && <p className="small-note">Snap A/B: {route.snap_points.map(point => point.distance.toFixed(1) + ' m').join(' / ')}</p>}
+          {route && <details className="snap-details"><summary>Điểm trên đường đã snap</summary>{route.snap_points.map((point, i) => <p key={i}>{i ? 'B' : 'A'} · {point.name || 'Đường không tên'}<br />{coordinateText(point.location ?? null)}</p>)}</details>}
+          <Button variant="outline" className="clear-button" disabled={!start && !end} onClick={clear}><Trash2 />Xóa điểm A/B và chọn lại</Button>
+        </section>
+        <section className="sidebar-section playback-section"><div className="section-heading"><Play size={17} /><h2>Điều khiển mô phỏng</h2><span className="section-number">02</span></div>
+          <div className="playback-buttons"><Button disabled={!route || playback.playing} onClick={playback.play} className="play-button"><Play size={16} />Play</Button><Button variant="outline" disabled={!route || !playback.playing} onClick={playback.pause}><Pause size={16} />Pause</Button><Button variant="outline" disabled={!route} onClick={playback.reset} aria-label="Reset"><RotateCcw size={16} /></Button></div>
+          <div className="progress-label"><label id="progress-label">Route Progress</label><span>{Math.round(playback.progress * 100)}%</span></div>
+          <Slider aria-labelledby="progress-label" disabled={!route} value={[playback.progress]} onValueChange={value => playback.seek(typeof value === 'number' ? value : value[0])} min={0} max={1} step={0.001} />
+          <div className="speed-row"><span>Tốc độ mô phỏng</span><div>{[1, 2, 4].map(speed => <Button key={speed} size="sm" variant={playback.speed === speed ? 'secondary' : 'ghost'} aria-pressed={playback.speed === speed} disabled={!route} onClick={() => playback.setSpeed(speed)}>{speed}x</Button>)}</div></div>
+          {currentPosition && <p className="small-note">Xe mô phỏng: {coordinateText(currentPosition)}</p>}
+          {route && <p className="playback-time" data-playback-state={playback.progress >= 1 ? 'completed' : playback.playing ? 'playing' : 'paused'}>Đã đi {(playback.progress * route.duration).toFixed(1)} s · còn {((1 - playback.progress) * route.duration).toFixed(1)} s{playback.progress >= 1 ? ' · Hoàn thành' : playback.playing ? ' · Đang chạy' : ' · Tạm dừng'}</p>}
+          {!route && <p className="disabled-note"><ShieldCheck size={14} />Điều khiển mở khi có tuyến OSRM hợp lệ.</p>}
+        </section>
+        <div className="sidebar-footer"><Server size={14} />Local only<span>WGS84 · [lon, lat]</span></div>
+      </aside>
+      <section className="map-workspace" aria-label="Bản đồ TP.HCM">
+        <div className="map-topbar"><div><span className="eyebrow">KHU VỰC NGHIÊN CỨU</span><h2>Trung tâm TP. Hồ Chí Minh</h2></div><Button variant="outline" onClick={refresh}><RefreshCw size={15} />Kiểm tra lại</Button></div>
+        <div className="map-canvas">
+          <SandboxMap key={refreshKey} dataset={dataset} start={start} end={end} route={route} progress={playback.progress} enabled={ready} onSelect={select} onError={setMapError} />
+          <div className="map-chip"><Layers size={15} />{mapReady ? 'GeoJSON local · OSM' : 'Local empty style'}<span className="chip-divider" />{mapReady ? 'Dữ liệu đường phố' : 'Chưa có lớp đường phố'}</div>
+          {(!mapReady || mapError || connectionError) && <div className="waiting-overlay"><div className="waiting-card"><div className="waiting-icon"><FolderOpen size={32} /><span>{pbfPresent ? <Check size={13} /> : <Database size={13} />}</span></div><Badge variant="outline">{pbfPresent ? 'CHỜ ARTIFACT A1' : 'CHỜ DỮ LIỆU LOCAL'}</Badge><h2>{waitTitle}</h2><p>{mapError || waitDescription}</p><div className="file-path"><FolderOpen size={16} /><code>{dataset?.pbf.path ?? 'data/raw/vietnam-latest.osm.pbf'}</code></div><div className="readiness-list"><div className={pbfPresent ? 'done' : ''}><span>{pbfPresent ? <Check size={12} /> : '1'}</span>File PBF local</div><ChevronRight size={13} /><div><span>2</span>GeoJSON bản đồ</div><ChevronRight size={13} /><div><span>3</span>OSRM MLD</div></div><Button variant="outline" onClick={refresh}><RefreshCw size={15} />Kiểm tra dữ liệu</Button><p className="waiting-footnote">Chỉ hiển thị đường phố sau khi xử lý dữ liệu OSM thật.</p></div></div>}
+          <div className="map-bottom-note"><span className={ready ? 'status-dot green' : 'status-dot amber'} />{ready ? start ? end ? 'Nhấp để bắt đầu hành trình mới' : 'Chọn điểm B trên bản đồ' : 'Chọn điểm A trên bản đồ' : 'Chọn A/B đang khóa · dữ liệu hoặc router chưa sẵn sàng'}</div>
+        </div>
+        <footer className="map-footer"><span>© OpenStreetMap contributors · Geofabrik</span><span>Sandbox nghiên cứu · một xe mô phỏng</span></footer>
+      </section>
+    </main>
+  </div>
+}
+

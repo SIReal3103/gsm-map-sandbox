@@ -1,0 +1,413 @@
+{
+  "extract_sha256": "3a939d15ac7b775aba3f5a0324064ceb3d1b19ab0d176f2b10b94448c36afda0",
+  "road_ways": 24779,
+  "oneway_ways": 3430,
+  "restriction_relations": 741,
+  "missing_restriction_members": [],
+  "coverage": {
+    "manual_grid_vertices": [
+      [
+        2,
+        36,
+        8,
+        24,
+        11
+      ],
+      [
+        936,
+        2523,
+        2727,
+        1454,
+        238
+      ],
+      [
+        1246,
+        2686,
+        2956,
+        2420,
+        486
+      ],
+      [
+        903,
+        794,
+        2144,
+        1300,
+        776
+      ],
+      [
+        1730,
+        2325,
+        2200,
+        2854,
+        1101
+      ]
+    ],
+    "new_grid_vertices": [
+      [
+        3137,
+        2320,
+        2589,
+        1853,
+        1688
+      ],
+      [
+        2204,
+        2695,
+        3045,
+        1658,
+        455
+      ],
+      [
+        2310,
+        2686,
+        2956,
+        2420,
+        1344
+      ],
+      [
+        1965,
+        794,
+        2144,
+        1300,
+        1114
+      ],
+      [
+        3026,
+        2325,
+        2200,
+        2854,
+        2936
+      ]
+    ],
+    "roads_in_display_manual": 6666,
+    "roads_in_display_new": 10830,
+    "new_road_ids_absent_manual": 4164
+  },
+  "connectivity": {
+    "samples": [
+      {
+        "query": [
+          106.68333333333334,
+          10.7575
+        ],
+        "location": [
+          106.683358,
+          10.757444
+        ],
+        "snap_meters": 6.770955185
+      },
+      {
+        "query": [
+          106.68333333333334,
+          10.7725
+        ],
+        "location": [
+          106.683369,
+          10.772417
+        ],
+        "snap_meters": 9.989547554
+      },
+      {
+        "query": [
+          106.68333333333334,
+          10.7875
+        ],
+        "location": [
+          106.683234,
+          10.787507
+        ],
+        "snap_meters": 10.855240617
+      },
+      {
+        "query": [
+          106.69999999999999,
+          10.7575
+        ],
+        "location": [
+          106.700041,
+          10.757529
+        ],
+        "snap_meters": 5.51339149
+      },
+      {
+        "query": [
+          106.69999999999999,
+          10.7725
+        ],
+        "location": [
+          106.699844,
+          10.772435
+        ],
+        "snap_meters": 18.5147006
+      },
+      {
+        "query": [
+          106.69999999999999,
+          10.7875
+        ],
+        "location": [
+          106.70014,
+          10.787789
+        ],
+        "snap_meters": 35.445033514
+      },
+      {
+        "query": [
+          106.71666666666667,
+          10.7575
+        ],
+        "location": [
+          106.716593,
+          10.757537
+        ],
+        "snap_meters": 9.069310412
+      },
+      {
+        "query": [
+          106.71666666666667,
+          10.7725
+        ],
+        "location": [
+          106.716529,
+          10.772473
+        ],
+        "snap_meters": 15.385652747
+      },
+      {
+        "query": [
+          106.71666666666667,
+          10.7875
+        ],
+        "location": [
+          106.716669,
+          10.787485
+        ],
+        "snap_meters": 1.673552991
+      }
+    ],
+    "connected_table_entries": 81,
+    "table_entries": 81,
+    "durations": [
+      [
+        0,
+        217.2,
+        383.1,
+        234.9,
+        225.6,
+        342,
+        408.2,
+        380.6,
+        526.8
+      ],
+      [
+        201.6,
+        0,
+        245.7,
+        301.4,
+        247.4,
+        288.4,
+        436.4,
+        424.9,
+        473.2
+      ],
+      [
+        391.9,
+        247.6,
+        0,
+        438.2,
+        328.1,
+        305.4,
+        500.9,
+        461.7,
+        473
+      ],
+      [
+        290.7,
+        378.1,
+        464.7,
+        0,
+        231.8,
+        413.9,
+        261.1,
+        318.7,
+        480.5
+      ],
+      [
+        261.6,
+        265.2,
+        305.1,
+        205.6,
+        0,
+        225.5,
+        260,
+        282.7,
+        338.1
+      ],
+      [
+        396.6,
+        273.4,
+        230.1,
+        382.7,
+        272.6,
+        0,
+        402.5,
+        300.9,
+        306.2
+      ],
+      [
+        451.6,
+        506.7,
+        555.4,
+        285.3,
+        319.5,
+        425.7,
+        0,
+        399.1,
+        492.3
+      ],
+      [
+        381.5,
+        429.2,
+        438.1,
+        311.6,
+        242,
+        225.6,
+        388.7,
+        0,
+        336.3
+      ],
+      [
+        683.9,
+        598.3,
+        579.8,
+        567.3,
+        506,
+        367.3,
+        576,
+        377.8,
+        0
+      ]
+    ]
+  },
+  "smoke_oneway_check": {
+    "annotation_nodes": 56,
+    "directed_edges_checked": 53,
+    "violations": []
+  },
+  "restriction_smoke_tests": [
+    {
+      "relation": 14868148,
+      "restriction": "no_left_turn",
+      "from_way": 604803382,
+      "to_way": 1264683487,
+      "via_node": 1998235325,
+      "prohibited_turn_present": false,
+      "approached_from_way": true,
+      "distance": 582.5,
+      "geometry_points": 42
+    },
+    {
+      "relation": 14868149,
+      "restriction": "no_right_turn",
+      "from_way": 1264683487,
+      "to_way": 604803382,
+      "via_node": 1998235325,
+      "prohibited_turn_present": false,
+      "approached_from_way": true,
+      "distance": 582.5,
+      "geometry_points": 42
+    },
+    {
+      "relation": 14868150,
+      "restriction": "no_left_turn",
+      "from_way": 1264683486,
+      "to_way": 1264683485,
+      "via_node": 1998235253,
+      "prohibited_turn_present": false,
+      "approached_from_way": true,
+      "distance": 675.3,
+      "geometry_points": 54
+    },
+    {
+      "relation": 15053366,
+      "restriction": "no_left_turn",
+      "from_way": 874533293,
+      "to_way": 874533294,
+      "via_node": 6639705119,
+      "prohibited_turn_present": false,
+      "approached_from_way": true,
+      "distance": 1513.2,
+      "geometry_points": 43
+    },
+    {
+      "relation": 15625116,
+      "restriction": "no_left_turn",
+      "from_way": 224445489,
+      "to_way": 35114978,
+      "via_node": 411919798,
+      "prohibited_turn_present": false,
+      "approached_from_way": true,
+      "distance": 481,
+      "geometry_points": 26
+    },
+    {
+      "relation": 17767899,
+      "restriction": "no_left_turn",
+      "from_way": 473190364,
+      "to_way": 1264456463,
+      "via_node": 4673707528,
+      "prohibited_turn_present": false,
+      "approached_from_way": true,
+      "distance": 542.1,
+      "geometry_points": 19
+    },
+    {
+      "relation": 18859671,
+      "restriction": "no_right_turn",
+      "from_way": 724384520,
+      "to_way": 1268582993,
+      "via_node": 411926455,
+      "prohibited_turn_present": false,
+      "approached_from_way": true,
+      "distance": 810.5,
+      "geometry_points": 33
+    },
+    {
+      "relation": 19021416,
+      "restriction": "no_left_turn",
+      "from_way": 1267694077,
+      "to_way": 1328732326,
+      "via_node": 2309294271,
+      "prohibited_turn_present": false,
+      "approached_from_way": true,
+      "distance": 335.8,
+      "geometry_points": 33
+    },
+    {
+      "relation": 19145807,
+      "restriction": "no_left_turn",
+      "from_way": 924988126,
+      "to_way": 1387746899,
+      "via_node": 5740460913,
+      "prohibited_turn_present": false,
+      "approached_from_way": true,
+      "distance": 522.1,
+      "geometry_points": 24
+    },
+    {
+      "relation": 19278690,
+      "restriction": "no_left_turn",
+      "from_way": 719470993,
+      "to_way": 719470992,
+      "via_node": 4594687688,
+      "prohibited_turn_present": false,
+      "approached_from_way": true,
+      "distance": 563,
+      "geometry_points": 23
+    }
+  ],
+  "river_nosegment": {
+    "message": "Could not find a matching segment for coordinate 0",
+    "code": "NoSegment"
+  }
+}

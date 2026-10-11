@@ -1,0 +1,41 @@
+{
+  "durationSeconds": 206.8,
+  "oneX": {
+    "start": {
+      "at": 1791731054733,
+      "progress": 0.04722602514506772
+    },
+    "end": {
+      "at": 1791731056158,
+      "progress": 0.0539150967117988
+    }
+  },
+  "twoX": {
+    "start": {
+      "at": 1791731024596,
+      "progress": 0.8808762088974963
+    },
+    "end": {
+      "at": 1791731026020,
+      "progress": 0.8942543520309593
+    }
+  },
+  "fourX": {
+    "start": {
+      "at": 1791731038368,
+      "progress": 0.006125106382978823
+    },
+    "end": {
+      "at": 1791731039733,
+      "progress": 0.03288139264990317
+    }
+  },
+  "pauseStableProgress": 0.06197405222437117,
+  "seekProgress": 0.5,
+  "seekCoordinate": [
+    106.69974772288703,
+    10.776965844250803
+  ],
+  "resetProgress": 0,
+  "completedProgress": 1
+}
