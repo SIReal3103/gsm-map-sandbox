@@ -1,0 +1,307 @@
+{
+  "checks": [
+    {
+      "sample": "seekAllMoving",
+      "id": "GSM-01",
+      "segment_error_meters": 1.1524534576475105e-10,
+      "progress_error": 0.0
+    },
+    {
+      "sample": "seekAllMoving",
+      "id": "GSM-02",
+      "segment_error_meters": 7.428441832106313e-10,
+      "progress_error": 2.7755575615628914e-17
+    },
+    {
+      "sample": "seekAllMoving",
+      "id": "GSM-03",
+      "segment_error_meters": 1.6483606100780674e-09,
+      "progress_error": 0.0
+    },
+    {
+      "sample": "seekAllMoving",
+      "id": "GSM-04",
+      "segment_error_meters": 5.663553317396696e-10,
+      "progress_error": 0.0
+    },
+    {
+      "sample": "seekAllMoving",
+      "id": "GSM-05",
+      "segment_error_meters": 8.642531695112893e-10,
+      "progress_error": 0.0
+    },
+    {
+      "sample": "seek50",
+      "id": "GSM-01",
+      "segment_error_meters": 0.0,
+      "progress_error": 0
+    },
+    {
+      "sample": "seek50",
+      "id": "GSM-02",
+      "segment_error_meters": 5.883942584190565e-10,
+      "progress_error": 0.0
+    },
+    {
+      "sample": "seek50",
+      "id": "GSM-03",
+      "segment_error_meters": 0.0,
+      "progress_error": 0
+    },
+    {
+      "sample": "seek50",
+      "id": "GSM-04",
+      "segment_error_meters": 1.6482129599240658e-09,
+      "progress_error": 0.0
+    },
+    {
+      "sample": "seek50",
+      "id": "GSM-05",
+      "segment_error_meters": 1.601569653298104e-09,
+      "progress_error": 0.0
+    },
+    {
+      "sample": "stress10After",
+      "id": "GSM-01",
+      "segment_error_meters": 2.38291640748426e-10,
+      "progress_error": 0.0
+    },
+    {
+      "sample": "stress10After",
+      "id": "GSM-02",
+      "segment_error_meters": 2.176239260518103e-10,
+      "progress_error": 0.0
+    },
+    {
+      "sample": "stress10After",
+      "id": "GSM-03",
+      "segment_error_meters": 4.2491958674789994e-11,
+      "progress_error": 0.0
+    },
+    {
+      "sample": "stress10After",
+      "id": "GSM-04",
+      "segment_error_meters": 1.9779253631735636e-09,
+      "progress_error": 0.0
+    },
+    {
+      "sample": "stress10After",
+      "id": "GSM-05",
+      "segment_error_meters": 4.472781921236627e-11,
+      "progress_error": 0.0
+    },
+    {
+      "sample": "stress10After",
+      "id": "GSM-06",
+      "segment_error_meters": 3.537430476515262e-10,
+      "progress_error": 0.0
+    },
+    {
+      "sample": "stress10After",
+      "id": "GSM-07",
+      "segment_error_meters": 9.180941926729269e-10,
+      "progress_error": 0.0
+    },
+    {
+      "sample": "stress10After",
+      "id": "GSM-08",
+      "segment_error_meters": 5.93015108757584e-10,
+      "progress_error": 0.0
+    },
+    {
+      "sample": "stress10After",
+      "id": "GSM-09",
+      "segment_error_meters": 1.8845890768078814e-11,
+      "progress_error": 0.0
+    },
+    {
+      "sample": "stress10After",
+      "id": "GSM-10",
+      "segment_error_meters": 5.5312053674274606e-11,
+      "progress_error": 0.0
+    },
+    {
+      "sample": "stressAfterOptimization",
+      "id": "GSM-01",
+      "segment_error_meters": 1.5296090164261972e-09,
+      "progress_error": 1.1102230246251565e-16
+    },
+    {
+      "sample": "stressAfterOptimization",
+      "id": "GSM-02",
+      "segment_error_meters": 1.2147767986577137e-10,
+      "progress_error": 5.551115123125783e-17
+    },
+    {
+      "sample": "stressAfterOptimization",
+      "id": "GSM-03",
+      "segment_error_meters": 2.8224418067357845e-10,
+      "progress_error": 2.220446049250313e-16
+    },
+    {
+      "sample": "stressAfterOptimization",
+      "id": "GSM-04",
+      "segment_error_meters": 1.882119552584864e-10,
+      "progress_error": 5.551115123125783e-17
+    },
+    {
+      "sample": "stressAfterOptimization",
+      "id": "GSM-05",
+      "segment_error_meters": 1.1406477988753726e-09,
+      "progress_error": 5.551115123125783e-17
+    },
+    {
+      "sample": "stressAfterOptimization",
+      "id": "GSM-06",
+      "segment_error_meters": 4.0181205467723824e-10,
+      "progress_error": 2.220446049250313e-16
+    },
+    {
+      "sample": "stressAfterOptimization",
+      "id": "GSM-07",
+      "segment_error_meters": 7.672898802906116e-10,
+      "progress_error": 1.1102230246251565e-16
+    },
+    {
+      "sample": "stressAfterOptimization",
+      "id": "GSM-08",
+      "segment_error_meters": 1.5571087671837166e-10,
+      "progress_error": 2.7755575615628914e-17
+    },
+    {
+      "sample": "stressAfterOptimization",
+      "id": "GSM-09",
+      "segment_error_meters": 3.6584415042099226e-10,
+      "progress_error": 5.551115123125783e-17
+    },
+    {
+      "sample": "stressAfterOptimization",
+      "id": "GSM-10",
+      "segment_error_meters": 1.5844170663116335e-09,
+      "progress_error": 5.551115123125783e-17
+    },
+    {
+      "sample": "final10",
+      "id": "GSM-01",
+      "segment_error_meters": 1.1524534576475105e-10,
+      "progress_error": 0.0
+    },
+    {
+      "sample": "final10",
+      "id": "GSM-02",
+      "segment_error_meters": 7.428441832106313e-10,
+      "progress_error": 2.7755575615628914e-17
+    },
+    {
+      "sample": "final10",
+      "id": "GSM-03",
+      "segment_error_meters": 1.6483606100780674e-09,
+      "progress_error": 0.0
+    },
+    {
+      "sample": "final10",
+      "id": "GSM-04",
+      "segment_error_meters": 5.663553317396696e-10,
+      "progress_error": 0.0
+    },
+    {
+      "sample": "final10",
+      "id": "GSM-05",
+      "segment_error_meters": 8.642531695112893e-10,
+      "progress_error": 0.0
+    },
+    {
+      "sample": "final10",
+      "id": "GSM-06",
+      "segment_error_meters": 1.4893354364152783e-09,
+      "progress_error": 0.0
+    },
+    {
+      "sample": "final10",
+      "id": "GSM-07",
+      "segment_error_meters": 4.1317437487585764e-10,
+      "progress_error": 0.0
+    },
+    {
+      "sample": "final10",
+      "id": "GSM-08",
+      "segment_error_meters": 6.331473424476938e-11,
+      "progress_error": 0.0
+    },
+    {
+      "sample": "final10",
+      "id": "GSM-09",
+      "segment_error_meters": 2.667378290680855e-10,
+      "progress_error": 0.0
+    },
+    {
+      "sample": "final10",
+      "id": "GSM-10",
+      "segment_error_meters": 1.4359786895272053e-09,
+      "progress_error": 0.0
+    },
+    {
+      "sample": "mobilePlayback",
+      "id": "GSM-01",
+      "segment_error_meters": 3.2906534283313584e-10,
+      "progress_error": 0.0
+    },
+    {
+      "sample": "mobilePlayback",
+      "id": "GSM-02",
+      "segment_error_meters": 4.669435920025496e-10,
+      "progress_error": 0.0
+    },
+    {
+      "sample": "mobilePlayback",
+      "id": "GSM-03",
+      "segment_error_meters": 3.934019544616375e-10,
+      "progress_error": 0.0
+    },
+    {
+      "sample": "mobilePlayback",
+      "id": "GSM-04",
+      "segment_error_meters": 3.1044514430822827e-10,
+      "progress_error": 0.0
+    },
+    {
+      "sample": "mobilePlayback",
+      "id": "GSM-05",
+      "segment_error_meters": 4.231741022467152e-10,
+      "progress_error": 0.0
+    },
+    {
+      "sample": "mobilePlayback",
+      "id": "GSM-06",
+      "segment_error_meters": 5.58383296747678e-10,
+      "progress_error": 0.0
+    },
+    {
+      "sample": "mobilePlayback",
+      "id": "GSM-07",
+      "segment_error_meters": 1.0737903324752565e-10,
+      "progress_error": 0.0
+    },
+    {
+      "sample": "mobilePlayback",
+      "id": "GSM-08",
+      "segment_error_meters": 3.846128389193921e-10,
+      "progress_error": 0.0
+    },
+    {
+      "sample": "mobilePlayback",
+      "id": "GSM-09",
+      "segment_error_meters": 3.2715200593474577e-10,
+      "progress_error": 0.0
+    },
+    {
+      "sample": "mobilePlayback",
+      "id": "GSM-10",
+      "segment_error_meters": 5.822463207042905e-10,
+      "progress_error": 0.0
+    }
+  ],
+  "count": 50,
+  "max_segment_error_meters": 1.9779253631735636e-09,
+  "note": "Independent check of browser DOM telemetry against full, real OSRM polyline. Native marker transforms verified separately in browser QA."
+}

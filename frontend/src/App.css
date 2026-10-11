@@ -93,6 +93,40 @@ button, a { -webkit-tap-highlight-color: transparent; }
 .snap-details { margin-top: 7px; color: #697d70; font-size: 10px; line-height: 1.6; }
 .snap-details summary { cursor: pointer; }
 .snap-details p { margin-top: 6px; font-variant-numeric: tabular-nums; }
+.mode-tabs { display:flex; gap:4px; margin:14px 20px 0; padding:4px; border-radius:9px; background:#eff4f0; }
+.mode-tabs button { flex:1; font-size:12px; padding:9px 4px; border-radius:6px; color:#718178; cursor:pointer; }
+.mode-tabs button[aria-selected="true"] { background:white; color:#087d55; box-shadow:0 1px 5px #0001; font-weight:600; }
+.fleet-inputs { display:grid; grid-template-columns:70px minmax(0,1fr); gap:12px; margin:14px 0; }
+.fleet-inputs label { display:flex; flex-direction:column; gap:5px; font-size:11px; color:#697d70; }
+.fleet-inputs input,.fleet-inputs select { width:100%; min-width:0; border:1px solid #dce6df; border-radius:6px; padding:8px; color:#304c3b; background:white; }
+.fleet-generate { display:flex; gap:6px; margin-top:10px; }
+.fleet-generate button { font-size:10px; padding:0 10px; }
+.simulation-disclaimer { color:#087d55; font-size:11px; font-weight:600; }
+.scenario-summary,.fleet-errors { font-size:10px; color:#698071; line-height:1.8; margin-top:12px; overflow-wrap:anywhere; }
+.fleet-errors { color:#a34e3c; }
+.fleet-panel [role="status"] { font-size:11px; color:#39785c; margin-top:10px; }
+.fleet-overview { display:grid; grid-template-columns:repeat(4,1fr); gap:5px; margin-top:14px; }
+.fleet-overview > div { background:#f4f8f5; padding:9px 4px; border-radius:7px; text-align:center; }
+.fleet-overview span { display:block; font-size:9px; color:#718178; }
+.fleet-overview strong { display:block; font-size:18px; color:#305a42; }
+.vehicle-list { display:flex; flex-direction:column; gap:6px; }
+.vehicle-row { display:flex; border:1px solid #e3ebe5; border-radius:8px; overflow:hidden; }
+.vehicle-row.selected { border-color:#53a17b; background:#f0f9f3; }
+.vehicle-select { display:grid; grid-template-columns:1fr auto; flex:1; padding:10px; text-align:left; gap:4px; cursor:pointer; min-width:0; }
+.vehicle-select strong { font-size:12px; }
+.vehicle-select > span:nth-child(3) { grid-column:1 / -1; font-size:9px; color:#819187; }
+.vehicle-select > span:last-child { font-size:10px; color:#548368; }
+.vehicle-status { font-size:9px; color:#84988b; }
+.vehicle-status.moving { color:#078057; }
+.vehicle-focus { padding:8px; color:#548368; cursor:pointer; }
+.selected-detail { font-size:11px; color:#4a715b; line-height:1.8; font-variant-numeric:tabular-nums; }
+.selected-detail h2 { font-weight:600; margin-bottom:7px; }
+.fleet-marker { display:flex; align-items:center; gap:3px; padding:5px 7px; border:2px solid white; background:#568775; color:white; border-radius:9px; box-shadow:0 2px 8px #0003; cursor:pointer; font-size:10px; font-weight:650; }
+.fleet-marker.selected { background:#087d55; box-shadow:0 0 0 3px #32ae7377,0 2px 8px #0003; }
+.fleet-marker.scheduled { background:#82948a; }
+.fleet-marker.completed { background:#356980; }
+@media (min-width:801px) { .app-shell:has(.fleet-panel) .map-workspace { position:sticky; top:0; height:100vh; } }
+@media (max-width:800px) { .mode-tabs { margin:12px 22px 0; } .fleet-panel .sidebar-section { padding:22px; } }
 @media (min-width: 1600px) { .workspace { grid-template-columns: 365px minmax(0, 1fr); } .map-workspace { padding: 32px; } .waiting-card { width: 500px; } }
 @media (max-width: 1100px) { .header-status { gap: 13px; font-size: 10px; } .app-header { gap: 16px; padding: 16px 22px; } .local-badge { display: none; } .workspace { grid-template-columns: 315px minmax(0, 1fr); } .sidebar-section { padding: 21px; } .map-workspace { padding: 23px 18px 17px; } .waiting-card { padding: 28px 20px 24px; } .waiting-card h2 { font-size: 19px; } .map-chip .chip-divider, .map-chip .chip-divider + span { display: none; } .readiness-list { gap: 5px; } }
 @media (max-width: 800px) { .app-header { flex-wrap: wrap; gap: 12px; } .header-status { margin-left: 0; width: 100%; padding-left: 58px; } .brand h1 { font-size: 18px; } .workspace { display: flex; flex-direction: column; } .sidebar { order: 2; border-right: none; } .map-workspace { order: 1; padding: 20px 14px; } .map-topbar h2 { font-size: 16px; } .map-canvas { min-height: 630px; } .map-topbar { margin-bottom: 15px; } .sidebar-section { padding: 22px; } .map-footer { flex-wrap: wrap; } .waiting-card h2 { font-size: 19px; } .readiness-list > div { font-size: 8px; } }

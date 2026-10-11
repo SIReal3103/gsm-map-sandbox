@@ -1,0 +1,407 @@
+{
+  "/api/health": {
+    "status": "ok",
+    "backend_ready": true,
+    "version": "0.1.0"
+  },
+  "/api/dataset/status": {
+    "state": "ready",
+    "ready": true,
+    "pbf": {
+      "state": "present_verified",
+      "path": "D:\\ThS\\VinAI\\Phase3_VRIC\\gsm-map-sandbox\\data\\raw\\vietnam-latest.osm.pbf",
+      "size_bytes": 330248138,
+      "format_verified": true,
+      "verification": {
+        "path": "D:\\ThS\\VinAI\\Phase3_VRIC\\gsm-map-sandbox\\data\\raw\\vietnam-latest.osm.pbf",
+        "size_bytes": 330248138,
+        "mtime_ns": 1791725198527966700,
+        "sha256": "2fbd2ee6b4dc151eecf04fa6823cddf584b47423e190118b10fce8b6115e9d8a",
+        "format_verified": true,
+        "osmium_image": "iboates/osmium@sha256:a67987f7d822d951ae1979de656ab7bd8051605f79d2751ea4800cc6057124be",
+        "fileinfo": {
+          "file": {
+            "name": "/data/raw/vietnam-latest.osm.pbf",
+            "format": "PBF",
+            "compression": "none",
+            "size": 330248138
+          },
+          "header": {
+            "boxes": [
+              [
+                102.095945,
+                7.382239,
+                114.642323,
+                23.402135
+              ]
+            ],
+            "with_history": false,
+            "option": {
+              "generator": "osmium/1.16.0",
+              "osmosis_replication_base_url": "https://download.geofabrik.de/asia/vietnam-updates",
+              "osmosis_replication_sequence_number": "4934",
+              "osmosis_replication_timestamp": "2026-10-09T20:21:04Z",
+              "pbf_dense_nodes": "true",
+              "pbf_optional_feature_0": "Sort.Type_then_ID",
+              "sorting": "Type_then_ID",
+              "timestamp": "2026-10-09T20:21:04Z"
+            }
+          },
+          "data": {
+            "bbox": [
+              100.6067931,
+              6.2183523,
+              114.6407887,
+              23.5024689
+            ],
+            "timestamp": {
+              "first": "2007-10-16T12:57:06Z",
+              "last": "2026-10-09T19:10:51Z"
+            },
+            "objects_ordered": true,
+            "multiple_versions": false,
+            "crc32": "4758abea",
+            "count": {
+              "changesets": 0,
+              "nodes": 46394305,
+              "ways": 4730057,
+              "relations": 26680
+            },
+            "minid": {
+              "changesets": 0,
+              "nodes": 74099711,
+              "ways": 9566396,
+              "relations": 13422
+            },
+            "maxid": {
+              "changesets": 0,
+              "nodes": 14268541229,
+              "ways": 1566865559,
+              "relations": 21599296
+            },
+            "buffers": {
+              "count": 61388,
+              "size": 3907395912,
+              "capacity": 4026597376
+            },
+            "metadata": {
+              "all_objects": {
+                "version": true,
+                "timestamp": true,
+                "changeset": false,
+                "user": false,
+                "uid": false
+              },
+              "some_objects": {
+                "version": true,
+                "timestamp": true,
+                "changeset": false,
+                "user": false,
+                "uid": false
+              }
+            }
+          }
+        }
+      },
+      "osmium_available": false,
+      "osmium_transport": "docker"
+    },
+    "artifacts": {
+      "map_ready": true,
+      "map_manifest": {
+        "source": "Geofabrik Vietnam / OpenStreetMap",
+        "attribution": "© OpenStreetMap contributors",
+        "extract_sha256": "3a939d15ac7b775aba3f5a0324064ceb3d1b19ab0d176f2b10b94448c36afda0",
+        "display_bbox": [
+          106.675,
+          10.75,
+          106.725,
+          10.795
+        ],
+        "render_bbox": [
+          106.67,
+          10.745,
+          106.72999999999999,
+          10.8
+        ],
+        "osmium_image": "iboates/osmium@sha256:a67987f7d822d951ae1979de656ab7bd8051605f79d2751ea4800cc6057124be",
+        "exported_features": 73701,
+        "duplicate_features_removed": 0,
+        "outside_features_removed": 27467,
+        "layers": {
+          "streets.geojson": {
+            "features": 15281,
+            "size_bytes": 4124871,
+            "sha256": "1b66f9b6876b7f09646f8a5bb893938b993a5556723a21e4c6d2afd5b2f5d2b6"
+          },
+          "water.geojson": {
+            "features": 124,
+            "size_bytes": 229554,
+            "sha256": "f03d16e445b9ccc777b47597ccdb07f43f8ba2bd79708821909ac1452fdc1dcd"
+          },
+          "green.geojson": {
+            "features": 471,
+            "size_bytes": 256391,
+            "sha256": "7374ae3cb563e0c2e98ed95dd01c59b5f01890ce232890a6812efa86598172b0"
+          },
+          "buildings.geojson": {
+            "features": 12785,
+            "size_bytes": 3642002,
+            "sha256": "52b49177126d332bda571243d5e998aee7a6326f4720244d5fc7d7e54a53726e"
+          },
+          "places.geojson": {
+            "features": 93,
+            "size_bytes": 16117,
+            "sha256": "5d0b0bc71eff58ab46854ca3693a7e72f05c48745675714fedfc2019c77d0343"
+          }
+        }
+      },
+      "graph_ready": true,
+      "routing_manifest": {
+        "algorithm": "mld",
+        "profile": "car",
+        "profile_path": "/opt/car.lua",
+        "image": "ghcr.io/project-osrm/osrm-backend:v5.27.1",
+        "image_digest": "ghcr.io/project-osrm/osrm-backend@sha256:855614a38f464b0558a2ad6eaa7cb8c139f39887da9b38b485ce453c6e6e6124",
+        "osrm_version": "v5.27.1",
+        "routing_bbox": [
+          106.66,
+          10.735,
+          106.74,
+          10.81
+        ],
+        "attribution": "© OpenStreetMap contributors",
+        "input_path": "D:\\ThS\\VinAI\\Phase3_VRIC\\gsm-map-sandbox\\data\\routing\\hcm-center.osm.pbf",
+        "extract_path": "D:\\ThS\\VinAI\\Phase3_VRIC\\gsm-map-sandbox\\data\\extracted\\hcm-center.osm.pbf",
+        "extract_sha256": "3a939d15ac7b775aba3f5a0324064ceb3d1b19ab0d176f2b10b94448c36afda0",
+        "input_sha256": "3a939d15ac7b775aba3f5a0324064ceb3d1b19ab0d176f2b10b94448c36afda0",
+        "created_utc": "2026-10-11T14:52:21.992965+00:00",
+        "artifact_sizes": {
+          "hcm-center.osrm.cells": 61952,
+          "hcm-center.osrm.cell_metrics": 4721664,
+          "hcm-center.osrm.cnbg": 542208,
+          "hcm-center.osrm.cnbg_to_ebg": 543232,
+          "hcm-center.osrm.datasource_names": 69632,
+          "hcm-center.osrm.ebg": 2718208,
+          "hcm-center.osrm.ebg_nodes": 798208,
+          "hcm-center.osrm.edges": 803840,
+          "hcm-center.osrm.enw": 740864,
+          "hcm-center.osrm.fileIndex": 1426160,
+          "hcm-center.osrm.geometry": 1951232,
+          "hcm-center.osrm.icd": 284672,
+          "hcm-center.osrm.maneuver_overrides": 5120,
+          "hcm-center.osrm.mldgr": 2880512,
+          "hcm-center.osrm.names": 220672,
+          "hcm-center.osrm.nbg_nodes": 805888,
+          "hcm-center.osrm.partition": 496640,
+          "hcm-center.osrm.properties": 6144,
+          "hcm-center.osrm.ramIndex": 11776,
+          "hcm-center.osrm.restrictions": 4096,
+          "hcm-center.osrm.timestamp": 3584,
+          "hcm-center.osrm.tld": 4096,
+          "hcm-center.osrm.tls": 6144,
+          "hcm-center.osrm.turn_duration_penalties": 229888,
+          "hcm-center.osrm.turn_penalties_index": 1358848,
+          "hcm-center.osrm.turn_weight_penalties": 229888
+        },
+        "profile_sha256": "cb3df0546318665609606b746a1297f3d65ca3c2ff825f8a6f3c57247d86a2d3"
+      },
+      "extracted_ready": true,
+      "graph_built": true
+    },
+    "osrm": {
+      "state": "connected",
+      "url": "http://127.0.0.1:5000"
+    },
+    "region": {
+      "name": "Trung tâm TP.HCM · Quận 1 cũ",
+      "display_bbox": [
+        106.675,
+        10.75,
+        106.725,
+        10.795
+      ],
+      "routing_buffer_degrees": 0.015,
+      "extract_strategy": "smart",
+      "complete_relation_types": "multipolygon,restriction",
+      "source": "Geofabrik Vietnam / OpenStreetMap",
+      "source_url": "https://download.geofabrik.de/asia/vietnam.html",
+      "attribution": "© OpenStreetMap contributors",
+      "boundary_note": "Bounding box kỹ thuật thử nghiệm, không phải ranh giới hành chính.",
+      "routing_bbox": [
+        106.66,
+        10.735,
+        106.74,
+        10.81
+      ]
+    }
+  },
+  "single_route": {
+    "status": 200,
+    "body": {
+      "coordinates": [
+        [
+          106.697775,
+          10.776577
+        ],
+        [
+          106.697553,
+          10.776337
+        ],
+        [
+          106.697075,
+          10.775818
+        ],
+        [
+          106.697601,
+          10.775338
+        ],
+        [
+          106.697801,
+          10.775156
+        ],
+        [
+          106.69815,
+          10.774837
+        ],
+        [
+          106.698343,
+          10.775047
+        ],
+        [
+          106.698579,
+          10.775309
+        ],
+        [
+          106.698609,
+          10.775343
+        ],
+        [
+          106.698955,
+          10.775721
+        ],
+        [
+          106.699046,
+          10.775821
+        ],
+        [
+          106.699108,
+          10.77589
+        ],
+        [
+          106.69953,
+          10.776363
+        ],
+        [
+          106.699818,
+          10.776684
+        ],
+        [
+          106.699923,
+          10.776802
+        ],
+        [
+          106.699968,
+          10.77685
+        ],
+        [
+          106.700261,
+          10.77716
+        ],
+        [
+          106.700449,
+          10.777365
+        ],
+        [
+          106.700967,
+          10.777884
+        ],
+        [
+          106.701035,
+          10.777952
+        ],
+        [
+          106.701082,
+          10.778002
+        ],
+        [
+          106.701298,
+          10.77824
+        ],
+        [
+          106.701738,
+          10.778721
+        ],
+        [
+          106.701753,
+          10.778737
+        ],
+        [
+          106.702179,
+          10.779202
+        ],
+        [
+          106.701679,
+          10.779657
+        ],
+        [
+          106.70106,
+          10.780187
+        ],
+        [
+          106.700532,
+          10.780672
+        ],
+        [
+          106.700454,
+          10.780744
+        ],
+        [
+          106.70016,
+          10.781005
+        ],
+        [
+          106.700121,
+          10.781039
+        ],
+        [
+          106.69974,
+          10.781382
+        ],
+        [
+          106.699636,
+          10.781476
+        ],
+        [
+          106.699837,
+          10.781694
+        ],
+        [
+          106.699947,
+          10.781813
+        ]
+      ],
+      "distance": 1352.9,
+      "duration": 137.0,
+      "snap_points": [
+        {
+          "location": [
+            106.697775,
+            10.776577
+          ],
+          "distance": 1.323614352,
+          "name": "Nguyễn Du"
+        },
+        {
+          "location": [
+            106.699947,
+            10.781813
+          ],
+          "distance": 8.799488216,
+          "name": "Lê Duẩn"
+        }
+      ],
+      "duration_source": "OSRM car profile estimate; not live traffic"
+    }
+  }
+}

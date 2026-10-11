@@ -1,0 +1,17 @@
+[
+  {
+    "sha256": "2FBD2EE6B4DC151EECF04FA6823CDDF584B47423E190118B10FCE8B6115E9D8A",
+    "path": "data/raw/vietnam-latest.osm.pbf",
+    "bytes": 330248138
+  },
+  {
+    "sha256": "48B3FD8935B55F65D1A7E4296016A62C36D704B77EE1329F2BA0BEB4F978D3DC",
+    "path": "data/processed/hcm-q1.osm.pbf",
+    "bytes": 1321521
+  },
+  {
+    "sha256": "3A939D15AC7B775ABA3F5A0324064CEB3D1B19AB0D176F2B10B94448C36AFDA0",
+    "path": "data/extracted/hcm-center.osm.pbf",
+    "bytes": 3290221
+  }
+]

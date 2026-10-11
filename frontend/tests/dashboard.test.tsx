@@ -96,4 +96,43 @@ describe('A0 data waiting UI', () => {
     expect(screen.getByRole('button', { name: 'Play' })).toBeDisabled()
     expect(screen.queryByRole('status')).not.toBeInTheDocument()
   })
+  it('fleet controls prepare routes, select vehicles, and switching mode clears fleet', async () => {
+    const catalog = { candidates: Array.from({ length: 5 }, (_, i) => ({ id: `test-${i}`, osm_id: `test-${i}`, name: 'explicit fixture', coordinate: [106.69 + i*.001, 10.77] })), datasetFingerprint: 'ui-fixture', routingSource: 'fixture', provenance: { display_bbox: [106.675, 10.75, 106.725, 10.795] } }
+    const fixtureRoute = { coordinates: [[106.69, 10.77], [106.70, 10.78]], duration: 100, distance: 1200, snap_points: [{ location: [106.69, 10.77], distance: 0 }, { location: [106.70, 10.78], distance: 0 }] }
+    vi.stubGlobal('fetch', vi.fn().mockImplementation(async url => ({ ok: true, json: async () => url === '/api/route' ? fixtureRoute : url === '/api/fleet/candidates' ? catalog : { ...missing, ready: true, artifacts: { map_ready: true, graph_ready: true } } })))
+    render(<App />)
+    await waitFor(() => expect(screen.getByRole('button', { name: 'Fixture A' })).toBeEnabled())
+    fireEvent.click(screen.getByRole('tab', { name: 'Fleet Simulation' }))
+    expect(screen.getByRole('button', { name: 'Play' })).toBeDisabled()
+    fireEvent.click(screen.getByRole('button', { name: 'Generate Scenario' }))
+    expect(await screen.findByRole('status')).toHaveTextContent('Đang chuẩn bị routes')
+    await waitFor(() => expect(screen.getByRole('button', { name: 'Play' })).toBeEnabled())
+    expect(document.querySelectorAll('[data-vehicle-row]')).toHaveLength(5)
+    fireEvent.click(screen.getByRole('button', { name: 'Chọn GSM-03' }))
+    expect(screen.getByRole('button', { name: 'Chọn GSM-03' })).toHaveAttribute('aria-pressed', 'true')
+    fireEvent.click(screen.getByRole('button', { name: 'Focus GSM-03' }))
+    fireEvent.click(screen.getByRole('button', { name: '4x' }))
+    fireEvent.click(screen.getByRole('button', { name: 'Play' }))
+    fireEvent.click(screen.getByRole('button', { name: 'Pause' }))
+    fireEvent.click(screen.getByRole('button', { name: 'Reset fleet' }))
+    expect(document.querySelector('.fleet-panel')).toHaveAttribute('data-simulation-time', '0')
+    fireEvent.click(screen.getByRole('tab', { name: 'Single Trip' }))
+    expect(document.querySelectorAll('[data-vehicle-row]')).toHaveLength(0)
+    expect(screen.getByRole('button', { name: 'Play' })).toBeDisabled()
+  })
+  it('switching mode while fleet is loading aborts the candidate request', async () => {
+    let candidateSignal: AbortSignal | undefined
+    vi.stubGlobal('fetch', vi.fn().mockImplementation((url, options) => {
+      if (url === '/api/fleet/candidates') { candidateSignal = options.signal; return new Promise(() => {}) }
+      return Promise.resolve({ ok: true, json: async () => ({ ...missing, ready: true, artifacts: { map_ready: true, graph_ready: true } }) })
+    }))
+    render(<App />)
+    await waitFor(() => expect(screen.getByRole('button', { name: 'Fixture A' })).toBeEnabled())
+    fireEvent.click(screen.getByRole('tab', { name: 'Fleet Simulation' }))
+    fireEvent.click(screen.getByRole('button', { name: 'Generate Scenario' }))
+    await waitFor(() => expect(candidateSignal).toBeDefined())
+    fireEvent.click(screen.getByRole('tab', { name: 'Single Trip' }))
+    expect(candidateSignal?.aborted).toBe(true)
+    expect(screen.queryByRole('status')).not.toBeInTheDocument()
+  })
 })

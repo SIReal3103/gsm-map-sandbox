@@ -1,0 +1,4992 @@
+{
+  "initial5": {
+    "wall": 1791735698088,
+    "canvases": 1,
+    "markers": [
+      {
+        "coordinate": [
+          106.695208,
+          10.76798
+        ],
+        "id": "GSM-01",
+        "progress": 0,
+        "status": "moving",
+        "transform": "transform: translate(-50%, -50%) translate(484px, 507px) rotateX(0deg) rotateZ(0deg); opacity: 1;"
+      },
+      {
+        "coordinate": [
+          106.714276,
+          10.779433
+        ],
+        "id": "GSM-02",
+        "progress": 0,
+        "status": "scheduled",
+        "transform": "transform: translate(-50%, -50%) translate(761px, 338px) rotateX(0deg) rotateZ(0deg); opacity: 1;"
+      },
+      {
+        "coordinate": [
+          106.686326,
+          10.767599
+        ],
+        "id": "GSM-03",
+        "progress": 0,
+        "status": "scheduled",
+        "transform": "transform: translate(-50%, -50%) translate(356px, 513px) rotateX(0deg) rotateZ(0deg); opacity: 1;"
+      },
+      {
+        "coordinate": [
+          106.693367,
+          10.783497
+        ],
+        "id": "GSM-04",
+        "progress": 0,
+        "status": "scheduled",
+        "transform": "transform: translate(-50%, -50%) translate(458px, 278px) rotateX(0deg) rotateZ(0deg); opacity: 1;"
+      },
+      {
+        "coordinate": [
+          106.71324,
+          10.777934
+        ],
+        "id": "GSM-05",
+        "progress": 0,
+        "status": "scheduled",
+        "transform": "transform: translate(-50%, -50%) translate(746px, 361px) rotateX(0deg) rotateZ(0deg); opacity: 1;"
+      }
+    ],
+    "state": "paused",
+    "summary": "Đã tạo 5/5 xe · 1.04 s5 route requests · 0 cache hitsSeed: hcm-fleet-2026Provenance scenarioFingerprint: 9193a3a34bd10f14a21da7121552503971f85419d7241aeb71bc7193eaac3341OSRM local / car / MLD · car · snap ≤ 100 m",
+    "time": 0
+  },
+  "seek20": {
+    "wall": 1791735726563,
+    "canvases": 1,
+    "markers": [
+      {
+        "coordinate": [
+          106.69026193305744,
+          10.762245220959612
+        ],
+        "id": "GSM-01",
+        "progress": 0.6444616576297444,
+        "status": "moving",
+        "transform": "transform: translate(-50%, -50%) translate(413px, 592px) rotateX(0deg) rotateZ(0deg); opacity: 1;"
+      },
+      {
+        "coordinate": [
+          106.71018794848568,
+          10.779569065694238
+        ],
+        "id": "GSM-02",
+        "progress": 0.1859114015976761,
+        "status": "moving",
+        "transform": "transform: translate(-50%, -50%) translate(701px, 336px) rotateX(0deg) rotateZ(0deg); opacity: 1;"
+      },
+      {
+        "coordinate": [
+          106.68725473509252,
+          10.771286382136388
+        ],
+        "id": "GSM-03",
+        "progress": 0.6666666666666667,
+        "status": "moving",
+        "transform": "transform: translate(-50%, -50%) translate(369px, 459px) rotateX(0deg) rotateZ(0deg); opacity: 1;"
+      },
+      {
+        "coordinate": [
+          106.69533569044827,
+          10.783194762557438
+        ],
+        "id": "GSM-04",
+        "progress": 0.24391963341557985,
+        "status": "moving",
+        "transform": "transform: translate(-50%, -50%) translate(486px, 283px) rotateX(0deg) rotateZ(0deg); opacity: 1;"
+      },
+      {
+        "coordinate": [
+          106.70808041526683,
+          10.780733000905272
+        ],
+        "id": "GSM-05",
+        "progress": 0.13329862015100236,
+        "status": "moving",
+        "transform": "transform: translate(-50%, -50%) translate(671px, 319px) rotateX(0deg) rotateZ(0deg); opacity: 1;"
+      }
+    ],
+    "state": "paused",
+    "summary": "Đã tạo 5/5 xe · 1.04 s5 route requests · 0 cache hitsSeed: hcm-fleet-2026Provenance scenarioFingerprint: 9193a3a34bd10f14a21da7121552503971f85419d7241aeb71bc7193eaac3341OSRM local / car / MLD · car · snap ≤ 100 m",
+    "time": 83.2
+  },
+  "playStart": {
+    "wall": 1791735727326,
+    "canvases": 1,
+    "markers": [
+      {
+        "coordinate": [
+          106.6902236825556,
+          10.762201273574512
+        ],
+        "id": "GSM-01",
+        "progress": 0.6492811773826133,
+        "status": "moving",
+        "transform": "transform: translate(-50%, -50%) translate(412px, 593px) rotateX(0deg) rotateZ(0deg); opacity: 1;"
+      },
+      {
+        "coordinate": [
+          106.71013133600763,
+          10.779599791001395
+        ],
+        "id": "GSM-02",
+        "progress": 0.18817066085728165,
+        "status": "moving",
+        "transform": "transform: translate(-50%, -50%) translate(701px, 336px) rotateX(0deg) rotateZ(0deg); opacity: 1;"
+      },
+      {
+        "coordinate": [
+          106.68730884123444,
+          10.771345428979174
+        ],
+        "id": "GSM-03",
+        "progress": 0.6758436578185157,
+        "status": "moving",
+        "transform": "transform: translate(-50%, -50%) translate(370px, 458px) rotateX(0deg) rotateZ(0deg); opacity: 1;"
+      },
+      {
+        "coordinate": [
+          106.69538543430484,
+          10.783149954525395
+        ],
+        "id": "GSM-04",
+        "progress": 0.2461127952065399,
+        "status": "moving",
+        "transform": "transform: translate(-50%, -50%) translate(487px, 284px) rotateX(0deg) rotateZ(0deg); opacity: 1;"
+      },
+      {
+        "coordinate": [
+          106.708020582196,
+          10.780771695346306
+        ],
+        "id": "GSM-05",
+        "progress": 0.13491851080472628,
+        "status": "moving",
+        "transform": "transform: translate(-50%, -50%) translate(670px, 319px) rotateX(0deg) rotateZ(0deg); opacity: 1;"
+      }
+    ],
+    "state": "playing",
+    "summary": "Đã tạo 5/5 xe · 1.04 s5 route requests · 0 cache hitsSeed: hcm-fleet-2026Provenance scenarioFingerprint: 9193a3a34bd10f14a21da7121552503971f85419d7241aeb71bc7193eaac3341OSRM local / car / MLD · car · snap ≤ 100 m",
+    "time": 83.82220000009536
+  },
+  "single": {
+    "marker": "<div class=\"vehicle-marker\" data-progress=\"0.5\" data-coordinate=\"[106.70062030972531,10.777536640439054]\" title=\"Một xe GSM mô phỏng trên tuyến OSRM\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"21\" height=\"21\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-car\" aria-hidden=\"true\"><path d=\"M19 17h2c.6 0 1-.4 1-1v-3c0-.9-.7-1.7-1.5-1.9C18.7 10.6 16 10 16 10s-1.3-1.4-2.2-2.3c-.5-.4-1.1-.7-1.8-.7H5c-.6 0-1.1.4-1.4.9l-1.4 2.9A3.7 3.7 0 0 0 2 12v4c0 .6.4 1 1 1h2\"></path><circle cx=\"7\" cy=\"17\" r=\"2\"></circle><path d=\"M9 17h6\"></path><circle cx=\"17\" cy=\"17\" r=\"2\"></circle></svg></div>",
+    "time": "Đã đi 68.5 s · còn 68.5 s · Tạm dừng",
+    "vehicleCount": 1
+  },
+  "seekAllMoving": {
+    "wall": 1791735878874,
+    "canvases": 1,
+    "markers": [
+      {
+        "coordinate": [
+          106.69026193305744,
+          10.762245220959612
+        ],
+        "id": "GSM-01",
+        "progress": 0.6444616576297444,
+        "status": "moving",
+        "transform": "transform: translate(-50%, -50%) translate(269px, 760px) rotateX(0deg) rotateZ(0deg); opacity: 1;"
+      },
+      {
+        "coordinate": [
+          106.71018794848568,
+          10.779569065694238
+        ],
+        "id": "GSM-02",
+        "progress": 0.1859114015976761,
+        "status": "moving",
+        "transform": "transform: translate(-50%, -50%) translate(836px, 258px) rotateX(0deg) rotateZ(0deg); opacity: 1;"
+      },
+      {
+        "coordinate": [
+          106.68725473509252,
+          10.771286382136388
+        ],
+        "id": "GSM-03",
+        "progress": 0.6666666666666667,
+        "status": "moving",
+        "transform": "transform: translate(-50%, -50%) translate(183px, 498px) rotateX(0deg) rotateZ(0deg); opacity: 1;"
+      },
+      {
+        "coordinate": [
+          106.69533569044827,
+          10.783194762557438
+        ],
+        "id": "GSM-04",
+        "progress": 0.24391963341557985,
+        "status": "moving",
+        "transform": "transform: translate(-50%, -50%) translate(413px, 153px) rotateX(0deg) rotateZ(0deg); opacity: 1;"
+      },
+      {
+        "coordinate": [
+          106.70808041526683,
+          10.780733000905272
+        ],
+        "id": "GSM-05",
+        "progress": 0.13329862015100236,
+        "status": "moving",
+        "transform": "transform: translate(-50%, -50%) translate(776px, 224px) rotateX(0deg) rotateZ(0deg); opacity: 1;"
+      }
+    ],
+    "metrics": {
+      "frameSamples": 0,
+      "maxFrameMilliseconds": 0,
+      "meanFrameMilliseconds": 0
+    },
+    "state": "paused",
+    "summary": "Đã tạo 5/5 xe · 3.46 s5 route requests · 0 cache hitsSeed: hcm-fleet-2026Provenance scenarioFingerprint: 9193a3a34bd10f14a21da7121552503971f85419d7241aeb71bc7193eaac3341OSRM local / car / MLD · car · snap ≤ 100 m",
+    "time": 83.2
+  },
+  "speedMeasurements": [
+    {
+      "speed": 1,
+      "before": {
+        "wall": 1791735879520,
+        "canvases": 1,
+        "markers": [
+          {
+            "coordinate": [
+              106.6902472340941,
+              10.762228332788968
+            ],
+            "id": "GSM-01",
+            "progress": 0.6463137103019068,
+            "status": "moving",
+            "transform": "transform: translate(-50%, -50%) translate(268px, 760px) rotateX(0deg) rotateZ(0deg); opacity: 1;"
+          },
+          {
+            "coordinate": [
+              106.71016619335307,
+              10.77958087286386
+            ],
+            "id": "GSM-02",
+            "progress": 0.1867795933187225,
+            "status": "moving",
+            "transform": "transform: translate(-50%, -50%) translate(835px, 258px) rotateX(0deg) rotateZ(0deg); opacity: 1;"
+          },
+          {
+            "coordinate": [
+              106.68727581568452,
+              10.77130881568453
+            ],
+            "id": "GSM-03",
+            "progress": 0.6701932153388815,
+            "status": "moving",
+            "transform": "transform: translate(-50%, -50%) translate(184px, 497px) rotateX(0deg) rotateZ(0deg); opacity: 1;"
+          },
+          {
+            "coordinate": [
+              106.69535480609616,
+              10.783177543656029
+            ],
+            "id": "GSM-04",
+            "progress": 0.24476242509684937,
+            "status": "moving",
+            "transform": "transform: translate(-50%, -50%) translate(414px, 154px) rotateX(0deg) rotateZ(0deg); opacity: 1;"
+          },
+          {
+            "coordinate": [
+              106.70805742251976,
+              10.780747870466264
+            ],
+            "id": "GSM-05",
+            "progress": 0.13392111429309075,
+            "status": "moving",
+            "transform": "transform: translate(-50%, -50%) translate(775px, 224px) rotateX(0deg) rotateZ(0deg); opacity: 1;"
+          }
+        ],
+        "metrics": {
+          "frameSamples": 7,
+          "maxFrameMilliseconds": 50.19999999999709,
+          "meanFrameMilliseconds": 34.15714285373646
+        },
+        "state": "playing",
+        "summary": "Đã tạo 5/5 xe · 3.46 s5 route requests · 0 cache hitsSeed: hcm-fleet-2026Provenance scenarioFingerprint: 9193a3a34bd10f14a21da7121552503971f85419d7241aeb71bc7193eaac3341OSRM local / car / MLD · car · snap ≤ 100 m",
+        "time": 83.43909999997616
+      },
+      "after": {
+        "wall": 1791735881652,
+        "canvases": 1,
+        "markers": [
+          {
+            "coordinate": [
+              106.69011494965577,
+              10.762076591047574
+            ],
+            "id": "GSM-01",
+            "progress": 0.6629659178929215,
+            "status": "moving",
+            "transform": "transform: translate(-50%, -50%) translate(265px, 765px) rotateX(0deg) rotateZ(0deg); opacity: 1;"
+          },
+          {
+            "coordinate": [
+              106.70997058823382,
+              10.779687033688862
+            ],
+            "id": "GSM-02",
+            "progress": 0.1945856935365874,
+            "status": "moving",
+            "transform": "transform: translate(-50%, -50%) translate(830px, 255px) rotateX(0deg) rotateZ(0deg); opacity: 1;"
+          },
+          {
+            "coordinate": [
+              106.68746552246309,
+              10.77151033400243
+            ],
+            "id": "GSM-03",
+            "progress": 0.7019011799406514,
+            "status": "moving",
+            "transform": "transform: translate(-50%, -50%) translate(189px, 491px) rotateX(0deg) rotateZ(0deg); opacity: 1;"
+          },
+          {
+            "coordinate": [
+              106.69552667903544,
+              10.78302272477582
+            ],
+            "id": "GSM-04",
+            "progress": 0.25234014804362415,
+            "status": "moving",
+            "transform": "transform: translate(-50%, -50%) translate(419px, 158px) rotateX(0deg) rotateZ(0deg); opacity: 1;"
+          },
+          {
+            "coordinate": [
+              106.7078546070796,
+              10.780887143122506
+            ],
+            "id": "GSM-05",
+            "progress": 0.13951809424622796,
+            "status": "moving",
+            "transform": "transform: translate(-50%, -50%) translate(769px, 220px) rotateX(0deg) rotateZ(0deg); opacity: 1;"
+          }
+        ],
+        "metrics": {
+          "frameSamples": 54,
+          "maxFrameMilliseconds": 66.69999999999709,
+          "meanFrameMilliseconds": 44.23888888844737
+        },
+        "state": "playing",
+        "summary": "Đã tạo 5/5 xe · 3.46 s5 route requests · 0 cache hitsSeed: hcm-fleet-2026Provenance scenarioFingerprint: 9193a3a34bd10f14a21da7121552503971f85419d7241aeb71bc7193eaac3341OSRM local / car / MLD · car · snap ≤ 100 m",
+        "time": 85.58889999997616
+      },
+      "measuredMultiplier": 1.0083489681050652
+    },
+    {
+      "speed": 2,
+      "before": {
+        "wall": 1791735883304,
+        "canvases": 1,
+        "markers": [
+          {
+            "coordinate": [
+              106.69002952572563,
+              10.761978853758176
+            ],
+            "id": "GSM-01",
+            "progress": 0.6737033307509861,
+            "status": "moving",
+            "transform": "transform: translate(-50%, -50%) translate(262px, 768px) rotateX(0deg) rotateZ(0deg); opacity: 1;"
+          },
+          {
+            "coordinate": [
+              106.70984446123768,
+              10.77975548663128
+            ],
+            "id": "GSM-02",
+            "progress": 0.19961909949147535,
+            "status": "moving",
+            "transform": "transform: translate(-50%, -50%) translate(826px, 253px) rotateX(0deg) rotateZ(0deg); opacity: 1;"
+          },
+          {
+            "coordinate": [
+              106.6875882582476,
+              10.771639920662226
+            ],
+            "id": "GSM-03",
+            "progress": 0.7223466076689131,
+            "status": "moving",
+            "transform": "transform: translate(-50%, -50%) translate(193px, 488px) rotateX(0deg) rotateZ(0deg); opacity: 1;"
+          },
+          {
+            "coordinate": [
+              106.69563680971918,
+              10.782922162466727
+            ],
+            "id": "GSM-04",
+            "progress": 0.25722629538227815,
+            "status": "moving",
+            "transform": "transform: translate(-50%, -50%) translate(422px, 161px) rotateX(0deg) rotateZ(0deg); opacity: 1;"
+          },
+          {
+            "coordinate": [
+              106.70772908519864,
+              10.780983897945909
+            ],
+            "id": "GSM-05",
+            "progress": 0.14312705024720723,
+            "status": "moving",
+            "transform": "transform: translate(-50%, -50%) translate(766px, 217px) rotateX(0deg) rotateZ(0deg); opacity: 1;"
+          }
+        ],
+        "metrics": {
+          "frameSamples": 7,
+          "maxFrameMilliseconds": 66.60000000000582,
+          "meanFrameMilliseconds": 34.6142857108789
+        },
+        "state": "playing",
+        "summary": "Đã tạo 5/5 xe · 3.46 s5 route requests · 0 cache hitsSeed: hcm-fleet-2026Provenance scenarioFingerprint: 9193a3a34bd10f14a21da7121552503971f85419d7241aeb71bc7193eaac3341OSRM local / car / MLD · car · snap ≤ 100 m",
+        "time": 86.9750999999523
+      },
+      "after": {
+        "wall": 1791735885421,
+        "canvases": 1,
+        "markers": [
+          {
+            "coordinate": [
+              106.6897699135002,
+              10.761683396492542
+            ],
+            "id": "GSM-01",
+            "progress": 0.7062362509678722,
+            "status": "moving",
+            "transform": "transform: translate(-50%, -50%) translate(255px, 776px) rotateX(0deg) rotateZ(0deg); opacity: 1;"
+          },
+          {
+            "coordinate": [
+              106.709462313363,
+              10.779962889861816
+            ],
+            "id": "GSM-02",
+            "progress": 0.21486964415378468,
+            "status": "moving",
+            "transform": "transform: translate(-50%, -50%) translate(815px, 247px) rotateX(0deg) rotateZ(0deg); opacity: 1;"
+          },
+          {
+            "coordinate": [
+              106.68795401025224,
+              10.77203811127744
+            ],
+            "id": "GSM-03",
+            "progress": 0.7842935103237801,
+            "status": "moving",
+            "transform": "transform: translate(-50%, -50%) translate(203px, 476px) rotateX(0deg) rotateZ(0deg); opacity: 1;"
+          },
+          {
+            "coordinate": [
+              106.69556189732442,
+              10.782509950619684
+            ],
+            "id": "GSM-04",
+            "progress": 0.2720306661965185,
+            "status": "moving",
+            "transform": "transform: translate(-50%, -50%) translate(420px, 173px) rotateX(0deg) rotateZ(0deg); opacity: 1;"
+          },
+          {
+            "coordinate": [
+              106.70736952920475,
+              10.781301302956962
+            ],
+            "id": "GSM-05",
+            "progress": 0.15406170268146913,
+            "status": "moving",
+            "transform": "transform: translate(-50%, -50%) translate(755px, 208px) rotateX(0deg) rotateZ(0deg); opacity: 1;"
+          }
+        ],
+        "metrics": {
+          "frameSamples": 66,
+          "maxFrameMilliseconds": 66.69999999999709,
+          "meanFrameMilliseconds": 35.48939393903261
+        },
+        "state": "playing",
+        "summary": "Đã tạo 5/5 xe · 3.46 s5 route requests · 0 cache hitsSeed: hcm-fleet-2026Provenance scenarioFingerprint: 9193a3a34bd10f14a21da7121552503971f85419d7241aeb71bc7193eaac3341OSRM local / car / MLD · car · snap ≤ 100 m",
+        "time": 91.1750999999523
+      },
+      "measuredMultiplier": 1.9839395370807693
+    },
+    {
+      "speed": 4,
+      "before": {
+        "wall": 1791735886934,
+        "canvases": 1,
+        "markers": [
+          {
+            "coordinate": [
+              106.68960896512692,
+              10.761501829525818
+            ],
+            "id": "GSM-01",
+            "progress": 0.7263044151820297,
+            "status": "moving",
+            "transform": "transform: translate(-50%, -50%) translate(250px, 781px) rotateX(0deg) rotateZ(0deg); opacity: 1;"
+          },
+          {
+            "coordinate": [
+              106.70922658271688,
+              10.780090828026024
+            ],
+            "id": "GSM-02",
+            "progress": 0.2242770515613654,
+            "status": "moving",
+            "transform": "transform: translate(-50%, -50%) translate(808px, 243px) rotateX(0deg) rotateZ(0deg); opacity: 1;"
+          },
+          {
+            "coordinate": [
+              106.68817974863605,
+              10.772283574943602
+            ],
+            "id": "GSM-03",
+            "progress": 0.8225058997050152,
+            "status": "moving",
+            "transform": "transform: translate(-50%, -50%) translate(209px, 469px) rotateX(0deg) rotateZ(0deg); opacity: 1;"
+          },
+          {
+            "coordinate": [
+              106.69562080277043,
+              10.782287476244008
+            ],
+            "id": "GSM-04",
+            "progress": 0.28116284807895675,
+            "status": "moving",
+            "transform": "transform: translate(-50%, -50%) translate(421px, 179px) rotateX(0deg) rotateZ(0deg); opacity: 1;"
+          },
+          {
+            "coordinate": [
+              106.70715206211104,
+              10.78150185887936
+            ],
+            "id": "GSM-05",
+            "progress": 0.1608068211403281,
+            "status": "moving",
+            "transform": "transform: translate(-50%, -50%) translate(749px, 202px) rotateX(0deg) rotateZ(0deg); opacity: 1;"
+          }
+        ],
+        "metrics": {
+          "frameSamples": 7,
+          "maxFrameMilliseconds": 66.5,
+          "meanFrameMilliseconds": 34.014285714286544
+        },
+        "state": "playing",
+        "summary": "Đã tạo 5/5 xe · 3.46 s5 route requests · 0 cache hitsSeed: hcm-fleet-2026Provenance scenarioFingerprint: 9193a3a34bd10f14a21da7121552503971f85419d7241aeb71bc7193eaac3341OSRM local / car / MLD · car · snap ≤ 100 m",
+        "time": 93.76590000000004
+      },
+      "after": {
+        "wall": 1791735889048,
+        "canvases": 1,
+        "markers": [
+          {
+            "coordinate": [
+              106.68908668585722,
+              10.760913575208324
+            ],
+            "id": "GSM-01",
+            "progress": 0.7913671572424478,
+            "status": "moving",
+            "transform": "transform: translate(-50%, -50%) translate(235px, 798px) rotateX(0deg) rotateZ(0deg); opacity: 1;"
+          },
+          {
+            "coordinate": [
+              106.70846302413432,
+              10.78050683745618
+            ],
+            "id": "GSM-02",
+            "progress": 0.2547766884531591,
+            "status": "moving",
+            "transform": "transform: translate(-50%, -50%) translate(787px, 231px) rotateX(0deg) rotateZ(0deg); opacity: 1;"
+          },
+          {
+            "coordinate": [
+              106.68892136699203,
+              10.773070531123192
+            ],
+            "id": "GSM-03",
+            "progress": 0.9463938053097348,
+            "status": "moving",
+            "transform": "transform: translate(-50%, -50%) translate(231px, 446px) rotateX(0deg) rotateZ(0deg); opacity: 1;"
+          },
+          {
+            "coordinate": [
+              106.69499576518017,
+              10.781636273590282
+            ],
+            "id": "GSM-04",
+            "progress": 0.31077017976735993,
+            "status": "moving",
+            "transform": "transform: translate(-50%, -50%) translate(403px, 198px) rotateX(0deg) rotateZ(0deg); opacity: 1;"
+          },
+          {
+            "coordinate": [
+              106.70644701478962,
+              10.782152078705566
+            ],
+            "id": "GSM-05",
+            "progress": 0.18267508461338192,
+            "status": "moving",
+            "transform": "transform: translate(-50%, -50%) translate(729px, 183px) rotateX(0deg) rotateZ(0deg); opacity: 1;"
+          }
+        ],
+        "metrics": {
+          "frameSamples": 62,
+          "maxFrameMilliseconds": 66.69999999999709,
+          "meanFrameMilliseconds": 37.70967741935484
+        },
+        "state": "playing",
+        "summary": "Đã tạo 5/5 xe · 3.46 s5 route requests · 0 cache hitsSeed: hcm-fleet-2026Provenance scenarioFingerprint: 9193a3a34bd10f14a21da7121552503971f85419d7241aeb71bc7193eaac3341OSRM local / car / MLD · car · snap ≤ 100 m",
+        "time": 102.1655
+      },
+      "measuredMultiplier": 3.9733207190160598
+    }
+  ],
+  "pauseBefore": {
+    "wall": 1791735889827,
+    "canvases": 1,
+    "markers": [
+      {
+        "coordinate": [
+          106.68898267254669,
+          10.760796489089802
+        ],
+        "id": "GSM-01",
+        "progress": 0.8043214562362152,
+        "status": "moving",
+        "transform": "transform: translate(-50%, -50%) translate(232px, 802px) rotateX(0deg) rotateZ(0deg); opacity: 1;"
+      },
+      {
+        "coordinate": [
+          106.70831264485948,
+          10.780592516948154
+        ],
+        "id": "GSM-02",
+        "progress": 0.2608493100947545,
+        "status": "moving",
+        "transform": "transform: translate(-50%, -50%) translate(782px, 228px) rotateX(0deg) rotateZ(0deg); opacity: 1;"
+      },
+      {
+        "coordinate": [
+          106.68906706434863,
+          10.773229037038616
+        ],
+        "id": "GSM-03",
+        "progress": 0.971060471977808,
+        "status": "moving",
+        "transform": "transform: translate(-50%, -50%) translate(235px, 442px) rotateX(0deg) rotateZ(0deg); opacity: 1;"
+      },
+      {
+        "coordinate": [
+          106.69487133549552,
+          10.781506599303071
+        ],
+        "id": "GSM-04",
+        "progress": 0.31666513923191886,
+        "status": "moving",
+        "transform": "transform: translate(-50%, -50%) translate(400px, 202px) rotateX(0deg) rotateZ(0deg); opacity: 1;"
+      },
+      {
+        "coordinate": [
+          106.7063066365406,
+          10.782281540541536
+        ],
+        "id": "GSM-05",
+        "progress": 0.1870291590734063,
+        "status": "moving",
+        "transform": "transform: translate(-50%, -50%) translate(725px, 179px) rotateX(0deg) rotateZ(0deg); opacity: 1;"
+      }
+    ],
+    "metrics": {
+      "frameSamples": 76,
+      "maxFrameMilliseconds": 66.69999999999709,
+      "meanFrameMilliseconds": 36.02499999999992
+    },
+    "state": "paused",
+    "summary": "Đã tạo 5/5 xe · 3.46 s5 route requests · 0 cache hitsSeed: hcm-fleet-2026Provenance scenarioFingerprint: 9193a3a34bd10f14a21da7121552503971f85419d7241aeb71bc7193eaac3341OSRM local / car / MLD · car · snap ≤ 100 m",
+    "time": 103.83790000009536
+  },
+  "pauseAfter": {
+    "wall": 1791735891078,
+    "canvases": 1,
+    "markers": [
+      {
+        "coordinate": [
+          106.68898267254669,
+          10.760796489089802
+        ],
+        "id": "GSM-01",
+        "progress": 0.8043214562362152,
+        "status": "moving",
+        "transform": "transform: translate(-50%, -50%) translate(232px, 802px) rotateX(0deg) rotateZ(0deg); opacity: 1;"
+      },
+      {
+        "coordinate": [
+          106.70831264485948,
+          10.780592516948154
+        ],
+        "id": "GSM-02",
+        "progress": 0.2608493100947545,
+        "status": "moving",
+        "transform": "transform: translate(-50%, -50%) translate(782px, 228px) rotateX(0deg) rotateZ(0deg); opacity: 1;"
+      },
+      {
+        "coordinate": [
+          106.68906706434863,
+          10.773229037038616
+        ],
+        "id": "GSM-03",
+        "progress": 0.971060471977808,
+        "status": "moving",
+        "transform": "transform: translate(-50%, -50%) translate(235px, 442px) rotateX(0deg) rotateZ(0deg); opacity: 1;"
+      },
+      {
+        "coordinate": [
+          106.69487133549552,
+          10.781506599303071
+        ],
+        "id": "GSM-04",
+        "progress": 0.31666513923191886,
+        "status": "moving",
+        "transform": "transform: translate(-50%, -50%) translate(400px, 202px) rotateX(0deg) rotateZ(0deg); opacity: 1;"
+      },
+      {
+        "coordinate": [
+          106.7063066365406,
+          10.782281540541536
+        ],
+        "id": "GSM-05",
+        "progress": 0.1870291590734063,
+        "status": "moving",
+        "transform": "transform: translate(-50%, -50%) translate(725px, 179px) rotateX(0deg) rotateZ(0deg); opacity: 1;"
+      }
+    ],
+    "metrics": {
+      "frameSamples": 76,
+      "maxFrameMilliseconds": 66.69999999999709,
+      "meanFrameMilliseconds": 36.02499999999992
+    },
+    "state": "paused",
+    "summary": "Đã tạo 5/5 xe · 3.46 s5 route requests · 0 cache hitsSeed: hcm-fleet-2026Provenance scenarioFingerprint: 9193a3a34bd10f14a21da7121552503971f85419d7241aeb71bc7193eaac3341OSRM local / car / MLD · car · snap ≤ 100 m",
+    "time": 103.83790000009536
+  },
+  "markerSelection": {
+    "wall": 1791735913713,
+    "canvases": 1,
+    "markers": [
+      {
+        "coordinate": [
+          106.69026193305744,
+          10.762245220959612
+        ],
+        "id": "GSM-01",
+        "progress": 0.6444616576297444,
+        "status": "moving",
+        "transform": "transform: translate(-50%, -50%) translate(269px, 760px) rotateX(0deg) rotateZ(0deg); opacity: 1;"
+      },
+      {
+        "coordinate": [
+          106.71018794848568,
+          10.779569065694238
+        ],
+        "id": "GSM-02",
+        "progress": 0.1859114015976761,
+        "status": "moving",
+        "transform": "transform: translate(-50%, -50%) translate(836px, 258px) rotateX(0deg) rotateZ(0deg); opacity: 1;"
+      },
+      {
+        "coordinate": [
+          106.68725473509252,
+          10.771286382136388
+        ],
+        "id": "GSM-03",
+        "progress": 0.6666666666666667,
+        "status": "moving",
+        "transform": "transform: translate(-50%, -50%) translate(183px, 498px) rotateX(0deg) rotateZ(0deg); opacity: 1;"
+      },
+      {
+        "coordinate": [
+          106.69533569044827,
+          10.783194762557438
+        ],
+        "id": "GSM-04",
+        "progress": 0.24391963341557985,
+        "status": "moving",
+        "transform": "transform: translate(-50%, -50%) translate(413px, 153px) rotateX(0deg) rotateZ(0deg); opacity: 1;"
+      },
+      {
+        "coordinate": [
+          106.70808041526683,
+          10.780733000905272
+        ],
+        "id": "GSM-05",
+        "progress": 0.13329862015100236,
+        "status": "moving",
+        "transform": "transform: translate(-50%, -50%) translate(776px, 224px) rotateX(0deg) rotateZ(0deg); opacity: 1;"
+      }
+    ],
+    "metrics": {
+      "frameSamples": 76,
+      "maxFrameMilliseconds": 66.69999999999709,
+      "meanFrameMilliseconds": 36.02499999999992
+    },
+    "state": "paused",
+    "summary": "Đã tạo 5/5 xe · 3.46 s5 route requests · 0 cache hitsSeed: hcm-fleet-2026Provenance scenarioFingerprint: 9193a3a34bd10f14a21da7121552503971f85419d7241aeb71bc7193eaac3341OSRM local / car / MLD · car · snap ≤ 100 m",
+    "time": 83.2
+  },
+  "seek50": {
+    "wall": 1791735926675,
+    "canvases": 1,
+    "markers": [
+      {
+        "coordinate": [
+          106.687671,
+          10.759038
+        ],
+        "id": "GSM-01",
+        "progress": 1,
+        "status": "completed",
+        "transform": "transform: translate(-50%, -50%) translate(195px, 853px) rotateX(0deg) rotateZ(0deg); opacity: 1;"
+      },
+      {
+        "coordinate": [
+          106.7013065533447,
+          10.78103881763402
+        ],
+        "id": "GSM-02",
+        "progress": 0.6394335511982571,
+        "status": "moving",
+        "transform": "transform: translate(-50%, -50%) translate(583px, 215px) rotateX(0deg) rotateZ(0deg); opacity: 1;"
+      },
+      {
+        "coordinate": [
+          106.689238,
+          10.773415
+        ],
+        "id": "GSM-03",
+        "progress": 1,
+        "status": "completed",
+        "transform": "transform: translate(-50%, -50%) translate(240px, 436px) rotateX(0deg) rotateZ(0deg); opacity: 1;"
+      },
+      {
+        "coordinate": [
+          106.68728456349996,
+          10.77329144216344
+        ],
+        "id": "GSM-04",
+        "progress": 0.6841734226295383,
+        "status": "moving",
+        "transform": "transform: translate(-50%, -50%) translate(184px, 440px) rotateX(0deg) rotateZ(0deg); opacity: 1;"
+      },
+      {
+        "coordinate": [
+          106.69784608370476,
+          10.7831145602228
+        ],
+        "id": "GSM-05",
+        "progress": 0.4584743556365529,
+        "status": "moving",
+        "transform": "transform: translate(-50%, -50%) translate(485px, 155px) rotateX(0deg) rotateZ(0deg); opacity: 1;"
+      }
+    ],
+    "metrics": {
+      "frameSamples": 76,
+      "maxFrameMilliseconds": 66.69999999999709,
+      "meanFrameMilliseconds": 36.02499999999992
+    },
+    "state": "paused",
+    "summary": "Đã tạo 5/5 xe · 3.46 s5 route requests · 0 cache hitsSeed: hcm-fleet-2026Provenance scenarioFingerprint: 9193a3a34bd10f14a21da7121552503971f85419d7241aeb71bc7193eaac3341OSRM local / car / MLD · car · snap ≤ 100 m",
+    "time": 208.1
+  },
+  "focus": {
+    "wall": 1791735927759,
+    "canvases": 1,
+    "markers": [
+      {
+        "coordinate": [
+          106.687671,
+          10.759038
+        ],
+        "id": "GSM-01",
+        "progress": 1,
+        "status": "completed",
+        "transform": "transform: translate(-50%, -50%) translate(435px, 1224px) rotateX(0deg) rotateZ(0deg); opacity: 1;"
+      },
+      {
+        "coordinate": [
+          106.7013065533447,
+          10.78103881763402
+        ],
+        "id": "GSM-02",
+        "progress": 0.6394335511982571,
+        "status": "moving",
+        "transform": "transform: translate(-50%, -50%) translate(1013px, 274px) rotateX(0deg) rotateZ(0deg); opacity: 1;"
+      },
+      {
+        "coordinate": [
+          106.689238,
+          10.773415
+        ],
+        "id": "GSM-03",
+        "progress": 1,
+        "status": "completed",
+        "transform": "transform: translate(-50%, -50%) translate(501px, 603px) rotateX(0deg) rotateZ(0deg); opacity: 1;"
+      },
+      {
+        "coordinate": [
+          106.68728456349996,
+          10.77329144216344
+        ],
+        "id": "GSM-04",
+        "progress": 0.6841734226295383,
+        "status": "moving",
+        "transform": "transform: translate(-50%, -50%) translate(418px, 608px) rotateX(0deg) rotateZ(0deg); opacity: 1;"
+      },
+      {
+        "coordinate": [
+          106.69784608370476,
+          10.7831145602228
+        ],
+        "id": "GSM-05",
+        "progress": 0.4584743556365529,
+        "status": "moving",
+        "transform": "transform: translate(-50%, -50%) translate(866px, 184px) rotateX(0deg) rotateZ(0deg); opacity: 1;"
+      }
+    ],
+    "metrics": {
+      "frameSamples": 76,
+      "maxFrameMilliseconds": 66.69999999999709,
+      "meanFrameMilliseconds": 36.02499999999992
+    },
+    "state": "paused",
+    "summary": "Đã tạo 5/5 xe · 3.46 s5 route requests · 0 cache hitsSeed: hcm-fleet-2026Provenance scenarioFingerprint: 9193a3a34bd10f14a21da7121552503971f85419d7241aeb71bc7193eaac3341OSRM local / car / MLD · car · snap ≤ 100 m",
+    "time": 208.1
+  },
+  "completed": {
+    "wall": 1791735929348,
+    "canvases": 1,
+    "markers": [
+      {
+        "coordinate": [
+          106.687671,
+          10.759038
+        ],
+        "id": "GSM-01",
+        "progress": 1,
+        "status": "completed",
+        "transform": "transform: translate(-50%, -50%) translate(435px, 1224px) rotateX(0deg) rotateZ(0deg); opacity: 1;"
+      },
+      {
+        "coordinate": [
+          106.694479,
+          10.773619
+        ],
+        "id": "GSM-02",
+        "progress": 1,
+        "status": "completed",
+        "transform": "transform: translate(-50%, -50%) translate(723px, 594px) rotateX(0deg) rotateZ(0deg); opacity: 1;"
+      },
+      {
+        "coordinate": [
+          106.689238,
+          10.773415
+        ],
+        "id": "GSM-03",
+        "progress": 1,
+        "status": "completed",
+        "transform": "transform: translate(-50%, -50%) translate(501px, 603px) rotateX(0deg) rotateZ(0deg); opacity: 1;"
+      },
+      {
+        "coordinate": [
+          106.686326,
+          10.767599
+        ],
+        "id": "GSM-04",
+        "progress": 1,
+        "status": "completed",
+        "transform": "transform: translate(-50%, -50%) translate(377px, 854px) rotateX(0deg) rotateZ(0deg); opacity: 1;"
+      },
+      {
+        "coordinate": [
+          106.689238,
+          10.773415
+        ],
+        "id": "GSM-05",
+        "progress": 1,
+        "status": "completed",
+        "transform": "transform: translate(-50%, -50%) translate(501px, 603px) rotateX(0deg) rotateZ(0deg); opacity: 1;"
+      }
+    ],
+    "metrics": {
+      "frameSamples": 5,
+      "maxFrameMilliseconds": 16.70000000001164,
+      "meanFrameMilliseconds": 15.379999999998835
+    },
+    "state": "completed",
+    "summary": "Đã tạo 5/5 xe · 3.46 s5 route requests · 0 cache hitsSeed: hcm-fleet-2026Provenance scenarioFingerprint: 9193a3a34bd10f14a21da7121552503971f85419d7241aeb71bc7193eaac3341OSRM local / car / MLD · car · snap ≤ 100 m",
+    "time": 416.1
+  },
+  "reset": {
+    "wall": 1791735930227,
+    "canvases": 1,
+    "markers": [
+      {
+        "coordinate": [
+          106.695208,
+          10.76798
+        ],
+        "id": "GSM-01",
+        "progress": 0,
+        "status": "moving",
+        "transform": "transform: translate(-50%, -50%) translate(754px, 838px) rotateX(0deg) rotateZ(0deg); opacity: 1;"
+      },
+      {
+        "coordinate": [
+          106.714276,
+          10.779433
+        ],
+        "id": "GSM-02",
+        "progress": 0,
+        "status": "scheduled",
+        "transform": "transform: translate(-50%, -50%) translate(1563px, 343px) rotateX(0deg) rotateZ(0deg); opacity: 1;"
+      },
+      {
+        "coordinate": [
+          106.686326,
+          10.767599
+        ],
+        "id": "GSM-03",
+        "progress": 0,
+        "status": "scheduled",
+        "transform": "transform: translate(-50%, -50%) translate(377px, 854px) rotateX(0deg) rotateZ(0deg); opacity: 1;"
+      },
+      {
+        "coordinate": [
+          106.693367,
+          10.783497
+        ],
+        "id": "GSM-04",
+        "progress": 0,
+        "status": "scheduled",
+        "transform": "transform: translate(-50%, -50%) translate(676px, 168px) rotateX(0deg) rotateZ(0deg); opacity: 1;"
+      },
+      {
+        "coordinate": [
+          106.71324,
+          10.777934
+        ],
+        "id": "GSM-05",
+        "progress": 0,
+        "status": "scheduled",
+        "transform": "transform: translate(-50%, -50%) translate(1519px, 408px) rotateX(0deg) rotateZ(0deg); opacity: 1;"
+      }
+    ],
+    "metrics": {
+      "frameSamples": 5,
+      "maxFrameMilliseconds": 16.70000000001164,
+      "meanFrameMilliseconds": 15.379999999998835
+    },
+    "state": "paused",
+    "summary": "Đã tạo 5/5 xe · 3.46 s5 route requests · 0 cache hitsSeed: hcm-fleet-2026Provenance scenarioFingerprint: 9193a3a34bd10f14a21da7121552503971f85419d7241aeb71bc7193eaac3341OSRM local / car / MLD · car · snap ≤ 100 m",
+    "time": 0
+  },
+  "initial10": {
+    "wall": 1791736137774,
+    "canvases": 1,
+    "markers": [
+      {
+        "coordinate": [
+          106.695208,
+          10.76798
+        ],
+        "id": "GSM-01",
+        "progress": 0,
+        "status": "moving",
+        "transform": "transform: translate(-50%, -50%) translate(399px, 652px) rotateX(0deg) rotateZ(0deg); opacity: 1;"
+      },
+      {
+        "coordinate": [
+          106.714276,
+          10.779433
+        ],
+        "id": "GSM-02",
+        "progress": 0,
+        "status": "scheduled",
+        "transform": "transform: translate(-50%, -50%) translate(924px, 331px) rotateX(0deg) rotateZ(0deg); opacity: 1;"
+      },
+      {
+        "coordinate": [
+          106.686326,
+          10.767599
+        ],
+        "id": "GSM-03",
+        "progress": 0,
+        "status": "scheduled",
+        "transform": "transform: translate(-50%, -50%) translate(154px, 663px) rotateX(0deg) rotateZ(0deg); opacity: 1;"
+      },
+      {
+        "coordinate": [
+          106.693367,
+          10.783497
+        ],
+        "id": "GSM-04",
+        "progress": 0,
+        "status": "scheduled",
+        "transform": "transform: translate(-50%, -50%) translate(348px, 217px) rotateX(0deg) rotateZ(0deg); opacity: 1;"
+      },
+      {
+        "coordinate": [
+          106.71324,
+          10.777934
+        ],
+        "id": "GSM-05",
+        "progress": 0,
+        "status": "scheduled",
+        "transform": "transform: translate(-50%, -50%) translate(895px, 373px) rotateX(0deg) rotateZ(0deg); opacity: 1;"
+      },
+      {
+        "coordinate": [
+          106.689238,
+          10.773415
+        ],
+        "id": "GSM-06",
+        "progress": 0,
+        "status": "scheduled",
+        "transform": "transform: translate(-50%, -50%) translate(234px, 500px) rotateX(0deg) rotateZ(0deg); opacity: 1;"
+      },
+      {
+        "coordinate": [
+          106.700308,
+          10.76088
+        ],
+        "id": "GSM-07",
+        "progress": 0,
+        "status": "scheduled",
+        "transform": "transform: translate(-50%, -50%) translate(539px, 851px) rotateX(0deg) rotateZ(0deg); opacity: 1;"
+      },
+      {
+        "coordinate": [
+          106.688383,
+          10.785576
+        ],
+        "id": "GSM-08",
+        "progress": 0,
+        "status": "scheduled",
+        "transform": "transform: translate(-50%, -50%) translate(211px, 159px) rotateX(0deg) rotateZ(0deg); opacity: 1;"
+      },
+      {
+        "coordinate": [
+          106.71324,
+          10.777934
+        ],
+        "id": "GSM-09",
+        "progress": 0,
+        "status": "scheduled",
+        "transform": "transform: translate(-50%, -50%) translate(895px, 373px) rotateX(0deg) rotateZ(0deg); opacity: 1;"
+      },
+      {
+        "coordinate": [
+          106.688383,
+          10.785576
+        ],
+        "id": "GSM-10",
+        "progress": 0,
+        "status": "scheduled",
+        "transform": "transform: translate(-50%, -50%) translate(211px, 159px) rotateX(0deg) rotateZ(0deg); opacity: 1;"
+      }
+    ],
+    "metrics": {
+      "frameSamples": 0,
+      "maxFrameMilliseconds": 0,
+      "meanFrameMilliseconds": 0
+    },
+    "state": "paused",
+    "summary": "Đã tạo 10/10 xe · 6.91 s10 route requests · 0 cache hitsSeed: hcm-fleet-2026Provenance scenarioFingerprint: 9193a3a34bd10f14a21da7121552503971f85419d7241aeb71bc7193eaac3341OSRM local / car / MLD · car · snap ≤ 100 m",
+    "time": 0
+  },
+  "stress10Before": {
+    "wall": 1791736139342,
+    "canvases": 1,
+    "markers": [
+      {
+        "coordinate": [
+          106.69145805385114,
+          10.763615683689997
+        ],
+        "id": "GSM-01",
+        "progress": 0.49398605731990686,
+        "status": "moving",
+        "transform": "transform: translate(-50%, -50%) translate(295px, 774px) rotateX(0deg) rotateZ(0deg); opacity: 1;"
+      },
+      {
+        "coordinate": [
+          106.71195546224664,
+          10.778609676722184
+        ],
+        "id": "GSM-02",
+        "progress": 0.11537254901960776,
+        "status": "moving",
+        "transform": "transform: translate(-50%, -50%) translate(860px, 354px) rotateX(0deg) rotateZ(0deg); opacity: 1;"
+      },
+      {
+        "coordinate": [
+          106.68554009132863,
+          10.769465649670115
+        ],
+        "id": "GSM-03",
+        "progress": 0.3801415929203536,
+        "status": "moving",
+        "transform": "transform: translate(-50%, -50%) translate(132px, 611px) rotateX(0deg) rotateZ(0deg); opacity: 1;"
+      },
+      {
+        "coordinate": [
+          106.69379436058183,
+          10.78460624335148
+        ],
+        "id": "GSM-04",
+        "progress": 0.1754444836094465,
+        "status": "moving",
+        "transform": "transform: translate(-50%, -50%) translate(360px, 186px) rotateX(0deg) rotateZ(0deg); opacity: 1;"
+      },
+      {
+        "coordinate": [
+          106.7100290633576,
+          10.779655297467402
+        ],
+        "id": "GSM-05",
+        "progress": 0.08272220775839617,
+        "status": "moving",
+        "transform": "transform: translate(-50%, -50%) translate(807px, 325px) rotateX(0deg) rotateZ(0deg); opacity: 1;"
+      },
+      {
+        "coordinate": [
+          106.6908423294162,
+          10.775105361146824
+        ],
+        "id": "GSM-06",
+        "progress": 0.19975779816513736,
+        "status": "moving",
+        "transform": "transform: translate(-50%, -50%) translate(278px, 452px) rotateX(0deg) rotateZ(0deg); opacity: 1;"
+      },
+      {
+        "coordinate": [
+          106.7029520447993,
+          10.762721039018476
+        ],
+        "id": "GSM-07",
+        "progress": 0.18006787595084828,
+        "status": "moving",
+        "transform": "transform: translate(-50%, -50%) translate(612px, 800px) rotateX(0deg) rotateZ(0deg); opacity: 1;"
+      },
+      {
+        "coordinate": [
+          106.69037102222498,
+          10.783713548542062
+        ],
+        "id": "GSM-08",
+        "progress": 0.06941328103110107,
+        "status": "moving",
+        "transform": "transform: translate(-50%, -50%) translate(265px, 211px) rotateX(0deg) rotateZ(0deg); opacity: 1;"
+      },
+      {
+        "coordinate": [
+          106.70978999494751,
+          10.779785047137253
+        ],
+        "id": "GSM-09",
+        "progress": 0.09836874999999994,
+        "status": "moving",
+        "transform": "transform: translate(-50%, -50%) translate(800px, 321px) rotateX(0deg) rotateZ(0deg); opacity: 1;"
+      },
+      {
+        "coordinate": [
+          106.6902085317152,
+          10.783966713707102
+        ],
+        "id": "GSM-10",
+        "progress": 0.14712181303116129,
+        "status": "moving",
+        "transform": "transform: translate(-50%, -50%) translate(261px, 204px) rotateX(0deg) rotateZ(0deg); opacity: 1;"
+      }
+    ],
+    "metrics": {
+      "frameSamples": 12,
+      "maxFrameMilliseconds": 100.09999999999128,
+      "meanFrameMilliseconds": 78.61666666666618
+    },
+    "state": "playing",
+    "summary": "Đã tạo 10/10 xe · 6.91 s10 route requests · 0 cache hitsSeed: hcm-fleet-2026Provenance scenarioFingerprint: 9193a3a34bd10f14a21da7121552503971f85419d7241aeb71bc7193eaac3341OSRM local / car / MLD · car · snap ≤ 100 m",
+    "time": 63.77359999999997
+  },
+  "selectionWhilePlaying": {
+    "wall": 1791736144763,
+    "canvases": 1,
+    "markers": [
+      {
+        "coordinate": [
+          106.6901241501988,
+          10.762087117795016
+        ],
+        "id": "GSM-01",
+        "progress": 0.6618094500387296,
+        "status": "moving",
+        "transform": "transform: translate(-50%, -50%) translate(259px, 817px) rotateX(0deg) rotateZ(0deg); opacity: 1;"
+      },
+      {
+        "coordinate": [
+          106.70998417268088,
+          10.779679660997834
+        ],
+        "id": "GSM-02",
+        "progress": 0.19404357298474945,
+        "status": "moving",
+        "transform": "transform: translate(-50%, -50%) translate(805px, 324px) rotateX(0deg) rotateZ(0deg); opacity: 1;"
+      },
+      {
+        "coordinate": [
+          106.68745214428952,
+          10.771496521942147
+        ],
+        "id": "GSM-03",
+        "progress": 0.6996991150442475,
+        "status": "moving",
+        "transform": "transform: translate(-50%, -50%) translate(185px, 554px) rotateX(0deg) rotateZ(0deg); opacity: 1;"
+      },
+      {
+        "coordinate": [
+          106.69551474274844,
+          10.783033476687072
+        ],
+        "id": "GSM-04",
+        "progress": 0.2518138879097638,
+        "status": "moving",
+        "transform": "transform: translate(-50%, -50%) translate(407px, 230px) rotateX(0deg) rotateZ(0deg); opacity: 1;"
+      },
+      {
+        "coordinate": [
+          106.70786853924582,
+          10.7808772530045
+        ],
+        "id": "GSM-05",
+        "progress": 0.13912939338713873,
+        "status": "moving",
+        "transform": "transform: translate(-50%, -50%) translate(747px, 291px) rotateX(0deg) rotateZ(0deg); opacity: 1;"
+      },
+      {
+        "coordinate": [
+          106.69241914433576,
+          10.776804876932356
+        ],
+        "id": "GSM-06",
+        "progress": 0.3985284403669723,
+        "status": "moving",
+        "transform": "transform: translate(-50%, -50%) translate(322px, 405px) rotateX(0deg) rotateZ(0deg); opacity: 1;"
+      },
+      {
+        "coordinate": [
+          106.702919217375,
+          10.764134072979331
+        ],
+        "id": "GSM-07",
+        "progress": 0.306843768285547,
+        "status": "moving",
+        "transform": "transform: translate(-50%, -50%) translate(611px, 760px) rotateX(0deg) rotateZ(0deg); opacity: 1;"
+      },
+      {
+        "coordinate": [
+          106.69209536159612,
+          10.784813992722835
+        ],
+        "id": "GSM-08",
+        "progress": 0.13011936116559256,
+        "status": "moving",
+        "transform": "transform: translate(-50%, -50%) translate(313px, 180px) rotateX(0deg) rotateZ(0deg); opacity: 1;"
+      },
+      {
+        "coordinate": [
+          106.70789146951827,
+          10.780957919073412
+        ],
+        "id": "GSM-09",
+        "progress": 0.15479062499999996,
+        "status": "moving",
+        "transform": "transform: translate(-50%, -50%) translate(748px, 288px) rotateX(0deg) rotateZ(0deg); opacity: 1;"
+      },
+      {
+        "coordinate": [
+          106.69208624503256,
+          10.782258519668042
+        ],
+        "id": "GSM-10",
+        "progress": 0.30056373937677044,
+        "status": "moving",
+        "transform": "transform: translate(-50%, -50%) translate(313px, 252px) rotateX(0deg) rotateZ(0deg); opacity: 1;"
+      }
+    ],
+    "metrics": {
+      "frameSamples": 107,
+      "maxFrameMilliseconds": 133.3000000000029,
+      "meanFrameMilliseconds": 59.438317757009294
+    },
+    "state": "playing",
+    "summary": "Đã tạo 10/10 xe · 6.91 s10 route requests · 0 cache hitsSeed: hcm-fleet-2026Provenance scenarioFingerprint: 9193a3a34bd10f14a21da7121552503971f85419d7241aeb71bc7193eaac3341OSRM local / car / MLD · car · snap ≤ 100 m",
+    "time": 85.43959999999998
+  },
+  "stress10After": {
+    "wall": 1791736146294,
+    "canvases": 1,
+    "markers": [
+      {
+        "coordinate": [
+          106.6898624431245,
+          10.761787687178488
+        ],
+        "id": "GSM-01",
+        "progress": 0.6947048799387713,
+        "status": "moving",
+        "transform": "transform: translate(-50%, -50%) translate(251px, 826px) rotateX(0deg) rotateZ(0deg); opacity: 1;"
+      },
+      {
+        "coordinate": [
+          106.70959776658704,
+          10.779889375292942
+        ],
+        "id": "GSM-02",
+        "progress": 0.20946405228792803,
+        "status": "moving",
+        "transform": "transform: translate(-50%, -50%) translate(795px, 318px) rotateX(0deg) rotateZ(0deg); opacity: 1;"
+      },
+      {
+        "coordinate": [
+          106.68782488626006,
+          10.771896514163249
+        ],
+        "id": "GSM-03",
+        "progress": 0.7623362831872474,
+        "status": "moving",
+        "transform": "transform: translate(-50%, -50%) translate(195px, 542px) rotateX(0deg) rotateZ(0deg); opacity: 1;"
+      },
+      {
+        "coordinate": [
+          106.69554210380188,
+          10.782666179839213
+        ],
+        "id": "GSM-04",
+        "progress": 0.2667832217134134,
+        "status": "moving",
+        "transform": "transform: translate(-50%, -50%) translate(408px, 241px) rotateX(0deg) rotateZ(0deg); opacity: 1;"
+      },
+      {
+        "coordinate": [
+          106.70749448800606,
+          10.781186061486512
+        ],
+        "id": "GSM-05",
+        "progress": 0.15018588909163075,
+        "status": "moving",
+        "transform": "transform: translate(-50%, -50%) translate(737px, 282px) rotateX(0deg) rotateZ(0deg); opacity: 1;"
+      },
+      {
+        "coordinate": [
+          106.69272655220018,
+          10.777139605225608
+        ],
+        "id": "GSM-06",
+        "progress": 0.43748990825775574,
+        "status": "moving",
+        "transform": "transform: translate(-50%, -50%) translate(330px, 395px) rotateX(0deg) rotateZ(0deg); opacity: 1;"
+      },
+      {
+        "coordinate": [
+          106.70255494249564,
+          10.764389049757844
+        ],
+        "id": "GSM-07",
+        "progress": 0.3316933879467254,
+        "status": "moving",
+        "transform": "transform: translate(-50%, -50%) translate(601px, 753px) rotateX(0deg) rotateZ(0deg); opacity: 1;"
+      },
+      {
+        "coordinate": [
+          106.69242042257584,
+          10.785150942362044
+        ],
+        "id": "GSM-08",
+        "progress": 0.1420184925752182,
+        "status": "moving",
+        "transform": "transform: translate(-50%, -50%) translate(322px, 171px) rotateX(0deg) rotateZ(0deg); opacity: 1;"
+      },
+      {
+        "coordinate": [
+          106.70755281533827,
+          10.781236683022666
+        ],
+        "id": "GSM-09",
+        "progress": 0.16585000000024838,
+        "status": "moving",
+        "transform": "transform: translate(-50%, -50%) translate(738px, 281px) rotateX(0deg) rotateZ(0deg); opacity: 1;"
+      },
+      {
+        "coordinate": [
+          106.69245339448057,
+          10.781922725740888
+        ],
+        "id": "GSM-10",
+        "progress": 0.33064022662957065,
+        "status": "moving",
+        "transform": "transform: translate(-50%, -50%) translate(323px, 261px) rotateX(0deg) rotateZ(0deg); opacity: 1;"
+      }
+    ],
+    "metrics": {
+      "frameSamples": 123,
+      "maxFrameMilliseconds": 133.3000000000029,
+      "meanFrameMilliseconds": 59.700813008130055
+    },
+    "state": "paused",
+    "summary": "Đã tạo 10/10 xe · 6.91 s10 route requests · 0 cache hitsSeed: hcm-fleet-2026Provenance scenarioFingerprint: 9193a3a34bd10f14a21da7121552503971f85419d7241aeb71bc7193eaac3341OSRM local / car / MLD · car · snap ≤ 100 m",
+    "time": 89.68640000009538
+  },
+  "stressBeforeOptimization": {
+    "wall": 1791736146294,
+    "canvases": 1,
+    "markers": [
+      {
+        "coordinate": [
+          106.6898624431245,
+          10.761787687178488
+        ],
+        "id": "GSM-01",
+        "progress": 0.6947048799387713,
+        "status": "moving",
+        "transform": "transform: translate(-50%, -50%) translate(251px, 826px) rotateX(0deg) rotateZ(0deg); opacity: 1;"
+      },
+      {
+        "coordinate": [
+          106.70959776658704,
+          10.779889375292942
+        ],
+        "id": "GSM-02",
+        "progress": 0.20946405228792803,
+        "status": "moving",
+        "transform": "transform: translate(-50%, -50%) translate(795px, 318px) rotateX(0deg) rotateZ(0deg); opacity: 1;"
+      },
+      {
+        "coordinate": [
+          106.68782488626006,
+          10.771896514163249
+        ],
+        "id": "GSM-03",
+        "progress": 0.7623362831872474,
+        "status": "moving",
+        "transform": "transform: translate(-50%, -50%) translate(195px, 542px) rotateX(0deg) rotateZ(0deg); opacity: 1;"
+      },
+      {
+        "coordinate": [
+          106.69554210380188,
+          10.782666179839213
+        ],
+        "id": "GSM-04",
+        "progress": 0.2667832217134134,
+        "status": "moving",
+        "transform": "transform: translate(-50%, -50%) translate(408px, 241px) rotateX(0deg) rotateZ(0deg); opacity: 1;"
+      },
+      {
+        "coordinate": [
+          106.70749448800606,
+          10.781186061486512
+        ],
+        "id": "GSM-05",
+        "progress": 0.15018588909163075,
+        "status": "moving",
+        "transform": "transform: translate(-50%, -50%) translate(737px, 282px) rotateX(0deg) rotateZ(0deg); opacity: 1;"
+      },
+      {
+        "coordinate": [
+          106.69272655220018,
+          10.777139605225608
+        ],
+        "id": "GSM-06",
+        "progress": 0.43748990825775574,
+        "status": "moving",
+        "transform": "transform: translate(-50%, -50%) translate(330px, 395px) rotateX(0deg) rotateZ(0deg); opacity: 1;"
+      },
+      {
+        "coordinate": [
+          106.70255494249564,
+          10.764389049757844
+        ],
+        "id": "GSM-07",
+        "progress": 0.3316933879467254,
+        "status": "moving",
+        "transform": "transform: translate(-50%, -50%) translate(601px, 753px) rotateX(0deg) rotateZ(0deg); opacity: 1;"
+      },
+      {
+        "coordinate": [
+          106.69242042257584,
+          10.785150942362044
+        ],
+        "id": "GSM-08",
+        "progress": 0.1420184925752182,
+        "status": "moving",
+        "transform": "transform: translate(-50%, -50%) translate(322px, 171px) rotateX(0deg) rotateZ(0deg); opacity: 1;"
+      },
+      {
+        "coordinate": [
+          106.70755281533827,
+          10.781236683022666
+        ],
+        "id": "GSM-09",
+        "progress": 0.16585000000024838,
+        "status": "moving",
+        "transform": "transform: translate(-50%, -50%) translate(738px, 281px) rotateX(0deg) rotateZ(0deg); opacity: 1;"
+      },
+      {
+        "coordinate": [
+          106.69245339448057,
+          10.781922725740888
+        ],
+        "id": "GSM-10",
+        "progress": 0.33064022662957065,
+        "status": "moving",
+        "transform": "transform: translate(-50%, -50%) translate(323px, 261px) rotateX(0deg) rotateZ(0deg); opacity: 1;"
+      }
+    ],
+    "metrics": {
+      "frameSamples": 123,
+      "maxFrameMilliseconds": 133.3000000000029,
+      "meanFrameMilliseconds": 59.700813008130055
+    },
+    "state": "paused",
+    "summary": "Đã tạo 10/10 xe · 6.91 s10 route requests · 0 cache hitsSeed: hcm-fleet-2026Provenance scenarioFingerprint: 9193a3a34bd10f14a21da7121552503971f85419d7241aeb71bc7193eaac3341OSRM local / car / MLD · car · snap ≤ 100 m",
+    "time": 89.68640000009538
+  },
+  "stressAfterOptimization": {
+    "wall": 1791736246199,
+    "canvases": 1,
+    "markers": [
+      {
+        "coordinate": [
+          106.68886699547625,
+          10.760660366769704
+        ],
+        "id": "GSM-01",
+        "progress": 0.8191014717273433,
+        "status": "moving",
+        "transform": "transform: translate(-50%, -50%) translate(224px, 857px) rotateX(0deg) rotateZ(0deg); opacity: 1;"
+      },
+      {
+        "coordinate": [
+          106.70814258875636,
+          10.780692792900082
+        ],
+        "id": "GSM-02",
+        "progress": 0.26777777777777784,
+        "status": "moving",
+        "transform": "transform: translate(-50%, -50%) translate(755px, 296px) rotateX(0deg) rotateZ(0deg); opacity: 1;"
+      },
+      {
+        "coordinate": [
+          106.68923329558882,
+          10.773409882014212
+        ],
+        "id": "GSM-03",
+        "progress": 0.999203539823009,
+        "status": "moving",
+        "transform": "transform: translate(-50%, -50%) translate(234px, 500px) rotateX(0deg) rotateZ(0deg); opacity: 1;"
+      },
+      {
+        "coordinate": [
+          106.69472977116254,
+          10.78135827860333
+        ],
+        "id": "GSM-04",
+        "progress": 0.3233909058864999,
+        "status": "moving",
+        "transform": "transform: translate(-50%, -50%) translate(385px, 277px) rotateX(0deg) rotateZ(0deg); opacity: 1;"
+      },
+      {
+        "coordinate": [
+          106.7061464740574,
+          10.78242924810503
+        ],
+        "id": "GSM-05",
+        "progress": 0.19199687581359023,
+        "status": "moving",
+        "transform": "transform: translate(-50%, -50%) translate(700px, 247px) rotateX(0deg) rotateZ(0deg); opacity: 1;"
+      },
+      {
+        "coordinate": [
+          106.69396185162616,
+          10.776632653835549
+        ],
+        "id": "GSM-06",
+        "progress": 0.5848256880733946,
+        "status": "moving",
+        "transform": "transform: translate(-50%, -50%) translate(364px, 410px) rotateX(0deg) rotateZ(0deg); opacity: 1;"
+      },
+      {
+        "coordinate": [
+          106.70126904042309,
+          10.765459805492352
+        ],
+        "id": "GSM-07",
+        "progress": 0.4256641310708017,
+        "status": "moving",
+        "transform": "transform: translate(-50%, -50%) translate(565px, 723px) rotateX(0deg) rotateZ(0deg); opacity: 1;"
+      },
+      {
+        "coordinate": [
+          106.69364918621736,
+          10.786425589603123
+        ],
+        "id": "GSM-08",
+        "progress": 0.18701597086018495,
+        "status": "moving",
+        "transform": "transform: translate(-50%, -50%) translate(356px, 135px) rotateX(0deg) rotateZ(0deg); opacity: 1;"
+      },
+      {
+        "coordinate": [
+          106.70635678384964,
+          10.782045878263126
+        ],
+        "id": "GSM-09",
+        "progress": 0.20767187500000003,
+        "status": "moving",
+        "transform": "transform: translate(-50%, -50%) translate(706px, 258px) rotateX(0deg) rotateZ(0deg); opacity: 1;"
+      },
+      {
+        "coordinate": [
+          106.69383682435512,
+          10.780647674070208
+        ],
+        "id": "GSM-10",
+        "progress": 0.4443767705382437,
+        "status": "moving",
+        "transform": "transform: translate(-50%, -50%) translate(361px, 297px) rotateX(0deg) rotateZ(0deg); opacity: 1;"
+      }
+    ],
+    "metrics": {
+      "frameSamples": 77,
+      "maxFrameMilliseconds": 116.60000000000582,
+      "meanFrameMilliseconds": 51.62077921985039
+    },
+    "state": "paused",
+    "summary": "Đã tạo 10/10 xe · 6.91 s10 route requests · 0 cache hitsSeed: hcm-fleet-2026Provenance scenarioFingerprint: 9193a3a34bd10f14a21da7121552503971f85419d7241aeb71bc7193eaac3341OSRM local / car / MLD · car · snap ≤ 100 m",
+    "time": 105.746
+  },
+  "regenerated10": {
+    "wall": 1791736314618,
+    "canvases": 1,
+    "markers": [
+      {
+        "coordinate": [
+          106.695208,
+          10.76798
+        ],
+        "id": "GSM-01",
+        "progress": 0,
+        "status": "moving",
+        "transform": "transform: translate(-50%, -50%) translate(286px, 698px) rotateX(0deg) rotateZ(0deg); opacity: 1;"
+      },
+      {
+        "coordinate": [
+          106.714276,
+          10.779433
+        ],
+        "id": "GSM-02",
+        "progress": 0,
+        "status": "scheduled",
+        "transform": "transform: translate(-50%, -50%) translate(1134px, 179px) rotateX(0deg) rotateZ(0deg); opacity: 1;"
+      },
+      {
+        "coordinate": [
+          106.686326,
+          10.767599
+        ],
+        "id": "GSM-03",
+        "progress": 0,
+        "status": "scheduled",
+        "transform": "transform: translate(-50%, -50%) translate(-109px, 715px) rotateX(0deg) rotateZ(0deg); opacity: 1;"
+      },
+      {
+        "coordinate": [
+          106.693367,
+          10.783497
+        ],
+        "id": "GSM-04",
+        "progress": 0,
+        "status": "scheduled",
+        "transform": "transform: translate(-50%, -50%) translate(204px, -5px) rotateX(0deg) rotateZ(0deg); opacity: 1;"
+      },
+      {
+        "coordinate": [
+          106.71324,
+          10.777934
+        ],
+        "id": "GSM-05",
+        "progress": 0,
+        "status": "scheduled",
+        "transform": "transform: translate(-50%, -50%) translate(1087px, 247px) rotateX(0deg) rotateZ(0deg); opacity: 1;"
+      },
+      {
+        "coordinate": [
+          106.689238,
+          10.773415
+        ],
+        "id": "GSM-06",
+        "progress": 0,
+        "status": "scheduled",
+        "transform": "transform: translate(-50%, -50%) translate(20px, 452px) rotateX(0deg) rotateZ(0deg); opacity: 1;"
+      },
+      {
+        "coordinate": [
+          106.700308,
+          10.76088
+        ],
+        "id": "GSM-07",
+        "progress": 0,
+        "status": "scheduled",
+        "transform": "transform: translate(-50%, -50%) translate(512px, 1019px) rotateX(0deg) rotateZ(0deg); opacity: 1;"
+      },
+      {
+        "coordinate": [
+          106.688383,
+          10.785576
+        ],
+        "id": "GSM-08",
+        "progress": 0,
+        "status": "scheduled",
+        "transform": "transform: translate(-50%, -50%) translate(-18px, -99px) rotateX(0deg) rotateZ(0deg); opacity: 1;"
+      },
+      {
+        "coordinate": [
+          106.71324,
+          10.777934
+        ],
+        "id": "GSM-09",
+        "progress": 0,
+        "status": "scheduled",
+        "transform": "transform: translate(-50%, -50%) translate(1087px, 247px) rotateX(0deg) rotateZ(0deg); opacity: 1;"
+      },
+      {
+        "coordinate": [
+          106.688383,
+          10.785576
+        ],
+        "id": "GSM-10",
+        "progress": 0,
+        "status": "scheduled",
+        "transform": "transform: translate(-50%, -50%) translate(-18px, -99px) rotateX(0deg) rotateZ(0deg); opacity: 1;"
+      }
+    ],
+    "metrics": {
+      "frameSamples": 77,
+      "maxFrameMilliseconds": 116.60000000000582,
+      "meanFrameMilliseconds": 51.62077921985039
+    },
+    "state": "paused",
+    "summary": "Đã tạo 10/10 xe · 0.00 s0 route requests · 10 cache hitsSeed: hcm-fleet-2026Provenance scenarioFingerprint: 9193a3a34bd10f14a21da7121552503971f85419d7241aeb71bc7193eaac3341OSRM local / car / MLD · car · snap ≤ 100 m",
+    "time": 0
+  },
+  "networkBeforeControls": [
+    {
+      "name": "http://127.0.0.1:5173/@vite/client",
+      "initiatorType": "script",
+      "startTime": 141.20000004768372,
+      "duration": 123.19999992847443,
+      "transferSize": 300
+    },
+    {
+      "name": "http://127.0.0.1:5173/src/main.tsx",
+      "initiatorType": "script",
+      "startTime": 143.20000004768372,
+      "duration": 122.5,
+      "transferSize": 300
+    },
+    {
+      "name": "http://127.0.0.1:5173/@react-refresh",
+      "initiatorType": "script",
+      "startTime": 143.70000004768372,
+      "duration": 126.19999992847443,
+      "transferSize": 300
+    },
+    {
+      "name": "http://127.0.0.1:5173/node_modules/.vite/deps/react.js?v=ed6c8915",
+      "initiatorType": "script",
+      "startTime": 269.8000000715256,
+      "duration": 0,
+      "transferSize": 0
+    },
+    {
+      "name": "http://127.0.0.1:5173/node_modules/.vite/deps/react-dom_client.js?v=9001c08f",
+      "initiatorType": "script",
+      "startTime": 270,
+      "duration": 0,
+      "transferSize": 0
+    },
+    {
+      "name": "http://127.0.0.1:5173/src/index.css",
+      "initiatorType": "script",
+      "startTime": 270.2000000476837,
+      "duration": 69.5,
+      "transferSize": 300
+    },
+    {
+      "name": "http://127.0.0.1:5173/src/App.tsx",
+      "initiatorType": "script",
+      "startTime": 270.3000000715256,
+      "duration": 111.59999990463257,
+      "transferSize": 300
+    },
+    {
+      "name": "http://127.0.0.1:5173/node_modules/.vite/deps/react_jsx-dev-runtime.js?v=ed6c8915",
+      "initiatorType": "script",
+      "startTime": 270.7000000476837,
+      "duration": 0,
+      "transferSize": 0
+    },
+    {
+      "name": "http://127.0.0.1:5173/node_modules/.vite/deps/rolldown-runtime-DC62tzP2.js?v=61619e29",
+      "initiatorType": "script",
+      "startTime": 271.5,
+      "duration": 0,
+      "transferSize": 0
+    },
+    {
+      "name": "http://127.0.0.1:5173/node_modules/.vite/deps/react-dom.js?v=ed6c8915",
+      "initiatorType": "script",
+      "startTime": 271.7000000476837,
+      "duration": 0,
+      "transferSize": 0
+    },
+    {
+      "name": "http://127.0.0.1:5173/node_modules/vite/dist/client/env.mjs",
+      "initiatorType": "script",
+      "startTime": 271.89999997615814,
+      "duration": 109.70000004768372,
+      "transferSize": 300
+    },
+    {
+      "name": "http://127.0.0.1:5173/node_modules/.vite/deps/lucide-react.js?v=0a44acb3",
+      "initiatorType": "script",
+      "startTime": 389.8000000715256,
+      "duration": 0,
+      "transferSize": 0
+    },
+    {
+      "name": "http://127.0.0.1:5173/src/components/ui/button.tsx",
+      "initiatorType": "script",
+      "startTime": 389.89999997615814,
+      "duration": 31.800000071525574,
+      "transferSize": 300
+    },
+    {
+      "name": "http://127.0.0.1:5173/src/components/ui/badge.tsx",
+      "initiatorType": "script",
+      "startTime": 390,
+      "duration": 32.200000047683716,
+      "transferSize": 300
+    },
+    {
+      "name": "http://127.0.0.1:5173/src/components/ui/slider.tsx",
+      "initiatorType": "script",
+      "startTime": 390.2000000476837,
+      "duration": 32.10000002384186,
+      "transferSize": 300
+    },
+    {
+      "name": "http://127.0.0.1:5173/src/components/sandbox-map.tsx",
+      "initiatorType": "script",
+      "startTime": 390.3000000715256,
+      "duration": 32.5,
+      "transferSize": 300
+    },
+    {
+      "name": "http://127.0.0.1:5173/src/lib/api.ts",
+      "initiatorType": "script",
+      "startTime": 390.39999997615814,
+      "duration": 35.60000002384186,
+      "transferSize": 300
+    },
+    {
+      "name": "http://127.0.0.1:5173/src/lib/use-playback.ts",
+      "initiatorType": "script",
+      "startTime": 390.60000002384186,
+      "duration": 35.700000047683716,
+      "transferSize": 300
+    },
+    {
+      "name": "http://127.0.0.1:5173/src/lib/playback.ts",
+      "initiatorType": "script",
+      "startTime": 390.7000000476837,
+      "duration": 39.60000002384186,
+      "transferSize": 300
+    },
+    {
+      "name": "http://127.0.0.1:5173/src/App.css",
+      "initiatorType": "script",
+      "startTime": 390.89999997615814,
+      "duration": 39.60000002384186,
+      "transferSize": 300
+    },
+    {
+      "name": "http://127.0.0.1:5173/src/lib/use-fleet.ts",
+      "initiatorType": "script",
+      "startTime": 391,
+      "duration": 39.700000047683716,
+      "transferSize": 300
+    },
+    {
+      "name": "http://127.0.0.1:5173/src/components/fleet-panel.tsx",
+      "initiatorType": "script",
+      "startTime": 391.2000000476837,
+      "duration": 80.60000002384186,
+      "transferSize": 300
+    },
+    {
+      "name": "http://127.0.0.1:5173/src/components/runtime-audit.tsx",
+      "initiatorType": "script",
+      "startTime": 391.39999997615814,
+      "duration": 86.10000002384186,
+      "transferSize": 300
+    },
+    {
+      "name": "http://127.0.0.1:5173/node_modules/.vite/deps/@base-ui_react_slider.js?v=95f7ba50",
+      "initiatorType": "script",
+      "startTime": 433,
+      "duration": 0,
+      "transferSize": 0
+    },
+    {
+      "name": "http://127.0.0.1:5173/node_modules/.vite/deps/cn.js?v=e5fee4c7",
+      "initiatorType": "script",
+      "startTime": 433,
+      "duration": 0,
+      "transferSize": 0
+    },
+    {
+      "name": "http://127.0.0.1:5173/node_modules/.vite/deps/@base-ui_react_button.js?v=79242e4a",
+      "initiatorType": "script",
+      "startTime": 434.39999997615814,
+      "duration": 0,
+      "transferSize": 0
+    },
+    {
+      "name": "http://127.0.0.1:5173/node_modules/.vite/deps/class-variance-authority.js?v=dc72af91",
+      "initiatorType": "script",
+      "startTime": 434.60000002384186,
+      "duration": 0,
+      "transferSize": 0
+    },
+    {
+      "name": "http://127.0.0.1:5173/node_modules/.vite/deps/react_jsx-runtime.js?v=ed6c8915",
+      "initiatorType": "script",
+      "startTime": 434.89999997615814,
+      "duration": 0,
+      "transferSize": 0
+    },
+    {
+      "name": "http://127.0.0.1:5173/node_modules/.vite/deps/formatErrorMessage-xk6KuFPl.js?v=61619e29",
+      "initiatorType": "script",
+      "startTime": 435,
+      "duration": 0,
+      "transferSize": 0
+    },
+    {
+      "name": "http://127.0.0.1:5173/node_modules/.vite/deps/useRenderElement-HgjcGXBI.js?v=61619e29",
+      "initiatorType": "script",
+      "startTime": 435.2000000476837,
+      "duration": 0,
+      "transferSize": 0
+    },
+    {
+      "name": "http://127.0.0.1:5173/node_modules/.vite/deps/merge-props-B4lpaVXg.js?v=61619e29",
+      "initiatorType": "script",
+      "startTime": 435.39999997615814,
+      "duration": 0,
+      "transferSize": 0
+    },
+    {
+      "name": "http://127.0.0.1:5173/node_modules/.vite/deps/@base-ui_react_merge-props.js?v=84543253",
+      "initiatorType": "script",
+      "startTime": 435.7000000476837,
+      "duration": 0,
+      "transferSize": 0
+    },
+    {
+      "name": "http://127.0.0.1:5173/node_modules/.vite/deps/@base-ui_react_use-render.js?v=50907226",
+      "initiatorType": "script",
+      "startTime": 435.8000000715256,
+      "duration": 0,
+      "transferSize": 0
+    },
+    {
+      "name": "http://127.0.0.1:5173/src/components/ui/map.tsx",
+      "initiatorType": "script",
+      "startTime": 436.3000000715256,
+      "duration": 70.39999997615814,
+      "transferSize": 300
+    },
+    {
+      "name": "http://127.0.0.1:5173/src/lib/map-style.ts",
+      "initiatorType": "script",
+      "startTime": 436.39999997615814,
+      "duration": 68.60000002384186,
+      "transferSize": 300
+    },
+    {
+      "name": "http://127.0.0.1:5173/src/components/fleet-map.tsx",
+      "initiatorType": "script",
+      "startTime": 436.39999997615814,
+      "duration": 70,
+      "transferSize": 300
+    },
+    {
+      "name": "http://127.0.0.1:5173/src/lib/fleet.ts",
+      "initiatorType": "script",
+      "startTime": 437.5,
+      "duration": 111.60000002384186,
+      "transferSize": 300
+    },
+    {
+      "name": "http://127.0.0.1:5173/src/lib/fleet-clock.ts",
+      "initiatorType": "script",
+      "startTime": 437.7000000476837,
+      "duration": 111.89999997615814,
+      "transferSize": 300
+    },
+    {
+      "name": "http://127.0.0.1:5173/node_modules/@fontsource-variable/geist/files/geist-latin-wght-normal.woff2?import&url",
+      "initiatorType": "script",
+      "startTime": 508.39999997615814,
+      "duration": 46.200000047683716,
+      "transferSize": 300
+    },
+    {
+      "name": "http://127.0.0.1:5173/node_modules/@fontsource-variable/geist/files/geist-vietnamese-wght-normal.woff2?import&url",
+      "initiatorType": "script",
+      "startTime": 508.5,
+      "duration": 48,
+      "transferSize": 300
+    },
+    {
+      "name": "http://127.0.0.1:5173/node_modules/.vite/deps/maplibre-gl.js?v=b23cf990",
+      "initiatorType": "script",
+      "startTime": 511.89999997615814,
+      "duration": 0,
+      "transferSize": 0
+    },
+    {
+      "name": "http://127.0.0.1:5173/node_modules/maplibre-gl/dist/maplibre-gl.css",
+      "initiatorType": "script",
+      "startTime": 512,
+      "duration": 48,
+      "transferSize": 300
+    },
+    {
+      "name": "http://127.0.0.1:5173/src/lib/utils.ts",
+      "initiatorType": "script",
+      "startTime": 512.2000000476837,
+      "duration": 47.60000002384186,
+      "transferSize": 300
+    },
+    {
+      "name": "http://127.0.0.1:5173/node_modules/@fontsource-variable/geist/files/geist-latin-wght-normal.woff2",
+      "initiatorType": "css",
+      "startTime": 900.1000000238419,
+      "duration": 142,
+      "transferSize": 300
+    },
+    {
+      "name": "http://127.0.0.1:5173/node_modules/@fontsource-variable/geist/files/geist-vietnamese-wght-normal.woff2",
+      "initiatorType": "css",
+      "startTime": 901.5,
+      "duration": 141.89999997615814,
+      "transferSize": 300
+    },
+    {
+      "name": "http://127.0.0.1:5173/node_modules/@fontsource-variable/geist/files/geist-latin-ext-wght-normal.woff2",
+      "initiatorType": "css",
+      "startTime": 902,
+      "duration": 7.200000047683716,
+      "transferSize": 300
+    },
+    {
+      "name": "http://127.0.0.1:5173/api/dataset/status",
+      "initiatorType": "fetch",
+      "startTime": 951.8999999761581,
+      "duration": 255,
+      "transferSize": 0
+    },
+    {
+      "name": "http://127.0.0.1:5173/maplibre-gl-worker.mjs",
+      "initiatorType": "other",
+      "startTime": 1217.1000000238419,
+      "duration": -256.7999999523163,
+      "transferSize": 300
+    },
+    {
+      "name": "http://127.0.0.1:5173/favicon.svg",
+      "initiatorType": "other",
+      "startTime": 1279.3000000715256,
+      "duration": 21.59999990463257,
+      "transferSize": 300
+    },
+    {
+      "name": "http://127.0.0.1:5173/api/dataset/status",
+      "initiatorType": "fetch",
+      "startTime": 1004.7000000476837,
+      "duration": 1405.6999999284744,
+      "transferSize": 5783
+    },
+    {
+      "name": "http://127.0.0.1:5173/node_modules/@fontsource-variable/geist/files/geist-latin-wght-normal.woff2",
+      "initiatorType": "fetch",
+      "startTime": 4227.399999976158,
+      "duration": 7.300000071525574,
+      "transferSize": 300
+    },
+    {
+      "name": "http://127.0.0.1:5173/node_modules/@fontsource-variable/geist/files/geist-vietnamese-wght-normal.woff2",
+      "initiatorType": "fetch",
+      "startTime": 4227.800000071526,
+      "duration": 9.799999952316284,
+      "transferSize": 300
+    },
+    {
+      "name": "http://127.0.0.1:5173/api/dataset/status",
+      "initiatorType": "fetch",
+      "startTime": 12428.100000023842,
+      "duration": 615,
+      "transferSize": 5783
+    },
+    {
+      "name": "http://127.0.0.1:5173/api/dataset/status",
+      "initiatorType": "fetch",
+      "startTime": 23059.5,
+      "duration": 584,
+      "transferSize": 5783
+    },
+    {
+      "name": "http://127.0.0.1:5173/api/fleet/candidates",
+      "initiatorType": "fetch",
+      "startTime": 29846.399999976158,
+      "duration": 780.8000000715256,
+      "transferSize": 4293
+    },
+    {
+      "name": "http://127.0.0.1:5173/api/route",
+      "initiatorType": "fetch",
+      "startTime": 30638.899999976158,
+      "duration": 1261.2000000476837,
+      "transferSize": 1962
+    },
+    {
+      "name": "http://127.0.0.1:5173/api/route",
+      "initiatorType": "fetch",
+      "startTime": 30639.5,
+      "duration": 1273.7000000476837,
+      "transferSize": 2031
+    },
+    {
+      "name": "http://127.0.0.1:5173/api/route",
+      "initiatorType": "fetch",
+      "startTime": 31903.800000071526,
+      "duration": 1316.7999999523163,
+      "transferSize": 1552
+    },
+    {
+      "name": "http://127.0.0.1:5173/api/route",
+      "initiatorType": "fetch",
+      "startTime": 31949.200000047684,
+      "duration": 1280.6999999284744,
+      "transferSize": 3550
+    },
+    {
+      "name": "http://127.0.0.1:5173/api/route",
+      "initiatorType": "fetch",
+      "startTime": 33223.39999997616,
+      "duration": 1852.9000000953674,
+      "transferSize": 3845
+    },
+    {
+      "name": "http://127.0.0.1:5173/api/route",
+      "initiatorType": "fetch",
+      "startTime": 33278.800000071526,
+      "duration": 1823.1999999284744,
+      "transferSize": 1370
+    },
+    {
+      "name": "http://127.0.0.1:5173/api/dataset/status",
+      "initiatorType": "fetch",
+      "startTime": 33666.5,
+      "duration": 1437.8999999761581,
+      "transferSize": 5783
+    },
+    {
+      "name": "http://127.0.0.1:5173/api/route",
+      "initiatorType": "fetch",
+      "startTime": 35079.200000047684,
+      "duration": 1214.7999999523163,
+      "transferSize": 2315
+    },
+    {
+      "name": "http://127.0.0.1:5173/api/route",
+      "initiatorType": "fetch",
+      "startTime": 35132.300000071526,
+      "duration": 1166.7999999523163,
+      "transferSize": 2991
+    },
+    {
+      "name": "http://127.0.0.1:5173/api/route",
+      "initiatorType": "fetch",
+      "startTime": 36299.39999997616,
+      "duration": 1204,
+      "transferSize": 4842
+    },
+    {
+      "name": "http://127.0.0.1:5173/api/route",
+      "initiatorType": "fetch",
+      "startTime": 36337.5,
+      "duration": 1177.8000000715256,
+      "transferSize": 1893
+    },
+    {
+      "name": "http://127.0.0.1:5173/api/dataset/status",
+      "initiatorType": "fetch",
+      "startTime": 45147.10000002384,
+      "duration": 572.1000000238419,
+      "transferSize": 5783
+    },
+    {
+      "name": "http://127.0.0.1:5173/api/dataset/status",
+      "initiatorType": "fetch",
+      "startTime": 55727.10000002384,
+      "duration": 827.3999999761581,
+      "transferSize": 5783
+    },
+    {
+      "name": "http://127.0.0.1:5173/api/dataset/status",
+      "initiatorType": "fetch",
+      "startTime": 66561,
+      "duration": 856.7000000476837,
+      "transferSize": 5783
+    },
+    {
+      "name": "http://127.0.0.1:5173/api/dataset/status",
+      "initiatorType": "fetch",
+      "startTime": 77428.39999997616,
+      "duration": 840.5,
+      "transferSize": 5783
+    },
+    {
+      "name": "http://127.0.0.1:5173/api/dataset/status",
+      "initiatorType": "fetch",
+      "startTime": 88280.20000004768,
+      "duration": 639.5,
+      "transferSize": 5783
+    },
+    {
+      "name": "http://127.0.0.1:5173/api/dataset/status",
+      "initiatorType": "fetch",
+      "startTime": 98939.70000004768,
+      "duration": 661.1000000238419,
+      "transferSize": 5783
+    },
+    {
+      "name": "http://127.0.0.1:5173/api/dataset/status",
+      "initiatorType": "fetch",
+      "startTime": 109621.20000004768,
+      "duration": 576.1999999284744,
+      "transferSize": 5783
+    },
+    {
+      "name": "http://127.0.0.1:5173/api/dataset/status",
+      "initiatorType": "fetch",
+      "startTime": 120211.39999997616,
+      "duration": 183.70000004768372,
+      "transferSize": 5783
+    },
+    {
+      "name": "http://127.0.0.1:5173/api/dataset/status",
+      "initiatorType": "fetch",
+      "startTime": 130407.80000007153,
+      "duration": 195.59999990463257,
+      "transferSize": 5783
+    },
+    {
+      "name": "http://127.0.0.1:5173/api/dataset/status",
+      "initiatorType": "fetch",
+      "startTime": 140613.30000007153,
+      "duration": 584.3999999761581,
+      "transferSize": 5783
+    },
+    {
+      "name": "http://127.0.0.1:5173/api/dataset/status",
+      "initiatorType": "fetch",
+      "startTime": 151213,
+      "duration": 582.2000000476837,
+      "transferSize": 5783
+    },
+    {
+      "name": "http://127.0.0.1:5173/src/index.css?t=1791736221404",
+      "initiatorType": "script",
+      "startTime": 162336.39999997616,
+      "duration": 170.5,
+      "transferSize": 51807
+    },
+    {
+      "name": "http://127.0.0.1:5173/src/components/fleet-map.tsx?t=1791736221404",
+      "initiatorType": "script",
+      "startTime": 162336.70000004768,
+      "duration": 170.10000002384186,
+      "transferSize": 16226
+    },
+    {
+      "name": "http://127.0.0.1:5173/api/dataset/status",
+      "initiatorType": "fetch",
+      "startTime": 161809.89999997616,
+      "duration": 697.5,
+      "transferSize": 5783
+    },
+    {
+      "name": "http://127.0.0.1:5173/api/dataset/status",
+      "initiatorType": "fetch",
+      "startTime": 172530.70000004768,
+      "duration": 586.7999999523163,
+      "transferSize": 5783
+    },
+    {
+      "name": "http://127.0.0.1:5173/api/dataset/status",
+      "initiatorType": "fetch",
+      "startTime": 183203.89999997616,
+      "duration": 777.2000000476837,
+      "transferSize": 5783
+    },
+    {
+      "name": "http://127.0.0.1:5173/api/fleet/candidates",
+      "initiatorType": "fetch",
+      "startTime": 187287.30000007153,
+      "duration": 711.2999999523163,
+      "transferSize": 4293
+    },
+    {
+      "name": "http://127.0.0.1:5173/api/dataset/status",
+      "initiatorType": "fetch",
+      "startTime": 194138.30000007153,
+      "duration": 399.7999999523163,
+      "transferSize": 5783
+    },
+    {
+      "name": "http://127.0.0.1:5173/api/dataset/status",
+      "initiatorType": "fetch",
+      "startTime": 204554.39999997616,
+      "duration": 187.10000002384186,
+      "transferSize": 5783
+    },
+    {
+      "name": "http://127.0.0.1:5173/api/dataset/status",
+      "initiatorType": "fetch",
+      "startTime": 214757.5,
+      "duration": 295.7000000476837,
+      "transferSize": 5783
+    },
+    {
+      "name": "http://127.0.0.1:5173/api/dataset/status",
+      "initiatorType": "fetch",
+      "startTime": 225058.30000007153,
+      "duration": 195.89999997615814,
+      "transferSize": 5783
+    },
+    {
+      "name": "http://127.0.0.1:5173/api/dataset/status",
+      "initiatorType": "fetch",
+      "startTime": 235269,
+      "duration": 596.5,
+      "transferSize": 5783
+    },
+    {
+      "name": "http://127.0.0.1:5173/api/dataset/status",
+      "initiatorType": "fetch",
+      "startTime": 245873.70000004768,
+      "duration": 328,
+      "transferSize": 5783
+    },
+    {
+      "name": "http://127.0.0.1:5173/api/dataset/status",
+      "initiatorType": "fetch",
+      "startTime": 256321.89999997616,
+      "duration": 817.7000000476837,
+      "transferSize": 5783
+    },
+    {
+      "name": "http://127.0.0.1:5173/api/dataset/status",
+      "initiatorType": "fetch",
+      "startTime": 267550,
+      "duration": 621.7000000476837,
+      "transferSize": 5783
+    },
+    {
+      "name": "http://127.0.0.1:5173/api/dataset/status",
+      "initiatorType": "fetch",
+      "startTime": 278446.10000002384,
+      "duration": 799.2999999523163,
+      "transferSize": 5783
+    },
+    {
+      "name": "http://127.0.0.1:5173/src/index.css?t=1791736339443",
+      "initiatorType": "script",
+      "startTime": 280392.2000000477,
+      "duration": 99.39999997615814,
+      "transferSize": 51807
+    },
+    {
+      "name": "http://127.0.0.1:5173/src/components/fleet-map.tsx?t=1791736339443",
+      "initiatorType": "script",
+      "startTime": 280392.60000002384,
+      "duration": 104.10000002384186,
+      "transferSize": 16683
+    },
+    {
+      "name": "http://127.0.0.1:5173/api/dataset/status",
+      "initiatorType": "fetch",
+      "startTime": 289409.10000002384,
+      "duration": 682.3999999761581,
+      "transferSize": 5783
+    },
+    {
+      "name": "http://127.0.0.1:5173/api/dataset/status",
+      "initiatorType": "fetch",
+      "startTime": 300293.8000000715,
+      "duration": 803.0999999046326,
+      "transferSize": 5783
+    },
+    {
+      "name": "http://127.0.0.1:5173/api/dataset/status",
+      "initiatorType": "fetch",
+      "startTime": 311293.39999997616,
+      "duration": 817.3000000715256,
+      "transferSize": 5783
+    },
+    {
+      "name": "http://127.0.0.1:5173/api/dataset/status",
+      "initiatorType": "fetch",
+      "startTime": 322257.89999997616,
+      "duration": 549.2000000476837,
+      "transferSize": 5783
+    }
+  ],
+  "final10": {
+    "wall": 1791736431435,
+    "canvases": 1,
+    "markers": [
+      {
+        "coordinate": [
+          106.69026193305744,
+          10.762245220959612
+        ],
+        "id": "GSM-01",
+        "progress": 0.6444616576297444,
+        "status": "moving",
+        "transform": "transform: translate(-50%, -50%) translate(262px, 813px) rotateX(0deg) rotateZ(0deg); opacity: 1;"
+      },
+      {
+        "coordinate": [
+          106.71018794848568,
+          10.779569065694238
+        ],
+        "id": "GSM-02",
+        "progress": 0.1859114015976761,
+        "status": "moving",
+        "transform": "transform: translate(-50%, -50%) translate(811px, 327px) rotateX(0deg) rotateZ(0deg); opacity: 1;"
+      },
+      {
+        "coordinate": [
+          106.68725473509252,
+          10.771286382136388
+        ],
+        "id": "GSM-03",
+        "progress": 0.6666666666666667,
+        "status": "moving",
+        "transform": "transform: translate(-50%, -50%) translate(180px, 559px) rotateX(0deg) rotateZ(0deg); opacity: 1;"
+      },
+      {
+        "coordinate": [
+          106.69533569044827,
+          10.783194762557438
+        ],
+        "id": "GSM-04",
+        "progress": 0.24391963341557985,
+        "status": "moving",
+        "transform": "transform: translate(-50%, -50%) translate(402px, 226px) rotateX(0deg) rotateZ(0deg); opacity: 1;"
+      },
+      {
+        "coordinate": [
+          106.70808041526683,
+          10.780733000905272
+        ],
+        "id": "GSM-05",
+        "progress": 0.13329862015100236,
+        "status": "moving",
+        "transform": "transform: translate(-50%, -50%) translate(753px, 295px) rotateX(0deg) rotateZ(0deg); opacity: 1;"
+      },
+      {
+        "coordinate": [
+          106.69225604969635,
+          10.776629230144568
+        ],
+        "id": "GSM-06",
+        "progress": 0.3779816513761468,
+        "status": "moving",
+        "transform": "transform: translate(-50%, -50%) translate(317px, 410px) rotateX(0deg) rotateZ(0deg); opacity: 1;"
+      },
+      {
+        "coordinate": [
+          106.70311271772988,
+          10.76400163999492
+        ],
+        "id": "GSM-07",
+        "progress": 0.29373902867173785,
+        "status": "moving",
+        "transform": "transform: translate(-50%, -50%) translate(616px, 764px) rotateX(0deg) rotateZ(0deg); opacity: 1;"
+      },
+      {
+        "coordinate": [
+          106.69192393685982,
+          10.784636298361916
+        ],
+        "id": "GSM-08",
+        "progress": 0.1238442140655646,
+        "status": "moving",
+        "transform": "transform: translate(-50%, -50%) translate(308px, 185px) rotateX(0deg) rotateZ(0deg); opacity: 1;"
+      },
+      {
+        "coordinate": [
+          106.70808091420336,
+          10.78082464876819
+        ],
+        "id": "GSM-09",
+        "progress": 0.14895833333333333,
+        "status": "moving",
+        "transform": "transform: translate(-50%, -50%) translate(753px, 292px) rotateX(0deg) rotateZ(0deg); opacity: 1;"
+      },
+      {
+        "coordinate": [
+          106.6918931018894,
+          10.782436107658755
+        ],
+        "id": "GSM-10",
+        "progress": 0.28470254957507085,
+        "status": "moving",
+        "transform": "transform: translate(-50%, -50%) translate(307px, 247px) rotateX(0deg) rotateZ(0deg); opacity: 1;"
+      }
+    ],
+    "metrics": {
+      "frameSamples": 1489,
+      "maxFrameMilliseconds": 366.7000000000117,
+      "meanFrameMilliseconds": 40.7929482873932
+    },
+    "state": "paused",
+    "summary": "Đã tạo 10/10 xe · 0.00 s0 route requests · 10 cache hitsSeed: hcm-fleet-2026Provenance scenarioFingerprint: 9193a3a34bd10f14a21da7121552503971f85419d7241aeb71bc7193eaac3341OSRM local / car / MLD · car · snap ≤ 100 m",
+    "time": 83.2
+  },
+  "networkAfterControls": [
+    {
+      "name": "http://127.0.0.1:5173/@vite/client",
+      "initiatorType": "script",
+      "startTime": 141.20000004768372,
+      "duration": 123.19999992847443,
+      "transferSize": 300
+    },
+    {
+      "name": "http://127.0.0.1:5173/src/main.tsx",
+      "initiatorType": "script",
+      "startTime": 143.20000004768372,
+      "duration": 122.5,
+      "transferSize": 300
+    },
+    {
+      "name": "http://127.0.0.1:5173/@react-refresh",
+      "initiatorType": "script",
+      "startTime": 143.70000004768372,
+      "duration": 126.19999992847443,
+      "transferSize": 300
+    },
+    {
+      "name": "http://127.0.0.1:5173/node_modules/.vite/deps/react.js?v=ed6c8915",
+      "initiatorType": "script",
+      "startTime": 269.8000000715256,
+      "duration": 0,
+      "transferSize": 0
+    },
+    {
+      "name": "http://127.0.0.1:5173/node_modules/.vite/deps/react-dom_client.js?v=9001c08f",
+      "initiatorType": "script",
+      "startTime": 270,
+      "duration": 0,
+      "transferSize": 0
+    },
+    {
+      "name": "http://127.0.0.1:5173/src/index.css",
+      "initiatorType": "script",
+      "startTime": 270.2000000476837,
+      "duration": 69.5,
+      "transferSize": 300
+    },
+    {
+      "name": "http://127.0.0.1:5173/src/App.tsx",
+      "initiatorType": "script",
+      "startTime": 270.3000000715256,
+      "duration": 111.59999990463257,
+      "transferSize": 300
+    },
+    {
+      "name": "http://127.0.0.1:5173/node_modules/.vite/deps/react_jsx-dev-runtime.js?v=ed6c8915",
+      "initiatorType": "script",
+      "startTime": 270.7000000476837,
+      "duration": 0,
+      "transferSize": 0
+    },
+    {
+      "name": "http://127.0.0.1:5173/node_modules/.vite/deps/rolldown-runtime-DC62tzP2.js?v=61619e29",
+      "initiatorType": "script",
+      "startTime": 271.5,
+      "duration": 0,
+      "transferSize": 0
+    },
+    {
+      "name": "http://127.0.0.1:5173/node_modules/.vite/deps/react-dom.js?v=ed6c8915",
+      "initiatorType": "script",
+      "startTime": 271.7000000476837,
+      "duration": 0,
+      "transferSize": 0
+    },
+    {
+      "name": "http://127.0.0.1:5173/node_modules/vite/dist/client/env.mjs",
+      "initiatorType": "script",
+      "startTime": 271.89999997615814,
+      "duration": 109.70000004768372,
+      "transferSize": 300
+    },
+    {
+      "name": "http://127.0.0.1:5173/node_modules/.vite/deps/lucide-react.js?v=0a44acb3",
+      "initiatorType": "script",
+      "startTime": 389.8000000715256,
+      "duration": 0,
+      "transferSize": 0
+    },
+    {
+      "name": "http://127.0.0.1:5173/src/components/ui/button.tsx",
+      "initiatorType": "script",
+      "startTime": 389.89999997615814,
+      "duration": 31.800000071525574,
+      "transferSize": 300
+    },
+    {
+      "name": "http://127.0.0.1:5173/src/components/ui/badge.tsx",
+      "initiatorType": "script",
+      "startTime": 390,
+      "duration": 32.200000047683716,
+      "transferSize": 300
+    },
+    {
+      "name": "http://127.0.0.1:5173/src/components/ui/slider.tsx",
+      "initiatorType": "script",
+      "startTime": 390.2000000476837,
+      "duration": 32.10000002384186,
+      "transferSize": 300
+    },
+    {
+      "name": "http://127.0.0.1:5173/src/components/sandbox-map.tsx",
+      "initiatorType": "script",
+      "startTime": 390.3000000715256,
+      "duration": 32.5,
+      "transferSize": 300
+    },
+    {
+      "name": "http://127.0.0.1:5173/src/lib/api.ts",
+      "initiatorType": "script",
+      "startTime": 390.39999997615814,
+      "duration": 35.60000002384186,
+      "transferSize": 300
+    },
+    {
+      "name": "http://127.0.0.1:5173/src/lib/use-playback.ts",
+      "initiatorType": "script",
+      "startTime": 390.60000002384186,
+      "duration": 35.700000047683716,
+      "transferSize": 300
+    },
+    {
+      "name": "http://127.0.0.1:5173/src/lib/playback.ts",
+      "initiatorType": "script",
+      "startTime": 390.7000000476837,
+      "duration": 39.60000002384186,
+      "transferSize": 300
+    },
+    {
+      "name": "http://127.0.0.1:5173/src/App.css",
+      "initiatorType": "script",
+      "startTime": 390.89999997615814,
+      "duration": 39.60000002384186,
+      "transferSize": 300
+    },
+    {
+      "name": "http://127.0.0.1:5173/src/lib/use-fleet.ts",
+      "initiatorType": "script",
+      "startTime": 391,
+      "duration": 39.700000047683716,
+      "transferSize": 300
+    },
+    {
+      "name": "http://127.0.0.1:5173/src/components/fleet-panel.tsx",
+      "initiatorType": "script",
+      "startTime": 391.2000000476837,
+      "duration": 80.60000002384186,
+      "transferSize": 300
+    },
+    {
+      "name": "http://127.0.0.1:5173/src/components/runtime-audit.tsx",
+      "initiatorType": "script",
+      "startTime": 391.39999997615814,
+      "duration": 86.10000002384186,
+      "transferSize": 300
+    },
+    {
+      "name": "http://127.0.0.1:5173/node_modules/.vite/deps/@base-ui_react_slider.js?v=95f7ba50",
+      "initiatorType": "script",
+      "startTime": 433,
+      "duration": 0,
+      "transferSize": 0
+    },
+    {
+      "name": "http://127.0.0.1:5173/node_modules/.vite/deps/cn.js?v=e5fee4c7",
+      "initiatorType": "script",
+      "startTime": 433,
+      "duration": 0,
+      "transferSize": 0
+    },
+    {
+      "name": "http://127.0.0.1:5173/node_modules/.vite/deps/@base-ui_react_button.js?v=79242e4a",
+      "initiatorType": "script",
+      "startTime": 434.39999997615814,
+      "duration": 0,
+      "transferSize": 0
+    },
+    {
+      "name": "http://127.0.0.1:5173/node_modules/.vite/deps/class-variance-authority.js?v=dc72af91",
+      "initiatorType": "script",
+      "startTime": 434.60000002384186,
+      "duration": 0,
+      "transferSize": 0
+    },
+    {
+      "name": "http://127.0.0.1:5173/node_modules/.vite/deps/react_jsx-runtime.js?v=ed6c8915",
+      "initiatorType": "script",
+      "startTime": 434.89999997615814,
+      "duration": 0,
+      "transferSize": 0
+    },
+    {
+      "name": "http://127.0.0.1:5173/node_modules/.vite/deps/formatErrorMessage-xk6KuFPl.js?v=61619e29",
+      "initiatorType": "script",
+      "startTime": 435,
+      "duration": 0,
+      "transferSize": 0
+    },
+    {
+      "name": "http://127.0.0.1:5173/node_modules/.vite/deps/useRenderElement-HgjcGXBI.js?v=61619e29",
+      "initiatorType": "script",
+      "startTime": 435.2000000476837,
+      "duration": 0,
+      "transferSize": 0
+    },
+    {
+      "name": "http://127.0.0.1:5173/node_modules/.vite/deps/merge-props-B4lpaVXg.js?v=61619e29",
+      "initiatorType": "script",
+      "startTime": 435.39999997615814,
+      "duration": 0,
+      "transferSize": 0
+    },
+    {
+      "name": "http://127.0.0.1:5173/node_modules/.vite/deps/@base-ui_react_merge-props.js?v=84543253",
+      "initiatorType": "script",
+      "startTime": 435.7000000476837,
+      "duration": 0,
+      "transferSize": 0
+    },
+    {
+      "name": "http://127.0.0.1:5173/node_modules/.vite/deps/@base-ui_react_use-render.js?v=50907226",
+      "initiatorType": "script",
+      "startTime": 435.8000000715256,
+      "duration": 0,
+      "transferSize": 0
+    },
+    {
+      "name": "http://127.0.0.1:5173/src/components/ui/map.tsx",
+      "initiatorType": "script",
+      "startTime": 436.3000000715256,
+      "duration": 70.39999997615814,
+      "transferSize": 300
+    },
+    {
+      "name": "http://127.0.0.1:5173/src/lib/map-style.ts",
+      "initiatorType": "script",
+      "startTime": 436.39999997615814,
+      "duration": 68.60000002384186,
+      "transferSize": 300
+    },
+    {
+      "name": "http://127.0.0.1:5173/src/components/fleet-map.tsx",
+      "initiatorType": "script",
+      "startTime": 436.39999997615814,
+      "duration": 70,
+      "transferSize": 300
+    },
+    {
+      "name": "http://127.0.0.1:5173/src/lib/fleet.ts",
+      "initiatorType": "script",
+      "startTime": 437.5,
+      "duration": 111.60000002384186,
+      "transferSize": 300
+    },
+    {
+      "name": "http://127.0.0.1:5173/src/lib/fleet-clock.ts",
+      "initiatorType": "script",
+      "startTime": 437.7000000476837,
+      "duration": 111.89999997615814,
+      "transferSize": 300
+    },
+    {
+      "name": "http://127.0.0.1:5173/node_modules/@fontsource-variable/geist/files/geist-latin-wght-normal.woff2?import&url",
+      "initiatorType": "script",
+      "startTime": 508.39999997615814,
+      "duration": 46.200000047683716,
+      "transferSize": 300
+    },
+    {
+      "name": "http://127.0.0.1:5173/node_modules/@fontsource-variable/geist/files/geist-vietnamese-wght-normal.woff2?import&url",
+      "initiatorType": "script",
+      "startTime": 508.5,
+      "duration": 48,
+      "transferSize": 300
+    },
+    {
+      "name": "http://127.0.0.1:5173/node_modules/.vite/deps/maplibre-gl.js?v=b23cf990",
+      "initiatorType": "script",
+      "startTime": 511.89999997615814,
+      "duration": 0,
+      "transferSize": 0
+    },
+    {
+      "name": "http://127.0.0.1:5173/node_modules/maplibre-gl/dist/maplibre-gl.css",
+      "initiatorType": "script",
+      "startTime": 512,
+      "duration": 48,
+      "transferSize": 300
+    },
+    {
+      "name": "http://127.0.0.1:5173/src/lib/utils.ts",
+      "initiatorType": "script",
+      "startTime": 512.2000000476837,
+      "duration": 47.60000002384186,
+      "transferSize": 300
+    },
+    {
+      "name": "http://127.0.0.1:5173/node_modules/@fontsource-variable/geist/files/geist-latin-wght-normal.woff2",
+      "initiatorType": "css",
+      "startTime": 900.1000000238419,
+      "duration": 142,
+      "transferSize": 300
+    },
+    {
+      "name": "http://127.0.0.1:5173/node_modules/@fontsource-variable/geist/files/geist-vietnamese-wght-normal.woff2",
+      "initiatorType": "css",
+      "startTime": 901.5,
+      "duration": 141.89999997615814,
+      "transferSize": 300
+    },
+    {
+      "name": "http://127.0.0.1:5173/node_modules/@fontsource-variable/geist/files/geist-latin-ext-wght-normal.woff2",
+      "initiatorType": "css",
+      "startTime": 902,
+      "duration": 7.200000047683716,
+      "transferSize": 300
+    },
+    {
+      "name": "http://127.0.0.1:5173/api/dataset/status",
+      "initiatorType": "fetch",
+      "startTime": 951.8999999761581,
+      "duration": 255,
+      "transferSize": 0
+    },
+    {
+      "name": "http://127.0.0.1:5173/maplibre-gl-worker.mjs",
+      "initiatorType": "other",
+      "startTime": 1217.1000000238419,
+      "duration": -256.7999999523163,
+      "transferSize": 300
+    },
+    {
+      "name": "http://127.0.0.1:5173/favicon.svg",
+      "initiatorType": "other",
+      "startTime": 1279.3000000715256,
+      "duration": 21.59999990463257,
+      "transferSize": 300
+    },
+    {
+      "name": "http://127.0.0.1:5173/api/dataset/status",
+      "initiatorType": "fetch",
+      "startTime": 1004.7000000476837,
+      "duration": 1405.6999999284744,
+      "transferSize": 5783
+    },
+    {
+      "name": "http://127.0.0.1:5173/node_modules/@fontsource-variable/geist/files/geist-latin-wght-normal.woff2",
+      "initiatorType": "fetch",
+      "startTime": 4227.399999976158,
+      "duration": 7.300000071525574,
+      "transferSize": 300
+    },
+    {
+      "name": "http://127.0.0.1:5173/node_modules/@fontsource-variable/geist/files/geist-vietnamese-wght-normal.woff2",
+      "initiatorType": "fetch",
+      "startTime": 4227.800000071526,
+      "duration": 9.799999952316284,
+      "transferSize": 300
+    },
+    {
+      "name": "http://127.0.0.1:5173/api/dataset/status",
+      "initiatorType": "fetch",
+      "startTime": 12428.100000023842,
+      "duration": 615,
+      "transferSize": 5783
+    },
+    {
+      "name": "http://127.0.0.1:5173/api/dataset/status",
+      "initiatorType": "fetch",
+      "startTime": 23059.5,
+      "duration": 584,
+      "transferSize": 5783
+    },
+    {
+      "name": "http://127.0.0.1:5173/api/fleet/candidates",
+      "initiatorType": "fetch",
+      "startTime": 29846.399999976158,
+      "duration": 780.8000000715256,
+      "transferSize": 4293
+    },
+    {
+      "name": "http://127.0.0.1:5173/api/route",
+      "initiatorType": "fetch",
+      "startTime": 30638.899999976158,
+      "duration": 1261.2000000476837,
+      "transferSize": 1962
+    },
+    {
+      "name": "http://127.0.0.1:5173/api/route",
+      "initiatorType": "fetch",
+      "startTime": 30639.5,
+      "duration": 1273.7000000476837,
+      "transferSize": 2031
+    },
+    {
+      "name": "http://127.0.0.1:5173/api/route",
+      "initiatorType": "fetch",
+      "startTime": 31903.800000071526,
+      "duration": 1316.7999999523163,
+      "transferSize": 1552
+    },
+    {
+      "name": "http://127.0.0.1:5173/api/route",
+      "initiatorType": "fetch",
+      "startTime": 31949.200000047684,
+      "duration": 1280.6999999284744,
+      "transferSize": 3550
+    },
+    {
+      "name": "http://127.0.0.1:5173/api/route",
+      "initiatorType": "fetch",
+      "startTime": 33223.39999997616,
+      "duration": 1852.9000000953674,
+      "transferSize": 3845
+    },
+    {
+      "name": "http://127.0.0.1:5173/api/route",
+      "initiatorType": "fetch",
+      "startTime": 33278.800000071526,
+      "duration": 1823.1999999284744,
+      "transferSize": 1370
+    },
+    {
+      "name": "http://127.0.0.1:5173/api/dataset/status",
+      "initiatorType": "fetch",
+      "startTime": 33666.5,
+      "duration": 1437.8999999761581,
+      "transferSize": 5783
+    },
+    {
+      "name": "http://127.0.0.1:5173/api/route",
+      "initiatorType": "fetch",
+      "startTime": 35079.200000047684,
+      "duration": 1214.7999999523163,
+      "transferSize": 2315
+    },
+    {
+      "name": "http://127.0.0.1:5173/api/route",
+      "initiatorType": "fetch",
+      "startTime": 35132.300000071526,
+      "duration": 1166.7999999523163,
+      "transferSize": 2991
+    },
+    {
+      "name": "http://127.0.0.1:5173/api/route",
+      "initiatorType": "fetch",
+      "startTime": 36299.39999997616,
+      "duration": 1204,
+      "transferSize": 4842
+    },
+    {
+      "name": "http://127.0.0.1:5173/api/route",
+      "initiatorType": "fetch",
+      "startTime": 36337.5,
+      "duration": 1177.8000000715256,
+      "transferSize": 1893
+    },
+    {
+      "name": "http://127.0.0.1:5173/api/dataset/status",
+      "initiatorType": "fetch",
+      "startTime": 45147.10000002384,
+      "duration": 572.1000000238419,
+      "transferSize": 5783
+    },
+    {
+      "name": "http://127.0.0.1:5173/api/dataset/status",
+      "initiatorType": "fetch",
+      "startTime": 55727.10000002384,
+      "duration": 827.3999999761581,
+      "transferSize": 5783
+    },
+    {
+      "name": "http://127.0.0.1:5173/api/dataset/status",
+      "initiatorType": "fetch",
+      "startTime": 66561,
+      "duration": 856.7000000476837,
+      "transferSize": 5783
+    },
+    {
+      "name": "http://127.0.0.1:5173/api/dataset/status",
+      "initiatorType": "fetch",
+      "startTime": 77428.39999997616,
+      "duration": 840.5,
+      "transferSize": 5783
+    },
+    {
+      "name": "http://127.0.0.1:5173/api/dataset/status",
+      "initiatorType": "fetch",
+      "startTime": 88280.20000004768,
+      "duration": 639.5,
+      "transferSize": 5783
+    },
+    {
+      "name": "http://127.0.0.1:5173/api/dataset/status",
+      "initiatorType": "fetch",
+      "startTime": 98939.70000004768,
+      "duration": 661.1000000238419,
+      "transferSize": 5783
+    },
+    {
+      "name": "http://127.0.0.1:5173/api/dataset/status",
+      "initiatorType": "fetch",
+      "startTime": 109621.20000004768,
+      "duration": 576.1999999284744,
+      "transferSize": 5783
+    },
+    {
+      "name": "http://127.0.0.1:5173/api/dataset/status",
+      "initiatorType": "fetch",
+      "startTime": 120211.39999997616,
+      "duration": 183.70000004768372,
+      "transferSize": 5783
+    },
+    {
+      "name": "http://127.0.0.1:5173/api/dataset/status",
+      "initiatorType": "fetch",
+      "startTime": 130407.80000007153,
+      "duration": 195.59999990463257,
+      "transferSize": 5783
+    },
+    {
+      "name": "http://127.0.0.1:5173/api/dataset/status",
+      "initiatorType": "fetch",
+      "startTime": 140613.30000007153,
+      "duration": 584.3999999761581,
+      "transferSize": 5783
+    },
+    {
+      "name": "http://127.0.0.1:5173/api/dataset/status",
+      "initiatorType": "fetch",
+      "startTime": 151213,
+      "duration": 582.2000000476837,
+      "transferSize": 5783
+    },
+    {
+      "name": "http://127.0.0.1:5173/src/index.css?t=1791736221404",
+      "initiatorType": "script",
+      "startTime": 162336.39999997616,
+      "duration": 170.5,
+      "transferSize": 51807
+    },
+    {
+      "name": "http://127.0.0.1:5173/src/components/fleet-map.tsx?t=1791736221404",
+      "initiatorType": "script",
+      "startTime": 162336.70000004768,
+      "duration": 170.10000002384186,
+      "transferSize": 16226
+    },
+    {
+      "name": "http://127.0.0.1:5173/api/dataset/status",
+      "initiatorType": "fetch",
+      "startTime": 161809.89999997616,
+      "duration": 697.5,
+      "transferSize": 5783
+    },
+    {
+      "name": "http://127.0.0.1:5173/api/dataset/status",
+      "initiatorType": "fetch",
+      "startTime": 172530.70000004768,
+      "duration": 586.7999999523163,
+      "transferSize": 5783
+    },
+    {
+      "name": "http://127.0.0.1:5173/api/dataset/status",
+      "initiatorType": "fetch",
+      "startTime": 183203.89999997616,
+      "duration": 777.2000000476837,
+      "transferSize": 5783
+    },
+    {
+      "name": "http://127.0.0.1:5173/api/fleet/candidates",
+      "initiatorType": "fetch",
+      "startTime": 187287.30000007153,
+      "duration": 711.2999999523163,
+      "transferSize": 4293
+    },
+    {
+      "name": "http://127.0.0.1:5173/api/dataset/status",
+      "initiatorType": "fetch",
+      "startTime": 194138.30000007153,
+      "duration": 399.7999999523163,
+      "transferSize": 5783
+    },
+    {
+      "name": "http://127.0.0.1:5173/api/dataset/status",
+      "initiatorType": "fetch",
+      "startTime": 204554.39999997616,
+      "duration": 187.10000002384186,
+      "transferSize": 5783
+    },
+    {
+      "name": "http://127.0.0.1:5173/api/dataset/status",
+      "initiatorType": "fetch",
+      "startTime": 214757.5,
+      "duration": 295.7000000476837,
+      "transferSize": 5783
+    },
+    {
+      "name": "http://127.0.0.1:5173/api/dataset/status",
+      "initiatorType": "fetch",
+      "startTime": 225058.30000007153,
+      "duration": 195.89999997615814,
+      "transferSize": 5783
+    },
+    {
+      "name": "http://127.0.0.1:5173/api/dataset/status",
+      "initiatorType": "fetch",
+      "startTime": 235269,
+      "duration": 596.5,
+      "transferSize": 5783
+    },
+    {
+      "name": "http://127.0.0.1:5173/api/dataset/status",
+      "initiatorType": "fetch",
+      "startTime": 245873.70000004768,
+      "duration": 328,
+      "transferSize": 5783
+    },
+    {
+      "name": "http://127.0.0.1:5173/api/dataset/status",
+      "initiatorType": "fetch",
+      "startTime": 256321.89999997616,
+      "duration": 817.7000000476837,
+      "transferSize": 5783
+    },
+    {
+      "name": "http://127.0.0.1:5173/api/dataset/status",
+      "initiatorType": "fetch",
+      "startTime": 267550,
+      "duration": 621.7000000476837,
+      "transferSize": 5783
+    },
+    {
+      "name": "http://127.0.0.1:5173/api/dataset/status",
+      "initiatorType": "fetch",
+      "startTime": 278446.10000002384,
+      "duration": 799.2999999523163,
+      "transferSize": 5783
+    },
+    {
+      "name": "http://127.0.0.1:5173/src/index.css?t=1791736339443",
+      "initiatorType": "script",
+      "startTime": 280392.2000000477,
+      "duration": 99.39999997615814,
+      "transferSize": 51807
+    },
+    {
+      "name": "http://127.0.0.1:5173/src/components/fleet-map.tsx?t=1791736339443",
+      "initiatorType": "script",
+      "startTime": 280392.60000002384,
+      "duration": 104.10000002384186,
+      "transferSize": 16683
+    },
+    {
+      "name": "http://127.0.0.1:5173/api/dataset/status",
+      "initiatorType": "fetch",
+      "startTime": 289409.10000002384,
+      "duration": 682.3999999761581,
+      "transferSize": 5783
+    },
+    {
+      "name": "http://127.0.0.1:5173/api/dataset/status",
+      "initiatorType": "fetch",
+      "startTime": 300293.8000000715,
+      "duration": 803.0999999046326,
+      "transferSize": 5783
+    },
+    {
+      "name": "http://127.0.0.1:5173/api/dataset/status",
+      "initiatorType": "fetch",
+      "startTime": 311293.39999997616,
+      "duration": 817.3000000715256,
+      "transferSize": 5783
+    },
+    {
+      "name": "http://127.0.0.1:5173/api/dataset/status",
+      "initiatorType": "fetch",
+      "startTime": 322257.89999997616,
+      "duration": 549.2000000476837,
+      "transferSize": 5783
+    },
+    {
+      "name": "http://127.0.0.1:5173/api/fleet/candidates",
+      "initiatorType": "fetch",
+      "startTime": 332207.5,
+      "duration": 1310.2000000476837,
+      "transferSize": 4293
+    },
+    {
+      "name": "http://127.0.0.1:5173/api/dataset/status",
+      "initiatorType": "fetch",
+      "startTime": 332823.39999997616,
+      "duration": 707.9000000953674,
+      "transferSize": 5783
+    },
+    {
+      "name": "http://127.0.0.1:5173/api/dataset/status",
+      "initiatorType": "fetch",
+      "startTime": 343761.3000000715,
+      "duration": 555.2999999523163,
+      "transferSize": 5783
+    },
+    {
+      "name": "http://127.0.0.1:5173/api/dataset/status",
+      "initiatorType": "fetch",
+      "startTime": 354326.5,
+      "duration": 572.1000000238419,
+      "transferSize": 5783
+    },
+    {
+      "name": "http://127.0.0.1:5173/api/dataset/status",
+      "initiatorType": "fetch",
+      "startTime": 364901.7000000477,
+      "duration": 716.6999999284744,
+      "transferSize": 5783
+    },
+    {
+      "name": "http://127.0.0.1:5173/api/dataset/status",
+      "initiatorType": "fetch",
+      "startTime": 375638.5,
+      "duration": 643.7000000476837,
+      "transferSize": 5783
+    },
+    {
+      "name": "http://127.0.0.1:5173/api/dataset/status",
+      "initiatorType": "fetch",
+      "startTime": 386291.10000002384,
+      "duration": 584.1000000238419,
+      "transferSize": 5783
+    },
+    {
+      "name": "http://127.0.0.1:5173/api/dataset/status",
+      "initiatorType": "fetch",
+      "startTime": 396893.2000000477,
+      "duration": 586.3999999761581,
+      "transferSize": 5783
+    }
+  ],
+  "mobileLayout": {
+    "canvas": {
+      "bottom": 814.5,
+      "height": 628,
+      "left": 14.800000190734863,
+      "right": 360.80000019073486,
+      "top": 186.5,
+      "width": 346,
+      "x": 14.800000190734863,
+      "y": 186.5
+    },
+    "scrollWidth": 375,
+    "width": 375
+  },
+  "mobileBeforePan": {
+    "wall": 1791736505268,
+    "canvases": 1,
+    "markers": [
+      {
+        "coordinate": [
+          106.695208,
+          10.76798
+        ],
+        "id": "GSM-01",
+        "progress": 0,
+        "status": "moving",
+        "transform": "transform: translate(-50%, -50%) translate(147px, 345px) rotateX(0deg) rotateZ(0deg); opacity: 1;"
+      },
+      {
+        "coordinate": [
+          106.714276,
+          10.779433
+        ],
+        "id": "GSM-02",
+        "progress": 0,
+        "status": "scheduled",
+        "transform": "transform: translate(-50%, -50%) translate(269px, 270px) rotateX(0deg) rotateZ(0deg); opacity: 1;"
+      },
+      {
+        "coordinate": [
+          106.686326,
+          10.767599
+        ],
+        "id": "GSM-03",
+        "progress": 0,
+        "status": "scheduled",
+        "transform": "transform: translate(-50%, -50%) translate(90px, 348px) rotateX(0deg) rotateZ(0deg); opacity: 1;"
+      },
+      {
+        "coordinate": [
+          106.693367,
+          10.783497
+        ],
+        "id": "GSM-04",
+        "progress": 0,
+        "status": "scheduled",
+        "transform": "transform: translate(-50%, -50%) translate(135px, 244px) rotateX(0deg) rotateZ(0deg); opacity: 1;"
+      },
+      {
+        "coordinate": [
+          106.71324,
+          10.777934
+        ],
+        "id": "GSM-05",
+        "progress": 0,
+        "status": "scheduled",
+        "transform": "transform: translate(-50%, -50%) translate(263px, 280px) rotateX(0deg) rotateZ(0deg); opacity: 1;"
+      },
+      {
+        "coordinate": [
+          106.689238,
+          10.773415
+        ],
+        "id": "GSM-06",
+        "progress": 0,
+        "status": "scheduled",
+        "transform": "transform: translate(-50%, -50%) translate(108px, 310px) rotateX(0deg) rotateZ(0deg); opacity: 1;"
+      },
+      {
+        "coordinate": [
+          106.700308,
+          10.76088
+        ],
+        "id": "GSM-07",
+        "progress": 0,
+        "status": "scheduled",
+        "transform": "transform: translate(-50%, -50%) translate(180px, 392px) rotateX(0deg) rotateZ(0deg); opacity: 1;"
+      },
+      {
+        "coordinate": [
+          106.688383,
+          10.785576
+        ],
+        "id": "GSM-08",
+        "progress": 0,
+        "status": "scheduled",
+        "transform": "transform: translate(-50%, -50%) translate(103px, 230px) rotateX(0deg) rotateZ(0deg); opacity: 1;"
+      },
+      {
+        "coordinate": [
+          106.71324,
+          10.777934
+        ],
+        "id": "GSM-09",
+        "progress": 0,
+        "status": "scheduled",
+        "transform": "transform: translate(-50%, -50%) translate(263px, 280px) rotateX(0deg) rotateZ(0deg); opacity: 1;"
+      },
+      {
+        "coordinate": [
+          106.688383,
+          10.785576
+        ],
+        "id": "GSM-10",
+        "progress": 0,
+        "status": "scheduled",
+        "transform": "transform: translate(-50%, -50%) translate(103px, 230px) rotateX(0deg) rotateZ(0deg); opacity: 1;"
+      }
+    ],
+    "metrics": {
+      "frameSamples": 38,
+      "maxFrameMilliseconds": 66.80200000002515,
+      "meanFrameMilliseconds": 46.549999998118054
+    },
+    "state": "paused",
+    "summary": "Đã tạo 10/10 xe · 0.00 s0 route requests · 10 cache hitsSeed: hcm-fleet-2026Provenance scenarioFingerprint: 9193a3a34bd10f14a21da7121552503971f85419d7241aeb71bc7193eaac3341OSRM local / car / MLD · car · snap ≤ 100 m",
+    "time": 0
+  },
+  "mobileAfterPan": {
+    "wall": 1791736506344,
+    "canvases": 1,
+    "markers": [
+      {
+        "coordinate": [
+          106.695208,
+          10.76798
+        ],
+        "id": "GSM-01",
+        "progress": 0,
+        "status": "moving",
+        "transform": "transform: translate(-50%, -50%) translate(197px, 375px) rotateX(0deg) rotateZ(0deg); opacity: 1;"
+      },
+      {
+        "coordinate": [
+          106.714276,
+          10.779433
+        ],
+        "id": "GSM-02",
+        "progress": 0,
+        "status": "scheduled",
+        "transform": "transform: translate(-50%, -50%) translate(319px, 300px) rotateX(0deg) rotateZ(0deg); opacity: 1;"
+      },
+      {
+        "coordinate": [
+          106.686326,
+          10.767599
+        ],
+        "id": "GSM-03",
+        "progress": 0,
+        "status": "scheduled",
+        "transform": "transform: translate(-50%, -50%) translate(140px, 378px) rotateX(0deg) rotateZ(0deg); opacity: 1;"
+      },
+      {
+        "coordinate": [
+          106.693367,
+          10.783497
+        ],
+        "id": "GSM-04",
+        "progress": 0,
+        "status": "scheduled",
+        "transform": "transform: translate(-50%, -50%) translate(185px, 274px) rotateX(0deg) rotateZ(0deg); opacity: 1;"
+      },
+      {
+        "coordinate": [
+          106.71324,
+          10.777934
+        ],
+        "id": "GSM-05",
+        "progress": 0,
+        "status": "scheduled",
+        "transform": "transform: translate(-50%, -50%) translate(313px, 310px) rotateX(0deg) rotateZ(0deg); opacity: 1;"
+      },
+      {
+        "coordinate": [
+          106.689238,
+          10.773415
+        ],
+        "id": "GSM-06",
+        "progress": 0,
+        "status": "scheduled",
+        "transform": "transform: translate(-50%, -50%) translate(158px, 340px) rotateX(0deg) rotateZ(0deg); opacity: 1;"
+      },
+      {
+        "coordinate": [
+          106.700308,
+          10.76088
+        ],
+        "id": "GSM-07",
+        "progress": 0,
+        "status": "scheduled",
+        "transform": "transform: translate(-50%, -50%) translate(230px, 422px) rotateX(0deg) rotateZ(0deg); opacity: 1;"
+      },
+      {
+        "coordinate": [
+          106.688383,
+          10.785576
+        ],
+        "id": "GSM-08",
+        "progress": 0,
+        "status": "scheduled",
+        "transform": "transform: translate(-50%, -50%) translate(153px, 260px) rotateX(0deg) rotateZ(0deg); opacity: 1;"
+      },
+      {
+        "coordinate": [
+          106.71324,
+          10.777934
+        ],
+        "id": "GSM-09",
+        "progress": 0,
+        "status": "scheduled",
+        "transform": "transform: translate(-50%, -50%) translate(313px, 310px) rotateX(0deg) rotateZ(0deg); opacity: 1;"
+      },
+      {
+        "coordinate": [
+          106.688383,
+          10.785576
+        ],
+        "id": "GSM-10",
+        "progress": 0,
+        "status": "scheduled",
+        "transform": "transform: translate(-50%, -50%) translate(153px, 260px) rotateX(0deg) rotateZ(0deg); opacity: 1;"
+      }
+    ],
+    "metrics": {
+      "frameSamples": 38,
+      "maxFrameMilliseconds": 66.80200000002515,
+      "meanFrameMilliseconds": 46.549999998118054
+    },
+    "state": "paused",
+    "summary": "Đã tạo 10/10 xe · 0.00 s0 route requests · 10 cache hitsSeed: hcm-fleet-2026Provenance scenarioFingerprint: 9193a3a34bd10f14a21da7121552503971f85419d7241aeb71bc7193eaac3341OSRM local / car / MLD · car · snap ≤ 100 m",
+    "time": 0
+  },
+  "mobilePlayback": {
+    "wall": 1791736508837,
+    "canvases": 1,
+    "markers": [
+      {
+        "coordinate": [
+          106.69015843192749,
+          10.76212634103415
+        ],
+        "id": "GSM-01",
+        "progress": 0.6575003872972234,
+        "status": "moving",
+        "transform": "transform: translate(-50%, -50%) translate(164px, 414px) rotateX(0deg) rotateZ(0deg); opacity: 1;"
+      },
+      {
+        "coordinate": [
+          106.71003478907674,
+          10.779652189946136
+        ],
+        "id": "GSM-02",
+        "progress": 0.1920236020336657,
+        "status": "moving",
+        "transform": "transform: translate(-50%, -50%) translate(292px, 299px) rotateX(0deg) rotateZ(0deg); opacity: 1;"
+      },
+      {
+        "coordinate": [
+          106.68740229648002,
+          10.77144505744694
+        ],
+        "id": "GSM-03",
+        "progress": 0.6914941002960403,
+        "status": "moving",
+        "transform": "transform: translate(-50%, -50%) translate(147px, 353px) rotateX(0deg) rotateZ(0deg); opacity: 1;"
+      },
+      {
+        "coordinate": [
+          106.69547026748742,
+          10.783073538898927
+        ],
+        "id": "GSM-04",
+        "progress": 0.2498530137471679,
+        "status": "moving",
+        "transform": "transform: translate(-50%, -50%) translate(198px, 276px) rotateX(0deg) rotateZ(0deg); opacity: 1;"
+      },
+      {
+        "coordinate": [
+          106.7079204512624,
+          10.780840401881626
+        ],
+        "id": "GSM-05",
+        "progress": 0.13768107263752025,
+        "status": "moving",
+        "transform": "transform: translate(-50%, -50%) translate(278px, 291px) rotateX(0deg) rotateZ(0deg); opacity: 1;"
+      },
+      {
+        "coordinate": [
+          106.69237884347127,
+          10.776761058901506
+        ],
+        "id": "GSM-06",
+        "progress": 0.3934247706428581,
+        "status": "moving",
+        "transform": "transform: translate(-50%, -50%) translate(179px, 318px) rotateX(0deg) rotateZ(0deg); opacity: 1;"
+      },
+      {
+        "coordinate": [
+          106.7029669710687,
+          10.764100804188123
+        ],
+        "id": "GSM-07",
+        "progress": 0.30358864833277666,
+        "status": "moving",
+        "transform": "transform: translate(-50%, -50%) translate(247px, 401px) rotateX(0deg) rotateZ(0deg); opacity: 1;"
+      },
+      {
+        "coordinate": [
+          106.6920527809653,
+          10.78476985476384
+        ],
+        "id": "GSM-08",
+        "progress": 0.1285606612498502,
+        "status": "moving",
+        "transform": "transform: translate(-50%, -50%) translate(176px, 265px) rotateX(0deg) rotateZ(0deg); opacity: 1;"
+      },
+      {
+        "coordinate": [
+          106.70793707935596,
+          10.780922896614776
+        ],
+        "id": "GSM-09",
+        "progress": 0.1533419270835196,
+        "status": "moving",
+        "transform": "transform: translate(-50%, -50%) translate(279px, 290px) rotateX(0deg) rotateZ(0deg); opacity: 1;"
+      },
+      {
+        "coordinate": [
+          106.69203826971084,
+          10.78230263120547
+        ],
+        "id": "GSM-10",
+        "progress": 0.2966239376775604,
+        "status": "moving",
+        "transform": "transform: translate(-50%, -50%) translate(176px, 281px) rotateX(0deg) rotateZ(0deg); opacity: 1;"
+      }
+    ],
+    "metrics": {
+      "frameSamples": 37,
+      "maxFrameMilliseconds": 66.79999999998836,
+      "meanFrameMilliseconds": 44.75675675740176
+    },
+    "state": "paused",
+    "summary": "Đã tạo 10/10 xe · 0.00 s0 route requests · 10 cache hitsSeed: hcm-fleet-2026Provenance scenarioFingerprint: 9193a3a34bd10f14a21da7121552503971f85419d7241aeb71bc7193eaac3341OSRM local / car / MLD · car · snap ≤ 100 m",
+    "time": 84.88330000007153
+  },
+  "mobileSelected": {
+    "wall": 1791736510031,
+    "canvases": 1,
+    "markers": [
+      {
+        "coordinate": [
+          106.69015843192749,
+          10.76212634103415
+        ],
+        "id": "GSM-01",
+        "progress": 0.6575003872972234,
+        "status": "moving",
+        "transform": "transform: translate(-50%, -50%) translate(-1021px, 501px) rotateX(0deg) rotateZ(0deg); opacity: 1;"
+      },
+      {
+        "coordinate": [
+          106.71003478907674,
+          10.779652189946136
+        ],
+        "id": "GSM-02",
+        "progress": 0.1920236020336657,
+        "status": "moving",
+        "transform": "transform: translate(-50%, -50%) translate(832px, -1161px) rotateX(0deg) rotateZ(0deg); opacity: 1;"
+      },
+      {
+        "coordinate": [
+          106.68740229648002,
+          10.77144505744694
+        ],
+        "id": "GSM-03",
+        "progress": 0.6914941002960403,
+        "status": "moving",
+        "transform": "transform: translate(-50%, -50%) translate(-1278px, -383px) rotateX(0deg) rotateZ(0deg); opacity: 1;"
+      },
+      {
+        "coordinate": [
+          106.69547026748742,
+          10.783073538898927
+        ],
+        "id": "GSM-04",
+        "progress": 0.2498530137471679,
+        "status": "moving",
+        "transform": "transform: translate(-50%, -50%) translate(-526px, -1486px) rotateX(0deg) rotateZ(0deg); opacity: 1;"
+      },
+      {
+        "coordinate": [
+          106.7079204512624,
+          10.780840401881626
+        ],
+        "id": "GSM-05",
+        "progress": 0.13768107263752025,
+        "status": "moving",
+        "transform": "transform: translate(-50%, -50%) translate(635px, -1274px) rotateX(0deg) rotateZ(0deg); opacity: 1;"
+      },
+      {
+        "coordinate": [
+          106.69237884347127,
+          10.776761058901506
+        ],
+        "id": "GSM-06",
+        "progress": 0.3934247706428581,
+        "status": "moving",
+        "transform": "transform: translate(-50%, -50%) translate(-814px, -887px) rotateX(0deg) rotateZ(0deg); opacity: 1;"
+      },
+      {
+        "coordinate": [
+          106.7029669710687,
+          10.764100804188123
+        ],
+        "id": "GSM-07",
+        "progress": 0.30358864833277666,
+        "status": "moving",
+        "transform": "transform: translate(-50%, -50%) translate(173px, 314px) rotateX(0deg) rotateZ(0deg); opacity: 1;"
+      },
+      {
+        "coordinate": [
+          106.6920527809653,
+          10.78476985476384
+        ],
+        "id": "GSM-08",
+        "progress": 0.1285606612498502,
+        "status": "moving",
+        "transform": "transform: translate(-50%, -50%) translate(-844px, -1647px) rotateX(0deg) rotateZ(0deg); opacity: 1;"
+      },
+      {
+        "coordinate": [
+          106.70793707935596,
+          10.780922896614776
+        ],
+        "id": "GSM-09",
+        "progress": 0.1533419270835196,
+        "status": "moving",
+        "transform": "transform: translate(-50%, -50%) translate(636px, -1282px) rotateX(0deg) rotateZ(0deg); opacity: 1;"
+      },
+      {
+        "coordinate": [
+          106.69203826971084,
+          10.78230263120547
+        ],
+        "id": "GSM-10",
+        "progress": 0.2966239376775604,
+        "status": "moving",
+        "transform": "transform: translate(-50%, -50%) translate(-846px, -1413px) rotateX(0deg) rotateZ(0deg); opacity: 1;"
+      }
+    ],
+    "metrics": {
+      "frameSamples": 37,
+      "maxFrameMilliseconds": 66.79999999998836,
+      "meanFrameMilliseconds": 44.75675675740176
+    },
+    "state": "paused",
+    "summary": "Đã tạo 10/10 xe · 0.00 s0 route requests · 10 cache hitsSeed: hcm-fleet-2026Provenance scenarioFingerprint: 9193a3a34bd10f14a21da7121552503971f85419d7241aeb71bc7193eaac3341OSRM local / car / MLD · car · snap ≤ 100 m",
+    "time": 84.88330000007153
+  },
+  "console": [
+    {
+      "level": "error",
+      "message": "TypeError: fleet.clock.getMetrics is not a function\n    at FleetPanel (http://127.0.0.1:5173/src/components/fleet-panel.tsx?t=1791735754018:24:30)\n    at Object.react_stack_bottom_frame (http://127.0.0.1:5173/node_modules/.vite/deps/react-dom_client.js?v=38d73284:14142:12)\n    at renderWithHooks (http://127.0.0.1:5173/node_modules/.vite/deps/react-dom_client.js?v=38d73284:4400:19)\n    at updateFunctionComponent (http://127.0.0.1:5173/node_modules/.vite/deps/react-dom_client.js?v=38d73284:5775:16)\n    at beginWork (http://127.0.0.1:5173/node_modules/.vite/deps/react-dom_client.js?v=38d73284:6391:20)\n    at runWithFiberInDEV (http://127.0.0.1:5173/node_modules/.vite/deps/react-dom_client.js?v=38d73284:944:66)\n    at performUnitOfWork (http://127.0.0.1:5173/node_modules/.vite/deps/react-dom_client.js?v=38d73284:9148:92)\n    at workLoopSync (http://127.0.0.1:5173/node_modules/.vite/deps/react-dom_client.js?v=38d73284:9044:37)\n    at renderRootSync (http://127.0.0.1:5173/node_modules/.vite/deps/react-dom_client.js?v=38d73284:9028:6)\n    at performWorkOnRoot (http://127.0.0.1:5173/node_modules/.vite/deps/react-dom_client.js?v=38d73284:8715:27)",
+      "timestamp": "2026-10-11T16:22:34.845Z",
+      "url": "http://127.0.0.1:5173/src/components/fleet-panel.tsx?t=1791735754018"
+    },
+    {
+      "level": "warn",
+      "message": "%s\n\n%s\n An error occurred in the <FleetPanel> component. Consider adding an error boundary to your tree to customize error handling behavior.\nVisit https://react.dev/link/error-boundaries to learn more about error boundaries.",
+      "timestamp": "2026-10-11T16:22:34.845Z",
+      "url": "http://127.0.0.1:5173/node_modules/.vite/deps/react-dom_client.js?v=38d73284"
+    }
+  ],
+  "newSeed5": {
+    "wall": 1791736636897,
+    "canvases": 1,
+    "markers": [
+      {
+        "coordinate": [
+          106.693367,
+          10.783497
+        ],
+        "id": "GSM-01",
+        "progress": 0,
+        "status": "moving",
+        "transform": "transform: translate(-50%, -50%) translate(129px, 236px) rotateX(0deg) rotateZ(0deg); opacity: 1;"
+      },
+      {
+        "coordinate": [
+          106.707303,
+          10.778193
+        ],
+        "id": "GSM-02",
+        "progress": 0,
+        "status": "scheduled",
+        "transform": "transform: translate(-50%, -50%) translate(270px, 291px) rotateX(0deg) rotateZ(0deg); opacity: 1;"
+      },
+      {
+        "coordinate": [
+          106.698462,
+          10.780338
+        ],
+        "id": "GSM-03",
+        "progress": 0,
+        "status": "scheduled",
+        "transform": "transform: translate(-50%, -50%) translate(180px, 269px) rotateX(0deg) rotateZ(0deg); opacity: 1;"
+      },
+      {
+        "coordinate": [
+          106.692035,
+          10.763998
+        ],
+        "id": "GSM-04",
+        "progress": 0,
+        "status": "scheduled",
+        "transform": "transform: translate(-50%, -50%) translate(115px, 438px) rotateX(0deg) rotateZ(0deg); opacity: 1;"
+      },
+      {
+        "coordinate": [
+          106.693367,
+          10.783497
+        ],
+        "id": "GSM-05",
+        "progress": 0,
+        "status": "scheduled",
+        "transform": "transform: translate(-50%, -50%) translate(129px, 236px) rotateX(0deg) rotateZ(0deg); opacity: 1;"
+      }
+    ],
+    "metrics": {
+      "frameSamples": 37,
+      "maxFrameMilliseconds": 66.79999999998836,
+      "meanFrameMilliseconds": 44.75675675740176
+    },
+    "state": "paused",
+    "summary": "Đã tạo 5/5 xe · 3.29 s5 route requests · 0 cache hitsSeed: hcm-fleet-2026-nextProvenance scenarioFingerprint: 9193a3a34bd10f14a21da7121552503971f85419d7241aeb71bc7193eaac3341OSRM local / car / MLD · car · snap ≤ 100 m",
+    "time": 0
+  },
+  "resources": [
+    {
+      "name": "http://127.0.0.1:5173/@vite/client",
+      "initiatorType": "script",
+      "startTime": 141.20000004768372,
+      "duration": 123.19999992847443,
+      "transferSize": 300
+    },
+    {
+      "name": "http://127.0.0.1:5173/src/main.tsx",
+      "initiatorType": "script",
+      "startTime": 143.20000004768372,
+      "duration": 122.5,
+      "transferSize": 300
+    },
+    {
+      "name": "http://127.0.0.1:5173/@react-refresh",
+      "initiatorType": "script",
+      "startTime": 143.70000004768372,
+      "duration": 126.19999992847443,
+      "transferSize": 300
+    },
+    {
+      "name": "http://127.0.0.1:5173/node_modules/.vite/deps/react.js?v=ed6c8915",
+      "initiatorType": "script",
+      "startTime": 269.8000000715256,
+      "duration": 0,
+      "transferSize": 0
+    },
+    {
+      "name": "http://127.0.0.1:5173/node_modules/.vite/deps/react-dom_client.js?v=9001c08f",
+      "initiatorType": "script",
+      "startTime": 270,
+      "duration": 0,
+      "transferSize": 0
+    },
+    {
+      "name": "http://127.0.0.1:5173/src/index.css",
+      "initiatorType": "script",
+      "startTime": 270.2000000476837,
+      "duration": 69.5,
+      "transferSize": 300
+    },
+    {
+      "name": "http://127.0.0.1:5173/src/App.tsx",
+      "initiatorType": "script",
+      "startTime": 270.3000000715256,
+      "duration": 111.59999990463257,
+      "transferSize": 300
+    },
+    {
+      "name": "http://127.0.0.1:5173/node_modules/.vite/deps/react_jsx-dev-runtime.js?v=ed6c8915",
+      "initiatorType": "script",
+      "startTime": 270.7000000476837,
+      "duration": 0,
+      "transferSize": 0
+    },
+    {
+      "name": "http://127.0.0.1:5173/node_modules/.vite/deps/rolldown-runtime-DC62tzP2.js?v=61619e29",
+      "initiatorType": "script",
+      "startTime": 271.5,
+      "duration": 0,
+      "transferSize": 0
+    },
+    {
+      "name": "http://127.0.0.1:5173/node_modules/.vite/deps/react-dom.js?v=ed6c8915",
+      "initiatorType": "script",
+      "startTime": 271.7000000476837,
+      "duration": 0,
+      "transferSize": 0
+    },
+    {
+      "name": "http://127.0.0.1:5173/node_modules/vite/dist/client/env.mjs",
+      "initiatorType": "script",
+      "startTime": 271.89999997615814,
+      "duration": 109.70000004768372,
+      "transferSize": 300
+    },
+    {
+      "name": "http://127.0.0.1:5173/node_modules/.vite/deps/lucide-react.js?v=0a44acb3",
+      "initiatorType": "script",
+      "startTime": 389.8000000715256,
+      "duration": 0,
+      "transferSize": 0
+    },
+    {
+      "name": "http://127.0.0.1:5173/src/components/ui/button.tsx",
+      "initiatorType": "script",
+      "startTime": 389.89999997615814,
+      "duration": 31.800000071525574,
+      "transferSize": 300
+    },
+    {
+      "name": "http://127.0.0.1:5173/src/components/ui/badge.tsx",
+      "initiatorType": "script",
+      "startTime": 390,
+      "duration": 32.200000047683716,
+      "transferSize": 300
+    },
+    {
+      "name": "http://127.0.0.1:5173/src/components/ui/slider.tsx",
+      "initiatorType": "script",
+      "startTime": 390.2000000476837,
+      "duration": 32.10000002384186,
+      "transferSize": 300
+    },
+    {
+      "name": "http://127.0.0.1:5173/src/components/sandbox-map.tsx",
+      "initiatorType": "script",
+      "startTime": 390.3000000715256,
+      "duration": 32.5,
+      "transferSize": 300
+    },
+    {
+      "name": "http://127.0.0.1:5173/src/lib/api.ts",
+      "initiatorType": "script",
+      "startTime": 390.39999997615814,
+      "duration": 35.60000002384186,
+      "transferSize": 300
+    },
+    {
+      "name": "http://127.0.0.1:5173/src/lib/use-playback.ts",
+      "initiatorType": "script",
+      "startTime": 390.60000002384186,
+      "duration": 35.700000047683716,
+      "transferSize": 300
+    },
+    {
+      "name": "http://127.0.0.1:5173/src/lib/playback.ts",
+      "initiatorType": "script",
+      "startTime": 390.7000000476837,
+      "duration": 39.60000002384186,
+      "transferSize": 300
+    },
+    {
+      "name": "http://127.0.0.1:5173/src/App.css",
+      "initiatorType": "script",
+      "startTime": 390.89999997615814,
+      "duration": 39.60000002384186,
+      "transferSize": 300
+    },
+    {
+      "name": "http://127.0.0.1:5173/src/lib/use-fleet.ts",
+      "initiatorType": "script",
+      "startTime": 391,
+      "duration": 39.700000047683716,
+      "transferSize": 300
+    },
+    {
+      "name": "http://127.0.0.1:5173/src/components/fleet-panel.tsx",
+      "initiatorType": "script",
+      "startTime": 391.2000000476837,
+      "duration": 80.60000002384186,
+      "transferSize": 300
+    },
+    {
+      "name": "http://127.0.0.1:5173/src/components/runtime-audit.tsx",
+      "initiatorType": "script",
+      "startTime": 391.39999997615814,
+      "duration": 86.10000002384186,
+      "transferSize": 300
+    },
+    {
+      "name": "http://127.0.0.1:5173/node_modules/.vite/deps/@base-ui_react_slider.js?v=95f7ba50",
+      "initiatorType": "script",
+      "startTime": 433,
+      "duration": 0,
+      "transferSize": 0
+    },
+    {
+      "name": "http://127.0.0.1:5173/node_modules/.vite/deps/cn.js?v=e5fee4c7",
+      "initiatorType": "script",
+      "startTime": 433,
+      "duration": 0,
+      "transferSize": 0
+    },
+    {
+      "name": "http://127.0.0.1:5173/node_modules/.vite/deps/@base-ui_react_button.js?v=79242e4a",
+      "initiatorType": "script",
+      "startTime": 434.39999997615814,
+      "duration": 0,
+      "transferSize": 0
+    },
+    {
+      "name": "http://127.0.0.1:5173/node_modules/.vite/deps/class-variance-authority.js?v=dc72af91",
+      "initiatorType": "script",
+      "startTime": 434.60000002384186,
+      "duration": 0,
+      "transferSize": 0
+    },
+    {
+      "name": "http://127.0.0.1:5173/node_modules/.vite/deps/react_jsx-runtime.js?v=ed6c8915",
+      "initiatorType": "script",
+      "startTime": 434.89999997615814,
+      "duration": 0,
+      "transferSize": 0
+    },
+    {
+      "name": "http://127.0.0.1:5173/node_modules/.vite/deps/formatErrorMessage-xk6KuFPl.js?v=61619e29",
+      "initiatorType": "script",
+      "startTime": 435,
+      "duration": 0,
+      "transferSize": 0
+    },
+    {
+      "name": "http://127.0.0.1:5173/node_modules/.vite/deps/useRenderElement-HgjcGXBI.js?v=61619e29",
+      "initiatorType": "script",
+      "startTime": 435.2000000476837,
+      "duration": 0,
+      "transferSize": 0
+    },
+    {
+      "name": "http://127.0.0.1:5173/node_modules/.vite/deps/merge-props-B4lpaVXg.js?v=61619e29",
+      "initiatorType": "script",
+      "startTime": 435.39999997615814,
+      "duration": 0,
+      "transferSize": 0
+    },
+    {
+      "name": "http://127.0.0.1:5173/node_modules/.vite/deps/@base-ui_react_merge-props.js?v=84543253",
+      "initiatorType": "script",
+      "startTime": 435.7000000476837,
+      "duration": 0,
+      "transferSize": 0
+    },
+    {
+      "name": "http://127.0.0.1:5173/node_modules/.vite/deps/@base-ui_react_use-render.js?v=50907226",
+      "initiatorType": "script",
+      "startTime": 435.8000000715256,
+      "duration": 0,
+      "transferSize": 0
+    },
+    {
+      "name": "http://127.0.0.1:5173/src/components/ui/map.tsx",
+      "initiatorType": "script",
+      "startTime": 436.3000000715256,
+      "duration": 70.39999997615814,
+      "transferSize": 300
+    },
+    {
+      "name": "http://127.0.0.1:5173/src/lib/map-style.ts",
+      "initiatorType": "script",
+      "startTime": 436.39999997615814,
+      "duration": 68.60000002384186,
+      "transferSize": 300
+    },
+    {
+      "name": "http://127.0.0.1:5173/src/components/fleet-map.tsx",
+      "initiatorType": "script",
+      "startTime": 436.39999997615814,
+      "duration": 70,
+      "transferSize": 300
+    },
+    {
+      "name": "http://127.0.0.1:5173/src/lib/fleet.ts",
+      "initiatorType": "script",
+      "startTime": 437.5,
+      "duration": 111.60000002384186,
+      "transferSize": 300
+    },
+    {
+      "name": "http://127.0.0.1:5173/src/lib/fleet-clock.ts",
+      "initiatorType": "script",
+      "startTime": 437.7000000476837,
+      "duration": 111.89999997615814,
+      "transferSize": 300
+    },
+    {
+      "name": "http://127.0.0.1:5173/node_modules/@fontsource-variable/geist/files/geist-latin-wght-normal.woff2?import&url",
+      "initiatorType": "script",
+      "startTime": 508.39999997615814,
+      "duration": 46.200000047683716,
+      "transferSize": 300
+    },
+    {
+      "name": "http://127.0.0.1:5173/node_modules/@fontsource-variable/geist/files/geist-vietnamese-wght-normal.woff2?import&url",
+      "initiatorType": "script",
+      "startTime": 508.5,
+      "duration": 48,
+      "transferSize": 300
+    },
+    {
+      "name": "http://127.0.0.1:5173/node_modules/.vite/deps/maplibre-gl.js?v=b23cf990",
+      "initiatorType": "script",
+      "startTime": 511.89999997615814,
+      "duration": 0,
+      "transferSize": 0
+    },
+    {
+      "name": "http://127.0.0.1:5173/node_modules/maplibre-gl/dist/maplibre-gl.css",
+      "initiatorType": "script",
+      "startTime": 512,
+      "duration": 48,
+      "transferSize": 300
+    },
+    {
+      "name": "http://127.0.0.1:5173/src/lib/utils.ts",
+      "initiatorType": "script",
+      "startTime": 512.2000000476837,
+      "duration": 47.60000002384186,
+      "transferSize": 300
+    },
+    {
+      "name": "http://127.0.0.1:5173/node_modules/@fontsource-variable/geist/files/geist-latin-wght-normal.woff2",
+      "initiatorType": "css",
+      "startTime": 900.1000000238419,
+      "duration": 142,
+      "transferSize": 300
+    },
+    {
+      "name": "http://127.0.0.1:5173/node_modules/@fontsource-variable/geist/files/geist-vietnamese-wght-normal.woff2",
+      "initiatorType": "css",
+      "startTime": 901.5,
+      "duration": 141.89999997615814,
+      "transferSize": 300
+    },
+    {
+      "name": "http://127.0.0.1:5173/node_modules/@fontsource-variable/geist/files/geist-latin-ext-wght-normal.woff2",
+      "initiatorType": "css",
+      "startTime": 902,
+      "duration": 7.200000047683716,
+      "transferSize": 300
+    },
+    {
+      "name": "http://127.0.0.1:5173/api/dataset/status",
+      "initiatorType": "fetch",
+      "startTime": 951.8999999761581,
+      "duration": 255,
+      "transferSize": 0
+    },
+    {
+      "name": "http://127.0.0.1:5173/maplibre-gl-worker.mjs",
+      "initiatorType": "other",
+      "startTime": 1217.1000000238419,
+      "duration": -256.7999999523163,
+      "transferSize": 300
+    },
+    {
+      "name": "http://127.0.0.1:5173/favicon.svg",
+      "initiatorType": "other",
+      "startTime": 1279.3000000715256,
+      "duration": 21.59999990463257,
+      "transferSize": 300
+    },
+    {
+      "name": "http://127.0.0.1:5173/api/dataset/status",
+      "initiatorType": "fetch",
+      "startTime": 1004.7000000476837,
+      "duration": 1405.6999999284744,
+      "transferSize": 5783
+    },
+    {
+      "name": "http://127.0.0.1:5173/node_modules/@fontsource-variable/geist/files/geist-latin-wght-normal.woff2",
+      "initiatorType": "fetch",
+      "startTime": 4227.399999976158,
+      "duration": 7.300000071525574,
+      "transferSize": 300
+    },
+    {
+      "name": "http://127.0.0.1:5173/node_modules/@fontsource-variable/geist/files/geist-vietnamese-wght-normal.woff2",
+      "initiatorType": "fetch",
+      "startTime": 4227.800000071526,
+      "duration": 9.799999952316284,
+      "transferSize": 300
+    },
+    {
+      "name": "http://127.0.0.1:5173/api/dataset/status",
+      "initiatorType": "fetch",
+      "startTime": 12428.100000023842,
+      "duration": 615,
+      "transferSize": 5783
+    },
+    {
+      "name": "http://127.0.0.1:5173/api/dataset/status",
+      "initiatorType": "fetch",
+      "startTime": 23059.5,
+      "duration": 584,
+      "transferSize": 5783
+    },
+    {
+      "name": "http://127.0.0.1:5173/api/fleet/candidates",
+      "initiatorType": "fetch",
+      "startTime": 29846.399999976158,
+      "duration": 780.8000000715256,
+      "transferSize": 4293
+    },
+    {
+      "name": "http://127.0.0.1:5173/api/route",
+      "initiatorType": "fetch",
+      "startTime": 30638.899999976158,
+      "duration": 1261.2000000476837,
+      "transferSize": 1962
+    },
+    {
+      "name": "http://127.0.0.1:5173/api/route",
+      "initiatorType": "fetch",
+      "startTime": 30639.5,
+      "duration": 1273.7000000476837,
+      "transferSize": 2031
+    },
+    {
+      "name": "http://127.0.0.1:5173/api/route",
+      "initiatorType": "fetch",
+      "startTime": 31903.800000071526,
+      "duration": 1316.7999999523163,
+      "transferSize": 1552
+    },
+    {
+      "name": "http://127.0.0.1:5173/api/route",
+      "initiatorType": "fetch",
+      "startTime": 31949.200000047684,
+      "duration": 1280.6999999284744,
+      "transferSize": 3550
+    },
+    {
+      "name": "http://127.0.0.1:5173/api/route",
+      "initiatorType": "fetch",
+      "startTime": 33223.39999997616,
+      "duration": 1852.9000000953674,
+      "transferSize": 3845
+    },
+    {
+      "name": "http://127.0.0.1:5173/api/route",
+      "initiatorType": "fetch",
+      "startTime": 33278.800000071526,
+      "duration": 1823.1999999284744,
+      "transferSize": 1370
+    },
+    {
+      "name": "http://127.0.0.1:5173/api/dataset/status",
+      "initiatorType": "fetch",
+      "startTime": 33666.5,
+      "duration": 1437.8999999761581,
+      "transferSize": 5783
+    },
+    {
+      "name": "http://127.0.0.1:5173/api/route",
+      "initiatorType": "fetch",
+      "startTime": 35079.200000047684,
+      "duration": 1214.7999999523163,
+      "transferSize": 2315
+    },
+    {
+      "name": "http://127.0.0.1:5173/api/route",
+      "initiatorType": "fetch",
+      "startTime": 35132.300000071526,
+      "duration": 1166.7999999523163,
+      "transferSize": 2991
+    },
+    {
+      "name": "http://127.0.0.1:5173/api/route",
+      "initiatorType": "fetch",
+      "startTime": 36299.39999997616,
+      "duration": 1204,
+      "transferSize": 4842
+    },
+    {
+      "name": "http://127.0.0.1:5173/api/route",
+      "initiatorType": "fetch",
+      "startTime": 36337.5,
+      "duration": 1177.8000000715256,
+      "transferSize": 1893
+    },
+    {
+      "name": "http://127.0.0.1:5173/api/dataset/status",
+      "initiatorType": "fetch",
+      "startTime": 45147.10000002384,
+      "duration": 572.1000000238419,
+      "transferSize": 5783
+    },
+    {
+      "name": "http://127.0.0.1:5173/api/dataset/status",
+      "initiatorType": "fetch",
+      "startTime": 55727.10000002384,
+      "duration": 827.3999999761581,
+      "transferSize": 5783
+    },
+    {
+      "name": "http://127.0.0.1:5173/api/dataset/status",
+      "initiatorType": "fetch",
+      "startTime": 66561,
+      "duration": 856.7000000476837,
+      "transferSize": 5783
+    },
+    {
+      "name": "http://127.0.0.1:5173/api/dataset/status",
+      "initiatorType": "fetch",
+      "startTime": 77428.39999997616,
+      "duration": 840.5,
+      "transferSize": 5783
+    },
+    {
+      "name": "http://127.0.0.1:5173/api/dataset/status",
+      "initiatorType": "fetch",
+      "startTime": 88280.20000004768,
+      "duration": 639.5,
+      "transferSize": 5783
+    },
+    {
+      "name": "http://127.0.0.1:5173/api/dataset/status",
+      "initiatorType": "fetch",
+      "startTime": 98939.70000004768,
+      "duration": 661.1000000238419,
+      "transferSize": 5783
+    },
+    {
+      "name": "http://127.0.0.1:5173/api/dataset/status",
+      "initiatorType": "fetch",
+      "startTime": 109621.20000004768,
+      "duration": 576.1999999284744,
+      "transferSize": 5783
+    },
+    {
+      "name": "http://127.0.0.1:5173/api/dataset/status",
+      "initiatorType": "fetch",
+      "startTime": 120211.39999997616,
+      "duration": 183.70000004768372,
+      "transferSize": 5783
+    },
+    {
+      "name": "http://127.0.0.1:5173/api/dataset/status",
+      "initiatorType": "fetch",
+      "startTime": 130407.80000007153,
+      "duration": 195.59999990463257,
+      "transferSize": 5783
+    },
+    {
+      "name": "http://127.0.0.1:5173/api/dataset/status",
+      "initiatorType": "fetch",
+      "startTime": 140613.30000007153,
+      "duration": 584.3999999761581,
+      "transferSize": 5783
+    },
+    {
+      "name": "http://127.0.0.1:5173/api/dataset/status",
+      "initiatorType": "fetch",
+      "startTime": 151213,
+      "duration": 582.2000000476837,
+      "transferSize": 5783
+    },
+    {
+      "name": "http://127.0.0.1:5173/src/index.css?t=1791736221404",
+      "initiatorType": "script",
+      "startTime": 162336.39999997616,
+      "duration": 170.5,
+      "transferSize": 51807
+    },
+    {
+      "name": "http://127.0.0.1:5173/src/components/fleet-map.tsx?t=1791736221404",
+      "initiatorType": "script",
+      "startTime": 162336.70000004768,
+      "duration": 170.10000002384186,
+      "transferSize": 16226
+    },
+    {
+      "name": "http://127.0.0.1:5173/api/dataset/status",
+      "initiatorType": "fetch",
+      "startTime": 161809.89999997616,
+      "duration": 697.5,
+      "transferSize": 5783
+    },
+    {
+      "name": "http://127.0.0.1:5173/api/dataset/status",
+      "initiatorType": "fetch",
+      "startTime": 172530.70000004768,
+      "duration": 586.7999999523163,
+      "transferSize": 5783
+    },
+    {
+      "name": "http://127.0.0.1:5173/api/dataset/status",
+      "initiatorType": "fetch",
+      "startTime": 183203.89999997616,
+      "duration": 777.2000000476837,
+      "transferSize": 5783
+    },
+    {
+      "name": "http://127.0.0.1:5173/api/fleet/candidates",
+      "initiatorType": "fetch",
+      "startTime": 187287.30000007153,
+      "duration": 711.2999999523163,
+      "transferSize": 4293
+    },
+    {
+      "name": "http://127.0.0.1:5173/api/dataset/status",
+      "initiatorType": "fetch",
+      "startTime": 194138.30000007153,
+      "duration": 399.7999999523163,
+      "transferSize": 5783
+    },
+    {
+      "name": "http://127.0.0.1:5173/api/dataset/status",
+      "initiatorType": "fetch",
+      "startTime": 204554.39999997616,
+      "duration": 187.10000002384186,
+      "transferSize": 5783
+    },
+    {
+      "name": "http://127.0.0.1:5173/api/dataset/status",
+      "initiatorType": "fetch",
+      "startTime": 214757.5,
+      "duration": 295.7000000476837,
+      "transferSize": 5783
+    },
+    {
+      "name": "http://127.0.0.1:5173/api/dataset/status",
+      "initiatorType": "fetch",
+      "startTime": 225058.30000007153,
+      "duration": 195.89999997615814,
+      "transferSize": 5783
+    },
+    {
+      "name": "http://127.0.0.1:5173/api/dataset/status",
+      "initiatorType": "fetch",
+      "startTime": 235269,
+      "duration": 596.5,
+      "transferSize": 5783
+    },
+    {
+      "name": "http://127.0.0.1:5173/api/dataset/status",
+      "initiatorType": "fetch",
+      "startTime": 245873.70000004768,
+      "duration": 328,
+      "transferSize": 5783
+    },
+    {
+      "name": "http://127.0.0.1:5173/api/dataset/status",
+      "initiatorType": "fetch",
+      "startTime": 256321.89999997616,
+      "duration": 817.7000000476837,
+      "transferSize": 5783
+    },
+    {
+      "name": "http://127.0.0.1:5173/api/dataset/status",
+      "initiatorType": "fetch",
+      "startTime": 267550,
+      "duration": 621.7000000476837,
+      "transferSize": 5783
+    },
+    {
+      "name": "http://127.0.0.1:5173/api/dataset/status",
+      "initiatorType": "fetch",
+      "startTime": 278446.10000002384,
+      "duration": 799.2999999523163,
+      "transferSize": 5783
+    },
+    {
+      "name": "http://127.0.0.1:5173/src/index.css?t=1791736339443",
+      "initiatorType": "script",
+      "startTime": 280392.2000000477,
+      "duration": 99.39999997615814,
+      "transferSize": 51807
+    },
+    {
+      "name": "http://127.0.0.1:5173/src/components/fleet-map.tsx?t=1791736339443",
+      "initiatorType": "script",
+      "startTime": 280392.60000002384,
+      "duration": 104.10000002384186,
+      "transferSize": 16683
+    },
+    {
+      "name": "http://127.0.0.1:5173/api/dataset/status",
+      "initiatorType": "fetch",
+      "startTime": 289409.10000002384,
+      "duration": 682.3999999761581,
+      "transferSize": 5783
+    },
+    {
+      "name": "http://127.0.0.1:5173/api/dataset/status",
+      "initiatorType": "fetch",
+      "startTime": 300293.8000000715,
+      "duration": 803.0999999046326,
+      "transferSize": 5783
+    },
+    {
+      "name": "http://127.0.0.1:5173/api/dataset/status",
+      "initiatorType": "fetch",
+      "startTime": 311293.39999997616,
+      "duration": 817.3000000715256,
+      "transferSize": 5783
+    },
+    {
+      "name": "http://127.0.0.1:5173/api/dataset/status",
+      "initiatorType": "fetch",
+      "startTime": 322257.89999997616,
+      "duration": 549.2000000476837,
+      "transferSize": 5783
+    },
+    {
+      "name": "http://127.0.0.1:5173/api/fleet/candidates",
+      "initiatorType": "fetch",
+      "startTime": 332207.5,
+      "duration": 1310.2000000476837,
+      "transferSize": 4293
+    },
+    {
+      "name": "http://127.0.0.1:5173/api/dataset/status",
+      "initiatorType": "fetch",
+      "startTime": 332823.39999997616,
+      "duration": 707.9000000953674,
+      "transferSize": 5783
+    },
+    {
+      "name": "http://127.0.0.1:5173/api/dataset/status",
+      "initiatorType": "fetch",
+      "startTime": 343761.3000000715,
+      "duration": 555.2999999523163,
+      "transferSize": 5783
+    },
+    {
+      "name": "http://127.0.0.1:5173/api/dataset/status",
+      "initiatorType": "fetch",
+      "startTime": 354326.5,
+      "duration": 572.1000000238419,
+      "transferSize": 5783
+    },
+    {
+      "name": "http://127.0.0.1:5173/api/dataset/status",
+      "initiatorType": "fetch",
+      "startTime": 364901.7000000477,
+      "duration": 716.6999999284744,
+      "transferSize": 5783
+    },
+    {
+      "name": "http://127.0.0.1:5173/api/dataset/status",
+      "initiatorType": "fetch",
+      "startTime": 375638.5,
+      "duration": 643.7000000476837,
+      "transferSize": 5783
+    },
+    {
+      "name": "http://127.0.0.1:5173/api/dataset/status",
+      "initiatorType": "fetch",
+      "startTime": 386291.10000002384,
+      "duration": 584.1000000238419,
+      "transferSize": 5783
+    },
+    {
+      "name": "http://127.0.0.1:5173/api/dataset/status",
+      "initiatorType": "fetch",
+      "startTime": 396893.2000000477,
+      "duration": 586.3999999761581,
+      "transferSize": 5783
+    },
+    {
+      "name": "http://127.0.0.1:5173/node_modules/@fontsource-variable/geist/files/geist-vietnamese-wght-normal.woff2",
+      "initiatorType": "css",
+      "startTime": 407420.10000002384,
+      "duration": 0,
+      "transferSize": 300
+    },
+    {
+      "name": "http://127.0.0.1:5173/node_modules/@fontsource-variable/geist/files/geist-latin-wght-normal.woff2",
+      "initiatorType": "css",
+      "startTime": 407420.10000002384,
+      "duration": 0,
+      "transferSize": 300
+    },
+    {
+      "name": "http://127.0.0.1:5173/api/dataset/status",
+      "initiatorType": "fetch",
+      "startTime": 407550.5,
+      "duration": 1395.7000000476837,
+      "transferSize": 5783
+    },
+    {
+      "name": "http://127.0.0.1:5173/api/fleet/candidates",
+      "initiatorType": "fetch",
+      "startTime": 407799.39999997616,
+      "duration": 1164.3000000715256,
+      "transferSize": 4293
+    },
+    {
+      "name": "http://127.0.0.1:5173/api/dataset/status",
+      "initiatorType": "fetch",
+      "startTime": 418953.39999997616,
+      "duration": 643.1000000238419,
+      "transferSize": 5783
+    },
+    {
+      "name": "http://127.0.0.1:5173/api/dataset/status",
+      "initiatorType": "fetch",
+      "startTime": 429607.39999997616,
+      "duration": 603.4000000953674,
+      "transferSize": 5783
+    },
+    {
+      "name": "http://127.0.0.1:5173/api/dataset/status",
+      "initiatorType": "fetch",
+      "startTime": 440219.60000002384,
+      "duration": 576.7000000476837,
+      "transferSize": 5783
+    },
+    {
+      "name": "http://127.0.0.1:5173/api/dataset/status",
+      "initiatorType": "fetch",
+      "startTime": 450855.10000002384,
+      "duration": 677.2000000476837,
+      "transferSize": 5783
+    },
+    {
+      "name": "http://127.0.0.1:5173/api/dataset/status",
+      "initiatorType": "fetch",
+      "startTime": 461540.3000000715,
+      "duration": 546,
+      "transferSize": 5783
+    },
+    {
+      "name": "http://127.0.0.1:5173/api/dataset/status",
+      "initiatorType": "fetch",
+      "startTime": 472099.5,
+      "duration": 610.6000000238419,
+      "transferSize": 5783
+    },
+    {
+      "name": "http://127.0.0.1:5173/api/dataset/status",
+      "initiatorType": "fetch",
+      "startTime": 482722.39999997616,
+      "duration": 659.3000000715256,
+      "transferSize": 5783
+    },
+    {
+      "name": "http://127.0.0.1:5173/api/dataset/status",
+      "initiatorType": "fetch",
+      "startTime": 493394.3000000715,
+      "duration": 550.2999999523163,
+      "transferSize": 5783
+    },
+    {
+      "name": "http://127.0.0.1:5173/api/fleet/candidates",
+      "initiatorType": "fetch",
+      "startTime": 496885,
+      "duration": 331.5,
+      "transferSize": 0
+    },
+    {
+      "name": "http://127.0.0.1:5173/api/fleet/candidates",
+      "initiatorType": "fetch",
+      "startTime": 497190.3000000715,
+      "duration": 1001.3999999761581,
+      "transferSize": 4293
+    },
+    {
+      "name": "http://127.0.0.1:5173/api/route",
+      "initiatorType": "fetch",
+      "startTime": 498193.8000000715,
+      "duration": 1228.0999999046326,
+      "transferSize": 2748
+    },
+    {
+      "name": "http://127.0.0.1:5173/api/route",
+      "initiatorType": "fetch",
+      "startTime": 498194.5,
+      "duration": 1237.2000000476837,
+      "transferSize": 2792
+    },
+    {
+      "name": "http://127.0.0.1:5173/api/route",
+      "initiatorType": "fetch",
+      "startTime": 499426.8000000715,
+      "duration": 1308.1999999284744,
+      "transferSize": 2297
+    },
+    {
+      "name": "http://127.0.0.1:5173/api/route",
+      "initiatorType": "fetch",
+      "startTime": 499471.2000000477,
+      "duration": 1274.1000000238419,
+      "transferSize": 1630
+    },
+    {
+      "name": "http://127.0.0.1:5173/api/route",
+      "initiatorType": "fetch",
+      "startTime": 500737.89999997616,
+      "duration": 744.1000000238419,
+      "transferSize": 2805
+    },
+    {
+      "name": "http://127.0.0.1:5173/api/dataset/status",
+      "initiatorType": "fetch",
+      "startTime": 503949.5,
+      "duration": 568.5,
+      "transferSize": 5783
+    },
+    {
+      "name": "http://127.0.0.1:5173/api/dataset/status",
+      "initiatorType": "fetch",
+      "startTime": 514524.5,
+      "duration": 530.5,
+      "transferSize": 5783
+    },
+    {
+      "name": "http://127.0.0.1:5173/api/dataset/status",
+      "initiatorType": "fetch",
+      "startTime": 525067.7000000477,
+      "duration": 710.1999999284744,
+      "transferSize": 5783
+    },
+    {
+      "name": "http://127.0.0.1:5173/api/dataset/status",
+      "initiatorType": "fetch",
+      "startTime": 535791,
+      "duration": 580,
+      "transferSize": 5783
+    },
+    {
+      "name": "http://127.0.0.1:5173/api/dataset/status",
+      "initiatorType": "fetch",
+      "startTime": 546378.2000000477,
+      "duration": 607.2999999523163,
+      "transferSize": 5783
+    },
+    {
+      "name": "http://127.0.0.1:5173/api/dataset/status",
+      "initiatorType": "fetch",
+      "startTime": 557004.5,
+      "duration": 602.5,
+      "transferSize": 5783
+    },
+    {
+      "name": "http://127.0.0.1:5173/api/dataset/status",
+      "initiatorType": "fetch",
+      "startTime": 567617.3000000715,
+      "duration": 575.2999999523163,
+      "transferSize": 5783
+    }
+  ],
+  "externalUrls": [],
+  "consoleAllDevelopment": [
+    {
+      "level": "error",
+      "message": "TypeError: fleet.clock.getMetrics is not a function\n    at FleetPanel (http://127.0.0.1:5173/src/components/fleet-panel.tsx?t=1791735754018:24:30)\n    at Object.react_stack_bottom_frame (http://127.0.0.1:5173/node_modules/.vite/deps/react-dom_client.js?v=38d73284:14142:12)\n    at renderWithHooks (http://127.0.0.1:5173/node_modules/.vite/deps/react-dom_client.js?v=38d73284:4400:19)\n    at updateFunctionComponent (http://127.0.0.1:5173/node_modules/.vite/deps/react-dom_client.js?v=38d73284:5775:16)\n    at beginWork (http://127.0.0.1:5173/node_modules/.vite/deps/react-dom_client.js?v=38d73284:6391:20)\n    at runWithFiberInDEV (http://127.0.0.1:5173/node_modules/.vite/deps/react-dom_client.js?v=38d73284:944:66)\n    at performUnitOfWork (http://127.0.0.1:5173/node_modules/.vite/deps/react-dom_client.js?v=38d73284:9148:92)\n    at workLoopSync (http://127.0.0.1:5173/node_modules/.vite/deps/react-dom_client.js?v=38d73284:9044:37)\n    at renderRootSync (http://127.0.0.1:5173/node_modules/.vite/deps/react-dom_client.js?v=38d73284:9028:6)\n    at performWorkOnRoot (http://127.0.0.1:5173/node_modules/.vite/deps/react-dom_client.js?v=38d73284:8715:27)",
+      "timestamp": "2026-10-11T16:22:34.845Z",
+      "url": "http://127.0.0.1:5173/src/components/fleet-panel.tsx?t=1791735754018"
+    },
+    {
+      "level": "warn",
+      "message": "%s\n\n%s\n An error occurred in the <FleetPanel> component. Consider adding an error boundary to your tree to customize error handling behavior.\nVisit https://react.dev/link/error-boundaries to learn more about error boundaries.",
+      "timestamp": "2026-10-11T16:22:34.845Z",
+      "url": "http://127.0.0.1:5173/node_modules/.vite/deps/react-dom_client.js?v=38d73284"
+    }
+  ],
+  "consoleFinal": [],
+  "final5": {
+    "wall": 1791737084885,
+    "canvases": 1,
+    "markers": [
+      {
+        "coordinate": [
+          106.69026193305744,
+          10.762245220959612
+        ],
+        "id": "GSM-01",
+        "progress": 0.6444616576297444,
+        "status": "moving",
+        "transform": "transform: translate(-50%, -50%) translate(269px, 760px) rotateX(0deg) rotateZ(0deg); opacity: 1;"
+      },
+      {
+        "coordinate": [
+          106.71018794848568,
+          10.779569065694238
+        ],
+        "id": "GSM-02",
+        "progress": 0.1859114015976761,
+        "status": "moving",
+        "transform": "transform: translate(-50%, -50%) translate(836px, 258px) rotateX(0deg) rotateZ(0deg); opacity: 1;"
+      },
+      {
+        "coordinate": [
+          106.68725473509252,
+          10.771286382136388
+        ],
+        "id": "GSM-03",
+        "progress": 0.6666666666666667,
+        "status": "moving",
+        "transform": "transform: translate(-50%, -50%) translate(183px, 498px) rotateX(0deg) rotateZ(0deg); opacity: 1;"
+      },
+      {
+        "coordinate": [
+          106.69533569044827,
+          10.783194762557438
+        ],
+        "id": "GSM-04",
+        "progress": 0.24391963341557985,
+        "status": "moving",
+        "transform": "transform: translate(-50%, -50%) translate(413px, 153px) rotateX(0deg) rotateZ(0deg); opacity: 1;"
+      },
+      {
+        "coordinate": [
+          106.70808041526683,
+          10.780733000905272
+        ],
+        "id": "GSM-05",
+        "progress": 0.13329862015100236,
+        "status": "moving",
+        "transform": "transform: translate(-50%, -50%) translate(776px, 224px) rotateX(0deg) rotateZ(0deg); opacity: 1;"
+      }
+    ],
+    "metrics": {
+      "frameSamples": 37,
+      "maxFrameMilliseconds": 66.79999999998836,
+      "meanFrameMilliseconds": 44.75675675740176
+    },
+    "state": "paused",
+    "summary": "Đã tạo 5/5 xe · 0.00 s0 route requests · 5 cache hitsSeed: hcm-fleet-2026Provenance scenarioFingerprint: 9193a3a34bd10f14a21da7121552503971f85419d7241aeb71bc7193eaac3341OSRM local / car / MLD · car · snap ≤ 100 m",
+    "time": 83.2
+  }
+}

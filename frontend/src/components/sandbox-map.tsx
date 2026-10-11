@@ -4,6 +4,9 @@ import { Map, MapControls, MapMarker, MarkerContent, MapRoute, RouteProgress, Ro
 import { emptyStyle, localStyle } from '@/lib/map-style'
 import { positionAt } from '@/lib/playback'
 import type { Coordinate, DatasetStatus, Route } from '@/lib/api'
+import type { FleetSession } from '@/lib/use-fleet'
+import type { FleetFocus } from './fleet-panel'
+import { FleetMap } from './fleet-map'
 
 const blankStyles = { light: emptyStyle, dark: emptyStyle }
 const readyStyles = { light: localStyle, dark: localStyle }
@@ -27,14 +30,16 @@ function MapEvents({ enabled, onSelect, onError }: { enabled: boolean; onSelect:
   }, [map, isLoaded, enabled, onSelect, onError])
   return null
 }
-export function SandboxMap({ dataset, start, end, route, progress, enabled, onSelect, onError }: {
+export function SandboxMap({ dataset, start, end, route, progress, enabled, onSelect, onError, fleet, fleetFocus }: {
   dataset: DatasetStatus | null; start: Coordinate | null; end: Coordinate | null; route: Route | null;
   progress: number; enabled: boolean; onSelect: (point: Coordinate) => void; onError: (message: string) => void
+  fleet?: FleetSession; fleetFocus?: FleetFocus | null
 }) {
   const box = dataset?.region.display_bbox ?? [106.675, 10.750, 106.725, 10.795]
   return <Map theme="light" styles={dataset?.artifacts.map_ready ? readyStyles : blankStyles} center={[(box[0] + box[2]) / 2, (box[1] + box[3]) / 2]} zoom={14.2} attributionControl={{ customAttribution: '© OpenStreetMap contributors', compact: false }}>
     <MapControls position="top-right" showCompass />
     <MapEvents enabled={enabled} onSelect={onSelect} onError={onError} />
+    {fleet && <FleetMap fleet={fleet} focus={fleetFocus ?? null} />}
     <FitRoute route={route} />
     {[start, end].map((point, i) => point && <MapMarker key={i} longitude={point[0]} latitude={point[1]}><MarkerContent><div className={`point-marker ${i ? 'destination' : ''}`}>{i ? 'B' : 'A'}</div></MarkerContent></MapMarker>)}
     {route && <MapRoute coordinates={route.coordinates} progress={progress} color="#397f9b" width={6} opacity={1}>
