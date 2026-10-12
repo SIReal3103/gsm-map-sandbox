@@ -1,0 +1,3239 @@
+{
+  "schemaVersion": "gsm-paired-batch/v1",
+  "spec": {
+    "baseSeed": "a5-real-2026",
+    "seedCount": 10,
+    "factor": "beta",
+    "config": {
+      "seed": "hcm-voucher-2026",
+      "fleetSize": 5,
+      "potentialCount": 30,
+      "horizonSeconds": 1800,
+      "maxWaitSeconds": 300,
+      "preset": "Medium",
+      "fare": {
+        "baseFare": 10000,
+        "perKm": 12000
+      },
+      "behavior": {
+        "alpha": 1.5,
+        "beta": 2,
+        "referenceFare": 50000
+      },
+      "voucher": {
+        "type": "fixed",
+        "fixedAmount": 20000,
+        "rate": 0.3,
+        "cap": 25000,
+        "minimumFare": 0
+      },
+      "campaignBudget": 200000
+    },
+    "datasetFingerprint": "9193a3a34bd10f14a21da7121552503971f85419d7241aeb71bc7193eaac3341",
+    "routingFingerprint": "{\"algorithm\":\"mld\",\"candidate_version\":2,\"display_bbox\":[106.675,10.75,106.725,10.795],\"extract_sha256\":\"3a939d15ac7b775aba3f5a0324064ceb3d1b19ab0d176f2b10b94448c36afda0\",\"image_digest\":\"ghcr.io/project-osrm/osrm-backend@sha256:855614a38f464b0558a2ad6eaa7cb8c139f39887da9b38b485ce453c6e6e6124\",\"max_snap_meters\":100,\"profile\":\"car\",\"profile_sha256\":\"cb3df0546318665609606b746a1297f3d65ca3c2ff825f8a6f3c57247d86a2d3\",\"router_url\":\"http://127.0.0.1:5000\",\"sampling_bbox\":[106.685,10.759,106.71499999999999,10.786],\"streets_sha256\":\"1b66f9b6876b7f09646f8a5bb893938b993a5556723a21e4c6d2afd5b2f5d2b6\"}"
+  },
+  "definitions": {
+    "sample": "Successful paired runs only; failures/cancellations remain in records and requested denominator.",
+    "difference": "Treatment completed − Baseline completed, same seed and config.",
+    "sd": "Sample SD with n−1; null for fewer than 2 successful pairs.",
+    "improvement": "Count of strictly positive increments / successful pairs; simulation statistic, not real-world probability.",
+    "pooledCpic": "Sum Treatment settled voucher spend / sum ALL paired increments; null if denominator ≤0.",
+    "nullable": "Wait/utilization/budget utilization use their own valid counts; nulls are never replaced with zero.",
+    "uncertainty": "Empirical seed variation under PoC assumptions; no causal or commercial claim."
+  },
+  "results": [
+    {
+      "job": {
+        "id": "1-1",
+        "seed": "a5-1-92f2b21e",
+        "variation": 1,
+        "config": {
+          "seed": "a5-1-92f2b21e",
+          "fleetSize": 5,
+          "potentialCount": 30,
+          "horizonSeconds": 1800,
+          "maxWaitSeconds": 300,
+          "preset": "Medium",
+          "fare": {
+            "baseFare": 10000,
+            "perKm": 12000
+          },
+          "behavior": {
+            "alpha": 1.5,
+            "beta": 1,
+            "referenceFare": 50000
+          },
+          "voucher": {
+            "type": "fixed",
+            "fixedAmount": 20000,
+            "rate": 0.3,
+            "cap": 25000,
+            "minimumFare": 0
+          },
+          "campaignBudget": 200000
+        }
+      },
+      "status": "success",
+      "error": null,
+      "experimentId": "fa66d866b07cb96aff214e104db5f8a0850241afa6bba5c0849b90387dc60d82",
+      "baseline": {
+        "validPotential": 30,
+        "invalidPotential": 0,
+        "accepted": 22,
+        "assigned": 18,
+        "pickedUp": 18,
+        "completed": 18,
+        "unserved": 4,
+        "conversionRate": 0.7333333333333333,
+        "completionRate": 0.8181818181818182,
+        "averageWaitSeconds": 198.56894444444447,
+        "averagePickupEtaSeconds": 175.3166666666667,
+        "averageTripSeconds": 248.6222222222222,
+        "emptyMeters": 37045.7,
+        "occupiedMeters": 53131.6,
+        "utilization": 0.6797844544593679,
+        "grossFareVnd": 817578,
+        "riderPaymentsVnd": 817578,
+        "voucherSpendVnd": 0,
+        "budget": {
+          "total": 0,
+          "reserved": 0,
+          "spent": 0,
+          "available": 0
+        },
+        "voucherCounts": {
+          "OFFERED": 0,
+          "RESERVED": 0,
+          "SETTLED": 0,
+          "RELEASED": 0
+        }
+      },
+      "treatment": {
+        "validPotential": 30,
+        "invalidPotential": 0,
+        "accepted": 22,
+        "assigned": 18,
+        "pickedUp": 18,
+        "completed": 18,
+        "unserved": 4,
+        "conversionRate": 0.7333333333333333,
+        "completionRate": 0.8181818181818182,
+        "averageWaitSeconds": 198.56894444444447,
+        "averagePickupEtaSeconds": 175.3166666666667,
+        "averageTripSeconds": 248.6222222222222,
+        "emptyMeters": 37045.7,
+        "occupiedMeters": 53131.6,
+        "utilization": 0.6797844544593679,
+        "grossFareVnd": 817578,
+        "riderPaymentsVnd": 617578,
+        "voucherSpendVnd": 200000,
+        "budget": {
+          "total": 200000,
+          "reserved": 0,
+          "spent": 200000,
+          "available": 0
+        },
+        "voucherCounts": {
+          "OFFERED": 15,
+          "RESERVED": 12,
+          "SETTLED": 10,
+          "RELEASED": 2
+        }
+      },
+      "increment": 0,
+      "cpic": null,
+      "milliseconds": 3691.4797,
+      "cacheHit": false,
+      "provenance": {
+        "extract_sha256": "3a939d15ac7b775aba3f5a0324064ceb3d1b19ab0d176f2b10b94448c36afda0",
+        "streets_sha256": "1b66f9b6876b7f09646f8a5bb893938b993a5556723a21e4c6d2afd5b2f5d2b6",
+        "image_digest": "ghcr.io/project-osrm/osrm-backend@sha256:855614a38f464b0558a2ad6eaa7cb8c139f39887da9b38b485ce453c6e6e6124",
+        "profile_sha256": "cb3df0546318665609606b746a1297f3d65ca3c2ff825f8a6f3c57247d86a2d3",
+        "profile": "car",
+        "algorithm": "mld",
+        "router_url": "http://127.0.0.1:5000",
+        "max_snap_meters": 100,
+        "display_bbox": [
+          106.675,
+          10.75,
+          106.725,
+          10.795
+        ],
+        "sampling_bbox": [
+          106.685,
+          10.759,
+          106.71499999999999,
+          10.786
+        ],
+        "candidate_version": 2
+      }
+    },
+    {
+      "job": {
+        "id": "1-2",
+        "seed": "a5-2-6170c4d0",
+        "variation": 1,
+        "config": {
+          "seed": "a5-2-6170c4d0",
+          "fleetSize": 5,
+          "potentialCount": 30,
+          "horizonSeconds": 1800,
+          "maxWaitSeconds": 300,
+          "preset": "Medium",
+          "fare": {
+            "baseFare": 10000,
+            "perKm": 12000
+          },
+          "behavior": {
+            "alpha": 1.5,
+            "beta": 1,
+            "referenceFare": 50000
+          },
+          "voucher": {
+            "type": "fixed",
+            "fixedAmount": 20000,
+            "rate": 0.3,
+            "cap": 25000,
+            "minimumFare": 0
+          },
+          "campaignBudget": 200000
+        }
+      },
+      "status": "success",
+      "error": null,
+      "experimentId": "67b6216734042d279a208833a2a9f76272204e0b639c2a3374494f455aca7d2a",
+      "baseline": {
+        "validPotential": 30,
+        "invalidPotential": 0,
+        "accepted": 24,
+        "assigned": 23,
+        "pickedUp": 23,
+        "completed": 23,
+        "unserved": 1,
+        "conversionRate": 0.8,
+        "completionRate": 0.9583333333333334,
+        "averageWaitSeconds": 162.06308695652177,
+        "averagePickupEtaSeconds": 150.4217391304348,
+        "averageTripSeconds": 202.92173913043484,
+        "emptyMeters": 40514.299999999996,
+        "occupiedMeters": 53954.30000000001,
+        "utilization": 0.7305475938242034,
+        "grossFareVnd": 877453,
+        "riderPaymentsVnd": 877453,
+        "voucherSpendVnd": 0,
+        "budget": {
+          "total": 0,
+          "reserved": 0,
+          "spent": 0,
+          "available": 0
+        },
+        "voucherCounts": {
+          "OFFERED": 0,
+          "RESERVED": 0,
+          "SETTLED": 0,
+          "RELEASED": 0
+        }
+      },
+      "treatment": {
+        "validPotential": 30,
+        "invalidPotential": 0,
+        "accepted": 24,
+        "assigned": 23,
+        "pickedUp": 23,
+        "completed": 23,
+        "unserved": 1,
+        "conversionRate": 0.8,
+        "completionRate": 0.9583333333333334,
+        "averageWaitSeconds": 162.06308695652177,
+        "averagePickupEtaSeconds": 150.4217391304348,
+        "averageTripSeconds": 202.92173913043484,
+        "emptyMeters": 40514.299999999996,
+        "occupiedMeters": 53954.30000000001,
+        "utilization": 0.7305475938242034,
+        "grossFareVnd": 877453,
+        "riderPaymentsVnd": 677453,
+        "voucherSpendVnd": 200000,
+        "budget": {
+          "total": 200000,
+          "reserved": 0,
+          "spent": 200000,
+          "available": 0
+        },
+        "voucherCounts": {
+          "OFFERED": 12,
+          "RESERVED": 10,
+          "SETTLED": 10,
+          "RELEASED": 0
+        }
+      },
+      "increment": 0,
+      "cpic": null,
+      "milliseconds": 2707.8799000000004,
+      "cacheHit": false,
+      "provenance": {
+        "extract_sha256": "3a939d15ac7b775aba3f5a0324064ceb3d1b19ab0d176f2b10b94448c36afda0",
+        "streets_sha256": "1b66f9b6876b7f09646f8a5bb893938b993a5556723a21e4c6d2afd5b2f5d2b6",
+        "image_digest": "ghcr.io/project-osrm/osrm-backend@sha256:855614a38f464b0558a2ad6eaa7cb8c139f39887da9b38b485ce453c6e6e6124",
+        "profile_sha256": "cb3df0546318665609606b746a1297f3d65ca3c2ff825f8a6f3c57247d86a2d3",
+        "profile": "car",
+        "algorithm": "mld",
+        "router_url": "http://127.0.0.1:5000",
+        "max_snap_meters": 100,
+        "display_bbox": [
+          106.675,
+          10.75,
+          106.725,
+          10.795
+        ],
+        "sampling_bbox": [
+          106.685,
+          10.759,
+          106.71499999999999,
+          10.786
+        ],
+        "candidate_version": 2
+      }
+    },
+    {
+      "job": {
+        "id": "1-3",
+        "seed": "a5-3-1ef0a640",
+        "variation": 1,
+        "config": {
+          "seed": "a5-3-1ef0a640",
+          "fleetSize": 5,
+          "potentialCount": 30,
+          "horizonSeconds": 1800,
+          "maxWaitSeconds": 300,
+          "preset": "Medium",
+          "fare": {
+            "baseFare": 10000,
+            "perKm": 12000
+          },
+          "behavior": {
+            "alpha": 1.5,
+            "beta": 1,
+            "referenceFare": 50000
+          },
+          "voucher": {
+            "type": "fixed",
+            "fixedAmount": 20000,
+            "rate": 0.3,
+            "cap": 25000,
+            "minimumFare": 0
+          },
+          "campaignBudget": 200000
+        }
+      },
+      "status": "success",
+      "error": null,
+      "experimentId": "ddf5b41e91f22c0f8608de8ad65511208ea0f6285f55cfdb156c4be16cc6efb8",
+      "baseline": {
+        "validPotential": 30,
+        "invalidPotential": 0,
+        "accepted": 19,
+        "assigned": 18,
+        "pickedUp": 18,
+        "completed": 18,
+        "unserved": 1,
+        "conversionRate": 0.6333333333333333,
+        "completionRate": 0.9473684210526315,
+        "averageWaitSeconds": 153.9015555555556,
+        "averagePickupEtaSeconds": 142.88333333333333,
+        "averageTripSeconds": 190.27777777777774,
+        "emptyMeters": 28009.200000000004,
+        "occupiedMeters": 40044,
+        "utilization": 0.588671540441781,
+        "grossFareVnd": 660528,
+        "riderPaymentsVnd": 660528,
+        "voucherSpendVnd": 0,
+        "budget": {
+          "total": 0,
+          "reserved": 0,
+          "spent": 0,
+          "available": 0
+        },
+        "voucherCounts": {
+          "OFFERED": 0,
+          "RESERVED": 0,
+          "SETTLED": 0,
+          "RELEASED": 0
+        }
+      },
+      "treatment": {
+        "validPotential": 30,
+        "invalidPotential": 0,
+        "accepted": 19,
+        "assigned": 18,
+        "pickedUp": 18,
+        "completed": 18,
+        "unserved": 1,
+        "conversionRate": 0.6333333333333333,
+        "completionRate": 0.9473684210526315,
+        "averageWaitSeconds": 153.9015555555556,
+        "averagePickupEtaSeconds": 142.88333333333333,
+        "averageTripSeconds": 190.27777777777774,
+        "emptyMeters": 28009.200000000004,
+        "occupiedMeters": 40044,
+        "utilization": 0.588671540441781,
+        "grossFareVnd": 660528,
+        "riderPaymentsVnd": 465681,
+        "voucherSpendVnd": 194847,
+        "budget": {
+          "total": 200000,
+          "reserved": 0,
+          "spent": 194847,
+          "available": 5153
+        },
+        "voucherCounts": {
+          "OFFERED": 14,
+          "RESERVED": 10,
+          "SETTLED": 10,
+          "RELEASED": 0
+        }
+      },
+      "increment": 0,
+      "cpic": null,
+      "milliseconds": 3954.0917,
+      "cacheHit": false,
+      "provenance": {
+        "extract_sha256": "3a939d15ac7b775aba3f5a0324064ceb3d1b19ab0d176f2b10b94448c36afda0",
+        "streets_sha256": "1b66f9b6876b7f09646f8a5bb893938b993a5556723a21e4c6d2afd5b2f5d2b6",
+        "image_digest": "ghcr.io/project-osrm/osrm-backend@sha256:855614a38f464b0558a2ad6eaa7cb8c139f39887da9b38b485ce453c6e6e6124",
+        "profile_sha256": "cb3df0546318665609606b746a1297f3d65ca3c2ff825f8a6f3c57247d86a2d3",
+        "profile": "car",
+        "algorithm": "mld",
+        "router_url": "http://127.0.0.1:5000",
+        "max_snap_meters": 100,
+        "display_bbox": [
+          106.675,
+          10.75,
+          106.725,
+          10.795
+        ],
+        "sampling_bbox": [
+          106.685,
+          10.759,
+          106.71499999999999,
+          10.786
+        ],
+        "candidate_version": 2
+      }
+    },
+    {
+      "job": {
+        "id": "1-4",
+        "seed": "a5-4-665be8b2",
+        "variation": 1,
+        "config": {
+          "seed": "a5-4-665be8b2",
+          "fleetSize": 5,
+          "potentialCount": 30,
+          "horizonSeconds": 1800,
+          "maxWaitSeconds": 300,
+          "preset": "Medium",
+          "fare": {
+            "baseFare": 10000,
+            "perKm": 12000
+          },
+          "behavior": {
+            "alpha": 1.5,
+            "beta": 1,
+            "referenceFare": 50000
+          },
+          "voucher": {
+            "type": "fixed",
+            "fixedAmount": 20000,
+            "rate": 0.3,
+            "cap": 25000,
+            "minimumFare": 0
+          },
+          "campaignBudget": 200000
+        }
+      },
+      "status": "success",
+      "error": null,
+      "experimentId": "69ceb662b3ba170ffa702e0449d00c36be00c5ca3c5af39fbd12d5d6572a5829",
+      "baseline": {
+        "validPotential": 30,
+        "invalidPotential": 0,
+        "accepted": 19,
+        "assigned": 19,
+        "pickedUp": 19,
+        "completed": 19,
+        "unserved": 0,
+        "conversionRate": 0.6333333333333333,
+        "completionRate": 1,
+        "averageWaitSeconds": 173.16600000000003,
+        "averagePickupEtaSeconds": 160.64210526315787,
+        "averageTripSeconds": 223.97368421052633,
+        "emptyMeters": 35211.100000000006,
+        "occupiedMeters": 49810.100000000006,
+        "utilization": 0.6421940950517915,
+        "grossFareVnd": 787723,
+        "riderPaymentsVnd": 787723,
+        "voucherSpendVnd": 0,
+        "budget": {
+          "total": 0,
+          "reserved": 0,
+          "spent": 0,
+          "available": 0
+        },
+        "voucherCounts": {
+          "OFFERED": 0,
+          "RESERVED": 0,
+          "SETTLED": 0,
+          "RELEASED": 0
+        }
+      },
+      "treatment": {
+        "validPotential": 30,
+        "invalidPotential": 0,
+        "accepted": 20,
+        "assigned": 19,
+        "pickedUp": 19,
+        "completed": 19,
+        "unserved": 1,
+        "conversionRate": 0.6666666666666666,
+        "completionRate": 0.95,
+        "averageWaitSeconds": 161.87836842105264,
+        "averagePickupEtaSeconds": 147.6578947368421,
+        "averageTripSeconds": 222.38947368421054,
+        "emptyMeters": 32704.700000000004,
+        "occupiedMeters": 49113.4,
+        "utilization": 0.6178691603239926,
+        "grossFareVnd": 779363,
+        "riderPaymentsVnd": 579363,
+        "voucherSpendVnd": 200000,
+        "budget": {
+          "total": 200000,
+          "reserved": 0,
+          "spent": 200000,
+          "available": 0
+        },
+        "voucherCounts": {
+          "OFFERED": 11,
+          "RESERVED": 10,
+          "SETTLED": 10,
+          "RELEASED": 0
+        }
+      },
+      "increment": 0,
+      "cpic": null,
+      "milliseconds": 4645.9462,
+      "cacheHit": false,
+      "provenance": {
+        "extract_sha256": "3a939d15ac7b775aba3f5a0324064ceb3d1b19ab0d176f2b10b94448c36afda0",
+        "streets_sha256": "1b66f9b6876b7f09646f8a5bb893938b993a5556723a21e4c6d2afd5b2f5d2b6",
+        "image_digest": "ghcr.io/project-osrm/osrm-backend@sha256:855614a38f464b0558a2ad6eaa7cb8c139f39887da9b38b485ce453c6e6e6124",
+        "profile_sha256": "cb3df0546318665609606b746a1297f3d65ca3c2ff825f8a6f3c57247d86a2d3",
+        "profile": "car",
+        "algorithm": "mld",
+        "router_url": "http://127.0.0.1:5000",
+        "max_snap_meters": 100,
+        "display_bbox": [
+          106.675,
+          10.75,
+          106.725,
+          10.795
+        ],
+        "sampling_bbox": [
+          106.685,
+          10.759,
+          106.71499999999999,
+          10.786
+        ],
+        "candidate_version": 2
+      }
+    },
+    {
+      "job": {
+        "id": "1-5",
+        "seed": "a5-5-a46db9b2",
+        "variation": 1,
+        "config": {
+          "seed": "a5-5-a46db9b2",
+          "fleetSize": 5,
+          "potentialCount": 30,
+          "horizonSeconds": 1800,
+          "maxWaitSeconds": 300,
+          "preset": "Medium",
+          "fare": {
+            "baseFare": 10000,
+            "perKm": 12000
+          },
+          "behavior": {
+            "alpha": 1.5,
+            "beta": 1,
+            "referenceFare": 50000
+          },
+          "voucher": {
+            "type": "fixed",
+            "fixedAmount": 20000,
+            "rate": 0.3,
+            "cap": 25000,
+            "minimumFare": 0
+          },
+          "campaignBudget": 200000
+        }
+      },
+      "status": "success",
+      "error": null,
+      "experimentId": "0bb22c2c1f9e39f35edd0d1ced617adcb70d6be4cb0d1c6a0835de40c4f41077",
+      "baseline": {
+        "validPotential": 30,
+        "invalidPotential": 0,
+        "accepted": 20,
+        "assigned": 17,
+        "pickedUp": 17,
+        "completed": 17,
+        "unserved": 3,
+        "conversionRate": 0.6666666666666666,
+        "completionRate": 0.85,
+        "averageWaitSeconds": 140.00752941176466,
+        "averagePickupEtaSeconds": 124.42941176470586,
+        "averageTripSeconds": 207.4705882352941,
+        "emptyMeters": 24776.999999999996,
+        "occupiedMeters": 41767.7,
+        "utilization": 0.4978459733046277,
+        "grossFareVnd": 671213,
+        "riderPaymentsVnd": 671213,
+        "voucherSpendVnd": 0,
+        "budget": {
+          "total": 0,
+          "reserved": 0,
+          "spent": 0,
+          "available": 0
+        },
+        "voucherCounts": {
+          "OFFERED": 0,
+          "RESERVED": 0,
+          "SETTLED": 0,
+          "RELEASED": 0
+        }
+      },
+      "treatment": {
+        "validPotential": 30,
+        "invalidPotential": 0,
+        "accepted": 21,
+        "assigned": 19,
+        "pickedUp": 19,
+        "completed": 19,
+        "unserved": 2,
+        "conversionRate": 0.7,
+        "completionRate": 0.9047619047619048,
+        "averageWaitSeconds": 154.77242105263156,
+        "averagePickupEtaSeconds": 129.8315789473684,
+        "averageTripSeconds": 228.3052631578947,
+        "emptyMeters": 29365.899999999998,
+        "occupiedMeters": 50696,
+        "utilization": 0.6004010261681708,
+        "grossFareVnd": 798353,
+        "riderPaymentsVnd": 600585,
+        "voucherSpendVnd": 197768,
+        "budget": {
+          "total": 200000,
+          "reserved": 0,
+          "spent": 197768,
+          "available": 2232
+        },
+        "voucherCounts": {
+          "OFFERED": 11,
+          "RESERVED": 10,
+          "SETTLED": 10,
+          "RELEASED": 0
+        }
+      },
+      "increment": 2,
+      "cpic": 98884,
+      "milliseconds": 4740.779,
+      "cacheHit": false,
+      "provenance": {
+        "extract_sha256": "3a939d15ac7b775aba3f5a0324064ceb3d1b19ab0d176f2b10b94448c36afda0",
+        "streets_sha256": "1b66f9b6876b7f09646f8a5bb893938b993a5556723a21e4c6d2afd5b2f5d2b6",
+        "image_digest": "ghcr.io/project-osrm/osrm-backend@sha256:855614a38f464b0558a2ad6eaa7cb8c139f39887da9b38b485ce453c6e6e6124",
+        "profile_sha256": "cb3df0546318665609606b746a1297f3d65ca3c2ff825f8a6f3c57247d86a2d3",
+        "profile": "car",
+        "algorithm": "mld",
+        "router_url": "http://127.0.0.1:5000",
+        "max_snap_meters": 100,
+        "display_bbox": [
+          106.675,
+          10.75,
+          106.725,
+          10.795
+        ],
+        "sampling_bbox": [
+          106.685,
+          10.759,
+          106.71499999999999,
+          10.786
+        ],
+        "candidate_version": 2
+      }
+    },
+    {
+      "job": {
+        "id": "1-6",
+        "seed": "a5-6-d259b2b3",
+        "variation": 1,
+        "config": {
+          "seed": "a5-6-d259b2b3",
+          "fleetSize": 5,
+          "potentialCount": 30,
+          "horizonSeconds": 1800,
+          "maxWaitSeconds": 300,
+          "preset": "Medium",
+          "fare": {
+            "baseFare": 10000,
+            "perKm": 12000
+          },
+          "behavior": {
+            "alpha": 1.5,
+            "beta": 1,
+            "referenceFare": 50000
+          },
+          "voucher": {
+            "type": "fixed",
+            "fixedAmount": 20000,
+            "rate": 0.3,
+            "cap": 25000,
+            "minimumFare": 0
+          },
+          "campaignBudget": 200000
+        }
+      },
+      "status": "error",
+      "error": "{\"error\":{\"code\":\"ROUTER_BAD_RESPONSE\",\"message\":\"Table ETA/snaps không hợp lệ.\"}}",
+      "experimentId": null,
+      "baseline": null,
+      "treatment": null,
+      "increment": null,
+      "cpic": null,
+      "milliseconds": 2417.938299999998,
+      "cacheHit": false,
+      "provenance": null
+    },
+    {
+      "job": {
+        "id": "1-7",
+        "seed": "a5-7-d890bf2d",
+        "variation": 1,
+        "config": {
+          "seed": "a5-7-d890bf2d",
+          "fleetSize": 5,
+          "potentialCount": 30,
+          "horizonSeconds": 1800,
+          "maxWaitSeconds": 300,
+          "preset": "Medium",
+          "fare": {
+            "baseFare": 10000,
+            "perKm": 12000
+          },
+          "behavior": {
+            "alpha": 1.5,
+            "beta": 1,
+            "referenceFare": 50000
+          },
+          "voucher": {
+            "type": "fixed",
+            "fixedAmount": 20000,
+            "rate": 0.3,
+            "cap": 25000,
+            "minimumFare": 0
+          },
+          "campaignBudget": 200000
+        }
+      },
+      "status": "error",
+      "error": "{\"error\":{\"code\":\"ROUTER_BAD_RESPONSE\",\"message\":\"Table ETA/snaps không hợp lệ.\"}}",
+      "experimentId": null,
+      "baseline": null,
+      "treatment": null,
+      "increment": null,
+      "cpic": null,
+      "milliseconds": 3036.303,
+      "cacheHit": false,
+      "provenance": null
+    },
+    {
+      "job": {
+        "id": "1-8",
+        "seed": "a5-8-803ff259",
+        "variation": 1,
+        "config": {
+          "seed": "a5-8-803ff259",
+          "fleetSize": 5,
+          "potentialCount": 30,
+          "horizonSeconds": 1800,
+          "maxWaitSeconds": 300,
+          "preset": "Medium",
+          "fare": {
+            "baseFare": 10000,
+            "perKm": 12000
+          },
+          "behavior": {
+            "alpha": 1.5,
+            "beta": 1,
+            "referenceFare": 50000
+          },
+          "voucher": {
+            "type": "fixed",
+            "fixedAmount": 20000,
+            "rate": 0.3,
+            "cap": 25000,
+            "minimumFare": 0
+          },
+          "campaignBudget": 200000
+        }
+      },
+      "status": "success",
+      "error": null,
+      "experimentId": "4bf2acac155ad45ab8a8b8b41e56dcc9d129b1f360ef7e43f8887dafc30e0e9f",
+      "baseline": {
+        "validPotential": 30,
+        "invalidPotential": 0,
+        "accepted": 23,
+        "assigned": 20,
+        "pickedUp": 20,
+        "completed": 20,
+        "unserved": 3,
+        "conversionRate": 0.7666666666666667,
+        "completionRate": 0.8695652173913043,
+        "averageWaitSeconds": 136.11015000000003,
+        "averagePickupEtaSeconds": 125.12999999999997,
+        "averageTripSeconds": 230.01000000000005,
+        "emptyMeters": 28449.800000000003,
+        "occupiedMeters": 54133.899999999994,
+        "utilization": 0.6980882379680076,
+        "grossFareVnd": 849606,
+        "riderPaymentsVnd": 849606,
+        "voucherSpendVnd": 0,
+        "budget": {
+          "total": 0,
+          "reserved": 0,
+          "spent": 0,
+          "available": 0
+        },
+        "voucherCounts": {
+          "OFFERED": 0,
+          "RESERVED": 0,
+          "SETTLED": 0,
+          "RELEASED": 0
+        }
+      },
+      "treatment": {
+        "validPotential": 30,
+        "invalidPotential": 0,
+        "accepted": 24,
+        "assigned": 19,
+        "pickedUp": 19,
+        "completed": 19,
+        "unserved": 5,
+        "conversionRate": 0.8,
+        "completionRate": 0.7916666666666666,
+        "averageWaitSeconds": 144.62973684210527,
+        "averagePickupEtaSeconds": 133.52105263157895,
+        "averageTripSeconds": 236.4421052631579,
+        "emptyMeters": 28663.200000000004,
+        "occupiedMeters": 52657.5,
+        "utilization": 0.6908643987087509,
+        "grossFareVnd": 821890,
+        "riderPaymentsVnd": 621890,
+        "voucherSpendVnd": 200000,
+        "budget": {
+          "total": 200000,
+          "reserved": 0,
+          "spent": 200000,
+          "available": 0
+        },
+        "voucherCounts": {
+          "OFFERED": 14,
+          "RESERVED": 11,
+          "SETTLED": 10,
+          "RELEASED": 1
+        }
+      },
+      "increment": -1,
+      "cpic": null,
+      "milliseconds": 4747.739700000002,
+      "cacheHit": false,
+      "provenance": {
+        "extract_sha256": "3a939d15ac7b775aba3f5a0324064ceb3d1b19ab0d176f2b10b94448c36afda0",
+        "streets_sha256": "1b66f9b6876b7f09646f8a5bb893938b993a5556723a21e4c6d2afd5b2f5d2b6",
+        "image_digest": "ghcr.io/project-osrm/osrm-backend@sha256:855614a38f464b0558a2ad6eaa7cb8c139f39887da9b38b485ce453c6e6e6124",
+        "profile_sha256": "cb3df0546318665609606b746a1297f3d65ca3c2ff825f8a6f3c57247d86a2d3",
+        "profile": "car",
+        "algorithm": "mld",
+        "router_url": "http://127.0.0.1:5000",
+        "max_snap_meters": 100,
+        "display_bbox": [
+          106.675,
+          10.75,
+          106.725,
+          10.795
+        ],
+        "sampling_bbox": [
+          106.685,
+          10.759,
+          106.71499999999999,
+          10.786
+        ],
+        "candidate_version": 2
+      }
+    },
+    {
+      "job": {
+        "id": "1-9",
+        "seed": "a5-9-36f01b76",
+        "variation": 1,
+        "config": {
+          "seed": "a5-9-36f01b76",
+          "fleetSize": 5,
+          "potentialCount": 30,
+          "horizonSeconds": 1800,
+          "maxWaitSeconds": 300,
+          "preset": "Medium",
+          "fare": {
+            "baseFare": 10000,
+            "perKm": 12000
+          },
+          "behavior": {
+            "alpha": 1.5,
+            "beta": 1,
+            "referenceFare": 50000
+          },
+          "voucher": {
+            "type": "fixed",
+            "fixedAmount": 20000,
+            "rate": 0.3,
+            "cap": 25000,
+            "minimumFare": 0
+          },
+          "campaignBudget": 200000
+        }
+      },
+      "status": "success",
+      "error": null,
+      "experimentId": "2b1f33e72e895d9037f45af098353c7f615b800206d936079a92d996548e73c9",
+      "baseline": {
+        "validPotential": 30,
+        "invalidPotential": 0,
+        "accepted": 20,
+        "assigned": 17,
+        "pickedUp": 17,
+        "completed": 17,
+        "unserved": 3,
+        "conversionRate": 0.6666666666666666,
+        "completionRate": 0.85,
+        "averageWaitSeconds": 146.64329411764706,
+        "averagePickupEtaSeconds": 139.21764705882356,
+        "averageTripSeconds": 205.57058823529408,
+        "emptyMeters": 26775.399999999998,
+        "occupiedMeters": 40198.5,
+        "utilization": 0.6398562523095095,
+        "grossFareVnd": 652382,
+        "riderPaymentsVnd": 652382,
+        "voucherSpendVnd": 0,
+        "budget": {
+          "total": 0,
+          "reserved": 0,
+          "spent": 0,
+          "available": 0
+        },
+        "voucherCounts": {
+          "OFFERED": 0,
+          "RESERVED": 0,
+          "SETTLED": 0,
+          "RELEASED": 0
+        }
+      },
+      "treatment": {
+        "validPotential": 30,
+        "invalidPotential": 0,
+        "accepted": 20,
+        "assigned": 17,
+        "pickedUp": 17,
+        "completed": 17,
+        "unserved": 3,
+        "conversionRate": 0.6666666666666666,
+        "completionRate": 0.85,
+        "averageWaitSeconds": 146.64329411764706,
+        "averagePickupEtaSeconds": 139.21764705882356,
+        "averageTripSeconds": 205.57058823529408,
+        "emptyMeters": 26775.399999999998,
+        "occupiedMeters": 40198.5,
+        "utilization": 0.6398562523095095,
+        "grossFareVnd": 652382,
+        "riderPaymentsVnd": 452382,
+        "voucherSpendVnd": 200000,
+        "budget": {
+          "total": 200000,
+          "reserved": 0,
+          "spent": 200000,
+          "available": 0
+        },
+        "voucherCounts": {
+          "OFFERED": 13,
+          "RESERVED": 11,
+          "SETTLED": 10,
+          "RELEASED": 1
+        }
+      },
+      "increment": 0,
+      "cpic": null,
+      "milliseconds": 4227.9437,
+      "cacheHit": false,
+      "provenance": {
+        "extract_sha256": "3a939d15ac7b775aba3f5a0324064ceb3d1b19ab0d176f2b10b94448c36afda0",
+        "streets_sha256": "1b66f9b6876b7f09646f8a5bb893938b993a5556723a21e4c6d2afd5b2f5d2b6",
+        "image_digest": "ghcr.io/project-osrm/osrm-backend@sha256:855614a38f464b0558a2ad6eaa7cb8c139f39887da9b38b485ce453c6e6e6124",
+        "profile_sha256": "cb3df0546318665609606b746a1297f3d65ca3c2ff825f8a6f3c57247d86a2d3",
+        "profile": "car",
+        "algorithm": "mld",
+        "router_url": "http://127.0.0.1:5000",
+        "max_snap_meters": 100,
+        "display_bbox": [
+          106.675,
+          10.75,
+          106.725,
+          10.795
+        ],
+        "sampling_bbox": [
+          106.685,
+          10.759,
+          106.71499999999999,
+          10.786
+        ],
+        "candidate_version": 2
+      }
+    },
+    {
+      "job": {
+        "id": "1-10",
+        "seed": "a5-10-08b8847a",
+        "variation": 1,
+        "config": {
+          "seed": "a5-10-08b8847a",
+          "fleetSize": 5,
+          "potentialCount": 30,
+          "horizonSeconds": 1800,
+          "maxWaitSeconds": 300,
+          "preset": "Medium",
+          "fare": {
+            "baseFare": 10000,
+            "perKm": 12000
+          },
+          "behavior": {
+            "alpha": 1.5,
+            "beta": 1,
+            "referenceFare": 50000
+          },
+          "voucher": {
+            "type": "fixed",
+            "fixedAmount": 20000,
+            "rate": 0.3,
+            "cap": 25000,
+            "minimumFare": 0
+          },
+          "campaignBudget": 200000
+        }
+      },
+      "status": "error",
+      "error": "{\"error\":{\"code\":\"ROUTER_BAD_RESPONSE\",\"message\":\"Table ETA/snaps không hợp lệ.\"}}",
+      "experimentId": null,
+      "baseline": null,
+      "treatment": null,
+      "increment": null,
+      "cpic": null,
+      "milliseconds": 2272.922099999996,
+      "cacheHit": false,
+      "provenance": null
+    },
+    {
+      "job": {
+        "id": "2-1",
+        "seed": "a5-1-92f2b21e",
+        "variation": 2,
+        "config": {
+          "seed": "a5-1-92f2b21e",
+          "fleetSize": 5,
+          "potentialCount": 30,
+          "horizonSeconds": 1800,
+          "maxWaitSeconds": 300,
+          "preset": "Medium",
+          "fare": {
+            "baseFare": 10000,
+            "perKm": 12000
+          },
+          "behavior": {
+            "alpha": 1.5,
+            "beta": 2,
+            "referenceFare": 50000
+          },
+          "voucher": {
+            "type": "fixed",
+            "fixedAmount": 20000,
+            "rate": 0.3,
+            "cap": 25000,
+            "minimumFare": 0
+          },
+          "campaignBudget": 200000
+        }
+      },
+      "status": "success",
+      "error": null,
+      "experimentId": "141b9627275a67ecb91883e3465c55a473bb98616a5eea222d93f35979e3b138",
+      "baseline": {
+        "validPotential": 30,
+        "invalidPotential": 0,
+        "accepted": 14,
+        "assigned": 13,
+        "pickedUp": 13,
+        "completed": 13,
+        "unserved": 1,
+        "conversionRate": 0.4666666666666667,
+        "completionRate": 0.9285714285714286,
+        "averageWaitSeconds": 140.29607692307692,
+        "averagePickupEtaSeconds": 132.87692307692308,
+        "averageTripSeconds": 236.27692307692308,
+        "emptyMeters": 20589.899999999998,
+        "occupiedMeters": 36804.100000000006,
+        "utilization": 0.4379480777373808,
+        "grossFareVnd": 571648,
+        "riderPaymentsVnd": 571648,
+        "voucherSpendVnd": 0,
+        "budget": {
+          "total": 0,
+          "reserved": 0,
+          "spent": 0,
+          "available": 0
+        },
+        "voucherCounts": {
+          "OFFERED": 0,
+          "RESERVED": 0,
+          "SETTLED": 0,
+          "RELEASED": 0
+        }
+      },
+      "treatment": {
+        "validPotential": 30,
+        "invalidPotential": 0,
+        "accepted": 18,
+        "assigned": 15,
+        "pickedUp": 15,
+        "completed": 15,
+        "unserved": 3,
+        "conversionRate": 0.6,
+        "completionRate": 0.8333333333333334,
+        "averageWaitSeconds": 181.3538666666667,
+        "averagePickupEtaSeconds": 157.55333333333334,
+        "averageTripSeconds": 235.69999999999996,
+        "emptyMeters": 27576.9,
+        "occupiedMeters": 42018.8,
+        "utilization": 0.5383138405828842,
+        "grossFareVnd": 654225,
+        "riderPaymentsVnd": 454225,
+        "voucherSpendVnd": 200000,
+        "budget": {
+          "total": 200000,
+          "reserved": 0,
+          "spent": 200000,
+          "available": 0
+        },
+        "voucherCounts": {
+          "OFFERED": 15,
+          "RESERVED": 12,
+          "SETTLED": 10,
+          "RELEASED": 2
+        }
+      },
+      "increment": 2,
+      "cpic": 100000,
+      "milliseconds": 4180.277399999999,
+      "cacheHit": false,
+      "provenance": {
+        "extract_sha256": "3a939d15ac7b775aba3f5a0324064ceb3d1b19ab0d176f2b10b94448c36afda0",
+        "streets_sha256": "1b66f9b6876b7f09646f8a5bb893938b993a5556723a21e4c6d2afd5b2f5d2b6",
+        "image_digest": "ghcr.io/project-osrm/osrm-backend@sha256:855614a38f464b0558a2ad6eaa7cb8c139f39887da9b38b485ce453c6e6e6124",
+        "profile_sha256": "cb3df0546318665609606b746a1297f3d65ca3c2ff825f8a6f3c57247d86a2d3",
+        "profile": "car",
+        "algorithm": "mld",
+        "router_url": "http://127.0.0.1:5000",
+        "max_snap_meters": 100,
+        "display_bbox": [
+          106.675,
+          10.75,
+          106.725,
+          10.795
+        ],
+        "sampling_bbox": [
+          106.685,
+          10.759,
+          106.71499999999999,
+          10.786
+        ],
+        "candidate_version": 2
+      }
+    },
+    {
+      "job": {
+        "id": "2-2",
+        "seed": "a5-2-6170c4d0",
+        "variation": 2,
+        "config": {
+          "seed": "a5-2-6170c4d0",
+          "fleetSize": 5,
+          "potentialCount": 30,
+          "horizonSeconds": 1800,
+          "maxWaitSeconds": 300,
+          "preset": "Medium",
+          "fare": {
+            "baseFare": 10000,
+            "perKm": 12000
+          },
+          "behavior": {
+            "alpha": 1.5,
+            "beta": 2,
+            "referenceFare": 50000
+          },
+          "voucher": {
+            "type": "fixed",
+            "fixedAmount": 20000,
+            "rate": 0.3,
+            "cap": 25000,
+            "minimumFare": 0
+          },
+          "campaignBudget": 200000
+        }
+      },
+      "status": "success",
+      "error": null,
+      "experimentId": "d5e3762d07d3ca8272d6aa94de4dffa397f245599e1182d4d638e191fccbb4d7",
+      "baseline": {
+        "validPotential": 30,
+        "invalidPotential": 0,
+        "accepted": 15,
+        "assigned": 15,
+        "pickedUp": 15,
+        "completed": 15,
+        "unserved": 0,
+        "conversionRate": 0.5,
+        "completionRate": 1,
+        "averageWaitSeconds": 111.80666666666667,
+        "averagePickupEtaSeconds": 111.80666666666667,
+        "averageTripSeconds": 190.95333333333332,
+        "emptyMeters": 18911.2,
+        "occupiedMeters": 33094.1,
+        "utilization": 0.3914925751408162,
+        "grossFareVnd": 547131,
+        "riderPaymentsVnd": 547131,
+        "voucherSpendVnd": 0,
+        "budget": {
+          "total": 0,
+          "reserved": 0,
+          "spent": 0,
+          "available": 0
+        },
+        "voucherCounts": {
+          "OFFERED": 0,
+          "RESERVED": 0,
+          "SETTLED": 0,
+          "RELEASED": 0
+        }
+      },
+      "treatment": {
+        "validPotential": 30,
+        "invalidPotential": 0,
+        "accepted": 19,
+        "assigned": 19,
+        "pickedUp": 19,
+        "completed": 19,
+        "unserved": 0,
+        "conversionRate": 0.6333333333333333,
+        "completionRate": 1,
+        "averageWaitSeconds": 137.89815789473684,
+        "averagePickupEtaSeconds": 132.03684210526316,
+        "averageTripSeconds": 189.34210526315792,
+        "emptyMeters": 29236.999999999996,
+        "occupiedMeters": 40977.8,
+        "utilization": 0.5263865685305967,
+        "grossFareVnd": 681735,
+        "riderPaymentsVnd": 481735,
+        "voucherSpendVnd": 200000,
+        "budget": {
+          "total": 200000,
+          "reserved": 0,
+          "spent": 200000,
+          "available": 0
+        },
+        "voucherCounts": {
+          "OFFERED": 13,
+          "RESERVED": 10,
+          "SETTLED": 10,
+          "RELEASED": 0
+        }
+      },
+      "increment": 4,
+      "cpic": 50000,
+      "milliseconds": 4201.0291,
+      "cacheHit": false,
+      "provenance": {
+        "extract_sha256": "3a939d15ac7b775aba3f5a0324064ceb3d1b19ab0d176f2b10b94448c36afda0",
+        "streets_sha256": "1b66f9b6876b7f09646f8a5bb893938b993a5556723a21e4c6d2afd5b2f5d2b6",
+        "image_digest": "ghcr.io/project-osrm/osrm-backend@sha256:855614a38f464b0558a2ad6eaa7cb8c139f39887da9b38b485ce453c6e6e6124",
+        "profile_sha256": "cb3df0546318665609606b746a1297f3d65ca3c2ff825f8a6f3c57247d86a2d3",
+        "profile": "car",
+        "algorithm": "mld",
+        "router_url": "http://127.0.0.1:5000",
+        "max_snap_meters": 100,
+        "display_bbox": [
+          106.675,
+          10.75,
+          106.725,
+          10.795
+        ],
+        "sampling_bbox": [
+          106.685,
+          10.759,
+          106.71499999999999,
+          10.786
+        ],
+        "candidate_version": 2
+      }
+    },
+    {
+      "job": {
+        "id": "2-3",
+        "seed": "a5-3-1ef0a640",
+        "variation": 2,
+        "config": {
+          "seed": "a5-3-1ef0a640",
+          "fleetSize": 5,
+          "potentialCount": 30,
+          "horizonSeconds": 1800,
+          "maxWaitSeconds": 300,
+          "preset": "Medium",
+          "fare": {
+            "baseFare": 10000,
+            "perKm": 12000
+          },
+          "behavior": {
+            "alpha": 1.5,
+            "beta": 2,
+            "referenceFare": 50000
+          },
+          "voucher": {
+            "type": "fixed",
+            "fixedAmount": 20000,
+            "rate": 0.3,
+            "cap": 25000,
+            "minimumFare": 0
+          },
+          "campaignBudget": 200000
+        }
+      },
+      "status": "success",
+      "error": null,
+      "experimentId": "b7ca9c168e352d697f3bb5848deea5c96d410aae1e5312f3f478425a8bed2522",
+      "baseline": {
+        "validPotential": 30,
+        "invalidPotential": 0,
+        "accepted": 16,
+        "assigned": 15,
+        "pickedUp": 15,
+        "completed": 15,
+        "unserved": 1,
+        "conversionRate": 0.5333333333333333,
+        "completionRate": 0.9375,
+        "averageWaitSeconds": 158.10999999999999,
+        "averagePickupEtaSeconds": 157.93999999999997,
+        "averageTripSeconds": 166.35333333333332,
+        "emptyMeters": 26589.400000000005,
+        "occupiedMeters": 29296.2,
+        "utilization": 0.47690546744216256,
+        "grossFareVnd": 501554,
+        "riderPaymentsVnd": 501554,
+        "voucherSpendVnd": 0,
+        "budget": {
+          "total": 0,
+          "reserved": 0,
+          "spent": 0,
+          "available": 0
+        },
+        "voucherCounts": {
+          "OFFERED": 0,
+          "RESERVED": 0,
+          "SETTLED": 0,
+          "RELEASED": 0
+        }
+      },
+      "treatment": {
+        "validPotential": 30,
+        "invalidPotential": 0,
+        "accepted": 19,
+        "assigned": 18,
+        "pickedUp": 18,
+        "completed": 18,
+        "unserved": 1,
+        "conversionRate": 0.6333333333333333,
+        "completionRate": 0.9473684210526315,
+        "averageWaitSeconds": 153.9015555555556,
+        "averagePickupEtaSeconds": 142.88333333333333,
+        "averageTripSeconds": 190.27777777777774,
+        "emptyMeters": 28009.200000000004,
+        "occupiedMeters": 40044,
+        "utilization": 0.5879356956056051,
+        "grossFareVnd": 660528,
+        "riderPaymentsVnd": 465681,
+        "voucherSpendVnd": 194847,
+        "budget": {
+          "total": 200000,
+          "reserved": 0,
+          "spent": 194847,
+          "available": 5153
+        },
+        "voucherCounts": {
+          "OFFERED": 14,
+          "RESERVED": 10,
+          "SETTLED": 10,
+          "RELEASED": 0
+        }
+      },
+      "increment": 3,
+      "cpic": 64949,
+      "milliseconds": 4457.823400000001,
+      "cacheHit": false,
+      "provenance": {
+        "extract_sha256": "3a939d15ac7b775aba3f5a0324064ceb3d1b19ab0d176f2b10b94448c36afda0",
+        "streets_sha256": "1b66f9b6876b7f09646f8a5bb893938b993a5556723a21e4c6d2afd5b2f5d2b6",
+        "image_digest": "ghcr.io/project-osrm/osrm-backend@sha256:855614a38f464b0558a2ad6eaa7cb8c139f39887da9b38b485ce453c6e6e6124",
+        "profile_sha256": "cb3df0546318665609606b746a1297f3d65ca3c2ff825f8a6f3c57247d86a2d3",
+        "profile": "car",
+        "algorithm": "mld",
+        "router_url": "http://127.0.0.1:5000",
+        "max_snap_meters": 100,
+        "display_bbox": [
+          106.675,
+          10.75,
+          106.725,
+          10.795
+        ],
+        "sampling_bbox": [
+          106.685,
+          10.759,
+          106.71499999999999,
+          10.786
+        ],
+        "candidate_version": 2
+      }
+    },
+    {
+      "job": {
+        "id": "2-4",
+        "seed": "a5-4-665be8b2",
+        "variation": 2,
+        "config": {
+          "seed": "a5-4-665be8b2",
+          "fleetSize": 5,
+          "potentialCount": 30,
+          "horizonSeconds": 1800,
+          "maxWaitSeconds": 300,
+          "preset": "Medium",
+          "fare": {
+            "baseFare": 10000,
+            "perKm": 12000
+          },
+          "behavior": {
+            "alpha": 1.5,
+            "beta": 2,
+            "referenceFare": 50000
+          },
+          "voucher": {
+            "type": "fixed",
+            "fixedAmount": 20000,
+            "rate": 0.3,
+            "cap": 25000,
+            "minimumFare": 0
+          },
+          "campaignBudget": 200000
+        }
+      },
+      "status": "success",
+      "error": null,
+      "experimentId": "4440c4545a7d33785445084b7859cad32a9d0943b7ece6b01a12c4baf6c65070",
+      "baseline": {
+        "validPotential": 30,
+        "invalidPotential": 0,
+        "accepted": 11,
+        "assigned": 11,
+        "pickedUp": 11,
+        "completed": 11,
+        "unserved": 0,
+        "conversionRate": 0.36666666666666664,
+        "completionRate": 1,
+        "averageWaitSeconds": 117.05454545454546,
+        "averagePickupEtaSeconds": 117.05454545454546,
+        "averageTripSeconds": 193.66363636363639,
+        "emptyMeters": 14658.599999999999,
+        "occupiedMeters": 25221.399999999998,
+        "utilization": 0.30518095090130576,
+        "grossFareVnd": 412659,
+        "riderPaymentsVnd": 412659,
+        "voucherSpendVnd": 0,
+        "budget": {
+          "total": 0,
+          "reserved": 0,
+          "spent": 0,
+          "available": 0
+        },
+        "voucherCounts": {
+          "OFFERED": 0,
+          "RESERVED": 0,
+          "SETTLED": 0,
+          "RELEASED": 0
+        }
+      },
+      "treatment": {
+        "validPotential": 30,
+        "invalidPotential": 0,
+        "accepted": 14,
+        "assigned": 14,
+        "pickedUp": 14,
+        "completed": 14,
+        "unserved": 0,
+        "conversionRate": 0.4666666666666667,
+        "completionRate": 1,
+        "averageWaitSeconds": 156.69835714285713,
+        "averagePickupEtaSeconds": 151.21428571428572,
+        "averageTripSeconds": 185.21428571428572,
+        "emptyMeters": 23995.700000000004,
+        "occupiedMeters": 30296.2,
+        "utilization": 0.42055129721324497,
+        "grossFareVnd": 503557,
+        "riderPaymentsVnd": 303557,
+        "voucherSpendVnd": 200000,
+        "budget": {
+          "total": 200000,
+          "reserved": 0,
+          "spent": 200000,
+          "available": 0
+        },
+        "voucherCounts": {
+          "OFFERED": 21,
+          "RESERVED": 10,
+          "SETTLED": 10,
+          "RELEASED": 0
+        }
+      },
+      "increment": 3,
+      "cpic": 66666.66666666667,
+      "milliseconds": 4398.0527,
+      "cacheHit": false,
+      "provenance": {
+        "extract_sha256": "3a939d15ac7b775aba3f5a0324064ceb3d1b19ab0d176f2b10b94448c36afda0",
+        "streets_sha256": "1b66f9b6876b7f09646f8a5bb893938b993a5556723a21e4c6d2afd5b2f5d2b6",
+        "image_digest": "ghcr.io/project-osrm/osrm-backend@sha256:855614a38f464b0558a2ad6eaa7cb8c139f39887da9b38b485ce453c6e6e6124",
+        "profile_sha256": "cb3df0546318665609606b746a1297f3d65ca3c2ff825f8a6f3c57247d86a2d3",
+        "profile": "car",
+        "algorithm": "mld",
+        "router_url": "http://127.0.0.1:5000",
+        "max_snap_meters": 100,
+        "display_bbox": [
+          106.675,
+          10.75,
+          106.725,
+          10.795
+        ],
+        "sampling_bbox": [
+          106.685,
+          10.759,
+          106.71499999999999,
+          10.786
+        ],
+        "candidate_version": 2
+      }
+    },
+    {
+      "job": {
+        "id": "2-5",
+        "seed": "a5-5-a46db9b2",
+        "variation": 2,
+        "config": {
+          "seed": "a5-5-a46db9b2",
+          "fleetSize": 5,
+          "potentialCount": 30,
+          "horizonSeconds": 1800,
+          "maxWaitSeconds": 300,
+          "preset": "Medium",
+          "fare": {
+            "baseFare": 10000,
+            "perKm": 12000
+          },
+          "behavior": {
+            "alpha": 1.5,
+            "beta": 2,
+            "referenceFare": 50000
+          },
+          "voucher": {
+            "type": "fixed",
+            "fixedAmount": 20000,
+            "rate": 0.3,
+            "cap": 25000,
+            "minimumFare": 0
+          },
+          "campaignBudget": 200000
+        }
+      },
+      "status": "success",
+      "error": null,
+      "experimentId": "c28b0f9b8ddfb0971f7f96e02cd2c46fc349102d9707c0afb7a8acb8b4080f68",
+      "baseline": {
+        "validPotential": 30,
+        "invalidPotential": 0,
+        "accepted": 14,
+        "assigned": 13,
+        "pickedUp": 13,
+        "completed": 13,
+        "unserved": 1,
+        "conversionRate": 0.4666666666666667,
+        "completionRate": 0.9285714285714286,
+        "averageWaitSeconds": 175.25230769230768,
+        "averagePickupEtaSeconds": 135.46923076923076,
+        "averageTripSeconds": 218.0461538461538,
+        "emptyMeters": 19422.5,
+        "occupiedMeters": 33166.899999999994,
+        "utilization": 0.4533650196584448,
+        "grossFareVnd": 528003,
+        "riderPaymentsVnd": 528003,
+        "voucherSpendVnd": 0,
+        "budget": {
+          "total": 0,
+          "reserved": 0,
+          "spent": 0,
+          "available": 0
+        },
+        "voucherCounts": {
+          "OFFERED": 0,
+          "RESERVED": 0,
+          "SETTLED": 0,
+          "RELEASED": 0
+        }
+      },
+      "treatment": {
+        "validPotential": 30,
+        "invalidPotential": 0,
+        "accepted": 18,
+        "assigned": 16,
+        "pickedUp": 16,
+        "completed": 16,
+        "unserved": 2,
+        "conversionRate": 0.6,
+        "completionRate": 0.8888888888888888,
+        "averageWaitSeconds": 182.85162499999998,
+        "averagePickupEtaSeconds": 146.94375,
+        "averageTripSeconds": 198.48124999999996,
+        "emptyMeters": 27747.2,
+        "occupiedMeters": 37455.4,
+        "utilization": 0.5452178755463352,
+        "grossFareVnd": 609465,
+        "riderPaymentsVnd": 411697,
+        "voucherSpendVnd": 197768,
+        "budget": {
+          "total": 200000,
+          "reserved": 0,
+          "spent": 197768,
+          "available": 2232
+        },
+        "voucherCounts": {
+          "OFFERED": 15,
+          "RESERVED": 11,
+          "SETTLED": 10,
+          "RELEASED": 1
+        }
+      },
+      "increment": 3,
+      "cpic": 65922.66666666667,
+      "milliseconds": 4757.546399999999,
+      "cacheHit": false,
+      "provenance": {
+        "extract_sha256": "3a939d15ac7b775aba3f5a0324064ceb3d1b19ab0d176f2b10b94448c36afda0",
+        "streets_sha256": "1b66f9b6876b7f09646f8a5bb893938b993a5556723a21e4c6d2afd5b2f5d2b6",
+        "image_digest": "ghcr.io/project-osrm/osrm-backend@sha256:855614a38f464b0558a2ad6eaa7cb8c139f39887da9b38b485ce453c6e6e6124",
+        "profile_sha256": "cb3df0546318665609606b746a1297f3d65ca3c2ff825f8a6f3c57247d86a2d3",
+        "profile": "car",
+        "algorithm": "mld",
+        "router_url": "http://127.0.0.1:5000",
+        "max_snap_meters": 100,
+        "display_bbox": [
+          106.675,
+          10.75,
+          106.725,
+          10.795
+        ],
+        "sampling_bbox": [
+          106.685,
+          10.759,
+          106.71499999999999,
+          10.786
+        ],
+        "candidate_version": 2
+      }
+    },
+    {
+      "job": {
+        "id": "2-6",
+        "seed": "a5-6-d259b2b3",
+        "variation": 2,
+        "config": {
+          "seed": "a5-6-d259b2b3",
+          "fleetSize": 5,
+          "potentialCount": 30,
+          "horizonSeconds": 1800,
+          "maxWaitSeconds": 300,
+          "preset": "Medium",
+          "fare": {
+            "baseFare": 10000,
+            "perKm": 12000
+          },
+          "behavior": {
+            "alpha": 1.5,
+            "beta": 2,
+            "referenceFare": 50000
+          },
+          "voucher": {
+            "type": "fixed",
+            "fixedAmount": 20000,
+            "rate": 0.3,
+            "cap": 25000,
+            "minimumFare": 0
+          },
+          "campaignBudget": 200000
+        }
+      },
+      "status": "error",
+      "error": "{\"error\":{\"code\":\"ROUTER_BAD_RESPONSE\",\"message\":\"Table ETA/snaps không hợp lệ.\"}}",
+      "experimentId": null,
+      "baseline": null,
+      "treatment": null,
+      "increment": null,
+      "cpic": null,
+      "milliseconds": 2254.0292999999947,
+      "cacheHit": false,
+      "provenance": null
+    },
+    {
+      "job": {
+        "id": "2-7",
+        "seed": "a5-7-d890bf2d",
+        "variation": 2,
+        "config": {
+          "seed": "a5-7-d890bf2d",
+          "fleetSize": 5,
+          "potentialCount": 30,
+          "horizonSeconds": 1800,
+          "maxWaitSeconds": 300,
+          "preset": "Medium",
+          "fare": {
+            "baseFare": 10000,
+            "perKm": 12000
+          },
+          "behavior": {
+            "alpha": 1.5,
+            "beta": 2,
+            "referenceFare": 50000
+          },
+          "voucher": {
+            "type": "fixed",
+            "fixedAmount": 20000,
+            "rate": 0.3,
+            "cap": 25000,
+            "minimumFare": 0
+          },
+          "campaignBudget": 200000
+        }
+      },
+      "status": "error",
+      "error": "{\"error\":{\"code\":\"ROUTER_BAD_RESPONSE\",\"message\":\"Table ETA/snaps không hợp lệ.\"}}",
+      "experimentId": null,
+      "baseline": null,
+      "treatment": null,
+      "increment": null,
+      "cpic": null,
+      "milliseconds": 2069.304400000001,
+      "cacheHit": false,
+      "provenance": null
+    },
+    {
+      "job": {
+        "id": "2-8",
+        "seed": "a5-8-803ff259",
+        "variation": 2,
+        "config": {
+          "seed": "a5-8-803ff259",
+          "fleetSize": 5,
+          "potentialCount": 30,
+          "horizonSeconds": 1800,
+          "maxWaitSeconds": 300,
+          "preset": "Medium",
+          "fare": {
+            "baseFare": 10000,
+            "perKm": 12000
+          },
+          "behavior": {
+            "alpha": 1.5,
+            "beta": 2,
+            "referenceFare": 50000
+          },
+          "voucher": {
+            "type": "fixed",
+            "fixedAmount": 20000,
+            "rate": 0.3,
+            "cap": 25000,
+            "minimumFare": 0
+          },
+          "campaignBudget": 200000
+        }
+      },
+      "status": "success",
+      "error": null,
+      "experimentId": "b16d120e1591eb20c91bddc92f7a02e35a8da3e7ab25954ab32c87d91fc57c31",
+      "baseline": {
+        "validPotential": 30,
+        "invalidPotential": 0,
+        "accepted": 13,
+        "assigned": 12,
+        "pickedUp": 12,
+        "completed": 12,
+        "unserved": 1,
+        "conversionRate": 0.43333333333333335,
+        "completionRate": 0.9230769230769231,
+        "averageWaitSeconds": 166.325,
+        "averagePickupEtaSeconds": 166.32499999999996,
+        "averageTripSeconds": 222.14999999999998,
+        "emptyMeters": 24080.8,
+        "occupiedMeters": 31799.39999999999,
+        "utilization": 0.4909659919399302,
+        "grossFareVnd": 501592,
+        "riderPaymentsVnd": 501592,
+        "voucherSpendVnd": 0,
+        "budget": {
+          "total": 0,
+          "reserved": 0,
+          "spent": 0,
+          "available": 0
+        },
+        "voucherCounts": {
+          "OFFERED": 0,
+          "RESERVED": 0,
+          "SETTLED": 0,
+          "RELEASED": 0
+        }
+      },
+      "treatment": {
+        "validPotential": 30,
+        "invalidPotential": 0,
+        "accepted": 18,
+        "assigned": 17,
+        "pickedUp": 17,
+        "completed": 17,
+        "unserved": 1,
+        "conversionRate": 0.6,
+        "completionRate": 0.9444444444444444,
+        "averageWaitSeconds": 150.6637058823529,
+        "averagePickupEtaSeconds": 137.8882352941176,
+        "averageTripSeconds": 228.26470588235293,
+        "emptyMeters": 26767.600000000002,
+        "occupiedMeters": 46155.7,
+        "utilization": 0.655569194377435,
+        "grossFareVnd": 723868,
+        "riderPaymentsVnd": 523868,
+        "voucherSpendVnd": 200000,
+        "budget": {
+          "total": 200000,
+          "reserved": 0,
+          "spent": 200000,
+          "available": 0
+        },
+        "voucherCounts": {
+          "OFFERED": 16,
+          "RESERVED": 10,
+          "SETTLED": 10,
+          "RELEASED": 0
+        }
+      },
+      "increment": 5,
+      "cpic": 40000,
+      "milliseconds": 3020.774000000005,
+      "cacheHit": false,
+      "provenance": {
+        "extract_sha256": "3a939d15ac7b775aba3f5a0324064ceb3d1b19ab0d176f2b10b94448c36afda0",
+        "streets_sha256": "1b66f9b6876b7f09646f8a5bb893938b993a5556723a21e4c6d2afd5b2f5d2b6",
+        "image_digest": "ghcr.io/project-osrm/osrm-backend@sha256:855614a38f464b0558a2ad6eaa7cb8c139f39887da9b38b485ce453c6e6e6124",
+        "profile_sha256": "cb3df0546318665609606b746a1297f3d65ca3c2ff825f8a6f3c57247d86a2d3",
+        "profile": "car",
+        "algorithm": "mld",
+        "router_url": "http://127.0.0.1:5000",
+        "max_snap_meters": 100,
+        "display_bbox": [
+          106.675,
+          10.75,
+          106.725,
+          10.795
+        ],
+        "sampling_bbox": [
+          106.685,
+          10.759,
+          106.71499999999999,
+          10.786
+        ],
+        "candidate_version": 2
+      }
+    },
+    {
+      "job": {
+        "id": "2-9",
+        "seed": "a5-9-36f01b76",
+        "variation": 2,
+        "config": {
+          "seed": "a5-9-36f01b76",
+          "fleetSize": 5,
+          "potentialCount": 30,
+          "horizonSeconds": 1800,
+          "maxWaitSeconds": 300,
+          "preset": "Medium",
+          "fare": {
+            "baseFare": 10000,
+            "perKm": 12000
+          },
+          "behavior": {
+            "alpha": 1.5,
+            "beta": 2,
+            "referenceFare": 50000
+          },
+          "voucher": {
+            "type": "fixed",
+            "fixedAmount": 20000,
+            "rate": 0.3,
+            "cap": 25000,
+            "minimumFare": 0
+          },
+          "campaignBudget": 200000
+        }
+      },
+      "status": "success",
+      "error": null,
+      "experimentId": "a847486caa14eb9eebc507ec3a73c7a20117d046177b5ecc10707f3ec51bd31d",
+      "baseline": {
+        "validPotential": 30,
+        "invalidPotential": 0,
+        "accepted": 16,
+        "assigned": 15,
+        "pickedUp": 15,
+        "completed": 15,
+        "unserved": 1,
+        "conversionRate": 0.5333333333333333,
+        "completionRate": 0.9375,
+        "averageWaitSeconds": 82.99333333333333,
+        "averagePickupEtaSeconds": 82.99333333333333,
+        "averageTripSeconds": 197.02666666666664,
+        "emptyMeters": 13039.7,
+        "occupiedMeters": 33694.799999999996,
+        "utilization": 0.4532292706928894,
+        "grossFareVnd": 554337,
+        "riderPaymentsVnd": 554337,
+        "voucherSpendVnd": 0,
+        "budget": {
+          "total": 0,
+          "reserved": 0,
+          "spent": 0,
+          "available": 0
+        },
+        "voucherCounts": {
+          "OFFERED": 0,
+          "RESERVED": 0,
+          "SETTLED": 0,
+          "RELEASED": 0
+        }
+      },
+      "treatment": {
+        "validPotential": 30,
+        "invalidPotential": 0,
+        "accepted": 18,
+        "assigned": 17,
+        "pickedUp": 17,
+        "completed": 17,
+        "unserved": 1,
+        "conversionRate": 0.6,
+        "completionRate": 0.9444444444444444,
+        "averageWaitSeconds": 141.96682352941178,
+        "averagePickupEtaSeconds": 134.54117647058825,
+        "averageTripSeconds": 206.52352941176468,
+        "emptyMeters": 25825.3,
+        "occupiedMeters": 40582.1,
+        "utilization": 0.6256383197401238,
+        "grossFareVnd": 656985,
+        "riderPaymentsVnd": 456985,
+        "voucherSpendVnd": 200000,
+        "budget": {
+          "total": 200000,
+          "reserved": 0,
+          "spent": 200000,
+          "available": 0
+        },
+        "voucherCounts": {
+          "OFFERED": 13,
+          "RESERVED": 11,
+          "SETTLED": 10,
+          "RELEASED": 1
+        }
+      },
+      "increment": 2,
+      "cpic": 100000,
+      "milliseconds": 2395.617400000003,
+      "cacheHit": false,
+      "provenance": {
+        "extract_sha256": "3a939d15ac7b775aba3f5a0324064ceb3d1b19ab0d176f2b10b94448c36afda0",
+        "streets_sha256": "1b66f9b6876b7f09646f8a5bb893938b993a5556723a21e4c6d2afd5b2f5d2b6",
+        "image_digest": "ghcr.io/project-osrm/osrm-backend@sha256:855614a38f464b0558a2ad6eaa7cb8c139f39887da9b38b485ce453c6e6e6124",
+        "profile_sha256": "cb3df0546318665609606b746a1297f3d65ca3c2ff825f8a6f3c57247d86a2d3",
+        "profile": "car",
+        "algorithm": "mld",
+        "router_url": "http://127.0.0.1:5000",
+        "max_snap_meters": 100,
+        "display_bbox": [
+          106.675,
+          10.75,
+          106.725,
+          10.795
+        ],
+        "sampling_bbox": [
+          106.685,
+          10.759,
+          106.71499999999999,
+          10.786
+        ],
+        "candidate_version": 2
+      }
+    },
+    {
+      "job": {
+        "id": "2-10",
+        "seed": "a5-10-08b8847a",
+        "variation": 2,
+        "config": {
+          "seed": "a5-10-08b8847a",
+          "fleetSize": 5,
+          "potentialCount": 30,
+          "horizonSeconds": 1800,
+          "maxWaitSeconds": 300,
+          "preset": "Medium",
+          "fare": {
+            "baseFare": 10000,
+            "perKm": 12000
+          },
+          "behavior": {
+            "alpha": 1.5,
+            "beta": 2,
+            "referenceFare": 50000
+          },
+          "voucher": {
+            "type": "fixed",
+            "fixedAmount": 20000,
+            "rate": 0.3,
+            "cap": 25000,
+            "minimumFare": 0
+          },
+          "campaignBudget": 200000
+        }
+      },
+      "status": "error",
+      "error": "{\"error\":{\"code\":\"ROUTER_BAD_RESPONSE\",\"message\":\"Table ETA/snaps không hợp lệ.\"}}",
+      "experimentId": null,
+      "baseline": null,
+      "treatment": null,
+      "increment": null,
+      "cpic": null,
+      "milliseconds": 1548.598600000012,
+      "cacheHit": false,
+      "provenance": null
+    },
+    {
+      "job": {
+        "id": "3-1",
+        "seed": "a5-1-92f2b21e",
+        "variation": 3,
+        "config": {
+          "seed": "a5-1-92f2b21e",
+          "fleetSize": 5,
+          "potentialCount": 30,
+          "horizonSeconds": 1800,
+          "maxWaitSeconds": 300,
+          "preset": "Medium",
+          "fare": {
+            "baseFare": 10000,
+            "perKm": 12000
+          },
+          "behavior": {
+            "alpha": 1.5,
+            "beta": 3,
+            "referenceFare": 50000
+          },
+          "voucher": {
+            "type": "fixed",
+            "fixedAmount": 20000,
+            "rate": 0.3,
+            "cap": 25000,
+            "minimumFare": 0
+          },
+          "campaignBudget": 200000
+        }
+      },
+      "status": "success",
+      "error": null,
+      "experimentId": "263793ed73d869c04d4e1ed2f054c2699b56722dbe3cae5b053fddb7127959d7",
+      "baseline": {
+        "validPotential": 30,
+        "invalidPotential": 0,
+        "accepted": 8,
+        "assigned": 8,
+        "pickedUp": 8,
+        "completed": 8,
+        "unserved": 0,
+        "conversionRate": 0.26666666666666666,
+        "completionRate": 1,
+        "averageWaitSeconds": 165.2875,
+        "averagePickupEtaSeconds": 165.2875,
+        "averageTripSeconds": 217.65,
+        "emptyMeters": 15440.9,
+        "occupiedMeters": 20149.5,
+        "utilization": 0.2839041148257073,
+        "grossFareVnd": 321793,
+        "riderPaymentsVnd": 321793,
+        "voucherSpendVnd": 0,
+        "budget": {
+          "total": 0,
+          "reserved": 0,
+          "spent": 0,
+          "available": 0
+        },
+        "voucherCounts": {
+          "OFFERED": 0,
+          "RESERVED": 0,
+          "SETTLED": 0,
+          "RELEASED": 0
+        }
+      },
+      "treatment": {
+        "validPotential": 30,
+        "invalidPotential": 0,
+        "accepted": 13,
+        "assigned": 13,
+        "pickedUp": 13,
+        "completed": 13,
+        "unserved": 0,
+        "conversionRate": 0.43333333333333335,
+        "completionRate": 1,
+        "averageWaitSeconds": 155.74561538461538,
+        "averagePickupEtaSeconds": 140.93076923076922,
+        "averageTripSeconds": 222.37692307692308,
+        "emptyMeters": 21690.5,
+        "occupiedMeters": 33854.4,
+        "utilization": 0.4376951638066969,
+        "grossFareVnd": 536252,
+        "riderPaymentsVnd": 336252,
+        "voucherSpendVnd": 200000,
+        "budget": {
+          "total": 200000,
+          "reserved": 0,
+          "spent": 200000,
+          "available": 0
+        },
+        "voucherCounts": {
+          "OFFERED": 21,
+          "RESERVED": 10,
+          "SETTLED": 10,
+          "RELEASED": 0
+        }
+      },
+      "increment": 5,
+      "cpic": 40000,
+      "milliseconds": 4611.714500000002,
+      "cacheHit": false,
+      "provenance": {
+        "extract_sha256": "3a939d15ac7b775aba3f5a0324064ceb3d1b19ab0d176f2b10b94448c36afda0",
+        "streets_sha256": "1b66f9b6876b7f09646f8a5bb893938b993a5556723a21e4c6d2afd5b2f5d2b6",
+        "image_digest": "ghcr.io/project-osrm/osrm-backend@sha256:855614a38f464b0558a2ad6eaa7cb8c139f39887da9b38b485ce453c6e6e6124",
+        "profile_sha256": "cb3df0546318665609606b746a1297f3d65ca3c2ff825f8a6f3c57247d86a2d3",
+        "profile": "car",
+        "algorithm": "mld",
+        "router_url": "http://127.0.0.1:5000",
+        "max_snap_meters": 100,
+        "display_bbox": [
+          106.675,
+          10.75,
+          106.725,
+          10.795
+        ],
+        "sampling_bbox": [
+          106.685,
+          10.759,
+          106.71499999999999,
+          10.786
+        ],
+        "candidate_version": 2
+      }
+    },
+    {
+      "job": {
+        "id": "3-2",
+        "seed": "a5-2-6170c4d0",
+        "variation": 3,
+        "config": {
+          "seed": "a5-2-6170c4d0",
+          "fleetSize": 5,
+          "potentialCount": 30,
+          "horizonSeconds": 1800,
+          "maxWaitSeconds": 300,
+          "preset": "Medium",
+          "fare": {
+            "baseFare": 10000,
+            "perKm": 12000
+          },
+          "behavior": {
+            "alpha": 1.5,
+            "beta": 3,
+            "referenceFare": 50000
+          },
+          "voucher": {
+            "type": "fixed",
+            "fixedAmount": 20000,
+            "rate": 0.3,
+            "cap": 25000,
+            "minimumFare": 0
+          },
+          "campaignBudget": 200000
+        }
+      },
+      "status": "success",
+      "error": null,
+      "experimentId": "db4c47d7b12d4e50a4b62049e0a1cf329d2322503f895fc015eb8ba9735d6210",
+      "baseline": {
+        "validPotential": 30,
+        "invalidPotential": 0,
+        "accepted": 11,
+        "assigned": 11,
+        "pickedUp": 11,
+        "completed": 11,
+        "unserved": 0,
+        "conversionRate": 0.36666666666666664,
+        "completionRate": 1,
+        "averageWaitSeconds": 102.51818181818182,
+        "averagePickupEtaSeconds": 102.51818181818182,
+        "averageTripSeconds": 163.3181818181818,
+        "emptyMeters": 12476.9,
+        "occupiedMeters": 20785.299999999996,
+        "utilization": 0.2839365439401561,
+        "grossFareVnd": 359425,
+        "riderPaymentsVnd": 359425,
+        "voucherSpendVnd": 0,
+        "budget": {
+          "total": 0,
+          "reserved": 0,
+          "spent": 0,
+          "available": 0
+        },
+        "voucherCounts": {
+          "OFFERED": 0,
+          "RESERVED": 0,
+          "SETTLED": 0,
+          "RELEASED": 0
+        }
+      },
+      "treatment": {
+        "validPotential": 30,
+        "invalidPotential": 0,
+        "accepted": 15,
+        "assigned": 15,
+        "pickedUp": 15,
+        "completed": 15,
+        "unserved": 0,
+        "conversionRate": 0.5,
+        "completionRate": 1,
+        "averageWaitSeconds": 130.53333333333333,
+        "averagePickupEtaSeconds": 130.53333333333333,
+        "averageTripSeconds": 176.11333333333332,
+        "emptyMeters": 22405.1,
+        "occupiedMeters": 30225.899999999994,
+        "utilization": 0.4466257168324793,
+        "grossFareVnd": 512712,
+        "riderPaymentsVnd": 312712,
+        "voucherSpendVnd": 200000,
+        "budget": {
+          "total": 200000,
+          "reserved": 0,
+          "spent": 200000,
+          "available": 0
+        },
+        "voucherCounts": {
+          "OFFERED": 14,
+          "RESERVED": 10,
+          "SETTLED": 10,
+          "RELEASED": 0
+        }
+      },
+      "increment": 4,
+      "cpic": 50000,
+      "milliseconds": 5978.187900000004,
+      "cacheHit": false,
+      "provenance": {
+        "extract_sha256": "3a939d15ac7b775aba3f5a0324064ceb3d1b19ab0d176f2b10b94448c36afda0",
+        "streets_sha256": "1b66f9b6876b7f09646f8a5bb893938b993a5556723a21e4c6d2afd5b2f5d2b6",
+        "image_digest": "ghcr.io/project-osrm/osrm-backend@sha256:855614a38f464b0558a2ad6eaa7cb8c139f39887da9b38b485ce453c6e6e6124",
+        "profile_sha256": "cb3df0546318665609606b746a1297f3d65ca3c2ff825f8a6f3c57247d86a2d3",
+        "profile": "car",
+        "algorithm": "mld",
+        "router_url": "http://127.0.0.1:5000",
+        "max_snap_meters": 100,
+        "display_bbox": [
+          106.675,
+          10.75,
+          106.725,
+          10.795
+        ],
+        "sampling_bbox": [
+          106.685,
+          10.759,
+          106.71499999999999,
+          10.786
+        ],
+        "candidate_version": 2
+      }
+    },
+    {
+      "job": {
+        "id": "3-3",
+        "seed": "a5-3-1ef0a640",
+        "variation": 3,
+        "config": {
+          "seed": "a5-3-1ef0a640",
+          "fleetSize": 5,
+          "potentialCount": 30,
+          "horizonSeconds": 1800,
+          "maxWaitSeconds": 300,
+          "preset": "Medium",
+          "fare": {
+            "baseFare": 10000,
+            "perKm": 12000
+          },
+          "behavior": {
+            "alpha": 1.5,
+            "beta": 3,
+            "referenceFare": 50000
+          },
+          "voucher": {
+            "type": "fixed",
+            "fixedAmount": 20000,
+            "rate": 0.3,
+            "cap": 25000,
+            "minimumFare": 0
+          },
+          "campaignBudget": 200000
+        }
+      },
+      "status": "success",
+      "error": null,
+      "experimentId": "9d16c4ed1888aae8c8c5b37953182230d83a48a378f3912ef853c75c840d1fda",
+      "baseline": {
+        "validPotential": 30,
+        "invalidPotential": 0,
+        "accepted": 12,
+        "assigned": 12,
+        "pickedUp": 12,
+        "completed": 12,
+        "unserved": 0,
+        "conversionRate": 0.4,
+        "completionRate": 1,
+        "averageWaitSeconds": 140.10833333333335,
+        "averagePickupEtaSeconds": 140.10833333333335,
+        "averageTripSeconds": 140.28333333333333,
+        "emptyMeters": 18954.3,
+        "occupiedMeters": 18992.899999999998,
+        "utilization": 0.33028783740340184,
+        "grossFareVnd": 347916,
+        "riderPaymentsVnd": 347916,
+        "voucherSpendVnd": 0,
+        "budget": {
+          "total": 0,
+          "reserved": 0,
+          "spent": 0,
+          "available": 0
+        },
+        "voucherCounts": {
+          "OFFERED": 0,
+          "RESERVED": 0,
+          "SETTLED": 0,
+          "RELEASED": 0
+        }
+      },
+      "treatment": {
+        "validPotential": 30,
+        "invalidPotential": 0,
+        "accepted": 16,
+        "assigned": 16,
+        "pickedUp": 16,
+        "completed": 16,
+        "unserved": 0,
+        "conversionRate": 0.5333333333333333,
+        "completionRate": 1,
+        "averageWaitSeconds": 140.255,
+        "averagePickupEtaSeconds": 135.11874999999998,
+        "averageTripSeconds": 162.98749999999998,
+        "emptyMeters": 24546.100000000006,
+        "occupiedMeters": 30732.799999999996,
+        "utilization": 0.4682063476871655,
+        "grossFareVnd": 528794,
+        "riderPaymentsVnd": 333947,
+        "voucherSpendVnd": 194847,
+        "budget": {
+          "total": 200000,
+          "reserved": 0,
+          "spent": 194847,
+          "available": 5153
+        },
+        "voucherCounts": {
+          "OFFERED": 18,
+          "RESERVED": 10,
+          "SETTLED": 10,
+          "RELEASED": 0
+        }
+      },
+      "increment": 4,
+      "cpic": 48711.75,
+      "milliseconds": 2987.5293999999994,
+      "cacheHit": false,
+      "provenance": {
+        "extract_sha256": "3a939d15ac7b775aba3f5a0324064ceb3d1b19ab0d176f2b10b94448c36afda0",
+        "streets_sha256": "1b66f9b6876b7f09646f8a5bb893938b993a5556723a21e4c6d2afd5b2f5d2b6",
+        "image_digest": "ghcr.io/project-osrm/osrm-backend@sha256:855614a38f464b0558a2ad6eaa7cb8c139f39887da9b38b485ce453c6e6e6124",
+        "profile_sha256": "cb3df0546318665609606b746a1297f3d65ca3c2ff825f8a6f3c57247d86a2d3",
+        "profile": "car",
+        "algorithm": "mld",
+        "router_url": "http://127.0.0.1:5000",
+        "max_snap_meters": 100,
+        "display_bbox": [
+          106.675,
+          10.75,
+          106.725,
+          10.795
+        ],
+        "sampling_bbox": [
+          106.685,
+          10.759,
+          106.71499999999999,
+          10.786
+        ],
+        "candidate_version": 2
+      }
+    },
+    {
+      "job": {
+        "id": "3-4",
+        "seed": "a5-4-665be8b2",
+        "variation": 3,
+        "config": {
+          "seed": "a5-4-665be8b2",
+          "fleetSize": 5,
+          "potentialCount": 30,
+          "horizonSeconds": 1800,
+          "maxWaitSeconds": 300,
+          "preset": "Medium",
+          "fare": {
+            "baseFare": 10000,
+            "perKm": 12000
+          },
+          "behavior": {
+            "alpha": 1.5,
+            "beta": 3,
+            "referenceFare": 50000
+          },
+          "voucher": {
+            "type": "fixed",
+            "fixedAmount": 20000,
+            "rate": 0.3,
+            "cap": 25000,
+            "minimumFare": 0
+          },
+          "campaignBudget": 200000
+        }
+      },
+      "status": "success",
+      "error": null,
+      "experimentId": "bd29b45895c802f224f5ec1823fc03397129e96c8e5fb8c893ee2633bc93d947",
+      "baseline": {
+        "validPotential": 30,
+        "invalidPotential": 0,
+        "accepted": 7,
+        "assigned": 7,
+        "pickedUp": 7,
+        "completed": 7,
+        "unserved": 0,
+        "conversionRate": 0.23333333333333334,
+        "completionRate": 1,
+        "averageWaitSeconds": 88.22857142857144,
+        "averagePickupEtaSeconds": 88.22857142857143,
+        "averageTripSeconds": 159.92857142857142,
+        "emptyMeters": 7083.400000000001,
+        "occupiedMeters": 12979.999999999998,
+        "utilization": 0.1693262286045427,
+        "grossFareVnd": 225762,
+        "riderPaymentsVnd": 225762,
+        "voucherSpendVnd": 0,
+        "budget": {
+          "total": 0,
+          "reserved": 0,
+          "spent": 0,
+          "available": 0
+        },
+        "voucherCounts": {
+          "OFFERED": 0,
+          "RESERVED": 0,
+          "SETTLED": 0,
+          "RELEASED": 0
+        }
+      },
+      "treatment": {
+        "validPotential": 30,
+        "invalidPotential": 0,
+        "accepted": 11,
+        "assigned": 11,
+        "pickedUp": 11,
+        "completed": 11,
+        "unserved": 0,
+        "conversionRate": 0.36666666666666664,
+        "completionRate": 1,
+        "averageWaitSeconds": 122.1909090909091,
+        "averagePickupEtaSeconds": 122.19090909090909,
+        "averageTripSeconds": 167.66363636363636,
+        "emptyMeters": 15402.000000000002,
+        "occupiedMeters": 20997.3,
+        "utilization": 0.3107937063397179,
+        "grossFareVnd": 361969,
+        "riderPaymentsVnd": 161969,
+        "voucherSpendVnd": 200000,
+        "budget": {
+          "total": 200000,
+          "reserved": 0,
+          "spent": 200000,
+          "available": 0
+        },
+        "voucherCounts": {
+          "OFFERED": 22,
+          "RESERVED": 10,
+          "SETTLED": 10,
+          "RELEASED": 0
+        }
+      },
+      "increment": 4,
+      "cpic": 50000,
+      "milliseconds": 2938.136400000003,
+      "cacheHit": false,
+      "provenance": {
+        "extract_sha256": "3a939d15ac7b775aba3f5a0324064ceb3d1b19ab0d176f2b10b94448c36afda0",
+        "streets_sha256": "1b66f9b6876b7f09646f8a5bb893938b993a5556723a21e4c6d2afd5b2f5d2b6",
+        "image_digest": "ghcr.io/project-osrm/osrm-backend@sha256:855614a38f464b0558a2ad6eaa7cb8c139f39887da9b38b485ce453c6e6e6124",
+        "profile_sha256": "cb3df0546318665609606b746a1297f3d65ca3c2ff825f8a6f3c57247d86a2d3",
+        "profile": "car",
+        "algorithm": "mld",
+        "router_url": "http://127.0.0.1:5000",
+        "max_snap_meters": 100,
+        "display_bbox": [
+          106.675,
+          10.75,
+          106.725,
+          10.795
+        ],
+        "sampling_bbox": [
+          106.685,
+          10.759,
+          106.71499999999999,
+          10.786
+        ],
+        "candidate_version": 2
+      }
+    },
+    {
+      "job": {
+        "id": "3-5",
+        "seed": "a5-5-a46db9b2",
+        "variation": 3,
+        "config": {
+          "seed": "a5-5-a46db9b2",
+          "fleetSize": 5,
+          "potentialCount": 30,
+          "horizonSeconds": 1800,
+          "maxWaitSeconds": 300,
+          "preset": "Medium",
+          "fare": {
+            "baseFare": 10000,
+            "perKm": 12000
+          },
+          "behavior": {
+            "alpha": 1.5,
+            "beta": 3,
+            "referenceFare": 50000
+          },
+          "voucher": {
+            "type": "fixed",
+            "fixedAmount": 20000,
+            "rate": 0.3,
+            "cap": 25000,
+            "minimumFare": 0
+          },
+          "campaignBudget": 200000
+        }
+      },
+      "status": "success",
+      "error": null,
+      "experimentId": "45be047a2e58361d568957f182ced6f4a7286aaad4f187bb45a01951df95fd28",
+      "baseline": {
+        "validPotential": 30,
+        "invalidPotential": 0,
+        "accepted": 8,
+        "assigned": 8,
+        "pickedUp": 8,
+        "completed": 8,
+        "unserved": 0,
+        "conversionRate": 0.26666666666666666,
+        "completionRate": 1,
+        "averageWaitSeconds": 76.39999999999999,
+        "averagePickupEtaSeconds": 76.4,
+        "averageTripSeconds": 173.3375,
+        "emptyMeters": 7048.799999999999,
+        "occupiedMeters": 16336.300000000001,
+        "utilization": 0.2079461685978283,
+        "grossFareVnd": 276035,
+        "riderPaymentsVnd": 276035,
+        "voucherSpendVnd": 0,
+        "budget": {
+          "total": 0,
+          "reserved": 0,
+          "spent": 0,
+          "available": 0
+        },
+        "voucherCounts": {
+          "OFFERED": 0,
+          "RESERVED": 0,
+          "SETTLED": 0,
+          "RELEASED": 0
+        }
+      },
+      "treatment": {
+        "validPotential": 30,
+        "invalidPotential": 0,
+        "accepted": 14,
+        "assigned": 14,
+        "pickedUp": 14,
+        "completed": 14,
+        "unserved": 0,
+        "conversionRate": 0.4666666666666667,
+        "completionRate": 1,
+        "averageWaitSeconds": 154.57685714285714,
+        "averagePickupEtaSeconds": 143.37142857142854,
+        "averageTripSeconds": 177.0285714285714,
+        "emptyMeters": 23428.399999999998,
+        "occupiedMeters": 29305.6,
+        "utilization": 0.46687188240773747,
+        "grossFareVnd": 491667,
+        "riderPaymentsVnd": 293899,
+        "voucherSpendVnd": 197768,
+        "budget": {
+          "total": 200000,
+          "reserved": 0,
+          "spent": 197768,
+          "available": 2232
+        },
+        "voucherCounts": {
+          "OFFERED": 16,
+          "RESERVED": 10,
+          "SETTLED": 10,
+          "RELEASED": 0
+        }
+      },
+      "increment": 6,
+      "cpic": 32961.333333333336,
+      "milliseconds": 3285.410600000003,
+      "cacheHit": false,
+      "provenance": {
+        "extract_sha256": "3a939d15ac7b775aba3f5a0324064ceb3d1b19ab0d176f2b10b94448c36afda0",
+        "streets_sha256": "1b66f9b6876b7f09646f8a5bb893938b993a5556723a21e4c6d2afd5b2f5d2b6",
+        "image_digest": "ghcr.io/project-osrm/osrm-backend@sha256:855614a38f464b0558a2ad6eaa7cb8c139f39887da9b38b485ce453c6e6e6124",
+        "profile_sha256": "cb3df0546318665609606b746a1297f3d65ca3c2ff825f8a6f3c57247d86a2d3",
+        "profile": "car",
+        "algorithm": "mld",
+        "router_url": "http://127.0.0.1:5000",
+        "max_snap_meters": 100,
+        "display_bbox": [
+          106.675,
+          10.75,
+          106.725,
+          10.795
+        ],
+        "sampling_bbox": [
+          106.685,
+          10.759,
+          106.71499999999999,
+          10.786
+        ],
+        "candidate_version": 2
+      }
+    },
+    {
+      "job": {
+        "id": "3-6",
+        "seed": "a5-6-d259b2b3",
+        "variation": 3,
+        "config": {
+          "seed": "a5-6-d259b2b3",
+          "fleetSize": 5,
+          "potentialCount": 30,
+          "horizonSeconds": 1800,
+          "maxWaitSeconds": 300,
+          "preset": "Medium",
+          "fare": {
+            "baseFare": 10000,
+            "perKm": 12000
+          },
+          "behavior": {
+            "alpha": 1.5,
+            "beta": 3,
+            "referenceFare": 50000
+          },
+          "voucher": {
+            "type": "fixed",
+            "fixedAmount": 20000,
+            "rate": 0.3,
+            "cap": 25000,
+            "minimumFare": 0
+          },
+          "campaignBudget": 200000
+        }
+      },
+      "status": "error",
+      "error": "{\"error\":{\"code\":\"ROUTER_BAD_RESPONSE\",\"message\":\"Table ETA/snaps không hợp lệ.\"}}",
+      "experimentId": null,
+      "baseline": null,
+      "treatment": null,
+      "increment": null,
+      "cpic": null,
+      "milliseconds": 1648.486499999999,
+      "cacheHit": false,
+      "provenance": null
+    },
+    {
+      "job": {
+        "id": "3-7",
+        "seed": "a5-7-d890bf2d",
+        "variation": 3,
+        "config": {
+          "seed": "a5-7-d890bf2d",
+          "fleetSize": 5,
+          "potentialCount": 30,
+          "horizonSeconds": 1800,
+          "maxWaitSeconds": 300,
+          "preset": "Medium",
+          "fare": {
+            "baseFare": 10000,
+            "perKm": 12000
+          },
+          "behavior": {
+            "alpha": 1.5,
+            "beta": 3,
+            "referenceFare": 50000
+          },
+          "voucher": {
+            "type": "fixed",
+            "fixedAmount": 20000,
+            "rate": 0.3,
+            "cap": 25000,
+            "minimumFare": 0
+          },
+          "campaignBudget": 200000
+        }
+      },
+      "status": "error",
+      "error": "{\"error\":{\"code\":\"ROUTER_BAD_RESPONSE\",\"message\":\"Table ETA/snaps không hợp lệ.\"}}",
+      "experimentId": null,
+      "baseline": null,
+      "treatment": null,
+      "increment": null,
+      "cpic": null,
+      "milliseconds": 1892.9768999999942,
+      "cacheHit": false,
+      "provenance": null
+    },
+    {
+      "job": {
+        "id": "3-8",
+        "seed": "a5-8-803ff259",
+        "variation": 3,
+        "config": {
+          "seed": "a5-8-803ff259",
+          "fleetSize": 5,
+          "potentialCount": 30,
+          "horizonSeconds": 1800,
+          "maxWaitSeconds": 300,
+          "preset": "Medium",
+          "fare": {
+            "baseFare": 10000,
+            "perKm": 12000
+          },
+          "behavior": {
+            "alpha": 1.5,
+            "beta": 3,
+            "referenceFare": 50000
+          },
+          "voucher": {
+            "type": "fixed",
+            "fixedAmount": 20000,
+            "rate": 0.3,
+            "cap": 25000,
+            "minimumFare": 0
+          },
+          "campaignBudget": 200000
+        }
+      },
+      "status": "success",
+      "error": null,
+      "experimentId": "9fd2e5ae213cadb3d4f9c078517badf70d1c4881fff6d98122f8206f7d8ed025",
+      "baseline": {
+        "validPotential": 30,
+        "invalidPotential": 0,
+        "accepted": 11,
+        "assigned": 10,
+        "pickedUp": 10,
+        "completed": 10,
+        "unserved": 1,
+        "conversionRate": 0.36666666666666664,
+        "completionRate": 0.9090909090909091,
+        "averageWaitSeconds": 119.55,
+        "averagePickupEtaSeconds": 119.55,
+        "averageTripSeconds": 225.34999999999997,
+        "emptyMeters": 14517.899999999998,
+        "occupiedMeters": 26537.199999999997,
+        "utilization": 0.3587284434004211,
+        "grossFareVnd": 418446,
+        "riderPaymentsVnd": 418446,
+        "voucherSpendVnd": 0,
+        "budget": {
+          "total": 0,
+          "reserved": 0,
+          "spent": 0,
+          "available": 0
+        },
+        "voucherCounts": {
+          "OFFERED": 0,
+          "RESERVED": 0,
+          "SETTLED": 0,
+          "RELEASED": 0
+        }
+      },
+      "treatment": {
+        "validPotential": 30,
+        "invalidPotential": 0,
+        "accepted": 16,
+        "assigned": 12,
+        "pickedUp": 12,
+        "completed": 12,
+        "unserved": 4,
+        "conversionRate": 0.5333333333333333,
+        "completionRate": 0.75,
+        "averageWaitSeconds": 143.89999999999998,
+        "averagePickupEtaSeconds": 143.9,
+        "averageTripSeconds": 220.975,
+        "emptyMeters": 20192.399999999998,
+        "occupiedMeters": 31503.59999999999,
+        "utilization": 0.45540518684509823,
+        "grossFareVnd": 498043,
+        "riderPaymentsVnd": 299924,
+        "voucherSpendVnd": 198119,
+        "budget": {
+          "total": 200000,
+          "reserved": 0,
+          "spent": 198119,
+          "available": 1881
+        },
+        "voucherCounts": {
+          "OFFERED": 25,
+          "RESERVED": 14,
+          "SETTLED": 10,
+          "RELEASED": 4
+        }
+      },
+      "increment": 2,
+      "cpic": 99059.5,
+      "milliseconds": 3536.5544999999984,
+      "cacheHit": false,
+      "provenance": {
+        "extract_sha256": "3a939d15ac7b775aba3f5a0324064ceb3d1b19ab0d176f2b10b94448c36afda0",
+        "streets_sha256": "1b66f9b6876b7f09646f8a5bb893938b993a5556723a21e4c6d2afd5b2f5d2b6",
+        "image_digest": "ghcr.io/project-osrm/osrm-backend@sha256:855614a38f464b0558a2ad6eaa7cb8c139f39887da9b38b485ce453c6e6e6124",
+        "profile_sha256": "cb3df0546318665609606b746a1297f3d65ca3c2ff825f8a6f3c57247d86a2d3",
+        "profile": "car",
+        "algorithm": "mld",
+        "router_url": "http://127.0.0.1:5000",
+        "max_snap_meters": 100,
+        "display_bbox": [
+          106.675,
+          10.75,
+          106.725,
+          10.795
+        ],
+        "sampling_bbox": [
+          106.685,
+          10.759,
+          106.71499999999999,
+          10.786
+        ],
+        "candidate_version": 2
+      }
+    },
+    {
+      "job": {
+        "id": "3-9",
+        "seed": "a5-9-36f01b76",
+        "variation": 3,
+        "config": {
+          "seed": "a5-9-36f01b76",
+          "fleetSize": 5,
+          "potentialCount": 30,
+          "horizonSeconds": 1800,
+          "maxWaitSeconds": 300,
+          "preset": "Medium",
+          "fare": {
+            "baseFare": 10000,
+            "perKm": 12000
+          },
+          "behavior": {
+            "alpha": 1.5,
+            "beta": 3,
+            "referenceFare": 50000
+          },
+          "voucher": {
+            "type": "fixed",
+            "fixedAmount": 20000,
+            "rate": 0.3,
+            "cap": 25000,
+            "minimumFare": 0
+          },
+          "campaignBudget": 200000
+        }
+      },
+      "status": "success",
+      "error": null,
+      "experimentId": "cc2fb66902e288959cfe6f66c248f11b62f27607712a64dc373c4dfaeef4bf5b",
+      "baseline": {
+        "validPotential": 30,
+        "invalidPotential": 0,
+        "accepted": 11,
+        "assigned": 11,
+        "pickedUp": 11,
+        "completed": 11,
+        "unserved": 0,
+        "conversionRate": 0.36666666666666664,
+        "completionRate": 1,
+        "averageWaitSeconds": 96.58181818181819,
+        "averagePickupEtaSeconds": 96.58181818181816,
+        "averageTripSeconds": 204.0909090909091,
+        "emptyMeters": 11730.1,
+        "occupiedMeters": 25777.1,
+        "utilization": 0.36748888888888886,
+        "grossFareVnd": 419325,
+        "riderPaymentsVnd": 419325,
+        "voucherSpendVnd": 0,
+        "budget": {
+          "total": 0,
+          "reserved": 0,
+          "spent": 0,
+          "available": 0
+        },
+        "voucherCounts": {
+          "OFFERED": 0,
+          "RESERVED": 0,
+          "SETTLED": 0,
+          "RELEASED": 0
+        }
+      },
+      "treatment": {
+        "validPotential": 30,
+        "invalidPotential": 0,
+        "accepted": 15,
+        "assigned": 14,
+        "pickedUp": 14,
+        "completed": 14,
+        "unserved": 1,
+        "conversionRate": 0.5,
+        "completionRate": 0.9333333333333333,
+        "averageWaitSeconds": 133.35907142857144,
+        "averagePickupEtaSeconds": 125.38571428571429,
+        "averageTripSeconds": 192.08571428571426,
+        "emptyMeters": 19337.1,
+        "occupiedMeters": 31204.899999999998,
+        "utilization": 0.49384444444444436,
+        "grossFareVnd": 514459,
+        "riderPaymentsVnd": 314459,
+        "voucherSpendVnd": 200000,
+        "budget": {
+          "total": 200000,
+          "reserved": 0,
+          "spent": 200000,
+          "available": 0
+        },
+        "voucherCounts": {
+          "OFFERED": 14,
+          "RESERVED": 11,
+          "SETTLED": 10,
+          "RELEASED": 1
+        }
+      },
+      "increment": 3,
+      "cpic": 66666.66666666667,
+      "milliseconds": 4528.825200000007,
+      "cacheHit": false,
+      "provenance": {
+        "extract_sha256": "3a939d15ac7b775aba3f5a0324064ceb3d1b19ab0d176f2b10b94448c36afda0",
+        "streets_sha256": "1b66f9b6876b7f09646f8a5bb893938b993a5556723a21e4c6d2afd5b2f5d2b6",
+        "image_digest": "ghcr.io/project-osrm/osrm-backend@sha256:855614a38f464b0558a2ad6eaa7cb8c139f39887da9b38b485ce453c6e6e6124",
+        "profile_sha256": "cb3df0546318665609606b746a1297f3d65ca3c2ff825f8a6f3c57247d86a2d3",
+        "profile": "car",
+        "algorithm": "mld",
+        "router_url": "http://127.0.0.1:5000",
+        "max_snap_meters": 100,
+        "display_bbox": [
+          106.675,
+          10.75,
+          106.725,
+          10.795
+        ],
+        "sampling_bbox": [
+          106.685,
+          10.759,
+          106.71499999999999,
+          10.786
+        ],
+        "candidate_version": 2
+      }
+    },
+    {
+      "job": {
+        "id": "3-10",
+        "seed": "a5-10-08b8847a",
+        "variation": 3,
+        "config": {
+          "seed": "a5-10-08b8847a",
+          "fleetSize": 5,
+          "potentialCount": 30,
+          "horizonSeconds": 1800,
+          "maxWaitSeconds": 300,
+          "preset": "Medium",
+          "fare": {
+            "baseFare": 10000,
+            "perKm": 12000
+          },
+          "behavior": {
+            "alpha": 1.5,
+            "beta": 3,
+            "referenceFare": 50000
+          },
+          "voucher": {
+            "type": "fixed",
+            "fixedAmount": 20000,
+            "rate": 0.3,
+            "cap": 25000,
+            "minimumFare": 0
+          },
+          "campaignBudget": 200000
+        }
+      },
+      "status": "error",
+      "error": "{\"error\":{\"code\":\"ROUTER_BAD_RESPONSE\",\"message\":\"Table ETA/snaps không hợp lệ.\"}}",
+      "experimentId": null,
+      "baseline": null,
+      "treatment": null,
+      "increment": null,
+      "cpic": null,
+      "milliseconds": 2458.7186999999976,
+      "cacheHit": false,
+      "provenance": null
+    }
+  ],
+  "summary": {
+    "successful": 21,
+    "errors": 9,
+    "cancelled": 0,
+    "mean": 2.4285714285714284,
+    "median": 3,
+    "sampleSd": 1.9892568605242653,
+    "min": -1,
+    "max": 6,
+    "empiricalDistribution": [
+      -1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      2,
+      2,
+      2,
+      2,
+      3,
+      3,
+      3,
+      3,
+      4,
+      4,
+      4,
+      4,
+      5,
+      5,
+      6
+    ],
+    "improvementRate": 0.7142857142857143,
+    "totalIncrement": 51,
+    "totalSpend": 4175964,
+    "meanSpend": 198855.42857142858,
+    "pooledCpic": 81881.64705882352,
+    "budgetUtilization": {
+      "mean": 0.9942771428571427,
+      "validCount": 21
+    },
+    "waitingDifference": {
+      "mean": 17.018066196383675,
+      "validCount": 21
+    },
+    "utilizationDifference": {
+      "mean": 0.09711218760296077,
+      "validCount": 21
+    }
+  },
+  "groups": [
+    {
+      "value": 1,
+      "successful": 7,
+      "errors": 3,
+      "cancelled": 0,
+      "mean": 0.14285714285714285,
+      "median": 0,
+      "sampleSd": 0.8997354108424375,
+      "min": -1,
+      "max": 2,
+      "empiricalDistribution": [
+        -1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        2
+      ],
+      "improvementRate": 0.14285714285714285,
+      "totalIncrement": 1,
+      "totalSpend": 1392615,
+      "meanSpend": 198945,
+      "pooledCpic": 1392615,
+      "budgetUtilization": {
+        "mean": 0.994725,
+        "validCount": 7
+      },
+      "waitingDifference": {
+        "mean": 1.7138352720035357,
+        "validCount": 7
+      },
+      "utilizationDifference": {
+        "mean": 0.01014375412521252,
+        "validCount": 7
+      }
+    },
+    {
+      "value": 2,
+      "successful": 7,
+      "errors": 3,
+      "cancelled": 0,
+      "mean": 3.142857142857143,
+      "median": 3,
+      "sampleSd": 1.0690449676496976,
+      "min": 2,
+      "max": 5,
+      "empiricalDistribution": [
+        2,
+        2,
+        3,
+        3,
+        3,
+        4,
+        5
+      ],
+      "improvementRate": 1,
+      "totalIncrement": 22,
+      "totalSpend": 1392615,
+      "meanSpend": 198945,
+      "pooledCpic": 63300.681818181816,
+      "budgetUtilization": {
+        "mean": 0.994725,
+        "validCount": 7
+      },
+      "waitingDifference": {
+        "mean": 21.928023085950127,
+        "validCount": 7
+      },
+      "utilizationDifference": {
+        "mean": 0.12721791972618507,
+        "validCount": 7
+      }
+    },
+    {
+      "value": 3,
+      "successful": 7,
+      "errors": 3,
+      "cancelled": 0,
+      "mean": 4,
+      "median": 4,
+      "sampleSd": 1.2909944487358056,
+      "min": 2,
+      "max": 6,
+      "empiricalDistribution": [
+        2,
+        3,
+        4,
+        4,
+        4,
+        5,
+        6
+      ],
+      "improvementRate": 1,
+      "totalIncrement": 28,
+      "totalSpend": 1390734,
+      "meanSpend": 198676.2857142857,
+      "pooledCpic": 49669.07142857143,
+      "budgetUtilization": {
+        "mean": 0.9933814285714285,
+        "validCount": 7
+      },
+      "waitingDifference": {
+        "mean": 27.41234023119737,
+        "validCount": 7
+      },
+      "utilizationDifference": {
+        "mean": 0.1539748889574848,
+        "validCount": 7
+      }
+    }
+  ],
+  "requestedRuns": 30,
+  "complete": true,
+  "requests": 30,
+  "milliseconds": 103600.8605,
+  "source": "Actual local FastAPI / OSRM MLD; no mocks",
+  "createdAt": "2026-10-12T13:09:28.141Z"
+}

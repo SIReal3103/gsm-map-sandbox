@@ -1,0 +1,62 @@
+{
+  "schemaVersion": "gsm-replay-assets/v1",
+  "datasetFingerprint": "9193a3a34bd10f14a21da7121552503971f85419d7241aeb71bc7193eaac3341",
+  "displayBbox": [
+    106.675,
+    10.75,
+    106.725,
+    10.795
+  ],
+  "sourceStreetsSha256": "1b66f9b6876b7f09646f8a5bb893938b993a5556723a21e4c6d2afd5b2f5d2b6",
+  "source": "Geofabrik Vietnam / OpenStreetMap — derived local A1 renderer",
+  "attribution": "© OpenStreetMap contributors",
+  "license": "ODbL 1.0; https://www.openstreetmap.org/copyright",
+  "files": [
+    {
+      "path": "replay/map/streets.geojson",
+      "bytes": 4124871,
+      "sha256": "1b66f9b6876b7f09646f8a5bb893938b993a5556723a21e4c6d2afd5b2f5d2b6"
+    },
+    {
+      "path": "replay/map/water.geojson",
+      "bytes": 229554,
+      "sha256": "f03d16e445b9ccc777b47597ccdb07f43f8ba2bd79708821909ac1452fdc1dcd"
+    },
+    {
+      "path": "replay/map/green.geojson",
+      "bytes": 256391,
+      "sha256": "7374ae3cb563e0c2e98ed95dd01c59b5f01890ce232890a6812efa86598172b0"
+    },
+    {
+      "path": "replay/map/buildings.geojson",
+      "bytes": 3642002,
+      "sha256": "52b49177126d332bda571243d5e998aee7a6326f4720244d5fc7d7e54a53726e"
+    },
+    {
+      "path": "replay/map/places.geojson",
+      "bytes": 16117,
+      "sha256": "5d0b0bc71eff58ab46854ca3693a7e72f05c48745675714fedfc2019c77d0343"
+    },
+    {
+      "path": "replay/fonts/geist-latin.woff2",
+      "bytes": 29400,
+      "sha256": "19f9c92546aa300c312235e3125af1b81394d8db9a4bc4a425cd5b641d2d54e1"
+    },
+    {
+      "path": "replay/fonts/geist-vietnamese.woff2",
+      "bytes": 8004,
+      "sha256": "8fa40e5d248247735eb97a0bd593b8852440430600d6ba01364c31fe0abc1fe1"
+    },
+    {
+      "path": "maplibre-gl-worker.mjs",
+      "bytes": 508314,
+      "sha256": "53a2dd60f76c7b9201a3cc007b755d98ce4b52403843fef5c90c41780fe62e91"
+    },
+    {
+      "path": "maplibre-gl-shared.mjs",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  ],
+  "id": "90b4f4dc0bc8f8021189d67f884f448d05ba57164dfb821593a9baadfe70cd39"
+}

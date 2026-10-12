@@ -1,0 +1,118 @@
+{
+  "schemaVersion": "gsm-a5-handoff/v1",
+  "artifactSchema": "gsm-voucher-experiment/v1",
+  "assetSchema": "gsm-replay-assets/v1",
+  "auditedTarget": {
+    "path": "D:\\ThS\\VinAI\\Phase3_VRIC\\gms-voucher-research-demo",
+    "branch": "feature/wp3-voucher-behavior-comparison",
+    "head": "6a9db14620299300d23791b6351f0e52c82afc45",
+    "audit": "read-only; target main/deployment not verified"
+  },
+  "standaloneStaticFiles": [
+    "frontend/dist/** (generated build, includes replay/ and local workers/fonts)"
+  ],
+  "nativeEmbeddingSource": [
+    "frontend/src/** (complete import closure; scope CSS and replace duplicate App shell in A6)",
+    "frontend/components.json",
+    "frontend/tsconfig*.json (adapt target aliases/config)",
+    "frontend/scripts/package-replay.mjs"
+  ],
+  "reusableCore": [
+    "frontend/src/lib/artifact.ts",
+    "frontend/src/lib/replay-assets.ts",
+    "frontend/src/lib/voucher.ts",
+    "frontend/src/lib/booking.ts",
+    "frontend/src/lib/fleet.ts",
+    "frontend/src/lib/fleet-clock.ts",
+    "frontend/src/lib/use-voucher.ts",
+    "frontend/src/lib/use-fleet.ts",
+    "frontend/src/lib/simulation-speed.ts",
+    "frontend/src/lib/map-style.ts"
+  ],
+  "contractFiles": [
+    "contracts/replay-asset-manifest.json",
+    "contracts/demo-artifact-manifest.json",
+    "docs/A5-integration-handoff.md"
+  ],
+  "doNotTransfer": [
+    "data/**/*.osm.pbf",
+    "data/routing/**",
+    "backend/**",
+    "scripts/pipeline.py",
+    ".env",
+    ".venv",
+    "node_modules",
+    "docs/evidence/** (except reviewed sample input if reproducing package)",
+    "frontend/.replay-tools/**"
+  ],
+  "dependencies": {
+    "@base-ui/react": {
+      "declared": "^1.9.0",
+      "resolved": "1.9.0"
+    },
+    "@fontsource-variable/geist": {
+      "declared": "^5.3.0",
+      "resolved": "5.3.0"
+    },
+    "class-variance-authority": {
+      "declared": "^0.7.1",
+      "resolved": "0.7.1"
+    },
+    "cn": {
+      "declared": "^0.4.0",
+      "resolved": "0.4.0"
+    },
+    "lucide-react": {
+      "declared": "^1.55.0",
+      "resolved": "1.55.0"
+    },
+    "maplibre-gl": {
+      "declared": "^6.13.0",
+      "resolved": "6.13.0"
+    },
+    "react": {
+      "declared": "^19.2.8",
+      "resolved": "19.3.0"
+    },
+    "react-dom": {
+      "declared": "^19.2.8",
+      "resolved": "19.3.0"
+    },
+    "recharts": {
+      "declared": "^3.8.0",
+      "resolved": "3.8.0"
+    },
+    "tw-animate-css": {
+      "declared": "^1.4.0",
+      "resolved": "1.4.0"
+    }
+  },
+  "toolchain": {
+    "@tailwindcss/vite": "^4.3.3",
+    "tailwindcss": "^4.3.3",
+    "typescript": "~6.0.2",
+    "vite": "^8.3.0"
+  },
+  "staticAssets": [
+    "replay/manifest.json",
+    "replay/demo-experiment.json",
+    "replay/map/{streets,water,green,buildings,places}.geojson",
+    "replay/fonts/geist-{latin,vietnamese}.woff2",
+    "maplibre-gl-worker.mjs",
+    "maplibre-gl-shared.mjs"
+  ],
+  "pathChanges": [
+    "Build with target Vite base; fixed assets use import.meta.env.BASE_URL",
+    "Review target rewrite/CSP and do not require /api in Saved",
+    "Preserve asset/reference IDs; imported URLs never control fetch destinations",
+    "Namespace CSS/tokens or use a same-origin static iframe"
+  ],
+  "tests": [
+    "frontend/tests/artifact.test.ts",
+    "frontend/tests/saved-replay.test.ts",
+    "frontend/tests/batch.test.ts",
+    "target existing unit/Python/product E2E",
+    "production WebGL desktop/mobile offline, one map/clock, import/export/deep-link/base-path/CSP"
+  ],
+  "compatibility": "No automatic adapter to wp3-passenger-comparison/v1 or NYC campaign schema; separate HCMC experience. A6 combined build is not executed."
+}

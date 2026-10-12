@@ -2,6 +2,7 @@ import { useEffect } from 'react'
 import { Car } from 'lucide-react'
 import { Map, MapControls, MapMarker, MarkerContent, MapRoute, RouteProgress, RouteMarker, useMap } from '@/components/ui/map'
 import { emptyStyle, localStyle } from '@/lib/map-style'
+import type { StyleSpecification } from 'maplibre-gl'
 import { positionAt } from '@/lib/playback'
 import type { Coordinate, DatasetStatus, Route } from '@/lib/api'
 import type { FleetSession } from '@/lib/use-fleet'
@@ -45,14 +46,15 @@ function MapEvents({ enabled, onSelect, onError }: { enabled: boolean; onSelect:
   }, [map, isLoaded, enabled, onSelect, onError])
   return null
 }
-export function SandboxMap({ dataset, start, end, route, progress, enabled, onSelect, onError, fleet, fleetFocus, booking, bookingFocus }: {
+export function SandboxMap({ dataset, start, end, route, progress, enabled, onSelect, onError, fleet, fleetFocus, booking, bookingFocus, replayStyle }: {
   dataset: DatasetStatus | null; start: Coordinate | null; end: Coordinate | null; route: Route | null;
   progress: number; enabled: boolean; onSelect: (point: Coordinate) => void; onError: (message: string) => void
   fleet?: FleetSession; fleetFocus?: FleetFocus | null
   booking?: BookingMapSession; bookingFocus?: BookingFocus | null
+  replayStyle?: { light: StyleSpecification; dark: StyleSpecification }
 }) {
   const box = dataset?.region.display_bbox ?? [106.675, 10.750, 106.725, 10.795]
-  return <Map theme="light" styles={dataset?.artifacts.map_ready ? readyStyles : blankStyles} center={[(box[0] + box[2]) / 2, (box[1] + box[3]) / 2]} zoom={14.2} attributionControl={{ customAttribution: '© OpenStreetMap contributors', compact: false }}>
+  return <Map theme="light" styles={replayStyle ?? (dataset?.artifacts.map_ready ? readyStyles : blankStyles)} center={[(box[0] + box[2]) / 2, (box[1] + box[3]) / 2]} zoom={14.2} attributionControl={{ customAttribution: '© OpenStreetMap contributors', compact: false }}>
     <MapControls position="top-right" showCompass />
     <ResizeMap />
     <MapEvents enabled={enabled} onSelect={onSelect} onError={onError} />

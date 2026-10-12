@@ -24,7 +24,7 @@ import { cn } from "@/lib/utils";
 
 if (typeof window !== "undefined" && !MapLibreGL.getWorkerUrl()) {
   MapLibreGL.setWorkerUrl(
-    "/maplibre-gl-worker.mjs",
+    import.meta.env.BASE_URL + "maplibre-gl-worker.mjs",
   );
 }
 

@@ -12,7 +12,9 @@
     "predev": "node scripts/copy-map-worker.mjs",
     "prebuild": "node scripts/copy-map-worker.mjs",
     "typecheck": "tsc -b",
-    "test": "vitest run"
+    "test": "vitest run",
+    "package:replay": "node scripts/package-replay.mjs",
+    "verify:replay": "node scripts/verify-replay.mjs"
   },
   "dependencies": {
     "@base-ui/react": "^1.9.0",

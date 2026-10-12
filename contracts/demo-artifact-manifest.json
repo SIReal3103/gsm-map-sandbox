@@ -1,0 +1,10 @@
+{
+  "schemaVersion": "gsm-voucher-experiment/v1",
+  "experimentId": "da5babf709473ce8f527dff8f6ac911484e6745b7583d7c11b39707a32117106",
+  "datasetFingerprint": "9193a3a34bd10f14a21da7121552503971f85419d7241aeb71bc7193eaac3341",
+  "artifactDigest": "b4a87ee371f976f12f4da28791dffc66ebeb24352c1d664bf71851eb89c27433",
+  "assetManifestId": "90b4f4dc0bc8f8021189d67f884f448d05ba57164dfb821593a9baadfe70cd39",
+  "source": "docs/evidence/a4/default.json (actual local OSRM experiment)",
+  "generatedPackage": "frontend/public/replay/",
+  "bytes": 412510
+}

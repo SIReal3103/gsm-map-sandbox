@@ -1,6 +1,7 @@
 import type { StyleSpecification, ExpressionSpecification } from 'maplibre-gl'
 import latin from '@fontsource-variable/geist/files/geist-latin-wght-normal.woff2?url'
 import vietnamese from '@fontsource-variable/geist/files/geist-vietnamese-wght-normal.woff2?url'
+import type { ReplayAssets } from './replay-assets'
 
 export const emptyStyle: StyleSpecification = { version: 8, sources: {}, layers: [{ id: 'background', type: 'background', paint: { 'background-color': '#f1f2ed' } }] }
 const major: ExpressionSpecification = ['in', ['get', 'highway'], ['literal', ['motorway', 'trunk', 'primary', 'secondary', 'tertiary', 'motorway_link', 'trunk_link', 'primary_link', 'secondary_link']]]
@@ -23,4 +24,12 @@ export const localStyle: StyleSpecification = {
     { id: 'road-names', type: 'symbol', source: 'streets', minzoom: 14.2, filter: ['has', 'name'], layout: { 'symbol-placement': 'line', 'text-field': ['get', 'name'], 'text-font': ['Geist'], 'text-size': ['interpolate', ['linear'], ['zoom'], 14, 10, 18, 13], 'symbol-spacing': 250 }, paint: { 'text-color': '#687267', 'text-halo-color': '#fffef9', 'text-halo-width': 1.5 } },
     { id: 'place-names', type: 'symbol', source: 'places', minzoom: 13.5, layout: { 'text-field': ['get', 'name'], 'text-font': ['Geist'], 'text-size': 12, 'text-max-width': 12 }, paint: { 'text-color': '#486d53', 'text-halo-color': '#ffffff', 'text-halo-width': 2 } },
   ],
+}
+
+export function savedMapStyle(assets: ReplayAssets): StyleSpecification {
+  const base=import.meta.env.BASE_URL
+  const faces=localStyle['font-faces']!.Geist
+  if(!Array.isArray(faces)) throw new Error('LOCAL_FONT_FACES_REQUIRED')
+  return {...localStyle, sources:Object.fromEntries(Object.entries(assets.layers).map(([name,data])=>[name,{type:'geojson',data}])),
+    'font-faces':{Geist:faces.map((face,i)=>({...face,url:base+`replay/fonts/geist-${i===0?'vietnamese':'latin'}.woff2`}))}}
 }

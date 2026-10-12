@@ -1,0 +1,12 @@
+{
+  "since": "2026-10-12T14:31:09.422Z",
+  "canvas": 1,
+  "vehicles": 10,
+  "dimensions": {
+    "scrollWidth": 390,
+    "width": 390
+  },
+  "apiRequests": [],
+  "externalRequests": [],
+  "logs": []
+}

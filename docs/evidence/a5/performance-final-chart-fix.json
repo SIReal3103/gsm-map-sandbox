@@ -1,0 +1,13 @@
+{
+  "vehicles": 10,
+  "speed": 64,
+  "advanced": true,
+  "canvas": 1,
+  "clock": {
+    "frameSamples": 34,
+    "maxFrameMilliseconds": 1016.6999999999972,
+    "meanFrameMilliseconds": 779.0382352955203
+  },
+  "markers": 10,
+  "time": "1700.096"
+}
