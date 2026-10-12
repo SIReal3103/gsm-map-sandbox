@@ -44,9 +44,9 @@ Mở ứng dụng tại <http://127.0.0.1:5173>; API docs tại <http://127.0.0.
 
 ## Trải nghiệm Booking & Dispatch (A3)
 
-Chọn tab **Booking & Dispatch**, giữ mặc định **5 xe / 20 bookings**, seed `hcm-booking-2026`, rồi bấm **Generate Booking Scenario**. Backend chuẩn bị các quyết định điều phối và tuyến đón/chở khách bằng OSRM local trước khi mở Play. Xe được chọn theo ETA, không theo khoảng cách đường thẳng.
+Chọn **Booking & Dispatch** trong menu, giữ mặc định **5 xe / 20 bookings**, seed `hcm-booking-2026`, rồi bấm **Generate Booking Scenario**. Backend chuẩn bị các quyết định điều phối và tuyến đón/chở khách bằng OSRM local trước khi mở Play. Xe được chọn theo ETA, không theo khoảng cách đường thẳng.
 
-Dùng Play/Pause/Resume, slider hoặc **Seek (s)**, Reset và 1x/2x/4x. Chọn booking hoặc xe để focus; **Fit vùng scenario** đưa bản đồ về vùng demo. Playback/Seek không tính lại routing. Hai tab Single Trip và Fleet Simulation vẫn hoạt động.
+Dùng Playback Dock ở cuối màn hình: Play/Pause/Resume, slider, **Seek seconds**, Reset, 1x/2x/4x hoặc Custom Speed tới 64x. Chọn booking hoặc xe để focus; **Fit vùng scenario** đưa bản đồ về vùng demo. Playback/Seek không tính lại routing. Single Trip và Fleet Simulation vẫn hoạt động.
 
 Low trải request đều có jitter; Medium sinh thời điểm đều theo seed; High dồn request trong ¼ đầu horizon. Mặc định horizon 1800 s, giới hạn chờ **tới lúc được đón** 300 s. Tối đa 10 xe / 30 bookings. Để thử unserved: 1 xe, 30 bookings, High, horizon 60 s, max wait 10 s.
 
@@ -70,7 +70,7 @@ npm.cmd run build
 
 ## Trải nghiệm Voucher Experiment Studio (A4)
 
-Giữ nguyên ba tab A1–A3. Nút **Voucher Experiment Studio** đứng riêng dưới divider mở workspace A4 trong cùng bản đồ.
+Bốn chế độ Single Trip, Fleet Simulation, Booking & Dispatch và Voucher Experiment Studio nằm cùng một Primary Navigation, dùng chung bản đồ.
 
 Với artifact A1 đã có, **không chạy lại extract/display/routing**. Từ PowerShell tại project root, kiểm tra process/port trước khi mở thêm terminal:
 
@@ -100,7 +100,7 @@ npm.cmd run dev
 
 Mở <http://127.0.0.1:5173>, chọn Studio, bấm **Prepare Experiment** với mặc định 5 xe / 30 potential trips. Backend quote các tuyến thật, rồi xử lý hai arms bằng cùng A3 dispatcher. Giá mặc định: 10.000 VND + 12.000 VND/km OSRM; sigmoid alpha 1,5, beta 2, reference fare 50.000 VND; voucher fixed 20.000 VND, budget 200.000 VND. Cấu hình nâng cao chứa fare/behavior/minimum fare/cap/max wait. Percentage mặc định 30%, cap 25.000 VND.
 
-Play/Pause/Resume/Reset/Seek và 1x/2x/4x dùng một clock. Đổi Baseline/Treatment giữ timestamp, chỉ đổi arm được render. **Observed** xem KPI đến thời điểm hiện tại; **Planned / Final** xem toàn experiment, không Seek bản đồ. Hai chart mặc định là conversion funnel và completed trips. Bấm **Phân tích kinh doanh nâng cao** để tải thêm charts; đóng analytics giữ nguyên clock.
+Play/Pause/Resume/Reset/Seek dùng một clock. Đổi Baseline/Treatment giữ timestamp, chỉ đổi arm được render. **Observed** xem KPI đến thời điểm hiện tại; **Planned / Final** xem toàn experiment, không Seek bản đồ. Bảng Financial & Operational Comparison nằm ngay dưới ba KPI cards. Hai chart mặc định là conversion funnel và completed trips. Bấm **Phân tích kinh doanh nâng cao** để tải thêm charts trong Analytics Panel; đóng phần nâng cao giữ nguyên clock.
 
 JSON chứa toàn config, potential/draws, hai plans, decisions, ledger, KPI, events và provenance. CSV gồm summary, decisions, bookings, ledger, series, UTF-8 BOM/CRLF để mở Excel. Exports luôn là final/full-history của experiment đã chuẩn bị, không phải snapshot Observed.
 
@@ -127,4 +127,21 @@ Set-Location frontend
 npm.cmd test
 npm.cmd run typecheck
 npm.cmd run build
+```
+
+## Workspace A4.1
+
+Desktop hiển thị bản đồ, Analytics và Playback Dock trong cùng viewport. Menu trái có thể thu thành icon, ẩn và mở lại bằng nút menu ở header. **Inspector** bật/tắt panel cấu hình; các section thu gọn giữ nguyên seed, scenario và selection. Configuration tự thu gọn sau khi chuẩn bị thành công; click xe/booking mở Details. Cuộn Inspector và Analytics độc lập với bản đồ và dock.
+
+Trên mobile, nút menu mở drawer (Escape đóng, focus quay lại nút menu). Chọn **Map / Analytics** ở header để đổi vùng quan sát, giữ nguyên clock và MapLibre instance. Inspector mở như panel phủ phía trên map.
+
+**Custom Speed** áp dụng bằng Enter, Set hoặc khi rời input. Tốc độ được làm tròn lên mức `1, 2, 4, 8, 16, 32, 64`: 17 → 32, 33 hoặc 100 → 64, 0 → 1. Input âm, rỗng hoặc không hữu hạn bị từ chối và giữ tốc độ đang áp dụng. Đổi tốc độ không tự Play, không reset tuyến và không gọi OSRM. Khi chơi tăng tốc, chart giới hạn cadence và chỉ render gần vùng cuộn; KPI/table giữ scope Observed, còn Pause/Seek/Final hiển thị thời điểm chính xác.
+
+Bằng chứng, kết quả 10 xe, bundle và giới hạn: [A4.1 report](docs/A4.1-report.md). Audit evidence đã lưu (không thay thế browser QA):
+
+```powershell
+Set-Location 'D:\ThS\VinAI\Phase3_VRIC\gsm-map-sandbox'
+.\.venv\Scripts\python.exe scripts\audit_workspace.py
+# Tùy chọn: tái tạo plan ten/zero qua backend và OSRM local để đối chiếu fingerprint:
+# .\.venv\Scripts\python.exe scripts\audit_workspace.py --prepare-evidence
 ```

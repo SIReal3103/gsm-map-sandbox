@@ -1,0 +1,3558 @@
+[
+  {
+    "name": "http://127.0.0.1:5173/@vite/client",
+    "initiatorType": "script",
+    "startTime": 324.10000002384186,
+    "duration": 615,
+    "transferSize": 300
+  },
+  {
+    "name": "http://127.0.0.1:5173/src/main.tsx?t=1791797038906",
+    "initiatorType": "script",
+    "startTime": 325.7999999523163,
+    "duration": 48.60000002384186,
+    "transferSize": 1967
+  },
+  {
+    "name": "http://127.0.0.1:5173/@react-refresh",
+    "initiatorType": "script",
+    "startTime": 326.7999999523163,
+    "duration": 50.800000071525574,
+    "transferSize": 300
+  },
+  {
+    "name": "http://127.0.0.1:5173/node_modules/.vite/deps/react.js?v=abcd8080",
+    "initiatorType": "script",
+    "startTime": 376.7999999523163,
+    "duration": 0,
+    "transferSize": 0
+  },
+  {
+    "name": "http://127.0.0.1:5173/node_modules/.vite/deps/react-dom_client.js?v=abcd8080",
+    "initiatorType": "script",
+    "startTime": 376.89999997615814,
+    "duration": 99.39999997615814,
+    "transferSize": 3132538
+  },
+  {
+    "name": "http://127.0.0.1:5173/src/index.css?t=1791797038906",
+    "initiatorType": "script",
+    "startTime": 377,
+    "duration": 71.10000002384186,
+    "transferSize": 300
+  },
+  {
+    "name": "http://127.0.0.1:5173/node_modules/.vite/deps/react_jsx-dev-runtime.js?v=abcd8080",
+    "initiatorType": "script",
+    "startTime": 377,
+    "duration": 91,
+    "transferSize": 36059
+  },
+  {
+    "name": "http://127.0.0.1:5173/src/App.tsx?t=1791797038906",
+    "initiatorType": "script",
+    "startTime": 377,
+    "duration": 94.20000004768372,
+    "transferSize": 83394
+  },
+  {
+    "name": "http://127.0.0.1:5173/node_modules/.vite/deps/rolldown-runtime-DC62tzP2.js?v=abcd8080",
+    "initiatorType": "script",
+    "startTime": 377.2000000476837,
+    "duration": 0,
+    "transferSize": 0
+  },
+  {
+    "name": "http://127.0.0.1:5173/node_modules/.vite/deps/lucide-react.js?v=abcd8080",
+    "initiatorType": "script",
+    "startTime": 474.2999999523163,
+    "duration": 164,
+    "transferSize": 5185755
+  },
+  {
+    "name": "http://127.0.0.1:5173/src/components/ui/button.tsx",
+    "initiatorType": "script",
+    "startTime": 474.39999997615814,
+    "duration": 90.10000002384186,
+    "transferSize": 10496
+  },
+  {
+    "name": "http://127.0.0.1:5173/src/components/ui/badge.tsx",
+    "initiatorType": "script",
+    "startTime": 474.60000002384186,
+    "duration": 94.19999992847443,
+    "transferSize": 7097
+  },
+  {
+    "name": "http://127.0.0.1:5173/src/components/primary-navigation.tsx",
+    "initiatorType": "script",
+    "startTime": 474.7000000476837,
+    "duration": 96,
+    "transferSize": 12504
+  },
+  {
+    "name": "http://127.0.0.1:5173/src/components/inspector-section.tsx",
+    "initiatorType": "script",
+    "startTime": 474.89999997615814,
+    "duration": 98.20000004768372,
+    "transferSize": 5880
+  },
+  {
+    "name": "http://127.0.0.1:5173/src/components/playback-dock.tsx",
+    "initiatorType": "script",
+    "startTime": 474.89999997615814,
+    "duration": 155.89999997615814,
+    "transferSize": 19261
+  },
+  {
+    "name": "http://127.0.0.1:5173/src/components/sandbox-map.tsx?t=1791796900545",
+    "initiatorType": "script",
+    "startTime": 477.7000000476837,
+    "duration": 165.29999995231628,
+    "transferSize": 17987
+  },
+  {
+    "name": "http://127.0.0.1:5173/src/lib/api.ts",
+    "initiatorType": "script",
+    "startTime": 477.7999999523163,
+    "duration": 112.40000009536743,
+    "transferSize": 300
+  },
+  {
+    "name": "http://127.0.0.1:5173/src/lib/use-playback.ts?t=1791796900237",
+    "initiatorType": "script",
+    "startTime": 478,
+    "duration": 123.79999995231628,
+    "transferSize": 7601
+  },
+  {
+    "name": "http://127.0.0.1:5173/src/App.css?t=1791797038906",
+    "initiatorType": "script",
+    "startTime": 478.10000002384186,
+    "duration": 142.29999995231628,
+    "transferSize": 300
+  },
+  {
+    "name": "http://127.0.0.1:5173/src/lib/use-fleet.ts?t=1791796900230",
+    "initiatorType": "script",
+    "startTime": 478.2000000476837,
+    "duration": 134.79999995231628,
+    "transferSize": 9058
+  },
+  {
+    "name": "http://127.0.0.1:5173/src/components/fleet-panel.tsx?t=1791796923413",
+    "initiatorType": "script",
+    "startTime": 478.2999999523163,
+    "duration": 196.80000007152557,
+    "transferSize": 44238
+  },
+  {
+    "name": "http://127.0.0.1:5173/src/components/runtime-audit.tsx",
+    "initiatorType": "script",
+    "startTime": 478.39999997615814,
+    "duration": 199.89999997615814,
+    "transferSize": 5884
+  },
+  {
+    "name": "http://127.0.0.1:5173/src/lib/use-booking.ts?t=1791796900230",
+    "initiatorType": "script",
+    "startTime": 478.60000002384186,
+    "duration": 201.19999992847443,
+    "transferSize": 7249
+  },
+  {
+    "name": "http://127.0.0.1:5173/src/components/booking-panel.tsx?t=1791796923418",
+    "initiatorType": "script",
+    "startTime": 478.7000000476837,
+    "duration": 203.89999997615814,
+    "transferSize": 68030
+  },
+  {
+    "name": "http://127.0.0.1:5173/src/lib/use-voucher.ts?t=1791796900230",
+    "initiatorType": "script",
+    "startTime": 478.7999999523163,
+    "duration": 209,
+    "transferSize": 7985
+  },
+  {
+    "name": "http://127.0.0.1:5173/src/components/voucher-panel.tsx?t=1791796923421",
+    "initiatorType": "script",
+    "startTime": 478.7999999523163,
+    "duration": 221.40000009536743,
+    "transferSize": 55341
+  },
+  {
+    "name": "http://127.0.0.1:5173/node_modules/.vite/deps/react-dom.js?v=abcd8080",
+    "initiatorType": "script",
+    "startTime": 544.5,
+    "duration": 0,
+    "transferSize": 0
+  },
+  {
+    "name": "http://127.0.0.1:5173/node_modules/.vite/deps/@base-ui_react_button.js?v=abcd8080",
+    "initiatorType": "script",
+    "startTime": 566.7999999523163,
+    "duration": 167.30000007152557,
+    "transferSize": 4205
+  },
+  {
+    "name": "http://127.0.0.1:5173/node_modules/.vite/deps/class-variance-authority.js?v=abcd8080",
+    "initiatorType": "script",
+    "startTime": 566.7999999523163,
+    "duration": 202.70000004768372,
+    "transferSize": 9215
+  },
+  {
+    "name": "http://127.0.0.1:5173/node_modules/.vite/deps/cn.js?v=abcd8080",
+    "initiatorType": "script",
+    "startTime": 566.8999999761581,
+    "duration": 138.10000002384186,
+    "transferSize": 146734
+  },
+  {
+    "name": "http://127.0.0.1:5173/node_modules/.vite/deps/@base-ui_react_merge-props.js?v=abcd8080",
+    "initiatorType": "script",
+    "startTime": 570.8999999761581,
+    "duration": 196.89999997615814,
+    "transferSize": 1269
+  },
+  {
+    "name": "http://127.0.0.1:5173/node_modules/.vite/deps/@base-ui_react_use-render.js?v=abcd8080",
+    "initiatorType": "script",
+    "startTime": 571,
+    "duration": 257.7000000476837,
+    "transferSize": 1384
+  },
+  {
+    "name": "http://127.0.0.1:5173/node_modules/.vite/deps/@base-ui_react_dialog.js?v=abcd8080",
+    "initiatorType": "script",
+    "startTime": 578.2999999523163,
+    "duration": 269.2000000476837,
+    "transferSize": 591915
+  },
+  {
+    "name": "http://127.0.0.1:5173/src/lib/simulation-speed.ts",
+    "initiatorType": "script",
+    "startTime": 604.5,
+    "duration": 251.10000002384186,
+    "transferSize": 300
+  },
+  {
+    "name": "http://127.0.0.1:5173/src/lib/playback.ts",
+    "initiatorType": "script",
+    "startTime": 605.6000000238419,
+    "duration": 258.7999999523163,
+    "transferSize": 300
+  },
+  {
+    "name": "http://127.0.0.1:5173/src/lib/fleet.ts",
+    "initiatorType": "script",
+    "startTime": 615,
+    "duration": 248.10000002384186,
+    "transferSize": 300
+  },
+  {
+    "name": "http://127.0.0.1:5173/src/lib/fleet-clock.ts?t=1791796900230",
+    "initiatorType": "script",
+    "startTime": 615.1000000238419,
+    "duration": 322.60000002384186,
+    "transferSize": 300
+  },
+  {
+    "name": "http://127.0.0.1:5173/src/components/ui/slider.tsx",
+    "initiatorType": "script",
+    "startTime": 634,
+    "duration": 305.2999999523163,
+    "transferSize": 7834
+  },
+  {
+    "name": "http://127.0.0.1:5173/src/components/ui/map.tsx",
+    "initiatorType": "script",
+    "startTime": 644.8999999761581,
+    "duration": 371.5,
+    "transferSize": 218723
+  },
+  {
+    "name": "http://127.0.0.1:5173/src/lib/map-style.ts",
+    "initiatorType": "script",
+    "startTime": 645.1000000238419,
+    "duration": 293,
+    "transferSize": 300
+  },
+  {
+    "name": "http://127.0.0.1:5173/src/components/fleet-map.tsx?t=1791796900230",
+    "initiatorType": "script",
+    "startTime": 645.2999999523163,
+    "duration": 294.3000000715256,
+    "transferSize": 16819
+  },
+  {
+    "name": "http://127.0.0.1:5173/src/components/booking-map.tsx?t=1791796900230",
+    "initiatorType": "script",
+    "startTime": 645.3999999761581,
+    "duration": 294.60000002384186,
+    "transferSize": 20788
+  },
+  {
+    "name": "http://127.0.0.1:5173/src/lib/booking.ts",
+    "initiatorType": "script",
+    "startTime": 683.6000000238419,
+    "duration": 291.5,
+    "transferSize": 300
+  },
+  {
+    "name": "http://127.0.0.1:5173/src/lib/voucher.ts",
+    "initiatorType": "script",
+    "startTime": 689.3999999761581,
+    "duration": 321.60000002384186,
+    "transferSize": 300
+  },
+  {
+    "name": "http://127.0.0.1:5173/node_modules/.vite/deps/useRenderElement-D5wYhCUV.js?v=abcd8080",
+    "initiatorType": "script",
+    "startTime": 735.7000000476837,
+    "duration": 0,
+    "transferSize": 0
+  },
+  {
+    "name": "http://127.0.0.1:5173/node_modules/.vite/deps/useButton-BmD0Xb_H.js?v=abcd8080",
+    "initiatorType": "script",
+    "startTime": 736,
+    "duration": 0,
+    "transferSize": 0
+  },
+  {
+    "name": "http://127.0.0.1:5173/node_modules/.vite/deps/merge-props-B4lpaVXg.js?v=abcd8080",
+    "initiatorType": "script",
+    "startTime": 736,
+    "duration": 0,
+    "transferSize": 0
+  },
+  {
+    "name": "http://127.0.0.1:5173/node_modules/.vite/deps/useIsoLayoutEffect-hAlf1FRO.js?v=abcd8080",
+    "initiatorType": "script",
+    "startTime": 736.2000000476837,
+    "duration": 0,
+    "transferSize": 0
+  },
+  {
+    "name": "http://127.0.0.1:5173/node_modules/.vite/deps/clsx-DQoRUQAf.js?v=abcd8080",
+    "initiatorType": "script",
+    "startTime": 772.2000000476837,
+    "duration": 241.5,
+    "transferSize": 2292
+  },
+  {
+    "name": "http://127.0.0.1:5173/node_modules/.vite/deps/composite-1LpIIGol.js?v=abcd8080",
+    "initiatorType": "script",
+    "startTime": 856.3999999761581,
+    "duration": 0,
+    "transferSize": 0
+  },
+  {
+    "name": "http://127.0.0.1:5173/node_modules/.vite/deps/react_jsx-runtime.js?v=abcd8080",
+    "initiatorType": "script",
+    "startTime": 856.8999999761581,
+    "duration": 0,
+    "transferSize": 0
+  },
+  {
+    "name": "http://127.0.0.1:5173/node_modules/.vite/deps/shim-BX6a9SD7.js?v=abcd8080",
+    "initiatorType": "script",
+    "startTime": 857.2000000476837,
+    "duration": 0,
+    "transferSize": 0
+  },
+  {
+    "name": "http://127.0.0.1:5173/node_modules/.vite/deps/with-selector-m9dUj709.js?v=abcd8080",
+    "initiatorType": "script",
+    "startTime": 857.3999999761581,
+    "duration": 0,
+    "transferSize": 0
+  },
+  {
+    "name": "http://127.0.0.1:5173/node_modules/.vite/deps/@base-ui_react_slider.js?v=abcd8080",
+    "initiatorType": "script",
+    "startTime": 945.6000000238419,
+    "duration": 71.39999997615814,
+    "transferSize": 279522
+  },
+  {
+    "name": "http://127.0.0.1:5173/node_modules/@fontsource-variable/geist/files/geist-latin-wght-normal.woff2?import&url",
+    "initiatorType": "script",
+    "startTime": 946.2000000476837,
+    "duration": 78.5,
+    "transferSize": 300
+  },
+  {
+    "name": "http://127.0.0.1:5173/node_modules/@fontsource-variable/geist/files/geist-vietnamese-wght-normal.woff2?import&url",
+    "initiatorType": "script",
+    "startTime": 946.5,
+    "duration": 78.5,
+    "transferSize": 300
+  },
+  {
+    "name": "http://127.0.0.1:5173/node_modules/vite/dist/client/env.mjs",
+    "initiatorType": "script",
+    "startTime": 946.6000000238419,
+    "duration": 66.60000002384186,
+    "transferSize": 300
+  },
+  {
+    "name": "http://127.0.0.1:5173/node_modules/.vite/deps/maplibre-gl.js?v=abcd8080",
+    "initiatorType": "script",
+    "startTime": 1033.2000000476837,
+    "duration": 328.1999999284744,
+    "transferSize": 4264390
+  },
+  {
+    "name": "http://127.0.0.1:5173/node_modules/maplibre-gl/dist/maplibre-gl.css",
+    "initiatorType": "script",
+    "startTime": 1033.3999999761581,
+    "duration": 215.89999997615814,
+    "transferSize": 300
+  },
+  {
+    "name": "http://127.0.0.1:5173/src/lib/utils.ts",
+    "initiatorType": "script",
+    "startTime": 1033.6000000238419,
+    "duration": 216.79999995231628,
+    "transferSize": 583
+  },
+  {
+    "name": "http://127.0.0.1:5173/node_modules/@fontsource-variable/geist/files/geist-latin-ext-wght-normal.woff2",
+    "initiatorType": "css",
+    "startTime": 1803.3999999761581,
+    "duration": 6.600000023841858,
+    "transferSize": 300
+  },
+  {
+    "name": "http://127.0.0.1:5173/node_modules/@fontsource-variable/geist/files/geist-latin-wght-normal.woff2",
+    "initiatorType": "css",
+    "startTime": 1775.8999999761581,
+    "duration": 226.20000004768372,
+    "transferSize": 300
+  },
+  {
+    "name": "http://127.0.0.1:5173/node_modules/@fontsource-variable/geist/files/geist-vietnamese-wght-normal.woff2",
+    "initiatorType": "css",
+    "startTime": 1780.7999999523163,
+    "duration": 221.70000004768372,
+    "transferSize": 300
+  },
+  {
+    "name": "http://127.0.0.1:5173/api/dataset/status",
+    "initiatorType": "fetch",
+    "startTime": 1875,
+    "duration": 128.60000002384186,
+    "transferSize": 0
+  },
+  {
+    "name": "http://127.0.0.1:5173/maplibre-gl-worker.mjs",
+    "initiatorType": "other",
+    "startTime": 2031.2000000476837,
+    "duration": -153.70000004768372,
+    "transferSize": 300
+  },
+  {
+    "name": "http://127.0.0.1:5173/favicon.svg",
+    "initiatorType": "other",
+    "startTime": 2196.600000023842,
+    "duration": 23.899999976158142,
+    "transferSize": 300
+  },
+  {
+    "name": "http://127.0.0.1:5173/api/dataset/status",
+    "initiatorType": "fetch",
+    "startTime": 1938.2000000476837,
+    "duration": 1648.6999999284744,
+    "transferSize": 5783
+  },
+  {
+    "name": "http://127.0.0.1:5173/node_modules/@fontsource-variable/geist/files/geist-latin-wght-normal.woff2",
+    "initiatorType": "fetch",
+    "startTime": 5088.799999952316,
+    "duration": 20.200000047683716,
+    "transferSize": 300
+  },
+  {
+    "name": "http://127.0.0.1:5173/node_modules/@fontsource-variable/geist/files/geist-vietnamese-wght-normal.woff2",
+    "initiatorType": "fetch",
+    "startTime": 5089,
+    "duration": 20.799999952316284,
+    "transferSize": 300
+  },
+  {
+    "name": "http://127.0.0.1:5173/api/dataset/status",
+    "initiatorType": "fetch",
+    "startTime": 13592.799999952316,
+    "duration": 814,
+    "transferSize": 5783
+  },
+  {
+    "name": "http://127.0.0.1:5173/api/dataset/status",
+    "initiatorType": "fetch",
+    "startTime": 24420.299999952316,
+    "duration": 879.8000000715256,
+    "transferSize": 5783
+  },
+  {
+    "name": "http://127.0.0.1:5173/api/dataset/status",
+    "initiatorType": "fetch",
+    "startTime": 35316.700000047684,
+    "duration": 916.5999999046326,
+    "transferSize": 5783
+  },
+  {
+    "name": "http://127.0.0.1:5173/api/dataset/status",
+    "initiatorType": "fetch",
+    "startTime": 46249.89999997616,
+    "duration": 620.3000000715256,
+    "transferSize": 5783
+  },
+  {
+    "name": "http://127.0.0.1:5173/api/dataset/status",
+    "initiatorType": "fetch",
+    "startTime": 56880.5,
+    "duration": 759.2999999523163,
+    "transferSize": 5783
+  },
+  {
+    "name": "http://127.0.0.1:5173/api/dataset/status",
+    "initiatorType": "fetch",
+    "startTime": 67645.39999997616,
+    "duration": 632,
+    "transferSize": 5783
+  },
+  {
+    "name": "http://127.0.0.1:5173/node_modules/@fontsource-variable/geist/files/geist-vietnamese-wght-normal.woff2",
+    "initiatorType": "css",
+    "startTime": 71245,
+    "duration": 0,
+    "transferSize": 300
+  },
+  {
+    "name": "http://127.0.0.1:5173/node_modules/@fontsource-variable/geist/files/geist-latin-wght-normal.woff2",
+    "initiatorType": "css",
+    "startTime": 71245.20000004768,
+    "duration": 0,
+    "transferSize": 300
+  },
+  {
+    "name": "http://127.0.0.1:5173/src/components/voucher-dashboard.tsx?t=1791796923400",
+    "initiatorType": "script",
+    "startTime": 72609.29999995232,
+    "duration": 22.300000071525574,
+    "transferSize": 22934
+  },
+  {
+    "name": "http://127.0.0.1:5173/src/components/financial-comparison.tsx",
+    "initiatorType": "script",
+    "startTime": 72748.70000004768,
+    "duration": 44.39999997615814,
+    "transferSize": 8511
+  },
+  {
+    "name": "http://127.0.0.1:5173/src/components/voucher-charts.tsx",
+    "initiatorType": "script",
+    "startTime": 72748.79999995232,
+    "duration": 48.5,
+    "transferSize": 21175
+  },
+  {
+    "name": "http://127.0.0.1:5173/src/components/ui/chart.tsx",
+    "initiatorType": "script",
+    "startTime": 72801.79999995232,
+    "duration": 171.30000007152557,
+    "transferSize": 32611
+  },
+  {
+    "name": "http://127.0.0.1:5173/node_modules/.vite/deps/recharts.js?v=abcd8080",
+    "initiatorType": "script",
+    "startTime": 72801.79999995232,
+    "duration": 243.60000002384186,
+    "transferSize": 4600444
+  },
+  {
+    "name": "http://127.0.0.1:5173/api/dataset/status",
+    "initiatorType": "fetch",
+    "startTime": 78284,
+    "duration": 612.6000000238419,
+    "transferSize": 5783
+  },
+  {
+    "name": "http://127.0.0.1:5173/api/dataset/status",
+    "initiatorType": "fetch",
+    "startTime": 88913.39999997616,
+    "duration": 729.3000000715256,
+    "transferSize": 5783
+  },
+  {
+    "name": "http://127.0.0.1:5173/api/dataset/status",
+    "initiatorType": "fetch",
+    "startTime": 99649.39999997616,
+    "duration": 621.8000000715256,
+    "transferSize": 5783
+  },
+  {
+    "name": "http://127.0.0.1:5173/src/index.css?t=1791797147335",
+    "initiatorType": "script",
+    "startTime": 105962.20000004768,
+    "duration": 129,
+    "transferSize": 57458
+  },
+  {
+    "name": "http://127.0.0.1:5173/src/components/fleet-panel.tsx?t=1791797147335",
+    "initiatorType": "script",
+    "startTime": 105962.60000002384,
+    "duration": 135.69999992847443,
+    "transferSize": 44186
+  },
+  {
+    "name": "http://127.0.0.1:5173/src/index.css?t=1791797147348",
+    "initiatorType": "script",
+    "startTime": 106106.60000002384,
+    "duration": 123.69999992847443,
+    "transferSize": 57458
+  },
+  {
+    "name": "http://127.0.0.1:5173/src/components/sandbox-map.tsx?t=1791797147348",
+    "initiatorType": "script",
+    "startTime": 106106.79999995232,
+    "duration": 128.90000009536743,
+    "transferSize": 18137
+  },
+  {
+    "name": "http://127.0.0.1:5173/src/index.css?t=1791797147353",
+    "initiatorType": "script",
+    "startTime": 106242.29999995232,
+    "duration": 7,
+    "transferSize": 57458
+  },
+  {
+    "name": "http://127.0.0.1:5173/src/components/playback-dock.tsx?t=1791797147353",
+    "initiatorType": "script",
+    "startTime": 106242.60000002384,
+    "duration": 19.399999976158142,
+    "transferSize": 19383
+  },
+  {
+    "name": "http://127.0.0.1:5173/api/dataset/status",
+    "initiatorType": "fetch",
+    "startTime": 110284.89999997616,
+    "duration": 625.3999999761581,
+    "transferSize": 5783
+  },
+  {
+    "name": "http://127.0.0.1:5173/api/dataset/status",
+    "initiatorType": "fetch",
+    "startTime": 120914.10000002384,
+    "duration": 794.2999999523163,
+    "transferSize": 5783
+  },
+  {
+    "name": "http://127.0.0.1:5173/api/voucher-experiment/prepare",
+    "initiatorType": "fetch",
+    "startTime": 118482.5,
+    "duration": 8042.799999952316,
+    "transferSize": 412772
+  },
+  {
+    "name": "http://127.0.0.1:5173/api/dataset/status",
+    "initiatorType": "fetch",
+    "startTime": 131711,
+    "duration": 619,
+    "transferSize": 5783
+  },
+  {
+    "name": "http://127.0.0.1:5173/api/dataset/status",
+    "initiatorType": "fetch",
+    "startTime": 142347.10000002384,
+    "duration": 627.1000000238419,
+    "transferSize": 5783
+  },
+  {
+    "name": "http://127.0.0.1:5173/api/dataset/status",
+    "initiatorType": "fetch",
+    "startTime": 152977.39999997616,
+    "duration": 647.7000000476837,
+    "transferSize": 5783
+  },
+  {
+    "name": "http://127.0.0.1:5173/api/dataset/status",
+    "initiatorType": "fetch",
+    "startTime": 163627.20000004768,
+    "duration": 637.1999999284744,
+    "transferSize": 5783
+  },
+  {
+    "name": "http://127.0.0.1:5173/api/dataset/status",
+    "initiatorType": "fetch",
+    "startTime": 174268.39999997616,
+    "duration": 804.7000000476837,
+    "transferSize": 5783
+  },
+  {
+    "name": "http://127.0.0.1:5173/src/App.tsx?t=1791797226343",
+    "initiatorType": "script",
+    "startTime": 184969.60000002384,
+    "duration": 13.299999952316284,
+    "transferSize": 83410
+  },
+  {
+    "name": "http://127.0.0.1:5173/src/lib/use-playback.ts?t=1791797226343",
+    "initiatorType": "script",
+    "startTime": 184988.60000002384,
+    "duration": 116.5,
+    "transferSize": 7754
+  },
+  {
+    "name": "http://127.0.0.1:5173/src/index.css?t=1791797226343",
+    "initiatorType": "script",
+    "startTime": 184969.20000004768,
+    "duration": 152.89999997615814,
+    "transferSize": 57458
+  },
+  {
+    "name": "http://127.0.0.1:5173/api/dataset/status",
+    "initiatorType": "fetch",
+    "startTime": 185081.89999997616,
+    "duration": 1075.8000000715256,
+    "transferSize": 5783
+  },
+  {
+    "name": "http://127.0.0.1:5173/src/index.css?t=1791797228768",
+    "initiatorType": "script",
+    "startTime": 187396,
+    "duration": 84.60000002384186,
+    "transferSize": 57458
+  },
+  {
+    "name": "http://127.0.0.1:5173/api/dataset/status",
+    "initiatorType": "fetch",
+    "startTime": 196161.89999997616,
+    "duration": 823.2000000476837,
+    "transferSize": 5783
+  },
+  {
+    "name": "http://127.0.0.1:5173/api/dataset/status",
+    "initiatorType": "fetch",
+    "startTime": 206997.60000002384,
+    "duration": 853,
+    "transferSize": 5783
+  },
+  {
+    "name": "http://127.0.0.1:5173/api/dataset/status",
+    "initiatorType": "fetch",
+    "startTime": 217858.5,
+    "duration": 790.7999999523163,
+    "transferSize": 5783
+  },
+  {
+    "name": "http://127.0.0.1:5173/api/dataset/status",
+    "initiatorType": "fetch",
+    "startTime": 228656.29999995232,
+    "duration": 620.8000000715256,
+    "transferSize": 5783
+  },
+  {
+    "name": "http://127.0.0.1:5173/api/dataset/status",
+    "initiatorType": "fetch",
+    "startTime": 239292,
+    "duration": 679.8999999761581,
+    "transferSize": 5783
+  },
+  {
+    "name": "http://127.0.0.1:5173/api/dataset/status",
+    "initiatorType": "fetch",
+    "startTime": 249982,
+    "duration": 620,
+    "transferSize": 5783
+  },
+  {
+    "name": "http://127.0.0.1:5173/api/dataset/status",
+    "initiatorType": "fetch",
+    "startTime": 260609.29999995232,
+    "duration": 631.7000000476837,
+    "transferSize": 5783
+  },
+  {
+    "name": "http://127.0.0.1:5173/api/dataset/status",
+    "initiatorType": "fetch",
+    "startTime": 271244.7000000477,
+    "duration": 604.5,
+    "transferSize": 5783
+  },
+  {
+    "name": "http://127.0.0.1:5173/api/dataset/status",
+    "initiatorType": "fetch",
+    "startTime": 281852.7999999523,
+    "duration": 774.5,
+    "transferSize": 5783
+  },
+  {
+    "name": "http://127.0.0.1:5173/src/index.css?t=1791797325139",
+    "initiatorType": "script",
+    "startTime": 283763.5,
+    "duration": 83.29999995231628,
+    "transferSize": 57458
+  },
+  {
+    "name": "http://127.0.0.1:5173/src/components/playback-dock.tsx?t=1791797325139",
+    "initiatorType": "script",
+    "startTime": 283763.89999997616,
+    "duration": 86.39999997615814,
+    "transferSize": 19724
+  },
+  {
+    "name": "http://127.0.0.1:5173/src/index.css?t=1791797325343",
+    "initiatorType": "script",
+    "startTime": 283969.7000000477,
+    "duration": 126.79999995231628,
+    "transferSize": 57458
+  },
+  {
+    "name": "http://127.0.0.1:5173/api/dataset/status",
+    "initiatorType": "fetch",
+    "startTime": 292631.2000000477,
+    "duration": 902.3999999761581,
+    "transferSize": 5783
+  },
+  {
+    "name": "http://127.0.0.1:5173/api/dataset/status",
+    "initiatorType": "fetch",
+    "startTime": 303551,
+    "duration": 766.3999999761581,
+    "transferSize": 5783
+  },
+  {
+    "name": "http://127.0.0.1:5173/api/dataset/status",
+    "initiatorType": "fetch",
+    "startTime": 314331.2000000477,
+    "duration": 900.0999999046326,
+    "transferSize": 5783
+  },
+  {
+    "name": "http://127.0.0.1:5173/api/dataset/status",
+    "initiatorType": "fetch",
+    "startTime": 325240.10000002384,
+    "duration": 829.1999999284744,
+    "transferSize": 5783
+  },
+  {
+    "name": "http://127.0.0.1:5173/api/dataset/status",
+    "initiatorType": "fetch",
+    "startTime": 336073.7000000477,
+    "duration": 632.2999999523163,
+    "transferSize": 5783
+  },
+  {
+    "name": "http://127.0.0.1:5173/api/dataset/status",
+    "initiatorType": "fetch",
+    "startTime": 346712.89999997616,
+    "duration": 805.7000000476837,
+    "transferSize": 5783
+  },
+  {
+    "name": "http://127.0.0.1:5173/@vite/client",
+    "initiatorType": "script",
+    "startTime": 620.5,
+    "duration": 8.599999904632568,
+    "transferSize": 300
+  },
+  {
+    "name": "http://127.0.0.1:5173/src/main.tsx?t=1791797325343",
+    "initiatorType": "script",
+    "startTime": 622.1999999284744,
+    "duration": 7.300000071525574,
+    "transferSize": 1967
+  },
+  {
+    "name": "http://127.0.0.1:5173/@react-refresh",
+    "initiatorType": "script",
+    "startTime": 629.7999999523163,
+    "duration": 12.600000023841858,
+    "transferSize": 300
+  },
+  {
+    "name": "http://127.0.0.1:5173/node_modules/.vite/deps/react.js?v=abcd8080",
+    "initiatorType": "script",
+    "startTime": 636.3999999761581,
+    "duration": 521.6999999284744,
+    "transferSize": 0
+  },
+  {
+    "name": "http://127.0.0.1:5173/node_modules/.vite/deps/react-dom_client.js?v=abcd8080",
+    "initiatorType": "script",
+    "startTime": 636.5,
+    "duration": 1662.7999999523163,
+    "transferSize": 0
+  },
+  {
+    "name": "http://127.0.0.1:5173/src/index.css?t=1791797325343",
+    "initiatorType": "script",
+    "startTime": 636.5999999046326,
+    "duration": 572.1000000238419,
+    "transferSize": 300
+  },
+  {
+    "name": "http://127.0.0.1:5173/src/App.tsx?t=1791797325139",
+    "initiatorType": "script",
+    "startTime": 636.6999999284744,
+    "duration": 573.3999999761581,
+    "transferSize": 83410
+  },
+  {
+    "name": "http://127.0.0.1:5173/node_modules/.vite/deps/react_jsx-dev-runtime.js?v=abcd8080",
+    "initiatorType": "script",
+    "startTime": 636.7999999523163,
+    "duration": 520.3999999761581,
+    "transferSize": 0
+  },
+  {
+    "name": "http://127.0.0.1:5173/node_modules/vite/dist/client/env.mjs",
+    "initiatorType": "script",
+    "startTime": 672.0999999046326,
+    "duration": 542.5,
+    "transferSize": 300
+  },
+  {
+    "name": "http://127.0.0.1:5173/node_modules/.vite/deps/rolldown-runtime-DC62tzP2.js?v=abcd8080",
+    "initiatorType": "script",
+    "startTime": 1160.5,
+    "duration": 54.39999997615814,
+    "transferSize": 0
+  },
+  {
+    "name": "http://127.0.0.1:5173/node_modules/.vite/deps/lucide-react.js?v=abcd8080",
+    "initiatorType": "script",
+    "startTime": 1215.7999999523163,
+    "duration": 4604.700000047684,
+    "transferSize": 0
+  },
+  {
+    "name": "http://127.0.0.1:5173/src/components/ui/button.tsx",
+    "initiatorType": "script",
+    "startTime": 1216,
+    "duration": 356.2999999523163,
+    "transferSize": 300
+  },
+  {
+    "name": "http://127.0.0.1:5173/src/components/ui/badge.tsx",
+    "initiatorType": "script",
+    "startTime": 1216.1999999284744,
+    "duration": 356.39999997615814,
+    "transferSize": 300
+  },
+  {
+    "name": "http://127.0.0.1:5173/src/components/primary-navigation.tsx",
+    "initiatorType": "script",
+    "startTime": 1216.2999999523163,
+    "duration": 358.7999999523163,
+    "transferSize": 300
+  },
+  {
+    "name": "http://127.0.0.1:5173/src/components/inspector-section.tsx",
+    "initiatorType": "script",
+    "startTime": 1216.3999999761581,
+    "duration": 359.1999999284744,
+    "transferSize": 300
+  },
+  {
+    "name": "http://127.0.0.1:5173/src/components/playback-dock.tsx?t=1791797325139",
+    "initiatorType": "script",
+    "startTime": 1216.5,
+    "duration": 402,
+    "transferSize": 300
+  },
+  {
+    "name": "http://127.0.0.1:5173/src/components/sandbox-map.tsx?t=1791797147348",
+    "initiatorType": "script",
+    "startTime": 1216.5,
+    "duration": 438.39999997615814,
+    "transferSize": 300
+  },
+  {
+    "name": "http://127.0.0.1:5173/src/lib/api.ts",
+    "initiatorType": "script",
+    "startTime": 1216.6999999284744,
+    "duration": 438.7000000476837,
+    "transferSize": 300
+  },
+  {
+    "name": "http://127.0.0.1:5173/src/lib/use-playback.ts?t=1791797226343",
+    "initiatorType": "script",
+    "startTime": 1216.7999999523163,
+    "duration": 438.7999999523163,
+    "transferSize": 300
+  },
+  {
+    "name": "http://127.0.0.1:5173/src/App.css?t=1791797038906",
+    "initiatorType": "script",
+    "startTime": 1216.7999999523163,
+    "duration": 479.7000000476837,
+    "transferSize": 300
+  },
+  {
+    "name": "http://127.0.0.1:5173/src/lib/use-fleet.ts?t=1791796900230",
+    "initiatorType": "script",
+    "startTime": 1216.8999999761581,
+    "duration": 480,
+    "transferSize": 300
+  },
+  {
+    "name": "http://127.0.0.1:5173/src/components/fleet-panel.tsx?t=1791797147335",
+    "initiatorType": "script",
+    "startTime": 1217,
+    "duration": 517.5,
+    "transferSize": 300
+  },
+  {
+    "name": "http://127.0.0.1:5173/src/components/runtime-audit.tsx",
+    "initiatorType": "script",
+    "startTime": 1217.0999999046326,
+    "duration": 517.9000000953674,
+    "transferSize": 300
+  },
+  {
+    "name": "http://127.0.0.1:5173/src/lib/use-booking.ts?t=1791796900230",
+    "initiatorType": "script",
+    "startTime": 1217.0999999046326,
+    "duration": 520.4000000953674,
+    "transferSize": 300
+  },
+  {
+    "name": "http://127.0.0.1:5173/src/lib/use-voucher.ts?t=1791796900230",
+    "initiatorType": "script",
+    "startTime": 1217.2999999523163,
+    "duration": 547,
+    "transferSize": 300
+  },
+  {
+    "name": "http://127.0.0.1:5173/src/components/booking-panel.tsx?t=1791796923418",
+    "initiatorType": "script",
+    "startTime": 1217.2999999523163,
+    "duration": 566.2000000476837,
+    "transferSize": 300
+  },
+  {
+    "name": "http://127.0.0.1:5173/src/components/voucher-panel.tsx?t=1791796923421",
+    "initiatorType": "script",
+    "startTime": 1217.5,
+    "duration": 564.6999999284744,
+    "transferSize": 300
+  },
+  {
+    "name": "http://127.0.0.1:5173/node_modules/.vite/deps/@base-ui_react_button.js?v=abcd8080",
+    "initiatorType": "script",
+    "startTime": 1583.0999999046326,
+    "duration": 202.60000002384186,
+    "transferSize": 0
+  },
+  {
+    "name": "http://127.0.0.1:5173/node_modules/.vite/deps/class-variance-authority.js?v=abcd8080",
+    "initiatorType": "script",
+    "startTime": 1583.2999999523163,
+    "duration": 202.89999997615814,
+    "transferSize": 0
+  },
+  {
+    "name": "http://127.0.0.1:5173/node_modules/.vite/deps/cn.js?v=abcd8080",
+    "initiatorType": "script",
+    "startTime": 1583.2999999523163,
+    "duration": 346.5,
+    "transferSize": 0
+  },
+  {
+    "name": "http://127.0.0.1:5173/node_modules/.vite/deps/@base-ui_react_merge-props.js?v=abcd8080",
+    "initiatorType": "script",
+    "startTime": 1584.3999999761581,
+    "duration": 250.39999997615814,
+    "transferSize": 0
+  },
+  {
+    "name": "http://127.0.0.1:5173/node_modules/.vite/deps/@base-ui_react_use-render.js?v=abcd8080",
+    "initiatorType": "script",
+    "startTime": 1584.5,
+    "duration": 251.59999990463257,
+    "transferSize": 0
+  },
+  {
+    "name": "http://127.0.0.1:5173/node_modules/.vite/deps/@base-ui_react_dialog.js?v=abcd8080",
+    "initiatorType": "script",
+    "startTime": 1586.0999999046326,
+    "duration": 707.1000000238419,
+    "transferSize": 0
+  },
+  {
+    "name": "http://127.0.0.1:5173/src/components/ui/slider.tsx",
+    "initiatorType": "script",
+    "startTime": 1620.7999999523163,
+    "duration": 306.2000000476837,
+    "transferSize": 300
+  },
+  {
+    "name": "http://127.0.0.1:5173/src/lib/simulation-speed.ts",
+    "initiatorType": "script",
+    "startTime": 1621,
+    "duration": 307.89999997615814,
+    "transferSize": 300
+  },
+  {
+    "name": "http://127.0.0.1:5173/src/components/ui/map.tsx",
+    "initiatorType": "script",
+    "startTime": 1658.3999999761581,
+    "duration": 528,
+    "transferSize": 300
+  },
+  {
+    "name": "http://127.0.0.1:5173/src/lib/map-style.ts",
+    "initiatorType": "script",
+    "startTime": 1658.5,
+    "duration": 337.2999999523163,
+    "transferSize": 300
+  },
+  {
+    "name": "http://127.0.0.1:5173/src/lib/playback.ts",
+    "initiatorType": "script",
+    "startTime": 1658.5999999046326,
+    "duration": 337.90000009536743,
+    "transferSize": 300
+  },
+  {
+    "name": "http://127.0.0.1:5173/src/components/fleet-map.tsx?t=1791796900230",
+    "initiatorType": "script",
+    "startTime": 1658.6999999284744,
+    "duration": 370.5,
+    "transferSize": 300
+  },
+  {
+    "name": "http://127.0.0.1:5173/src/components/booking-map.tsx?t=1791796900230",
+    "initiatorType": "script",
+    "startTime": 1658.7999999523163,
+    "duration": 401.10000002384186,
+    "transferSize": 300
+  },
+  {
+    "name": "http://127.0.0.1:5173/src/lib/fleet.ts",
+    "initiatorType": "script",
+    "startTime": 1698.7999999523163,
+    "duration": 362,
+    "transferSize": 300
+  },
+  {
+    "name": "http://127.0.0.1:5173/src/lib/fleet-clock.ts?t=1791796900230",
+    "initiatorType": "script",
+    "startTime": 1699,
+    "duration": 478.6999999284744,
+    "transferSize": 300
+  },
+  {
+    "name": "http://127.0.0.1:5173/src/lib/booking.ts",
+    "initiatorType": "script",
+    "startTime": 1739.0999999046326,
+    "duration": 439.90000009536743,
+    "transferSize": 300
+  },
+  {
+    "name": "http://127.0.0.1:5173/src/lib/voucher.ts",
+    "initiatorType": "script",
+    "startTime": 1765.8999999761581,
+    "duration": 414.89999997615814,
+    "transferSize": 300
+  },
+  {
+    "name": "http://127.0.0.1:5173/node_modules/.vite/deps/useRenderElement-D5wYhCUV.js?v=abcd8080",
+    "initiatorType": "script",
+    "startTime": 1788.5,
+    "duration": 313.89999997615814,
+    "transferSize": 0
+  },
+  {
+    "name": "http://127.0.0.1:5173/node_modules/.vite/deps/useButton-BmD0Xb_H.js?v=abcd8080",
+    "initiatorType": "script",
+    "startTime": 1788.5999999046326,
+    "duration": 348.90000009536743,
+    "transferSize": 0
+  },
+  {
+    "name": "http://127.0.0.1:5173/node_modules/.vite/deps/clsx-DQoRUQAf.js?v=abcd8080",
+    "initiatorType": "script",
+    "startTime": 1789.2999999523163,
+    "duration": 348.7999999523163,
+    "transferSize": 0
+  },
+  {
+    "name": "http://127.0.0.1:5173/node_modules/.vite/deps/merge-props-B4lpaVXg.js?v=abcd8080",
+    "initiatorType": "script",
+    "startTime": 1836.7999999523163,
+    "duration": 340.5,
+    "transferSize": 0
+  },
+  {
+    "name": "http://127.0.0.1:5173/node_modules/.vite/deps/@base-ui_react_slider.js?v=abcd8080",
+    "initiatorType": "script",
+    "startTime": 1937.5,
+    "duration": 361.1999999284744,
+    "transferSize": 0
+  },
+  {
+    "name": "http://127.0.0.1:5173/node_modules/@fontsource-variable/geist/files/geist-latin-wght-normal.woff2?import&url",
+    "initiatorType": "script",
+    "startTime": 1997.8999999761581,
+    "duration": 295.7999999523163,
+    "transferSize": 300
+  },
+  {
+    "name": "http://127.0.0.1:5173/node_modules/@fontsource-variable/geist/files/geist-vietnamese-wght-normal.woff2?import&url",
+    "initiatorType": "script",
+    "startTime": 1998.3999999761581,
+    "duration": 300.6999999284744,
+    "transferSize": 300
+  },
+  {
+    "name": "http://127.0.0.1:5173/node_modules/.vite/deps/useIsoLayoutEffect-hAlf1FRO.js?v=abcd8080",
+    "initiatorType": "script",
+    "startTime": 2140.0999999046326,
+    "duration": 152.10000002384186,
+    "transferSize": 0
+  },
+  {
+    "name": "http://127.0.0.1:5173/node_modules/.vite/deps/maplibre-gl.js?v=abcd8080",
+    "initiatorType": "script",
+    "startTime": 2190.6999999284744,
+    "duration": 3695.100000023842,
+    "transferSize": 0
+  },
+  {
+    "name": "http://127.0.0.1:5173/node_modules/.vite/deps/react-dom.js?v=abcd8080",
+    "initiatorType": "script",
+    "startTime": 2190.899999976158,
+    "duration": 3491.600000023842,
+    "transferSize": 0
+  },
+  {
+    "name": "http://127.0.0.1:5173/node_modules/maplibre-gl/dist/maplibre-gl.css",
+    "initiatorType": "script",
+    "startTime": 2190.899999976158,
+    "duration": 3496.899999976158,
+    "transferSize": 300
+  },
+  {
+    "name": "http://127.0.0.1:5173/src/lib/utils.ts",
+    "initiatorType": "script",
+    "startTime": 2191.0999999046326,
+    "duration": 3496.3000000715256,
+    "transferSize": 300
+  },
+  {
+    "name": "http://127.0.0.1:5173/node_modules/.vite/deps/composite-1LpIIGol.js?v=abcd8080",
+    "initiatorType": "script",
+    "startTime": 2301.1999999284744,
+    "duration": 3457.399999976158,
+    "transferSize": 0
+  },
+  {
+    "name": "http://127.0.0.1:5173/node_modules/.vite/deps/react_jsx-runtime.js?v=abcd8080",
+    "initiatorType": "script",
+    "startTime": 2301.399999976158,
+    "duration": 3494.7999999523163,
+    "transferSize": 0
+  },
+  {
+    "name": "http://127.0.0.1:5173/node_modules/.vite/deps/shim-BX6a9SD7.js?v=abcd8080",
+    "initiatorType": "script",
+    "startTime": 2301.5,
+    "duration": 3495.0999999046326,
+    "transferSize": 0
+  },
+  {
+    "name": "http://127.0.0.1:5173/node_modules/.vite/deps/with-selector-m9dUj709.js?v=abcd8080",
+    "initiatorType": "script",
+    "startTime": 2301.5999999046326,
+    "duration": 3495.3000000715256,
+    "transferSize": 0
+  },
+  {
+    "name": "http://127.0.0.1:5173/node_modules/@fontsource-variable/geist/files/geist-latin-wght-normal.woff2",
+    "initiatorType": "css",
+    "startTime": 6473.299999952316,
+    "duration": 164.89999997615814,
+    "transferSize": 300
+  },
+  {
+    "name": "http://127.0.0.1:5173/node_modules/@fontsource-variable/geist/files/geist-latin-ext-wght-normal.woff2",
+    "initiatorType": "css",
+    "startTime": 6482.5,
+    "duration": 159.19999992847443,
+    "transferSize": 300
+  },
+  {
+    "name": "http://127.0.0.1:5173/node_modules/@fontsource-variable/geist/files/geist-vietnamese-wght-normal.woff2",
+    "initiatorType": "css",
+    "startTime": 6482.799999952316,
+    "duration": 159.20000004768372,
+    "transferSize": 300
+  },
+  {
+    "name": "http://127.0.0.1:5173/api/dataset/status",
+    "initiatorType": "fetch",
+    "startTime": 6551.199999928474,
+    "duration": 97.39999997615814,
+    "transferSize": 0
+  },
+  {
+    "name": "http://127.0.0.1:5173/maplibre-gl-worker.mjs",
+    "initiatorType": "other",
+    "startTime": 6659.5,
+    "duration": -103.90000009536743,
+    "transferSize": 300
+  },
+  {
+    "name": "http://127.0.0.1:5173/favicon.svg",
+    "initiatorType": "other",
+    "startTime": 7099.099999904633,
+    "duration": 7.200000047683716,
+    "transferSize": 300
+  },
+  {
+    "name": "http://127.0.0.1:5173/api/dataset/status",
+    "initiatorType": "fetch",
+    "startTime": 6599.799999952316,
+    "duration": 1514.1000000238419,
+    "transferSize": 5783
+  },
+  {
+    "name": "http://127.0.0.1:5173/node_modules/@fontsource-variable/geist/files/geist-latin-wght-normal.woff2",
+    "initiatorType": "fetch",
+    "startTime": 10155.899999976158,
+    "duration": 8.100000023841858,
+    "transferSize": 300
+  },
+  {
+    "name": "http://127.0.0.1:5173/node_modules/@fontsource-variable/geist/files/geist-vietnamese-wght-normal.woff2",
+    "initiatorType": "fetch",
+    "startTime": 10156.299999952316,
+    "duration": 8.899999976158142,
+    "transferSize": 300
+  },
+  {
+    "name": "http://127.0.0.1:5173/api/dataset/status",
+    "initiatorType": "fetch",
+    "startTime": 18122.399999976158,
+    "duration": 709.6999999284744,
+    "transferSize": 5783
+  },
+  {
+    "name": "http://127.0.0.1:5173/api/dataset/status",
+    "initiatorType": "fetch",
+    "startTime": 28848.299999952316,
+    "duration": 639.5,
+    "transferSize": 5783
+  },
+  {
+    "name": "http://127.0.0.1:5173/api/dataset/status",
+    "initiatorType": "fetch",
+    "startTime": 39493.59999990463,
+    "duration": 751.2000000476837,
+    "transferSize": 5783
+  },
+  {
+    "name": "http://127.0.0.1:5173/api/dataset/status",
+    "initiatorType": "fetch",
+    "startTime": 50259,
+    "duration": 765.6999999284744,
+    "transferSize": 5783
+  },
+  {
+    "name": "http://127.0.0.1:5173/src/index.css?t=1791797530739",
+    "initiatorType": "script",
+    "startTime": 52053.799999952316,
+    "duration": 87.10000002384186,
+    "transferSize": 57458
+  },
+  {
+    "name": "http://127.0.0.1:5173/api/dataset/status",
+    "initiatorType": "fetch",
+    "startTime": 61033.89999997616,
+    "duration": 602.3999999761581,
+    "transferSize": 5783
+  },
+  {
+    "name": "http://127.0.0.1:5173/api/dataset/status",
+    "initiatorType": "fetch",
+    "startTime": 71662.09999990463,
+    "duration": 611.6000000238419,
+    "transferSize": 5783
+  },
+  {
+    "name": "http://127.0.0.1:5173/api/dataset/status",
+    "initiatorType": "fetch",
+    "startTime": 82284.29999995232,
+    "duration": 618.2000000476837,
+    "transferSize": 5783
+  },
+  {
+    "name": "http://127.0.0.1:5173/api/route",
+    "initiatorType": "fetch",
+    "startTime": 87008.19999992847,
+    "duration": 854.3999999761581,
+    "transferSize": 1564
+  },
+  {
+    "name": "http://127.0.0.1:5173/api/dataset/status",
+    "initiatorType": "fetch",
+    "startTime": 92910.5,
+    "duration": 622,
+    "transferSize": 5783
+  },
+  {
+    "name": "http://127.0.0.1:5173/api/dataset/status",
+    "initiatorType": "fetch",
+    "startTime": 103549.5,
+    "duration": 630.5,
+    "transferSize": 5783
+  },
+  {
+    "name": "http://127.0.0.1:5173/api/dataset/status",
+    "initiatorType": "fetch",
+    "startTime": 114187.79999995232,
+    "duration": 628.2000000476837,
+    "transferSize": 5783
+  },
+  {
+    "name": "http://127.0.0.1:5173/api/dataset/status",
+    "initiatorType": "fetch",
+    "startTime": 124824.19999992847,
+    "duration": 623.2000000476837,
+    "transferSize": 5783
+  },
+  {
+    "name": "http://127.0.0.1:5173/src/App.tsx?t=1791797607375",
+    "initiatorType": "script",
+    "startTime": 128687.69999992847,
+    "duration": 16.600000023841858,
+    "transferSize": 83410
+  },
+  {
+    "name": "http://127.0.0.1:5173/src/App.tsx?t=1791797607381",
+    "initiatorType": "script",
+    "startTime": 128710,
+    "duration": 65.19999992847443,
+    "transferSize": 83410
+  },
+  {
+    "name": "http://127.0.0.1:5173/src/lib/use-playback.ts?t=1791797607375",
+    "initiatorType": "script",
+    "startTime": 128709.89999997616,
+    "duration": 71.19999992847443,
+    "transferSize": 7865
+  },
+  {
+    "name": "http://127.0.0.1:5173/src/index.css?t=1791797607375",
+    "initiatorType": "script",
+    "startTime": 128687.39999997616,
+    "duration": 101.10000002384186,
+    "transferSize": 57458
+  },
+  {
+    "name": "http://127.0.0.1:5173/src/index.css?t=1791797607381",
+    "initiatorType": "script",
+    "startTime": 128796,
+    "duration": 9.5,
+    "transferSize": 57458
+  },
+  {
+    "name": "http://127.0.0.1:5173/src/index.css?t=1791797610404",
+    "initiatorType": "script",
+    "startTime": 131835.5,
+    "duration": 272.1999999284744,
+    "transferSize": 57458
+  },
+  {
+    "name": "http://127.0.0.1:5173/src/components/voucher-panel.tsx?t=1791797610404",
+    "initiatorType": "script",
+    "startTime": 131835.89999997616,
+    "duration": 276.10000002384186,
+    "transferSize": 55320
+  },
+  {
+    "name": "http://127.0.0.1:5173/src/components/voucher-panel.tsx?t=1791797610538",
+    "initiatorType": "script",
+    "startTime": 132116.69999992847,
+    "duration": 6.5,
+    "transferSize": 55320
+  },
+  {
+    "name": "http://127.0.0.1:5173/src/index.css?t=1791797610538",
+    "initiatorType": "script",
+    "startTime": 132128.39999997616,
+    "duration": 7.699999928474426,
+    "transferSize": 57458
+  },
+  {
+    "name": "http://127.0.0.1:5173/api/dataset/status",
+    "initiatorType": "fetch",
+    "startTime": 135460.5,
+    "duration": 756.0999999046326,
+    "transferSize": 5783
+  },
+  {
+    "name": "http://127.0.0.1:5173/api/dataset/status",
+    "initiatorType": "fetch",
+    "startTime": 146235.89999997616,
+    "duration": 657.7999999523163,
+    "transferSize": 5783
+  },
+  {
+    "name": "http://127.0.0.1:5173/api/dataset/status",
+    "initiatorType": "fetch",
+    "startTime": 156906.59999990463,
+    "duration": 784.6000000238419,
+    "transferSize": 5783
+  },
+  {
+    "name": "http://127.0.0.1:5173/api/dataset/status",
+    "initiatorType": "fetch",
+    "startTime": 167696,
+    "duration": 678.2999999523163,
+    "transferSize": 5783
+  },
+  {
+    "name": "http://127.0.0.1:5173/api/dataset/status",
+    "initiatorType": "fetch",
+    "startTime": 178378.29999995232,
+    "duration": 630.2000000476837,
+    "transferSize": 5783
+  },
+  {
+    "name": "http://127.0.0.1:5173/api/dataset/status",
+    "initiatorType": "fetch",
+    "startTime": 189019.09999990463,
+    "duration": 626.1000000238419,
+    "transferSize": 5783
+  },
+  {
+    "name": "http://127.0.0.1:5173/api/fleet/candidates",
+    "initiatorType": "fetch",
+    "startTime": 193252.59999990463,
+    "duration": 887.3000000715256,
+    "transferSize": 4293
+  },
+  {
+    "name": "http://127.0.0.1:5173/api/route",
+    "initiatorType": "fetch",
+    "startTime": 194147,
+    "duration": 1500.1999999284744,
+    "transferSize": 1962
+  },
+  {
+    "name": "http://127.0.0.1:5173/api/route",
+    "initiatorType": "fetch",
+    "startTime": 194147.89999997616,
+    "duration": 1511.3999999761581,
+    "transferSize": 2031
+  },
+  {
+    "name": "http://127.0.0.1:5173/api/route",
+    "initiatorType": "fetch",
+    "startTime": 195650.89999997616,
+    "duration": 1292.1999999284744,
+    "transferSize": 1552
+  },
+  {
+    "name": "http://127.0.0.1:5173/api/route",
+    "initiatorType": "fetch",
+    "startTime": 195729.39999997616,
+    "duration": 1224,
+    "transferSize": 3550
+  },
+  {
+    "name": "http://127.0.0.1:5173/api/route",
+    "initiatorType": "fetch",
+    "startTime": 196946.69999992847,
+    "duration": 662.2000000476837,
+    "transferSize": 3845
+  },
+  {
+    "name": "http://127.0.0.1:5173/api/dataset/status",
+    "initiatorType": "fetch",
+    "startTime": 199648.09999990463,
+    "duration": 767.1000000238419,
+    "transferSize": 5783
+  },
+  {
+    "name": "http://127.0.0.1:5173/api/dataset/status",
+    "initiatorType": "fetch",
+    "startTime": 210430.19999992847,
+    "duration": 666.1000000238419,
+    "transferSize": 5783
+  },
+  {
+    "name": "http://127.0.0.1:5173/api/dataset/status",
+    "initiatorType": "fetch",
+    "startTime": 221115.39999997616,
+    "duration": 689,
+    "transferSize": 5783
+  },
+  {
+    "name": "http://127.0.0.1:5173/api/dataset/status",
+    "initiatorType": "fetch",
+    "startTime": 231887.59999990463,
+    "duration": 885.2000000476837,
+    "transferSize": 5783
+  },
+  {
+    "name": "http://127.0.0.1:5173/api/booking-simulation/prepare",
+    "initiatorType": "fetch",
+    "startTime": 235151.79999995232,
+    "duration": 5623.299999952316,
+    "transferSize": 88262
+  },
+  {
+    "name": "http://127.0.0.1:5173/api/dataset/status",
+    "initiatorType": "fetch",
+    "startTime": 242963.89999997616,
+    "duration": 614.1999999284744,
+    "transferSize": 5783
+  },
+  {
+    "name": "http://127.0.0.1:5173/api/dataset/status",
+    "initiatorType": "fetch",
+    "startTime": 253583,
+    "duration": 624.6999999284744,
+    "transferSize": 5783
+  },
+  {
+    "name": "http://127.0.0.1:5173/api/dataset/status",
+    "initiatorType": "fetch",
+    "startTime": 264226,
+    "duration": 623.5999999046326,
+    "transferSize": 5783
+  },
+  {
+    "name": "http://127.0.0.1:5173/api/dataset/status",
+    "initiatorType": "fetch",
+    "startTime": 274861.09999990463,
+    "duration": 609,
+    "transferSize": 5783
+  },
+  {
+    "name": "http://127.0.0.1:5173/api/dataset/status",
+    "initiatorType": "fetch",
+    "startTime": 285473.7999999523,
+    "duration": 612.2000000476837,
+    "transferSize": 5783
+  },
+  {
+    "name": "http://127.0.0.1:5173/src/index.css?t=1791797767276",
+    "initiatorType": "script",
+    "startTime": 288590.09999990463,
+    "duration": 90.60000002384186,
+    "transferSize": 57458
+  },
+  {
+    "name": "http://127.0.0.1:5173/src/index.css?t=1791797767282",
+    "initiatorType": "script",
+    "startTime": 288685.7999999523,
+    "duration": 7.399999976158142,
+    "transferSize": 57458
+  },
+  {
+    "name": "http://127.0.0.1:5173/src/components/fleet-panel.tsx?t=1791797767282",
+    "initiatorType": "script",
+    "startTime": 288686.09999990463,
+    "duration": 23.100000023841858,
+    "transferSize": 44170
+  },
+  {
+    "name": "http://127.0.0.1:5173/src/index.css?t=1791797767285",
+    "initiatorType": "script",
+    "startTime": 288717.39999997616,
+    "duration": 6.600000023841858,
+    "transferSize": 57458
+  },
+  {
+    "name": "http://127.0.0.1:5173/src/components/booking-panel.tsx?t=1791797767285",
+    "initiatorType": "script",
+    "startTime": 288717.6999999285,
+    "duration": 21.399999976158142,
+    "transferSize": 68011
+  },
+  {
+    "name": "http://127.0.0.1:5173/src/index.css?t=1791797768142",
+    "initiatorType": "script",
+    "startTime": 289455.59999990463,
+    "duration": 71.60000002384186,
+    "transferSize": 57458
+  },
+  {
+    "name": "http://127.0.0.1:5173/src/index.css?t=1791797770646",
+    "initiatorType": "script",
+    "startTime": 291961.09999990463,
+    "duration": 98.20000004768372,
+    "transferSize": 57458
+  },
+  {
+    "name": "http://127.0.0.1:5173/api/dataset/status",
+    "initiatorType": "fetch",
+    "startTime": 296095.5,
+    "duration": 649.0999999046326,
+    "transferSize": 5783
+  },
+  {
+    "name": "http://127.0.0.1:5173/api/dataset/status",
+    "initiatorType": "fetch",
+    "startTime": 306749.39999997616,
+    "duration": 822.2999999523163,
+    "transferSize": 5783
+  },
+  {
+    "name": "http://127.0.0.1:5173/src/components/voucher-dashboard.tsx?t=1791797607381",
+    "initiatorType": "script",
+    "startTime": 314287.5,
+    "duration": 19.699999928474426,
+    "transferSize": 25781
+  },
+  {
+    "name": "http://127.0.0.1:5173/src/components/financial-comparison.tsx",
+    "initiatorType": "script",
+    "startTime": 314426,
+    "duration": 10.699999928474426,
+    "transferSize": 300
+  },
+  {
+    "name": "http://127.0.0.1:5173/src/components/voucher-charts.tsx",
+    "initiatorType": "script",
+    "startTime": 314426.1999999285,
+    "duration": 51.60000002384186,
+    "transferSize": 300
+  },
+  {
+    "name": "http://127.0.0.1:5173/src/components/voucher-dashboard.tsx?t=1791797768142",
+    "initiatorType": "script",
+    "startTime": 314426.2999999523,
+    "duration": 52,
+    "transferSize": 25781
+  },
+  {
+    "name": "http://127.0.0.1:5173/node_modules/.vite/deps/recharts.js?v=abcd8080",
+    "initiatorType": "script",
+    "startTime": 314480.7999999523,
+    "duration": 0,
+    "transferSize": 0
+  },
+  {
+    "name": "http://127.0.0.1:5173/src/components/ui/chart.tsx",
+    "initiatorType": "script",
+    "startTime": 314481,
+    "duration": 47,
+    "transferSize": 300
+  },
+  {
+    "name": "http://127.0.0.1:5173/api/dataset/status",
+    "initiatorType": "fetch",
+    "startTime": 317763.89999997616,
+    "duration": 746.6000000238419,
+    "transferSize": 5783
+  },
+  {
+    "name": "http://127.0.0.1:5173/api/voucher-experiment/prepare",
+    "initiatorType": "fetch",
+    "startTime": 315169.59999990463,
+    "duration": 8081.300000071526,
+    "transferSize": 412772
+  },
+  {
+    "name": "http://127.0.0.1:5173/api/dataset/status",
+    "initiatorType": "fetch",
+    "startTime": 328520.2999999523,
+    "duration": 635.5,
+    "transferSize": 5783
+  },
+  {
+    "name": "http://127.0.0.1:5173/api/dataset/status",
+    "initiatorType": "fetch",
+    "startTime": 339159.59999990463,
+    "duration": 771,
+    "transferSize": 5783
+  },
+  {
+    "name": "http://127.0.0.1:5173/api/dataset/status",
+    "initiatorType": "fetch",
+    "startTime": 349933.6999999285,
+    "duration": 626.8000000715256,
+    "transferSize": 5783
+  },
+  {
+    "name": "http://127.0.0.1:5173/api/dataset/status",
+    "initiatorType": "fetch",
+    "startTime": 360938.39999997616,
+    "duration": 764.6999999284744,
+    "transferSize": 5783
+  },
+  {
+    "name": "http://127.0.0.1:5173/api/dataset/status",
+    "initiatorType": "fetch",
+    "startTime": 372541.5,
+    "duration": 779.3999999761581,
+    "transferSize": 5783
+  },
+  {
+    "name": "http://127.0.0.1:5173/api/dataset/status",
+    "initiatorType": "fetch",
+    "startTime": 384070.89999997616,
+    "duration": 800.1999999284744,
+    "transferSize": 5783
+  },
+  {
+    "name": "http://127.0.0.1:5173/api/dataset/status",
+    "initiatorType": "fetch",
+    "startTime": 395830.09999990463,
+    "duration": 792.8000000715256,
+    "transferSize": 5783
+  },
+  {
+    "name": "http://127.0.0.1:5173/src/components/voucher-analytics.tsx",
+    "initiatorType": "script",
+    "startTime": 405676.89999997616,
+    "duration": 19.600000023841858,
+    "transferSize": 25476
+  },
+  {
+    "name": "http://127.0.0.1:5173/api/dataset/status",
+    "initiatorType": "fetch",
+    "startTime": 409599.59999990463,
+    "duration": 854.8000000715256,
+    "transferSize": 5783
+  },
+  {
+    "name": "http://127.0.0.1:5173/api/dataset/status",
+    "initiatorType": "fetch",
+    "startTime": 422319.59999990463,
+    "duration": 768.9000000953674,
+    "transferSize": 5783
+  },
+  {
+    "name": "http://127.0.0.1:5173/api/dataset/status",
+    "initiatorType": "fetch",
+    "startTime": 435844.6999999285,
+    "duration": 737.2000000476837,
+    "transferSize": 5783
+  },
+  {
+    "name": "http://127.0.0.1:5173/api/dataset/status",
+    "initiatorType": "fetch",
+    "startTime": 449716.2999999523,
+    "duration": 768.2999999523163,
+    "transferSize": 5783
+  },
+  {
+    "name": "http://127.0.0.1:5173/api/dataset/status",
+    "initiatorType": "fetch",
+    "startTime": 462095.5,
+    "duration": 643.6999999284744,
+    "transferSize": 5783
+  },
+  {
+    "name": "http://127.0.0.1:5173/api/dataset/status",
+    "initiatorType": "fetch",
+    "startTime": 472753.59999990463,
+    "duration": 656.9000000953674,
+    "transferSize": 5783
+  },
+  {
+    "name": "http://127.0.0.1:5173/api/dataset/status",
+    "initiatorType": "fetch",
+    "startTime": 483419.1999999285,
+    "duration": 612.2000000476837,
+    "transferSize": 5783
+  },
+  {
+    "name": "http://127.0.0.1:5173/api/dataset/status",
+    "initiatorType": "fetch",
+    "startTime": 494035.89999997616,
+    "duration": 802.1999999284744,
+    "transferSize": 5783
+  },
+  {
+    "name": "http://127.0.0.1:5173/api/dataset/status",
+    "initiatorType": "fetch",
+    "startTime": 504840.2999999523,
+    "duration": 612.6000000238419,
+    "transferSize": 5783
+  },
+  {
+    "name": "http://127.0.0.1:5173/src/index.css?t=1791797990947",
+    "initiatorType": "script",
+    "startTime": 512267.09999990463,
+    "duration": 80.30000007152557,
+    "transferSize": 57458
+  },
+  {
+    "name": "http://127.0.0.1:5173/src/components/voucher-dashboard.tsx?t=1791797990947",
+    "initiatorType": "script",
+    "startTime": 512267.39999997616,
+    "duration": 82.19999992847443,
+    "transferSize": 26096
+  },
+  {
+    "name": "http://127.0.0.1:5173/node_modules/@fontsource-variable/geist/files/geist-vietnamese-wght-normal.woff2",
+    "initiatorType": "css",
+    "startTime": 512739.09999990463,
+    "duration": 0,
+    "transferSize": 300
+  },
+  {
+    "name": "http://127.0.0.1:5173/node_modules/@fontsource-variable/geist/files/geist-latin-wght-normal.woff2",
+    "initiatorType": "css",
+    "startTime": 512739.2999999523,
+    "duration": 0,
+    "transferSize": 300
+  },
+  {
+    "name": "http://127.0.0.1:5173/api/dataset/status",
+    "initiatorType": "fetch",
+    "startTime": 515457,
+    "duration": 708.0999999046326,
+    "transferSize": 5783
+  },
+  {
+    "name": "http://127.0.0.1:5173/api/dataset/status",
+    "initiatorType": "fetch",
+    "startTime": 526179,
+    "duration": 789.1999999284744,
+    "transferSize": 5783
+  },
+  {
+    "name": "http://127.0.0.1:5173/api/dataset/status",
+    "initiatorType": "fetch",
+    "startTime": 536971.1999999285,
+    "duration": 908.5,
+    "transferSize": 5783
+  },
+  {
+    "name": "http://127.0.0.1:5173/api/dataset/status",
+    "initiatorType": "fetch",
+    "startTime": 547893.1999999285,
+    "duration": 813,
+    "transferSize": 5783
+  },
+  {
+    "name": "http://127.0.0.1:5173/api/dataset/status",
+    "initiatorType": "fetch",
+    "startTime": 558720.8999999762,
+    "duration": 876.1999999284744,
+    "transferSize": 5783
+  },
+  {
+    "name": "http://127.0.0.1:5173/api/dataset/status",
+    "initiatorType": "fetch",
+    "startTime": 569607.7999999523,
+    "duration": 770.2000000476837,
+    "transferSize": 5783
+  },
+  {
+    "name": "http://127.0.0.1:5173/api/dataset/status",
+    "initiatorType": "fetch",
+    "startTime": 580388.5999999046,
+    "duration": 754.8000000715256,
+    "transferSize": 5783
+  },
+  {
+    "name": "http://127.0.0.1:5173/api/dataset/status",
+    "initiatorType": "fetch",
+    "startTime": 591154.3999999762,
+    "duration": 647.5,
+    "transferSize": 5783
+  },
+  {
+    "name": "http://127.0.0.1:5173/api/dataset/status",
+    "initiatorType": "fetch",
+    "startTime": 601902.5,
+    "duration": 769.5,
+    "transferSize": 5783
+  },
+  {
+    "name": "http://127.0.0.1:5173/api/dataset/status",
+    "initiatorType": "fetch",
+    "startTime": 612886.1999999285,
+    "duration": 668.3000000715256,
+    "transferSize": 5783
+  },
+  {
+    "name": "http://127.0.0.1:5173/api/dataset/status",
+    "initiatorType": "fetch",
+    "startTime": 623571.7999999523,
+    "duration": 623.2999999523163,
+    "transferSize": 5783
+  },
+  {
+    "name": "http://127.0.0.1:5173/api/dataset/status",
+    "initiatorType": "fetch",
+    "startTime": 634207.2999999523,
+    "duration": 609.7000000476837,
+    "transferSize": 5783
+  },
+  {
+    "name": "http://127.0.0.1:5173/api/dataset/status",
+    "initiatorType": "fetch",
+    "startTime": 644820.2999999523,
+    "duration": 626.2999999523163,
+    "transferSize": 5783
+  },
+  {
+    "name": "http://127.0.0.1:5173/api/dataset/status",
+    "initiatorType": "fetch",
+    "startTime": 655449.3999999762,
+    "duration": 633.8999999761581,
+    "transferSize": 5783
+  },
+  {
+    "name": "http://127.0.0.1:5173/api/dataset/status",
+    "initiatorType": "fetch",
+    "startTime": 666094.1999999285,
+    "duration": 617,
+    "transferSize": 5783
+  },
+  {
+    "name": "http://127.0.0.1:5173/api/dataset/status",
+    "initiatorType": "fetch",
+    "startTime": 676725.0999999046,
+    "duration": 647,
+    "transferSize": 5783
+  },
+  {
+    "name": "http://127.0.0.1:5173/src/App.css?t=1791798164915",
+    "initiatorType": "script",
+    "startTime": 686235.8999999762,
+    "duration": 50,
+    "transferSize": 29574
+  },
+  {
+    "name": "http://127.0.0.1:5173/src/index.css?t=1791798164915",
+    "initiatorType": "script",
+    "startTime": 686236.1999999285,
+    "duration": 127.20000004768372,
+    "transferSize": 57458
+  },
+  {
+    "name": "http://127.0.0.1:5173/api/dataset/status",
+    "initiatorType": "fetch",
+    "startTime": 687379.2999999523,
+    "duration": 791.6000000238419,
+    "transferSize": 5783
+  },
+  {
+    "name": "http://127.0.0.1:5173/src/components/voucher-analytics.tsx?t=1791798169627",
+    "initiatorType": "script",
+    "startTime": 690948.5999999046,
+    "duration": 93.20000004768372,
+    "transferSize": 28871
+  },
+  {
+    "name": "http://127.0.0.1:5173/src/index.css?t=1791798169627",
+    "initiatorType": "script",
+    "startTime": 690948.1999999285,
+    "duration": 104.80000007152557,
+    "transferSize": 57458
+  },
+  {
+    "name": "http://127.0.0.1:5173/src/components/voucher-analytics.tsx?t=1791798169632",
+    "initiatorType": "script",
+    "startTime": 691045.5999999046,
+    "duration": 19.90000009536743,
+    "transferSize": 28871
+  },
+  {
+    "name": "http://127.0.0.1:5173/src/components/chart-viewport.tsx",
+    "initiatorType": "script",
+    "startTime": 691045.2999999523,
+    "duration": 25.600000023841858,
+    "transferSize": 6023
+  },
+  {
+    "name": "http://127.0.0.1:5173/src/components/voucher-charts.tsx?t=1791798169632",
+    "initiatorType": "script",
+    "startTime": 691045.5,
+    "duration": 26.899999976158142,
+    "transferSize": 22116
+  },
+  {
+    "name": "http://127.0.0.1:5173/src/index.css?t=1791798169632",
+    "initiatorType": "script",
+    "startTime": 691078,
+    "duration": 6.5,
+    "transferSize": 57458
+  },
+  {
+    "name": "http://127.0.0.1:5173/api/dataset/status",
+    "initiatorType": "fetch",
+    "startTime": 698179.5,
+    "duration": 844.0999999046326,
+    "transferSize": 5783
+  },
+  {
+    "name": "http://127.0.0.1:5173/api/dataset/status",
+    "initiatorType": "fetch",
+    "startTime": 709033,
+    "duration": 741.6999999284744,
+    "transferSize": 5783
+  },
+  {
+    "name": "http://127.0.0.1:5173/api/dataset/status",
+    "initiatorType": "fetch",
+    "startTime": 719785,
+    "duration": 636.5,
+    "transferSize": 5783
+  },
+  {
+    "name": "http://127.0.0.1:5173/api/dataset/status",
+    "initiatorType": "fetch",
+    "startTime": 730428.8999999762,
+    "duration": 745.7999999523163,
+    "transferSize": 5783
+  },
+  {
+    "name": "http://127.0.0.1:5173/api/dataset/status",
+    "initiatorType": "fetch",
+    "startTime": 741191.5999999046,
+    "duration": 717.1000000238419,
+    "transferSize": 5783
+  },
+  {
+    "name": "http://127.0.0.1:5173/api/dataset/status",
+    "initiatorType": "fetch",
+    "startTime": 751923.5999999046,
+    "duration": 607.6000000238419,
+    "transferSize": 5783
+  },
+  {
+    "name": "http://127.0.0.1:5173/api/dataset/status",
+    "initiatorType": "fetch",
+    "startTime": 762547.5999999046,
+    "duration": 777.9000000953674,
+    "transferSize": 5783
+  },
+  {
+    "name": "http://127.0.0.1:5173/api/dataset/status",
+    "initiatorType": "fetch",
+    "startTime": 773399.5,
+    "duration": 634.6999999284744,
+    "transferSize": 5783
+  },
+  {
+    "name": "http://127.0.0.1:5173/api/dataset/status",
+    "initiatorType": "fetch",
+    "startTime": 784041.1999999285,
+    "duration": 630.8000000715256,
+    "transferSize": 5783
+  },
+  {
+    "name": "http://127.0.0.1:5173/api/dataset/status",
+    "initiatorType": "fetch",
+    "startTime": 794684.3999999762,
+    "duration": 767.6999999284744,
+    "transferSize": 5783
+  },
+  {
+    "name": "http://127.0.0.1:5173/src/index.css?t=1791798277533",
+    "initiatorType": "script",
+    "startTime": 798845.7999999523,
+    "duration": 81.5,
+    "transferSize": 57458
+  },
+  {
+    "name": "http://127.0.0.1:5173/api/dataset/status",
+    "initiatorType": "fetch",
+    "startTime": 805464,
+    "duration": 616.1999999284744,
+    "transferSize": 5783
+  },
+  {
+    "name": "http://127.0.0.1:5173/api/dataset/status",
+    "initiatorType": "fetch",
+    "startTime": 816098.5999999046,
+    "duration": 617.2000000476837,
+    "transferSize": 5783
+  },
+  {
+    "name": "http://127.0.0.1:5173/api/dataset/status",
+    "initiatorType": "fetch",
+    "startTime": 826722.6999999285,
+    "duration": 635.8000000715256,
+    "transferSize": 5783
+  },
+  {
+    "name": "http://127.0.0.1:5173/api/dataset/status",
+    "initiatorType": "fetch",
+    "startTime": 837391.5999999046,
+    "duration": 975.6000000238419,
+    "transferSize": 5783
+  },
+  {
+    "name": "http://127.0.0.1:5173/api/dataset/status",
+    "initiatorType": "fetch",
+    "startTime": 848539.5999999046,
+    "duration": 661.2000000476837,
+    "transferSize": 5783
+  },
+  {
+    "name": "http://127.0.0.1:5173/api/dataset/status",
+    "initiatorType": "fetch",
+    "startTime": 859206.5,
+    "duration": 631.6999999284744,
+    "transferSize": 5783
+  },
+  {
+    "name": "http://127.0.0.1:5173/api/dataset/status",
+    "initiatorType": "fetch",
+    "startTime": 869849.5999999046,
+    "duration": 622.1000000238419,
+    "transferSize": 5783
+  },
+  {
+    "name": "http://127.0.0.1:5173/api/dataset/status",
+    "initiatorType": "fetch",
+    "startTime": 880476.2999999523,
+    "duration": 202.20000004768372,
+    "transferSize": 5783
+  },
+  {
+    "name": "http://127.0.0.1:5173/api/dataset/status",
+    "initiatorType": "fetch",
+    "startTime": 890688,
+    "duration": 733.8999999761581,
+    "transferSize": 5783
+  },
+  {
+    "duration": 13.700000047683716,
+    "initiatorType": "script",
+    "name": "http://127.0.0.1:5173/@vite/client",
+    "startTime": 4798247.5,
+    "transferSize": 300
+  },
+  {
+    "duration": 11.399999976158142,
+    "initiatorType": "script",
+    "name": "http://127.0.0.1:5173/src/main.tsx?t=1791798277533",
+    "startTime": 4798249.200000048,
+    "transferSize": 1967
+  },
+  {
+    "duration": 8.5,
+    "initiatorType": "script",
+    "name": "http://127.0.0.1:5173/@react-refresh",
+    "startTime": 4798252.5,
+    "transferSize": 300
+  },
+  {
+    "duration": 4.899999976158142,
+    "initiatorType": "script",
+    "name": "http://127.0.0.1:5173/node_modules/.vite/deps/react.js?v=abcd8080",
+    "startTime": 4798263.3000000715,
+    "transferSize": 0
+  },
+  {
+    "duration": 72.39999997615814,
+    "initiatorType": "script",
+    "name": "http://127.0.0.1:5173/src/index.css?t=1791798277533",
+    "startTime": 4798263.5,
+    "transferSize": 300
+  },
+  {
+    "duration": 423.7000000476837,
+    "initiatorType": "script",
+    "name": "http://127.0.0.1:5173/node_modules/.vite/deps/react-dom_client.js?v=abcd8080",
+    "startTime": 4798263.5,
+    "transferSize": 0
+  },
+  {
+    "duration": 73.10000002384186,
+    "initiatorType": "script",
+    "name": "http://127.0.0.1:5173/src/App.tsx?t=1791798169632",
+    "startTime": 4798263.700000048,
+    "transferSize": 83410
+  },
+  {
+    "duration": 7,
+    "initiatorType": "script",
+    "name": "http://127.0.0.1:5173/node_modules/.vite/deps/react_jsx-dev-runtime.js?v=abcd8080",
+    "startTime": 4798263.8000000715,
+    "transferSize": 0
+  },
+  {
+    "duration": 112.70000004768372,
+    "initiatorType": "script",
+    "name": "http://127.0.0.1:5173/node_modules/vite/dist/client/env.mjs",
+    "startTime": 4798266,
+    "transferSize": 300
+  },
+  {
+    "duration": 118.29999995231628,
+    "initiatorType": "script",
+    "name": "http://127.0.0.1:5173/node_modules/.vite/deps/rolldown-runtime-DC62tzP2.js?v=abcd8080",
+    "startTime": 4798275.100000024,
+    "transferSize": 0
+  },
+  {
+    "duration": 361.5,
+    "initiatorType": "script",
+    "name": "http://127.0.0.1:5173/node_modules/.vite/deps/lucide-react.js?v=abcd8080",
+    "startTime": 4798340.3000000715,
+    "transferSize": 0
+  },
+  {
+    "duration": 63.20000004768371,
+    "initiatorType": "script",
+    "name": "http://127.0.0.1:5173/src/components/ui/button.tsx",
+    "startTime": 4798340.399999976,
+    "transferSize": 300
+  },
+  {
+    "duration": 64.60000002384186,
+    "initiatorType": "script",
+    "name": "http://127.0.0.1:5173/src/components/ui/badge.tsx",
+    "startTime": 4798340.600000024,
+    "transferSize": 300
+  },
+  {
+    "duration": 65,
+    "initiatorType": "script",
+    "name": "http://127.0.0.1:5173/src/components/primary-navigation.tsx",
+    "startTime": 4798340.600000024,
+    "transferSize": 300
+  },
+  {
+    "duration": 67.39999997615814,
+    "initiatorType": "script",
+    "name": "http://127.0.0.1:5173/src/components/inspector-section.tsx",
+    "startTime": 4798340.700000048,
+    "transferSize": 300
+  },
+  {
+    "duration": 68.29999995231628,
+    "initiatorType": "script",
+    "name": "http://127.0.0.1:5173/src/components/playback-dock.tsx?t=1791797325139",
+    "startTime": 4798340.8000000715,
+    "transferSize": 300
+  },
+  {
+    "duration": 69.20000004768372,
+    "initiatorType": "script",
+    "name": "http://127.0.0.1:5173/src/components/sandbox-map.tsx?t=1791797147348",
+    "startTime": 4798341,
+    "transferSize": 300
+  },
+  {
+    "duration": 69.60000002384186,
+    "initiatorType": "script",
+    "name": "http://127.0.0.1:5173/src/lib/api.ts",
+    "startTime": 4798341.100000024,
+    "transferSize": 300
+  },
+  {
+    "duration": 70.10000002384186,
+    "initiatorType": "script",
+    "name": "http://127.0.0.1:5173/src/lib/use-playback.ts?t=1791797607375",
+    "startTime": 4798341.100000024,
+    "transferSize": 300
+  },
+  {
+    "duration": 140.29999995231628,
+    "initiatorType": "script",
+    "name": "http://127.0.0.1:5173/src/App.css?t=1791798164915",
+    "startTime": 4798341.200000048,
+    "transferSize": 300
+  },
+  {
+    "duration": 140.79999995231628,
+    "initiatorType": "script",
+    "name": "http://127.0.0.1:5173/src/lib/use-fleet.ts?t=1791796900230",
+    "startTime": 4798341.3000000715,
+    "transferSize": 300
+  },
+  {
+    "duration": 175.5,
+    "initiatorType": "script",
+    "name": "http://127.0.0.1:5173/src/components/fleet-panel.tsx?t=1791797767282",
+    "startTime": 4798341.399999976,
+    "transferSize": 300
+  },
+  {
+    "duration": 176,
+    "initiatorType": "script",
+    "name": "http://127.0.0.1:5173/src/components/runtime-audit.tsx",
+    "startTime": 4798341.399999976,
+    "transferSize": 300
+  },
+  {
+    "duration": 186.70000004768372,
+    "initiatorType": "script",
+    "name": "http://127.0.0.1:5173/src/lib/use-booking.ts?t=1791796900230",
+    "startTime": 4798341.600000024,
+    "transferSize": 300
+  },
+  {
+    "duration": 277.60000002384186,
+    "initiatorType": "script",
+    "name": "http://127.0.0.1:5173/src/components/booking-panel.tsx?t=1791797767285",
+    "startTime": 4798341.600000024,
+    "transferSize": 300
+  },
+  {
+    "duration": 236.10000002384183,
+    "initiatorType": "script",
+    "name": "http://127.0.0.1:5173/src/lib/use-voucher.ts?t=1791796900230",
+    "startTime": 4798341.700000048,
+    "transferSize": 300
+  },
+  {
+    "duration": 271.6999999284744,
+    "initiatorType": "script",
+    "name": "http://127.0.0.1:5173/src/components/voucher-panel.tsx?t=1791797610538",
+    "startTime": 4798341.8000000715,
+    "transferSize": 300
+  },
+  {
+    "duration": 100.19999992847444,
+    "initiatorType": "script",
+    "name": "http://127.0.0.1:5173/node_modules/.vite/deps/@base-ui_react_button.js?v=abcd8080",
+    "startTime": 4798423.200000048,
+    "transferSize": 0
+  },
+  {
+    "duration": 100.20000004768372,
+    "initiatorType": "script",
+    "name": "http://127.0.0.1:5173/node_modules/.vite/deps/class-variance-authority.js?v=abcd8080",
+    "startTime": 4798423.399999976,
+    "transferSize": 0
+  },
+  {
+    "duration": 191.80000007152557,
+    "initiatorType": "script",
+    "name": "http://127.0.0.1:5173/node_modules/.vite/deps/cn.js?v=abcd8080",
+    "startTime": 4798423.5,
+    "transferSize": 0
+  },
+  {
+    "duration": 100.39999997615814,
+    "initiatorType": "script",
+    "name": "http://127.0.0.1:5173/node_modules/.vite/deps/@base-ui_react_merge-props.js?v=abcd8080",
+    "startTime": 4798423.8000000715,
+    "transferSize": 0
+  },
+  {
+    "duration": 100.40000009536745,
+    "initiatorType": "script",
+    "name": "http://127.0.0.1:5173/node_modules/.vite/deps/@base-ui_react_use-render.js?v=abcd8080",
+    "startTime": 4798423.899999976,
+    "transferSize": 0
+  },
+  {
+    "duration": 228.39999997615817,
+    "initiatorType": "script",
+    "name": "http://127.0.0.1:5173/node_modules/.vite/deps/@base-ui_react_dialog.js?v=abcd8080",
+    "startTime": 4798424.600000024,
+    "transferSize": 0
+  },
+  {
+    "duration": 192.10000002384183,
+    "initiatorType": "script",
+    "name": "http://127.0.0.1:5173/src/lib/map-style.ts",
+    "startTime": 4798424.700000048,
+    "transferSize": 300
+  },
+  {
+    "duration": 194.89999997615817,
+    "initiatorType": "script",
+    "name": "http://127.0.0.1:5173/src/lib/playback.ts",
+    "startTime": 4798424.700000048,
+    "transferSize": 300
+  },
+  {
+    "duration": 207.19999992847443,
+    "initiatorType": "script",
+    "name": "http://127.0.0.1:5173/src/components/ui/map.tsx",
+    "startTime": 4798424.700000048,
+    "transferSize": 300
+  },
+  {
+    "duration": 199,
+    "initiatorType": "script",
+    "name": "http://127.0.0.1:5173/src/components/fleet-map.tsx?t=1791796900230",
+    "startTime": 4798424.8000000715,
+    "transferSize": 300
+  },
+  {
+    "duration": 201.39999997615817,
+    "initiatorType": "script",
+    "name": "http://127.0.0.1:5173/src/components/booking-map.tsx?t=1791796900230",
+    "startTime": 4798424.8000000715,
+    "transferSize": 300
+  },
+  {
+    "duration": 202.19999992847443,
+    "initiatorType": "script",
+    "name": "http://127.0.0.1:5173/src/lib/simulation-speed.ts",
+    "startTime": 4798424.8000000715,
+    "transferSize": 300
+  },
+  {
+    "duration": 201.79999995231628,
+    "initiatorType": "script",
+    "name": "http://127.0.0.1:5173/src/components/ui/slider.tsx",
+    "startTime": 4798424.8000000715,
+    "transferSize": 300
+  },
+  {
+    "duration": 143.59999990463257,
+    "initiatorType": "script",
+    "name": "http://127.0.0.1:5173/src/lib/fleet.ts",
+    "startTime": 4798484.3000000715,
+    "transferSize": 300
+  },
+  {
+    "duration": 146,
+    "initiatorType": "script",
+    "name": "http://127.0.0.1:5173/src/lib/fleet-clock.ts?t=1791796900230",
+    "startTime": 4798484.5,
+    "transferSize": 300
+  },
+  {
+    "duration": 100.80000007152556,
+    "initiatorType": "script",
+    "name": "http://127.0.0.1:5173/node_modules/.vite/deps/useRenderElement-D5wYhCUV.js?v=abcd8080",
+    "startTime": 4798532.5,
+    "transferSize": 0
+  },
+  {
+    "duration": 105.10000002384186,
+    "initiatorType": "script",
+    "name": "http://127.0.0.1:5173/node_modules/.vite/deps/useButton-BmD0Xb_H.js?v=abcd8080",
+    "startTime": 4798532.600000024,
+    "transferSize": 0
+  },
+  {
+    "duration": 105.30000007152556,
+    "initiatorType": "script",
+    "name": "http://127.0.0.1:5173/node_modules/.vite/deps/clsx-DQoRUQAf.js?v=abcd8080",
+    "startTime": 4798533,
+    "transferSize": 0
+  },
+  {
+    "duration": 106.10000002384186,
+    "initiatorType": "script",
+    "name": "http://127.0.0.1:5173/node_modules/.vite/deps/merge-props-B4lpaVXg.js?v=abcd8080",
+    "startTime": 4798533.399999976,
+    "transferSize": 0
+  },
+  {
+    "duration": 114.5,
+    "initiatorType": "script",
+    "name": "http://127.0.0.1:5173/src/lib/booking.ts",
+    "startTime": 4798535.3000000715,
+    "transferSize": 300
+  },
+  {
+    "duration": 71.29999995231628,
+    "initiatorType": "script",
+    "name": "http://127.0.0.1:5173/src/lib/voucher.ts",
+    "startTime": 4798579.200000048,
+    "transferSize": 300
+  },
+  {
+    "duration": 28.09999990463257,
+    "initiatorType": "script",
+    "name": "http://127.0.0.1:5173/node_modules/@fontsource-variable/geist/files/geist-latin-wght-normal.woff2?import&url",
+    "startTime": 4798624.3000000715,
+    "transferSize": 300
+  },
+  {
+    "duration": 30.40000009536743,
+    "initiatorType": "script",
+    "name": "http://127.0.0.1:5173/node_modules/@fontsource-variable/geist/files/geist-vietnamese-wght-normal.woff2?import&url",
+    "startTime": 4798624.399999976,
+    "transferSize": 300
+  },
+  {
+    "duration": 36.89999997615814,
+    "initiatorType": "script",
+    "name": "http://127.0.0.1:5173/node_modules/.vite/deps/@base-ui_react_slider.js?v=abcd8080",
+    "startTime": 4798635,
+    "transferSize": 0
+  },
+  {
+    "duration": 16.899999976158142,
+    "initiatorType": "script",
+    "name": "http://127.0.0.1:5173/node_modules/.vite/deps/useIsoLayoutEffect-hAlf1FRO.js?v=abcd8080",
+    "startTime": 4798642.200000048,
+    "transferSize": 0
+  },
+  {
+    "duration": 155.60000002384186,
+    "initiatorType": "script",
+    "name": "http://127.0.0.1:5173/node_modules/.vite/deps/maplibre-gl.js?v=abcd8080",
+    "startTime": 4798644.200000048,
+    "transferSize": 0
+  },
+  {
+    "duration": 32,
+    "initiatorType": "script",
+    "name": "http://127.0.0.1:5173/node_modules/maplibre-gl/dist/maplibre-gl.css",
+    "startTime": 4798644.399999976,
+    "transferSize": 300
+  },
+  {
+    "duration": 22.100000023841854,
+    "initiatorType": "script",
+    "name": "http://127.0.0.1:5173/node_modules/.vite/deps/react-dom.js?v=abcd8080",
+    "startTime": 4798644.5,
+    "transferSize": 0
+  },
+  {
+    "duration": 31.600000023841854,
+    "initiatorType": "script",
+    "name": "http://127.0.0.1:5173/src/lib/utils.ts",
+    "startTime": 4798644.600000024,
+    "transferSize": 300
+  },
+  {
+    "duration": 12.600000023841858,
+    "initiatorType": "script",
+    "name": "http://127.0.0.1:5173/node_modules/.vite/deps/composite-1LpIIGol.js?v=abcd8080",
+    "startTime": 4798666.899999976,
+    "transferSize": 0
+  },
+  {
+    "duration": 14.299999952316284,
+    "initiatorType": "script",
+    "name": "http://127.0.0.1:5173/node_modules/.vite/deps/react_jsx-runtime.js?v=abcd8080",
+    "startTime": 4798667.100000024,
+    "transferSize": 0
+  },
+  {
+    "duration": 14.899999976158142,
+    "initiatorType": "script",
+    "name": "http://127.0.0.1:5173/node_modules/.vite/deps/shim-BX6a9SD7.js?v=abcd8080",
+    "startTime": 4798667.200000048,
+    "transferSize": 0
+  },
+  {
+    "duration": 15.099999904632568,
+    "initiatorType": "script",
+    "name": "http://127.0.0.1:5173/node_modules/.vite/deps/with-selector-m9dUj709.js?v=abcd8080",
+    "startTime": 4798667.3000000715,
+    "transferSize": 0
+  },
+  {
+    "duration": 138.70000004768372,
+    "initiatorType": "css",
+    "name": "http://127.0.0.1:5173/node_modules/@fontsource-variable/geist/files/geist-latin-wght-normal.woff2",
+    "startTime": 4799101.100000024,
+    "transferSize": 300
+  },
+  {
+    "duration": 140.10000002384186,
+    "initiatorType": "css",
+    "name": "http://127.0.0.1:5173/node_modules/@fontsource-variable/geist/files/geist-vietnamese-wght-normal.woff2",
+    "startTime": 4799103,
+    "transferSize": 300
+  },
+  {
+    "duration": 4.5,
+    "initiatorType": "css",
+    "name": "http://127.0.0.1:5173/node_modules/@fontsource-variable/geist/files/geist-latin-ext-wght-normal.woff2",
+    "startTime": 4799106,
+    "transferSize": 300
+  },
+  {
+    "duration": 98.69999992847444,
+    "initiatorType": "fetch",
+    "name": "http://127.0.0.1:5173/api/dataset/status",
+    "startTime": 4799161.8000000715,
+    "transferSize": 0
+  },
+  {
+    "duration": -101.60000002384186,
+    "initiatorType": "other",
+    "name": "http://127.0.0.1:5173/maplibre-gl-worker.mjs",
+    "startTime": 4799267.600000024,
+    "transferSize": 300
+  },
+  {
+    "duration": 5.5,
+    "initiatorType": "other",
+    "name": "http://127.0.0.1:5173/favicon.svg",
+    "startTime": 4799495.399999976,
+    "transferSize": 300
+  },
+  {
+    "duration": 1420.4000000953674,
+    "initiatorType": "fetch",
+    "name": "http://127.0.0.1:5173/api/dataset/status",
+    "startTime": 4799203.399999976,
+    "transferSize": 5783
+  },
+  {
+    "duration": 8.100000023841858,
+    "initiatorType": "fetch",
+    "name": "http://127.0.0.1:5173/node_modules/@fontsource-variable/geist/files/geist-latin-wght-normal.woff2",
+    "startTime": 4801205.899999976,
+    "transferSize": 300
+  },
+  {
+    "duration": 9,
+    "initiatorType": "fetch",
+    "name": "http://127.0.0.1:5173/node_modules/@fontsource-variable/geist/files/geist-vietnamese-wght-normal.woff2",
+    "startTime": 4801206.3000000715,
+    "transferSize": 300
+  },
+  {
+    "duration": 615.6000000238419,
+    "initiatorType": "fetch",
+    "name": "http://127.0.0.1:5173/api/dataset/status",
+    "startTime": 4810628.100000024,
+    "transferSize": 5783
+  },
+  {
+    "duration": 798.4000000953674,
+    "initiatorType": "fetch",
+    "name": "http://127.0.0.1:5173/api/dataset/status",
+    "startTime": 4821249.399999976,
+    "transferSize": 5783
+  },
+  {
+    "duration": 617.1000000238419,
+    "initiatorType": "fetch",
+    "name": "http://127.0.0.1:5173/api/dataset/status",
+    "startTime": 4832053,
+    "transferSize": 5783
+  },
+  {
+    "duration": 885.2999999523163,
+    "initiatorType": "fetch",
+    "name": "http://127.0.0.1:5173/api/dataset/status",
+    "startTime": 4842677.100000024,
+    "transferSize": 5783
+  },
+  {
+    "duration": 594,
+    "initiatorType": "fetch",
+    "name": "http://127.0.0.1:5173/api/dataset/status",
+    "startTime": 4853577.899999976,
+    "transferSize": 5783
+  },
+  {
+    "duration": 667.5,
+    "initiatorType": "fetch",
+    "name": "http://127.0.0.1:5173/api/dataset/status",
+    "startTime": 4864177.700000048,
+    "transferSize": 5783
+  },
+  {
+    "duration": 763.8999999761581,
+    "initiatorType": "fetch",
+    "name": "http://127.0.0.1:5173/api/dataset/status",
+    "startTime": 4874857.8000000715,
+    "transferSize": 5783
+  },
+  {
+    "duration": 619.1000000238419,
+    "initiatorType": "fetch",
+    "name": "http://127.0.0.1:5173/api/dataset/status",
+    "startTime": 4885633.600000024,
+    "transferSize": 5783
+  },
+  {
+    "duration": 603.6000000238419,
+    "initiatorType": "fetch",
+    "name": "http://127.0.0.1:5173/api/dataset/status",
+    "startTime": 4896262.399999976,
+    "transferSize": 5783
+  },
+  {
+    "duration": 562.1999999284744,
+    "initiatorType": "fetch",
+    "name": "http://127.0.0.1:5173/api/dataset/status",
+    "startTime": 4906875.3000000715,
+    "transferSize": 5783
+  },
+  {
+    "duration": 634,
+    "initiatorType": "fetch",
+    "name": "http://127.0.0.1:5173/api/dataset/status",
+    "startTime": 4917442,
+    "transferSize": 5783
+  },
+  {
+    "duration": 645.8000000715256,
+    "initiatorType": "fetch",
+    "name": "http://127.0.0.1:5173/api/dataset/status",
+    "startTime": 4928092.399999976,
+    "transferSize": 5783
+  },
+  {
+    "duration": 623.9000000953674,
+    "initiatorType": "fetch",
+    "name": "http://127.0.0.1:5173/api/dataset/status",
+    "startTime": 4938750.399999976,
+    "transferSize": 5783
+  },
+  {
+    "duration": 656.3999999761581,
+    "initiatorType": "fetch",
+    "name": "http://127.0.0.1:5173/api/dataset/status",
+    "startTime": 4949378.8000000715,
+    "transferSize": 5783
+  },
+  {
+    "duration": 559.5,
+    "initiatorType": "fetch",
+    "name": "http://127.0.0.1:5173/api/dataset/status",
+    "startTime": 4960049.3000000715,
+    "transferSize": 5783
+  },
+  {
+    "duration": 650.3999999761581,
+    "initiatorType": "fetch",
+    "name": "http://127.0.0.1:5173/api/dataset/status",
+    "startTime": 4970612.700000048,
+    "transferSize": 5783
+  },
+  {
+    "duration": 9.600000023841858,
+    "initiatorType": "script",
+    "name": "http://127.0.0.1:5173/src/components/voucher-dashboard.tsx?t=1791798169632",
+    "startTime": 4972230,
+    "transferSize": 26128
+  },
+  {
+    "duration": 15.600000023841858,
+    "initiatorType": "script",
+    "name": "http://127.0.0.1:5173/src/components/financial-comparison.tsx",
+    "startTime": 4972304.700000048,
+    "transferSize": 300
+  },
+  {
+    "duration": 67.10000002384186,
+    "initiatorType": "script",
+    "name": "http://127.0.0.1:5173/src/components/voucher-charts.tsx?t=1791798169632",
+    "startTime": 4972304.899999976,
+    "transferSize": 300
+  },
+  {
+    "duration": 516.8000000715256,
+    "initiatorType": "script",
+    "name": "http://127.0.0.1:5173/src/components/chart-viewport.tsx",
+    "startTime": 4972376.899999976,
+    "transferSize": 300
+  },
+  {
+    "duration": 519.5,
+    "initiatorType": "script",
+    "name": "http://127.0.0.1:5173/src/components/ui/chart.tsx",
+    "startTime": 4972377.3000000715,
+    "transferSize": 300
+  },
+  {
+    "duration": 587.8999999761581,
+    "initiatorType": "script",
+    "name": "http://127.0.0.1:5173/node_modules/.vite/deps/recharts.js?v=abcd8080",
+    "startTime": 4972377.100000024,
+    "transferSize": 0
+  },
+  {
+    "duration": 7239.600000023842,
+    "initiatorType": "fetch",
+    "name": "http://127.0.0.1:5173/api/voucher-experiment/prepare",
+    "startTime": 4972806.200000048,
+    "transferSize": 412770
+  },
+  {
+    "duration": 671.1999999284744,
+    "initiatorType": "fetch",
+    "name": "http://127.0.0.1:5173/api/dataset/status",
+    "startTime": 4981272.8000000715,
+    "transferSize": 5783
+  },
+  {
+    "duration": 588,
+    "initiatorType": "fetch",
+    "name": "http://127.0.0.1:5173/api/dataset/status",
+    "startTime": 4991949.3000000715,
+    "transferSize": 5783
+  },
+  {
+    "duration": 623.1000000238419,
+    "initiatorType": "fetch",
+    "name": "http://127.0.0.1:5173/api/dataset/status",
+    "startTime": 5002552.700000048,
+    "transferSize": 5783
+  },
+  {
+    "duration": 563.6000000238419,
+    "initiatorType": "fetch",
+    "name": "http://127.0.0.1:5173/api/dataset/status",
+    "startTime": 5013191.100000024,
+    "transferSize": 5783
+  },
+  {
+    "duration": 572,
+    "initiatorType": "fetch",
+    "name": "http://127.0.0.1:5173/api/dataset/status",
+    "startTime": 5023770.8000000715,
+    "transferSize": 5783
+  },
+  {
+    "duration": 606.5,
+    "initiatorType": "fetch",
+    "name": "http://127.0.0.1:5173/api/dataset/status",
+    "startTime": 5034355,
+    "transferSize": 5783
+  },
+  {
+    "duration": 635.3999999761581,
+    "initiatorType": "fetch",
+    "name": "http://127.0.0.1:5173/api/dataset/status",
+    "startTime": 5044977.5,
+    "transferSize": 5783
+  },
+  {
+    "duration": 572.6000000238419,
+    "initiatorType": "fetch",
+    "name": "http://127.0.0.1:5173/api/dataset/status",
+    "startTime": 5055622.399999976,
+    "transferSize": 5783
+  },
+  {
+    "duration": 570,
+    "initiatorType": "fetch",
+    "name": "http://127.0.0.1:5173/api/dataset/status",
+    "startTime": 5066198.700000048,
+    "transferSize": 5783
+  },
+  {
+    "duration": 613.2999999523163,
+    "initiatorType": "fetch",
+    "name": "http://127.0.0.1:5173/api/dataset/status",
+    "startTime": 5076781.600000024,
+    "transferSize": 5783
+  },
+  {
+    "duration": 614.7999999523163,
+    "initiatorType": "fetch",
+    "name": "http://127.0.0.1:5173/api/dataset/status",
+    "startTime": 5087398.100000024,
+    "transferSize": 5783
+  },
+  {
+    "duration": 567.3000000715256,
+    "initiatorType": "fetch",
+    "name": "http://127.0.0.1:5173/api/dataset/status",
+    "startTime": 5098025.5,
+    "transferSize": 5783
+  },
+  {
+    "duration": 687.1000000238419,
+    "initiatorType": "fetch",
+    "name": "http://127.0.0.1:5173/api/dataset/status",
+    "startTime": 5108608.5,
+    "transferSize": 5783
+  },
+  {
+    "duration": 669.5,
+    "initiatorType": "fetch",
+    "name": "http://127.0.0.1:5173/api/dataset/status",
+    "startTime": 5119307.600000024,
+    "transferSize": 5783
+  },
+  {
+    "duration": 532.2000000476837,
+    "initiatorType": "fetch",
+    "name": "http://127.0.0.1:5173/api/dataset/status",
+    "startTime": 5129987.899999976,
+    "transferSize": 5783
+  },
+  {
+    "duration": 576.8999999761581,
+    "initiatorType": "fetch",
+    "name": "http://127.0.0.1:5173/api/dataset/status",
+    "startTime": 5140538.3000000715,
+    "transferSize": 5783
+  },
+  {
+    "duration": 588.1000000238419,
+    "initiatorType": "fetch",
+    "name": "http://127.0.0.1:5173/api/dataset/status",
+    "startTime": 5151121,
+    "transferSize": 5783
+  },
+  {
+    "duration": 763.6000000238419,
+    "initiatorType": "fetch",
+    "name": "http://127.0.0.1:5173/api/dataset/status",
+    "startTime": 5161720.600000024,
+    "transferSize": 5783
+  },
+  {
+    "duration": 548.8999999761581,
+    "initiatorType": "fetch",
+    "name": "http://127.0.0.1:5173/api/dataset/status",
+    "startTime": 5172496.200000048,
+    "transferSize": 5783
+  },
+  {
+    "duration": 780.0999999046326,
+    "initiatorType": "fetch",
+    "name": "http://127.0.0.1:5173/api/dataset/status",
+    "startTime": 5183117.8000000715,
+    "transferSize": 5783
+  },
+  {
+    "duration": 0,
+    "initiatorType": "css",
+    "name": "http://127.0.0.1:5173/node_modules/@fontsource-variable/geist/files/geist-vietnamese-wght-normal.woff2",
+    "startTime": 5186579.3000000715,
+    "transferSize": 300
+  },
+  {
+    "duration": 0,
+    "initiatorType": "css",
+    "name": "http://127.0.0.1:5173/node_modules/@fontsource-variable/geist/files/geist-latin-wght-normal.woff2",
+    "startTime": 5186579.399999976,
+    "transferSize": 300
+  },
+  {
+    "duration": 248.10000002384183,
+    "initiatorType": "fetch",
+    "name": "http://127.0.0.1:5173/api/dataset/status",
+    "startTime": 5194095.899999976,
+    "transferSize": 5783
+  },
+  {
+    "duration": 598.8999999761581,
+    "initiatorType": "fetch",
+    "name": "http://127.0.0.1:5173/api/dataset/status",
+    "startTime": 5204350.3000000715,
+    "transferSize": 5783
+  },
+  {
+    "duration": 6756.899999976158,
+    "initiatorType": "fetch",
+    "name": "http://127.0.0.1:5173/api/voucher-experiment/prepare",
+    "startTime": 5208189.5,
+    "transferSize": 362862
+  },
+  {
+    "duration": 781.3999999761581,
+    "initiatorType": "fetch",
+    "name": "http://127.0.0.1:5173/api/dataset/status",
+    "startTime": 5215123.3000000715,
+    "transferSize": 5783
+  },
+  {
+    "duration": 637.1999999284744,
+    "initiatorType": "fetch",
+    "name": "http://127.0.0.1:5173/api/dataset/status",
+    "startTime": 5225909.8000000715,
+    "transferSize": 5783
+  },
+  {
+    "duration": 49.79999995231629,
+    "initiatorType": "script",
+    "name": "http://127.0.0.1:5173/src/components/voucher-analytics.tsx?t=1791798169632",
+    "startTime": 5236662.600000024,
+    "transferSize": 300
+  },
+  {
+    "duration": 791.8999999761581,
+    "initiatorType": "fetch",
+    "name": "http://127.0.0.1:5173/api/dataset/status",
+    "startTime": 5236754.700000048,
+    "transferSize": 5783
+  },
+  {
+    "duration": 759.7999999523163,
+    "initiatorType": "fetch",
+    "name": "http://127.0.0.1:5173/api/dataset/status",
+    "startTime": 5248302.600000024,
+    "transferSize": 5783
+  },
+  {
+    "duration": 785.3999999761581,
+    "initiatorType": "fetch",
+    "name": "http://127.0.0.1:5173/api/dataset/status",
+    "startTime": 5259394.8000000715,
+    "transferSize": 5783
+  },
+  {
+    "duration": 766.8000000715256,
+    "initiatorType": "fetch",
+    "name": "http://127.0.0.1:5173/api/dataset/status",
+    "startTime": 5270197.899999976,
+    "transferSize": 5783
+  },
+  {
+    "duration": 698.7999999523163,
+    "initiatorType": "fetch",
+    "name": "http://127.0.0.1:5173/api/dataset/status",
+    "startTime": 5280967.700000048,
+    "transferSize": 5783
+  },
+  {
+    "duration": 1790.2999999523165,
+    "initiatorType": "fetch",
+    "name": "http://127.0.0.1:5173/api/dataset/status",
+    "startTime": 5292041.3000000715,
+    "transferSize": 5783
+  },
+  {
+    "duration": 7067.100000023842,
+    "initiatorType": "fetch",
+    "name": "http://127.0.0.1:5173/api/voucher-experiment/prepare",
+    "startTime": 5292833,
+    "transferSize": 386423
+  },
+  {
+    "duration": 683.1999999284744,
+    "initiatorType": "fetch",
+    "name": "http://127.0.0.1:5173/api/dataset/status",
+    "startTime": 5303841.200000048,
+    "transferSize": 5783
+  },
+  {
+    "duration": 697,
+    "initiatorType": "fetch",
+    "name": "http://127.0.0.1:5173/api/dataset/status",
+    "startTime": 5314538.600000024,
+    "transferSize": 5783
+  },
+  {
+    "duration": 769.5,
+    "initiatorType": "fetch",
+    "name": "http://127.0.0.1:5173/api/dataset/status",
+    "startTime": 5325250.3000000715,
+    "transferSize": 5783
+  },
+  {
+    "duration": 755.2000000476837,
+    "initiatorType": "fetch",
+    "name": "http://127.0.0.1:5173/api/dataset/status",
+    "startTime": 5336143.5,
+    "transferSize": 5783
+  },
+  {
+    "duration": 1516.600000023842,
+    "initiatorType": "fetch",
+    "name": "http://127.0.0.1:5173/api/dataset/status",
+    "startTime": 5346901.600000024,
+    "transferSize": 5783
+  },
+  {
+    "duration": 9864.800000071526,
+    "initiatorType": "fetch",
+    "name": "http://127.0.0.1:5173/api/voucher-experiment/prepare",
+    "startTime": 5347023.399999976,
+    "transferSize": 412774
+  },
+  {
+    "duration": 774,
+    "initiatorType": "fetch",
+    "name": "http://127.0.0.1:5173/api/dataset/status",
+    "startTime": 5358424.399999976,
+    "transferSize": 5783
+  },
+  {
+    "duration": 737.0999999046326,
+    "initiatorType": "fetch",
+    "name": "http://127.0.0.1:5173/api/dataset/status",
+    "startTime": 5369202.8000000715,
+    "transferSize": 5783
+  },
+  {
+    "duration": 767.8999999761581,
+    "initiatorType": "fetch",
+    "name": "http://127.0.0.1:5173/api/dataset/status",
+    "startTime": 5379950.100000024,
+    "transferSize": 5783
+  },
+  {
+    "duration": 871.5,
+    "initiatorType": "fetch",
+    "name": "http://127.0.0.1:5173/api/dataset/status",
+    "startTime": 5390733.200000048,
+    "transferSize": 5783
+  },
+  {
+    "duration": 752.7999999523163,
+    "initiatorType": "fetch",
+    "name": "http://127.0.0.1:5173/api/dataset/status",
+    "startTime": 5401610.100000024,
+    "transferSize": 5783
+  },
+  {
+    "duration": 694.8000000715256,
+    "initiatorType": "fetch",
+    "name": "http://127.0.0.1:5173/api/dataset/status",
+    "startTime": 5412371.899999976,
+    "transferSize": 5783
+  },
+  {
+    "duration": 233.29999995231628,
+    "initiatorType": "fetch",
+    "name": "http://127.0.0.1:5173/api/dataset/status",
+    "startTime": 5423086.100000024,
+    "transferSize": 5783
+  },
+  {
+    "duration": 237.89999997615817,
+    "initiatorType": "fetch",
+    "name": "http://127.0.0.1:5173/api/dataset/status",
+    "startTime": 5433329.5,
+    "transferSize": 5783
+  },
+  {
+    "duration": 297,
+    "initiatorType": "fetch",
+    "name": "http://127.0.0.1:5173/api/dataset/status",
+    "startTime": 5443569.8000000715,
+    "transferSize": 5783
+  },
+  {
+    "duration": 428.40000009536743,
+    "initiatorType": "fetch",
+    "name": "http://127.0.0.1:5173/api/dataset/status",
+    "startTime": 5453882.399999976,
+    "transferSize": 5783
+  },
+  {
+    "duration": 249.10000002384183,
+    "initiatorType": "fetch",
+    "name": "http://127.0.0.1:5173/api/dataset/status",
+    "startTime": 5464326.600000024,
+    "transferSize": 5783
+  },
+  {
+    "duration": 812.3999999761581,
+    "initiatorType": "fetch",
+    "name": "http://127.0.0.1:5173/api/dataset/status",
+    "startTime": 5474588.3000000715,
+    "transferSize": 5783
+  },
+  {
+    "duration": 757.6000000238419,
+    "initiatorType": "fetch",
+    "name": "http://127.0.0.1:5173/api/dataset/status",
+    "startTime": 5485407.5,
+    "transferSize": 5783
+  },
+  {
+    "duration": 772.7000000476837,
+    "initiatorType": "fetch",
+    "name": "http://127.0.0.1:5173/api/dataset/status",
+    "startTime": 5496175.600000024,
+    "transferSize": 5783
+  },
+  {
+    "duration": 740.7000000476837,
+    "initiatorType": "fetch",
+    "name": "http://127.0.0.1:5173/api/dataset/status",
+    "startTime": 5506956.5,
+    "transferSize": 5783
+  },
+  {
+    "duration": 689.0999999046326,
+    "initiatorType": "fetch",
+    "name": "http://127.0.0.1:5173/api/dataset/status",
+    "startTime": 5517700.3000000715,
+    "transferSize": 5783
+  },
+  {
+    "duration": 776.1000000238419,
+    "initiatorType": "fetch",
+    "name": "http://127.0.0.1:5173/api/dataset/status",
+    "startTime": 5528399.600000024,
+    "transferSize": 5783
+  },
+  {
+    "duration": 730.3000000715256,
+    "initiatorType": "fetch",
+    "name": "http://127.0.0.1:5173/api/dataset/status",
+    "startTime": 5539182.5,
+    "transferSize": 5783
+  },
+  {
+    "duration": 836.2000000476837,
+    "initiatorType": "fetch",
+    "name": "http://127.0.0.1:5173/api/dataset/status",
+    "startTime": 5549916.5,
+    "transferSize": 5783
+  },
+  {
+    "duration": 662.6000000238419,
+    "initiatorType": "fetch",
+    "name": "http://127.0.0.1:5173/api/dataset/status",
+    "startTime": 5560762.100000024,
+    "transferSize": 5783
+  },
+  {
+    "duration": 613.2999999523163,
+    "initiatorType": "fetch",
+    "name": "http://127.0.0.1:5173/api/dataset/status",
+    "startTime": 5571436.3000000715,
+    "transferSize": 5783
+  },
+  {
+    "duration": 689.3999999761581,
+    "initiatorType": "fetch",
+    "name": "http://127.0.0.1:5173/api/dataset/status",
+    "startTime": 5582059.700000048,
+    "transferSize": 5783
+  },
+  {
+    "duration": 651.1000000238419,
+    "initiatorType": "fetch",
+    "name": "http://127.0.0.1:5173/api/dataset/status",
+    "startTime": 5592755.399999976,
+    "transferSize": 5783
+  },
+  {
+    "duration": 751.2999999523163,
+    "initiatorType": "fetch",
+    "name": "http://127.0.0.1:5173/api/dataset/status",
+    "startTime": 5603414.100000024,
+    "transferSize": 5783
+  },
+  {
+    "duration": 770.6000000238419,
+    "initiatorType": "fetch",
+    "name": "http://127.0.0.1:5173/api/dataset/status",
+    "startTime": 5614171.200000048,
+    "transferSize": 5783
+  },
+  {
+    "duration": 765.5,
+    "initiatorType": "fetch",
+    "name": "http://127.0.0.1:5173/api/dataset/status",
+    "startTime": 5624953.3000000715,
+    "transferSize": 5783
+  },
+  {
+    "duration": 778.5,
+    "initiatorType": "fetch",
+    "name": "http://127.0.0.1:5173/api/dataset/status",
+    "startTime": 5635729.200000048,
+    "transferSize": 5783
+  },
+  {
+    "duration": 835.1000000238419,
+    "initiatorType": "fetch",
+    "name": "http://127.0.0.1:5173/api/dataset/status",
+    "startTime": 5646517.399999976,
+    "transferSize": 5783
+  },
+  {
+    "duration": 734.6999999284744,
+    "initiatorType": "fetch",
+    "name": "http://127.0.0.1:5173/api/dataset/status",
+    "startTime": 5657363.3000000715,
+    "transferSize": 5783
+  },
+  {
+    "duration": 754.5,
+    "initiatorType": "fetch",
+    "name": "http://127.0.0.1:5173/api/dataset/status",
+    "startTime": 5668114.399999976,
+    "transferSize": 5783
+  },
+  {
+    "duration": 756.7000000476837,
+    "initiatorType": "fetch",
+    "name": "http://127.0.0.1:5173/api/dataset/status",
+    "startTime": 5678883,
+    "transferSize": 5783
+  },
+  {
+    "duration": 815.0999999046326,
+    "initiatorType": "fetch",
+    "name": "http://127.0.0.1:5173/api/dataset/status",
+    "startTime": 5689655.3000000715,
+    "transferSize": 5783
+  },
+  {
+    "duration": 753.7999999523163,
+    "initiatorType": "fetch",
+    "name": "http://127.0.0.1:5173/api/dataset/status",
+    "startTime": 5700476.8000000715,
+    "transferSize": 5783
+  },
+  {
+    "duration": 860.5,
+    "initiatorType": "fetch",
+    "name": "http://127.0.0.1:5173/api/dataset/status",
+    "startTime": 5711233.700000048,
+    "transferSize": 5783
+  },
+  {
+    "duration": 853.5,
+    "initiatorType": "fetch",
+    "name": "http://127.0.0.1:5173/api/dataset/status",
+    "startTime": 5722111.200000048,
+    "transferSize": 5783
+  },
+  {
+    "duration": 714,
+    "initiatorType": "fetch",
+    "name": "http://127.0.0.1:5173/api/dataset/status",
+    "startTime": 5732976.700000048,
+    "transferSize": 5783
+  },
+  {
+    "duration": 239.10000002384183,
+    "initiatorType": "fetch",
+    "name": "http://127.0.0.1:5173/api/dataset/status",
+    "startTime": 5743699.5,
+    "transferSize": 5783
+  },
+  {
+    "duration": 2892.600000023842,
+    "initiatorType": "fetch",
+    "name": "http://127.0.0.1:5173/api/dataset/status",
+    "startTime": 5754051.5,
+    "transferSize": 5783
+  },
+  {
+    "duration": 1454.5,
+    "initiatorType": "fetch",
+    "name": "http://127.0.0.1:5173/api/dataset/status",
+    "startTime": 5766949,
+    "transferSize": 5783
+  },
+  {
+    "duration": 263,
+    "initiatorType": "fetch",
+    "name": "http://127.0.0.1:5173/api/dataset/status",
+    "startTime": 5778414.3000000715,
+    "transferSize": 5783
+  },
+  {
+    "duration": 248.39999997615817,
+    "initiatorType": "fetch",
+    "name": "http://127.0.0.1:5173/api/dataset/status",
+    "startTime": 5788684.5,
+    "transferSize": 5783
+  },
+  {
+    "duration": 276.60000002384186,
+    "initiatorType": "fetch",
+    "name": "http://127.0.0.1:5173/api/dataset/status",
+    "startTime": 5798943.600000024,
+    "transferSize": 5783
+  },
+  {
+    "duration": 254,
+    "initiatorType": "fetch",
+    "name": "http://127.0.0.1:5173/api/dataset/status",
+    "startTime": 5809228.200000048,
+    "transferSize": 5783
+  },
+  {
+    "duration": 246.89999997615817,
+    "initiatorType": "fetch",
+    "name": "http://127.0.0.1:5173/api/dataset/status",
+    "startTime": 5819489.600000024,
+    "transferSize": 5783
+  },
+  {
+    "duration": 252.10000002384183,
+    "initiatorType": "fetch",
+    "name": "http://127.0.0.1:5173/api/dataset/status",
+    "startTime": 5829747.899999976,
+    "transferSize": 5783
+  },
+  {
+    "duration": 267.39999997615814,
+    "initiatorType": "fetch",
+    "name": "http://127.0.0.1:5173/api/dataset/status",
+    "startTime": 5840003.3000000715,
+    "transferSize": 5783
+  },
+  {
+    "duration": 247.29999995231628,
+    "initiatorType": "fetch",
+    "name": "http://127.0.0.1:5173/api/dataset/status",
+    "startTime": 5850274.8000000715,
+    "transferSize": 5783
+  },
+  {
+    "duration": 243.89999997615817,
+    "initiatorType": "fetch",
+    "name": "http://127.0.0.1:5173/api/dataset/status",
+    "startTime": 5860526.700000048,
+    "transferSize": 5783
+  },
+  {
+    "duration": 247.09999990463257,
+    "initiatorType": "fetch",
+    "name": "http://127.0.0.1:5173/api/dataset/status",
+    "startTime": 5870778.8000000715,
+    "transferSize": 5783
+  },
+  {
+    "duration": 240.79999995231628,
+    "initiatorType": "fetch",
+    "name": "http://127.0.0.1:5173/api/dataset/status",
+    "startTime": 5881033.8000000715,
+    "transferSize": 5783
+  },
+  {
+    "duration": 237.69999992847443,
+    "initiatorType": "fetch",
+    "name": "http://127.0.0.1:5173/api/dataset/status",
+    "startTime": 5891290.700000048,
+    "transferSize": 5783
+  },
+  {
+    "duration": 245.39999997615817,
+    "initiatorType": "fetch",
+    "name": "http://127.0.0.1:5173/api/dataset/status",
+    "startTime": 5901531.100000024,
+    "transferSize": 5783
+  },
+  {
+    "duration": 244.89999997615817,
+    "initiatorType": "fetch",
+    "name": "http://127.0.0.1:5173/api/dataset/status",
+    "startTime": 5911793.8000000715,
+    "transferSize": 5783
+  },
+  {
+    "duration": 243.89999997615817,
+    "initiatorType": "fetch",
+    "name": "http://127.0.0.1:5173/api/dataset/status",
+    "startTime": 5922049.3000000715,
+    "transferSize": 5783
+  },
+  {
+    "duration": 289.7000000476837,
+    "initiatorType": "fetch",
+    "name": "http://127.0.0.1:5173/api/dataset/status",
+    "startTime": 5932304.399999976,
+    "transferSize": 5783
+  },
+  {
+    "duration": 243.19999992847443,
+    "initiatorType": "fetch",
+    "name": "http://127.0.0.1:5173/api/dataset/status",
+    "startTime": 5942604.8000000715,
+    "transferSize": 5783
+  },
+  {
+    "duration": 245.39999997615817,
+    "initiatorType": "fetch",
+    "name": "http://127.0.0.1:5173/api/dataset/status",
+    "startTime": 5952864.5,
+    "transferSize": 5783
+  }
+]

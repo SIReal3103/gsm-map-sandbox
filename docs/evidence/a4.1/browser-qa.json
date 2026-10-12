@@ -1,0 +1,4723 @@
+[
+  {
+    "name": "desktop-1440-17-to-32",
+    "analytics": {
+      "bottom": 838.7000122070312,
+      "height": 766.7000122070312,
+      "left": 1016.0125122070312,
+      "right": 1440.000030517578,
+      "top": 72,
+      "width": 423.9875183105469,
+      "x": 1016.0125122070312,
+      "y": 72
+    },
+    "analyticsScroll": 0,
+    "canvas": {
+      "bottom": 808.8000030517578,
+      "height": 670,
+      "left": 466.8000183105469,
+      "right": 1002.8000183105468,
+      "top": 138.8000030517578,
+      "width": 536,
+      "x": 466.8000183105469,
+      "y": 138.8000030517578
+    },
+    "canvasSize": {
+      "height": 670,
+      "width": 536
+    },
+    "canvases": 1,
+    "clock": {
+      "clockMetrics": "{\"frameSamples\":0,\"meanFrameMilliseconds\":0,\"maxFrameMilliseconds\":0}",
+      "experimentArm": "treatment",
+      "experimentClock": "paused",
+      "experimentTime": "500"
+    },
+    "dashboard": {
+      "experimentDelta": "{\"bookingUplift\":3,\"incrementalCompleted\":1,\"costPerIncrementalCompletionVnd\":40000}",
+      "experimentMetrics": "{\"baseline\":{\"validPotential\":10,\"invalidPotential\":0,\"accepted\":4,\"assigned\":4,\"pickedUp\":3,\"completed\":1,\"unserved\":0,\"conversionRate\":0.4,\"completionRate\":0.25,\"averageWaitSeconds\":78.10000000000001,\"averagePickupEtaSeconds\":86.30000000000001,\"averageTripSeconds\":191.6,\"emptyMeters\":3440.557619477007,\"occupiedMeters\":5519.347505288,\"utilization\":0.33501319999999996,\"grossFareVnd\":35764,\"voucherSpendVnd\":0,\"riderPaymentsVnd\":35764,\"budget\":{\"total\":0,\"reserved\":0,\"spent\":0,\"available\":0},\"voucherCounts\":{\"OFFERED\":0,\"RESERVED\":0,\"SETTLED\":0,\"RELEASED\":0}},\"treatment\":{\"validPotential\":10,\"invalidPotential\":0,\"accepted\":7,\"assigned\":7,\"pickedUp\":5,\"completed\":2,\"unserved\":0,\"conversionRate\":0.7,\"completionRate\":0.2857142857142857,\"averageWaitSeconds\":118.06000000000002,\"averagePickupEtaSeconds\":143.17142857142855,\"averageTripSeconds\":193.5,\"emptyMeters\":10172.236122486134,\"occupiedMeters\":10955.246479739944,\"utilization\":0.7366228,\"grossFareVnd\":74610,\"voucherSpendVnd\":40000,\"riderPaymentsVnd\":34610,\"budget\":{\"total\":200000,\"reserved\":100000,\"spent\":40000,\"available\":60000},\"voucherCounts\":{\"OFFERED\":10,\"RESERVED\":7,\"SETTLED\":2,\"RELEASED\":0}}}",
+      "kpiScope": "observed",
+      "kpiTime": "500"
+    },
+    "dock": {
+      "bottom": 900.0000114440918,
+      "height": 61.29999923706055,
+      "left": 0,
+      "right": 1440,
+      "top": 838.7000122070312,
+      "width": 1440,
+      "x": 0,
+      "y": 838.7000122070312
+    },
+    "dockData": {
+      "dockDuration": "2115.1910000000003",
+      "dockSpeed": "32",
+      "dockState": "paused",
+      "dockTime": "500"
+    },
+    "document": {
+      "height": 900,
+      "width": 1440
+    },
+    "inspectorScroll": 0,
+    "map": {
+      "bottom": 838.7000122070312,
+      "height": 766.7000122070312,
+      "left": 454,
+      "right": 1016.0125122070312,
+      "top": 72,
+      "width": 562.0125122070312,
+      "x": 454,
+      "y": 72
+    },
+    "mapId": "19f3cfec-87db-4f6d-bdd7-00d116294429",
+    "table": "Financial & Operational ComparisonSimulated MetricBaselineTreatmentDifferenceGross Fare Value35.764 ₫74.610 ₫+38.846 ₫Rider Payments35.764 ₫34.610 ₫−1.154 ₫Voucher Spend0 ₫40.000 ₫+40.000 ₫Completed Trips12+1Difference = Treatment − Baseline · GFV = rider payments + settled voucher · simulated metrics",
+    "vehicles": [
+      {
+        "coordinate": "[106.69548453027771,10.78214517939729]",
+        "dispatchVehicle": "GSM-01",
+        "progress": "0.41287366959740845",
+        "status": "on_trip"
+      },
+      {
+        "coordinate": "[106.71679816310198,10.775294818735977]",
+        "dispatchVehicle": "GSM-02",
+        "progress": "0.7119082489769546",
+        "status": "on_trip"
+      },
+      {
+        "coordinate": "[106.70197873668467,10.764800810652272]",
+        "dispatchVehicle": "GSM-03",
+        "progress": "0.6324667847652788",
+        "status": "on_trip"
+      },
+      {
+        "coordinate": "[106.7010193403001,10.77127645534403]",
+        "dispatchVehicle": "GSM-04",
+        "progress": "0.611931119311193",
+        "status": "en_route_to_pickup"
+      },
+      {
+        "coordinate": "[106.69094603175031,10.76302275785672]",
+        "dispatchVehicle": "GSM-05",
+        "progress": "0.8110108303249097",
+        "status": "en_route_to_pickup"
+      }
+    ],
+    "viewport": {
+      "height": 900,
+      "width": 1440
+    }
+  },
+  {
+    "name": "desktop-collapsed-inspector-hidden",
+    "analytics": {
+      "bottom": 838.7000122070312,
+      "height": 766.7000122070312,
+      "left": 846.6000366210938,
+      "right": 1440.0000610351562,
+      "top": 72,
+      "width": 593.4000244140625,
+      "x": 846.6000366210938,
+      "y": 72
+    },
+    "analyticsScroll": 0,
+    "canvas": {
+      "bottom": 808.8000030517578,
+      "height": 670,
+      "left": 72.80000305175781,
+      "right": 833.8000030517578,
+      "top": 138.8000030517578,
+      "width": 761,
+      "x": 72.80000305175781,
+      "y": 138.8000030517578
+    },
+    "canvasSize": {
+      "height": 670,
+      "width": 761
+    },
+    "canvases": 1,
+    "clock": {
+      "clockMetrics": "{\"frameSamples\":0,\"meanFrameMilliseconds\":0,\"maxFrameMilliseconds\":0}",
+      "experimentArm": "treatment",
+      "experimentClock": "paused",
+      "experimentTime": "500"
+    },
+    "dashboard": {
+      "experimentDelta": "{\"bookingUplift\":3,\"incrementalCompleted\":1,\"costPerIncrementalCompletionVnd\":40000}",
+      "experimentMetrics": "{\"baseline\":{\"validPotential\":10,\"invalidPotential\":0,\"accepted\":4,\"assigned\":4,\"pickedUp\":3,\"completed\":1,\"unserved\":0,\"conversionRate\":0.4,\"completionRate\":0.25,\"averageWaitSeconds\":78.10000000000001,\"averagePickupEtaSeconds\":86.30000000000001,\"averageTripSeconds\":191.6,\"emptyMeters\":3440.557619477007,\"occupiedMeters\":5519.347505288,\"utilization\":0.33501319999999996,\"grossFareVnd\":35764,\"voucherSpendVnd\":0,\"riderPaymentsVnd\":35764,\"budget\":{\"total\":0,\"reserved\":0,\"spent\":0,\"available\":0},\"voucherCounts\":{\"OFFERED\":0,\"RESERVED\":0,\"SETTLED\":0,\"RELEASED\":0}},\"treatment\":{\"validPotential\":10,\"invalidPotential\":0,\"accepted\":7,\"assigned\":7,\"pickedUp\":5,\"completed\":2,\"unserved\":0,\"conversionRate\":0.7,\"completionRate\":0.2857142857142857,\"averageWaitSeconds\":118.06000000000002,\"averagePickupEtaSeconds\":143.17142857142855,\"averageTripSeconds\":193.5,\"emptyMeters\":10172.236122486134,\"occupiedMeters\":10955.246479739944,\"utilization\":0.7366228,\"grossFareVnd\":74610,\"voucherSpendVnd\":40000,\"riderPaymentsVnd\":34610,\"budget\":{\"total\":200000,\"reserved\":100000,\"spent\":40000,\"available\":60000},\"voucherCounts\":{\"OFFERED\":10,\"RESERVED\":7,\"SETTLED\":2,\"RELEASED\":0}}}",
+      "kpiScope": "observed",
+      "kpiTime": "500"
+    },
+    "dock": {
+      "bottom": 900.0000114440918,
+      "height": 61.29999923706055,
+      "left": 0,
+      "right": 1440,
+      "top": 838.7000122070312,
+      "width": 1440,
+      "x": 0,
+      "y": 838.7000122070312
+    },
+    "dockData": {
+      "dockDuration": "2115.1910000000003",
+      "dockSpeed": "32",
+      "dockState": "paused",
+      "dockTime": "500"
+    },
+    "document": {
+      "height": 900,
+      "width": 1440
+    },
+    "inspectorScroll": 0,
+    "map": {
+      "bottom": 838.7000122070312,
+      "height": 766.7000122070312,
+      "left": 60,
+      "right": 846.6000366210938,
+      "top": 72,
+      "width": 786.6000366210938,
+      "x": 60,
+      "y": 72
+    },
+    "mapId": "19f3cfec-87db-4f6d-bdd7-00d116294429",
+    "table": "Financial & Operational ComparisonSimulated MetricBaselineTreatmentDifferenceGross Fare Value35.764 ₫74.610 ₫+38.846 ₫Rider Payments35.764 ₫34.610 ₫−1.154 ₫Voucher Spend0 ₫40.000 ₫+40.000 ₫Completed Trips12+1Difference = Treatment − Baseline · GFV = rider payments + settled voucher · simulated metrics",
+    "vehicles": [
+      {
+        "coordinate": "[106.69548453027771,10.78214517939729]",
+        "dispatchVehicle": "GSM-01",
+        "progress": "0.41287366959740845",
+        "status": "on_trip"
+      },
+      {
+        "coordinate": "[106.71679816310198,10.775294818735977]",
+        "dispatchVehicle": "GSM-02",
+        "progress": "0.7119082489769546",
+        "status": "on_trip"
+      },
+      {
+        "coordinate": "[106.70197873668467,10.764800810652272]",
+        "dispatchVehicle": "GSM-03",
+        "progress": "0.6324667847652788",
+        "status": "on_trip"
+      },
+      {
+        "coordinate": "[106.7010193403001,10.77127645534403]",
+        "dispatchVehicle": "GSM-04",
+        "progress": "0.611931119311193",
+        "status": "en_route_to_pickup"
+      },
+      {
+        "coordinate": "[106.69094603175031,10.76302275785672]",
+        "dispatchVehicle": "GSM-05",
+        "progress": "0.8110108303249097",
+        "status": "en_route_to_pickup"
+      }
+    ],
+    "viewport": {
+      "height": 900,
+      "width": 1440
+    }
+  },
+  {
+    "name": "desktop-navigation-hidden",
+    "analytics": {
+      "bottom": 838.7000122070312,
+      "height": 766.7000122070312,
+      "left": 820.7999877929688,
+      "right": 1440,
+      "top": 72,
+      "width": 619.2000122070312,
+      "x": 820.7999877929688,
+      "y": 72
+    },
+    "analyticsScroll": 0,
+    "canvas": {
+      "bottom": 808.8000030517578,
+      "height": 670,
+      "left": 12.800000190734863,
+      "right": 807.8000001907349,
+      "top": 138.8000030517578,
+      "width": 795,
+      "x": 12.800000190734863,
+      "y": 138.8000030517578
+    },
+    "canvasSize": {
+      "height": 670,
+      "width": 795
+    },
+    "canvases": 1,
+    "clock": {
+      "clockMetrics": "{\"frameSamples\":0,\"meanFrameMilliseconds\":0,\"maxFrameMilliseconds\":0}",
+      "experimentArm": "treatment",
+      "experimentClock": "paused",
+      "experimentTime": "500"
+    },
+    "dashboard": {
+      "experimentDelta": "{\"bookingUplift\":3,\"incrementalCompleted\":1,\"costPerIncrementalCompletionVnd\":40000}",
+      "experimentMetrics": "{\"baseline\":{\"validPotential\":10,\"invalidPotential\":0,\"accepted\":4,\"assigned\":4,\"pickedUp\":3,\"completed\":1,\"unserved\":0,\"conversionRate\":0.4,\"completionRate\":0.25,\"averageWaitSeconds\":78.10000000000001,\"averagePickupEtaSeconds\":86.30000000000001,\"averageTripSeconds\":191.6,\"emptyMeters\":3440.557619477007,\"occupiedMeters\":5519.347505288,\"utilization\":0.33501319999999996,\"grossFareVnd\":35764,\"voucherSpendVnd\":0,\"riderPaymentsVnd\":35764,\"budget\":{\"total\":0,\"reserved\":0,\"spent\":0,\"available\":0},\"voucherCounts\":{\"OFFERED\":0,\"RESERVED\":0,\"SETTLED\":0,\"RELEASED\":0}},\"treatment\":{\"validPotential\":10,\"invalidPotential\":0,\"accepted\":7,\"assigned\":7,\"pickedUp\":5,\"completed\":2,\"unserved\":0,\"conversionRate\":0.7,\"completionRate\":0.2857142857142857,\"averageWaitSeconds\":118.06000000000002,\"averagePickupEtaSeconds\":143.17142857142855,\"averageTripSeconds\":193.5,\"emptyMeters\":10172.236122486134,\"occupiedMeters\":10955.246479739944,\"utilization\":0.7366228,\"grossFareVnd\":74610,\"voucherSpendVnd\":40000,\"riderPaymentsVnd\":34610,\"budget\":{\"total\":200000,\"reserved\":100000,\"spent\":40000,\"available\":60000},\"voucherCounts\":{\"OFFERED\":10,\"RESERVED\":7,\"SETTLED\":2,\"RELEASED\":0}}}",
+      "kpiScope": "observed",
+      "kpiTime": "500"
+    },
+    "dock": {
+      "bottom": 900.0000114440918,
+      "height": 61.29999923706055,
+      "left": 0,
+      "right": 1440,
+      "top": 838.7000122070312,
+      "width": 1440,
+      "x": 0,
+      "y": 838.7000122070312
+    },
+    "dockData": {
+      "dockDuration": "2115.1910000000003",
+      "dockSpeed": "32",
+      "dockState": "paused",
+      "dockTime": "500"
+    },
+    "document": {
+      "height": 900,
+      "width": 1440
+    },
+    "inspectorScroll": 0,
+    "map": {
+      "bottom": 838.7000122070312,
+      "height": 766.7000122070312,
+      "left": 0,
+      "right": 820.7999877929688,
+      "top": 72,
+      "width": 820.7999877929688,
+      "x": 0,
+      "y": 72
+    },
+    "mapId": "19f3cfec-87db-4f6d-bdd7-00d116294429",
+    "table": "Financial & Operational ComparisonSimulated MetricBaselineTreatmentDifferenceGross Fare Value35.764 ₫74.610 ₫+38.846 ₫Rider Payments35.764 ₫34.610 ₫−1.154 ₫Voucher Spend0 ₫40.000 ₫+40.000 ₫Completed Trips12+1Difference = Treatment − Baseline · GFV = rider payments + settled voucher · simulated metrics",
+    "vehicles": [
+      {
+        "coordinate": "[106.69548453027771,10.78214517939729]",
+        "dispatchVehicle": "GSM-01",
+        "progress": "0.41287366959740845",
+        "status": "on_trip"
+      },
+      {
+        "coordinate": "[106.71679816310198,10.775294818735977]",
+        "dispatchVehicle": "GSM-02",
+        "progress": "0.7119082489769546",
+        "status": "on_trip"
+      },
+      {
+        "coordinate": "[106.70197873668467,10.764800810652272]",
+        "dispatchVehicle": "GSM-03",
+        "progress": "0.6324667847652788",
+        "status": "on_trip"
+      },
+      {
+        "coordinate": "[106.7010193403001,10.77127645534403]",
+        "dispatchVehicle": "GSM-04",
+        "progress": "0.611931119311193",
+        "status": "en_route_to_pickup"
+      },
+      {
+        "coordinate": "[106.69094603175031,10.76302275785672]",
+        "dispatchVehicle": "GSM-05",
+        "progress": "0.8110108303249097",
+        "status": "en_route_to_pickup"
+      }
+    ],
+    "viewport": {
+      "height": 900,
+      "width": 1440
+    }
+  },
+  {
+    "name": "single-16x-playing",
+    "analytics": null,
+    "canvas": {
+      "bottom": 808.8000030517578,
+      "height": 670,
+      "left": 466.8000183105469,
+      "right": 1426.8000183105469,
+      "top": 138.8000030517578,
+      "width": 960,
+      "x": 466.8000183105469,
+      "y": 138.8000030517578
+    },
+    "canvasSize": {
+      "height": 670,
+      "width": 960
+    },
+    "canvases": 1,
+    "clock": {},
+    "dashboard": {},
+    "dock": {
+      "bottom": 900.0000114440918,
+      "height": 61.29999923706055,
+      "left": 0,
+      "right": 1440,
+      "top": 838.7000122070312,
+      "width": 1440,
+      "x": 0,
+      "y": 838.7000122070312
+    },
+    "dockData": {
+      "dockDuration": "98.9",
+      "dockSpeed": "16",
+      "dockState": "playing",
+      "dockTime": "7.464416000000201"
+    },
+    "document": {
+      "height": 900,
+      "width": 1440
+    },
+    "inspectorScroll": 0,
+    "map": {
+      "bottom": 838.7000122070312,
+      "height": 766.7000122070312,
+      "left": 454,
+      "right": 1440,
+      "top": 72,
+      "width": 986,
+      "x": 454,
+      "y": 72
+    },
+    "mapId": "e92df519-9cbd-4dda-a79e-7a9cf491d897",
+    "vehicles": [
+      {
+        "coordinate": "[106.69647711710799,10.771180286970342]",
+        "progress": "0.07547437815975935"
+      }
+    ],
+    "viewport": {
+      "height": 900,
+      "width": 1440
+    }
+  },
+  {
+    "name": "single-32x-playing",
+    "analytics": null,
+    "canvas": {
+      "bottom": 808.8000030517578,
+      "height": 670,
+      "left": 466.8000183105469,
+      "right": 1426.8000183105469,
+      "top": 138.8000030517578,
+      "width": 960,
+      "x": 466.8000183105469,
+      "y": 138.8000030517578
+    },
+    "canvasSize": {
+      "height": 670,
+      "width": 960
+    },
+    "canvases": 1,
+    "clock": {},
+    "dashboard": {},
+    "dock": {
+      "bottom": 900.0000114440918,
+      "height": 61.29999923706055,
+      "left": 0,
+      "right": 1440,
+      "top": 838.7000122070312,
+      "width": 1440,
+      "x": 0,
+      "y": 838.7000122070312
+    },
+    "dockData": {
+      "dockDuration": "98.9",
+      "dockSpeed": "32",
+      "dockState": "playing",
+      "dockTime": "38.46761599847395"
+    },
+    "document": {
+      "height": 900,
+      "width": 1440
+    },
+    "inspectorScroll": 0,
+    "map": {
+      "bottom": 838.7000122070312,
+      "height": 766.7000122070312,
+      "left": 454,
+      "right": 1440,
+      "top": 72,
+      "width": 986,
+      "x": 454,
+      "y": 72
+    },
+    "mapId": "e92df519-9cbd-4dda-a79e-7a9cf491d897",
+    "vehicles": [
+      {
+        "coordinate": "[106.69729664072091,10.771413203600746]",
+        "progress": "0.3889546612585839"
+      }
+    ],
+    "viewport": {
+      "height": 900,
+      "width": 1440
+    }
+  },
+  {
+    "name": "single-64x-playing",
+    "analytics": null,
+    "canvas": {
+      "bottom": 808.8000030517578,
+      "height": 670,
+      "left": 466.8000183105469,
+      "right": 1426.8000183105469,
+      "top": 138.8000030517578,
+      "width": 960,
+      "x": 466.8000183105469,
+      "y": 138.8000030517578
+    },
+    "canvasSize": {
+      "height": 670,
+      "width": 960
+    },
+    "canvases": 1,
+    "clock": {},
+    "dashboard": {},
+    "dock": {
+      "bottom": 900.0000114440918,
+      "height": 61.29999923706055,
+      "left": 0,
+      "right": 1440,
+      "top": 838.7000122070312,
+      "width": 1440,
+      "x": 0,
+      "y": 838.7000122070312
+    },
+    "dockData": {
+      "dockDuration": "98.9",
+      "dockSpeed": "64",
+      "dockState": "completed",
+      "dockTime": "98.9"
+    },
+    "document": {
+      "height": 900,
+      "width": 1440
+    },
+    "inspectorScroll": 0,
+    "map": {
+      "bottom": 838.7000122070312,
+      "height": 766.7000122070312,
+      "left": 454,
+      "right": 1440,
+      "top": 72,
+      "width": 986,
+      "x": 454,
+      "y": 72
+    },
+    "mapId": "e92df519-9cbd-4dda-a79e-7a9cf491d897",
+    "vehicles": [
+      {
+        "coordinate": "[106.700793,10.774335]",
+        "progress": "1"
+      }
+    ],
+    "viewport": {
+      "height": 900,
+      "width": 1440
+    }
+  },
+  {
+    "name": "single-paused-seek",
+    "analytics": null,
+    "canvas": {
+      "bottom": 808.8000030517578,
+      "height": 670,
+      "left": 466.8000183105469,
+      "right": 1426.8000183105469,
+      "top": 138.8000030517578,
+      "width": 960,
+      "x": 466.8000183105469,
+      "y": 138.8000030517578
+    },
+    "canvasSize": {
+      "height": 670,
+      "width": 960
+    },
+    "canvases": 1,
+    "clock": {},
+    "dashboard": {},
+    "dock": {
+      "bottom": 900.0000114440918,
+      "height": 61.29999923706055,
+      "left": 0,
+      "right": 1440,
+      "top": 838.7000122070312,
+      "width": 1440,
+      "x": 0,
+      "y": 838.7000122070312
+    },
+    "dockData": {
+      "dockDuration": "98.9",
+      "dockSpeed": "64",
+      "dockState": "paused",
+      "dockTime": "49.45"
+    },
+    "document": {
+      "height": 900,
+      "width": 1440
+    },
+    "inspectorScroll": 0,
+    "map": {
+      "bottom": 838.7000122070312,
+      "height": 766.7000122070312,
+      "left": 454,
+      "right": 1440,
+      "top": 72,
+      "width": 986,
+      "x": 454,
+      "y": 72
+    },
+    "mapId": "e92df519-9cbd-4dda-a79e-7a9cf491d897",
+    "vehicles": [
+      {
+        "coordinate": "[106.69826046957766,10.771440154992838]",
+        "progress": "0.5"
+      }
+    ],
+    "viewport": {
+      "height": 900,
+      "width": 1440
+    }
+  },
+  {
+    "name": "fleet-16x-playing",
+    "analytics": null,
+    "canvas": {
+      "bottom": 808.8000030517578,
+      "height": 670,
+      "left": 466.8000183105469,
+      "right": 1426.8000183105469,
+      "top": 138.8000030517578,
+      "width": 960,
+      "x": 466.8000183105469,
+      "y": 138.8000030517578
+    },
+    "canvasSize": {
+      "height": 670,
+      "width": 960
+    },
+    "canvases": 1,
+    "clock": {},
+    "dashboard": {},
+    "dock": {
+      "bottom": 900.0000114440918,
+      "height": 61.29999923706055,
+      "left": 0,
+      "right": 1440,
+      "top": 838.7000122070312,
+      "width": 1440,
+      "x": 0,
+      "y": 838.7000122070312
+    },
+    "dockData": {
+      "dockDuration": "416.1",
+      "dockSpeed": "16",
+      "dockState": "playing",
+      "dockTime": "14.12480000114441"
+    },
+    "document": {
+      "height": 900,
+      "width": 1440
+    },
+    "inspectorScroll": 0,
+    "map": {
+      "bottom": 838.7000122070312,
+      "height": 766.7000122070312,
+      "left": 454,
+      "right": 1440,
+      "top": 72,
+      "width": 986,
+      "x": 454,
+      "y": 72
+    },
+    "mapId": "e92df519-9cbd-4dda-a79e-7a9cf491d897",
+    "vehicles": [
+      {
+        "coordinate": "[106.69452015271732,10.767114120355068]",
+        "fleetVehicle": "GSM-01",
+        "progress": "0.1094097598849296",
+        "status": "moving"
+      },
+      {
+        "coordinate": "[106.714276,10.779433]",
+        "fleetVehicle": "GSM-02",
+        "progress": "0",
+        "status": "scheduled"
+      },
+      {
+        "coordinate": "[106.686326,10.767599]",
+        "fleetVehicle": "GSM-03",
+        "progress": "0",
+        "status": "scheduled"
+      },
+      {
+        "coordinate": "[106.69335786379622,10.7834871870404]",
+        "fleetVehicle": "GSM-04",
+        "progress": "0.0004399013082284437",
+        "status": "moving"
+      },
+      {
+        "coordinate": "[106.71324,10.777934]",
+        "fleetVehicle": "GSM-05",
+        "progress": "0",
+        "status": "scheduled"
+      }
+    ],
+    "viewport": {
+      "height": 900,
+      "width": 1440
+    }
+  },
+  {
+    "name": "fleet-32x-playing",
+    "analytics": null,
+    "canvas": {
+      "bottom": 808.8000030517578,
+      "height": 670,
+      "left": 466.8000183105469,
+      "right": 1426.8000183105469,
+      "top": 138.8000030517578,
+      "width": 960,
+      "x": 466.8000183105469,
+      "y": 138.8000030517578
+    },
+    "canvasSize": {
+      "height": 670,
+      "width": 960
+    },
+    "canvases": 1,
+    "clock": {},
+    "dashboard": {},
+    "dock": {
+      "bottom": 900.0000114440918,
+      "height": 61.29999923706055,
+      "left": 0,
+      "right": 1440,
+      "top": 838.7000122070312,
+      "width": 1440,
+      "x": 0,
+      "y": 838.7000122070312
+    },
+    "dockData": {
+      "dockDuration": "416.1",
+      "dockSpeed": "32",
+      "dockState": "playing",
+      "dockTime": "45.50720000114478"
+    },
+    "document": {
+      "height": 900,
+      "width": 1440
+    },
+    "inspectorScroll": 0,
+    "map": {
+      "bottom": 838.7000122070312,
+      "height": 766.7000122070312,
+      "left": 454,
+      "right": 1440,
+      "top": 72,
+      "width": 986,
+      "x": 454,
+      "y": 72
+    },
+    "mapId": "e92df519-9cbd-4dda-a79e-7a9cf491d897",
+    "vehicles": [
+      {
+        "coordinate": "[106.69258610972665,10.764901521236784]",
+        "fleetVehicle": "GSM-01",
+        "progress": "0.3524957397455057",
+        "status": "moving"
+      },
+      {
+        "coordinate": "[106.7134714964721,10.77830337509862]",
+        "fleetVehicle": "GSM-02",
+        "progress": "0.049045751638143724",
+        "status": "moving"
+      },
+      {
+        "coordinate": "[106.68543298107863,10.767960584930119]",
+        "fleetVehicle": "GSM-03",
+        "progress": "0.11072566373369884",
+        "status": "moving"
+      },
+      {
+        "coordinate": "[106.69237442393052,10.785103261379371]",
+        "fleetVehicle": "GSM-04",
+        "progress": "0.11105816003223398",
+        "status": "moving"
+      },
+      {
+        "coordinate": "[106.71186979896858,10.778656181469707]",
+        "fleetVehicle": "GSM-05",
+        "progress": "0.03516584223156673",
+        "status": "moving"
+      }
+    ],
+    "viewport": {
+      "height": 900,
+      "width": 1440
+    }
+  },
+  {
+    "name": "fleet-64x-playing",
+    "analytics": null,
+    "canvas": {
+      "bottom": 808.8000030517578,
+      "height": 670,
+      "left": 466.8000183105469,
+      "right": 1426.8000183105469,
+      "top": 138.8000030517578,
+      "width": 960,
+      "x": 466.8000183105469,
+      "y": 138.8000030517578
+    },
+    "canvasSize": {
+      "height": 670,
+      "width": 960
+    },
+    "canvases": 1,
+    "clock": {},
+    "dashboard": {},
+    "dock": {
+      "bottom": 900.0000114440918,
+      "height": 61.29999923706055,
+      "left": 0,
+      "right": 1440,
+      "top": 838.7000122070312,
+      "width": 1440,
+      "x": 0,
+      "y": 838.7000122070312
+    },
+    "dockData": {
+      "dockDuration": "416.1",
+      "dockSpeed": "64",
+      "dockState": "playing",
+      "dockTime": "111.12960000114515"
+    },
+    "document": {
+      "height": 900,
+      "width": 1440
+    },
+    "inspectorScroll": 0,
+    "map": {
+      "bottom": 838.7000122070312,
+      "height": 766.7000122070312,
+      "left": 454,
+      "right": 1440,
+      "top": 72,
+      "width": 986,
+      "x": 454,
+      "y": 72
+    },
+    "mapId": "e92df519-9cbd-4dda-a79e-7a9cf491d897",
+    "vehicles": [
+      {
+        "coordinate": "[106.68853666352861,10.760279614461108]",
+        "fleetVehicle": "GSM-01",
+        "progress": "0.8608024787075534",
+        "status": "moving"
+      },
+      {
+        "coordinate": "[106.70768974601995,10.781015097984186]",
+        "fleetVehicle": "GSM-02",
+        "progress": "0.28732607117336656",
+        "status": "moving"
+      },
+      {
+        "coordinate": "[106.689238,10.773415]",
+        "fleetVehicle": "GSM-03",
+        "progress": "1",
+        "status": "completed"
+      },
+      {
+        "coordinate": "[106.69433139428246,10.78093883811809]",
+        "fleetVehicle": "GSM-04",
+        "progress": "0.3423672893942374",
+        "status": "moving"
+      },
+      {
+        "coordinate": "[106.70569458435305,10.782845996933203]",
+        "fleetVehicle": "GSM-05",
+        "progress": "0.2060130174463555",
+        "status": "moving"
+      }
+    ],
+    "viewport": {
+      "height": 900,
+      "width": 1440
+    }
+  },
+  {
+    "name": "fleet-paused",
+    "analytics": null,
+    "canvas": {
+      "bottom": 808.8000030517578,
+      "height": 670,
+      "left": 466.8000183105469,
+      "right": 1426.8000183105469,
+      "top": 138.8000030517578,
+      "width": 960,
+      "x": 466.8000183105469,
+      "y": 138.8000030517578
+    },
+    "canvasSize": {
+      "height": 670,
+      "width": 960
+    },
+    "canvases": 1,
+    "clock": {},
+    "dashboard": {},
+    "dock": {
+      "bottom": 900.0000114440918,
+      "height": 61.29999923706055,
+      "left": 0,
+      "right": 1440,
+      "top": 838.7000122070312,
+      "width": 1440,
+      "x": 0,
+      "y": 838.7000122070312
+    },
+    "dockData": {
+      "dockDuration": "416.1",
+      "dockSpeed": "64",
+      "dockState": "paused",
+      "dockTime": "214.0671999950409"
+    },
+    "document": {
+      "height": 900,
+      "width": 1440
+    },
+    "inspectorScroll": 0,
+    "map": {
+      "bottom": 838.7000122070312,
+      "height": 766.7000122070312,
+      "left": 454,
+      "right": 1440,
+      "top": 72,
+      "width": 986,
+      "x": 454,
+      "y": 72
+    },
+    "mapId": "e92df519-9cbd-4dda-a79e-7a9cf491d897",
+    "vehicles": [
+      {
+        "coordinate": "[106.687671,10.759038]",
+        "fleetVehicle": "GSM-01",
+        "progress": "1",
+        "status": "completed"
+      },
+      {
+        "coordinate": "[106.70113690605007,10.780452702863164]",
+        "fleetVehicle": "GSM-02",
+        "progress": "0.6611009440633294",
+        "status": "moving"
+      },
+      {
+        "coordinate": "[106.689238,10.773415]",
+        "fleetVehicle": "GSM-03",
+        "progress": "1",
+        "status": "completed"
+      },
+      {
+        "coordinate": "[106.68684263070946,10.772827013153783]",
+        "fleetVehicle": "GSM-04",
+        "progress": "0.7052069086888999",
+        "status": "moving"
+      },
+      {
+        "coordinate": "[106.69733054995487,10.78356065473293]",
+        "fleetVehicle": "GSM-05",
+        "progress": "0.47400989324405335",
+        "status": "moving"
+      }
+    ],
+    "viewport": {
+      "height": 900,
+      "width": 1440
+    }
+  },
+  {
+    "name": "booking-16x-playing",
+    "analytics": null,
+    "canvas": {
+      "bottom": 808.8000030517578,
+      "height": 670,
+      "left": 466.8000183105469,
+      "right": 1426.8000183105469,
+      "top": 138.8000030517578,
+      "width": 960,
+      "x": 466.8000183105469,
+      "y": 138.8000030517578
+    },
+    "canvasSize": {
+      "height": 670,
+      "width": 960
+    },
+    "canvases": 1,
+    "clock": {},
+    "dashboard": {},
+    "dock": {
+      "bottom": 900.0000114440918,
+      "height": 61.29999923706055,
+      "left": 0,
+      "right": 1440,
+      "top": 838.7000122070312,
+      "width": 1440,
+      "x": 0,
+      "y": 838.7000122070312
+    },
+    "dockData": {
+      "dockDuration": "2092.397",
+      "dockSpeed": "16",
+      "dockState": "playing",
+      "dockTime": "512.6064000003813"
+    },
+    "document": {
+      "height": 900,
+      "width": 1440
+    },
+    "inspectorScroll": 0,
+    "map": {
+      "bottom": 838.7000122070312,
+      "height": 766.7000122070312,
+      "left": 454,
+      "right": 1440,
+      "top": 72,
+      "width": 986,
+      "x": 454,
+      "y": 72
+    },
+    "mapId": "e92df519-9cbd-4dda-a79e-7a9cf491d897",
+    "vehicles": [
+      {
+        "coordinate": "[106.7041544500362,10.78412816767925]",
+        "dispatchVehicle": "GSM-01",
+        "progress": "0.12172543741844738",
+        "status": "on_trip"
+      },
+      {
+        "coordinate": "[106.69983500735236,10.774009357538123]",
+        "dispatchVehicle": "GSM-02",
+        "progress": "0.6136296296305839",
+        "status": "on_trip"
+      },
+      {
+        "coordinate": "[106.69438887395987,10.781875757754479]",
+        "dispatchVehicle": "GSM-03",
+        "progress": "0.9034751314208703",
+        "status": "en_route_to_pickup"
+      },
+      {
+        "coordinate": "[106.68797071691348,10.772056488604825]",
+        "dispatchVehicle": "GSM-04",
+        "progress": "0.9352399847401041",
+        "status": "on_trip"
+      },
+      {
+        "coordinate": "[106.69871906661622,10.759828306268819]",
+        "dispatchVehicle": "GSM-05",
+        "progress": "0.9041042454828977",
+        "status": "en_route_to_pickup"
+      }
+    ],
+    "viewport": {
+      "height": 900,
+      "width": 1440
+    }
+  },
+  {
+    "name": "booking-32x-playing",
+    "analytics": null,
+    "canvas": {
+      "bottom": 808.8000030517578,
+      "height": 670,
+      "left": 466.8000183105469,
+      "right": 1426.8000183105469,
+      "top": 138.8000030517578,
+      "width": 960,
+      "x": 466.8000183105469,
+      "y": 138.8000030517578
+    },
+    "canvasSize": {
+      "height": 670,
+      "width": 960
+    },
+    "canvases": 1,
+    "clock": {},
+    "dashboard": {},
+    "dock": {
+      "bottom": 900.0000114440918,
+      "height": 61.29999923706055,
+      "left": 0,
+      "right": 1440,
+      "top": 838.7000122070312,
+      "width": 1440,
+      "x": 0,
+      "y": 838.7000122070312
+    },
+    "dockData": {
+      "dockDuration": "2092.397",
+      "dockSpeed": "32",
+      "dockState": "playing",
+      "dockTime": "558.0608000011443"
+    },
+    "document": {
+      "height": 900,
+      "width": 1440
+    },
+    "inspectorScroll": 0,
+    "map": {
+      "bottom": 838.7000122070312,
+      "height": 766.7000122070312,
+      "left": 454,
+      "right": 1440,
+      "top": 72,
+      "width": 986,
+      "x": 454,
+      "y": 72
+    },
+    "mapId": "e92df519-9cbd-4dda-a79e-7a9cf491d897",
+    "vehicles": [
+      {
+        "coordinate": "[106.70749961338751,10.780945992333413]",
+        "dispatchVehicle": "GSM-01",
+        "progress": "0.42760969045184594",
+        "status": "on_trip"
+      },
+      {
+        "coordinate": "[106.69677527133193,10.77126296497387]",
+        "dispatchVehicle": "GSM-02",
+        "progress": "0.7273793793822431",
+        "status": "on_trip"
+      },
+      {
+        "coordinate": "[106.69191114576049,10.78412693892483]",
+        "dispatchVehicle": "GSM-03",
+        "progress": "0.2167048192885969",
+        "status": "on_trip"
+      },
+      {
+        "coordinate": "[106.69133283963532,10.775629206887704]",
+        "dispatchVehicle": "GSM-04",
+        "progress": "0.2612917431297642",
+        "status": "en_route_to_pickup"
+      },
+      {
+        "coordinate": "[106.69916936818801,10.762691920158415]",
+        "dispatchVehicle": "GSM-05",
+        "progress": "0.11953959873888272",
+        "status": "on_trip"
+      }
+    ],
+    "viewport": {
+      "height": 900,
+      "width": 1440
+    }
+  },
+  {
+    "name": "booking-64x-playing",
+    "analytics": null,
+    "canvas": {
+      "bottom": 808.8000030517578,
+      "height": 670,
+      "left": 466.8000183105469,
+      "right": 1426.8000183105469,
+      "top": 138.8000030517578,
+      "width": 960,
+      "x": 466.8000183105469,
+      "y": 138.8000030517578
+    },
+    "canvasSize": {
+      "height": 670,
+      "width": 960
+    },
+    "canvases": 1,
+    "clock": {},
+    "dashboard": {},
+    "dock": {
+      "bottom": 900.0000114440918,
+      "height": 61.29999923706055,
+      "left": 0,
+      "right": 1440,
+      "top": 838.7000122070312,
+      "width": 1440,
+      "x": 0,
+      "y": 838.7000122070312
+    },
+    "dockData": {
+      "dockDuration": "2092.397",
+      "dockSpeed": "64",
+      "dockState": "playing",
+      "dockTime": "641.6384000026695"
+    },
+    "document": {
+      "height": 900,
+      "width": 1440
+    },
+    "inspectorScroll": 0,
+    "map": {
+      "bottom": 838.7000122070312,
+      "height": 766.7000122070312,
+      "left": 454,
+      "right": 1440,
+      "top": 72,
+      "width": 986,
+      "x": 454,
+      "y": 72
+    },
+    "mapId": "e92df519-9cbd-4dda-a79e-7a9cf491d897",
+    "vehicles": [
+      {
+        "coordinate": "[106.70781811474575,10.780007340439974]",
+        "dispatchVehicle": "GSM-01",
+        "progress": "0.9900430686586102",
+        "status": "on_trip"
+      },
+      {
+        "coordinate": "[106.68849751687489,10.767380761315206]",
+        "dispatchVehicle": "GSM-02",
+        "progress": "0.936532532539213",
+        "status": "on_trip"
+      },
+      {
+        "coordinate": "[106.688383,10.785576]",
+        "dispatchVehicle": "GSM-03",
+        "progress": "0",
+        "status": "idle"
+      },
+      {
+        "coordinate": "[106.69421921725139,10.77384214368042]",
+        "dispatchVehicle": "GSM-04",
+        "progress": "0.019115000016684293",
+        "status": "on_trip"
+      },
+      {
+        "coordinate": "[106.69691512985119,10.769687227671836]",
+        "dispatchVehicle": "GSM-05",
+        "progress": "0.5608152059275057",
+        "status": "on_trip"
+      }
+    ],
+    "viewport": {
+      "height": 900,
+      "width": 1440
+    }
+  },
+  {
+    "name": "booking-paused",
+    "analytics": null,
+    "canvas": {
+      "bottom": 808.8000030517578,
+      "height": 670,
+      "left": 466.8000183105469,
+      "right": 1426.8000183105469,
+      "top": 138.8000030517578,
+      "width": 960,
+      "x": 466.8000183105469,
+      "y": 138.8000030517578
+    },
+    "canvasSize": {
+      "height": 670,
+      "width": 960
+    },
+    "canvases": 1,
+    "clock": {},
+    "dashboard": {},
+    "dock": {
+      "bottom": 900.0000114440918,
+      "height": 61.29999923706055,
+      "left": 0,
+      "right": 1440,
+      "top": 838.7000122070312,
+      "width": 1440,
+      "x": 0,
+      "y": 838.7000122070312
+    },
+    "dockData": {
+      "dockDuration": "2092.397",
+      "dockSpeed": "64",
+      "dockState": "paused",
+      "dockTime": "778.5792000026704"
+    },
+    "document": {
+      "height": 900,
+      "width": 1440
+    },
+    "inspectorScroll": 0,
+    "map": {
+      "bottom": 838.7000122070312,
+      "height": 766.7000122070312,
+      "left": 454,
+      "right": 1440,
+      "top": 72,
+      "width": 986,
+      "x": 454,
+      "y": 72
+    },
+    "mapId": "e92df519-9cbd-4dda-a79e-7a9cf491d897",
+    "vehicles": [
+      {
+        "coordinate": "[106.70963571144934,10.779868781466453]",
+        "dispatchVehicle": "GSM-01",
+        "progress": "0.4012134292886135",
+        "status": "on_trip"
+      },
+      {
+        "coordinate": "[106.686326,10.767599]",
+        "dispatchVehicle": "GSM-02",
+        "progress": "0",
+        "status": "idle"
+      },
+      {
+        "coordinate": "[106.688383,10.785576]",
+        "dispatchVehicle": "GSM-03",
+        "progress": "0",
+        "status": "idle"
+      },
+      {
+        "coordinate": "[106.68771605460478,10.771778499837051]",
+        "dispatchVehicle": "GSM-04",
+        "progress": "0.8749950000166897",
+        "status": "on_trip"
+      },
+      {
+        "coordinate": "[106.701872,10.775475]",
+        "dispatchVehicle": "GSM-05",
+        "progress": "0",
+        "status": "idle"
+      }
+    ],
+    "viewport": {
+      "height": 900,
+      "width": 1440
+    }
+  },
+  {
+    "name": "voucher-16x-advanced-playing",
+    "analytics": {
+      "bottom": 838.7000122070312,
+      "height": 766.7000122070312,
+      "left": 1016.0125122070312,
+      "right": 1440.000030517578,
+      "top": 72,
+      "width": 423.9875183105469,
+      "x": 1016.0125122070312,
+      "y": 72
+    },
+    "analyticsScroll": 0,
+    "canvas": {
+      "bottom": 808.8000030517578,
+      "height": 670,
+      "left": 466.8000183105469,
+      "right": 1002.8000183105468,
+      "top": 138.8000030517578,
+      "width": 536,
+      "x": 466.8000183105469,
+      "y": 138.8000030517578
+    },
+    "canvasSize": {
+      "height": 670,
+      "width": 536
+    },
+    "canvases": 1,
+    "clock": {
+      "clockMetrics": "{\"frameSamples\":234,\"meanFrameMilliseconds\":294.4000000003056,\"maxFrameMilliseconds\":1550.100000000035}",
+      "experimentArm": "treatment",
+      "experimentClock": "playing",
+      "experimentTime": "1602.2336000011442"
+    },
+    "dashboard": {
+      "experimentDelta": "{\"bookingUplift\":3,\"incrementalCompleted\":3,\"costPerIncrementalCompletionVnd\":66666.66666666667}",
+      "experimentId": "da5babf709473ce8f527dff8f6ac911484e6745b7583d7c11b39707a32117106",
+      "experimentMetrics": "{\"baseline\":{\"validPotential\":26,\"invalidPotential\":0,\"accepted\":11,\"assigned\":11,\"pickedUp\":8,\"completed\":8,\"unserved\":0,\"conversionRate\":0.4230769230769231,\"completionRate\":0.7272727272727273,\"averageWaitSeconds\":115.575,\"averagePickupEtaSeconds\":140.35454545454547,\"averageTripSeconds\":175.4125,\"emptyMeters\":15420.904434515689,\"occupiedMeters\":15426.800000000001,\"utilization\":0.3561124843945068,\"grossFareVnd\":265122,\"voucherSpendVnd\":0,\"riderPaymentsVnd\":265122,\"budget\":{\"total\":0,\"reserved\":0,\"spent\":0,\"available\":0},\"voucherCounts\":{\"OFFERED\":0,\"RESERVED\":0,\"SETTLED\":0,\"RELEASED\":0}},\"treatment\":{\"validPotential\":26,\"invalidPotential\":0,\"accepted\":14,\"assigned\":14,\"pickedUp\":13,\"completed\":11,\"unserved\":0,\"conversionRate\":0.5384615384615384,\"completionRate\":0.7857142857142857,\"averageWaitSeconds\":149.53061538461537,\"averagePickupEtaSeconds\":143.45714285714286,\"averageTripSeconds\":214.75454545454542,\"emptyMeters\":21331.602414285717,\"occupiedMeters\":29319.02408131811,\"utilization\":0.5589464419475656,\"grossFareVnd\":433252,\"voucherSpendVnd\":200000,\"riderPaymentsVnd\":233252,\"budget\":{\"total\":200000,\"reserved\":0,\"spent\":200000,\"available\":0},\"voucherCounts\":{\"OFFERED\":15,\"RESERVED\":10,\"SETTLED\":10,\"RELEASED\":0}}}",
+      "kpiScope": "observed",
+      "kpiTime": "1602"
+    },
+    "dock": {
+      "bottom": 900.0000114440918,
+      "height": 61.29999923706055,
+      "left": 0,
+      "right": 1440,
+      "top": 838.7000122070312,
+      "width": 1440,
+      "x": 0,
+      "y": 838.7000122070312
+    },
+    "dockData": {
+      "dockDuration": "2115.1910000000003",
+      "dockSpeed": "16",
+      "dockState": "playing",
+      "dockTime": "1602.2336000011442"
+    },
+    "document": {
+      "height": 900,
+      "width": 1440
+    },
+    "inspectorScroll": 0,
+    "map": {
+      "bottom": 838.7000122070312,
+      "height": 766.7000122070312,
+      "left": 454,
+      "right": 1016.0125122070312,
+      "top": 72,
+      "width": 562.0125122070312,
+      "x": 454,
+      "y": 72
+    },
+    "mapId": "e92df519-9cbd-4dda-a79e-7a9cf491d897",
+    "table": "Financial & Operational ComparisonSimulated MetricBaselineTreatmentDifferenceGross Fare Value265.122 ₫433.252 ₫+168.130 ₫Rider Payments265.122 ₫233.252 ₫−31.870 ₫Voucher Spend0 ₫200.000 ₫+200.000 ₫Completed Trips811+3Difference = Treatment − Baseline · GFV = rider payments + settled voucher · simulated metrics",
+    "vehicles": [
+      {
+        "coordinate": "[106.70372449837188,10.763558149022368]",
+        "dispatchVehicle": "GSM-01",
+        "progress": "0.3648025974100265",
+        "status": "en_route_to_pickup"
+      },
+      {
+        "coordinate": "[106.70767386300139,10.78078665260039]",
+        "dispatchVehicle": "GSM-02",
+        "progress": "0.32244138661324206",
+        "status": "on_trip"
+      },
+      {
+        "coordinate": "[106.710119,10.759442]",
+        "dispatchVehicle": "GSM-03",
+        "progress": "0",
+        "status": "idle"
+      },
+      {
+        "coordinate": "[106.689238,10.773415]",
+        "dispatchVehicle": "GSM-04",
+        "progress": "0",
+        "status": "idle"
+      },
+      {
+        "coordinate": "[106.69237587140792,10.778824233657478]",
+        "dispatchVehicle": "GSM-05",
+        "progress": "0.38992307692844413",
+        "status": "on_trip"
+      }
+    ],
+    "viewport": {
+      "height": 900,
+      "width": 1440
+    }
+  },
+  {
+    "name": "voucher-after-advanced-throttle",
+    "analytics": {
+      "bottom": 838.7000122070312,
+      "height": 766.7000122070312,
+      "left": 1016.0125122070312,
+      "right": 1440.000030517578,
+      "top": 72,
+      "width": 423.9875183105469,
+      "x": 1016.0125122070312,
+      "y": 72
+    },
+    "analyticsScroll": 0,
+    "canvas": {
+      "bottom": 808.8000030517578,
+      "height": 670,
+      "left": 466.8000183105469,
+      "right": 1002.8000183105468,
+      "top": 138.8000030517578,
+      "width": 536,
+      "x": 466.8000183105469,
+      "y": 138.8000030517578
+    },
+    "canvasSize": {
+      "height": 670,
+      "width": 536
+    },
+    "canvases": 1,
+    "clock": {
+      "clockMetrics": "{\"frameSamples\":273,\"meanFrameMilliseconds\":371.9380952383572,\"maxFrameMilliseconds\":1550.100000000035}",
+      "experimentArm": "treatment",
+      "experimentClock": "completed",
+      "experimentTime": "2115.1910000000003"
+    },
+    "dashboard": {
+      "experimentDelta": "{\"bookingUplift\":3,\"incrementalCompleted\":3,\"costPerIncrementalCompletionVnd\":66666.66666666667}",
+      "experimentId": "da5babf709473ce8f527dff8f6ac911484e6745b7583d7c11b39707a32117106",
+      "experimentMetrics": "{\"baseline\":{\"validPotential\":30,\"invalidPotential\":0,\"accepted\":13,\"assigned\":13,\"pickedUp\":13,\"completed\":13,\"unserved\":0,\"conversionRate\":0.43333333333333335,\"completionRate\":1,\"averageWaitSeconds\":145.46153846153845,\"averagePickupEtaSeconds\":145.46153846153848,\"averageTripSeconds\":186.62307692307692,\"emptyMeters\":20291.300000000003,\"occupiedMeters\":27910.699999999997,\"utilization\":0.40819954320910024,\"grossFareVnd\":464928,\"voucherSpendVnd\":0,\"riderPaymentsVnd\":464928,\"budget\":{\"total\":0,\"reserved\":0,\"spent\":0,\"available\":0},\"voucherCounts\":{\"OFFERED\":0,\"RESERVED\":0,\"SETTLED\":0,\"RELEASED\":0}},\"treatment\":{\"validPotential\":30,\"invalidPotential\":0,\"accepted\":16,\"assigned\":16,\"pickedUp\":16,\"completed\":16,\"unserved\":0,\"conversionRate\":0.5333333333333333,\"completionRate\":1,\"averageWaitSeconds\":142.70612500000001,\"averagePickupEtaSeconds\":137.11249999999998,\"averageTripSeconds\":211.56875,\"emptyMeters\":24433.4,\"occupiedMeters\":39421.5,\"utilization\":0.5275079177246875,\"grossFareVnd\":633058,\"voucherSpendVnd\":200000,\"riderPaymentsVnd\":433058,\"budget\":{\"total\":200000,\"reserved\":0,\"spent\":200000,\"available\":0},\"voucherCounts\":{\"OFFERED\":15,\"RESERVED\":10,\"SETTLED\":10,\"RELEASED\":0}}}",
+      "kpiScope": "observed",
+      "kpiTime": "2115.1910000000003"
+    },
+    "dock": {
+      "bottom": 900.0000114440918,
+      "height": 61.29999923706055,
+      "left": 0,
+      "right": 1440,
+      "top": 838.7000122070312,
+      "width": 1440,
+      "x": 0,
+      "y": 838.7000122070312
+    },
+    "dockData": {
+      "dockDuration": "2115.1910000000003",
+      "dockSpeed": "16",
+      "dockState": "completed",
+      "dockTime": "2115.1910000000003"
+    },
+    "document": {
+      "height": 900,
+      "width": 1440
+    },
+    "inspectorScroll": 0,
+    "map": {
+      "bottom": 838.7000122070312,
+      "height": 766.7000122070312,
+      "left": 454,
+      "right": 1016.0125122070312,
+      "top": 72,
+      "width": 562.0125122070312,
+      "x": 454,
+      "y": 72
+    },
+    "mapId": "e92df519-9cbd-4dda-a79e-7a9cf491d897",
+    "table": "Financial & Operational ComparisonSimulated MetricBaselineTreatmentDifferenceGross Fare Value464.928 ₫633.058 ₫+168.130 ₫Rider Payments464.928 ₫433.058 ₫−31.870 ₫Voucher Spend0 ₫200.000 ₫+200.000 ₫Completed Trips1316+3Difference = Treatment − Baseline · GFV = rider payments + settled voucher · simulated metrics",
+    "vehicles": [
+      {
+        "coordinate": "[106.69499,10.767732]",
+        "dispatchVehicle": "GSM-01",
+        "progress": "0",
+        "status": "idle"
+      },
+      {
+        "coordinate": "[106.710119,10.759442]",
+        "dispatchVehicle": "GSM-02",
+        "progress": "0",
+        "status": "idle"
+      },
+      {
+        "coordinate": "[106.710119,10.759442]",
+        "dispatchVehicle": "GSM-03",
+        "progress": "0",
+        "status": "idle"
+      },
+      {
+        "coordinate": "[106.694479,10.773619]",
+        "dispatchVehicle": "GSM-04",
+        "progress": "0",
+        "status": "idle"
+      },
+      {
+        "coordinate": "[106.70621,10.770672]",
+        "dispatchVehicle": "GSM-05",
+        "progress": "0",
+        "status": "idle"
+      }
+    ],
+    "viewport": {
+      "height": 900,
+      "width": 1440
+    }
+  },
+  {
+    "name": "voucher-64x-advanced-retest",
+    "analytics": {
+      "bottom": 838.7000122070312,
+      "height": 766.7000122070312,
+      "left": 1016.0125122070312,
+      "right": 1440.000030517578,
+      "top": 72,
+      "width": 423.9875183105469,
+      "x": 1016.0125122070312,
+      "y": 72
+    },
+    "analyticsScroll": 0,
+    "canvas": {
+      "bottom": 808.8000030517578,
+      "height": 670,
+      "left": 466.8000183105469,
+      "right": 1002.8000183105468,
+      "top": 138.8000030517578,
+      "width": 536,
+      "x": 466.8000183105469,
+      "y": 138.8000030517578
+    },
+    "canvasSize": {
+      "height": 670,
+      "width": 536
+    },
+    "canvases": 1,
+    "clock": {
+      "clockMetrics": "{\"frameSamples\":10,\"meanFrameMilliseconds\":399.66000000715724,\"maxFrameMilliseconds\":796.7640000715619}",
+      "experimentArm": "treatment",
+      "experimentClock": "playing",
+      "experimentTime": "755.7824000045806"
+    },
+    "dashboard": {
+      "experimentDelta": "{\"bookingUplift\":3,\"incrementalCompleted\":3,\"costPerIncrementalCompletionVnd\":46666.666666666664}",
+      "experimentId": "da5babf709473ce8f527dff8f6ac911484e6745b7583d7c11b39707a32117106",
+      "experimentMetrics": "{\"baseline\":{\"validPotential\":15,\"invalidPotential\":0,\"accepted\":7,\"assigned\":7,\"pickedUp\":6,\"completed\":4,\"unserved\":0,\"conversionRate\":0.4666666666666667,\"completionRate\":0.5714285714285714,\"averageWaitSeconds\":102.71666666666665,\"averagePickupEtaSeconds\":116.12857142857145,\"averageTripSeconds\":206.225,\"emptyMeters\":6685.356479145474,\"occupiedMeters\":10046.82167060813,\"utilization\":0.4063186754966887,\"grossFareVnd\":149969,\"voucherSpendVnd\":0,\"riderPaymentsVnd\":149969,\"budget\":{\"total\":0,\"reserved\":0,\"spent\":0,\"available\":0},\"voucherCounts\":{\"OFFERED\":0,\"RESERVED\":0,\"SETTLED\":0,\"RELEASED\":0}},\"treatment\":{\"validPotential\":15,\"invalidPotential\":0,\"accepted\":10,\"assigned\":10,\"pickedUp\":8,\"completed\":7,\"unserved\":0,\"conversionRate\":0.6666666666666666,\"completionRate\":0.7,\"averageWaitSeconds\":135.407,\"averagePickupEtaSeconds\":133.35,\"averageTripSeconds\":236.34285714285716,\"emptyMeters\":12939.46065539592,\"occupiedMeters\":21386.286084196458,\"utilization\":0.7888426490066226,\"grossFareVnd\":296372,\"voucherSpendVnd\":140000,\"riderPaymentsVnd\":156372,\"budget\":{\"total\":200000,\"reserved\":60000,\"spent\":140000,\"available\":0},\"voucherCounts\":{\"OFFERED\":15,\"RESERVED\":10,\"SETTLED\":7,\"RELEASED\":0}}}",
+      "kpiScope": "observed",
+      "kpiTime": "755"
+    },
+    "dock": {
+      "bottom": 900.0000114440918,
+      "height": 61.29999923706055,
+      "left": 0,
+      "right": 1440,
+      "top": 838.7000122070312,
+      "width": 1440,
+      "x": 0,
+      "y": 838.7000122070312
+    },
+    "dockData": {
+      "dockDuration": "2115.1910000000003",
+      "dockSpeed": "64",
+      "dockState": "playing",
+      "dockTime": "755.7824000045806"
+    },
+    "document": {
+      "height": 900,
+      "width": 1440
+    },
+    "inspectorScroll": 0,
+    "map": {
+      "bottom": 838.7000122070312,
+      "height": 766.7000122070312,
+      "left": 454,
+      "right": 1016.0125122070312,
+      "top": 72,
+      "width": 562.0125122070312,
+      "x": 454,
+      "y": 72
+    },
+    "mapId": "e92df519-9cbd-4dda-a79e-7a9cf491d897",
+    "table": "Financial & Operational ComparisonSimulated MetricBaselineTreatmentDifferenceGross Fare Value149.969 ₫296.372 ₫+146.403 ₫Rider Payments149.969 ₫156.372 ₫+6.403 ₫Voucher Spend0 ₫140.000 ₫+140.000 ₫Completed Trips47+3Difference = Treatment − Baseline · GFV = rider payments + settled voucher · simulated metrics",
+    "vehicles": [
+      {
+        "coordinate": "[106.69784742867586,10.776940185686685]",
+        "dispatchVehicle": "GSM-01",
+        "progress": "0.6022990855544947",
+        "status": "en_route_to_pickup"
+      },
+      {
+        "coordinate": "[106.713702,10.770232]",
+        "dispatchVehicle": "GSM-02",
+        "progress": "0",
+        "status": "idle"
+      },
+      {
+        "coordinate": "[106.70770393795692,10.764083597405902]",
+        "dispatchVehicle": "GSM-03",
+        "progress": "0.020587345285974015",
+        "status": "en_route_to_pickup"
+      },
+      {
+        "coordinate": "[106.689238,10.773415]",
+        "dispatchVehicle": "GSM-04",
+        "progress": "0",
+        "status": "idle"
+      },
+      {
+        "coordinate": "[106.69997746497306,10.776684370787347]",
+        "dispatchVehicle": "GSM-05",
+        "progress": "0.6971847644656887",
+        "status": "on_trip"
+      }
+    ],
+    "viewport": {
+      "height": 900,
+      "width": 1440
+    }
+  },
+  {
+    "name": "voucher-64x-paused-retest",
+    "analytics": {
+      "bottom": 838.7000122070312,
+      "height": 766.7000122070312,
+      "left": 1016.0125122070312,
+      "right": 1440.000030517578,
+      "top": 72,
+      "width": 423.9875183105469,
+      "x": 1016.0125122070312,
+      "y": 72
+    },
+    "analyticsScroll": 0,
+    "canvas": {
+      "bottom": 808.8000030517578,
+      "height": 670,
+      "left": 466.8000183105469,
+      "right": 1002.8000183105468,
+      "top": 138.8000030517578,
+      "width": 536,
+      "x": 466.8000183105469,
+      "y": 138.8000030517578
+    },
+    "canvasSize": {
+      "height": 670,
+      "width": 536
+    },
+    "canvases": 1,
+    "clock": {
+      "clockMetrics": "{\"frameSamples\":18,\"meanFrameMilliseconds\":282.21666667063903,\"maxFrameMilliseconds\":796.7640000715619}",
+      "experimentArm": "treatment",
+      "experimentClock": "paused",
+      "experimentTime": "830.0415999984741"
+    },
+    "dashboard": {
+      "experimentDelta": "{\"bookingUplift\":3,\"incrementalCompleted\":3,\"costPerIncrementalCompletionVnd\":46666.666666666664}",
+      "experimentId": "da5babf709473ce8f527dff8f6ac911484e6745b7583d7c11b39707a32117106",
+      "experimentMetrics": "{\"baseline\":{\"validPotential\":15,\"invalidPotential\":0,\"accepted\":7,\"assigned\":7,\"pickedUp\":6,\"completed\":4,\"unserved\":0,\"conversionRate\":0.4666666666666667,\"completionRate\":0.5714285714285714,\"averageWaitSeconds\":102.71666666666665,\"averagePickupEtaSeconds\":116.12857142857145,\"averageTripSeconds\":206.225,\"emptyMeters\":7481.041725110981,\"occupiedMeters\":11756.79430333793,\"utilization\":0.42382882978362907,\"grossFareVnd\":149969,\"voucherSpendVnd\":0,\"riderPaymentsVnd\":149969,\"budget\":{\"total\":0,\"reserved\":0,\"spent\":0,\"available\":0},\"voucherCounts\":{\"OFFERED\":0,\"RESERVED\":0,\"SETTLED\":0,\"RELEASED\":0}},\"treatment\":{\"validPotential\":15,\"invalidPotential\":0,\"accepted\":10,\"assigned\":10,\"pickedUp\":9,\"completed\":7,\"unserved\":0,\"conversionRate\":0.6666666666666666,\"completionRate\":0.7,\"averageWaitSeconds\":141.01733333333334,\"averagePickupEtaSeconds\":133.35,\"averageTripSeconds\":236.34285714285716,\"emptyMeters\":14715.470360642728,\"occupiedMeters\":22300.604601381692,\"utilization\":0.7717699450247578,\"grossFareVnd\":296372,\"voucherSpendVnd\":140000,\"riderPaymentsVnd\":156372,\"budget\":{\"total\":200000,\"reserved\":60000,\"spent\":140000,\"available\":0},\"voucherCounts\":{\"OFFERED\":15,\"RESERVED\":10,\"SETTLED\":7,\"RELEASED\":0}}}",
+      "kpiScope": "observed",
+      "kpiTime": "830.0415999984741"
+    },
+    "dock": {
+      "bottom": 900.0000114440918,
+      "height": 61.29999923706055,
+      "left": 0,
+      "right": 1440,
+      "top": 838.7000122070312,
+      "width": 1440,
+      "x": 0,
+      "y": 838.7000122070312
+    },
+    "dockData": {
+      "dockDuration": "2115.1910000000003",
+      "dockSpeed": "64",
+      "dockState": "paused",
+      "dockTime": "830.0415999984741"
+    },
+    "document": {
+      "height": 900,
+      "width": 1440
+    },
+    "inspectorScroll": 0,
+    "map": {
+      "bottom": 838.7000122070312,
+      "height": 766.7000122070312,
+      "left": 454,
+      "right": 1016.0125122070312,
+      "top": 72,
+      "width": 562.0125122070312,
+      "x": 454,
+      "y": 72
+    },
+    "mapId": "e92df519-9cbd-4dda-a79e-7a9cf491d897",
+    "table": "Financial & Operational ComparisonSimulated MetricBaselineTreatmentDifferenceGross Fare Value149.969 ₫296.372 ₫+146.403 ₫Rider Payments149.969 ₫156.372 ₫+6.403 ₫Voucher Spend0 ₫140.000 ₫+140.000 ₫Completed Trips47+3Difference = Treatment − Baseline · GFV = rider payments + settled voucher · simulated metrics",
+    "vehicles": [
+      {
+        "coordinate": "[106.70186978491047,10.775439558567568]",
+        "dispatchVehicle": "GSM-01",
+        "progress": "0.0031770427867128435",
+        "status": "on_trip"
+      },
+      {
+        "coordinate": "[106.713702,10.770232]",
+        "dispatchVehicle": "GSM-02",
+        "progress": "0",
+        "status": "idle"
+      },
+      {
+        "coordinate": "[106.70635930358722,10.77120568484476]",
+        "dispatchVehicle": "GSM-03",
+        "progress": "0.5313108665644714",
+        "status": "en_route_to_pickup"
+      },
+      {
+        "coordinate": "[106.689238,10.773415]",
+        "dispatchVehicle": "GSM-04",
+        "progress": "0",
+        "status": "idle"
+      },
+      {
+        "coordinate": "[106.69397692772255,10.782256360256353]",
+        "dispatchVehicle": "GSM-05",
+        "progress": "0.945294353486382",
+        "status": "on_trip"
+      }
+    ],
+    "viewport": {
+      "height": 900,
+      "width": 1440
+    }
+  },
+  {
+    "name": "voucher-32x-windowed",
+    "analytics": {
+      "bottom": 838.7000122070312,
+      "height": 766.7000122070312,
+      "left": 1016.0125122070312,
+      "right": 1440.000030517578,
+      "top": 72,
+      "width": 423.9875183105469,
+      "x": 1016.0125122070312,
+      "y": 72
+    },
+    "analyticsScroll": 0,
+    "canvas": {
+      "bottom": 808.8000030517578,
+      "height": 670,
+      "left": 466.8000183105469,
+      "right": 1002.8000183105468,
+      "top": 138.8000030517578,
+      "width": 536,
+      "x": 466.8000183105469,
+      "y": 138.8000030517578
+    },
+    "canvasSize": {
+      "height": 670,
+      "width": 536
+    },
+    "canvases": 1,
+    "clock": {
+      "clockMetrics": "{\"frameSamples\":10,\"meanFrameMilliseconds\":110.94000000238884,\"maxFrameMilliseconds\":192.78400002385024}",
+      "experimentArm": "treatment",
+      "experimentClock": "playing",
+      "experimentTime": "865.5423999992386"
+    },
+    "dashboard": {
+      "experimentDelta": "{\"bookingUplift\":3,\"incrementalCompleted\":2,\"costPerIncrementalCompletionVnd\":80000}",
+      "experimentId": "da5babf709473ce8f527dff8f6ac911484e6745b7583d7c11b39707a32117106",
+      "experimentMetrics": "{\"baseline\":{\"validPotential\":15,\"invalidPotential\":0,\"accepted\":7,\"assigned\":7,\"pickedUp\":6,\"completed\":6,\"unserved\":0,\"conversionRate\":0.4666666666666667,\"completionRate\":0.8571428571428571,\"averageWaitSeconds\":102.71666666666665,\"averagePickupEtaSeconds\":116.12857142857145,\"averageTripSeconds\":182.91666666666666,\"emptyMeters\":7851.714566632756,\"occupiedMeters\":12224.9,\"utilization\":0.4241509826589595,\"grossFareVnd\":206699,\"voucherSpendVnd\":0,\"riderPaymentsVnd\":206699,\"budget\":{\"total\":0,\"reserved\":0,\"spent\":0,\"available\":0},\"voucherCounts\":{\"OFFERED\":0,\"RESERVED\":0,\"SETTLED\":0,\"RELEASED\":0}},\"treatment\":{\"validPotential\":15,\"invalidPotential\":0,\"accepted\":10,\"assigned\":10,\"pickedUp\":9,\"completed\":8,\"unserved\":0,\"conversionRate\":0.6666666666666666,\"completionRate\":0.8,\"averageWaitSeconds\":141.01733333333334,\"averagePickupEtaSeconds\":133.35,\"averageTripSeconds\":244.2125,\"emptyMeters\":15116.842801925723,\"occupiedMeters\":22921.054027237355,\"utilization\":0.7605308670520232,\"grossFareVnd\":349944,\"voucherSpendVnd\":160000,\"riderPaymentsVnd\":189944,\"budget\":{\"total\":200000,\"reserved\":40000,\"spent\":160000,\"available\":0},\"voucherCounts\":{\"OFFERED\":15,\"RESERVED\":10,\"SETTLED\":8,\"RELEASED\":0}}}",
+      "kpiScope": "observed",
+      "kpiTime": "865"
+    },
+    "dock": {
+      "bottom": 900.0000114440918,
+      "height": 61.29999923706055,
+      "left": 0,
+      "right": 1440,
+      "top": 838.7000122070312,
+      "width": 1440,
+      "x": 0,
+      "y": 838.7000122070312
+    },
+    "dockData": {
+      "dockDuration": "2115.1910000000003",
+      "dockSpeed": "32",
+      "dockState": "playing",
+      "dockTime": "865.5423999992386"
+    },
+    "document": {
+      "height": 900,
+      "width": 1440
+    },
+    "inspectorScroll": 0,
+    "map": {
+      "bottom": 838.7000122070312,
+      "height": 766.7000122070312,
+      "left": 454,
+      "right": 1016.0125122070312,
+      "top": 72,
+      "width": 562.0125122070312,
+      "x": 454,
+      "y": 72
+    },
+    "mapId": "e92df519-9cbd-4dda-a79e-7a9cf491d897",
+    "table": "Financial & Operational ComparisonSimulated MetricBaselineTreatmentDifferenceGross Fare Value206.699 ₫349.944 ₫+143.245 ₫Rider Payments206.699 ₫189.944 ₫−16.755 ₫Voucher Spend0 ₫160.000 ₫+160.000 ₫Completed Trips68+2Difference = Treatment − Baseline · GFV = rider payments + settled voucher · simulated metrics",
+    "vehicles": [
+      {
+        "coordinate": "[106.6992894984198,10.772569897515291]",
+        "dispatchVehicle": "GSM-01",
+        "progress": "0.3485155641949276",
+        "status": "on_trip"
+      },
+      {
+        "coordinate": "[106.713702,10.770232]",
+        "dispatchVehicle": "GSM-02",
+        "progress": "0",
+        "status": "idle"
+      },
+      {
+        "coordinate": "[106.70665298031605,10.774876918769051]",
+        "dispatchVehicle": "GSM-03",
+        "progress": "0.7754704264046671",
+        "status": "en_route_to_pickup"
+      },
+      {
+        "coordinate": "[106.689238,10.773415]",
+        "dispatchVehicle": "GSM-04",
+        "progress": "0",
+        "status": "idle"
+      },
+      {
+        "coordinate": "[106.693367,10.783497]",
+        "dispatchVehicle": "GSM-05",
+        "progress": "0",
+        "status": "idle"
+      }
+    ],
+    "viewport": {
+      "height": 900,
+      "width": 1440
+    }
+  },
+  {
+    "name": "voucher-64x-windowed",
+    "analytics": {
+      "bottom": 838.7000122070312,
+      "height": 766.7000122070312,
+      "left": 1016.0125122070312,
+      "right": 1440.000030517578,
+      "top": 72,
+      "width": 423.9875183105469,
+      "x": 1016.0125122070312,
+      "y": 72
+    },
+    "analyticsScroll": 0,
+    "canvas": {
+      "bottom": 808.8000030517578,
+      "height": 670,
+      "left": 466.8000183105469,
+      "right": 1002.8000183105468,
+      "top": 138.8000030517578,
+      "width": 536,
+      "x": 466.8000183105469,
+      "y": 138.8000030517578
+    },
+    "canvasSize": {
+      "height": 670,
+      "width": 536
+    },
+    "canvases": 1,
+    "clock": {
+      "clockMetrics": "{\"frameSamples\":28,\"meanFrameMilliseconds\":95.5714285722809,\"maxFrameMilliseconds\":216.80000000004657}",
+      "experimentArm": "treatment",
+      "experimentClock": "playing",
+      "experimentTime": "947.1456000000014"
+    },
+    "dashboard": {
+      "experimentDelta": "{\"bookingUplift\":3,\"incrementalCompleted\":3,\"costPerIncrementalCompletionVnd\":60000}",
+      "experimentId": "da5babf709473ce8f527dff8f6ac911484e6745b7583d7c11b39707a32117106",
+      "experimentMetrics": "{\"baseline\":{\"validPotential\":16,\"invalidPotential\":0,\"accepted\":7,\"assigned\":7,\"pickedUp\":7,\"completed\":6,\"unserved\":0,\"conversionRate\":0.4375,\"completionRate\":0.8571428571428571,\"averageWaitSeconds\":116.12857142857142,\"averagePickupEtaSeconds\":116.12857142857145,\"averageTripSeconds\":182.91666666666666,\"emptyMeters\":8657,\"occupiedMeters\":12291.123923728812,\"utilization\":0.4047419218585005,\"grossFareVnd\":206699,\"voucherSpendVnd\":0,\"riderPaymentsVnd\":206699,\"budget\":{\"total\":0,\"reserved\":0,\"spent\":0,\"available\":0},\"voucherCounts\":{\"OFFERED\":0,\"RESERVED\":0,\"SETTLED\":0,\"RELEASED\":0}},\"treatment\":{\"validPotential\":16,\"invalidPotential\":0,\"accepted\":10,\"assigned\":10,\"pickedUp\":10,\"completed\":9,\"unserved\":0,\"conversionRate\":0.625,\"completionRate\":0.9,\"averageWaitSeconds\":142.2998,\"averagePickupEtaSeconds\":133.35,\"averageTripSeconds\":228.5,\"emptyMeters\":15497.9,\"occupiedMeters\":24269.72543220339,\"utilization\":0.7262536430834212,\"grossFareVnd\":374829,\"voucherSpendVnd\":180000,\"riderPaymentsVnd\":194829,\"budget\":{\"total\":200000,\"reserved\":20000,\"spent\":180000,\"available\":0},\"voucherCounts\":{\"OFFERED\":15,\"RESERVED\":10,\"SETTLED\":9,\"RELEASED\":0}}}",
+      "kpiScope": "observed",
+      "kpiTime": "947"
+    },
+    "dock": {
+      "bottom": 900.0000114440918,
+      "height": 61.29999923706055,
+      "left": 0,
+      "right": 1440,
+      "top": 838.7000122070312,
+      "width": 1440,
+      "x": 0,
+      "y": 838.7000122070312
+    },
+    "dockData": {
+      "dockDuration": "2115.1910000000003",
+      "dockSpeed": "64",
+      "dockState": "playing",
+      "dockTime": "947.1456000000014"
+    },
+    "document": {
+      "height": 900,
+      "width": 1440
+    },
+    "inspectorScroll": 0,
+    "map": {
+      "bottom": 838.7000122070312,
+      "height": 766.7000122070312,
+      "left": 454,
+      "right": 1016.0125122070312,
+      "top": 72,
+      "width": 562.0125122070312,
+      "x": 454,
+      "y": 72
+    },
+    "mapId": "e92df519-9cbd-4dda-a79e-7a9cf491d897",
+    "table": "Financial & Operational ComparisonSimulated MetricBaselineTreatmentDifferenceGross Fare Value206.699 ₫374.829 ₫+168.130 ₫Rider Payments206.699 ₫194.829 ₫−11.870 ₫Voucher Spend0 ₫180.000 ₫+180.000 ₫Completed Trips69+3Difference = Treatment − Baseline · GFV = rider payments + settled voucher · simulated metrics",
+    "vehicles": [
+      {
+        "coordinate": "[106.695208,10.76798]",
+        "dispatchVehicle": "GSM-01",
+        "progress": "0",
+        "status": "idle"
+      },
+      {
+        "coordinate": "[106.713702,10.770232]",
+        "dispatchVehicle": "GSM-02",
+        "progress": "0",
+        "status": "idle"
+      },
+      {
+        "coordinate": "[106.70650395190049,10.77429192343365]",
+        "dispatchVehicle": "GSM-03",
+        "progress": "0.21836128456735715",
+        "status": "on_trip"
+      },
+      {
+        "coordinate": "[106.689238,10.773415]",
+        "dispatchVehicle": "GSM-04",
+        "progress": "0",
+        "status": "idle"
+      },
+      {
+        "coordinate": "[106.693367,10.783497]",
+        "dispatchVehicle": "GSM-05",
+        "progress": "0",
+        "status": "idle"
+      }
+    ],
+    "viewport": {
+      "height": 900,
+      "width": 1440
+    }
+  },
+  {
+    "name": "voucher-windowed-paused",
+    "analytics": {
+      "bottom": 838.7000122070312,
+      "height": 766.7000122070312,
+      "left": 1016.0125122070312,
+      "right": 1440.000030517578,
+      "top": 72,
+      "width": 423.9875183105469,
+      "x": 1016.0125122070312,
+      "y": 72
+    },
+    "analyticsScroll": 0,
+    "canvas": {
+      "bottom": 808.8000030517578,
+      "height": 670,
+      "left": 466.8000183105469,
+      "right": 1002.8000183105468,
+      "top": 138.8000030517578,
+      "width": 536,
+      "x": 466.8000183105469,
+      "y": 138.8000030517578
+    },
+    "canvasSize": {
+      "height": 670,
+      "width": 536
+    },
+    "canvases": 1,
+    "clock": {
+      "clockMetrics": "{\"frameSamples\":36,\"meanFrameMilliseconds\":96.55555555621848,\"maxFrameMilliseconds\":216.80000000004657}",
+      "experimentArm": "treatment",
+      "experimentClock": "paused",
+      "experimentTime": "1005.2703999938965"
+    },
+    "dashboard": {
+      "experimentDelta": "{\"bookingUplift\":3,\"incrementalCompleted\":3,\"costPerIncrementalCompletionVnd\":60000}",
+      "experimentId": "da5babf709473ce8f527dff8f6ac911484e6745b7583d7c11b39707a32117106",
+      "experimentMetrics": "{\"baseline\":{\"validPotential\":18,\"invalidPotential\":0,\"accepted\":7,\"assigned\":7,\"pickedUp\":7,\"completed\":6,\"unserved\":0,\"conversionRate\":0.3888888888888889,\"completionRate\":0.8571428571428571,\"averageWaitSeconds\":116.12857142857142,\"averagePickupEtaSeconds\":116.12857142857145,\"averageTripSeconds\":182.91666666666666,\"emptyMeters\":8657,\"occupiedMeters\":12928.64160501797,\"utilization\":0.3928740764685573,\"grossFareVnd\":206699,\"voucherSpendVnd\":0,\"riderPaymentsVnd\":206699,\"budget\":{\"total\":0,\"reserved\":0,\"spent\":0,\"available\":0},\"voucherCounts\":{\"OFFERED\":0,\"RESERVED\":0,\"SETTLED\":0,\"RELEASED\":0}},\"treatment\":{\"validPotential\":18,\"invalidPotential\":0,\"accepted\":10,\"assigned\":10,\"pickedUp\":10,\"completed\":9,\"unserved\":0,\"conversionRate\":0.5555555555555556,\"completionRate\":0.9,\"averageWaitSeconds\":142.2998,\"averagePickupEtaSeconds\":133.35,\"averageTripSeconds\":228.5,\"emptyMeters\":15497.9,\"occupiedMeters\":24907.243113492546,\"utilization\":0.6957494023528652,\"grossFareVnd\":374829,\"voucherSpendVnd\":180000,\"riderPaymentsVnd\":194829,\"budget\":{\"total\":200000,\"reserved\":20000,\"spent\":180000,\"available\":0},\"voucherCounts\":{\"OFFERED\":15,\"RESERVED\":10,\"SETTLED\":9,\"RELEASED\":0}}}",
+      "kpiScope": "observed",
+      "kpiTime": "1005.2703999938965"
+    },
+    "dock": {
+      "bottom": 900.0000114440918,
+      "height": 61.29999923706055,
+      "left": 0,
+      "right": 1440,
+      "top": 838.7000122070312,
+      "width": 1440,
+      "x": 0,
+      "y": 838.7000122070312
+    },
+    "dockData": {
+      "dockDuration": "2115.1910000000003",
+      "dockSpeed": "64",
+      "dockState": "paused",
+      "dockTime": "1005.2703999938965"
+    },
+    "document": {
+      "height": 900,
+      "width": 1440
+    },
+    "inspectorScroll": 0,
+    "map": {
+      "bottom": 838.7000122070312,
+      "height": 766.7000122070312,
+      "left": 454,
+      "right": 1016.0125122070312,
+      "top": 72,
+      "width": 562.0125122070312,
+      "x": 454,
+      "y": 72
+    },
+    "mapId": "e92df519-9cbd-4dda-a79e-7a9cf491d897",
+    "table": "Financial & Operational ComparisonSimulated MetricBaselineTreatmentDifferenceGross Fare Value206.699 ₫374.829 ₫+168.130 ₫Rider Payments206.699 ₫194.829 ₫−11.870 ₫Voucher Spend0 ₫180.000 ₫+180.000 ₫Completed Trips69+3Difference = Treatment − Baseline · GFV = rider payments + settled voucher · simulated metrics",
+    "vehicles": [
+      {
+        "coordinate": "[106.695208,10.76798]",
+        "dispatchVehicle": "GSM-01",
+        "progress": "0",
+        "status": "idle"
+      },
+      {
+        "coordinate": "[106.713702,10.770232]",
+        "dispatchVehicle": "GSM-02",
+        "progress": "0",
+        "status": "idle"
+      },
+      {
+        "coordinate": "[106.7055635490261,10.768685411935223]",
+        "dispatchVehicle": "GSM-03",
+        "progress": "0.47761552182826295",
+        "status": "on_trip"
+      },
+      {
+        "coordinate": "[106.689238,10.773415]",
+        "dispatchVehicle": "GSM-04",
+        "progress": "0",
+        "status": "idle"
+      },
+      {
+        "coordinate": "[106.693367,10.783497]",
+        "dispatchVehicle": "GSM-05",
+        "progress": "0",
+        "status": "idle"
+      }
+    ],
+    "viewport": {
+      "height": 900,
+      "width": 1440
+    }
+  },
+  {
+    "name": "laptop-1366-analytics-scroll-playing",
+    "analytics": {
+      "bottom": 706.7000122070312,
+      "height": 634.7000122070312,
+      "left": 974.0625,
+      "right": 1366.3999938964844,
+      "top": 72,
+      "width": 392.3374938964844,
+      "x": 974.0625,
+      "y": 72
+    },
+    "analyticsScroll": 2803.199951171875,
+    "canvas": {
+      "bottom": 676.8000030517578,
+      "height": 538,
+      "left": 466.8000183105469,
+      "right": 960.8000183105468,
+      "top": 138.8000030517578,
+      "width": 494,
+      "x": 466.8000183105469,
+      "y": 138.8000030517578
+    },
+    "canvasSize": {
+      "height": 538,
+      "width": 494
+    },
+    "canvases": 1,
+    "clock": {
+      "clockMetrics": "{\"frameSamples\":22,\"meanFrameMilliseconds\":118.34545454870782,\"maxFrameMilliseconds\":600.1999999999534}",
+      "experimentArm": "treatment",
+      "experimentClock": "playing",
+      "experimentTime": "1171.9007999984772"
+    },
+    "dashboard": {
+      "experimentDelta": "{\"bookingUplift\":3,\"incrementalCompleted\":3,\"costPerIncrementalCompletionVnd\":66666.66666666667}",
+      "experimentId": "da5babf709473ce8f527dff8f6ac911484e6745b7583d7c11b39707a32117106",
+      "experimentMetrics": "{\"baseline\":{\"validPotential\":19,\"invalidPotential\":0,\"accepted\":8,\"assigned\":8,\"pickedUp\":7,\"completed\":7,\"unserved\":0,\"conversionRate\":0.42105263157894735,\"completionRate\":0.875,\"averageWaitSeconds\":116.12857142857142,\"averagePickupEtaSeconds\":115.57500000000002,\"averageTripSeconds\":188.81428571428572,\"emptyMeters\":9569.53794270367,\"occupiedMeters\":14677.800000000001,\"utilization\":0.3813830913748932,\"grossFareVnd\":246134,\"voucherSpendVnd\":0,\"riderPaymentsVnd\":246134,\"budget\":{\"total\":0,\"reserved\":0,\"spent\":0,\"available\":0},\"voucherCounts\":{\"OFFERED\":0,\"RESERVED\":0,\"SETTLED\":0,\"RELEASED\":0}},\"treatment\":{\"validPotential\":19,\"invalidPotential\":0,\"accepted\":11,\"assigned\":11,\"pickedUp\":10,\"completed\":10,\"unserved\":0,\"conversionRate\":0.5789473684210527,\"completionRate\":0.9090909090909091,\"averageWaitSeconds\":142.2998,\"averagePickupEtaSeconds\":144.57272727272726,\"averageTripSeconds\":228.07,\"emptyMeters\":16495.78906308411,\"occupiedMeters\":26188.6,\"utilization\":0.6340901793339024,\"grossFareVnd\":414264,\"voucherSpendVnd\":200000,\"riderPaymentsVnd\":214264,\"budget\":{\"total\":200000,\"reserved\":0,\"spent\":200000,\"available\":0},\"voucherCounts\":{\"OFFERED\":15,\"RESERVED\":10,\"SETTLED\":10,\"RELEASED\":0}}}",
+      "kpiScope": "observed",
+      "kpiTime": "1171"
+    },
+    "dock": {
+      "bottom": 768.0000114440918,
+      "height": 61.29999923706055,
+      "left": 0,
+      "right": 1366.4000244140625,
+      "top": 706.7000122070312,
+      "width": 1366.4000244140625,
+      "x": 0,
+      "y": 706.7000122070312
+    },
+    "dockData": {
+      "dockDuration": "2115.1910000000003",
+      "dockSpeed": "64",
+      "dockState": "playing",
+      "dockTime": "1171.9007999984772"
+    },
+    "document": {
+      "height": 768,
+      "width": 1366
+    },
+    "inspectorScroll": 0,
+    "map": {
+      "bottom": 706.7000122070312,
+      "height": 634.7000122070312,
+      "left": 454,
+      "right": 974.0625,
+      "top": 72,
+      "width": 520.0625,
+      "x": 454,
+      "y": 72
+    },
+    "mapId": "e92df519-9cbd-4dda-a79e-7a9cf491d897",
+    "table": "Financial & Operational ComparisonSimulated MetricBaselineTreatmentDifferenceGross Fare Value246.134 ₫414.264 ₫+168.130 ₫Rider Payments246.134 ₫214.264 ₫−31.870 ₫Voucher Spend0 ₫200.000 ₫+200.000 ₫Completed Trips710+3Difference = Treatment − Baseline · GFV = rider payments + settled voucher · simulated metrics",
+    "vehicles": [
+      {
+        "coordinate": "[106.69853993730248,10.763211261947847]",
+        "dispatchVehicle": "GSM-01",
+        "progress": "0.3866775700875276",
+        "status": "en_route_to_pickup"
+      },
+      {
+        "coordinate": "[106.713702,10.770232]",
+        "dispatchVehicle": "GSM-02",
+        "progress": "0",
+        "status": "idle"
+      },
+      {
+        "coordinate": "[106.710119,10.759442]",
+        "dispatchVehicle": "GSM-03",
+        "progress": "0",
+        "status": "idle"
+      },
+      {
+        "coordinate": "[106.689238,10.773415]",
+        "dispatchVehicle": "GSM-04",
+        "progress": "0",
+        "status": "idle"
+      },
+      {
+        "coordinate": "[106.693367,10.783497]",
+        "dispatchVehicle": "GSM-05",
+        "progress": "0",
+        "status": "idle"
+      }
+    ],
+    "viewport": {
+      "height": 768,
+      "width": 1366
+    }
+  },
+  {
+    "name": "laptop-inspector-scroll-playing",
+    "analytics": {
+      "bottom": 706.7000122070312,
+      "height": 634.7000122070312,
+      "left": 974.0625,
+      "right": 1366.3999938964844,
+      "top": 72,
+      "width": 392.3374938964844,
+      "x": 974.0625,
+      "y": 72
+    },
+    "analyticsScroll": 2803.199951171875,
+    "canvas": {
+      "bottom": 676.8000030517578,
+      "height": 538,
+      "left": 466.8000183105469,
+      "right": 960.8000183105468,
+      "top": 138.8000030517578,
+      "width": 494,
+      "x": 466.8000183105469,
+      "y": 138.8000030517578
+    },
+    "canvasSize": {
+      "height": 538,
+      "width": 494
+    },
+    "canvases": 1,
+    "clock": {
+      "clockMetrics": "{\"frameSamples\":45,\"meanFrameMilliseconds\":103.04000000158946,\"maxFrameMilliseconds\":600.1999999999534}",
+      "experimentArm": "treatment",
+      "experimentClock": "playing",
+      "experimentTime": "1302.0255999984743"
+    },
+    "dashboard": {
+      "experimentDelta": "{\"bookingUplift\":3,\"incrementalCompleted\":2,\"costPerIncrementalCompletionVnd\":100000}",
+      "experimentId": "da5babf709473ce8f527dff8f6ac911484e6745b7583d7c11b39707a32117106",
+      "experimentMetrics": "{\"baseline\":{\"validPotential\":21,\"invalidPotential\":0,\"accepted\":8,\"assigned\":8,\"pickedUp\":8,\"completed\":8,\"unserved\":0,\"conversionRate\":0.38095238095238093,\"completionRate\":1,\"averageWaitSeconds\":115.575,\"averagePickupEtaSeconds\":115.57500000000002,\"averageTripSeconds\":175.4125,\"emptyMeters\":9692.900000000001,\"occupiedMeters\":15426.800000000001,\"utilization\":0.3575883256528417,\"grossFareVnd\":265122,\"voucherSpendVnd\":0,\"riderPaymentsVnd\":265122,\"budget\":{\"total\":0,\"reserved\":0,\"spent\":0,\"available\":0},\"voucherCounts\":{\"OFFERED\":0,\"RESERVED\":0,\"SETTLED\":0,\"RELEASED\":0}},\"treatment\":{\"validPotential\":21,\"invalidPotential\":0,\"accepted\":11,\"assigned\":11,\"pickedUp\":10,\"completed\":10,\"unserved\":0,\"conversionRate\":0.5238095238095238,\"completionRate\":0.9090909090909091,\"averageWaitSeconds\":142.2998,\"averagePickupEtaSeconds\":144.57272727272726,\"averageTripSeconds\":228.07,\"emptyMeters\":17824.306586448598,\"occupiedMeters\":26188.6,\"utilization\":0.5904144393241166,\"grossFareVnd\":414264,\"voucherSpendVnd\":200000,\"riderPaymentsVnd\":214264,\"budget\":{\"total\":200000,\"reserved\":0,\"spent\":200000,\"available\":0},\"voucherCounts\":{\"OFFERED\":15,\"RESERVED\":10,\"SETTLED\":10,\"RELEASED\":0}}}",
+      "kpiScope": "observed",
+      "kpiTime": "1302"
+    },
+    "dock": {
+      "bottom": 768.0000114440918,
+      "height": 61.29999923706055,
+      "left": 0,
+      "right": 1366.4000244140625,
+      "top": 706.7000122070312,
+      "width": 1366.4000244140625,
+      "x": 0,
+      "y": 706.7000122070312
+    },
+    "dockData": {
+      "dockDuration": "2115.1910000000003",
+      "dockSpeed": "64",
+      "dockState": "playing",
+      "dockTime": "1302.0255999984743"
+    },
+    "document": {
+      "height": 768,
+      "width": 1366
+    },
+    "inspectorScroll": 0,
+    "map": {
+      "bottom": 706.7000122070312,
+      "height": 634.7000122070312,
+      "left": 454,
+      "right": 974.0625,
+      "top": 72,
+      "width": 520.0625,
+      "x": 454,
+      "y": 72
+    },
+    "mapId": "e92df519-9cbd-4dda-a79e-7a9cf491d897",
+    "table": "Financial & Operational ComparisonSimulated MetricBaselineTreatmentDifferenceGross Fare Value265.122 ₫414.264 ₫+149.142 ₫Rider Payments265.122 ₫214.264 ₫−50.858 ₫Voucher Spend0 ₫200.000 ₫+200.000 ₫Completed Trips810+2Difference = Treatment − Baseline · GFV = rider payments + settled voucher · simulated metrics",
+    "vehicles": [
+      {
+        "coordinate": "[106.70794773692074,10.760731546897789]",
+        "dispatchVehicle": "GSM-01",
+        "progress": "0.8933940809909432",
+        "status": "en_route_to_pickup"
+      },
+      {
+        "coordinate": "[106.713702,10.770232]",
+        "dispatchVehicle": "GSM-02",
+        "progress": "0",
+        "status": "idle"
+      },
+      {
+        "coordinate": "[106.710119,10.759442]",
+        "dispatchVehicle": "GSM-03",
+        "progress": "0",
+        "status": "idle"
+      },
+      {
+        "coordinate": "[106.689238,10.773415]",
+        "dispatchVehicle": "GSM-04",
+        "progress": "0",
+        "status": "idle"
+      },
+      {
+        "coordinate": "[106.693367,10.783497]",
+        "dispatchVehicle": "GSM-05",
+        "progress": "0",
+        "status": "idle"
+      }
+    ],
+    "viewport": {
+      "height": 768,
+      "width": 1366
+    }
+  },
+  {
+    "name": "laptop-paused",
+    "analytics": {
+      "bottom": 706.7000122070312,
+      "height": 634.7000122070312,
+      "left": 974.0625,
+      "right": 1366.3999938964844,
+      "top": 72,
+      "width": 392.3374938964844,
+      "x": 974.0625,
+      "y": 72
+    },
+    "analyticsScroll": 2766.39990234375,
+    "canvas": {
+      "bottom": 676.8000030517578,
+      "height": 538,
+      "left": 466.8000183105469,
+      "right": 960.8000183105468,
+      "top": 138.8000030517578,
+      "width": 494,
+      "x": 466.8000183105469,
+      "y": 138.8000030517578
+    },
+    "canvasSize": {
+      "height": 538,
+      "width": 494
+    },
+    "canvases": 1,
+    "clock": {
+      "clockMetrics": "{\"frameSamples\":53,\"meanFrameMilliseconds\":100.69622641644344,\"maxFrameMilliseconds\":600.1999999999534}",
+      "experimentArm": "treatment",
+      "experimentClock": "paused",
+      "experimentTime": "1365.6351999969484"
+    },
+    "dashboard": {
+      "experimentDelta": "{\"bookingUplift\":3,\"incrementalCompleted\":2,\"costPerIncrementalCompletionVnd\":100000}",
+      "experimentId": "da5babf709473ce8f527dff8f6ac911484e6745b7583d7c11b39707a32117106",
+      "experimentMetrics": "{\"baseline\":{\"validPotential\":22,\"invalidPotential\":0,\"accepted\":9,\"assigned\":9,\"pickedUp\":8,\"completed\":8,\"unserved\":0,\"conversionRate\":0.4090909090909091,\"completionRate\":0.8888888888888888,\"averageWaitSeconds\":115.575,\"averagePickupEtaSeconds\":136.0666666666667,\"averageTripSeconds\":175.4125,\"emptyMeters\":10239.660093899798,\"occupiedMeters\":15426.800000000001,\"utilization\":0.348211909007949,\"grossFareVnd\":265122,\"voucherSpendVnd\":0,\"riderPaymentsVnd\":265122,\"budget\":{\"total\":0,\"reserved\":0,\"spent\":0,\"available\":0},\"voucherCounts\":{\"OFFERED\":0,\"RESERVED\":0,\"SETTLED\":0,\"RELEASED\":0}},\"treatment\":{\"validPotential\":22,\"invalidPotential\":0,\"accepted\":12,\"assigned\":12,\"pickedUp\":11,\"completed\":10,\"unserved\":0,\"conversionRate\":0.5454545454545454,\"completionRate\":0.8333333333333334,\"averageWaitSeconds\":152.7089090909091,\"averagePickupEtaSeconds\":146.23333333333332,\"averageTripSeconds\":228.07,\"emptyMeters\":18586.08173115573,\"occupiedMeters\":26521.18170095238,\"utilization\":0.5795084075165517,\"grossFareVnd\":414264,\"voucherSpendVnd\":200000,\"riderPaymentsVnd\":214264,\"budget\":{\"total\":200000,\"reserved\":0,\"spent\":200000,\"available\":0},\"voucherCounts\":{\"OFFERED\":15,\"RESERVED\":10,\"SETTLED\":10,\"RELEASED\":0}}}",
+      "kpiScope": "observed",
+      "kpiTime": "1365.6351999969484"
+    },
+    "dock": {
+      "bottom": 768.0000114440918,
+      "height": 61.29999923706055,
+      "left": 0,
+      "right": 1366.4000244140625,
+      "top": 706.7000122070312,
+      "width": 1366.4000244140625,
+      "x": 0,
+      "y": 706.7000122070312
+    },
+    "dockData": {
+      "dockDuration": "2115.1910000000003",
+      "dockSpeed": "64",
+      "dockState": "paused",
+      "dockTime": "1365.6351999969484"
+    },
+    "document": {
+      "height": 768,
+      "width": 1366
+    },
+    "inspectorScroll": 0,
+    "map": {
+      "bottom": 706.7000122070312,
+      "height": 634.7000122070312,
+      "left": 454,
+      "right": 974.0625,
+      "top": 72,
+      "width": 520.0625,
+      "x": 454,
+      "y": 72
+    },
+    "mapId": "e92df519-9cbd-4dda-a79e-7a9cf491d897",
+    "table": "Financial & Operational ComparisonSimulated MetricBaselineTreatmentDifferenceGross Fare Value265.122 ₫414.264 ₫+149.142 ₫Rider Payments265.122 ₫214.264 ₫−50.858 ₫Voucher Spend0 ₫200.000 ₫+200.000 ₫Completed Trips810+2Difference = Treatment − Baseline · GFV = rider payments + settled voucher · simulated metrics",
+    "vehicles": [
+      {
+        "coordinate": "[106.70750322402685,10.760967041189538]",
+        "dispatchVehicle": "GSM-01",
+        "progress": "0.4440343136880926",
+        "status": "on_trip"
+      },
+      {
+        "coordinate": "[106.71664323794937,10.772015196327986]",
+        "dispatchVehicle": "GSM-02",
+        "progress": "0.3024449847838804",
+        "status": "en_route_to_pickup"
+      },
+      {
+        "coordinate": "[106.710119,10.759442]",
+        "dispatchVehicle": "GSM-03",
+        "progress": "0",
+        "status": "idle"
+      },
+      {
+        "coordinate": "[106.689238,10.773415]",
+        "dispatchVehicle": "GSM-04",
+        "progress": "0",
+        "status": "idle"
+      },
+      {
+        "coordinate": "[106.693367,10.783497]",
+        "dispatchVehicle": "GSM-05",
+        "progress": "0",
+        "status": "idle"
+      }
+    ],
+    "viewport": {
+      "height": 768,
+      "width": 1366
+    }
+  },
+  {
+    "name": "laptop-expanded-inspector-scroll",
+    "analytics": {
+      "bottom": 706.7000122070312,
+      "height": 634.7000122070312,
+      "left": 974.0625,
+      "right": 1366.3999938964844,
+      "top": 72,
+      "width": 392.3374938964844,
+      "x": 974.0625,
+      "y": 72
+    },
+    "analyticsScroll": 2766.39990234375,
+    "canvas": {
+      "bottom": 676.8000030517578,
+      "height": 538,
+      "left": 466.8000183105469,
+      "right": 960.8000183105468,
+      "top": 138.8000030517578,
+      "width": 494,
+      "x": 466.8000183105469,
+      "y": 138.8000030517578
+    },
+    "canvasSize": {
+      "height": 538,
+      "width": 494
+    },
+    "canvases": 1,
+    "clock": {
+      "clockMetrics": "{\"frameSamples\":53,\"meanFrameMilliseconds\":100.69622641644344,\"maxFrameMilliseconds\":600.1999999999534}",
+      "experimentArm": "treatment",
+      "experimentClock": "paused",
+      "experimentTime": "1365.6351999969484"
+    },
+    "dashboard": {
+      "experimentDelta": "{\"bookingUplift\":3,\"incrementalCompleted\":2,\"costPerIncrementalCompletionVnd\":100000}",
+      "experimentId": "da5babf709473ce8f527dff8f6ac911484e6745b7583d7c11b39707a32117106",
+      "experimentMetrics": "{\"baseline\":{\"validPotential\":22,\"invalidPotential\":0,\"accepted\":9,\"assigned\":9,\"pickedUp\":8,\"completed\":8,\"unserved\":0,\"conversionRate\":0.4090909090909091,\"completionRate\":0.8888888888888888,\"averageWaitSeconds\":115.575,\"averagePickupEtaSeconds\":136.0666666666667,\"averageTripSeconds\":175.4125,\"emptyMeters\":10239.660093899798,\"occupiedMeters\":15426.800000000001,\"utilization\":0.348211909007949,\"grossFareVnd\":265122,\"voucherSpendVnd\":0,\"riderPaymentsVnd\":265122,\"budget\":{\"total\":0,\"reserved\":0,\"spent\":0,\"available\":0},\"voucherCounts\":{\"OFFERED\":0,\"RESERVED\":0,\"SETTLED\":0,\"RELEASED\":0}},\"treatment\":{\"validPotential\":22,\"invalidPotential\":0,\"accepted\":12,\"assigned\":12,\"pickedUp\":11,\"completed\":10,\"unserved\":0,\"conversionRate\":0.5454545454545454,\"completionRate\":0.8333333333333334,\"averageWaitSeconds\":152.7089090909091,\"averagePickupEtaSeconds\":146.23333333333332,\"averageTripSeconds\":228.07,\"emptyMeters\":18586.08173115573,\"occupiedMeters\":26521.18170095238,\"utilization\":0.5795084075165517,\"grossFareVnd\":414264,\"voucherSpendVnd\":200000,\"riderPaymentsVnd\":214264,\"budget\":{\"total\":200000,\"reserved\":0,\"spent\":200000,\"available\":0},\"voucherCounts\":{\"OFFERED\":15,\"RESERVED\":10,\"SETTLED\":10,\"RELEASED\":0}}}",
+      "kpiScope": "observed",
+      "kpiTime": "1365.6351999969484"
+    },
+    "dock": {
+      "bottom": 768.0000114440918,
+      "height": 61.29999923706055,
+      "left": 0,
+      "right": 1366.4000244140625,
+      "top": 706.7000122070312,
+      "width": 1366.4000244140625,
+      "x": 0,
+      "y": 706.7000122070312
+    },
+    "dockData": {
+      "dockDuration": "2115.1910000000003",
+      "dockSpeed": "64",
+      "dockState": "paused",
+      "dockTime": "1365.6351999969484"
+    },
+    "document": {
+      "height": 768,
+      "width": 1366
+    },
+    "inspectorScroll": 713.5999755859375,
+    "map": {
+      "bottom": 706.7000122070312,
+      "height": 634.7000122070312,
+      "left": 454,
+      "right": 974.0625,
+      "top": 72,
+      "width": 520.0625,
+      "x": 454,
+      "y": 72
+    },
+    "mapId": "e92df519-9cbd-4dda-a79e-7a9cf491d897",
+    "table": "Financial & Operational ComparisonSimulated MetricBaselineTreatmentDifferenceGross Fare Value265.122 ₫414.264 ₫+149.142 ₫Rider Payments265.122 ₫214.264 ₫−50.858 ₫Voucher Spend0 ₫200.000 ₫+200.000 ₫Completed Trips810+2Difference = Treatment − Baseline · GFV = rider payments + settled voucher · simulated metrics",
+    "vehicles": [
+      {
+        "coordinate": "[106.70750322402685,10.760967041189538]",
+        "dispatchVehicle": "GSM-01",
+        "progress": "0.4440343136880926",
+        "status": "on_trip"
+      },
+      {
+        "coordinate": "[106.71664323794937,10.772015196327986]",
+        "dispatchVehicle": "GSM-02",
+        "progress": "0.3024449847838804",
+        "status": "en_route_to_pickup"
+      },
+      {
+        "coordinate": "[106.710119,10.759442]",
+        "dispatchVehicle": "GSM-03",
+        "progress": "0",
+        "status": "idle"
+      },
+      {
+        "coordinate": "[106.689238,10.773415]",
+        "dispatchVehicle": "GSM-04",
+        "progress": "0",
+        "status": "idle"
+      },
+      {
+        "coordinate": "[106.693367,10.783497]",
+        "dispatchVehicle": "GSM-05",
+        "progress": "0",
+        "status": "idle"
+      }
+    ],
+    "viewport": {
+      "height": 768,
+      "width": 1366
+    }
+  },
+  {
+    "name": "laptop-financial-final",
+    "analytics": {
+      "bottom": 706.7000122070312,
+      "height": 634.7000122070312,
+      "left": 856.2374877929688,
+      "right": 1366.3999938964844,
+      "top": 72,
+      "width": 510.1625061035156,
+      "x": 856.2374877929688,
+      "y": 72
+    },
+    "analyticsScroll": 0,
+    "canvas": {
+      "bottom": 676.8000030517578,
+      "height": 538,
+      "left": 192.8000030517578,
+      "right": 843.8000030517578,
+      "top": 138.8000030517578,
+      "width": 651,
+      "x": 192.8000030517578,
+      "y": 138.8000030517578
+    },
+    "canvasSize": {
+      "height": 538,
+      "width": 651
+    },
+    "canvases": 1,
+    "clock": {
+      "clockMetrics": "{\"frameSamples\":53,\"meanFrameMilliseconds\":100.69622641644344,\"maxFrameMilliseconds\":600.1999999999534}",
+      "experimentArm": "treatment",
+      "experimentClock": "paused",
+      "experimentTime": "1365.6351999969484"
+    },
+    "dashboard": {
+      "experimentDelta": "{\"bookingUplift\":3,\"incrementalCompleted\":3,\"costPerIncrementalCompletionVnd\":66666.66666666667}",
+      "experimentId": "da5babf709473ce8f527dff8f6ac911484e6745b7583d7c11b39707a32117106",
+      "experimentMetrics": "{\"baseline\":{\"validPotential\":30,\"invalidPotential\":0,\"accepted\":13,\"assigned\":13,\"pickedUp\":13,\"completed\":13,\"unserved\":0,\"conversionRate\":0.43333333333333335,\"completionRate\":1,\"averageWaitSeconds\":145.46153846153845,\"averagePickupEtaSeconds\":145.46153846153848,\"averageTripSeconds\":186.62307692307692,\"emptyMeters\":20291.300000000003,\"occupiedMeters\":27910.699999999997,\"utilization\":0.40819954320910024,\"grossFareVnd\":464928,\"voucherSpendVnd\":0,\"riderPaymentsVnd\":464928,\"budget\":{\"total\":0,\"reserved\":0,\"spent\":0,\"available\":0},\"voucherCounts\":{\"OFFERED\":0,\"RESERVED\":0,\"SETTLED\":0,\"RELEASED\":0}},\"treatment\":{\"validPotential\":30,\"invalidPotential\":0,\"accepted\":16,\"assigned\":16,\"pickedUp\":16,\"completed\":16,\"unserved\":0,\"conversionRate\":0.5333333333333333,\"completionRate\":1,\"averageWaitSeconds\":142.70612500000001,\"averagePickupEtaSeconds\":137.11249999999998,\"averageTripSeconds\":211.56875,\"emptyMeters\":24433.4,\"occupiedMeters\":39421.5,\"utilization\":0.5275079177246875,\"grossFareVnd\":633058,\"voucherSpendVnd\":200000,\"riderPaymentsVnd\":433058,\"budget\":{\"total\":200000,\"reserved\":0,\"spent\":200000,\"available\":0},\"voucherCounts\":{\"OFFERED\":15,\"RESERVED\":10,\"SETTLED\":10,\"RELEASED\":0}}}",
+      "kpiScope": "final",
+      "kpiTime": "2115.1910000000003"
+    },
+    "dock": {
+      "bottom": 768.0000114440918,
+      "height": 61.29999923706055,
+      "left": 0,
+      "right": 1366.4000244140625,
+      "top": 706.7000122070312,
+      "width": 1366.4000244140625,
+      "x": 0,
+      "y": 706.7000122070312
+    },
+    "dockData": {
+      "dockDuration": "2115.1910000000003",
+      "dockSpeed": "64",
+      "dockState": "paused",
+      "dockTime": "1365.6351999969484"
+    },
+    "document": {
+      "height": 768,
+      "width": 1366
+    },
+    "inspectorScroll": 0,
+    "map": {
+      "bottom": 706.7000122070312,
+      "height": 634.7000122070312,
+      "left": 180,
+      "right": 856.2374877929688,
+      "top": 72,
+      "width": 676.2374877929688,
+      "x": 180,
+      "y": 72
+    },
+    "mapId": "e92df519-9cbd-4dda-a79e-7a9cf491d897",
+    "table": "Financial & Operational ComparisonSimulated MetricBaselineTreatmentDifferenceGross Fare Value464.928 ₫633.058 ₫+168.130 ₫Rider Payments464.928 ₫433.058 ₫−31.870 ₫Voucher Spend0 ₫200.000 ₫+200.000 ₫Completed Trips1316+3Difference = Treatment − Baseline · GFV = rider payments + settled voucher · simulated metrics",
+    "vehicles": [
+      {
+        "coordinate": "[106.70750322402685,10.760967041189538]",
+        "dispatchVehicle": "GSM-01",
+        "progress": "0.4440343136880926",
+        "status": "on_trip"
+      },
+      {
+        "coordinate": "[106.71664323794937,10.772015196327986]",
+        "dispatchVehicle": "GSM-02",
+        "progress": "0.3024449847838804",
+        "status": "en_route_to_pickup"
+      },
+      {
+        "coordinate": "[106.710119,10.759442]",
+        "dispatchVehicle": "GSM-03",
+        "progress": "0",
+        "status": "idle"
+      },
+      {
+        "coordinate": "[106.689238,10.773415]",
+        "dispatchVehicle": "GSM-04",
+        "progress": "0",
+        "status": "idle"
+      },
+      {
+        "coordinate": "[106.693367,10.783497]",
+        "dispatchVehicle": "GSM-05",
+        "progress": "0",
+        "status": "idle"
+      }
+    ],
+    "viewport": {
+      "height": 768,
+      "width": 1366
+    }
+  },
+  {
+    "name": "voucher-64x-last-events",
+    "analytics": {
+      "bottom": 706.7000122070312,
+      "height": 634.7000122070312,
+      "left": 856.2374877929688,
+      "right": 1366.3999938964844,
+      "top": 72,
+      "width": 510.1625061035156,
+      "x": 856.2374877929688,
+      "y": 72
+    },
+    "analyticsScroll": 0,
+    "canvas": {
+      "bottom": 676.8000030517578,
+      "height": 538,
+      "left": 192.8000030517578,
+      "right": 843.8000030517578,
+      "top": 138.8000030517578,
+      "width": 651,
+      "x": 192.8000030517578,
+      "y": 138.8000030517578
+    },
+    "canvasSize": {
+      "height": 538,
+      "width": 651
+    },
+    "canvases": 1,
+    "clock": {
+      "clockMetrics": "{\"frameSamples\":4,\"meanFrameMilliseconds\":163.9750000119093,\"maxFrameMilliseconds\":472.5}",
+      "experimentArm": "treatment",
+      "experimentClock": "playing",
+      "experimentTime": "2041.9776000030488"
+    },
+    "dashboard": {
+      "experimentDelta": "{\"bookingUplift\":3,\"incrementalCompleted\":3,\"costPerIncrementalCompletionVnd\":66666.66666666667}",
+      "experimentId": "da5babf709473ce8f527dff8f6ac911484e6745b7583d7c11b39707a32117106",
+      "experimentMetrics": "{\"baseline\":{\"validPotential\":30,\"invalidPotential\":0,\"accepted\":13,\"assigned\":13,\"pickedUp\":13,\"completed\":13,\"unserved\":0,\"conversionRate\":0.43333333333333335,\"completionRate\":1,\"averageWaitSeconds\":145.46153846153845,\"averagePickupEtaSeconds\":145.46153846153848,\"averageTripSeconds\":186.62307692307692,\"emptyMeters\":20291.300000000003,\"occupiedMeters\":27910.699999999997,\"utilization\":0.40819954320910024,\"grossFareVnd\":464928,\"voucherSpendVnd\":0,\"riderPaymentsVnd\":464928,\"budget\":{\"total\":0,\"reserved\":0,\"spent\":0,\"available\":0},\"voucherCounts\":{\"OFFERED\":0,\"RESERVED\":0,\"SETTLED\":0,\"RELEASED\":0}},\"treatment\":{\"validPotential\":30,\"invalidPotential\":0,\"accepted\":16,\"assigned\":16,\"pickedUp\":16,\"completed\":16,\"unserved\":0,\"conversionRate\":0.5333333333333333,\"completionRate\":1,\"averageWaitSeconds\":142.70612500000001,\"averagePickupEtaSeconds\":137.11249999999998,\"averageTripSeconds\":211.56875,\"emptyMeters\":24433.4,\"occupiedMeters\":39421.5,\"utilization\":0.5275079177246875,\"grossFareVnd\":633058,\"voucherSpendVnd\":200000,\"riderPaymentsVnd\":433058,\"budget\":{\"total\":200000,\"reserved\":0,\"spent\":200000,\"available\":0},\"voucherCounts\":{\"OFFERED\":15,\"RESERVED\":10,\"SETTLED\":10,\"RELEASED\":0}}}",
+      "kpiScope": "final",
+      "kpiTime": "2115.1910000000003"
+    },
+    "dock": {
+      "bottom": 768.0000114440918,
+      "height": 61.29999923706055,
+      "left": 0,
+      "right": 1366.4000244140625,
+      "top": 706.7000122070312,
+      "width": 1366.4000244140625,
+      "x": 0,
+      "y": 706.7000122070312
+    },
+    "dockData": {
+      "dockDuration": "2115.1910000000003",
+      "dockSpeed": "64",
+      "dockState": "playing",
+      "dockTime": "2041.9776000030488"
+    },
+    "document": {
+      "height": 768,
+      "width": 1366
+    },
+    "inspectorScroll": 0,
+    "map": {
+      "bottom": 706.7000122070312,
+      "height": 634.7000122070312,
+      "left": 180,
+      "right": 856.2374877929688,
+      "top": 72,
+      "width": 676.2374877929688,
+      "x": 180,
+      "y": 72
+    },
+    "mapId": "e92df519-9cbd-4dda-a79e-7a9cf491d897",
+    "table": "Financial & Operational ComparisonSimulated MetricBaselineTreatmentDifferenceGross Fare Value464.928 ₫633.058 ₫+168.130 ₫Rider Payments464.928 ₫433.058 ₫−31.870 ₫Voucher Spend0 ₫200.000 ₫+200.000 ₫Completed Trips1316+3Difference = Treatment − Baseline · GFV = rider payments + settled voucher · simulated metrics",
+    "vehicles": [
+      {
+        "coordinate": "[106.69499,10.767732]",
+        "dispatchVehicle": "GSM-01",
+        "progress": "0",
+        "status": "idle"
+      },
+      {
+        "coordinate": "[106.710119,10.759442]",
+        "dispatchVehicle": "GSM-02",
+        "progress": "0",
+        "status": "idle"
+      },
+      {
+        "coordinate": "[106.710119,10.759442]",
+        "dispatchVehicle": "GSM-03",
+        "progress": "0",
+        "status": "idle"
+      },
+      {
+        "coordinate": "[106.69758623461773,10.776372850753821]",
+        "dispatchVehicle": "GSM-04",
+        "progress": "0.7649631019577787",
+        "status": "on_trip"
+      },
+      {
+        "coordinate": "[106.70621,10.770672]",
+        "dispatchVehicle": "GSM-05",
+        "progress": "0",
+        "status": "idle"
+      }
+    ],
+    "viewport": {
+      "height": 768,
+      "width": 1366
+    }
+  },
+  {
+    "name": "voucher-64x-completed-observed",
+    "analytics": {
+      "bottom": 706.7000122070312,
+      "height": 634.7000122070312,
+      "left": 856.2374877929688,
+      "right": 1366.3999938964844,
+      "top": 72,
+      "width": 510.1625061035156,
+      "x": 856.2374877929688,
+      "y": 72
+    },
+    "analyticsScroll": 0,
+    "canvas": {
+      "bottom": 676.8000030517578,
+      "height": 538,
+      "left": 192.8000030517578,
+      "right": 843.8000030517578,
+      "top": 138.8000030517578,
+      "width": 651,
+      "x": 192.8000030517578,
+      "y": 138.8000030517578
+    },
+    "canvasSize": {
+      "height": 538,
+      "width": 651
+    },
+    "canvases": 1,
+    "clock": {
+      "clockMetrics": "{\"frameSamples\":25,\"meanFrameMilliseconds\":73.42000000190922,\"maxFrameMilliseconds\":472.5}",
+      "experimentArm": "treatment",
+      "experimentClock": "completed",
+      "experimentTime": "2115.1910000000003"
+    },
+    "dashboard": {
+      "experimentDelta": "{\"bookingUplift\":3,\"incrementalCompleted\":3,\"costPerIncrementalCompletionVnd\":66666.66666666667}",
+      "experimentId": "da5babf709473ce8f527dff8f6ac911484e6745b7583d7c11b39707a32117106",
+      "experimentMetrics": "{\"baseline\":{\"validPotential\":30,\"invalidPotential\":0,\"accepted\":13,\"assigned\":13,\"pickedUp\":13,\"completed\":13,\"unserved\":0,\"conversionRate\":0.43333333333333335,\"completionRate\":1,\"averageWaitSeconds\":145.46153846153845,\"averagePickupEtaSeconds\":145.46153846153848,\"averageTripSeconds\":186.62307692307692,\"emptyMeters\":20291.300000000003,\"occupiedMeters\":27910.699999999997,\"utilization\":0.40819954320910024,\"grossFareVnd\":464928,\"voucherSpendVnd\":0,\"riderPaymentsVnd\":464928,\"budget\":{\"total\":0,\"reserved\":0,\"spent\":0,\"available\":0},\"voucherCounts\":{\"OFFERED\":0,\"RESERVED\":0,\"SETTLED\":0,\"RELEASED\":0}},\"treatment\":{\"validPotential\":30,\"invalidPotential\":0,\"accepted\":16,\"assigned\":16,\"pickedUp\":16,\"completed\":16,\"unserved\":0,\"conversionRate\":0.5333333333333333,\"completionRate\":1,\"averageWaitSeconds\":142.70612500000001,\"averagePickupEtaSeconds\":137.11249999999998,\"averageTripSeconds\":211.56875,\"emptyMeters\":24433.4,\"occupiedMeters\":39421.5,\"utilization\":0.5275079177246875,\"grossFareVnd\":633058,\"voucherSpendVnd\":200000,\"riderPaymentsVnd\":433058,\"budget\":{\"total\":200000,\"reserved\":0,\"spent\":200000,\"available\":0},\"voucherCounts\":{\"OFFERED\":15,\"RESERVED\":10,\"SETTLED\":10,\"RELEASED\":0}}}",
+      "kpiScope": "observed",
+      "kpiTime": "2115.1910000000003"
+    },
+    "dock": {
+      "bottom": 768.0000114440918,
+      "height": 61.29999923706055,
+      "left": 0,
+      "right": 1366.4000244140625,
+      "top": 706.7000122070312,
+      "width": 1366.4000244140625,
+      "x": 0,
+      "y": 706.7000122070312
+    },
+    "dockData": {
+      "dockDuration": "2115.1910000000003",
+      "dockSpeed": "64",
+      "dockState": "completed",
+      "dockTime": "2115.1910000000003"
+    },
+    "document": {
+      "height": 768,
+      "width": 1366
+    },
+    "inspectorScroll": 0,
+    "map": {
+      "bottom": 706.7000122070312,
+      "height": 634.7000122070312,
+      "left": 180,
+      "right": 856.2374877929688,
+      "top": 72,
+      "width": 676.2374877929688,
+      "x": 180,
+      "y": 72
+    },
+    "mapId": "e92df519-9cbd-4dda-a79e-7a9cf491d897",
+    "table": "Financial & Operational ComparisonSimulated MetricBaselineTreatmentDifferenceGross Fare Value464.928 ₫633.058 ₫+168.130 ₫Rider Payments464.928 ₫433.058 ₫−31.870 ₫Voucher Spend0 ₫200.000 ₫+200.000 ₫Completed Trips1316+3Difference = Treatment − Baseline · GFV = rider payments + settled voucher · simulated metrics",
+    "vehicles": [
+      {
+        "coordinate": "[106.69499,10.767732]",
+        "dispatchVehicle": "GSM-01",
+        "progress": "0",
+        "status": "idle"
+      },
+      {
+        "coordinate": "[106.710119,10.759442]",
+        "dispatchVehicle": "GSM-02",
+        "progress": "0",
+        "status": "idle"
+      },
+      {
+        "coordinate": "[106.710119,10.759442]",
+        "dispatchVehicle": "GSM-03",
+        "progress": "0",
+        "status": "idle"
+      },
+      {
+        "coordinate": "[106.694479,10.773619]",
+        "dispatchVehicle": "GSM-04",
+        "progress": "0",
+        "status": "idle"
+      },
+      {
+        "coordinate": "[106.70621,10.770672]",
+        "dispatchVehicle": "GSM-05",
+        "progress": "0",
+        "status": "idle"
+      }
+    ],
+    "viewport": {
+      "height": 768,
+      "width": 1366
+    }
+  },
+  {
+    "name": "mobile-map",
+    "analytics": {
+      "bottom": 0,
+      "height": 0,
+      "left": 0,
+      "right": 0,
+      "top": 0,
+      "width": 0,
+      "x": 0,
+      "y": 0
+    },
+    "analyticsScroll": 0,
+    "canvas": {
+      "bottom": 678.8000030517578,
+      "height": 548,
+      "left": 12.800000190734863,
+      "right": 377.80000019073486,
+      "top": 130.8000030517578,
+      "width": 365,
+      "x": 12.800000190734863,
+      "y": 130.8000030517578
+    },
+    "canvasSize": {
+      "height": 548,
+      "width": 365
+    },
+    "canvases": 1,
+    "clock": {
+      "clockMetrics": "{\"frameSamples\":25,\"meanFrameMilliseconds\":73.42000000190922,\"maxFrameMilliseconds\":472.5}",
+      "experimentArm": "treatment",
+      "experimentClock": "completed",
+      "experimentTime": "2115.1910000000003"
+    },
+    "dashboard": {
+      "experimentDelta": "{\"bookingUplift\":3,\"incrementalCompleted\":3,\"costPerIncrementalCompletionVnd\":66666.66666666667}",
+      "experimentId": "da5babf709473ce8f527dff8f6ac911484e6745b7583d7c11b39707a32117106",
+      "experimentMetrics": "{\"baseline\":{\"validPotential\":30,\"invalidPotential\":0,\"accepted\":13,\"assigned\":13,\"pickedUp\":13,\"completed\":13,\"unserved\":0,\"conversionRate\":0.43333333333333335,\"completionRate\":1,\"averageWaitSeconds\":145.46153846153845,\"averagePickupEtaSeconds\":145.46153846153848,\"averageTripSeconds\":186.62307692307692,\"emptyMeters\":20291.300000000003,\"occupiedMeters\":27910.699999999997,\"utilization\":0.40819954320910024,\"grossFareVnd\":464928,\"voucherSpendVnd\":0,\"riderPaymentsVnd\":464928,\"budget\":{\"total\":0,\"reserved\":0,\"spent\":0,\"available\":0},\"voucherCounts\":{\"OFFERED\":0,\"RESERVED\":0,\"SETTLED\":0,\"RELEASED\":0}},\"treatment\":{\"validPotential\":30,\"invalidPotential\":0,\"accepted\":16,\"assigned\":16,\"pickedUp\":16,\"completed\":16,\"unserved\":0,\"conversionRate\":0.5333333333333333,\"completionRate\":1,\"averageWaitSeconds\":142.70612500000001,\"averagePickupEtaSeconds\":137.11249999999998,\"averageTripSeconds\":211.56875,\"emptyMeters\":24433.4,\"occupiedMeters\":39421.5,\"utilization\":0.5275079177246875,\"grossFareVnd\":633058,\"voucherSpendVnd\":200000,\"riderPaymentsVnd\":433058,\"budget\":{\"total\":200000,\"reserved\":0,\"spent\":200000,\"available\":0},\"voucherCounts\":{\"OFFERED\":15,\"RESERVED\":10,\"SETTLED\":10,\"RELEASED\":0}}}",
+      "kpiScope": "observed",
+      "kpiTime": "2115.1910000000003"
+    },
+    "dock": {
+      "bottom": 844.0000457763672,
+      "height": 134.90000915527344,
+      "left": 0,
+      "right": 390.3999938964844,
+      "top": 709.1000366210938,
+      "width": 390.3999938964844,
+      "x": 0,
+      "y": 709.1000366210938
+    },
+    "dockData": {
+      "dockDuration": "2115.1910000000003",
+      "dockSpeed": "64",
+      "dockState": "completed",
+      "dockTime": "2115.1910000000003"
+    },
+    "document": {
+      "height": 844,
+      "width": 390
+    },
+    "inspectorScroll": 0,
+    "map": {
+      "bottom": 709.1000366210938,
+      "height": 645.1000366210938,
+      "left": 0,
+      "right": 390.3999938964844,
+      "top": 64,
+      "width": 390.3999938964844,
+      "x": 0,
+      "y": 64
+    },
+    "mapId": "e92df519-9cbd-4dda-a79e-7a9cf491d897",
+    "table": "Financial & Operational ComparisonSimulated MetricBaselineTreatmentDifferenceGross Fare Value464.928 ₫633.058 ₫+168.130 ₫Rider Payments464.928 ₫433.058 ₫−31.870 ₫Voucher Spend0 ₫200.000 ₫+200.000 ₫Completed Trips1316+3Difference = Treatment − Baseline · GFV = rider payments + settled voucher · simulated metrics",
+    "vehicles": [
+      {
+        "coordinate": "[106.69499,10.767732]",
+        "dispatchVehicle": "GSM-01",
+        "progress": "0",
+        "status": "idle"
+      },
+      {
+        "coordinate": "[106.710119,10.759442]",
+        "dispatchVehicle": "GSM-02",
+        "progress": "0",
+        "status": "idle"
+      },
+      {
+        "coordinate": "[106.710119,10.759442]",
+        "dispatchVehicle": "GSM-03",
+        "progress": "0",
+        "status": "idle"
+      },
+      {
+        "coordinate": "[106.694479,10.773619]",
+        "dispatchVehicle": "GSM-04",
+        "progress": "0",
+        "status": "idle"
+      },
+      {
+        "coordinate": "[106.70621,10.770672]",
+        "dispatchVehicle": "GSM-05",
+        "progress": "0",
+        "status": "idle"
+      }
+    ],
+    "viewport": {
+      "height": 844,
+      "width": 390
+    }
+  },
+  {
+    "name": "mobile-paused-500",
+    "analytics": {
+      "bottom": 0,
+      "height": 0,
+      "left": 0,
+      "right": 0,
+      "top": 0,
+      "width": 0,
+      "x": 0,
+      "y": 0
+    },
+    "analyticsScroll": 0,
+    "canvas": {
+      "bottom": 678.8000030517578,
+      "height": 548,
+      "left": 12.800000190734863,
+      "right": 377.80000019073486,
+      "top": 130.8000030517578,
+      "width": 365,
+      "x": 12.800000190734863,
+      "y": 130.8000030517578
+    },
+    "canvasSize": {
+      "height": 548,
+      "width": 365
+    },
+    "canvases": 1,
+    "clock": {
+      "clockMetrics": "{\"frameSamples\":0,\"meanFrameMilliseconds\":0,\"maxFrameMilliseconds\":0}",
+      "experimentArm": "treatment",
+      "experimentClock": "paused",
+      "experimentTime": "500"
+    },
+    "dashboard": {
+      "experimentDelta": "{\"bookingUplift\":3,\"incrementalCompleted\":1,\"costPerIncrementalCompletionVnd\":40000}",
+      "experimentId": "da5babf709473ce8f527dff8f6ac911484e6745b7583d7c11b39707a32117106",
+      "experimentMetrics": "{\"baseline\":{\"validPotential\":10,\"invalidPotential\":0,\"accepted\":4,\"assigned\":4,\"pickedUp\":3,\"completed\":1,\"unserved\":0,\"conversionRate\":0.4,\"completionRate\":0.25,\"averageWaitSeconds\":78.10000000000001,\"averagePickupEtaSeconds\":86.30000000000001,\"averageTripSeconds\":191.6,\"emptyMeters\":3440.557619477007,\"occupiedMeters\":5519.347505288,\"utilization\":0.33501319999999996,\"grossFareVnd\":35764,\"voucherSpendVnd\":0,\"riderPaymentsVnd\":35764,\"budget\":{\"total\":0,\"reserved\":0,\"spent\":0,\"available\":0},\"voucherCounts\":{\"OFFERED\":0,\"RESERVED\":0,\"SETTLED\":0,\"RELEASED\":0}},\"treatment\":{\"validPotential\":10,\"invalidPotential\":0,\"accepted\":7,\"assigned\":7,\"pickedUp\":5,\"completed\":2,\"unserved\":0,\"conversionRate\":0.7,\"completionRate\":0.2857142857142857,\"averageWaitSeconds\":118.06000000000002,\"averagePickupEtaSeconds\":143.17142857142855,\"averageTripSeconds\":193.5,\"emptyMeters\":10172.236122486134,\"occupiedMeters\":10955.246479739944,\"utilization\":0.7366228,\"grossFareVnd\":74610,\"voucherSpendVnd\":40000,\"riderPaymentsVnd\":34610,\"budget\":{\"total\":200000,\"reserved\":100000,\"spent\":40000,\"available\":60000},\"voucherCounts\":{\"OFFERED\":10,\"RESERVED\":7,\"SETTLED\":2,\"RELEASED\":0}}}",
+      "kpiScope": "observed",
+      "kpiTime": "500"
+    },
+    "dock": {
+      "bottom": 844.0000457763672,
+      "height": 134.90000915527344,
+      "left": 0,
+      "right": 390.3999938964844,
+      "top": 709.1000366210938,
+      "width": 390.3999938964844,
+      "x": 0,
+      "y": 709.1000366210938
+    },
+    "dockData": {
+      "dockDuration": "2115.1910000000003",
+      "dockSpeed": "32",
+      "dockState": "paused",
+      "dockTime": "500"
+    },
+    "document": {
+      "height": 844,
+      "width": 390
+    },
+    "fleetMetrics": "{\"frameSamples\":0,\"meanFrameMilliseconds\":0,\"maxFrameMilliseconds\":0}",
+    "inspectorScroll": 0,
+    "map": {
+      "bottom": 709.1000366210938,
+      "height": 645.1000366210938,
+      "left": 0,
+      "right": 390.3999938964844,
+      "top": 64,
+      "width": 390.3999938964844,
+      "x": 0,
+      "y": 64
+    },
+    "mapId": "70d71ddc-b442-4464-bb22-5620c2962557",
+    "table": "Financial & Operational ComparisonSimulated MetricBaselineTreatmentDifferenceGross Fare Value35.764 ₫74.610 ₫+38.846 ₫Rider Payments35.764 ₫34.610 ₫−1.154 ₫Voucher Spend0 ₫40.000 ₫+40.000 ₫Completed Trips12+1Difference = Treatment − Baseline · GFV = rider payments + settled voucher · simulated metrics",
+    "vehicles": [
+      {
+        "coordinate": "[106.69548453027771,10.78214517939729]",
+        "dispatchVehicle": "GSM-01",
+        "progress": "0.41287366959740845",
+        "status": "on_trip"
+      },
+      {
+        "coordinate": "[106.71679816310198,10.775294818735977]",
+        "dispatchVehicle": "GSM-02",
+        "progress": "0.7119082489769546",
+        "status": "on_trip"
+      },
+      {
+        "coordinate": "[106.70197873668467,10.764800810652272]",
+        "dispatchVehicle": "GSM-03",
+        "progress": "0.6324667847652788",
+        "status": "on_trip"
+      },
+      {
+        "coordinate": "[106.7010193403001,10.77127645534403]",
+        "dispatchVehicle": "GSM-04",
+        "progress": "0.611931119311193",
+        "status": "en_route_to_pickup"
+      },
+      {
+        "coordinate": "[106.69094603175031,10.76302275785672]",
+        "dispatchVehicle": "GSM-05",
+        "progress": "0.8110108303249097",
+        "status": "en_route_to_pickup"
+      }
+    ],
+    "viewport": {
+      "height": 844,
+      "width": 390
+    }
+  },
+  {
+    "name": "mobile-analytics-paused",
+    "analytics": {
+      "bottom": 709.1000366210938,
+      "height": 645.1000366210938,
+      "left": 0,
+      "right": 390.3999938964844,
+      "top": 64,
+      "width": 390.3999938964844,
+      "x": 0,
+      "y": 64
+    },
+    "analyticsScroll": 0,
+    "canvas": {
+      "bottom": 0,
+      "height": 0,
+      "left": 0,
+      "right": 0,
+      "top": 0,
+      "width": 0,
+      "x": 0,
+      "y": 0
+    },
+    "canvasSize": {
+      "height": 300,
+      "width": 400
+    },
+    "canvases": 1,
+    "clock": {
+      "clockMetrics": "{\"frameSamples\":136,\"meanFrameMilliseconds\":83.0970588230035,\"maxFrameMilliseconds\":633.2999999998137}",
+      "experimentArm": "treatment",
+      "experimentClock": "paused",
+      "experimentTime": "862.7711999969483"
+    },
+    "dashboard": {
+      "experimentDelta": "{\"bookingUplift\":3,\"incrementalCompleted\":2,\"costPerIncrementalCompletionVnd\":80000}",
+      "experimentId": "da5babf709473ce8f527dff8f6ac911484e6745b7583d7c11b39707a32117106",
+      "experimentMetrics": "{\"baseline\":{\"validPotential\":15,\"invalidPotential\":0,\"accepted\":7,\"assigned\":7,\"pickedUp\":6,\"completed\":6,\"unserved\":0,\"conversionRate\":0.4666666666666667,\"completionRate\":0.8571428571428571,\"averageWaitSeconds\":102.71666666666665,\"averagePickupEtaSeconds\":116.12857142857145,\"averageTripSeconds\":182.91666666666666,\"emptyMeters\":7828.082031096837,\"occupiedMeters\":12224.9,\"utilization\":0.4247300327139869,\"grossFareVnd\":206699,\"voucherSpendVnd\":0,\"riderPaymentsVnd\":206699,\"budget\":{\"total\":0,\"reserved\":0,\"spent\":0,\"available\":0},\"voucherCounts\":{\"OFFERED\":0,\"RESERVED\":0,\"SETTLED\":0,\"RELEASED\":0}},\"treatment\":{\"validPotential\":15,\"invalidPotential\":0,\"accepted\":10,\"assigned\":10,\"pickedUp\":9,\"completed\":8,\"unserved\":0,\"conversionRate\":0.6666666666666666,\"completionRate\":0.8,\"averageWaitSeconds\":141.01733333333334,\"averagePickupEtaSeconds\":133.35,\"averageTripSeconds\":244.2125,\"emptyMeters\":15091.252989511042,\"occupiedMeters\":22894.160996850336,\"utilization\":0.7614622277622423,\"grossFareVnd\":349944,\"voucherSpendVnd\":160000,\"riderPaymentsVnd\":189944,\"budget\":{\"total\":200000,\"reserved\":40000,\"spent\":160000,\"available\":0},\"voucherCounts\":{\"OFFERED\":15,\"RESERVED\":10,\"SETTLED\":8,\"RELEASED\":0}}}",
+      "kpiScope": "observed",
+      "kpiTime": "862.7711999969483"
+    },
+    "dock": {
+      "bottom": 844.0000457763672,
+      "height": 134.90000915527344,
+      "left": 0,
+      "right": 390.3999938964844,
+      "top": 709.1000366210938,
+      "width": 390.3999938964844,
+      "x": 0,
+      "y": 709.1000366210938
+    },
+    "dockData": {
+      "dockDuration": "2115.1910000000003",
+      "dockSpeed": "32",
+      "dockState": "paused",
+      "dockTime": "862.7711999969483"
+    },
+    "document": {
+      "height": 844,
+      "width": 390
+    },
+    "fleetMetrics": "{\"frameSamples\":136,\"meanFrameMilliseconds\":83.0970588230035,\"maxFrameMilliseconds\":633.2999999998137}",
+    "inspectorScroll": 0,
+    "map": {
+      "bottom": 0,
+      "height": 0,
+      "left": 0,
+      "right": 0,
+      "top": 0,
+      "width": 0,
+      "x": 0,
+      "y": 0
+    },
+    "mapId": "70d71ddc-b442-4464-bb22-5620c2962557",
+    "table": "Financial & Operational ComparisonSimulated MetricBaselineTreatmentDifferenceGross Fare Value206.699 ₫349.944 ₫+143.245 ₫Rider Payments206.699 ₫189.944 ₫−16.755 ₫Voucher Spend0 ₫160.000 ₫+160.000 ₫Completed Trips68+2Difference = Treatment − Baseline · GFV = rider payments + settled voucher · simulated metrics",
+    "vehicles": [
+      {
+        "coordinate": "[106.69949806513736,10.772790789728322]",
+        "dispatchVehicle": "GSM-01",
+        "progress": "0.32155836572906915",
+        "status": "on_trip"
+      },
+      {
+        "coordinate": "[106.713702,10.770232]",
+        "dispatchVehicle": "GSM-02",
+        "progress": "0",
+        "status": "idle"
+      },
+      {
+        "coordinate": "[106.70663152738149,10.774590229552539]",
+        "dispatchVehicle": "GSM-03",
+        "progress": "0.7564112792087232",
+        "status": "en_route_to_pickup"
+      },
+      {
+        "coordinate": "[106.689238,10.773415]",
+        "dispatchVehicle": "GSM-04",
+        "progress": "0",
+        "status": "idle"
+      },
+      {
+        "coordinate": "[106.693367,10.783497]",
+        "dispatchVehicle": "GSM-05",
+        "progress": "0",
+        "status": "idle"
+      }
+    ],
+    "viewport": {
+      "height": 844,
+      "width": 390
+    }
+  },
+  {
+    "name": "mobile-map-restored",
+    "analytics": {
+      "bottom": 0,
+      "height": 0,
+      "left": 0,
+      "right": 0,
+      "top": 0,
+      "width": 0,
+      "x": 0,
+      "y": 0
+    },
+    "analyticsScroll": 0,
+    "canvas": {
+      "bottom": 678.8000030517578,
+      "height": 548,
+      "left": 12.800000190734863,
+      "right": 377.80000019073486,
+      "top": 130.8000030517578,
+      "width": 365,
+      "x": 12.800000190734863,
+      "y": 130.8000030517578
+    },
+    "canvasSize": {
+      "height": 548,
+      "width": 365
+    },
+    "canvases": 1,
+    "clock": {
+      "clockMetrics": "{\"frameSamples\":136,\"meanFrameMilliseconds\":83.0970588230035,\"maxFrameMilliseconds\":633.2999999998137}",
+      "experimentArm": "treatment",
+      "experimentClock": "paused",
+      "experimentTime": "862.7711999969483"
+    },
+    "dashboard": {
+      "experimentDelta": "{\"bookingUplift\":3,\"incrementalCompleted\":2,\"costPerIncrementalCompletionVnd\":80000}",
+      "experimentId": "da5babf709473ce8f527dff8f6ac911484e6745b7583d7c11b39707a32117106",
+      "experimentMetrics": "{\"baseline\":{\"validPotential\":15,\"invalidPotential\":0,\"accepted\":7,\"assigned\":7,\"pickedUp\":6,\"completed\":6,\"unserved\":0,\"conversionRate\":0.4666666666666667,\"completionRate\":0.8571428571428571,\"averageWaitSeconds\":102.71666666666665,\"averagePickupEtaSeconds\":116.12857142857145,\"averageTripSeconds\":182.91666666666666,\"emptyMeters\":7828.082031096837,\"occupiedMeters\":12224.9,\"utilization\":0.4247300327139869,\"grossFareVnd\":206699,\"voucherSpendVnd\":0,\"riderPaymentsVnd\":206699,\"budget\":{\"total\":0,\"reserved\":0,\"spent\":0,\"available\":0},\"voucherCounts\":{\"OFFERED\":0,\"RESERVED\":0,\"SETTLED\":0,\"RELEASED\":0}},\"treatment\":{\"validPotential\":15,\"invalidPotential\":0,\"accepted\":10,\"assigned\":10,\"pickedUp\":9,\"completed\":8,\"unserved\":0,\"conversionRate\":0.6666666666666666,\"completionRate\":0.8,\"averageWaitSeconds\":141.01733333333334,\"averagePickupEtaSeconds\":133.35,\"averageTripSeconds\":244.2125,\"emptyMeters\":15091.252989511042,\"occupiedMeters\":22894.160996850336,\"utilization\":0.7614622277622423,\"grossFareVnd\":349944,\"voucherSpendVnd\":160000,\"riderPaymentsVnd\":189944,\"budget\":{\"total\":200000,\"reserved\":40000,\"spent\":160000,\"available\":0},\"voucherCounts\":{\"OFFERED\":15,\"RESERVED\":10,\"SETTLED\":8,\"RELEASED\":0}}}",
+      "kpiScope": "observed",
+      "kpiTime": "862.7711999969483"
+    },
+    "dock": {
+      "bottom": 844.0000457763672,
+      "height": 134.90000915527344,
+      "left": 0,
+      "right": 390.3999938964844,
+      "top": 709.1000366210938,
+      "width": 390.3999938964844,
+      "x": 0,
+      "y": 709.1000366210938
+    },
+    "dockData": {
+      "dockDuration": "2115.1910000000003",
+      "dockSpeed": "32",
+      "dockState": "paused",
+      "dockTime": "862.7711999969483"
+    },
+    "document": {
+      "height": 844,
+      "width": 390
+    },
+    "fleetMetrics": "{\"frameSamples\":136,\"meanFrameMilliseconds\":83.0970588230035,\"maxFrameMilliseconds\":633.2999999998137}",
+    "inspectorScroll": 0,
+    "map": {
+      "bottom": 709.1000366210938,
+      "height": 645.1000366210938,
+      "left": 0,
+      "right": 390.3999938964844,
+      "top": 64,
+      "width": 390.3999938964844,
+      "x": 0,
+      "y": 64
+    },
+    "mapId": "70d71ddc-b442-4464-bb22-5620c2962557",
+    "table": "Financial & Operational ComparisonSimulated MetricBaselineTreatmentDifferenceGross Fare Value206.699 ₫349.944 ₫+143.245 ₫Rider Payments206.699 ₫189.944 ₫−16.755 ₫Voucher Spend0 ₫160.000 ₫+160.000 ₫Completed Trips68+2Difference = Treatment − Baseline · GFV = rider payments + settled voucher · simulated metrics",
+    "vehicles": [
+      {
+        "coordinate": "[106.69949806513736,10.772790789728322]",
+        "dispatchVehicle": "GSM-01",
+        "progress": "0.32155836572906915",
+        "status": "on_trip"
+      },
+      {
+        "coordinate": "[106.713702,10.770232]",
+        "dispatchVehicle": "GSM-02",
+        "progress": "0",
+        "status": "idle"
+      },
+      {
+        "coordinate": "[106.70663152738149,10.774590229552539]",
+        "dispatchVehicle": "GSM-03",
+        "progress": "0.7564112792087232",
+        "status": "en_route_to_pickup"
+      },
+      {
+        "coordinate": "[106.689238,10.773415]",
+        "dispatchVehicle": "GSM-04",
+        "progress": "0",
+        "status": "idle"
+      },
+      {
+        "coordinate": "[106.693367,10.783497]",
+        "dispatchVehicle": "GSM-05",
+        "progress": "0",
+        "status": "idle"
+      }
+    ],
+    "viewport": {
+      "height": 844,
+      "width": 390
+    }
+  },
+  {
+    "name": "ten-vehicles-paused-500",
+    "analytics": {
+      "bottom": 838.7000122070312,
+      "height": 766.7000122070312,
+      "left": 1016.0125122070312,
+      "right": 1440.000030517578,
+      "top": 72,
+      "width": 423.9875183105469,
+      "x": 1016.0125122070312,
+      "y": 72
+    },
+    "analyticsScroll": 0,
+    "canvas": {
+      "bottom": 808.8000030517578,
+      "height": 670,
+      "left": 466.8000183105469,
+      "right": 1002.8000183105468,
+      "top": 138.8000030517578,
+      "width": 536,
+      "x": 466.8000183105469,
+      "y": 138.8000030517578
+    },
+    "canvasSize": {
+      "height": 670,
+      "width": 536
+    },
+    "canvases": 1,
+    "clock": {
+      "clockMetrics": "{\"frameSamples\":136,\"meanFrameMilliseconds\":83.0970588230035,\"maxFrameMilliseconds\":633.2999999998137}",
+      "experimentArm": "treatment",
+      "experimentClock": "paused",
+      "experimentTime": "500"
+    },
+    "dashboard": {
+      "experimentDelta": "{\"bookingUplift\":0,\"incrementalCompleted\":0,\"costPerIncrementalCompletionVnd\":null}",
+      "experimentId": "a30d36a5c992fe9ffaada8ce92f90bf1060bc5b872e99e4f9898f5231375b2ed",
+      "experimentMetrics": "{\"baseline\":{\"validPotential\":9,\"invalidPotential\":0,\"accepted\":5,\"assigned\":5,\"pickedUp\":5,\"completed\":3,\"unserved\":0,\"conversionRate\":0.5555555555555556,\"completionRate\":0.6,\"averageWaitSeconds\":17.439999999999998,\"averagePickupEtaSeconds\":17.44,\"averageTripSeconds\":140.53333333333333,\"emptyMeters\":957.3,\"occupiedMeters\":8281.363365310264,\"utilization\":0.16210519999999998,\"grossFareVnd\":86621,\"voucherSpendVnd\":0,\"riderPaymentsVnd\":86621,\"budget\":{\"total\":0,\"reserved\":0,\"spent\":0,\"available\":0},\"voucherCounts\":{\"OFFERED\":0,\"RESERVED\":0,\"SETTLED\":0,\"RELEASED\":0}},\"treatment\":{\"validPotential\":9,\"invalidPotential\":0,\"accepted\":5,\"assigned\":5,\"pickedUp\":5,\"completed\":3,\"unserved\":0,\"conversionRate\":0.5555555555555556,\"completionRate\":0.6,\"averageWaitSeconds\":17.439999999999998,\"averagePickupEtaSeconds\":17.44,\"averageTripSeconds\":140.53333333333333,\"emptyMeters\":957.3,\"occupiedMeters\":8281.363365310264,\"utilization\":0.16210519999999998,\"grossFareVnd\":86621,\"voucherSpendVnd\":55363,\"riderPaymentsVnd\":31258,\"budget\":{\"total\":200000,\"reserved\":40000,\"spent\":55363,\"available\":104637},\"voucherCounts\":{\"OFFERED\":9,\"RESERVED\":5,\"SETTLED\":3,\"RELEASED\":0}}}",
+      "kpiScope": "observed",
+      "kpiTime": "500"
+    },
+    "dock": {
+      "bottom": 900.0000114440918,
+      "height": 61.29999923706055,
+      "left": 0,
+      "right": 1440,
+      "top": 838.7000122070312,
+      "width": 1440,
+      "x": 0,
+      "y": 838.7000122070312
+    },
+    "dockData": {
+      "dockDuration": "1850.9479999999999",
+      "dockSpeed": "64",
+      "dockState": "paused",
+      "dockTime": "500"
+    },
+    "document": {
+      "height": 900,
+      "width": 1440
+    },
+    "fleetMetrics": "{\"frameSamples\":136,\"meanFrameMilliseconds\":83.0970588230035,\"maxFrameMilliseconds\":633.2999999998137}",
+    "inspectorScroll": 0,
+    "map": {
+      "bottom": 838.7000122070312,
+      "height": 766.7000122070312,
+      "left": 454,
+      "right": 1016.0125122070312,
+      "top": 72,
+      "width": 562.0125122070312,
+      "x": 454,
+      "y": 72
+    },
+    "mapId": "70d71ddc-b442-4464-bb22-5620c2962557",
+    "table": "Financial & Operational ComparisonSimulated MetricBaselineTreatmentDifferenceGross Fare Value86.621 ₫86.621 ₫0 ₫Rider Payments86.621 ₫31.258 ₫−55.363 ₫Voucher Spend0 ₫55.363 ₫+55.363 ₫Completed Trips330Difference = Treatment − Baseline · GFV = rider payments + settled voucher · simulated metrics",
+    "vehicles": [
+      {
+        "coordinate": "[106.707303,10.778193]",
+        "dispatchVehicle": "GSM-01",
+        "progress": "0",
+        "status": "idle"
+      },
+      {
+        "coordinate": "[106.694479,10.773619]",
+        "dispatchVehicle": "GSM-02",
+        "progress": "0",
+        "status": "idle"
+      },
+      {
+        "coordinate": "[106.69935834230951,10.774434822925025]",
+        "dispatchVehicle": "GSM-03",
+        "progress": "0.9803948497854078",
+        "status": "on_trip"
+      },
+      {
+        "coordinate": "[106.69614450397451,10.76685679841581]",
+        "dispatchVehicle": "GSM-04",
+        "progress": "0.3570092547491474",
+        "status": "on_trip"
+      },
+      {
+        "coordinate": "[106.693367,10.783497]",
+        "dispatchVehicle": "GSM-05",
+        "progress": "0",
+        "status": "idle"
+      },
+      {
+        "coordinate": "[106.689238,10.773415]",
+        "dispatchVehicle": "GSM-06",
+        "progress": "0",
+        "status": "idle"
+      },
+      {
+        "coordinate": "[106.686326,10.767599]",
+        "dispatchVehicle": "GSM-07",
+        "progress": "0",
+        "status": "idle"
+      },
+      {
+        "coordinate": "[106.699019,10.774073]",
+        "dispatchVehicle": "GSM-08",
+        "progress": "0",
+        "status": "idle"
+      },
+      {
+        "coordinate": "[106.704887,10.783618]",
+        "dispatchVehicle": "GSM-09",
+        "progress": "0",
+        "status": "idle"
+      },
+      {
+        "coordinate": "[106.687671,10.759038]",
+        "dispatchVehicle": "GSM-10",
+        "progress": "0",
+        "status": "idle"
+      }
+    ],
+    "viewport": {
+      "height": 900,
+      "width": 1440
+    }
+  },
+  {
+    "name": "ten-advanced-64",
+    "analytics": {
+      "bottom": 838.7000122070312,
+      "height": 766.7000122070312,
+      "left": 1016.0125122070312,
+      "right": 1440.000030517578,
+      "top": 72,
+      "width": 423.9875183105469,
+      "x": 1016.0125122070312,
+      "y": 72
+    },
+    "analyticsScroll": 670.4000244140625,
+    "canvas": {
+      "bottom": 808.8000030517578,
+      "height": 670,
+      "left": 466.8000183105469,
+      "right": 1002.8000183105468,
+      "top": 138.8000030517578,
+      "width": 536,
+      "x": 466.8000183105469,
+      "y": 138.8000030517578
+    },
+    "canvasSize": {
+      "height": 670,
+      "width": 536
+    },
+    "canvases": 1,
+    "clock": {
+      "clockMetrics": "{\"frameSamples\":148,\"meanFrameMilliseconds\":120.84864864864613,\"maxFrameMilliseconds\":383.40000000037253}",
+      "experimentArm": "treatment",
+      "experimentClock": "playing",
+      "experimentTime": "1644.6783999999761"
+    },
+    "dashboard": {
+      "experimentDelta": "{\"bookingUplift\":0,\"incrementalCompleted\":0,\"costPerIncrementalCompletionVnd\":null}",
+      "experimentId": "a30d36a5c992fe9ffaada8ce92f90bf1060bc5b872e99e4f9898f5231375b2ed",
+      "experimentMetrics": "{\"baseline\":{\"validPotential\":30,\"invalidPotential\":0,\"accepted\":16,\"assigned\":15,\"pickedUp\":15,\"completed\":13,\"unserved\":1,\"conversionRate\":0.5333333333333333,\"completionRate\":0.8125,\"averageWaitSeconds\":77.89333333333333,\"averagePickupEtaSeconds\":77.89333333333335,\"averageTripSeconds\":198.03076923076927,\"emptyMeters\":12965.3,\"occupiedMeters\":30513.076981053204,\"utilization\":0.2328793187347932,\"grossFareVnd\":484942,\"voucherSpendVnd\":0,\"riderPaymentsVnd\":484942,\"budget\":{\"total\":0,\"reserved\":0,\"spent\":0,\"available\":0},\"voucherCounts\":{\"OFFERED\":0,\"RESERVED\":0,\"SETTLED\":0,\"RELEASED\":0}},\"treatment\":{\"validPotential\":30,\"invalidPotential\":0,\"accepted\":16,\"assigned\":15,\"pickedUp\":15,\"completed\":13,\"unserved\":1,\"conversionRate\":0.5333333333333333,\"completionRate\":0.8125,\"averageWaitSeconds\":77.89333333333333,\"averagePickupEtaSeconds\":77.89333333333335,\"averageTripSeconds\":198.03076923076927,\"emptyMeters\":12965.3,\"occupiedMeters\":30513.076981053204,\"utilization\":0.2328793187347932,\"grossFareVnd\":484942,\"voucherSpendVnd\":195363,\"riderPaymentsVnd\":289579,\"budget\":{\"total\":200000,\"reserved\":0,\"spent\":195363,\"available\":4637},\"voucherCounts\":{\"OFFERED\":20,\"RESERVED\":11,\"SETTLED\":10,\"RELEASED\":1}}}",
+      "kpiScope": "observed",
+      "kpiTime": "1644"
+    },
+    "dock": {
+      "bottom": 900.0000114440918,
+      "height": 61.29999923706055,
+      "left": 0,
+      "right": 1440,
+      "top": 838.7000122070312,
+      "width": 1440,
+      "x": 0,
+      "y": 838.7000122070312
+    },
+    "dockData": {
+      "dockDuration": "1850.9479999999999",
+      "dockSpeed": "64",
+      "dockState": "playing",
+      "dockTime": "1644.6783999999761"
+    },
+    "document": {
+      "height": 900,
+      "width": 1440
+    },
+    "fleetMetrics": "{\"frameSamples\":148,\"meanFrameMilliseconds\":120.84864864864613,\"maxFrameMilliseconds\":383.40000000037253}",
+    "inspectorScroll": 0,
+    "map": {
+      "bottom": 838.7000122070312,
+      "height": 766.7000122070312,
+      "left": 454,
+      "right": 1016.0125122070312,
+      "top": 72,
+      "width": 562.0125122070312,
+      "x": 454,
+      "y": 72
+    },
+    "mapId": "70d71ddc-b442-4464-bb22-5620c2962557",
+    "table": "Financial & Operational ComparisonSimulated MetricBaselineTreatmentDifferenceGross Fare Value484.942 ₫484.942 ₫0 ₫Rider Payments484.942 ₫289.579 ₫−195.363 ₫Voucher Spend0 ₫195.363 ₫+195.363 ₫Completed Trips13130Difference = Treatment − Baseline · GFV = rider payments + settled voucher · simulated metrics",
+    "vehicles": [
+      {
+        "coordinate": "[106.69305771357662,10.765287103642908]",
+        "dispatchVehicle": "GSM-01",
+        "progress": "0.5422290862289327",
+        "status": "on_trip"
+      },
+      {
+        "coordinate": "[106.694479,10.773619]",
+        "dispatchVehicle": "GSM-02",
+        "progress": "0",
+        "status": "idle"
+      },
+      {
+        "coordinate": "[106.70715400070978,10.778030452638024]",
+        "dispatchVehicle": "GSM-03",
+        "progress": "0.013536107125663228",
+        "status": "on_trip"
+      },
+      {
+        "coordinate": "[106.69499,10.767732]",
+        "dispatchVehicle": "GSM-04",
+        "progress": "0",
+        "status": "idle"
+      },
+      {
+        "coordinate": "[106.704887,10.783618]",
+        "dispatchVehicle": "GSM-05",
+        "progress": "0",
+        "status": "idle"
+      },
+      {
+        "coordinate": "[106.689238,10.773415]",
+        "dispatchVehicle": "GSM-06",
+        "progress": "0",
+        "status": "idle"
+      },
+      {
+        "coordinate": "[106.686326,10.767599]",
+        "dispatchVehicle": "GSM-07",
+        "progress": "0",
+        "status": "idle"
+      },
+      {
+        "coordinate": "[106.710119,10.759442]",
+        "dispatchVehicle": "GSM-08",
+        "progress": "0",
+        "status": "idle"
+      },
+      {
+        "coordinate": "[106.687671,10.759038]",
+        "dispatchVehicle": "GSM-09",
+        "progress": "0",
+        "status": "idle"
+      },
+      {
+        "coordinate": "[106.707968,10.764113]",
+        "dispatchVehicle": "GSM-10",
+        "progress": "0",
+        "status": "idle"
+      }
+    ],
+    "viewport": {
+      "height": 900,
+      "width": 1440
+    }
+  },
+  {
+    "name": "ten-completed-observed",
+    "analytics": {
+      "bottom": 838.7000122070312,
+      "height": 766.7000122070312,
+      "left": 1016.0125122070312,
+      "right": 1440.000030517578,
+      "top": 72,
+      "width": 423.9875183105469,
+      "x": 1016.0125122070312,
+      "y": 72
+    },
+    "analyticsScroll": 670.4000244140625,
+    "canvas": {
+      "bottom": 808.8000030517578,
+      "height": 670,
+      "left": 466.8000183105469,
+      "right": 1002.8000183105468,
+      "top": 138.8000030517578,
+      "width": 536,
+      "x": 466.8000183105469,
+      "y": 138.8000030517578
+    },
+    "canvasSize": {
+      "height": 670,
+      "width": 536
+    },
+    "canvases": 1,
+    "clock": {
+      "clockMetrics": "{\"frameSamples\":241,\"meanFrameMilliseconds\":87.90663900414938,\"maxFrameMilliseconds\":416.70000000018626}",
+      "experimentArm": "treatment",
+      "experimentClock": "completed",
+      "experimentTime": "1850.9479999999999"
+    },
+    "dashboard": {
+      "experimentDelta": "{\"bookingUplift\":0,\"incrementalCompleted\":0,\"costPerIncrementalCompletionVnd\":null}",
+      "experimentId": "a30d36a5c992fe9ffaada8ce92f90bf1060bc5b872e99e4f9898f5231375b2ed",
+      "experimentMetrics": "{\"baseline\":{\"validPotential\":30,\"invalidPotential\":0,\"accepted\":16,\"assigned\":15,\"pickedUp\":15,\"completed\":15,\"unserved\":1,\"conversionRate\":0.5333333333333333,\"completionRate\":0.9375,\"averageWaitSeconds\":77.89333333333333,\"averagePickupEtaSeconds\":77.89333333333335,\"averageTripSeconds\":195.9266666666667,\"emptyMeters\":12965.3,\"occupiedMeters\":33697.7,\"utilization\":0.221902506175214,\"grossFareVnd\":554374,\"voucherSpendVnd\":0,\"riderPaymentsVnd\":554374,\"budget\":{\"total\":0,\"reserved\":0,\"spent\":0,\"available\":0},\"voucherCounts\":{\"OFFERED\":0,\"RESERVED\":0,\"SETTLED\":0,\"RELEASED\":0}},\"treatment\":{\"validPotential\":30,\"invalidPotential\":0,\"accepted\":16,\"assigned\":15,\"pickedUp\":15,\"completed\":15,\"unserved\":1,\"conversionRate\":0.5333333333333333,\"completionRate\":0.9375,\"averageWaitSeconds\":77.89333333333333,\"averagePickupEtaSeconds\":77.89333333333335,\"averageTripSeconds\":195.9266666666667,\"emptyMeters\":12965.3,\"occupiedMeters\":33697.7,\"utilization\":0.221902506175214,\"grossFareVnd\":554374,\"voucherSpendVnd\":195363,\"riderPaymentsVnd\":359011,\"budget\":{\"total\":200000,\"reserved\":0,\"spent\":195363,\"available\":4637},\"voucherCounts\":{\"OFFERED\":20,\"RESERVED\":11,\"SETTLED\":10,\"RELEASED\":1}}}",
+      "kpiScope": "observed",
+      "kpiTime": "1850.9479999999999"
+    },
+    "dock": {
+      "bottom": 900.0000114440918,
+      "height": 61.29999923706055,
+      "left": 0,
+      "right": 1440,
+      "top": 838.7000122070312,
+      "width": 1440,
+      "x": 0,
+      "y": 838.7000122070312
+    },
+    "dockData": {
+      "dockDuration": "1850.9479999999999",
+      "dockSpeed": "64",
+      "dockState": "completed",
+      "dockTime": "1850.9479999999999"
+    },
+    "document": {
+      "height": 900,
+      "width": 1440
+    },
+    "fleetMetrics": "{\"frameSamples\":241,\"meanFrameMilliseconds\":87.90663900414938,\"maxFrameMilliseconds\":416.70000000018626}",
+    "inspectorScroll": 0,
+    "map": {
+      "bottom": 838.7000122070312,
+      "height": 766.7000122070312,
+      "left": 454,
+      "right": 1016.0125122070312,
+      "top": 72,
+      "width": 562.0125122070312,
+      "x": 454,
+      "y": 72
+    },
+    "mapId": "70d71ddc-b442-4464-bb22-5620c2962557",
+    "table": "Financial & Operational ComparisonSimulated MetricBaselineTreatmentDifferenceGross Fare Value554.374 ₫554.374 ₫0 ₫Rider Payments554.374 ₫359.011 ₫−195.363 ₫Voucher Spend0 ₫195.363 ₫+195.363 ₫Completed Trips15150Difference = Treatment − Baseline · GFV = rider payments + settled voucher · simulated metrics",
+    "vehicles": [
+      {
+        "coordinate": "[106.695208,10.76798]",
+        "dispatchVehicle": "GSM-01",
+        "progress": "0",
+        "status": "idle"
+      },
+      {
+        "coordinate": "[106.694479,10.773619]",
+        "dispatchVehicle": "GSM-02",
+        "progress": "0",
+        "status": "idle"
+      },
+      {
+        "coordinate": "[106.695208,10.76798]",
+        "dispatchVehicle": "GSM-03",
+        "progress": "0",
+        "status": "idle"
+      },
+      {
+        "coordinate": "[106.69499,10.767732]",
+        "dispatchVehicle": "GSM-04",
+        "progress": "0",
+        "status": "idle"
+      },
+      {
+        "coordinate": "[106.704887,10.783618]",
+        "dispatchVehicle": "GSM-05",
+        "progress": "0",
+        "status": "idle"
+      },
+      {
+        "coordinate": "[106.689238,10.773415]",
+        "dispatchVehicle": "GSM-06",
+        "progress": "0",
+        "status": "idle"
+      },
+      {
+        "coordinate": "[106.686326,10.767599]",
+        "dispatchVehicle": "GSM-07",
+        "progress": "0",
+        "status": "idle"
+      },
+      {
+        "coordinate": "[106.710119,10.759442]",
+        "dispatchVehicle": "GSM-08",
+        "progress": "0",
+        "status": "idle"
+      },
+      {
+        "coordinate": "[106.687671,10.759038]",
+        "dispatchVehicle": "GSM-09",
+        "progress": "0",
+        "status": "idle"
+      },
+      {
+        "coordinate": "[106.707968,10.764113]",
+        "dispatchVehicle": "GSM-10",
+        "progress": "0",
+        "status": "idle"
+      }
+    ],
+    "viewport": {
+      "height": 900,
+      "width": 1440
+    }
+  },
+  {
+    "name": "ten-planned-final",
+    "analytics": {
+      "bottom": 838.7000122070312,
+      "height": 766.7000122070312,
+      "left": 1016.0125122070312,
+      "right": 1440.000030517578,
+      "top": 72,
+      "width": 423.9875183105469,
+      "x": 1016.0125122070312,
+      "y": 72
+    },
+    "analyticsScroll": 0,
+    "canvas": {
+      "bottom": 808.8000030517578,
+      "height": 670,
+      "left": 466.8000183105469,
+      "right": 1002.8000183105468,
+      "top": 138.8000030517578,
+      "width": 536,
+      "x": 466.8000183105469,
+      "y": 138.8000030517578
+    },
+    "canvasSize": {
+      "height": 670,
+      "width": 536
+    },
+    "canvases": 1,
+    "clock": {
+      "clockMetrics": "{\"frameSamples\":241,\"meanFrameMilliseconds\":87.90663900414938,\"maxFrameMilliseconds\":416.70000000018626}",
+      "experimentArm": "treatment",
+      "experimentClock": "completed",
+      "experimentTime": "1850.9479999999999"
+    },
+    "dashboard": {
+      "experimentDelta": "{\"bookingUplift\":0,\"incrementalCompleted\":0,\"costPerIncrementalCompletionVnd\":null}",
+      "experimentId": "a30d36a5c992fe9ffaada8ce92f90bf1060bc5b872e99e4f9898f5231375b2ed",
+      "experimentMetrics": "{\"baseline\":{\"validPotential\":30,\"invalidPotential\":0,\"accepted\":16,\"assigned\":15,\"pickedUp\":15,\"completed\":15,\"unserved\":1,\"conversionRate\":0.5333333333333333,\"completionRate\":0.9375,\"averageWaitSeconds\":77.89333333333333,\"averagePickupEtaSeconds\":77.89333333333335,\"averageTripSeconds\":195.9266666666667,\"emptyMeters\":12965.3,\"occupiedMeters\":33697.7,\"utilization\":0.221902506175214,\"grossFareVnd\":554374,\"voucherSpendVnd\":0,\"riderPaymentsVnd\":554374,\"budget\":{\"total\":0,\"reserved\":0,\"spent\":0,\"available\":0},\"voucherCounts\":{\"OFFERED\":0,\"RESERVED\":0,\"SETTLED\":0,\"RELEASED\":0}},\"treatment\":{\"validPotential\":30,\"invalidPotential\":0,\"accepted\":16,\"assigned\":15,\"pickedUp\":15,\"completed\":15,\"unserved\":1,\"conversionRate\":0.5333333333333333,\"completionRate\":0.9375,\"averageWaitSeconds\":77.89333333333333,\"averagePickupEtaSeconds\":77.89333333333335,\"averageTripSeconds\":195.9266666666667,\"emptyMeters\":12965.3,\"occupiedMeters\":33697.7,\"utilization\":0.221902506175214,\"grossFareVnd\":554374,\"voucherSpendVnd\":195363,\"riderPaymentsVnd\":359011,\"budget\":{\"total\":200000,\"reserved\":0,\"spent\":195363,\"available\":4637},\"voucherCounts\":{\"OFFERED\":20,\"RESERVED\":11,\"SETTLED\":10,\"RELEASED\":1}}}",
+      "kpiScope": "final",
+      "kpiTime": "1850.9479999999999"
+    },
+    "dock": {
+      "bottom": 900.0000114440918,
+      "height": 61.29999923706055,
+      "left": 0,
+      "right": 1440,
+      "top": 838.7000122070312,
+      "width": 1440,
+      "x": 0,
+      "y": 838.7000122070312
+    },
+    "dockData": {
+      "dockDuration": "1850.9479999999999",
+      "dockSpeed": "64",
+      "dockState": "completed",
+      "dockTime": "1850.9479999999999"
+    },
+    "document": {
+      "height": 900,
+      "width": 1440
+    },
+    "fleetMetrics": "{\"frameSamples\":241,\"meanFrameMilliseconds\":87.90663900414938,\"maxFrameMilliseconds\":416.70000000018626}",
+    "inspectorScroll": 0,
+    "map": {
+      "bottom": 838.7000122070312,
+      "height": 766.7000122070312,
+      "left": 454,
+      "right": 1016.0125122070312,
+      "top": 72,
+      "width": 562.0125122070312,
+      "x": 454,
+      "y": 72
+    },
+    "mapId": "70d71ddc-b442-4464-bb22-5620c2962557",
+    "table": "Financial & Operational ComparisonSimulated MetricBaselineTreatmentDifferenceGross Fare Value554.374 ₫554.374 ₫0 ₫Rider Payments554.374 ₫359.011 ₫−195.363 ₫Voucher Spend0 ₫195.363 ₫+195.363 ₫Completed Trips15150Difference = Treatment − Baseline · GFV = rider payments + settled voucher · simulated metrics",
+    "vehicles": [
+      {
+        "coordinate": "[106.695208,10.76798]",
+        "dispatchVehicle": "GSM-01",
+        "progress": "0",
+        "status": "idle"
+      },
+      {
+        "coordinate": "[106.694479,10.773619]",
+        "dispatchVehicle": "GSM-02",
+        "progress": "0",
+        "status": "idle"
+      },
+      {
+        "coordinate": "[106.695208,10.76798]",
+        "dispatchVehicle": "GSM-03",
+        "progress": "0",
+        "status": "idle"
+      },
+      {
+        "coordinate": "[106.69499,10.767732]",
+        "dispatchVehicle": "GSM-04",
+        "progress": "0",
+        "status": "idle"
+      },
+      {
+        "coordinate": "[106.704887,10.783618]",
+        "dispatchVehicle": "GSM-05",
+        "progress": "0",
+        "status": "idle"
+      },
+      {
+        "coordinate": "[106.689238,10.773415]",
+        "dispatchVehicle": "GSM-06",
+        "progress": "0",
+        "status": "idle"
+      },
+      {
+        "coordinate": "[106.686326,10.767599]",
+        "dispatchVehicle": "GSM-07",
+        "progress": "0",
+        "status": "idle"
+      },
+      {
+        "coordinate": "[106.710119,10.759442]",
+        "dispatchVehicle": "GSM-08",
+        "progress": "0",
+        "status": "idle"
+      },
+      {
+        "coordinate": "[106.687671,10.759038]",
+        "dispatchVehicle": "GSM-09",
+        "progress": "0",
+        "status": "idle"
+      },
+      {
+        "coordinate": "[106.707968,10.764113]",
+        "dispatchVehicle": "GSM-10",
+        "progress": "0",
+        "status": "idle"
+      }
+    ],
+    "viewport": {
+      "height": 900,
+      "width": 1440
+    }
+  },
+  {
+    "name": "regenerate-zero-loading",
+    "analytics": {
+      "bottom": 838.7000122070312,
+      "height": 766.7000122070312,
+      "left": 1016.0125122070312,
+      "right": 1440.000030517578,
+      "top": 72,
+      "width": 423.9875183105469,
+      "x": 1016.0125122070312,
+      "y": 72
+    },
+    "analyticsScroll": 0,
+    "canvas": {
+      "bottom": 808.8000030517578,
+      "height": 670,
+      "left": 466.8000183105469,
+      "right": 1002.8000183105468,
+      "top": 138.8000030517578,
+      "width": 536,
+      "x": 466.8000183105469,
+      "y": 138.8000030517578
+    },
+    "canvasSize": {
+      "height": 670,
+      "width": 536
+    },
+    "canvases": 1,
+    "clock": {
+      "clockMetrics": "{\"frameSamples\":241,\"meanFrameMilliseconds\":87.90663900414938,\"maxFrameMilliseconds\":416.70000000018626}",
+      "experimentArm": "treatment",
+      "experimentClock": "idle",
+      "experimentTime": "0"
+    },
+    "dashboard": {},
+    "dock": {
+      "bottom": 900.0000114440918,
+      "height": 61.29999923706055,
+      "left": 0,
+      "right": 1440,
+      "top": 838.7000122070312,
+      "width": 1440,
+      "x": 0,
+      "y": 838.7000122070312
+    },
+    "dockData": {
+      "dockDuration": "0",
+      "dockSpeed": "1",
+      "dockState": "idle",
+      "dockTime": "0"
+    },
+    "document": {
+      "height": 900,
+      "width": 1440
+    },
+    "fleetMetrics": "{\"frameSamples\":241,\"meanFrameMilliseconds\":87.90663900414938,\"maxFrameMilliseconds\":416.70000000018626}",
+    "inspectorScroll": 239.1999969482422,
+    "map": {
+      "bottom": 838.7000122070312,
+      "height": 766.7000122070312,
+      "left": 454,
+      "right": 1016.0125122070312,
+      "top": 72,
+      "width": 562.0125122070312,
+      "x": 454,
+      "y": 72
+    },
+    "mapId": "70d71ddc-b442-4464-bb22-5620c2962557",
+    "vehicles": [],
+    "viewport": {
+      "height": 900,
+      "width": 1440
+    }
+  },
+  {
+    "name": "zero-budget-final",
+    "analytics": {
+      "bottom": 838.7000122070312,
+      "height": 766.7000122070312,
+      "left": 1016.0125122070312,
+      "right": 1440.000030517578,
+      "top": 72,
+      "width": 423.9875183105469,
+      "x": 1016.0125122070312,
+      "y": 72
+    },
+    "analyticsScroll": 0,
+    "canvas": {
+      "bottom": 808.8000030517578,
+      "height": 670,
+      "left": 466.8000183105469,
+      "right": 1002.8000183105468,
+      "top": 138.8000030517578,
+      "width": 536,
+      "x": 466.8000183105469,
+      "y": 138.8000030517578
+    },
+    "canvasSize": {
+      "height": 670,
+      "width": 536
+    },
+    "canvases": 1,
+    "clock": {
+      "clockMetrics": "{\"frameSamples\":241,\"meanFrameMilliseconds\":87.90663900414938,\"maxFrameMilliseconds\":416.70000000018626}",
+      "experimentArm": "treatment",
+      "experimentClock": "paused",
+      "experimentTime": "0"
+    },
+    "dashboard": {
+      "experimentDelta": "{\"bookingUplift\":0,\"incrementalCompleted\":0,\"costPerIncrementalCompletionVnd\":null}",
+      "experimentId": "337a2e7ade6303ac796fa876bf6f74126a63ef0f45fe5663bbefa225a9fe6a83",
+      "experimentMetrics": "{\"baseline\":{\"validPotential\":30,\"invalidPotential\":0,\"accepted\":16,\"assigned\":16,\"pickedUp\":16,\"completed\":16,\"unserved\":0,\"conversionRate\":0.5333333333333333,\"completionRate\":1,\"averageWaitSeconds\":146.23562499999997,\"averagePickupEtaSeconds\":131.875,\"averageTripSeconds\":171.99999999999997,\"emptyMeters\":23900.6,\"occupiedMeters\":32097,\"utilization\":0.459353324619288,\"grossFareVnd\":545164,\"voucherSpendVnd\":0,\"riderPaymentsVnd\":545164,\"budget\":{\"total\":0,\"reserved\":0,\"spent\":0,\"available\":0},\"voucherCounts\":{\"OFFERED\":0,\"RESERVED\":0,\"SETTLED\":0,\"RELEASED\":0}},\"treatment\":{\"validPotential\":30,\"invalidPotential\":0,\"accepted\":16,\"assigned\":16,\"pickedUp\":16,\"completed\":16,\"unserved\":0,\"conversionRate\":0.5333333333333333,\"completionRate\":1,\"averageWaitSeconds\":146.23562499999997,\"averagePickupEtaSeconds\":131.875,\"averageTripSeconds\":171.99999999999997,\"emptyMeters\":23900.6,\"occupiedMeters\":32097,\"utilization\":0.459353324619288,\"grossFareVnd\":545164,\"voucherSpendVnd\":0,\"riderPaymentsVnd\":545164,\"budget\":{\"total\":0,\"reserved\":0,\"spent\":0,\"available\":0},\"voucherCounts\":{\"OFFERED\":0,\"RESERVED\":0,\"SETTLED\":0,\"RELEASED\":0}}}",
+      "kpiScope": "final",
+      "kpiTime": "2116.889"
+    },
+    "dock": {
+      "bottom": 900.0000114440918,
+      "height": 61.29999923706055,
+      "left": 0,
+      "right": 1440,
+      "top": 838.7000122070312,
+      "width": 1440,
+      "x": 0,
+      "y": 838.7000122070312
+    },
+    "dockData": {
+      "dockDuration": "2116.889",
+      "dockSpeed": "1",
+      "dockState": "paused",
+      "dockTime": "0"
+    },
+    "document": {
+      "height": 900,
+      "width": 1440
+    },
+    "fleetMetrics": "{\"frameSamples\":241,\"meanFrameMilliseconds\":87.90663900414938,\"maxFrameMilliseconds\":416.70000000018626}",
+    "inspectorScroll": 0,
+    "map": {
+      "bottom": 838.7000122070312,
+      "height": 766.7000122070312,
+      "left": 454,
+      "right": 1016.0125122070312,
+      "top": 72,
+      "width": 562.0125122070312,
+      "x": 454,
+      "y": 72
+    },
+    "mapId": "70d71ddc-b442-4464-bb22-5620c2962557",
+    "table": "Financial & Operational ComparisonSimulated MetricBaselineTreatmentDifferenceGross Fare Value545.164 ₫545.164 ₫0 ₫Rider Payments545.164 ₫545.164 ₫0 ₫Voucher Spend0 ₫0 ₫0 ₫Completed Trips16160Difference = Treatment − Baseline · GFV = rider payments + settled voucher · simulated metrics",
+    "vehicles": [
+      {
+        "coordinate": "[106.689238,10.773415]",
+        "dispatchVehicle": "GSM-01",
+        "progress": "0",
+        "status": "on_trip"
+      },
+      {
+        "coordinate": "[106.707859,10.780151]",
+        "dispatchVehicle": "GSM-02",
+        "progress": "0",
+        "status": "idle"
+      },
+      {
+        "coordinate": "[106.707303,10.778193]",
+        "dispatchVehicle": "GSM-03",
+        "progress": "0",
+        "status": "idle"
+      },
+      {
+        "coordinate": "[106.699903,10.765632]",
+        "dispatchVehicle": "GSM-04",
+        "progress": "0",
+        "status": "idle"
+      },
+      {
+        "coordinate": "[106.701872,10.775475]",
+        "dispatchVehicle": "GSM-05",
+        "progress": "0",
+        "status": "idle"
+      }
+    ],
+    "viewport": {
+      "height": 900,
+      "width": 1440
+    }
+  },
+  {
+    "name": "zero-budget-observed-500",
+    "analytics": {
+      "bottom": 838.7000122070312,
+      "height": 766.7000122070312,
+      "left": 1016.0125122070312,
+      "right": 1440.000030517578,
+      "top": 72,
+      "width": 423.9875183105469,
+      "x": 1016.0125122070312,
+      "y": 72
+    },
+    "analyticsScroll": 0,
+    "canvas": {
+      "bottom": 808.8000030517578,
+      "height": 670,
+      "left": 466.8000183105469,
+      "right": 1002.8000183105468,
+      "top": 138.8000030517578,
+      "width": 536,
+      "x": 466.8000183105469,
+      "y": 138.8000030517578
+    },
+    "canvasSize": {
+      "height": 670,
+      "width": 536
+    },
+    "canvases": 1,
+    "clock": {
+      "clockMetrics": "{\"frameSamples\":241,\"meanFrameMilliseconds\":87.90663900414938,\"maxFrameMilliseconds\":416.70000000018626}",
+      "experimentArm": "treatment",
+      "experimentClock": "paused",
+      "experimentTime": "500"
+    },
+    "dashboard": {
+      "experimentDelta": "{\"bookingUplift\":0,\"incrementalCompleted\":0,\"costPerIncrementalCompletionVnd\":null}",
+      "experimentId": "337a2e7ade6303ac796fa876bf6f74126a63ef0f45fe5663bbefa225a9fe6a83",
+      "experimentMetrics": "{\"baseline\":{\"validPotential\":11,\"invalidPotential\":0,\"accepted\":5,\"assigned\":5,\"pickedUp\":4,\"completed\":3,\"unserved\":0,\"conversionRate\":0.45454545454545453,\"completionRate\":0.6,\"averageWaitSeconds\":68.275,\"averagePickupEtaSeconds\":86.62,\"averageTripSeconds\":142.03333333333333,\"emptyMeters\":4607.68259625,\"occupiedMeters\":5692.58894891945,\"utilization\":0.3419572,\"grossFareVnd\":93550,\"voucherSpendVnd\":0,\"riderPaymentsVnd\":93550,\"budget\":{\"total\":0,\"reserved\":0,\"spent\":0,\"available\":0},\"voucherCounts\":{\"OFFERED\":0,\"RESERVED\":0,\"SETTLED\":0,\"RELEASED\":0}},\"treatment\":{\"validPotential\":11,\"invalidPotential\":0,\"accepted\":5,\"assigned\":5,\"pickedUp\":4,\"completed\":3,\"unserved\":0,\"conversionRate\":0.45454545454545453,\"completionRate\":0.6,\"averageWaitSeconds\":68.275,\"averagePickupEtaSeconds\":86.62,\"averageTripSeconds\":142.03333333333333,\"emptyMeters\":4607.68259625,\"occupiedMeters\":5692.58894891945,\"utilization\":0.3419572,\"grossFareVnd\":93550,\"voucherSpendVnd\":0,\"riderPaymentsVnd\":93550,\"budget\":{\"total\":0,\"reserved\":0,\"spent\":0,\"available\":0},\"voucherCounts\":{\"OFFERED\":0,\"RESERVED\":0,\"SETTLED\":0,\"RELEASED\":0}}}",
+      "kpiScope": "observed",
+      "kpiTime": "500"
+    },
+    "dock": {
+      "bottom": 900.0000114440918,
+      "height": 61.29999923706055,
+      "left": 0,
+      "right": 1440,
+      "top": 838.7000122070312,
+      "width": 1440,
+      "x": 0,
+      "y": 838.7000122070312
+    },
+    "dockData": {
+      "dockDuration": "2116.889",
+      "dockSpeed": "32",
+      "dockState": "paused",
+      "dockTime": "500"
+    },
+    "document": {
+      "height": 900,
+      "width": 1440
+    },
+    "fleetMetrics": "{\"frameSamples\":241,\"meanFrameMilliseconds\":87.90663900414938,\"maxFrameMilliseconds\":416.70000000018626}",
+    "inspectorScroll": 0,
+    "map": {
+      "bottom": 838.7000122070312,
+      "height": 766.7000122070312,
+      "left": 454,
+      "right": 1016.0125122070312,
+      "top": 72,
+      "width": 562.0125122070312,
+      "x": 454,
+      "y": 72
+    },
+    "mapId": "70d71ddc-b442-4464-bb22-5620c2962557",
+    "table": "Financial & Operational ComparisonSimulated MetricBaselineTreatmentDifferenceGross Fare Value93.550 ₫93.550 ₫0 ₫Rider Payments93.550 ₫93.550 ₫0 ₫Voucher Spend0 ₫0 ₫0 ₫Completed Trips330Difference = Treatment − Baseline · GFV = rider payments + settled voucher · simulated metrics",
+    "vehicles": [
+      {
+        "coordinate": "[106.702521,10.77085]",
+        "dispatchVehicle": "GSM-01",
+        "progress": "0",
+        "status": "idle"
+      },
+      {
+        "coordinate": "[106.707859,10.780151]",
+        "dispatchVehicle": "GSM-02",
+        "progress": "0",
+        "status": "idle"
+      },
+      {
+        "coordinate": "[106.68603621380863,10.770997317333915]",
+        "dispatchVehicle": "GSM-03",
+        "progress": "0.73151875",
+        "status": "en_route_to_pickup"
+      },
+      {
+        "coordinate": "[106.699903,10.765632]",
+        "dispatchVehicle": "GSM-04",
+        "progress": "0",
+        "status": "idle"
+      },
+      {
+        "coordinate": "[106.70157183165688,10.774852630887654]",
+        "dispatchVehicle": "GSM-05",
+        "progress": "0.12655533726260634",
+        "status": "on_trip"
+      }
+    ],
+    "viewport": {
+      "height": 900,
+      "width": 1440
+    }
+  },
+  {
+    "name": "zero-budget-collapsed-baseline",
+    "analytics": {
+      "bottom": 838.7000122070312,
+      "height": 766.7000122070312,
+      "left": 846.6000366210938,
+      "right": 1440.0000610351562,
+      "top": 72,
+      "width": 593.4000244140625,
+      "x": 846.6000366210938,
+      "y": 72
+    },
+    "analyticsScroll": 0,
+    "canvas": {
+      "bottom": 808.8000030517578,
+      "height": 670,
+      "left": 72.80000305175781,
+      "right": 833.8000030517578,
+      "top": 138.8000030517578,
+      "width": 761,
+      "x": 72.80000305175781,
+      "y": 138.8000030517578
+    },
+    "canvasSize": {
+      "height": 670,
+      "width": 761
+    },
+    "canvases": 1,
+    "clock": {
+      "clockMetrics": "{\"frameSamples\":241,\"meanFrameMilliseconds\":87.90663900414938,\"maxFrameMilliseconds\":416.70000000018626}",
+      "experimentArm": "baseline",
+      "experimentClock": "paused",
+      "experimentTime": "500"
+    },
+    "dashboard": {
+      "experimentDelta": "{\"bookingUplift\":0,\"incrementalCompleted\":0,\"costPerIncrementalCompletionVnd\":null}",
+      "experimentId": "337a2e7ade6303ac796fa876bf6f74126a63ef0f45fe5663bbefa225a9fe6a83",
+      "experimentMetrics": "{\"baseline\":{\"validPotential\":11,\"invalidPotential\":0,\"accepted\":5,\"assigned\":5,\"pickedUp\":4,\"completed\":3,\"unserved\":0,\"conversionRate\":0.45454545454545453,\"completionRate\":0.6,\"averageWaitSeconds\":68.275,\"averagePickupEtaSeconds\":86.62,\"averageTripSeconds\":142.03333333333333,\"emptyMeters\":4607.68259625,\"occupiedMeters\":5692.58894891945,\"utilization\":0.3419572,\"grossFareVnd\":93550,\"voucherSpendVnd\":0,\"riderPaymentsVnd\":93550,\"budget\":{\"total\":0,\"reserved\":0,\"spent\":0,\"available\":0},\"voucherCounts\":{\"OFFERED\":0,\"RESERVED\":0,\"SETTLED\":0,\"RELEASED\":0}},\"treatment\":{\"validPotential\":11,\"invalidPotential\":0,\"accepted\":5,\"assigned\":5,\"pickedUp\":4,\"completed\":3,\"unserved\":0,\"conversionRate\":0.45454545454545453,\"completionRate\":0.6,\"averageWaitSeconds\":68.275,\"averagePickupEtaSeconds\":86.62,\"averageTripSeconds\":142.03333333333333,\"emptyMeters\":4607.68259625,\"occupiedMeters\":5692.58894891945,\"utilization\":0.3419572,\"grossFareVnd\":93550,\"voucherSpendVnd\":0,\"riderPaymentsVnd\":93550,\"budget\":{\"total\":0,\"reserved\":0,\"spent\":0,\"available\":0},\"voucherCounts\":{\"OFFERED\":0,\"RESERVED\":0,\"SETTLED\":0,\"RELEASED\":0}}}",
+      "kpiScope": "observed",
+      "kpiTime": "500"
+    },
+    "dock": {
+      "bottom": 900.0000114440918,
+      "height": 61.29999923706055,
+      "left": 0,
+      "right": 1440,
+      "top": 838.7000122070312,
+      "width": 1440,
+      "x": 0,
+      "y": 838.7000122070312
+    },
+    "dockData": {
+      "dockDuration": "2116.889",
+      "dockSpeed": "32",
+      "dockState": "paused",
+      "dockTime": "500"
+    },
+    "document": {
+      "height": 900,
+      "width": 1440
+    },
+    "fleetMetrics": "{\"frameSamples\":241,\"meanFrameMilliseconds\":87.90663900414938,\"maxFrameMilliseconds\":416.70000000018626}",
+    "inspectorScroll": 0,
+    "map": {
+      "bottom": 838.7000122070312,
+      "height": 766.7000122070312,
+      "left": 60,
+      "right": 846.6000366210938,
+      "top": 72,
+      "width": 786.6000366210938,
+      "x": 60,
+      "y": 72
+    },
+    "mapId": "70d71ddc-b442-4464-bb22-5620c2962557",
+    "table": "Financial & Operational ComparisonSimulated MetricBaselineTreatmentDifferenceGross Fare Value93.550 ₫93.550 ₫0 ₫Rider Payments93.550 ₫93.550 ₫0 ₫Voucher Spend0 ₫0 ₫0 ₫Completed Trips330Difference = Treatment − Baseline · GFV = rider payments + settled voucher · simulated metrics",
+    "vehicles": [
+      {
+        "coordinate": "[106.702521,10.77085]",
+        "dispatchVehicle": "GSM-01",
+        "progress": "0",
+        "status": "idle"
+      },
+      {
+        "coordinate": "[106.707859,10.780151]",
+        "dispatchVehicle": "GSM-02",
+        "progress": "0",
+        "status": "idle"
+      },
+      {
+        "coordinate": "[106.68603621380863,10.770997317333915]",
+        "dispatchVehicle": "GSM-03",
+        "progress": "0.73151875",
+        "status": "en_route_to_pickup"
+      },
+      {
+        "coordinate": "[106.699903,10.765632]",
+        "dispatchVehicle": "GSM-04",
+        "progress": "0",
+        "status": "idle"
+      },
+      {
+        "coordinate": "[106.70157183165688,10.774852630887654]",
+        "dispatchVehicle": "GSM-05",
+        "progress": "0.12655533726260634",
+        "status": "on_trip"
+      }
+    ],
+    "viewport": {
+      "height": 900,
+      "width": 1440
+    }
+  },
+  {
+    "name": "final-default-showcase",
+    "analytics": {
+      "bottom": 838.7000122070312,
+      "height": 766.7000122070312,
+      "left": 898.2000122070312,
+      "right": 1440,
+      "top": 72,
+      "width": 541.7999877929688,
+      "x": 898.2000122070312,
+      "y": 72
+    },
+    "analyticsScroll": 0,
+    "canvas": {
+      "bottom": 808.8000030517578,
+      "height": 670,
+      "left": 192.8000030517578,
+      "right": 885.8000030517578,
+      "top": 138.8000030517578,
+      "width": 693,
+      "x": 192.8000030517578,
+      "y": 138.8000030517578
+    },
+    "canvasSize": {
+      "height": 670,
+      "width": 693
+    },
+    "canvases": 1,
+    "clock": {
+      "clockMetrics": "{\"frameSamples\":241,\"meanFrameMilliseconds\":87.90663900414938,\"maxFrameMilliseconds\":416.70000000018626}",
+      "experimentArm": "treatment",
+      "experimentClock": "paused",
+      "experimentTime": "500"
+    },
+    "dashboard": {
+      "experimentDelta": "{\"bookingUplift\":3,\"incrementalCompleted\":1,\"costPerIncrementalCompletionVnd\":40000}",
+      "experimentId": "da5babf709473ce8f527dff8f6ac911484e6745b7583d7c11b39707a32117106",
+      "experimentMetrics": "{\"baseline\":{\"validPotential\":10,\"invalidPotential\":0,\"accepted\":4,\"assigned\":4,\"pickedUp\":3,\"completed\":1,\"unserved\":0,\"conversionRate\":0.4,\"completionRate\":0.25,\"averageWaitSeconds\":78.10000000000001,\"averagePickupEtaSeconds\":86.30000000000001,\"averageTripSeconds\":191.6,\"emptyMeters\":3440.557619477007,\"occupiedMeters\":5519.347505288,\"utilization\":0.33501319999999996,\"grossFareVnd\":35764,\"voucherSpendVnd\":0,\"riderPaymentsVnd\":35764,\"budget\":{\"total\":0,\"reserved\":0,\"spent\":0,\"available\":0},\"voucherCounts\":{\"OFFERED\":0,\"RESERVED\":0,\"SETTLED\":0,\"RELEASED\":0}},\"treatment\":{\"validPotential\":10,\"invalidPotential\":0,\"accepted\":7,\"assigned\":7,\"pickedUp\":5,\"completed\":2,\"unserved\":0,\"conversionRate\":0.7,\"completionRate\":0.2857142857142857,\"averageWaitSeconds\":118.06000000000002,\"averagePickupEtaSeconds\":143.17142857142855,\"averageTripSeconds\":193.5,\"emptyMeters\":10172.236122486134,\"occupiedMeters\":10955.246479739944,\"utilization\":0.7366228,\"grossFareVnd\":74610,\"voucherSpendVnd\":40000,\"riderPaymentsVnd\":34610,\"budget\":{\"total\":200000,\"reserved\":100000,\"spent\":40000,\"available\":60000},\"voucherCounts\":{\"OFFERED\":10,\"RESERVED\":7,\"SETTLED\":2,\"RELEASED\":0}}}",
+      "kpiScope": "observed",
+      "kpiTime": "500"
+    },
+    "dock": {
+      "bottom": 900.0000114440918,
+      "height": 61.29999923706055,
+      "left": 0,
+      "right": 1440,
+      "top": 838.7000122070312,
+      "width": 1440,
+      "x": 0,
+      "y": 838.7000122070312
+    },
+    "dockData": {
+      "dockDuration": "2115.1910000000003",
+      "dockSpeed": "32",
+      "dockState": "paused",
+      "dockTime": "500"
+    },
+    "document": {
+      "height": 900,
+      "width": 1440
+    },
+    "fleetMetrics": "{\"frameSamples\":241,\"meanFrameMilliseconds\":87.90663900414938,\"maxFrameMilliseconds\":416.70000000018626}",
+    "inspectorScroll": 0,
+    "map": {
+      "bottom": 838.7000122070312,
+      "height": 766.7000122070312,
+      "left": 180,
+      "right": 898.2000122070312,
+      "top": 72,
+      "width": 718.2000122070312,
+      "x": 180,
+      "y": 72
+    },
+    "mapId": "70d71ddc-b442-4464-bb22-5620c2962557",
+    "table": "Financial & Operational ComparisonSimulated MetricBaselineTreatmentDifferenceGross Fare Value35.764 ₫74.610 ₫+38.846 ₫Rider Payments35.764 ₫34.610 ₫−1.154 ₫Voucher Spend0 ₫40.000 ₫+40.000 ₫Completed Trips12+1Difference = Treatment − Baseline · GFV = rider payments + settled voucher · simulated metrics",
+    "vehicles": [
+      {
+        "coordinate": "[106.69548453027771,10.78214517939729]",
+        "dispatchVehicle": "GSM-01",
+        "progress": "0.41287366959740845",
+        "status": "on_trip"
+      },
+      {
+        "coordinate": "[106.71679816310198,10.775294818735977]",
+        "dispatchVehicle": "GSM-02",
+        "progress": "0.7119082489769546",
+        "status": "on_trip"
+      },
+      {
+        "coordinate": "[106.70197873668467,10.764800810652272]",
+        "dispatchVehicle": "GSM-03",
+        "progress": "0.6324667847652788",
+        "status": "on_trip"
+      },
+      {
+        "coordinate": "[106.7010193403001,10.77127645534403]",
+        "dispatchVehicle": "GSM-04",
+        "progress": "0.611931119311193",
+        "status": "en_route_to_pickup"
+      },
+      {
+        "coordinate": "[106.69094603175031,10.76302275785672]",
+        "dispatchVehicle": "GSM-05",
+        "progress": "0.8110108303249097",
+        "status": "en_route_to_pickup"
+      }
+    ],
+    "viewport": {
+      "height": 900,
+      "width": 1440
+    }
+  },
+  {
+    "name": "comparison-before-collapse",
+    "analytics": {
+      "bottom": 838.7000122070312,
+      "height": 766.7000122070312,
+      "left": 898.2000122070312,
+      "right": 1440,
+      "top": 72,
+      "width": 541.7999877929688,
+      "x": 898.2000122070312,
+      "y": 72
+    },
+    "analyticsScroll": 0,
+    "canvas": {
+      "bottom": 808.8000030517578,
+      "height": 670,
+      "left": 192.8000030517578,
+      "right": 885.8000030517578,
+      "top": 138.8000030517578,
+      "width": 693,
+      "x": 192.8000030517578,
+      "y": 138.8000030517578
+    },
+    "canvasSize": {
+      "height": 670,
+      "width": 693
+    },
+    "canvases": 1,
+    "clock": {
+      "clockMetrics": "{\"frameSamples\":241,\"meanFrameMilliseconds\":87.90663900414938,\"maxFrameMilliseconds\":416.70000000018626}",
+      "experimentArm": "treatment",
+      "experimentClock": "paused",
+      "experimentTime": "500"
+    },
+    "dashboard": {
+      "experimentDelta": "{\"bookingUplift\":3,\"incrementalCompleted\":1,\"costPerIncrementalCompletionVnd\":40000}",
+      "experimentId": "da5babf709473ce8f527dff8f6ac911484e6745b7583d7c11b39707a32117106",
+      "experimentMetrics": "{\"baseline\":{\"validPotential\":10,\"invalidPotential\":0,\"accepted\":4,\"assigned\":4,\"pickedUp\":3,\"completed\":1,\"unserved\":0,\"conversionRate\":0.4,\"completionRate\":0.25,\"averageWaitSeconds\":78.10000000000001,\"averagePickupEtaSeconds\":86.30000000000001,\"averageTripSeconds\":191.6,\"emptyMeters\":3440.557619477007,\"occupiedMeters\":5519.347505288,\"utilization\":0.33501319999999996,\"grossFareVnd\":35764,\"voucherSpendVnd\":0,\"riderPaymentsVnd\":35764,\"budget\":{\"total\":0,\"reserved\":0,\"spent\":0,\"available\":0},\"voucherCounts\":{\"OFFERED\":0,\"RESERVED\":0,\"SETTLED\":0,\"RELEASED\":0}},\"treatment\":{\"validPotential\":10,\"invalidPotential\":0,\"accepted\":7,\"assigned\":7,\"pickedUp\":5,\"completed\":2,\"unserved\":0,\"conversionRate\":0.7,\"completionRate\":0.2857142857142857,\"averageWaitSeconds\":118.06000000000002,\"averagePickupEtaSeconds\":143.17142857142855,\"averageTripSeconds\":193.5,\"emptyMeters\":10172.236122486134,\"occupiedMeters\":10955.246479739944,\"utilization\":0.7366228,\"grossFareVnd\":74610,\"voucherSpendVnd\":40000,\"riderPaymentsVnd\":34610,\"budget\":{\"total\":200000,\"reserved\":100000,\"spent\":40000,\"available\":60000},\"voucherCounts\":{\"OFFERED\":10,\"RESERVED\":7,\"SETTLED\":2,\"RELEASED\":0}}}",
+      "kpiScope": "observed",
+      "kpiTime": "500"
+    },
+    "dock": {
+      "bottom": 900.0000114440918,
+      "height": 61.29999923706055,
+      "left": 0,
+      "right": 1440,
+      "top": 838.7000122070312,
+      "width": 1440,
+      "x": 0,
+      "y": 838.7000122070312
+    },
+    "dockData": {
+      "dockDuration": "2115.1910000000003",
+      "dockSpeed": "32",
+      "dockState": "paused",
+      "dockTime": "500"
+    },
+    "document": {
+      "height": 900,
+      "width": 1440
+    },
+    "fleetMetrics": "{\"frameSamples\":241,\"meanFrameMilliseconds\":87.90663900414938,\"maxFrameMilliseconds\":416.70000000018626}",
+    "inspectorScroll": 0,
+    "map": {
+      "bottom": 838.7000122070312,
+      "height": 766.7000122070312,
+      "left": 180,
+      "right": 898.2000122070312,
+      "top": 72,
+      "width": 718.2000122070312,
+      "x": 180,
+      "y": 72
+    },
+    "mapId": "70d71ddc-b442-4464-bb22-5620c2962557",
+    "table": "Financial & Operational ComparisonSimulated MetricBaselineTreatmentDifferenceGross Fare Value35.764 ₫74.610 ₫+38.846 ₫Rider Payments35.764 ₫34.610 ₫−1.154 ₫Voucher Spend0 ₫40.000 ₫+40.000 ₫Completed Trips12+1Difference = Treatment − Baseline · GFV = rider payments + settled voucher · simulated metrics",
+    "vehicles": [
+      {
+        "coordinate": "[106.69548453027771,10.78214517939729]",
+        "dispatchVehicle": "GSM-01",
+        "progress": "0.41287366959740845",
+        "status": "on_trip"
+      },
+      {
+        "coordinate": "[106.71679816310198,10.775294818735977]",
+        "dispatchVehicle": "GSM-02",
+        "progress": "0.7119082489769546",
+        "status": "on_trip"
+      },
+      {
+        "coordinate": "[106.70197873668467,10.764800810652272]",
+        "dispatchVehicle": "GSM-03",
+        "progress": "0.6324667847652788",
+        "status": "on_trip"
+      },
+      {
+        "coordinate": "[106.7010193403001,10.77127645534403]",
+        "dispatchVehicle": "GSM-04",
+        "progress": "0.611931119311193",
+        "status": "en_route_to_pickup"
+      },
+      {
+        "coordinate": "[106.69094603175031,10.76302275785672]",
+        "dispatchVehicle": "GSM-05",
+        "progress": "0.8110108303249097",
+        "status": "en_route_to_pickup"
+      }
+    ],
+    "viewport": {
+      "height": 900,
+      "width": 1440
+    }
+  },
+  {
+    "name": "comparison-collapsed",
+    "analytics": {
+      "bottom": 838.7000122070312,
+      "height": 766.7000122070312,
+      "left": 898.2000122070312,
+      "right": 1440,
+      "top": 72,
+      "width": 541.7999877929688,
+      "x": 898.2000122070312,
+      "y": 72
+    },
+    "analyticsScroll": 0,
+    "canvas": {
+      "bottom": 808.8000030517578,
+      "height": 670,
+      "left": 192.8000030517578,
+      "right": 885.8000030517578,
+      "top": 138.8000030517578,
+      "width": 693,
+      "x": 192.8000030517578,
+      "y": 138.8000030517578
+    },
+    "canvasSize": {
+      "height": 670,
+      "width": 693
+    },
+    "canvases": 1,
+    "clock": {
+      "clockMetrics": "{\"frameSamples\":241,\"meanFrameMilliseconds\":87.90663900414938,\"maxFrameMilliseconds\":416.70000000018626}",
+      "experimentArm": "treatment",
+      "experimentClock": "paused",
+      "experimentTime": "500"
+    },
+    "dashboard": {
+      "experimentDelta": "{\"bookingUplift\":3,\"incrementalCompleted\":1,\"costPerIncrementalCompletionVnd\":40000}",
+      "experimentId": "da5babf709473ce8f527dff8f6ac911484e6745b7583d7c11b39707a32117106",
+      "experimentMetrics": "{\"baseline\":{\"validPotential\":10,\"invalidPotential\":0,\"accepted\":4,\"assigned\":4,\"pickedUp\":3,\"completed\":1,\"unserved\":0,\"conversionRate\":0.4,\"completionRate\":0.25,\"averageWaitSeconds\":78.10000000000001,\"averagePickupEtaSeconds\":86.30000000000001,\"averageTripSeconds\":191.6,\"emptyMeters\":3440.557619477007,\"occupiedMeters\":5519.347505288,\"utilization\":0.33501319999999996,\"grossFareVnd\":35764,\"voucherSpendVnd\":0,\"riderPaymentsVnd\":35764,\"budget\":{\"total\":0,\"reserved\":0,\"spent\":0,\"available\":0},\"voucherCounts\":{\"OFFERED\":0,\"RESERVED\":0,\"SETTLED\":0,\"RELEASED\":0}},\"treatment\":{\"validPotential\":10,\"invalidPotential\":0,\"accepted\":7,\"assigned\":7,\"pickedUp\":5,\"completed\":2,\"unserved\":0,\"conversionRate\":0.7,\"completionRate\":0.2857142857142857,\"averageWaitSeconds\":118.06000000000002,\"averagePickupEtaSeconds\":143.17142857142855,\"averageTripSeconds\":193.5,\"emptyMeters\":10172.236122486134,\"occupiedMeters\":10955.246479739944,\"utilization\":0.7366228,\"grossFareVnd\":74610,\"voucherSpendVnd\":40000,\"riderPaymentsVnd\":34610,\"budget\":{\"total\":200000,\"reserved\":100000,\"spent\":40000,\"available\":60000},\"voucherCounts\":{\"OFFERED\":10,\"RESERVED\":7,\"SETTLED\":2,\"RELEASED\":0}}}",
+      "kpiScope": "observed",
+      "kpiTime": "500"
+    },
+    "dock": {
+      "bottom": 900.0000114440918,
+      "height": 61.29999923706055,
+      "left": 0,
+      "right": 1440,
+      "top": 838.7000122070312,
+      "width": 1440,
+      "x": 0,
+      "y": 838.7000122070312
+    },
+    "dockData": {
+      "dockDuration": "2115.1910000000003",
+      "dockSpeed": "32",
+      "dockState": "paused",
+      "dockTime": "500"
+    },
+    "document": {
+      "height": 900,
+      "width": 1440
+    },
+    "fleetMetrics": "{\"frameSamples\":241,\"meanFrameMilliseconds\":87.90663900414938,\"maxFrameMilliseconds\":416.70000000018626}",
+    "inspectorScroll": 0,
+    "map": {
+      "bottom": 838.7000122070312,
+      "height": 766.7000122070312,
+      "left": 180,
+      "right": 898.2000122070312,
+      "top": 72,
+      "width": 718.2000122070312,
+      "x": 180,
+      "y": 72
+    },
+    "mapId": "70d71ddc-b442-4464-bb22-5620c2962557",
+    "table": "Financial & Operational ComparisonSimulated MetricBaselineTreatmentDifferenceGross Fare Value35.764 ₫74.610 ₫+38.846 ₫Rider Payments35.764 ₫34.610 ₫−1.154 ₫Voucher Spend0 ₫40.000 ₫+40.000 ₫Completed Trips12+1Difference = Treatment − Baseline · GFV = rider payments + settled voucher · simulated metrics",
+    "vehicles": [
+      {
+        "coordinate": "[106.69548453027771,10.78214517939729]",
+        "dispatchVehicle": "GSM-01",
+        "progress": "0.41287366959740845",
+        "status": "on_trip"
+      },
+      {
+        "coordinate": "[106.71679816310198,10.775294818735977]",
+        "dispatchVehicle": "GSM-02",
+        "progress": "0.7119082489769546",
+        "status": "on_trip"
+      },
+      {
+        "coordinate": "[106.70197873668467,10.764800810652272]",
+        "dispatchVehicle": "GSM-03",
+        "progress": "0.6324667847652788",
+        "status": "on_trip"
+      },
+      {
+        "coordinate": "[106.7010193403001,10.77127645534403]",
+        "dispatchVehicle": "GSM-04",
+        "progress": "0.611931119311193",
+        "status": "en_route_to_pickup"
+      },
+      {
+        "coordinate": "[106.69094603175031,10.76302275785672]",
+        "dispatchVehicle": "GSM-05",
+        "progress": "0.8110108303249097",
+        "status": "en_route_to_pickup"
+      }
+    ],
+    "viewport": {
+      "height": 900,
+      "width": 1440
+    }
+  },
+  {
+    "name": "comparison-restored",
+    "analytics": {
+      "bottom": 838.7000122070312,
+      "height": 766.7000122070312,
+      "left": 898.2000122070312,
+      "right": 1440,
+      "top": 72,
+      "width": 541.7999877929688,
+      "x": 898.2000122070312,
+      "y": 72
+    },
+    "analyticsScroll": 0,
+    "canvas": {
+      "bottom": 808.8000030517578,
+      "height": 670,
+      "left": 192.8000030517578,
+      "right": 885.8000030517578,
+      "top": 138.8000030517578,
+      "width": 693,
+      "x": 192.8000030517578,
+      "y": 138.8000030517578
+    },
+    "canvasSize": {
+      "height": 670,
+      "width": 693
+    },
+    "canvases": 1,
+    "clock": {
+      "clockMetrics": "{\"frameSamples\":241,\"meanFrameMilliseconds\":87.90663900414938,\"maxFrameMilliseconds\":416.70000000018626}",
+      "experimentArm": "treatment",
+      "experimentClock": "paused",
+      "experimentTime": "500"
+    },
+    "dashboard": {
+      "experimentDelta": "{\"bookingUplift\":3,\"incrementalCompleted\":1,\"costPerIncrementalCompletionVnd\":40000}",
+      "experimentId": "da5babf709473ce8f527dff8f6ac911484e6745b7583d7c11b39707a32117106",
+      "experimentMetrics": "{\"baseline\":{\"validPotential\":10,\"invalidPotential\":0,\"accepted\":4,\"assigned\":4,\"pickedUp\":3,\"completed\":1,\"unserved\":0,\"conversionRate\":0.4,\"completionRate\":0.25,\"averageWaitSeconds\":78.10000000000001,\"averagePickupEtaSeconds\":86.30000000000001,\"averageTripSeconds\":191.6,\"emptyMeters\":3440.557619477007,\"occupiedMeters\":5519.347505288,\"utilization\":0.33501319999999996,\"grossFareVnd\":35764,\"voucherSpendVnd\":0,\"riderPaymentsVnd\":35764,\"budget\":{\"total\":0,\"reserved\":0,\"spent\":0,\"available\":0},\"voucherCounts\":{\"OFFERED\":0,\"RESERVED\":0,\"SETTLED\":0,\"RELEASED\":0}},\"treatment\":{\"validPotential\":10,\"invalidPotential\":0,\"accepted\":7,\"assigned\":7,\"pickedUp\":5,\"completed\":2,\"unserved\":0,\"conversionRate\":0.7,\"completionRate\":0.2857142857142857,\"averageWaitSeconds\":118.06000000000002,\"averagePickupEtaSeconds\":143.17142857142855,\"averageTripSeconds\":193.5,\"emptyMeters\":10172.236122486134,\"occupiedMeters\":10955.246479739944,\"utilization\":0.7366228,\"grossFareVnd\":74610,\"voucherSpendVnd\":40000,\"riderPaymentsVnd\":34610,\"budget\":{\"total\":200000,\"reserved\":100000,\"spent\":40000,\"available\":60000},\"voucherCounts\":{\"OFFERED\":10,\"RESERVED\":7,\"SETTLED\":2,\"RELEASED\":0}}}",
+      "kpiScope": "observed",
+      "kpiTime": "500"
+    },
+    "dock": {
+      "bottom": 900.0000114440918,
+      "height": 61.29999923706055,
+      "left": 0,
+      "right": 1440,
+      "top": 838.7000122070312,
+      "width": 1440,
+      "x": 0,
+      "y": 838.7000122070312
+    },
+    "dockData": {
+      "dockDuration": "2115.1910000000003",
+      "dockSpeed": "32",
+      "dockState": "paused",
+      "dockTime": "500"
+    },
+    "document": {
+      "height": 900,
+      "width": 1440
+    },
+    "fleetMetrics": "{\"frameSamples\":241,\"meanFrameMilliseconds\":87.90663900414938,\"maxFrameMilliseconds\":416.70000000018626}",
+    "inspectorScroll": 0,
+    "map": {
+      "bottom": 838.7000122070312,
+      "height": 766.7000122070312,
+      "left": 180,
+      "right": 898.2000122070312,
+      "top": 72,
+      "width": 718.2000122070312,
+      "x": 180,
+      "y": 72
+    },
+    "mapId": "70d71ddc-b442-4464-bb22-5620c2962557",
+    "table": "Financial & Operational ComparisonSimulated MetricBaselineTreatmentDifferenceGross Fare Value35.764 ₫74.610 ₫+38.846 ₫Rider Payments35.764 ₫34.610 ₫−1.154 ₫Voucher Spend0 ₫40.000 ₫+40.000 ₫Completed Trips12+1Difference = Treatment − Baseline · GFV = rider payments + settled voucher · simulated metrics",
+    "vehicles": [
+      {
+        "coordinate": "[106.69548453027771,10.78214517939729]",
+        "dispatchVehicle": "GSM-01",
+        "progress": "0.41287366959740845",
+        "status": "on_trip"
+      },
+      {
+        "coordinate": "[106.71679816310198,10.775294818735977]",
+        "dispatchVehicle": "GSM-02",
+        "progress": "0.7119082489769546",
+        "status": "on_trip"
+      },
+      {
+        "coordinate": "[106.70197873668467,10.764800810652272]",
+        "dispatchVehicle": "GSM-03",
+        "progress": "0.6324667847652788",
+        "status": "on_trip"
+      },
+      {
+        "coordinate": "[106.7010193403001,10.77127645534403]",
+        "dispatchVehicle": "GSM-04",
+        "progress": "0.611931119311193",
+        "status": "en_route_to_pickup"
+      },
+      {
+        "coordinate": "[106.69094603175031,10.76302275785672]",
+        "dispatchVehicle": "GSM-05",
+        "progress": "0.8110108303249097",
+        "status": "en_route_to_pickup"
+      }
+    ],
+    "viewport": {
+      "height": 900,
+      "width": 1440
+    }
+  }
+]

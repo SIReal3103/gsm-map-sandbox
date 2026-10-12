@@ -12,6 +12,19 @@ import type { BookingFocus } from './booking-panel'
 
 const blankStyles = { light: emptyStyle, dark: emptyStyle }
 const readyStyles = { light: localStyle, dark: localStyle }
+function ResizeMap() {
+  const { map } = useMap()
+  useEffect(() => {
+    if (!map) return
+    const container = map.getContainer()
+    // Lifetime token allows DOM-only QA to detect a recreated map or canvas.
+    if (!map.getCanvas().dataset.mapLifetime) map.getCanvas().dataset.mapLifetime = crypto.randomUUID()
+    const observer = new ResizeObserver(() => { if (container.clientWidth && container.clientHeight) map.resize() })
+    observer.observe(container)
+    return () => observer.disconnect()
+  }, [map])
+  return null
+}
 function FitRoute({ route }: { route: Route | null }) {
   const { map, isLoaded } = useMap()
   useEffect(() => {
@@ -41,6 +54,7 @@ export function SandboxMap({ dataset, start, end, route, progress, enabled, onSe
   const box = dataset?.region.display_bbox ?? [106.675, 10.750, 106.725, 10.795]
   return <Map theme="light" styles={dataset?.artifacts.map_ready ? readyStyles : blankStyles} center={[(box[0] + box[2]) / 2, (box[1] + box[3]) / 2]} zoom={14.2} attributionControl={{ customAttribution: '© OpenStreetMap contributors', compact: false }}>
     <MapControls position="top-right" showCompass />
+    <ResizeMap />
     <MapEvents enabled={enabled} onSelect={onSelect} onError={onError} />
     {fleet && <FleetMap fleet={fleet} focus={fleetFocus ?? null} />}
     {booking && <BookingMap session={booking} focus={bookingFocus ?? null} />}

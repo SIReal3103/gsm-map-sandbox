@@ -1,0 +1,13 @@
+
+> gsm-map-sandbox-frontend@0.1.0 test
+> vitest run
+
+
+ RUN  v5.0.3 D:/ThS/VinAI/Phase3_VRIC/gsm-map-sandbox/frontend
+
+
+ Test Files  6 passed (6)
+      Tests  86 passed (86)
+   Start at  18:14:22
+   Duration  20.66s (tests 45%, environment 35%, transform 8%, import 7%, setup 4%)
+
