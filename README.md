@@ -2,6 +2,12 @@
 
 PoC mô phỏng hành trình, đội xe và voucher trên bản đồ OSM thật tại trung tâm TP.HCM, dùng OSRM chạy local. Booking, giá cước và voucher là giả định nghiên cứu, không phải dữ liệu vận hành hay GPS thực tế của GSM.
 
+## Video demo
+
+<video src="docs/media/gsm-map-sandbox-demo.mp4" controls width="100%"></video>
+
+[Mở hoặc tải video demo](docs/media/gsm-map-sandbox-demo.mp4) nếu trình xem README không phát video trực tiếp.
+
 ## Chạy ứng dụng Live trên Windows
 
 Cần Python 3.11+, Node.js 20.19+ hoặc 22.12+, và Docker Desktop với Linux Engine. PBF, GeoJSON và graph OSRM không được lưu trong Git; cần có dữ liệu và artifact đã chuẩn bị theo [báo cáo A1](docs/A1-report.md). Không chạy lại pipeline dữ liệu nếu artifact hiện có đã dùng được.
