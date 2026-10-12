@@ -1,0 +1,39 @@
+Batch Experiment Analysis
+
+Paired simulation · OFAT · tối đa 90 jobs · chỉ bắt đầu khi bấm Run. Cùng seed list cho mọi giá trị của factor.
+
+Base seed
+Seeds
+10
+30
+One factor
+none
+alpha
+beta
+discount
+budget
+fleet
+preset
+
+none: base · 10 jobs trong cấu hình kế tiếp. Discount preset = fixed VND policy; các factor khác giữ voucher policy đang cấu hình.
+
+Run Batch Cancel Batch
+
+Complete — tất cả jobs đã có kết quả · 10/10 records · 7 successful · 3 errors · 0 cancelled
+
+Mean Δ 3.14 · median 3 · sample SD 1.07 · min/max 2/5
+Improvement 100.0% (n=7) · mean spend 198.945 ₫ · pooled CPIC 63.301 ₫
+
+Budget utilization 0.995 (n=7) · wait Δ 21.93 s (n=7) · utilization Δ 0.127 (n=7)
+
+Paired Increment Distribution
+3
+4
+5
+6
+Voucher Spend vs Incremental Completions
+
+Biểu đồ hiển thị khi cuộn tới vùng này.
+
+Export Batch JSON Export Batch CSVExport Batch Summary CSV
+Run records và statistical definitions

@@ -1,0 +1,5 @@
+{
+  "kind": "manual_server_isolation_probe",
+  "url": "http://127.0.0.1:4173/api/health",
+  "http_status": 503
+}

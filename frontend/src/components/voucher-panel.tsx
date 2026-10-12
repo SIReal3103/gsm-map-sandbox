@@ -9,7 +9,7 @@ import { useFleetClock } from '@/lib/use-fleet'
 import type { VoucherSession } from '@/lib/use-voucher'
 import type { BookingFocus } from './booking-panel'
 
-export function VoucherPanel({ session, ready, onFocus, docked = false }: { session: VoucherSession; ready: boolean; docked?: boolean; onFocus: (focus: BookingFocus) => void }) {
+export function VoucherPanel({ session, ready, onFocus, onRuntime, docked = false }: { session: VoucherSession; ready: boolean; docked?: boolean; onRuntime?: (runtime:'live'|'saved')=>void; onFocus: (focus: BookingFocus) => void }) {
   const [config, setConfig] = useState<ExperimentConfig>(structuredClone(defaultExperimentConfig)), [seek, setSeek] = useState('0')
   const clock = useFleetClock(session.clock), experiment = session.experiment
   const time = clock.simulationTimeSeconds, usable = !!experiment && ready && !session.loading, playing = clock.playbackStatus === 'playing'
@@ -19,8 +19,13 @@ export function VoucherPanel({ session, ready, onFocus, docked = false }: { sess
   const focus = (kind: BookingFocus['kind'], id: string) => onFocus({ kind, id, sequence: performance.now() })
   const input = (label: string, value: number, update: (value: number) => void, min: number, max: number, step=1) => <label>{label}<input aria-label={label} type="number" value={value} min={min} max={max} step={step} onChange={e => update(+e.target.value)} /></label>
   const selected = projection?.bookings.find(b => b.id === session.selectedBookingId)
+  const saved=session.runtime==='saved'
   return <div className="voucher-panel" data-experiment-time={time} data-experiment-clock={clock.playbackStatus} data-experiment-arm={session.arm} data-clock-metrics={JSON.stringify(session.clock.getMetrics())}>
-    <InspectorSection title="Experiment Configuration" defaultOpen prepared={docked && !!experiment}><div className="section-heading"><FlaskConical size={18}/><h2>Voucher Experiment</h2></div><p className="simulation-disclaimer">Giá và hành vi giả định · chưa hiệu chỉnh từ khách hàng GSM</p>
+    <InspectorSection title="Experiment Runtime" defaultOpen><div className="arm-switch" role="group" aria-label="Experiment runtime"><Button variant={!saved?'secondary':'outline'} aria-pressed={!saved} onClick={()=>onRuntime?.('live')}>Live Local</Button><Button variant={saved?'secondary':'outline'} aria-pressed={saved} onClick={()=>onRuntime?.('saved')}>Saved Replay</Button></div>
+      {saved && <><p className="simulation-disclaimer">Saved Replay — no live routing required</p><label>Import Saved Experiment<input aria-label="Import Saved Experiment" type="file" accept=".json,application/json" onChange={event=>{const file=event.target.files?.[0]; if(file) void session.loadSaved(file); event.target.value=''}}/></label><Button variant="outline" onClick={()=>void session.loadSaved('demo')} disabled={session.loading}>Load Saved Demo</Button>{session.loading && <p role="status">Đang kiểm chứng artifact và static map package…</p>}{session.error && <p role="alert" className="error-text">{session.error}</p>}
+      {experiment && <p className="small-note">Seed: {experiment.seed}<br/>Dataset: {experiment.datasetFingerprint}<br/>Models: {JSON.stringify(experiment.assumptions.versions)}<br/>Checksum verified · dữ liệu mô phỏng, không GPS thực tế</p>}</>}
+    </InspectorSection>
+    {!saved && <InspectorSection title="Experiment Configuration" defaultOpen prepared={docked && !!experiment}><div className="section-heading"><FlaskConical size={18}/><h2>Voucher Experiment</h2></div><p className="simulation-disclaimer">Giá và hành vi giả định · chưa hiệu chỉnh từ khách hàng GSM</p>
       <div className="booking-inputs"><label className="wide">Seed<input aria-label="Experiment seed" value={config.seed} maxLength={80} onChange={e => setConfig({ ...config, seed: e.target.value })}/></label>
         <label>Fleet<select aria-label="Experiment fleet size" value={config.fleetSize} onChange={e => setConfig({ ...config, fleetSize: +e.target.value })}>{Array.from({ length: 10 }, (_, i) => <option key={i+1}>{i+1}</option>)}</select></label>
         <label>Potential trips<select aria-label="Potential trip count" value={config.potentialCount} onChange={e => setConfig({ ...config, potentialCount: +e.target.value })}>{Array.from({ length: 21 }, (_, i) => <option key={i+10}>{i+10}</option>)}</select></label>
@@ -44,7 +49,7 @@ export function VoucherPanel({ session, ready, onFocus, docked = false }: { sess
       <Button disabled={!ready || !config.seed.trim()} onClick={() => { setSeek('0'); void session.generate({ ...config, seed: config.seed.trim() }) }}>Prepare Experiment</Button>
       {session.loading && <p role="status">Đang quote và chuẩn bị hai arms bằng OSRM local…</p>}{session.error && <p role="alert" className="error-text">{session.error}</p>}
       {experiment && <details className="scenario-summary"><summary>Experiment ready · {(experiment.preparationMilliseconds/1000).toFixed(2)} s</summary><p>Seed: {experiment.seed}<br/>Fingerprint: {experiment.id}<br/>{experiment.routingRequests.table} Table · {experiment.routingRequests.route} routes · {experiment.routingRequests.routeCacheHits} cache hits</p><p>{experiment.potential.filter(p => !p.valid).length} invalid quote(s), loại khỏi conversion denominator.</p></details>}
-    </InspectorSection>
+    </InspectorSection>}
     <InspectorSection title="Arm & Budget" defaultOpen><h2>Experiment arm</h2><div className="arm-switch" role="group" aria-label="Experiment arm">{(['baseline','treatment'] as const).map(arm => <Button key={arm} variant={session.arm === arm ? 'secondary' : 'outline'} aria-pressed={session.arm === arm} onClick={() => session.selectArm(arm)}>{arm === 'baseline' ? 'Baseline' : 'Treatment'}</Button>)}</div>
       {!docked && <>
       <div className="playback-buttons"><Button disabled={!usable || playing} onClick={session.clock.play}><Play size={15}/>{clock.playbackStatus === 'paused' && time > 0 ? 'Resume' : 'Play'}</Button><Button variant="outline" disabled={!usable || !playing} onClick={session.clock.pause}><Pause size={15}/>Pause</Button><Button variant="outline" aria-label="Reset experiment" disabled={!usable} onClick={() => { session.clock.reset(); setSeek('0') }}><RotateCcw size={15}/></Button></div>

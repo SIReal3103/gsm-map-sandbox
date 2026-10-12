@@ -1,0 +1,184 @@
+[
+  {
+    "name": "http://127.0.0.1:4173/assets/index-BzVhSGcX.js",
+    "initiatorType": "script",
+    "startTime": 223.39999997615814,
+    "duration": 40.300000071525574,
+    "transferSize": 1419450
+  },
+  {
+    "name": "http://127.0.0.1:4173/assets/voucher-Dk1ULOcU.js",
+    "initiatorType": "script",
+    "startTime": 224.10000002384186,
+    "duration": 24.700000047683716,
+    "transferSize": 57576
+  },
+  {
+    "name": "http://127.0.0.1:4173/assets/artifact-BvNWyLKB.js",
+    "initiatorType": "script",
+    "startTime": 224.5,
+    "duration": 17.5,
+    "transferSize": 24561
+  },
+  {
+    "name": "http://127.0.0.1:4173/assets/index-CL-p25Wx.css",
+    "initiatorType": "link",
+    "startTime": 225.10000002384186,
+    "duration": 25.299999952316284,
+    "transferSize": 153050
+  },
+  {
+    "name": "http://127.0.0.1:4173/assets/voucher-dashboard-BCbiZLxt.js",
+    "initiatorType": "script",
+    "startTime": 650.7000000476837,
+    "duration": 10.299999952316284,
+    "transferSize": 25076
+  },
+  {
+    "name": "http://127.0.0.1:4173/assets/chart-viewport-BWMDFIWH.js",
+    "initiatorType": "script",
+    "startTime": 651.3000000715256,
+    "duration": 16.899999976158142,
+    "transferSize": 354287
+  },
+  {
+    "name": "http://127.0.0.1:4173/assets/geist-latin-wght-normal-BgDaEnEv.woff2",
+    "initiatorType": "css",
+    "startTime": 696,
+    "duration": 12.5,
+    "transferSize": 29700
+  },
+  {
+    "name": "http://127.0.0.1:4173/assets/geist-latin-ext-wght-normal-DC-KSUi6.woff2",
+    "initiatorType": "css",
+    "startTime": 698.6000000238419,
+    "duration": 15.399999976158142,
+    "transferSize": 16812
+  },
+  {
+    "name": "http://127.0.0.1:4173/assets/geist-vietnamese-wght-normal-6IgcOCM7.woff2",
+    "initiatorType": "css",
+    "startTime": 698.7000000476837,
+    "duration": 15.799999952316284,
+    "transferSize": 8304
+  },
+  {
+    "name": "http://127.0.0.1:4173/maplibre-gl-worker.mjs",
+    "initiatorType": "other",
+    "startTime": 998.2000000476837,
+    "duration": -225.5,
+    "transferSize": 0
+  },
+  {
+    "name": "http://127.0.0.1:4173/favicon.svg",
+    "initiatorType": "other",
+    "startTime": 1031.3000000715256,
+    "duration": 35.59999990463257,
+    "transferSize": 0
+  },
+  {
+    "name": "http://127.0.0.1:4173/replay/demo-experiment.json",
+    "initiatorType": "fetch",
+    "startTime": 1149.6000000238419,
+    "duration": 31.200000047683716,
+    "transferSize": 412811
+  },
+  {
+    "name": "http://127.0.0.1:4173/replay/manifest.json",
+    "initiatorType": "fetch",
+    "startTime": 1354.3999999761581,
+    "duration": 8.400000095367432,
+    "transferSize": 2353
+  },
+  {
+    "name": "http://127.0.0.1:4173/replay/map/streets.geojson",
+    "initiatorType": "fetch",
+    "startTime": 1366.8000000715256,
+    "duration": 19,
+    "transferSize": 0
+  },
+  {
+    "name": "http://127.0.0.1:4173/replay/map/water.geojson",
+    "initiatorType": "fetch",
+    "startTime": 1503,
+    "duration": 9.600000023841858,
+    "transferSize": 0
+  },
+  {
+    "name": "http://127.0.0.1:4173/replay/map/green.geojson",
+    "initiatorType": "fetch",
+    "startTime": 1519.8999999761581,
+    "duration": 26.800000071525574,
+    "transferSize": 0
+  },
+  {
+    "name": "http://127.0.0.1:4173/replay/map/buildings.geojson",
+    "initiatorType": "fetch",
+    "startTime": 1555.3000000715256,
+    "duration": 15.799999952316284,
+    "transferSize": 0
+  },
+  {
+    "name": "http://127.0.0.1:4173/replay/map/places.geojson",
+    "initiatorType": "fetch",
+    "startTime": 1670.8000000715256,
+    "duration": 9.299999952316284,
+    "transferSize": 0
+  },
+  {
+    "name": "http://127.0.0.1:4173/replay/fonts/geist-latin.woff2",
+    "initiatorType": "fetch",
+    "startTime": 1681.8000000715256,
+    "duration": 4.399999976158142,
+    "transferSize": 0
+  },
+  {
+    "name": "http://127.0.0.1:4173/replay/fonts/geist-vietnamese.woff2",
+    "initiatorType": "fetch",
+    "startTime": 1687.6000000238419,
+    "duration": 3.5,
+    "transferSize": 0
+  },
+  {
+    "name": "http://127.0.0.1:4173/maplibre-gl-worker.mjs",
+    "initiatorType": "fetch",
+    "startTime": 1693.5,
+    "duration": 6.5,
+    "transferSize": 0
+  },
+  {
+    "name": "http://127.0.0.1:4173/maplibre-gl-shared.mjs",
+    "initiatorType": "fetch",
+    "startTime": 1703.3999999761581,
+    "duration": 4.400000095367432,
+    "transferSize": 0
+  },
+  {
+    "name": "http://127.0.0.1:4173/replay/fonts/geist-latin.woff2",
+    "initiatorType": "fetch",
+    "startTime": 4275.800000071526,
+    "duration": 11.799999952316284,
+    "transferSize": 0
+  },
+  {
+    "name": "http://127.0.0.1:4173/replay/fonts/geist-vietnamese.woff2",
+    "initiatorType": "fetch",
+    "startTime": 4276.300000071526,
+    "duration": 11.899999976158142,
+    "transferSize": 0
+  },
+  {
+    "name": "http://127.0.0.1:4173/assets/voucher-analytics-CgGpFFj_.js",
+    "initiatorType": "script",
+    "startTime": 288302.8000000715,
+    "duration": 9.799999952316284,
+    "transferSize": 5091
+  },
+  {
+    "name": "http://127.0.0.1:4173/assets/batch-analysis-BmT16rNr.js",
+    "initiatorType": "script",
+    "startTime": 288598.39999997616,
+    "duration": 10.200000047683716,
+    "transferSize": 24091
+  }
+]

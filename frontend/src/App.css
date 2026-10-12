@@ -33,6 +33,10 @@ button, a { -webkit-tap-highlight-color: transparent; }
 .region-row p { font-size: 9px; color: #8a978e; margin-top: 3px; }
 .bbox-row { font-size: 10px; color: #76877b; background: #f7f9f7; border-radius: 5px; padding: 8px; margin-top: 11px; font-variant-numeric: tabular-nums; letter-spacing: .2px; }
 .small-note { font-size: 9px; color: #929d95; margin-top: 8px; line-height: 1.6; }
+.voucher-panel input[type="file"] { width:100%; max-width:100%; min-width:0; font-size:11px; }
+.voucher-panel .small-note { overflow-wrap:anywhere; }
+.batch-analysis { margin-top:16px; padding:12px; border:1px solid #dce6df; border-radius:10px; font-size:12px; overflow-wrap:anywhere; }
+.batch-analysis table { width:100%; font-size:10px; }
 .section-description { font-size: 10px; color: #8a978e; margin-top: -6px; margin-bottom: 13px; }
 .endpoint { display: flex; gap: 11px; align-items: center; padding: 11px; margin-bottom: 8px; border: 1px solid #e6ece7; border-radius: 9px; }
 .endpoint-label { display: grid; place-items: center; width: 26px; height: 26px; border-radius: 7px; background: #eaf5ee; color: #28835b; font-size: 12px; font-weight: 650; }
