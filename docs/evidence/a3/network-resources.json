@@ -1,0 +1,2393 @@
+{
+  "externalUrls": [],
+  "resources": [
+    {
+      "name": "http://127.0.0.1:5173/@vite/client",
+      "initiatorType": "script",
+      "startTime": 231,
+      "duration": 43.699999928474426,
+      "transferSize": 300
+    },
+    {
+      "name": "http://127.0.0.1:5173/src/main.tsx?t=1791772108355",
+      "initiatorType": "script",
+      "startTime": 231.79999995231628,
+      "duration": 42.60000002384186,
+      "transferSize": 1967
+    },
+    {
+      "name": "http://127.0.0.1:5173/@react-refresh",
+      "initiatorType": "script",
+      "startTime": 233.10000002384186,
+      "duration": 46.5,
+      "transferSize": 300
+    },
+    {
+      "name": "http://127.0.0.1:5173/node_modules/.vite/deps/react.js?v=ed1201a3",
+      "initiatorType": "script",
+      "startTime": 277.10000002384186,
+      "duration": 0,
+      "transferSize": 0
+    },
+    {
+      "name": "http://127.0.0.1:5173/node_modules/.vite/deps/react-dom_client.js?v=e40c357c",
+      "initiatorType": "script",
+      "startTime": 277.2999999523163,
+      "duration": 0,
+      "transferSize": 0
+    },
+    {
+      "name": "http://127.0.0.1:5173/src/index.css?t=1791772108355",
+      "initiatorType": "script",
+      "startTime": 277.39999997615814,
+      "duration": 27.100000023841858,
+      "transferSize": 300
+    },
+    {
+      "name": "http://127.0.0.1:5173/src/App.tsx?t=1791772108353",
+      "initiatorType": "script",
+      "startTime": 277.5,
+      "duration": 27.399999976158142,
+      "transferSize": 300
+    },
+    {
+      "name": "http://127.0.0.1:5173/node_modules/.vite/deps/react_jsx-dev-runtime.js?v=ed1201a3",
+      "initiatorType": "script",
+      "startTime": 277.6999999284744,
+      "duration": 0,
+      "transferSize": 0
+    },
+    {
+      "name": "http://127.0.0.1:5173/node_modules/.vite/deps/rolldown-runtime-DC62tzP2.js?v=5878af58",
+      "initiatorType": "script",
+      "startTime": 277.7999999523163,
+      "duration": 0,
+      "transferSize": 0
+    },
+    {
+      "name": "http://127.0.0.1:5173/node_modules/.vite/deps/react-dom.js?v=ed1201a3",
+      "initiatorType": "script",
+      "startTime": 277.89999997615814,
+      "duration": 0,
+      "transferSize": 0
+    },
+    {
+      "name": "http://127.0.0.1:5173/node_modules/vite/dist/client/env.mjs",
+      "initiatorType": "script",
+      "startTime": 282.60000002384186,
+      "duration": 24.59999990463257,
+      "transferSize": 300
+    },
+    {
+      "name": "http://127.0.0.1:5173/node_modules/.vite/deps/lucide-react.js?v=e83ca7cc",
+      "initiatorType": "script",
+      "startTime": 305.89999997615814,
+      "duration": 0,
+      "transferSize": 0
+    },
+    {
+      "name": "http://127.0.0.1:5173/src/components/ui/button.tsx",
+      "initiatorType": "script",
+      "startTime": 306,
+      "duration": 3,
+      "transferSize": 300
+    },
+    {
+      "name": "http://127.0.0.1:5173/src/components/ui/slider.tsx",
+      "initiatorType": "script",
+      "startTime": 306.10000002384186,
+      "duration": 6.699999928474426,
+      "transferSize": 300
+    },
+    {
+      "name": "http://127.0.0.1:5173/src/components/ui/badge.tsx",
+      "initiatorType": "script",
+      "startTime": 306.10000002384186,
+      "duration": 4.5,
+      "transferSize": 300
+    },
+    {
+      "name": "http://127.0.0.1:5173/src/components/sandbox-map.tsx?t=1791772108353",
+      "initiatorType": "script",
+      "startTime": 306.1999999284744,
+      "duration": 7,
+      "transferSize": 300
+    },
+    {
+      "name": "http://127.0.0.1:5173/src/lib/api.ts",
+      "initiatorType": "script",
+      "startTime": 306.1999999284744,
+      "duration": 7.900000095367432,
+      "transferSize": 300
+    },
+    {
+      "name": "http://127.0.0.1:5173/src/lib/use-playback.ts",
+      "initiatorType": "script",
+      "startTime": 306.2999999523163,
+      "duration": 7.700000047683716,
+      "transferSize": 300
+    },
+    {
+      "name": "http://127.0.0.1:5173/src/App.css?t=1791772108319",
+      "initiatorType": "script",
+      "startTime": 306.2999999523163,
+      "duration": 30.800000071525574,
+      "transferSize": 300
+    },
+    {
+      "name": "http://127.0.0.1:5173/src/lib/playback.ts",
+      "initiatorType": "script",
+      "startTime": 306.2999999523163,
+      "duration": 31,
+      "transferSize": 300
+    },
+    {
+      "name": "http://127.0.0.1:5173/src/lib/use-fleet.ts?t=1791772108366",
+      "initiatorType": "script",
+      "startTime": 306.39999997615814,
+      "duration": 31.100000023841858,
+      "transferSize": 300
+    },
+    {
+      "name": "http://127.0.0.1:5173/src/components/fleet-panel.tsx?t=1791772108362",
+      "initiatorType": "script",
+      "startTime": 306.39999997615814,
+      "duration": 50.299999952316284,
+      "transferSize": 300
+    },
+    {
+      "name": "http://127.0.0.1:5173/src/components/runtime-audit.tsx?t=1791772108363",
+      "initiatorType": "script",
+      "startTime": 306.39999997615814,
+      "duration": 51.200000047683716,
+      "transferSize": 300
+    },
+    {
+      "name": "http://127.0.0.1:5173/src/lib/map-style.ts",
+      "initiatorType": "script",
+      "startTime": 335.6999999284744,
+      "duration": 67.40000009536743,
+      "transferSize": 300
+    },
+    {
+      "name": "http://127.0.0.1:5173/src/components/ui/map.tsx",
+      "initiatorType": "script",
+      "startTime": 335.6999999284744,
+      "duration": 68,
+      "transferSize": 300
+    },
+    {
+      "name": "http://127.0.0.1:5173/src/components/fleet-map.tsx?t=1791772108361",
+      "initiatorType": "script",
+      "startTime": 335.7999999523163,
+      "duration": 66.60000002384186,
+      "transferSize": 300
+    },
+    {
+      "name": "http://127.0.0.1:5173/node_modules/.vite/deps/@base-ui_react_slider.js?v=f6c313a0",
+      "initiatorType": "script",
+      "startTime": 338.6999999284744,
+      "duration": 0,
+      "transferSize": 0
+    },
+    {
+      "name": "http://127.0.0.1:5173/node_modules/.vite/deps/cn.js?v=facf1db4",
+      "initiatorType": "script",
+      "startTime": 338.7999999523163,
+      "duration": 0,
+      "transferSize": 0
+    },
+    {
+      "name": "http://127.0.0.1:5173/node_modules/.vite/deps/@base-ui_react_button.js?v=dae1b180",
+      "initiatorType": "script",
+      "startTime": 338.89999997615814,
+      "duration": 0,
+      "transferSize": 0
+    },
+    {
+      "name": "http://127.0.0.1:5173/node_modules/.vite/deps/class-variance-authority.js?v=b929acd9",
+      "initiatorType": "script",
+      "startTime": 338.89999997615814,
+      "duration": 0,
+      "transferSize": 0
+    },
+    {
+      "name": "http://127.0.0.1:5173/node_modules/.vite/deps/react_jsx-runtime.js?v=ed1201a3",
+      "initiatorType": "script",
+      "startTime": 339,
+      "duration": 0,
+      "transferSize": 0
+    },
+    {
+      "name": "http://127.0.0.1:5173/node_modules/.vite/deps/formatErrorMessage-xk6KuFPl.js?v=5878af58",
+      "initiatorType": "script",
+      "startTime": 339.1999999284744,
+      "duration": 0,
+      "transferSize": 0
+    },
+    {
+      "name": "http://127.0.0.1:5173/node_modules/.vite/deps/useRenderElement-HgjcGXBI.js?v=5878af58",
+      "initiatorType": "script",
+      "startTime": 339.1999999284744,
+      "duration": 0,
+      "transferSize": 0
+    },
+    {
+      "name": "http://127.0.0.1:5173/node_modules/.vite/deps/merge-props-B4lpaVXg.js?v=5878af58",
+      "initiatorType": "script",
+      "startTime": 339.1999999284744,
+      "duration": 0,
+      "transferSize": 0
+    },
+    {
+      "name": "http://127.0.0.1:5173/src/lib/fleet.ts?t=1791772108365",
+      "initiatorType": "script",
+      "startTime": 344.10000002384186,
+      "duration": 58.89999997615814,
+      "transferSize": 300
+    },
+    {
+      "name": "http://127.0.0.1:5173/src/lib/fleet-clock.ts?t=1791772108364",
+      "initiatorType": "script",
+      "startTime": 344.1999999284744,
+      "duration": 58.60000002384186,
+      "transferSize": 300
+    },
+    {
+      "name": "http://127.0.0.1:5173/node_modules/.vite/deps/@base-ui_react_merge-props.js?v=2f9e45fa",
+      "initiatorType": "script",
+      "startTime": 352.89999997615814,
+      "duration": 0,
+      "transferSize": 0
+    },
+    {
+      "name": "http://127.0.0.1:5173/node_modules/.vite/deps/@base-ui_react_use-render.js?v=7d88dd02",
+      "initiatorType": "script",
+      "startTime": 353,
+      "duration": 0,
+      "transferSize": 0
+    },
+    {
+      "name": "http://127.0.0.1:5173/node_modules/@fontsource-variable/geist/files/geist-latin-wght-normal.woff2?import&url",
+      "initiatorType": "script",
+      "startTime": 404.60000002384186,
+      "duration": 2.399999976158142,
+      "transferSize": 300
+    },
+    {
+      "name": "http://127.0.0.1:5173/node_modules/@fontsource-variable/geist/files/geist-vietnamese-wght-normal.woff2?import&url",
+      "initiatorType": "script",
+      "startTime": 404.6999999284744,
+      "duration": 3.100000023841858,
+      "transferSize": 300
+    },
+    {
+      "name": "http://127.0.0.1:5173/node_modules/.vite/deps/maplibre-gl.js?v=8faccded",
+      "initiatorType": "script",
+      "startTime": 405.10000002384186,
+      "duration": 0,
+      "transferSize": 0
+    },
+    {
+      "name": "http://127.0.0.1:5173/node_modules/maplibre-gl/dist/maplibre-gl.css",
+      "initiatorType": "script",
+      "startTime": 405.10000002384186,
+      "duration": 7.699999928474426,
+      "transferSize": 300
+    },
+    {
+      "name": "http://127.0.0.1:5173/src/lib/utils.ts",
+      "initiatorType": "script",
+      "startTime": 405.1999999284744,
+      "duration": 5.800000071525574,
+      "transferSize": 300
+    },
+    {
+      "name": "http://127.0.0.1:5173/node_modules/@fontsource-variable/geist/files/geist-latin-wght-normal.woff2",
+      "initiatorType": "css",
+      "startTime": 635.3999999761581,
+      "duration": 68.79999995231628,
+      "transferSize": 300
+    },
+    {
+      "name": "http://127.0.0.1:5173/node_modules/@fontsource-variable/geist/files/geist-vietnamese-wght-normal.woff2",
+      "initiatorType": "css",
+      "startTime": 636.1999999284744,
+      "duration": 68.60000002384186,
+      "transferSize": 300
+    },
+    {
+      "name": "http://127.0.0.1:5173/node_modules/@fontsource-variable/geist/files/geist-latin-ext-wght-normal.woff2",
+      "initiatorType": "css",
+      "startTime": 636.5,
+      "duration": 8,
+      "transferSize": 300
+    },
+    {
+      "name": "http://127.0.0.1:5173/api/dataset/status",
+      "initiatorType": "fetch",
+      "startTime": 658.7999999523163,
+      "duration": 84.30000007152557,
+      "transferSize": 0
+    },
+    {
+      "name": "http://127.0.0.1:5173/api/dataset/status",
+      "initiatorType": "fetch",
+      "startTime": 681.1999999284744,
+      "duration": 1944.6000000238419,
+      "transferSize": 5783
+    },
+    {
+      "name": "http://127.0.0.1:5173/maplibre-gl-worker.mjs",
+      "initiatorType": "other",
+      "startTime": 749.3999999761581,
+      "duration": -69,
+      "transferSize": 300
+    },
+    {
+      "name": "http://127.0.0.1:5173/favicon.svg",
+      "initiatorType": "other",
+      "startTime": 792.8999999761581,
+      "duration": 10.899999976158142,
+      "transferSize": 300
+    },
+    {
+      "name": "http://127.0.0.1:5173/node_modules/@fontsource-variable/geist/files/geist-latin-wght-normal.woff2",
+      "initiatorType": "fetch",
+      "startTime": 3454.7999999523163,
+      "duration": 5.200000047683716,
+      "transferSize": 300
+    },
+    {
+      "name": "http://127.0.0.1:5173/node_modules/@fontsource-variable/geist/files/geist-vietnamese-wght-normal.woff2",
+      "initiatorType": "fetch",
+      "startTime": 3455,
+      "duration": 5.699999928474426,
+      "transferSize": 300
+    },
+    {
+      "name": "http://127.0.0.1:5173/api/dataset/status",
+      "initiatorType": "fetch",
+      "startTime": 12632,
+      "duration": 237.69999992847443,
+      "transferSize": 5783
+    },
+    {
+      "name": "http://127.0.0.1:5173/api/dataset/status",
+      "initiatorType": "fetch",
+      "startTime": 22874.199999928474,
+      "duration": 293.40000009536743,
+      "transferSize": 5783
+    },
+    {
+      "name": "http://127.0.0.1:5173/api/dataset/status",
+      "initiatorType": "fetch",
+      "startTime": 33177.199999928474,
+      "duration": 339.60000002384186,
+      "transferSize": 5783
+    },
+    {
+      "name": "http://127.0.0.1:5173/api/dataset/status",
+      "initiatorType": "fetch",
+      "startTime": 43526.39999997616,
+      "duration": 429.2000000476837,
+      "transferSize": 5783
+    },
+    {
+      "name": "http://127.0.0.1:5173/api/dataset/status",
+      "initiatorType": "fetch",
+      "startTime": 53960.299999952316,
+      "duration": 305.2000000476837,
+      "transferSize": 5783
+    },
+    {
+      "name": "http://127.0.0.1:5173/api/dataset/status",
+      "initiatorType": "fetch",
+      "startTime": 64270.799999952316,
+      "duration": 237.39999997615814,
+      "transferSize": 5783
+    },
+    {
+      "name": "http://127.0.0.1:5173/api/dataset/status",
+      "initiatorType": "fetch",
+      "startTime": 74519.69999992847,
+      "duration": 358.90000009536743,
+      "transferSize": 5783
+    },
+    {
+      "name": "http://127.0.0.1:5173/api/dataset/status",
+      "initiatorType": "fetch",
+      "startTime": 84881.60000002384,
+      "duration": 349.89999997615814,
+      "transferSize": 5783
+    },
+    {
+      "name": "http://127.0.0.1:5173/api/dataset/status",
+      "initiatorType": "fetch",
+      "startTime": 95239.60000002384,
+      "duration": 306.89999997615814,
+      "transferSize": 5783
+    },
+    {
+      "name": "http://127.0.0.1:5173/api/dataset/status",
+      "initiatorType": "fetch",
+      "startTime": 105551.69999992847,
+      "duration": 342.5,
+      "transferSize": 5783
+    },
+    {
+      "name": "http://127.0.0.1:5173/api/dataset/status",
+      "initiatorType": "fetch",
+      "startTime": 115897.69999992847,
+      "duration": 244.90000009536743,
+      "transferSize": 5783
+    },
+    {
+      "name": "http://127.0.0.1:5173/api/dataset/status",
+      "initiatorType": "fetch",
+      "startTime": 126155.39999997616,
+      "duration": 259.10000002384186,
+      "transferSize": 5783
+    },
+    {
+      "name": "http://127.0.0.1:5173/api/dataset/status",
+      "initiatorType": "fetch",
+      "startTime": 136427.39999997616,
+      "duration": 270,
+      "transferSize": 5783
+    },
+    {
+      "name": "http://127.0.0.1:5173/api/dataset/status",
+      "initiatorType": "fetch",
+      "startTime": 146705.5,
+      "duration": 301.7999999523163,
+      "transferSize": 5783
+    },
+    {
+      "name": "http://127.0.0.1:5173/api/dataset/status",
+      "initiatorType": "fetch",
+      "startTime": 157022,
+      "duration": 284.39999997615814,
+      "transferSize": 5783
+    },
+    {
+      "name": "http://127.0.0.1:5173/api/dataset/status",
+      "initiatorType": "fetch",
+      "startTime": 167309.69999992847,
+      "duration": 320.60000002384186,
+      "transferSize": 5783
+    },
+    {
+      "name": "http://127.0.0.1:5173/api/dataset/status",
+      "initiatorType": "fetch",
+      "startTime": 177643.39999997616,
+      "duration": 324.60000002384186,
+      "transferSize": 5783
+    },
+    {
+      "name": "http://127.0.0.1:5173/api/dataset/status",
+      "initiatorType": "fetch",
+      "startTime": 187975.89999997616,
+      "duration": 318.60000002384186,
+      "transferSize": 5783
+    },
+    {
+      "name": "http://127.0.0.1:5173/api/dataset/status",
+      "initiatorType": "fetch",
+      "startTime": 198308.60000002384,
+      "duration": 312.5,
+      "transferSize": 5783
+    },
+    {
+      "name": "http://127.0.0.1:5173/api/dataset/status",
+      "initiatorType": "fetch",
+      "startTime": 208636.29999995232,
+      "duration": 304.89999997615814,
+      "transferSize": 5783
+    },
+    {
+      "name": "http://127.0.0.1:5173/api/dataset/status",
+      "initiatorType": "fetch",
+      "startTime": 218954.5,
+      "duration": 277.2999999523163,
+      "transferSize": 5783
+    },
+    {
+      "name": "http://127.0.0.1:5173/api/dataset/status",
+      "initiatorType": "fetch",
+      "startTime": 229244,
+      "duration": 213.39999997615814,
+      "transferSize": 5783
+    },
+    {
+      "name": "http://127.0.0.1:5173/api/dataset/status",
+      "initiatorType": "fetch",
+      "startTime": 239469.39999997616,
+      "duration": 410.89999997615814,
+      "transferSize": 5783
+    },
+    {
+      "name": "http://127.0.0.1:5173/api/dataset/status",
+      "initiatorType": "fetch",
+      "startTime": 249882.89999997616,
+      "duration": 240.20000004768372,
+      "transferSize": 5783
+    },
+    {
+      "name": "http://127.0.0.1:5173/api/dataset/status",
+      "initiatorType": "fetch",
+      "startTime": 260127.89999997616,
+      "duration": 280.10000002384186,
+      "transferSize": 5783
+    },
+    {
+      "name": "http://127.0.0.1:5173/api/dataset/status",
+      "initiatorType": "fetch",
+      "startTime": 270421.89999997616,
+      "duration": 262.39999997615814,
+      "transferSize": 5783
+    },
+    {
+      "name": "http://127.0.0.1:5173/api/dataset/status",
+      "initiatorType": "fetch",
+      "startTime": 280699.2999999523,
+      "duration": 270.3000000715256,
+      "transferSize": 5783
+    },
+    {
+      "name": "http://127.0.0.1:5173/api/dataset/status",
+      "initiatorType": "fetch",
+      "startTime": 290986.2999999523,
+      "duration": 258.7000000476837,
+      "transferSize": 5783
+    },
+    {
+      "name": "http://127.0.0.1:5173/api/dataset/status",
+      "initiatorType": "fetch",
+      "startTime": 301255,
+      "duration": 244.89999997615814,
+      "transferSize": 5783
+    },
+    {
+      "name": "http://127.0.0.1:5173/api/dataset/status",
+      "initiatorType": "fetch",
+      "startTime": 311501.7999999523,
+      "duration": 281,
+      "transferSize": 5783
+    },
+    {
+      "name": "http://127.0.0.1:5173/api/dataset/status",
+      "initiatorType": "fetch",
+      "startTime": 321785.89999997616,
+      "duration": 514.7000000476837,
+      "transferSize": 5783
+    },
+    {
+      "name": "http://127.0.0.1:5173/api/dataset/status",
+      "initiatorType": "fetch",
+      "startTime": 332313.60000002384,
+      "duration": 258.6999999284744,
+      "transferSize": 5783
+    },
+    {
+      "name": "http://127.0.0.1:5173/api/dataset/status",
+      "initiatorType": "fetch",
+      "startTime": 342575.5,
+      "duration": 302,
+      "transferSize": 5783
+    },
+    {
+      "name": "http://127.0.0.1:5173/api/dataset/status",
+      "initiatorType": "fetch",
+      "startTime": 352888.10000002384,
+      "duration": 268.1999999284744,
+      "transferSize": 5783
+    },
+    {
+      "name": "http://127.0.0.1:5173/api/dataset/status",
+      "initiatorType": "fetch",
+      "startTime": 363163.6999999285,
+      "duration": 268.8000000715256,
+      "transferSize": 5783
+    },
+    {
+      "name": "http://127.0.0.1:5173/api/dataset/status",
+      "initiatorType": "fetch",
+      "startTime": 373439.7999999523,
+      "duration": 290.5,
+      "transferSize": 5783
+    },
+    {
+      "name": "http://127.0.0.1:5173/api/dataset/status",
+      "initiatorType": "fetch",
+      "startTime": 383739.60000002384,
+      "duration": 312.39999997615814,
+      "transferSize": 5783
+    },
+    {
+      "name": "http://127.0.0.1:5173/api/dataset/status",
+      "initiatorType": "fetch",
+      "startTime": 394066.60000002384,
+      "duration": 245.89999997615814,
+      "transferSize": 5783
+    },
+    {
+      "name": "http://127.0.0.1:5173/api/dataset/status",
+      "initiatorType": "fetch",
+      "startTime": 404317.1999999285,
+      "duration": 457.90000009536743,
+      "transferSize": 5783
+    },
+    {
+      "name": "http://127.0.0.1:5173/api/dataset/status",
+      "initiatorType": "fetch",
+      "startTime": 414790.6999999285,
+      "duration": 425.90000009536743,
+      "transferSize": 5783
+    },
+    {
+      "name": "http://127.0.0.1:5173/api/dataset/status",
+      "initiatorType": "fetch",
+      "startTime": 425221.2999999523,
+      "duration": 493.7000000476837,
+      "transferSize": 5783
+    },
+    {
+      "name": "http://127.0.0.1:5173/api/dataset/status",
+      "initiatorType": "fetch",
+      "startTime": 435730.89999997616,
+      "duration": 396.7999999523163,
+      "transferSize": 5783
+    },
+    {
+      "name": "http://127.0.0.1:5173/api/dataset/status",
+      "initiatorType": "fetch",
+      "startTime": 446137.5,
+      "duration": 222.29999995231628,
+      "transferSize": 5783
+    },
+    {
+      "name": "http://127.0.0.1:5173/api/dataset/status",
+      "initiatorType": "fetch",
+      "startTime": 456365.2999999523,
+      "duration": 296,
+      "transferSize": 5783
+    },
+    {
+      "name": "http://127.0.0.1:5173/api/dataset/status",
+      "initiatorType": "fetch",
+      "startTime": 466665.10000002384,
+      "duration": 214.59999990463257,
+      "transferSize": 5783
+    },
+    {
+      "name": "http://127.0.0.1:5173/api/dataset/status",
+      "initiatorType": "fetch",
+      "startTime": 476888,
+      "duration": 260.1999999284744,
+      "transferSize": 5783
+    },
+    {
+      "name": "http://127.0.0.1:5173/api/dataset/status",
+      "initiatorType": "fetch",
+      "startTime": 487158.1999999285,
+      "duration": 332.60000002384186,
+      "transferSize": 5783
+    },
+    {
+      "name": "http://127.0.0.1:5173/api/dataset/status",
+      "initiatorType": "fetch",
+      "startTime": 497492.39999997616,
+      "duration": 523,
+      "transferSize": 5783
+    },
+    {
+      "name": "http://127.0.0.1:5173/api/dataset/status",
+      "initiatorType": "fetch",
+      "startTime": 508027.39999997616,
+      "duration": 270.5,
+      "transferSize": 5783
+    },
+    {
+      "name": "http://127.0.0.1:5173/api/dataset/status",
+      "initiatorType": "fetch",
+      "startTime": 518299.6999999285,
+      "duration": 272.7000000476837,
+      "transferSize": 5783
+    },
+    {
+      "name": "http://127.0.0.1:5173/api/dataset/status",
+      "initiatorType": "fetch",
+      "startTime": 528582.3999999762,
+      "duration": 281.39999997615814,
+      "transferSize": 5783
+    },
+    {
+      "name": "http://127.0.0.1:5173/api/dataset/status",
+      "initiatorType": "fetch",
+      "startTime": 538877.8999999762,
+      "duration": 234.70000004768372,
+      "transferSize": 5783
+    },
+    {
+      "name": "http://127.0.0.1:5173/api/dataset/status",
+      "initiatorType": "fetch",
+      "startTime": 549126.6000000238,
+      "duration": 233.89999997615814,
+      "transferSize": 5783
+    },
+    {
+      "name": "http://127.0.0.1:5173/api/dataset/status",
+      "initiatorType": "fetch",
+      "startTime": 559364.1999999285,
+      "duration": 268.5,
+      "transferSize": 5783
+    },
+    {
+      "name": "http://127.0.0.1:5173/api/dataset/status",
+      "initiatorType": "fetch",
+      "startTime": 569645.1999999285,
+      "duration": 351.5,
+      "transferSize": 5783
+    },
+    {
+      "name": "http://127.0.0.1:5173/api/dataset/status",
+      "initiatorType": "fetch",
+      "startTime": 580011.6000000238,
+      "duration": 2377.5,
+      "transferSize": 5783
+    },
+    {
+      "name": "http://127.0.0.1:5173/api/dataset/status",
+      "initiatorType": "fetch",
+      "startTime": 592399.3999999762,
+      "duration": 273,
+      "transferSize": 5783
+    },
+    {
+      "name": "http://127.0.0.1:5173/api/dataset/status",
+      "initiatorType": "fetch",
+      "startTime": 602677.5,
+      "duration": 262.39999997615814,
+      "transferSize": 5783
+    },
+    {
+      "name": "http://127.0.0.1:5173/api/dataset/status",
+      "initiatorType": "fetch",
+      "startTime": 612948.1000000238,
+      "duration": 269.1999999284744,
+      "transferSize": 5783
+    },
+    {
+      "name": "http://127.0.0.1:5173/api/dataset/status",
+      "initiatorType": "fetch",
+      "startTime": 623223.3999999762,
+      "duration": 229.60000002384186,
+      "transferSize": 5783
+    },
+    {
+      "name": "http://127.0.0.1:5173/api/dataset/status",
+      "initiatorType": "fetch",
+      "startTime": 633462.8999999762,
+      "duration": 239,
+      "transferSize": 5783
+    },
+    {
+      "name": "http://127.0.0.1:5173/api/dataset/status",
+      "initiatorType": "fetch",
+      "startTime": 643716.6999999285,
+      "duration": 274.3000000715256,
+      "transferSize": 5783
+    },
+    {
+      "name": "http://127.0.0.1:5173/api/dataset/status",
+      "initiatorType": "fetch",
+      "startTime": 653996.5,
+      "duration": 250.10000002384186,
+      "transferSize": 5783
+    },
+    {
+      "name": "http://127.0.0.1:5173/api/dataset/status",
+      "initiatorType": "fetch",
+      "startTime": 664258.1000000238,
+      "duration": 290.89999997615814,
+      "transferSize": 5783
+    },
+    {
+      "name": "http://127.0.0.1:5173/api/dataset/status",
+      "initiatorType": "fetch",
+      "startTime": 674564.1999999285,
+      "duration": 263.10000002384186,
+      "transferSize": 5783
+    },
+    {
+      "name": "http://127.0.0.1:5173/api/dataset/status",
+      "initiatorType": "fetch",
+      "startTime": 684830.2999999523,
+      "duration": 544.6000000238419,
+      "transferSize": 5783
+    },
+    {
+      "name": "http://127.0.0.1:5173/api/dataset/status",
+      "initiatorType": "fetch",
+      "startTime": 695384,
+      "duration": 308.7999999523163,
+      "transferSize": 5783
+    },
+    {
+      "name": "http://127.0.0.1:5173/api/dataset/status",
+      "initiatorType": "fetch",
+      "startTime": 705706.5,
+      "duration": 232.5,
+      "transferSize": 5783
+    },
+    {
+      "name": "http://127.0.0.1:5173/api/dataset/status",
+      "initiatorType": "fetch",
+      "startTime": 715944.5,
+      "duration": 289.1999999284744,
+      "transferSize": 5783
+    },
+    {
+      "name": "http://127.0.0.1:5173/src/App.tsx?t=1791772826589",
+      "initiatorType": "script",
+      "startTime": 717779.8999999762,
+      "duration": 65.29999995231628,
+      "transferSize": 82185
+    },
+    {
+      "name": "http://127.0.0.1:5173/src/index.css?t=1791772826589",
+      "initiatorType": "script",
+      "startTime": 717781.1999999285,
+      "duration": 55,
+      "transferSize": 51807
+    },
+    {
+      "name": "http://127.0.0.1:5173/src/components/sandbox-map.tsx?t=1791772826597",
+      "initiatorType": "script",
+      "startTime": 717867.6999999285,
+      "duration": 8.900000095367432,
+      "transferSize": 16037
+    },
+    {
+      "name": "http://127.0.0.1:5173/src/App.css?t=1791772826600",
+      "initiatorType": "script",
+      "startTime": 717867.8999999762,
+      "duration": 4.600000023841858,
+      "transferSize": 17422
+    },
+    {
+      "name": "http://127.0.0.1:5173/src/lib/use-booking.ts",
+      "initiatorType": "script",
+      "startTime": 717869.1999999285,
+      "duration": 6.900000095367432,
+      "transferSize": 7177
+    },
+    {
+      "name": "http://127.0.0.1:5173/src/components/booking-panel.tsx",
+      "initiatorType": "script",
+      "startTime": 717869.3999999762,
+      "duration": 10.700000047683716,
+      "transferSize": 61141
+    },
+    {
+      "name": "http://127.0.0.1:5173/src/App.tsx?t=1791772826600",
+      "initiatorType": "script",
+      "startTime": 717869.3999999762,
+      "duration": 8.700000047683716,
+      "transferSize": 82185
+    },
+    {
+      "name": "http://127.0.0.1:5173/src/lib/booking.ts",
+      "initiatorType": "script",
+      "startTime": 717904,
+      "duration": 2.799999952316284,
+      "transferSize": 26973
+    },
+    {
+      "name": "http://127.0.0.1:5173/src/components/booking-map.tsx",
+      "initiatorType": "script",
+      "startTime": 717904.1000000238,
+      "duration": 4.699999928474426,
+      "transferSize": 19264
+    },
+    {
+      "name": "http://127.0.0.1:5173/src/index.css?t=1791772826597",
+      "initiatorType": "script",
+      "startTime": 717919.5,
+      "duration": 6.399999976158142,
+      "transferSize": 51807
+    },
+    {
+      "name": "http://127.0.0.1:5173/node_modules/@fontsource-variable/geist/files/geist-vietnamese-wght-normal.woff2",
+      "initiatorType": "css",
+      "startTime": 717920.1999999285,
+      "duration": 0,
+      "transferSize": 300
+    },
+    {
+      "name": "http://127.0.0.1:5173/node_modules/@fontsource-variable/geist/files/geist-latin-wght-normal.woff2",
+      "initiatorType": "css",
+      "startTime": 717920.1999999285,
+      "duration": 0,
+      "transferSize": 300
+    },
+    {
+      "name": "http://127.0.0.1:5173/api/dataset/status",
+      "initiatorType": "fetch",
+      "startTime": 718031.6999999285,
+      "duration": 66.20000004768372,
+      "transferSize": 0
+    },
+    {
+      "name": "http://127.0.0.1:5173/src/index.css?t=1791772826600",
+      "initiatorType": "script",
+      "startTime": 718137.5,
+      "duration": 2.399999976158142,
+      "transferSize": 51807
+    },
+    {
+      "name": "http://127.0.0.1:5173/api/dataset/status",
+      "initiatorType": "fetch",
+      "startTime": 718065.3999999762,
+      "duration": 714.7000000476837,
+      "transferSize": 5783
+    },
+    {
+      "name": "http://127.0.0.1:5173/node_modules/@fontsource-variable/geist/files/geist-latin-wght-normal.woff2",
+      "initiatorType": "fetch",
+      "startTime": 719966.5,
+      "duration": 14.199999928474426,
+      "transferSize": 300
+    },
+    {
+      "name": "http://127.0.0.1:5173/node_modules/@fontsource-variable/geist/files/geist-vietnamese-wght-normal.woff2",
+      "initiatorType": "fetch",
+      "startTime": 719966.6999999285,
+      "duration": 14.600000023841858,
+      "transferSize": 300
+    },
+    {
+      "name": "http://127.0.0.1:5173/api/dataset/status",
+      "initiatorType": "fetch",
+      "startTime": 728790.1000000238,
+      "duration": 344.39999997615814,
+      "transferSize": 5783
+    },
+    {
+      "name": "http://127.0.0.1:5173/api/dataset/status",
+      "initiatorType": "fetch",
+      "startTime": 739148.8999999762,
+      "duration": 322.39999997615814,
+      "transferSize": 5783
+    },
+    {
+      "name": "http://127.0.0.1:5173/api/dataset/status",
+      "initiatorType": "fetch",
+      "startTime": 749482,
+      "duration": 322.7999999523163,
+      "transferSize": 5783
+    },
+    {
+      "name": "http://127.0.0.1:5173/api/dataset/status",
+      "initiatorType": "fetch",
+      "startTime": 759811.1999999285,
+      "duration": 299.90000009536743,
+      "transferSize": 5783
+    },
+    {
+      "name": "http://127.0.0.1:5173/api/dataset/status",
+      "initiatorType": "fetch",
+      "startTime": 770114,
+      "duration": 267.1999999284744,
+      "transferSize": 5783
+    },
+    {
+      "name": "http://127.0.0.1:5173/api/dataset/status",
+      "initiatorType": "fetch",
+      "startTime": 780385.1000000238,
+      "duration": 273.59999990463257,
+      "transferSize": 5783
+    },
+    {
+      "name": "http://127.0.0.1:5173/api/dataset/status",
+      "initiatorType": "fetch",
+      "startTime": 790661.1999999285,
+      "duration": 314.60000002384186,
+      "transferSize": 5783
+    },
+    {
+      "name": "http://127.0.0.1:5173/api/dataset/status",
+      "initiatorType": "fetch",
+      "startTime": 800977.5,
+      "duration": 265.10000002384186,
+      "transferSize": 5783
+    },
+    {
+      "name": "http://127.0.0.1:5173/api/dataset/status",
+      "initiatorType": "fetch",
+      "startTime": 811245.3999999762,
+      "duration": 254,
+      "transferSize": 5783
+    },
+    {
+      "name": "http://127.0.0.1:5173/api/dataset/status",
+      "initiatorType": "fetch",
+      "startTime": 821514.7999999523,
+      "duration": 242.89999997615814,
+      "transferSize": 5783
+    },
+    {
+      "name": "http://127.0.0.1:5173/api/dataset/status",
+      "initiatorType": "fetch",
+      "startTime": 831760.1999999285,
+      "duration": 235.5,
+      "transferSize": 5783
+    },
+    {
+      "name": "http://127.0.0.1:5173/api/dataset/status",
+      "initiatorType": "fetch",
+      "startTime": 842002.7999999523,
+      "duration": 238.89999997615814,
+      "transferSize": 5783
+    },
+    {
+      "name": "http://127.0.0.1:5173/api/dataset/status",
+      "initiatorType": "fetch",
+      "startTime": 852257.3999999762,
+      "duration": 346.7999999523163,
+      "transferSize": 5783
+    },
+    {
+      "name": "http://127.0.0.1:5173/api/dataset/status",
+      "initiatorType": "fetch",
+      "startTime": 862609,
+      "duration": 229,
+      "transferSize": 5783
+    },
+    {
+      "name": "http://127.0.0.1:5173/api/dataset/status",
+      "initiatorType": "fetch",
+      "startTime": 872849.6000000238,
+      "duration": 375.1999999284744,
+      "transferSize": 5783
+    },
+    {
+      "name": "http://127.0.0.1:5173/api/dataset/status",
+      "initiatorType": "fetch",
+      "startTime": 883231,
+      "duration": 243.10000002384186,
+      "transferSize": 5783
+    },
+    {
+      "name": "http://127.0.0.1:5173/api/dataset/status",
+      "initiatorType": "fetch",
+      "startTime": 893489.8999999762,
+      "duration": 270.7000000476837,
+      "transferSize": 5783
+    },
+    {
+      "name": "http://127.0.0.1:5173/api/dataset/status",
+      "initiatorType": "fetch",
+      "startTime": 903772.6999999285,
+      "duration": 1318.8000000715256,
+      "transferSize": 5783
+    },
+    {
+      "name": "http://127.0.0.1:5173/api/dataset/status",
+      "initiatorType": "fetch",
+      "startTime": 915105.1000000238,
+      "duration": 411.59999990463257,
+      "transferSize": 5783
+    },
+    {
+      "name": "http://127.0.0.1:5173/api/dataset/status",
+      "initiatorType": "fetch",
+      "startTime": 925525.8999999762,
+      "duration": 433.7999999523163,
+      "transferSize": 5783
+    },
+    {
+      "name": "http://127.0.0.1:5173/api/dataset/status",
+      "initiatorType": "fetch",
+      "startTime": 935971.1999999285,
+      "duration": 312.90000009536743,
+      "transferSize": 5783
+    },
+    {
+      "name": "http://127.0.0.1:5173/api/dataset/status",
+      "initiatorType": "fetch",
+      "startTime": 946290.7999999523,
+      "duration": 426.7000000476837,
+      "transferSize": 5783
+    },
+    {
+      "name": "http://127.0.0.1:5173/api/dataset/status",
+      "initiatorType": "fetch",
+      "startTime": 956721.5,
+      "duration": 239.89999997615814,
+      "transferSize": 5783
+    },
+    {
+      "name": "http://127.0.0.1:5173/api/dataset/status",
+      "initiatorType": "fetch",
+      "startTime": 966966.8999999762,
+      "duration": 262.89999997615814,
+      "transferSize": 5783
+    },
+    {
+      "name": "http://127.0.0.1:5173/api/dataset/status",
+      "initiatorType": "fetch",
+      "startTime": 977235.7999999523,
+      "duration": 251,
+      "transferSize": 5783
+    },
+    {
+      "name": "http://127.0.0.1:5173/api/dataset/status",
+      "initiatorType": "fetch",
+      "startTime": 987502.6999999285,
+      "duration": 228.5,
+      "transferSize": 5783
+    },
+    {
+      "name": "http://127.0.0.1:5173/api/dataset/status",
+      "initiatorType": "fetch",
+      "startTime": 997737.2999999523,
+      "duration": 10.399999976158142,
+      "transferSize": 300
+    },
+    {
+      "name": "http://127.0.0.1:5173/api/dataset/status",
+      "initiatorType": "fetch",
+      "startTime": 1007760.2999999523,
+      "duration": 385.89999997615814,
+      "transferSize": 5783
+    },
+    {
+      "name": "http://127.0.0.1:5173/api/dataset/status",
+      "initiatorType": "fetch",
+      "startTime": 1018156.3999999762,
+      "duration": 309.60000002384186,
+      "transferSize": 5783
+    },
+    {
+      "name": "http://127.0.0.1:5173/api/dataset/status",
+      "initiatorType": "fetch",
+      "startTime": 1028476.6999999285,
+      "duration": 238.60000002384186,
+      "transferSize": 5783
+    },
+    {
+      "name": "http://127.0.0.1:5173/api/dataset/status",
+      "initiatorType": "fetch",
+      "startTime": 1038730.2999999523,
+      "duration": 398.3000000715256,
+      "transferSize": 5783
+    },
+    {
+      "name": "http://127.0.0.1:5173/api/dataset/status",
+      "initiatorType": "fetch",
+      "startTime": 1049142.2999999523,
+      "duration": 176.30000007152557,
+      "transferSize": 5783
+    },
+    {
+      "name": "http://127.0.0.1:5173/api/dataset/status",
+      "initiatorType": "fetch",
+      "startTime": 1059330.7999999523,
+      "duration": 182.60000002384186,
+      "transferSize": 5783
+    },
+    {
+      "name": "http://127.0.0.1:5173/api/dataset/status",
+      "initiatorType": "fetch",
+      "startTime": 1069520.7999999523,
+      "duration": 232.20000004768372,
+      "transferSize": 5783
+    },
+    {
+      "name": "http://127.0.0.1:5173/api/dataset/status",
+      "initiatorType": "fetch",
+      "startTime": 1079768.1999999285,
+      "duration": 270.3000000715256,
+      "transferSize": 5783
+    },
+    {
+      "name": "http://127.0.0.1:5173/api/dataset/status",
+      "initiatorType": "fetch",
+      "startTime": 1090056.2999999523,
+      "duration": 189.89999997615814,
+      "transferSize": 5783
+    },
+    {
+      "name": "http://127.0.0.1:5173/api/dataset/status",
+      "initiatorType": "fetch",
+      "startTime": 1100255.1000000238,
+      "duration": 190.19999992847443,
+      "transferSize": 5783
+    },
+    {
+      "name": "http://127.0.0.1:5173/api/dataset/status",
+      "initiatorType": "fetch",
+      "startTime": 1110458.5,
+      "duration": 213,
+      "transferSize": 5783
+    },
+    {
+      "name": "http://127.0.0.1:5173/api/booking-simulation/prepare",
+      "initiatorType": "fetch",
+      "startTime": 1115232,
+      "duration": 2016.6999999284744,
+      "transferSize": 88246
+    },
+    {
+      "name": "http://127.0.0.1:5173/api/dataset/status",
+      "initiatorType": "fetch",
+      "startTime": 1120682.3999999762,
+      "duration": 248.79999995231628,
+      "transferSize": 5783
+    },
+    {
+      "name": "http://127.0.0.1:5173/api/dataset/status",
+      "initiatorType": "fetch",
+      "startTime": 1130945.6999999285,
+      "duration": 203.30000007152557,
+      "transferSize": 5783
+    },
+    {
+      "name": "http://127.0.0.1:5173/api/dataset/status",
+      "initiatorType": "fetch",
+      "startTime": 1141164.8999999762,
+      "duration": 208.79999995231628,
+      "transferSize": 5783
+    },
+    {
+      "name": "http://127.0.0.1:5173/api/dataset/status",
+      "initiatorType": "fetch",
+      "startTime": 1151377.3999999762,
+      "duration": 180.70000004768372,
+      "transferSize": 5783
+    },
+    {
+      "name": "http://127.0.0.1:5173/api/dataset/status",
+      "initiatorType": "fetch",
+      "startTime": 1161571.7999999523,
+      "duration": 190.60000002384186,
+      "transferSize": 5783
+    },
+    {
+      "name": "http://127.0.0.1:5173/api/dataset/status",
+      "initiatorType": "fetch",
+      "startTime": 1171776.5,
+      "duration": 191,
+      "transferSize": 5783
+    },
+    {
+      "name": "http://127.0.0.1:5173/api/dataset/status",
+      "initiatorType": "fetch",
+      "startTime": 1181974.8999999762,
+      "duration": 206.79999995231628,
+      "transferSize": 5783
+    },
+    {
+      "name": "http://127.0.0.1:5173/api/dataset/status",
+      "initiatorType": "fetch",
+      "startTime": 1192190,
+      "duration": 181.39999997615814,
+      "transferSize": 5783
+    },
+    {
+      "name": "http://127.0.0.1:5173/api/dataset/status",
+      "initiatorType": "fetch",
+      "startTime": 1202380.6999999285,
+      "duration": 204.10000002384186,
+      "transferSize": 5783
+    },
+    {
+      "name": "http://127.0.0.1:5173/api/dataset/status",
+      "initiatorType": "fetch",
+      "startTime": 1212588.7999999523,
+      "duration": 178.70000004768372,
+      "transferSize": 5783
+    },
+    {
+      "name": "http://127.0.0.1:5173/api/dataset/status",
+      "initiatorType": "fetch",
+      "startTime": 1222781.6999999285,
+      "duration": 199.80000007152557,
+      "transferSize": 5783
+    },
+    {
+      "name": "http://127.0.0.1:5173/api/dataset/status",
+      "initiatorType": "fetch",
+      "startTime": 1232984.6999999285,
+      "duration": 190.80000007152557,
+      "transferSize": 5783
+    },
+    {
+      "name": "http://127.0.0.1:5173/src/index.css?t=1791773346062",
+      "initiatorType": "script",
+      "startTime": 1237249.2999999523,
+      "duration": 182,
+      "transferSize": 51845
+    },
+    {
+      "name": "http://127.0.0.1:5173/src/components/booking-panel.tsx?t=1791773346062",
+      "initiatorType": "script",
+      "startTime": 1237249.5,
+      "duration": 194.60000002384186,
+      "transferSize": 63417
+    },
+    {
+      "name": "http://127.0.0.1:5173/src/index.css?t=1791773346065",
+      "initiatorType": "script",
+      "startTime": 1237482.6999999285,
+      "duration": 5.300000071525574,
+      "transferSize": 51845
+    },
+    {
+      "name": "http://127.0.0.1:5173/node_modules/@fontsource-variable/geist/files/geist-latin-wght-normal.woff2",
+      "initiatorType": "css",
+      "startTime": 1237437.6000000238,
+      "duration": 63.199999928474426,
+      "transferSize": 300
+    },
+    {
+      "name": "http://127.0.0.1:5173/node_modules/@fontsource-variable/geist/files/geist-vietnamese-wght-normal.woff2",
+      "initiatorType": "css",
+      "startTime": 1237445.8999999762,
+      "duration": 64.89999997615814,
+      "transferSize": 300
+    },
+    {
+      "name": "http://127.0.0.1:5173/node_modules/@fontsource-variable/geist/files/geist-latin-ext-wght-normal.woff2",
+      "initiatorType": "css",
+      "startTime": 1237447.3999999762,
+      "duration": 63.5,
+      "transferSize": 300
+    },
+    {
+      "name": "http://127.0.0.1:5173/src/App.css?t=1791773346065",
+      "initiatorType": "script",
+      "startTime": 1237482.6000000238,
+      "duration": 29.399999976158142,
+      "transferSize": 17614
+    },
+    {
+      "name": "http://127.0.0.1:5173/api/dataset/status",
+      "initiatorType": "fetch",
+      "startTime": 1243180.3999999762,
+      "duration": 190,
+      "transferSize": 5783
+    },
+    {
+      "name": "http://127.0.0.1:5173/api/dataset/status",
+      "initiatorType": "fetch",
+      "startTime": 1253379.7999999523,
+      "duration": 175.39999997615814,
+      "transferSize": 5783
+    },
+    {
+      "name": "http://127.0.0.1:5173/api/dataset/status",
+      "initiatorType": "fetch",
+      "startTime": 1263560.2999999523,
+      "duration": 242.30000007152557,
+      "transferSize": 5783
+    },
+    {
+      "name": "http://127.0.0.1:5173/api/dataset/status",
+      "initiatorType": "fetch",
+      "startTime": 1273815.6000000238,
+      "duration": 190.39999997615814,
+      "transferSize": 5783
+    },
+    {
+      "name": "http://127.0.0.1:5173/api/dataset/status",
+      "initiatorType": "fetch",
+      "startTime": 1284019.2999999523,
+      "duration": 191.70000004768372,
+      "transferSize": 5783
+    },
+    {
+      "name": "http://127.0.0.1:5173/api/dataset/status",
+      "initiatorType": "fetch",
+      "startTime": 1294215.2999999523,
+      "duration": 251.60000002384186,
+      "transferSize": 5783
+    },
+    {
+      "name": "http://127.0.0.1:5173/api/dataset/status",
+      "initiatorType": "fetch",
+      "startTime": 1304479.1000000238,
+      "duration": 189.79999995231628,
+      "transferSize": 5783
+    },
+    {
+      "name": "http://127.0.0.1:5173/api/dataset/status",
+      "initiatorType": "fetch",
+      "startTime": 1314674,
+      "duration": 197.79999995231628,
+      "transferSize": 5783
+    },
+    {
+      "name": "http://127.0.0.1:5173/api/dataset/status",
+      "initiatorType": "fetch",
+      "startTime": 1324876.5,
+      "duration": 201.69999992847443,
+      "transferSize": 5783
+    },
+    {
+      "name": "http://127.0.0.1:5173/api/dataset/status",
+      "initiatorType": "fetch",
+      "startTime": 1335083.1000000238,
+      "duration": 207.5,
+      "transferSize": 5783
+    },
+    {
+      "name": "http://127.0.0.1:5173/api/dataset/status",
+      "initiatorType": "fetch",
+      "startTime": 1345307.7999999523,
+      "duration": 187.10000002384186,
+      "transferSize": 5783
+    },
+    {
+      "name": "http://127.0.0.1:5173/api/dataset/status",
+      "initiatorType": "fetch",
+      "startTime": 1355502.5,
+      "duration": 188.39999997615814,
+      "transferSize": 5783
+    },
+    {
+      "name": "http://127.0.0.1:5173/api/dataset/status",
+      "initiatorType": "fetch",
+      "startTime": 1365705.2999999523,
+      "duration": 318.7000000476837,
+      "transferSize": 5783
+    },
+    {
+      "name": "http://127.0.0.1:5173/api/dataset/status",
+      "initiatorType": "fetch",
+      "startTime": 1376028.7999999523,
+      "duration": 285.5,
+      "transferSize": 5783
+    },
+    {
+      "name": "http://127.0.0.1:5173/api/dataset/status",
+      "initiatorType": "fetch",
+      "startTime": 1386323.6999999285,
+      "duration": 194.5,
+      "transferSize": 5783
+    },
+    {
+      "name": "http://127.0.0.1:5173/api/dataset/status",
+      "initiatorType": "fetch",
+      "startTime": 1396533.2999999523,
+      "duration": 188.10000002384186,
+      "transferSize": 5783
+    },
+    {
+      "name": "http://127.0.0.1:5173/api/dataset/status",
+      "initiatorType": "fetch",
+      "startTime": 1406744.2999999523,
+      "duration": 199.80000007152557,
+      "transferSize": 5783
+    },
+    {
+      "name": "http://127.0.0.1:5173/api/dataset/status",
+      "initiatorType": "fetch",
+      "startTime": 1416964.8999999762,
+      "duration": 216.20000004768372,
+      "transferSize": 5783
+    },
+    {
+      "name": "http://127.0.0.1:5173/api/dataset/status",
+      "initiatorType": "fetch",
+      "startTime": 1427190.6999999285,
+      "duration": 211.90000009536743,
+      "transferSize": 5783
+    },
+    {
+      "name": "http://127.0.0.1:5173/api/dataset/status",
+      "initiatorType": "fetch",
+      "startTime": 1437410.6000000238,
+      "duration": 199.89999997615814,
+      "transferSize": 5783
+    },
+    {
+      "name": "http://127.0.0.1:5173/src/index.css?t=1791773548368",
+      "initiatorType": "script",
+      "startTime": 1439557.3999999762,
+      "duration": 51.200000047683716,
+      "transferSize": 51845
+    },
+    {
+      "name": "http://127.0.0.1:5173/src/components/booking-panel.tsx?t=1791773548368",
+      "initiatorType": "script",
+      "startTime": 1439557.5,
+      "duration": 80.60000002384186,
+      "transferSize": 65458
+    },
+    {
+      "name": "http://127.0.0.1:5173/api/dataset/status",
+      "initiatorType": "fetch",
+      "startTime": 1447621.8999999762,
+      "duration": 200.10000002384186,
+      "transferSize": 5783
+    },
+    {
+      "name": "http://127.0.0.1:5173/api/dataset/status",
+      "initiatorType": "fetch",
+      "startTime": 1457832.6999999285,
+      "duration": 213.5,
+      "transferSize": 5783
+    },
+    {
+      "name": "http://127.0.0.1:5173/api/dataset/status",
+      "initiatorType": "fetch",
+      "startTime": 1468061.1999999285,
+      "duration": 290.10000002384186,
+      "transferSize": 5783
+    },
+    {
+      "name": "http://127.0.0.1:5173/src/index.css?t=1791773584592",
+      "initiatorType": "script",
+      "startTime": 1475792.1000000238,
+      "duration": 32.59999990463257,
+      "transferSize": 51845
+    },
+    {
+      "name": "http://127.0.0.1:5173/src/components/booking-panel.tsx?t=1791773584592",
+      "initiatorType": "script",
+      "startTime": 1475792.1999999285,
+      "duration": 67.90000009536743,
+      "transferSize": 66097
+    },
+    {
+      "name": "http://127.0.0.1:5173/src/index.css?t=1791773584595",
+      "initiatorType": "script",
+      "startTime": 1475871.1999999285,
+      "duration": 3.200000047683716,
+      "transferSize": 51845
+    },
+    {
+      "name": "http://127.0.0.1:5173/src/components/booking-map.tsx?t=1791773584595",
+      "initiatorType": "script",
+      "startTime": 1475871.3999999762,
+      "duration": 4.5,
+      "transferSize": 19931
+    },
+    {
+      "name": "http://127.0.0.1:5173/api/dataset/status",
+      "initiatorType": "fetch",
+      "startTime": 1478373.8999999762,
+      "duration": 207.10000002384186,
+      "transferSize": 5783
+    },
+    {
+      "name": "http://127.0.0.1:5173/api/dataset/status",
+      "initiatorType": "fetch",
+      "startTime": 1488584.3999999762,
+      "duration": 249.5,
+      "transferSize": 5783
+    },
+    {
+      "name": "http://127.0.0.1:5173/api/dataset/status",
+      "initiatorType": "fetch",
+      "startTime": 1498847,
+      "duration": 182.69999992847443,
+      "transferSize": 5783
+    },
+    {
+      "name": "http://127.0.0.1:5173/api/dataset/status",
+      "initiatorType": "fetch",
+      "startTime": 1509033.8999999762,
+      "duration": 190.39999997615814,
+      "transferSize": 5783
+    },
+    {
+      "name": "http://127.0.0.1:5173/api/dataset/status",
+      "initiatorType": "fetch",
+      "startTime": 1519238.6999999285,
+      "duration": 191.30000007152557,
+      "transferSize": 5783
+    },
+    {
+      "name": "http://127.0.0.1:5173/api/booking-simulation/prepare",
+      "initiatorType": "fetch",
+      "startTime": 1522202.6999999285,
+      "duration": 2551.5,
+      "transferSize": 161220
+    },
+    {
+      "name": "http://127.0.0.1:5173/api/dataset/status",
+      "initiatorType": "fetch",
+      "startTime": 1529442.7999999523,
+      "duration": 186.20000004768372,
+      "transferSize": 5783
+    },
+    {
+      "name": "http://127.0.0.1:5173/api/dataset/status",
+      "initiatorType": "fetch",
+      "startTime": 1539642.2999999523,
+      "duration": 195.20000004768372,
+      "transferSize": 5783
+    },
+    {
+      "name": "http://127.0.0.1:5173/api/dataset/status",
+      "initiatorType": "fetch",
+      "startTime": 1549846,
+      "duration": 199,
+      "transferSize": 5783
+    },
+    {
+      "name": "http://127.0.0.1:5173/api/dataset/status",
+      "initiatorType": "fetch",
+      "startTime": 1560061.1000000238,
+      "duration": 179.19999992847443,
+      "transferSize": 5783
+    },
+    {
+      "name": "http://127.0.0.1:5173/api/dataset/status",
+      "initiatorType": "fetch",
+      "startTime": 1570261.6000000238,
+      "duration": 329.1999999284744,
+      "transferSize": 5783
+    },
+    {
+      "name": "http://127.0.0.1:5173/api/dataset/status",
+      "initiatorType": "fetch",
+      "startTime": 1580608.1999999285,
+      "duration": 198.60000002384186,
+      "transferSize": 5783
+    },
+    {
+      "name": "http://127.0.0.1:5173/api/dataset/status",
+      "initiatorType": "fetch",
+      "startTime": 1590818.1000000238,
+      "duration": 204.19999992847443,
+      "transferSize": 5783
+    },
+    {
+      "name": "http://127.0.0.1:5173/api/dataset/status",
+      "initiatorType": "fetch",
+      "startTime": 1601027,
+      "duration": 182.5,
+      "transferSize": 5783
+    },
+    {
+      "name": "http://127.0.0.1:5173/api/dataset/status",
+      "initiatorType": "fetch",
+      "startTime": 1611223.7999999523,
+      "duration": 194.39999997615814,
+      "transferSize": 5783
+    },
+    {
+      "name": "http://127.0.0.1:5173/api/dataset/status",
+      "initiatorType": "fetch",
+      "startTime": 1621425.6000000238,
+      "duration": 196,
+      "transferSize": 5783
+    },
+    {
+      "name": "http://127.0.0.1:5173/api/dataset/status",
+      "initiatorType": "fetch",
+      "startTime": 1631628.8999999762,
+      "duration": 199.29999995231628,
+      "transferSize": 5783
+    },
+    {
+      "name": "http://127.0.0.1:5173/api/dataset/status",
+      "initiatorType": "fetch",
+      "startTime": 1641843,
+      "duration": 190.89999997615814,
+      "transferSize": 5783
+    },
+    {
+      "name": "http://127.0.0.1:5173/api/dataset/status",
+      "initiatorType": "fetch",
+      "startTime": 1652044.7999999523,
+      "duration": 244.80000007152557,
+      "transferSize": 5783
+    },
+    {
+      "name": "http://127.0.0.1:5173/api/dataset/status",
+      "initiatorType": "fetch",
+      "startTime": 1662299,
+      "duration": 257.1999999284744,
+      "transferSize": 5783
+    },
+    {
+      "name": "http://127.0.0.1:5173/api/booking-simulation/prepare",
+      "initiatorType": "fetch",
+      "startTime": 1669947.6999999285,
+      "duration": 698.6000000238419,
+      "transferSize": 20481
+    },
+    {
+      "name": "http://127.0.0.1:5173/api/dataset/status",
+      "initiatorType": "fetch",
+      "startTime": 1672563.1999999285,
+      "duration": 202.90000009536743,
+      "transferSize": 5783
+    },
+    {
+      "name": "http://127.0.0.1:5173/api/dataset/status",
+      "initiatorType": "fetch",
+      "startTime": 1682774.6999999285,
+      "duration": 199,
+      "transferSize": 5783
+    },
+    {
+      "name": "http://127.0.0.1:5173/api/dataset/status",
+      "initiatorType": "fetch",
+      "startTime": 1692987.2999999523,
+      "duration": 200.5,
+      "transferSize": 5783
+    },
+    {
+      "name": "http://127.0.0.1:5173/api/dataset/status",
+      "initiatorType": "fetch",
+      "startTime": 1703196.7999999523,
+      "duration": 198.70000004768372,
+      "transferSize": 5783
+    },
+    {
+      "name": "http://127.0.0.1:5173/api/dataset/status",
+      "initiatorType": "fetch",
+      "startTime": 1713408.5,
+      "duration": 186.79999995231628,
+      "transferSize": 5783
+    },
+    {
+      "name": "http://127.0.0.1:5173/api/dataset/status",
+      "initiatorType": "fetch",
+      "startTime": 1723606.5,
+      "duration": 178.60000002384186,
+      "transferSize": 5783
+    },
+    {
+      "name": "http://127.0.0.1:5173/api/fleet/candidates",
+      "initiatorType": "fetch",
+      "startTime": 1727624.3999999762,
+      "duration": 214.60000002384186,
+      "transferSize": 4293
+    },
+    {
+      "name": "http://127.0.0.1:5173/api/route",
+      "initiatorType": "fetch",
+      "startTime": 1727841.1999999285,
+      "duration": 408.5,
+      "transferSize": 1962
+    },
+    {
+      "name": "http://127.0.0.1:5173/api/route",
+      "initiatorType": "fetch",
+      "startTime": 1727841.5,
+      "duration": 413.6999999284744,
+      "transferSize": 2031
+    },
+    {
+      "name": "http://127.0.0.1:5173/api/route",
+      "initiatorType": "fetch",
+      "startTime": 1728251.5,
+      "duration": 545.2999999523163,
+      "transferSize": 1552
+    },
+    {
+      "name": "http://127.0.0.1:5173/api/route",
+      "initiatorType": "fetch",
+      "startTime": 1728267.2999999523,
+      "duration": 530,
+      "transferSize": 3550
+    },
+    {
+      "name": "http://127.0.0.1:5173/api/route",
+      "initiatorType": "fetch",
+      "startTime": 1728799.5,
+      "duration": 260,
+      "transferSize": 3845
+    },
+    {
+      "name": "http://127.0.0.1:5173/api/dataset/status",
+      "initiatorType": "fetch",
+      "startTime": 1733798.8999999762,
+      "duration": 186.29999995231628,
+      "transferSize": 5783
+    },
+    {
+      "name": "http://127.0.0.1:5173/api/dataset/status",
+      "initiatorType": "fetch",
+      "startTime": 1743990.7999999523,
+      "duration": 186.20000004768372,
+      "transferSize": 5783
+    },
+    {
+      "name": "http://127.0.0.1:5173/api/dataset/status",
+      "initiatorType": "fetch",
+      "startTime": 1754190,
+      "duration": 197.60000002384186,
+      "transferSize": 5783
+    },
+    {
+      "name": "http://127.0.0.1:5173/api/dataset/status",
+      "initiatorType": "fetch",
+      "startTime": 1764401.1999999285,
+      "duration": 195.30000007152557,
+      "transferSize": 5783
+    },
+    {
+      "name": "http://127.0.0.1:5173/src/index.css?t=1791773877869",
+      "initiatorType": "script",
+      "startTime": 1769055.6999999285,
+      "duration": 37.10000002384186,
+      "transferSize": 51845
+    },
+    {
+      "name": "http://127.0.0.1:5173/src/components/booking-panel.tsx?t=1791773877869",
+      "initiatorType": "script",
+      "startTime": 1769055.7999999523,
+      "duration": 45.39999997615814,
+      "transferSize": 66358
+    },
+    {
+      "name": "http://127.0.0.1:5173/src/index.css?t=1791773877872",
+      "initiatorType": "script",
+      "startTime": 1769104.7999999523,
+      "duration": 4.800000071525574,
+      "transferSize": 51845
+    },
+    {
+      "name": "http://127.0.0.1:5173/src/components/booking-map.tsx?t=1791773877872",
+      "initiatorType": "script",
+      "startTime": 1769104.8999999762,
+      "duration": 16.600000023841858,
+      "transferSize": 20364
+    },
+    {
+      "name": "http://127.0.0.1:5173/api/dataset/status",
+      "initiatorType": "fetch",
+      "startTime": 1774609.5,
+      "duration": 206.5,
+      "transferSize": 5783
+    },
+    {
+      "name": "http://127.0.0.1:5173/src/index.css?t=1791773887062",
+      "initiatorType": "script",
+      "startTime": 1778249,
+      "duration": 40.39999997615814,
+      "transferSize": 51845
+    },
+    {
+      "name": "http://127.0.0.1:5173/src/components/booking-map.tsx?t=1791773887062",
+      "initiatorType": "script",
+      "startTime": 1778249.1000000238,
+      "duration": 46.299999952316284,
+      "transferSize": 20432
+    },
+    {
+      "name": "http://127.0.0.1:5173/api/dataset/status",
+      "initiatorType": "fetch",
+      "startTime": 1784822.1999999285,
+      "duration": 175.60000002384186,
+      "transferSize": 5783
+    },
+    {
+      "name": "http://127.0.0.1:5173/api/dataset/status",
+      "initiatorType": "fetch",
+      "startTime": 1795003.3999999762,
+      "duration": 193,
+      "transferSize": 5783
+    },
+    {
+      "name": "http://127.0.0.1:5173/api/dataset/status",
+      "initiatorType": "fetch",
+      "startTime": 1805204.5,
+      "duration": 202.39999997615814,
+      "transferSize": 5783
+    },
+    {
+      "name": "http://127.0.0.1:5173/api/dataset/status",
+      "initiatorType": "fetch",
+      "startTime": 1815409.6999999285,
+      "duration": 222.5,
+      "transferSize": 5783
+    },
+    {
+      "name": "http://127.0.0.1:5173/api/dataset/status",
+      "initiatorType": "fetch",
+      "startTime": 1825648.6000000238,
+      "duration": 219,
+      "transferSize": 5783
+    },
+    {
+      "name": "http://127.0.0.1:5173/api/route",
+      "initiatorType": "fetch",
+      "startTime": 1833269.1999999285,
+      "duration": 223.5,
+      "transferSize": 2491
+    },
+    {
+      "name": "http://127.0.0.1:5173/api/dataset/status",
+      "initiatorType": "fetch",
+      "startTime": 1835882,
+      "duration": 175.69999992847443,
+      "transferSize": 5783
+    },
+    {
+      "name": "http://127.0.0.1:5173/api/dataset/status",
+      "initiatorType": "fetch",
+      "startTime": 1846070.1999999285,
+      "duration": 165.10000002384186,
+      "transferSize": 5783
+    },
+    {
+      "name": "http://127.0.0.1:5173/api/dataset/status",
+      "initiatorType": "fetch",
+      "startTime": 1856237.6999999285,
+      "duration": 174.20000004768372,
+      "transferSize": 5783
+    },
+    {
+      "name": "http://127.0.0.1:5173/api/dataset/status",
+      "initiatorType": "fetch",
+      "startTime": 1866422.5,
+      "duration": 291.2999999523163,
+      "transferSize": 5783
+    },
+    {
+      "name": "http://127.0.0.1:5173/api/dataset/status",
+      "initiatorType": "fetch",
+      "startTime": 1876722.7999999523,
+      "duration": 331,
+      "transferSize": 5783
+    },
+    {
+      "name": "http://127.0.0.1:5173/api/dataset/status",
+      "initiatorType": "fetch",
+      "startTime": 1887056.5,
+      "duration": 498.89999997615814,
+      "transferSize": 5783
+    },
+    {
+      "name": "http://127.0.0.1:5173/api/dataset/status",
+      "initiatorType": "fetch",
+      "startTime": 1897560.8999999762,
+      "duration": 402,
+      "transferSize": 5783
+    },
+    {
+      "name": "http://127.0.0.1:5173/api/dataset/status",
+      "initiatorType": "fetch",
+      "startTime": 1907968.3999999762,
+      "duration": 402.60000002384186,
+      "transferSize": 5783
+    },
+    {
+      "name": "http://127.0.0.1:5173/api/dataset/status",
+      "initiatorType": "fetch",
+      "startTime": 1918379,
+      "duration": 957,
+      "transferSize": 5783
+    },
+    {
+      "name": "http://127.0.0.1:5173/api/dataset/status",
+      "initiatorType": "fetch",
+      "startTime": 1929360,
+      "duration": 504.10000002384186,
+      "transferSize": 5783
+    },
+    {
+      "name": "http://127.0.0.1:5173/api/dataset/status",
+      "initiatorType": "fetch",
+      "startTime": 1939951.2999999523,
+      "duration": 450.3000000715256,
+      "transferSize": 5783
+    },
+    {
+      "name": "http://127.0.0.1:5173/api/dataset/status",
+      "initiatorType": "fetch",
+      "startTime": 1950507.8999999762,
+      "duration": 417.2999999523163,
+      "transferSize": 5783
+    },
+    {
+      "name": "http://127.0.0.1:5173/api/dataset/status",
+      "initiatorType": "fetch",
+      "startTime": 1961060.8999999762,
+      "duration": 416.89999997615814,
+      "transferSize": 5783
+    },
+    {
+      "name": "http://127.0.0.1:5173/api/dataset/status",
+      "initiatorType": "fetch",
+      "startTime": 1971571.8999999762,
+      "duration": 397.7999999523163,
+      "transferSize": 5783
+    },
+    {
+      "name": "http://127.0.0.1:5173/api/dataset/status",
+      "initiatorType": "fetch",
+      "startTime": 1982077,
+      "duration": 392.60000002384186,
+      "transferSize": 5783
+    },
+    {
+      "name": "http://127.0.0.1:5173/api/dataset/status",
+      "initiatorType": "fetch",
+      "startTime": 1992560.1000000238,
+      "duration": 400.6999999284744,
+      "transferSize": 5783
+    },
+    {
+      "name": "http://127.0.0.1:5173/api/dataset/status",
+      "initiatorType": "fetch",
+      "startTime": 2003039.6000000238,
+      "duration": 302.5,
+      "transferSize": 5783
+    },
+    {
+      "name": "http://127.0.0.1:5173/api/dataset/status",
+      "initiatorType": "fetch",
+      "startTime": 2013354.1999999285,
+      "duration": 318.2000000476837,
+      "transferSize": 5783
+    },
+    {
+      "name": "http://127.0.0.1:5173/src/index.css?t=1791774122826",
+      "initiatorType": "script",
+      "startTime": 2014017.1999999285,
+      "duration": 62.40000009536743,
+      "transferSize": 51845
+    },
+    {
+      "name": "http://127.0.0.1:5173/api/dataset/status",
+      "initiatorType": "fetch",
+      "startTime": 2023676.6999999285,
+      "duration": 396,
+      "transferSize": 5783
+    },
+    {
+      "name": "http://127.0.0.1:5173/api/dataset/status",
+      "initiatorType": "fetch",
+      "startTime": 2034077.1999999285,
+      "duration": 256.5,
+      "transferSize": 5783
+    },
+    {
+      "name": "http://127.0.0.1:5173/api/dataset/status",
+      "initiatorType": "fetch",
+      "startTime": 2044337,
+      "duration": 296.89999997615814,
+      "transferSize": 5783
+    },
+    {
+      "name": "http://127.0.0.1:5173/api/dataset/status",
+      "initiatorType": "fetch",
+      "startTime": 2054635.7999999523,
+      "duration": 272.8000000715256,
+      "transferSize": 5783
+    },
+    {
+      "name": "http://127.0.0.1:5173/api/dataset/status",
+      "initiatorType": "fetch",
+      "startTime": 2064918.5,
+      "duration": 254.19999992847443,
+      "transferSize": 5783
+    },
+    {
+      "name": "http://127.0.0.1:5173/api/dataset/status",
+      "initiatorType": "fetch",
+      "startTime": 2075180.2999999523,
+      "duration": 276.39999997615814,
+      "transferSize": 5783
+    },
+    {
+      "name": "http://127.0.0.1:5173/api/dataset/status",
+      "initiatorType": "fetch",
+      "startTime": 2085468.7999999523,
+      "duration": 251.5,
+      "transferSize": 5783
+    },
+    {
+      "name": "http://127.0.0.1:5173/api/dataset/status",
+      "initiatorType": "fetch",
+      "startTime": 2095731.6999999285,
+      "duration": 248,
+      "transferSize": 5783
+    },
+    {
+      "name": "http://127.0.0.1:5173/api/fleet/candidates",
+      "initiatorType": "fetch",
+      "startTime": 2104243.2999999523,
+      "duration": 392.2000000476837,
+      "transferSize": 4293
+    },
+    {
+      "name": "http://127.0.0.1:5173/api/dataset/status",
+      "initiatorType": "fetch",
+      "startTime": 2105997.5,
+      "duration": 362.1999999284744,
+      "transferSize": 5783
+    },
+    {
+      "name": "http://127.0.0.1:5173/api/dataset/status",
+      "initiatorType": "fetch",
+      "startTime": 2116365.5,
+      "duration": 290.1999999284744,
+      "transferSize": 5783
+    },
+    {
+      "name": "http://127.0.0.1:5173/api/dataset/status",
+      "initiatorType": "fetch",
+      "startTime": 2126668.100000024,
+      "duration": 243.39999997615814,
+      "transferSize": 5783
+    },
+    {
+      "name": "http://127.0.0.1:5173/api/dataset/status",
+      "initiatorType": "fetch",
+      "startTime": 2136920.600000024,
+      "duration": 332.09999990463257,
+      "transferSize": 5783
+    },
+    {
+      "name": "http://127.0.0.1:5173/api/dataset/status",
+      "initiatorType": "fetch",
+      "startTime": 2147266.1999999285,
+      "duration": 312.8000000715256,
+      "transferSize": 5783
+    },
+    {
+      "name": "http://127.0.0.1:5173/api/dataset/status",
+      "initiatorType": "fetch",
+      "startTime": 2157582.6999999285,
+      "duration": 276.8000000715256,
+      "transferSize": 5783
+    },
+    {
+      "name": "http://127.0.0.1:5173/api/booking-simulation/prepare",
+      "initiatorType": "fetch",
+      "startTime": 2163343.2999999523,
+      "duration": 381.8000000715256,
+      "transferSize": 0
+    },
+    {
+      "name": "http://127.0.0.1:5173/api/booking-simulation/prepare",
+      "initiatorType": "fetch",
+      "startTime": 2163690.6999999285,
+      "duration": 3351.3000000715256,
+      "transferSize": 102512
+    },
+    {
+      "name": "http://127.0.0.1:5173/api/dataset/status",
+      "initiatorType": "fetch",
+      "startTime": 2167870.399999976,
+      "duration": 360.10000002384186,
+      "transferSize": 5783
+    },
+    {
+      "name": "http://127.0.0.1:5173/api/dataset/status",
+      "initiatorType": "fetch",
+      "startTime": 2178241.7999999523,
+      "duration": 285.2000000476837,
+      "transferSize": 5783
+    },
+    {
+      "name": "http://127.0.0.1:5173/api/dataset/status",
+      "initiatorType": "fetch",
+      "startTime": 2188538.899999976,
+      "duration": 254.29999995231628,
+      "transferSize": 5783
+    },
+    {
+      "name": "http://127.0.0.1:5173/api/dataset/status",
+      "initiatorType": "fetch",
+      "startTime": 2199059.5,
+      "duration": 362.1999999284744,
+      "transferSize": 5783
+    },
+    {
+      "name": "http://127.0.0.1:5173/api/dataset/status",
+      "initiatorType": "fetch",
+      "startTime": 2209425.100000024,
+      "duration": 324.2999999523163,
+      "transferSize": 5783
+    },
+    {
+      "name": "http://127.0.0.1:5173/api/dataset/status",
+      "initiatorType": "fetch",
+      "startTime": 2219759.399999976,
+      "duration": 340,
+      "transferSize": 5783
+    },
+    {
+      "name": "http://127.0.0.1:5173/api/booking-simulation/prepare",
+      "initiatorType": "fetch",
+      "startTime": 2221159.7999999523,
+      "duration": 2542.3000000715256,
+      "transferSize": 88262
+    },
+    {
+      "name": "http://127.0.0.1:5173/api/dataset/status",
+      "initiatorType": "fetch",
+      "startTime": 2230101.7999999523,
+      "duration": 272.89999997615814,
+      "transferSize": 5783
+    },
+    {
+      "name": "http://127.0.0.1:5173/api/dataset/status",
+      "initiatorType": "fetch",
+      "startTime": 2240390.899999976,
+      "duration": 291.39999997615814,
+      "transferSize": 5783
+    },
+    {
+      "name": "http://127.0.0.1:5173/api/dataset/status",
+      "initiatorType": "fetch",
+      "startTime": 2250692.6999999285,
+      "duration": 330.60000002384186,
+      "transferSize": 5783
+    },
+    {
+      "name": "http://127.0.0.1:5173/api/dataset/status",
+      "initiatorType": "fetch",
+      "startTime": 2261028.6999999285,
+      "duration": 232.80000007152557,
+      "transferSize": 5783
+    },
+    {
+      "name": "http://127.0.0.1:5173/api/dataset/status",
+      "initiatorType": "fetch",
+      "startTime": 2271270.100000024,
+      "duration": 255.09999990463257,
+      "transferSize": 5783
+    },
+    {
+      "name": "http://127.0.0.1:5173/api/booking-simulation/prepare",
+      "initiatorType": "fetch",
+      "startTime": 2278502.399999976,
+      "duration": 736.3999999761581,
+      "transferSize": 0
+    },
+    {
+      "name": "http://127.0.0.1:5173/api/dataset/status",
+      "initiatorType": "fetch",
+      "startTime": 2281531.600000024,
+      "duration": 319.5,
+      "transferSize": 5783
+    },
+    {
+      "name": "http://127.0.0.1:5173/api/booking-simulation/prepare",
+      "initiatorType": "fetch",
+      "startTime": 2279218.7999999523,
+      "duration": 3044,
+      "transferSize": 109068
+    },
+    {
+      "name": "http://127.0.0.1:5173/api/dataset/status",
+      "initiatorType": "fetch",
+      "startTime": 2291864.1999999285,
+      "duration": 343.40000009536743,
+      "transferSize": 5783
+    },
+    {
+      "name": "http://127.0.0.1:5173/api/dataset/status",
+      "initiatorType": "fetch",
+      "startTime": 2302213.6999999285,
+      "duration": 266.10000002384186,
+      "transferSize": 5783
+    },
+    {
+      "name": "http://127.0.0.1:5173/api/booking-simulation/prepare",
+      "initiatorType": "fetch",
+      "startTime": 2309770.600000024,
+      "duration": 2249.2999999523163,
+      "transferSize": 88262
+    },
+    {
+      "name": "http://127.0.0.1:5173/api/dataset/status",
+      "initiatorType": "fetch",
+      "startTime": 2312481.6999999285,
+      "duration": 267,
+      "transferSize": 5783
+    },
+    {
+      "name": "http://127.0.0.1:5173/api/dataset/status",
+      "initiatorType": "fetch",
+      "startTime": 2322764.1999999285,
+      "duration": 287.40000009536743,
+      "transferSize": 5783
+    },
+    {
+      "name": "http://127.0.0.1:5173/api/dataset/status",
+      "initiatorType": "fetch",
+      "startTime": 2333055,
+      "duration": 347.6999999284744,
+      "transferSize": 5783
+    },
+    {
+      "name": "http://127.0.0.1:5173/api/dataset/status",
+      "initiatorType": "fetch",
+      "startTime": 2343416,
+      "duration": 267.6999999284744,
+      "transferSize": 5783
+    },
+    {
+      "name": "http://127.0.0.1:5173/api/dataset/status",
+      "initiatorType": "fetch",
+      "startTime": 2353699,
+      "duration": 461,
+      "transferSize": 5783
+    },
+    {
+      "name": "http://127.0.0.1:5173/api/dataset/status",
+      "initiatorType": "fetch",
+      "startTime": 2364173.899999976,
+      "duration": 278.10000002384186,
+      "transferSize": 5783
+    },
+    {
+      "name": "http://127.0.0.1:5173/api/dataset/status",
+      "initiatorType": "fetch",
+      "startTime": 2374461.399999976,
+      "duration": 246.79999995231628,
+      "transferSize": 5783
+    },
+    {
+      "name": "http://127.0.0.1:5173/api/dataset/status",
+      "initiatorType": "fetch",
+      "startTime": 2384737.5,
+      "duration": 515.1000000238419,
+      "transferSize": 5783
+    },
+    {
+      "name": "http://127.0.0.1:5173/api/dataset/status",
+      "initiatorType": "fetch",
+      "startTime": 2395974.399999976,
+      "duration": 536.5,
+      "transferSize": 5783
+    },
+    {
+      "name": "http://127.0.0.1:5173/api/dataset/status",
+      "initiatorType": "fetch",
+      "startTime": 2406829.399999976,
+      "duration": 367.7999999523163,
+      "transferSize": 5783
+    },
+    {
+      "name": "http://127.0.0.1:5173/api/dataset/status",
+      "initiatorType": "fetch",
+      "startTime": 2417210,
+      "duration": 598,
+      "transferSize": 5783
+    },
+    {
+      "name": "http://127.0.0.1:5173/api/dataset/status",
+      "initiatorType": "fetch",
+      "startTime": 2427829.899999976,
+      "duration": 341,
+      "transferSize": 5783
+    }
+  ],
+  "console": []
+}

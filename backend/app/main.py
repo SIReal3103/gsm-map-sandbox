@@ -1,6 +1,7 @@
 import math
+import asyncio
 import httpx
-from fastapi import FastAPI, HTTPException
+from fastapi import FastAPI, HTTPException, Request
 from fastapi.exceptions import RequestValidationError
 from fastapi.responses import JSONResponse, FileResponse
 from pydantic import ValidationError
@@ -9,6 +10,7 @@ from .config import Settings
 from .dataset import dataset_status, artifact_status, pbf_status
 from .schemas import RouteRequest, RouteResponse, SnapPoint
 from .fleet import candidate_catalog
+from .booking import PrepareRequest, ScenarioPlan, LocalTravel, build_plan
 
 
 def api_error(code, message, status=503):
@@ -25,6 +27,7 @@ def create_app(settings: Settings | None = None):
     settings = settings or Settings()
     settings.region  # Fail early for invalid configuration, never for a missing PBF.
     app = FastAPI(title="GSM Map Sandbox", version="0.1.0")
+    preparation_lock = asyncio.Semaphore(2)
 
     @app.exception_handler(HTTPException)
     async def structured_error(_, exc):
@@ -32,7 +35,9 @@ def create_app(settings: Settings | None = None):
         return JSONResponse(status_code=exc.status_code, content={"error": detail})
 
     @app.exception_handler(RequestValidationError)
-    async def validation_error(_, exc):
+    async def validation_error(request, exc):
+        if request.url.path == "/api/booking-simulation/prepare":
+            return JSONResponse(status_code=422, content={"error": {"code": "INVALID_SCENARIO_CONFIG", "message": "Cần seed, 1–10 xe, 10–30 bookings, horizon 60–3600 s, maxWait 10–900 s và preset hợp lệ."}})
         return JSONResponse(status_code=422, content={"error": {"code": "INVALID_COORDINATES", "message": "Expected start/end as finite WGS84 [longitude, latitude], with no extra fields."}})
 
     @app.get("/api/health")
@@ -70,8 +75,7 @@ def create_app(settings: Settings | None = None):
             api_error("DATASET_NOT_READY", "Lớp GeoJSON chưa sẵn sàng.")
         return FileResponse(path, media_type="application/geo+json")
 
-    @app.post("/api/route", response_model=RouteResponse)
-    async def route(request: RouteRequest):
+    async def calculate_route(request: RouteRequest, router_client=None):
         w, s, e, n = settings.region.routing_bbox
         if any(not (w <= lon <= e and s <= lat <= n) for lon, lat in (request.start, request.end)):
             api_error("OUTSIDE_ROUTING_REGION", "Điểm nằm ngoài vùng routing đã cấu hình.", 422)
@@ -81,14 +85,19 @@ def create_app(settings: Settings | None = None):
             api_error("DATASET_NOT_READY", "Chưa có PBF đọc được và OSRM graph MLD đã chuẩn bị.")
         coords = ";".join(f"{lon},{lat}" for lon, lat in (request.start, request.end))
         try:
-            async with httpx.AsyncClient(timeout=settings.osrm_timeout_seconds, trust_env=False) as client:
-                response = await client.get(f"{settings.osrm_base_url}/route/v1/driving/{coords}", params={"geometries": "geojson", "overview": "full", "steps": "false", "radiuses": f"{settings.max_snap_meters};{settings.max_snap_meters}"})
-                data = response.json()
-                if data.get("code") in {"NoRoute", "NoSegment"}:
-                    api_error(data["code"].upper(), "Không tìm thấy tuyến ô tô hoặc điểm snap phù hợp.", 422)
-                response.raise_for_status()
-                if data.get("code") != "Ok":
-                    api_error("ROUTER_BAD_RESPONSE", "OSRM trả về phản hồi không hợp lệ.", 502)
+            async def query(client):
+                return await client.get(f"{settings.osrm_base_url}/route/v1/driving/{coords}", params={"geometries": "geojson", "overview": "full", "steps": "false", "radiuses": f"{settings.max_snap_meters};{settings.max_snap_meters}"})
+            if router_client is not None:
+                response = await query(router_client)
+            else:
+                async with httpx.AsyncClient(timeout=settings.osrm_timeout_seconds, trust_env=False) as client:
+                    response = await query(client)
+            data = response.json()
+            if data.get("code") in {"NoRoute", "NoSegment"}:
+                api_error(data["code"].upper(), "Không tìm thấy tuyến ô tô hoặc điểm snap phù hợp.", 422)
+            response.raise_for_status()
+            if data.get("code") != "Ok":
+                api_error("ROUTER_BAD_RESPONSE", "OSRM trả về phản hồi không hợp lệ.", 502)
             result = data["routes"][0]
             if result["geometry"].get("type") != "LineString":
                 api_error("ROUTER_BAD_RESPONSE", "OSRM geometry phải là LineString.", 502)
@@ -109,6 +118,24 @@ def create_app(settings: Settings | None = None):
             api_error("ROUTER_UNAVAILABLE", "Không kết nối được OSRM local.")
         except (ValueError, KeyError, IndexError, TypeError, ValidationError, AttributeError):
             api_error("ROUTER_BAD_RESPONSE", "OSRM trả về dữ liệu tuyến không hợp lệ.", 502)
+
+    @app.post("/api/route", response_model=RouteResponse)
+    async def route(request: RouteRequest):
+        return await calculate_route(request)
+
+    @app.post("/api/booking-simulation/prepare", response_model=ScenarioPlan)
+    async def prepare_booking(config: PrepareRequest, request: Request):
+        if not (await dataset_status(settings))["ready"]:
+            api_error("DATASET_NOT_READY", "Cần dữ liệu bản đồ và OSRM local sẵn sàng.")
+        async with preparation_lock:
+            try:
+                catalog = candidate_catalog(settings)
+                async with httpx.AsyncClient(timeout=settings.osrm_timeout_seconds, trust_env=False) as client:
+                    async def fetch_route(route_request):
+                        return await calculate_route(route_request, client)
+                    return await build_plan(catalog, config, LocalTravel(settings, fetch_route, meters, client), request.is_disconnected)
+            except (OSError, KeyError, ValueError, TypeError):
+                api_error("INVALID_SCENARIO_PLAN", "Không xác minh được candidate, ETA hoặc scenario plan.", 502)
 
     return app
 

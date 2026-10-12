@@ -1,0 +1,11 @@
+{
+  "date": "2026-10-12",
+  "baseline": { "backendPassed": 56, "backendSkipped": 0, "frontendPassed": 27, "build": "PASS" },
+  "final": { "backendPassed": 91, "backendSkipped": 0, "backendWarnings": 1, "backendSeconds": 14.87, "frontendPassed": 39, "frontendSeconds": 6.89, "typecheckAndBuild": "PASS" },
+  "browser": { "desktop": "1440x1080", "mobile": "390x844", "webgl": "PASS", "singleTrip": "PASS", "fleet5": "PASS", "booking5_20": "PASS", "booking10_30": "PASS", "unservedScenario": "PASS", "consoleWarnErrors": 0, "observedExternalResourceUrls": 0 },
+  "independentAudit": { "vehicleProjections": 226, "metricSnapshots": 5, "status": "PASS", "evidence": "projection-audit.json" },
+  "integrity": { "entries": 40, "unchanged": true, "before": "integrity-before.json", "after": "integrity-after.json" },
+  "fail": [],
+  "blocked": [],
+  "note": "Counts taken from executed pytest/Vitest/build logs. Real OSRM evidence is separate from mocked edge-case unit tests. No Git commit/push/merge or GIS preprocessing performed."
+}

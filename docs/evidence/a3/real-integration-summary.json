@@ -1,0 +1,75 @@
+[
+  {
+    "case": "scenario-5-20",
+    "vehicles": 5,
+    "bookings": 20,
+    "completed": 15,
+    "unserved": 5,
+    "preparationMilliseconds": 2434.307299903594,
+    "routingRequests": {
+      "nearest": 5,
+      "table": 36,
+      "route": 33,
+      "routeCacheHits": 59,
+      "tableCacheHits": 43
+    },
+    "eventCount": 85,
+    "durationSeconds": 2092.397,
+    "assignmentAudit": "PASS"
+  },
+  {
+    "case": "scenario-5-20-repeat",
+    "vehicles": 5,
+    "bookings": 20,
+    "completed": 15,
+    "unserved": 5,
+    "preparationMilliseconds": 3144.998800009489,
+    "routingRequests": {
+      "nearest": 5,
+      "table": 36,
+      "route": 33,
+      "routeCacheHits": 59,
+      "tableCacheHits": 43
+    },
+    "eventCount": 85,
+    "durationSeconds": 2092.397,
+    "assignmentAudit": "PASS",
+    "deterministicReplay": "PASS"
+  },
+  {
+    "case": "scenario-10-30",
+    "vehicles": 10,
+    "bookings": 30,
+    "completed": 28,
+    "unserved": 2,
+    "preparationMilliseconds": 5276.947800070047,
+    "routingRequests": {
+      "nearest": 10,
+      "table": 49,
+      "route": 53,
+      "routeCacheHits": 50,
+      "tableCacheHits": 30
+    },
+    "eventCount": 144,
+    "durationSeconds": 2092.397,
+    "assignmentAudit": "PASS"
+  },
+  {
+    "case": "scenario-unserved",
+    "vehicles": 1,
+    "bookings": 30,
+    "completed": 1,
+    "unserved": 29,
+    "preparationMilliseconds": 954.362399992533,
+    "routingRequests": {
+      "nearest": 1,
+      "table": 7,
+      "route": 8,
+      "routeCacheHits": 28,
+      "tableCacheHits": 29
+    },
+    "eventCount": 63,
+    "durationSeconds": 148.95399999999998,
+    "assignmentAudit": "PASS"
+  }
+]
