@@ -155,3 +155,35 @@ button, a { -webkit-tap-highlight-color: transparent; }
 @media (max-width: 1100px) { .header-status { gap: 13px; font-size: 10px; } .app-header { gap: 16px; padding: 16px 22px; } .local-badge { display: none; } .workspace { grid-template-columns: 315px minmax(0, 1fr); } .sidebar-section { padding: 21px; } .map-workspace { padding: 23px 18px 17px; } .waiting-card { padding: 28px 20px 24px; } .waiting-card h2 { font-size: 19px; } .map-chip .chip-divider, .map-chip .chip-divider + span { display: none; } .readiness-list { gap: 5px; } }
 @media (max-width: 800px) { .app-header { flex-wrap: wrap; gap: 12px; } .header-status { margin-left: 0; width: 100%; padding-left: 58px; } .brand h1 { font-size: 18px; } .workspace { display: flex; flex-direction: column; } .sidebar { order: 2; border-right: none; } .map-workspace { order: 1; padding: 20px 14px; } .map-topbar h2 { font-size: 16px; } .map-canvas { min-height: 630px; } .map-topbar { margin-bottom: 15px; } .sidebar-section { padding: 22px; } .map-footer { flex-wrap: wrap; } .waiting-card h2 { font-size: 19px; } .readiness-list > div { font-size: 8px; } }
 
+
+/* A4 Studio extends the existing workspace; the map instance stays shared. */
+.studio-navigation { padding: 14px 22px 18px; border-bottom: 1px solid #e1e9e4; border-top: 1px solid #e1e9e4; margin-top: 12px; }
+.studio-button { width: 100%; white-space: normal; }
+.voucher-panel .booking-inputs input, .voucher-panel .booking-inputs select { width: 100%; min-width: 0; }
+.voucher-policy { margin-top: 14px; }
+.arm-switch { display: flex; gap: 8px; flex-wrap: wrap; margin: 10px 0; }
+.budget-summary { padding: 12px; background: #eff7f1; border-radius: 10px; margin-top: 12px; font-size: 12px; }
+.budget-summary p { line-height: 1.8; margin: 8px 0; }
+.voucher-dashboard, .voucher-empty { margin-top: 24px; width: 100%; min-width: 0; }
+.workspace:has(.voucher-panel) .map-canvas { height: 620px; min-height: 620px; flex: none; }
+.experiment-heading { display: flex; justify-content: space-between; align-items: center; gap: 14px; flex-wrap: wrap; }
+.experiment-heading h2 { font-size: 22px; margin: 0; }
+.experiment-heading p { font-size: 12px; color: #627368; margin: 6px 0; }
+.experiment-kpis { display: grid; grid-template-columns: repeat(3,minmax(0,1fr)); gap: 12px; margin: 18px 0; }
+.experiment-kpis article { border: 1px solid #dbe6df; background: white; border-radius: 13px; padding: 16px; }
+.experiment-kpis h3 { font-size: 12px; color: #5a7062; margin: 0 0 12px; }
+.experiment-kpis strong { font-size: 17px; }
+.experiment-kpis p { font-size: 12px; line-height: 1.9; margin: 10px 0 0; }
+.experiment-chart-grid { display: grid; grid-template-columns: repeat(2,minmax(0,1fr)); gap: 16px; margin: 16px 0; }
+.experiment-chart { min-width: 0; background: white; padding: 16px 8px; border: 1px solid #e0e7e2; border-radius: 13px; }
+.experiment-chart h3 { font-size: 13px; margin: 0 12px 14px; }
+.experiment-chart .booking-metrics { padding: 0 12px; }
+.experiment-chart .small-note { padding: 0 12px; }
+.experiment-actions { display: flex; flex-wrap: wrap; gap: 10px; align-items: center; }
+.experiment-actions summary { font-size: 12px; cursor: pointer; }
+.advanced-analytics { margin-top: 24px; padding-top: 20px; border-top: 1px solid #dce5df; }
+.advanced-analytics h2 { font-size: 19px; }
+@media(max-width:1100px) { .experiment-kpis { grid-template-columns:1fr; } }
+@media(max-width:800px) { .experiment-chart-grid { grid-template-columns:1fr; } .experiment-heading h2 { font-size:19px; } }
+
+.voucher-dashboard { --chart-1: #159365; --chart-2: #397cc4; --chart-3: #d99621; }

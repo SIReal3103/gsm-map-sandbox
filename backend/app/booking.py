@@ -167,7 +167,7 @@ class ScenarioPlan(BaseModel):
             states[event.bookingId] = event.type
         if any(states.get(b.id) not in {"TRIP_COMPLETED", "BOOKING_UNSERVED"} for b in self.demand):
             raise ValueError("Scenario leaves unresolved demand")
-        if self.simulationDurationSeconds != max(e.timestampSeconds for e in self.events):
+        if self.simulationDurationSeconds != max((e.timestampSeconds for e in self.events), default=0):
             raise ValueError("Scenario duration mismatch")
         return self
 
@@ -316,11 +316,17 @@ def recoverable(exc):
     return exc.status_code == 422 and isinstance(exc.detail, dict)
 
 
-async def build_plan(catalog, config, travel, cancelled=None):
+async def build_plan(catalog, config, travel, cancelled=None, *, inputs=None, initial=None,
+                     arrival_decider=None, outcome_observer=None):
     begun = time.perf_counter()
-    initial, demand = demand_inputs(catalog, config)
+    if inputs is None:
+        initial, demand = demand_inputs(catalog, config)
+    else:
+        demand = inputs
+        initial = [v.model_copy(deep=True) for v in initial]
     for vehicle in initial:
         vehicle.initialPosition = await travel.nearest(vehicle.initialPosition)
+    accepted = []
     vehicles = {v.id: {"position": v.initialPosition, "active": None} for v in initial}
     pending, assignments, events, invalid = {}, [], [], {}
     times = {b.requestTimeSeconds for b in demand} | {b.requestTimeSeconds+config.maxWaitSeconds for b in demand}
@@ -328,25 +334,10 @@ async def build_plan(catalog, config, travel, cancelled=None):
     def emit(kind, timestamp, booking_id, vehicle_id=None, **payload):
         events.append(SimulationEvent(id=f"EV-{len(events)+1:04}", timestampSeconds=timestamp,
             type=kind, bookingId=booking_id, vehicleId=vehicle_id, payload=payload))
+        if outcome_observer and kind in {"TRIP_COMPLETED", "BOOKING_UNSERVED"}:
+            outcome_observer(kind, timestamp, booking_id)
 
-    while times:
-        if cancelled and await cancelled():
-            raise HTTPException(499, {"code": "PREPARATION_CANCELLED", "message": "Client đã hủy scenario."})
-        now = min(times)
-        times.remove(now)
-        # Release vehicles FIRST. Then pickup events, requests, FIFO dispatch, deadlines.
-        for assignment in assignments:
-            vehicle = vehicles[assignment.vehicleId]
-            if assignment.dropoffAtSeconds == now:
-                vehicle.update(position=assignment.tripRoute.coordinates[-1], active=None)
-                emit("TRIP_COMPLETED", now, assignment.bookingId, assignment.vehicleId)
-            if assignment.pickupAtSeconds == now:
-                emit("VEHICLE_ARRIVED_PICKUP", now, assignment.bookingId, assignment.vehicleId)
-                emit("TRIP_STARTED", now, assignment.bookingId, assignment.vehicleId)
-        for booking in demand:
-            if booking.requestTimeSeconds == now:
-                pending[booking.id] = booking
-                emit("BOOKING_REQUESTED", now, booking.id)
+    async def dispatch_pending(now):
         for booking in sorted(list(pending.values()), key=lambda b: (b.requestTimeSeconds, b.id)):
             if cancelled and await cancelled():
                 raise HTTPException(499, {"code": "PREPARATION_CANCELLED", "message": "Client đã hủy scenario."})
@@ -399,15 +390,44 @@ async def build_plan(catalog, config, travel, cancelled=None):
                     times.add(assignment.pickupAtSeconds)
                 times.add(assignment.dropoffAtSeconds)
                 break
+
+    def expire_pending(now):
         for booking in list(pending.values()):
             if now >= booking.requestTimeSeconds+config.maxWaitSeconds:
                 emit("BOOKING_UNSERVED", now, booking.id, failureReason=invalid.get(booking.id, "PICKUP_WAIT_LIMIT"))
                 del pending[booking.id]
+
+    while times:
+        if cancelled and await cancelled():
+            raise HTTPException(499, {"code": "PREPARATION_CANCELLED", "message": "Client đã hủy scenario."})
+        now = min(times)
+        times.remove(now)
+        # Release vehicles FIRST. Then pickup events, requests, FIFO dispatch, deadlines.
+        for assignment in assignments:
+            vehicle = vehicles[assignment.vehicleId]
+            if assignment.dropoffAtSeconds == now:
+                vehicle.update(position=assignment.tripRoute.coordinates[-1], active=None)
+                emit("TRIP_COMPLETED", now, assignment.bookingId, assignment.vehicleId)
+            if assignment.pickupAtSeconds == now:
+                emit("VEHICLE_ARRIVED_PICKUP", now, assignment.bookingId, assignment.vehicleId)
+                emit("TRIP_STARTED", now, assignment.bookingId, assignment.vehicleId)
+        if arrival_decider:
+            # Release deadline reservations before new demand at the same timestamp.
+            # Existing waiting bookings retain FIFO priority and inclusive deadlines.
+            await dispatch_pending(now)
+            expire_pending(now)
+        for booking in demand:
+            if booking.requestTimeSeconds == now and (not arrival_decider or arrival_decider(booking, now)):
+                accepted.append(booking)
+                pending[booking.id] = booking
+                emit("BOOKING_REQUESTED", now, booking.id)
+        await dispatch_pending(now)
+        expire_pending(now)
     events.sort(key=lambda ev: (ev.timestampSeconds, EVENT_ORDER[ev.type], ev.bookingId, ev.id))
     identity = hashlib.sha256(json.dumps({"config": config.model_dump(), "fingerprint": catalog["datasetFingerprint"],
                                          "version": "dispatch-v1"}, sort_keys=True).encode()).hexdigest()
-    return ScenarioPlan(id=identity, seed=config.seed, config=config, demand=demand, vehicles=initial,
-        assignments=assignments, events=events, simulationDurationSeconds=max(ev.timestampSeconds for ev in events),
+    return ScenarioPlan(id=identity, seed=config.seed, config=config, demand=accepted, vehicles=initial,
+        assignments=assignments, events=events, simulationDurationSeconds=max((ev.timestampSeconds for ev in events), default=0),
         datasetFingerprint=catalog["datasetFingerprint"], routingSource=catalog["routingSource"],
         provenance=catalog["provenance"], assumptions={"demandVersion": "demand-v1", "dispatchVersion": "dispatch-v1",
             "dispatchPolicy": "FIFO waiting queue; lowest OSRM Table ETA; vehicle ID tie-break; full-route confirmation",
