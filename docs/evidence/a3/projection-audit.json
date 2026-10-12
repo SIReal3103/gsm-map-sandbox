@@ -1,0 +1,1139 @@
+{
+  "status": "PASS",
+  "vehicleProjections": 226,
+  "metricSnapshots": 5,
+  "maxCoordinateErrorDegrees": 1.432144669219779e-14,
+  "checks": [
+    {
+      "sample": "seek-130",
+      "vehicle": "GSM-01",
+      "coordinateErrorDegrees": 0.0
+    },
+    {
+      "sample": "seek-130",
+      "vehicle": "GSM-02",
+      "coordinateErrorDegrees": 0.0
+    },
+    {
+      "sample": "seek-130",
+      "vehicle": "GSM-03",
+      "coordinateErrorDegrees": 0.0
+    },
+    {
+      "sample": "seek-130",
+      "vehicle": "GSM-04",
+      "coordinateErrorDegrees": 0.0
+    },
+    {
+      "sample": "seek-130",
+      "vehicle": "GSM-05",
+      "coordinateErrorDegrees": 0.0
+    },
+    {
+      "sample": "resume-pickup",
+      "vehicle": "GSM-01",
+      "coordinateErrorDegrees": 0.0
+    },
+    {
+      "sample": "resume-pickup",
+      "vehicle": "GSM-02",
+      "coordinateErrorDegrees": 1.7763568394002505e-15
+    },
+    {
+      "sample": "resume-pickup",
+      "vehicle": "GSM-03",
+      "coordinateErrorDegrees": 0.0
+    },
+    {
+      "sample": "resume-pickup",
+      "vehicle": "GSM-04",
+      "coordinateErrorDegrees": 0.0
+    },
+    {
+      "sample": "resume-pickup",
+      "vehicle": "GSM-05",
+      "coordinateErrorDegrees": 0.0
+    },
+    {
+      "sample": "pickup-moved",
+      "vehicle": "GSM-01",
+      "coordinateErrorDegrees": 0.0
+    },
+    {
+      "sample": "pickup-moved",
+      "vehicle": "GSM-02",
+      "coordinateErrorDegrees": 1.4210854715202004e-14
+    },
+    {
+      "sample": "pickup-moved",
+      "vehicle": "GSM-03",
+      "coordinateErrorDegrees": 0.0
+    },
+    {
+      "sample": "pickup-moved",
+      "vehicle": "GSM-04",
+      "coordinateErrorDegrees": 0.0
+    },
+    {
+      "sample": "pickup-moved",
+      "vehicle": "GSM-05",
+      "coordinateErrorDegrees": 0.0
+    },
+    {
+      "sample": "pause-before",
+      "vehicle": "GSM-01",
+      "coordinateErrorDegrees": 0.0
+    },
+    {
+      "sample": "pause-before",
+      "vehicle": "GSM-02",
+      "coordinateErrorDegrees": 1.4210854715202004e-14
+    },
+    {
+      "sample": "pause-before",
+      "vehicle": "GSM-03",
+      "coordinateErrorDegrees": 0.0
+    },
+    {
+      "sample": "pause-before",
+      "vehicle": "GSM-04",
+      "coordinateErrorDegrees": 0.0
+    },
+    {
+      "sample": "pause-before",
+      "vehicle": "GSM-05",
+      "coordinateErrorDegrees": 0.0
+    },
+    {
+      "sample": "pause-speed2",
+      "vehicle": "GSM-01",
+      "coordinateErrorDegrees": 0.0
+    },
+    {
+      "sample": "pause-speed2",
+      "vehicle": "GSM-02",
+      "coordinateErrorDegrees": 1.4210854715202004e-14
+    },
+    {
+      "sample": "pause-speed2",
+      "vehicle": "GSM-03",
+      "coordinateErrorDegrees": 0.0
+    },
+    {
+      "sample": "pause-speed2",
+      "vehicle": "GSM-04",
+      "coordinateErrorDegrees": 0.0
+    },
+    {
+      "sample": "pause-speed2",
+      "vehicle": "GSM-05",
+      "coordinateErrorDegrees": 0.0
+    },
+    {
+      "sample": "pause-later",
+      "vehicle": "GSM-01",
+      "coordinateErrorDegrees": 0.0
+    },
+    {
+      "sample": "pause-later",
+      "vehicle": "GSM-02",
+      "coordinateErrorDegrees": 1.4210854715202004e-14
+    },
+    {
+      "sample": "pause-later",
+      "vehicle": "GSM-03",
+      "coordinateErrorDegrees": 0.0
+    },
+    {
+      "sample": "pause-later",
+      "vehicle": "GSM-04",
+      "coordinateErrorDegrees": 0.0
+    },
+    {
+      "sample": "pause-later",
+      "vehicle": "GSM-05",
+      "coordinateErrorDegrees": 0.0
+    },
+    {
+      "sample": "speed2-start",
+      "vehicle": "GSM-01",
+      "coordinateErrorDegrees": 0.0
+    },
+    {
+      "sample": "speed2-start",
+      "vehicle": "GSM-02",
+      "coordinateErrorDegrees": 0.0
+    },
+    {
+      "sample": "speed2-start",
+      "vehicle": "GSM-03",
+      "coordinateErrorDegrees": 0.0
+    },
+    {
+      "sample": "speed2-start",
+      "vehicle": "GSM-04",
+      "coordinateErrorDegrees": 0.0
+    },
+    {
+      "sample": "speed2-start",
+      "vehicle": "GSM-05",
+      "coordinateErrorDegrees": 0.0
+    },
+    {
+      "sample": "speed2-end",
+      "vehicle": "GSM-01",
+      "coordinateErrorDegrees": 1.432144669219779e-14
+    },
+    {
+      "sample": "speed2-end",
+      "vehicle": "GSM-02",
+      "coordinateErrorDegrees": 1.432144669219779e-14
+    },
+    {
+      "sample": "speed2-end",
+      "vehicle": "GSM-03",
+      "coordinateErrorDegrees": 0.0
+    },
+    {
+      "sample": "speed2-end",
+      "vehicle": "GSM-04",
+      "coordinateErrorDegrees": 1.4210854715202004e-14
+    },
+    {
+      "sample": "speed2-end",
+      "vehicle": "GSM-05",
+      "coordinateErrorDegrees": 0.0
+    },
+    {
+      "sample": "speed4-start",
+      "vehicle": "GSM-01",
+      "coordinateErrorDegrees": 0.0
+    },
+    {
+      "sample": "speed4-start",
+      "vehicle": "GSM-02",
+      "coordinateErrorDegrees": 0.0
+    },
+    {
+      "sample": "speed4-start",
+      "vehicle": "GSM-03",
+      "coordinateErrorDegrees": 0.0
+    },
+    {
+      "sample": "speed4-start",
+      "vehicle": "GSM-04",
+      "coordinateErrorDegrees": 0.0
+    },
+    {
+      "sample": "speed4-start",
+      "vehicle": "GSM-05",
+      "coordinateErrorDegrees": 0.0
+    },
+    {
+      "sample": "selection-running",
+      "vehicle": "GSM-01",
+      "coordinateErrorDegrees": 1.7763568394002505e-15
+    },
+    {
+      "sample": "selection-running",
+      "vehicle": "GSM-02",
+      "coordinateErrorDegrees": 1.432144669219779e-14
+    },
+    {
+      "sample": "selection-running",
+      "vehicle": "GSM-03",
+      "coordinateErrorDegrees": 0.0
+    },
+    {
+      "sample": "selection-running",
+      "vehicle": "GSM-04",
+      "coordinateErrorDegrees": 0.0
+    },
+    {
+      "sample": "selection-running",
+      "vehicle": "GSM-05",
+      "coordinateErrorDegrees": 0.0
+    },
+    {
+      "sample": "speed4-end",
+      "vehicle": "GSM-01",
+      "coordinateErrorDegrees": 0.0
+    },
+    {
+      "sample": "speed4-end",
+      "vehicle": "GSM-02",
+      "coordinateErrorDegrees": 1.432144669219779e-14
+    },
+    {
+      "sample": "speed4-end",
+      "vehicle": "GSM-03",
+      "coordinateErrorDegrees": 1.4210854715202004e-14
+    },
+    {
+      "sample": "speed4-end",
+      "vehicle": "GSM-04",
+      "coordinateErrorDegrees": 1.7763568394002505e-15
+    },
+    {
+      "sample": "speed4-end",
+      "vehicle": "GSM-05",
+      "coordinateErrorDegrees": 1.4210854715202004e-14
+    },
+    {
+      "sample": "seek-267.4",
+      "vehicle": "GSM-01",
+      "coordinateErrorDegrees": 1.4210854715202004e-14
+    },
+    {
+      "sample": "seek-267.4",
+      "vehicle": "GSM-02",
+      "coordinateErrorDegrees": 0.0
+    },
+    {
+      "sample": "seek-267.4",
+      "vehicle": "GSM-03",
+      "coordinateErrorDegrees": 0.0
+    },
+    {
+      "sample": "seek-267.4",
+      "vehicle": "GSM-04",
+      "coordinateErrorDegrees": 0.0
+    },
+    {
+      "sample": "seek-267.4",
+      "vehicle": "GSM-05",
+      "coordinateErrorDegrees": 0.0
+    },
+    {
+      "sample": "seek-667",
+      "vehicle": "GSM-01",
+      "coordinateErrorDegrees": 1.7763568394002505e-15
+    },
+    {
+      "sample": "seek-667",
+      "vehicle": "GSM-02",
+      "coordinateErrorDegrees": 0.0
+    },
+    {
+      "sample": "seek-667",
+      "vehicle": "GSM-03",
+      "coordinateErrorDegrees": 0.0
+    },
+    {
+      "sample": "seek-667",
+      "vehicle": "GSM-04",
+      "coordinateErrorDegrees": 0.0
+    },
+    {
+      "sample": "seek-667",
+      "vehicle": "GSM-05",
+      "coordinateErrorDegrees": 1.7763568394002505e-15
+    },
+    {
+      "sample": "seek-0",
+      "vehicle": "GSM-01",
+      "coordinateErrorDegrees": 0.0
+    },
+    {
+      "sample": "seek-0",
+      "vehicle": "GSM-02",
+      "coordinateErrorDegrees": 0.0
+    },
+    {
+      "sample": "seek-0",
+      "vehicle": "GSM-03",
+      "coordinateErrorDegrees": 0.0
+    },
+    {
+      "sample": "seek-0",
+      "vehicle": "GSM-04",
+      "coordinateErrorDegrees": 0.0
+    },
+    {
+      "sample": "seek-0",
+      "vehicle": "GSM-05",
+      "coordinateErrorDegrees": 0.0
+    },
+    {
+      "sample": "all-completed",
+      "vehicle": "GSM-01",
+      "coordinateErrorDegrees": 0.0
+    },
+    {
+      "sample": "all-completed",
+      "vehicle": "GSM-02",
+      "coordinateErrorDegrees": 0.0
+    },
+    {
+      "sample": "all-completed",
+      "vehicle": "GSM-03",
+      "coordinateErrorDegrees": 0.0
+    },
+    {
+      "sample": "all-completed",
+      "vehicle": "GSM-04",
+      "coordinateErrorDegrees": 0.0
+    },
+    {
+      "sample": "all-completed",
+      "vehicle": "GSM-05",
+      "coordinateErrorDegrees": 0.0
+    },
+    {
+      "sample": "unserved-default",
+      "vehicle": "GSM-01",
+      "coordinateErrorDegrees": 0.0
+    },
+    {
+      "sample": "unserved-default",
+      "vehicle": "GSM-02",
+      "coordinateErrorDegrees": 0.0
+    },
+    {
+      "sample": "unserved-default",
+      "vehicle": "GSM-03",
+      "coordinateErrorDegrees": 0.0
+    },
+    {
+      "sample": "unserved-default",
+      "vehicle": "GSM-04",
+      "coordinateErrorDegrees": 0.0
+    },
+    {
+      "sample": "unserved-default",
+      "vehicle": "GSM-05",
+      "coordinateErrorDegrees": 0.0
+    },
+    {
+      "sample": "reset-default",
+      "vehicle": "GSM-01",
+      "coordinateErrorDegrees": 0.0
+    },
+    {
+      "sample": "reset-default",
+      "vehicle": "GSM-02",
+      "coordinateErrorDegrees": 0.0
+    },
+    {
+      "sample": "reset-default",
+      "vehicle": "GSM-03",
+      "coordinateErrorDegrees": 0.0
+    },
+    {
+      "sample": "reset-default",
+      "vehicle": "GSM-04",
+      "coordinateErrorDegrees": 0.0
+    },
+    {
+      "sample": "reset-default",
+      "vehicle": "GSM-05",
+      "coordinateErrorDegrees": 0.0
+    },
+    {
+      "sample": "seek-800",
+      "vehicle": "GSM-01",
+      "coordinateErrorDegrees": 0.0
+    },
+    {
+      "sample": "seek-800",
+      "vehicle": "GSM-02",
+      "coordinateErrorDegrees": 0.0
+    },
+    {
+      "sample": "seek-800",
+      "vehicle": "GSM-03",
+      "coordinateErrorDegrees": 1.4210854715202004e-14
+    },
+    {
+      "sample": "seek-800",
+      "vehicle": "GSM-04",
+      "coordinateErrorDegrees": 1.4210854715202004e-14
+    },
+    {
+      "sample": "seek-800",
+      "vehicle": "GSM-05",
+      "coordinateErrorDegrees": 0.0
+    },
+    {
+      "sample": "seek-800",
+      "vehicle": "GSM-06",
+      "coordinateErrorDegrees": 0.0
+    },
+    {
+      "sample": "seek-800",
+      "vehicle": "GSM-07",
+      "coordinateErrorDegrees": 0.0
+    },
+    {
+      "sample": "seek-800",
+      "vehicle": "GSM-08",
+      "coordinateErrorDegrees": 0.0
+    },
+    {
+      "sample": "seek-800",
+      "vehicle": "GSM-09",
+      "coordinateErrorDegrees": 0.0
+    },
+    {
+      "sample": "seek-800",
+      "vehicle": "GSM-10",
+      "coordinateErrorDegrees": 1.7763568394002505e-15
+    },
+    {
+      "sample": "focus10",
+      "vehicle": "GSM-01",
+      "coordinateErrorDegrees": 0.0
+    },
+    {
+      "sample": "focus10",
+      "vehicle": "GSM-02",
+      "coordinateErrorDegrees": 0.0
+    },
+    {
+      "sample": "focus10",
+      "vehicle": "GSM-03",
+      "coordinateErrorDegrees": 1.4210854715202004e-14
+    },
+    {
+      "sample": "focus10",
+      "vehicle": "GSM-04",
+      "coordinateErrorDegrees": 1.4210854715202004e-14
+    },
+    {
+      "sample": "focus10",
+      "vehicle": "GSM-05",
+      "coordinateErrorDegrees": 0.0
+    },
+    {
+      "sample": "focus10",
+      "vehicle": "GSM-06",
+      "coordinateErrorDegrees": 0.0
+    },
+    {
+      "sample": "focus10",
+      "vehicle": "GSM-07",
+      "coordinateErrorDegrees": 0.0
+    },
+    {
+      "sample": "focus10",
+      "vehicle": "GSM-08",
+      "coordinateErrorDegrees": 0.0
+    },
+    {
+      "sample": "focus10",
+      "vehicle": "GSM-09",
+      "coordinateErrorDegrees": 0.0
+    },
+    {
+      "sample": "focus10",
+      "vehicle": "GSM-10",
+      "coordinateErrorDegrees": 1.7763568394002505e-15
+    },
+    {
+      "sample": "stress10-start",
+      "vehicle": "GSM-01",
+      "coordinateErrorDegrees": 0.0
+    },
+    {
+      "sample": "stress10-start",
+      "vehicle": "GSM-02",
+      "coordinateErrorDegrees": 0.0
+    },
+    {
+      "sample": "stress10-start",
+      "vehicle": "GSM-03",
+      "coordinateErrorDegrees": 0.0
+    },
+    {
+      "sample": "stress10-start",
+      "vehicle": "GSM-04",
+      "coordinateErrorDegrees": 1.4210854715202004e-14
+    },
+    {
+      "sample": "stress10-start",
+      "vehicle": "GSM-05",
+      "coordinateErrorDegrees": 0.0
+    },
+    {
+      "sample": "stress10-start",
+      "vehicle": "GSM-06",
+      "coordinateErrorDegrees": 0.0
+    },
+    {
+      "sample": "stress10-start",
+      "vehicle": "GSM-07",
+      "coordinateErrorDegrees": 0.0
+    },
+    {
+      "sample": "stress10-start",
+      "vehicle": "GSM-08",
+      "coordinateErrorDegrees": 0.0
+    },
+    {
+      "sample": "stress10-start",
+      "vehicle": "GSM-09",
+      "coordinateErrorDegrees": 0.0
+    },
+    {
+      "sample": "stress10-start",
+      "vehicle": "GSM-10",
+      "coordinateErrorDegrees": 0.0
+    },
+    {
+      "sample": "stress10-moved",
+      "vehicle": "GSM-01",
+      "coordinateErrorDegrees": 0.0
+    },
+    {
+      "sample": "stress10-moved",
+      "vehicle": "GSM-02",
+      "coordinateErrorDegrees": 0.0
+    },
+    {
+      "sample": "stress10-moved",
+      "vehicle": "GSM-03",
+      "coordinateErrorDegrees": 1.4210854715202004e-14
+    },
+    {
+      "sample": "stress10-moved",
+      "vehicle": "GSM-04",
+      "coordinateErrorDegrees": 1.7763568394002505e-15
+    },
+    {
+      "sample": "stress10-moved",
+      "vehicle": "GSM-05",
+      "coordinateErrorDegrees": 1.7763568394002505e-15
+    },
+    {
+      "sample": "stress10-moved",
+      "vehicle": "GSM-06",
+      "coordinateErrorDegrees": 0.0
+    },
+    {
+      "sample": "stress10-moved",
+      "vehicle": "GSM-07",
+      "coordinateErrorDegrees": 0.0
+    },
+    {
+      "sample": "stress10-moved",
+      "vehicle": "GSM-08",
+      "coordinateErrorDegrees": 0.0
+    },
+    {
+      "sample": "stress10-moved",
+      "vehicle": "GSM-09",
+      "coordinateErrorDegrees": 0.0
+    },
+    {
+      "sample": "stress10-moved",
+      "vehicle": "GSM-10",
+      "coordinateErrorDegrees": 0.0
+    },
+    {
+      "sample": "stress10-zoom",
+      "vehicle": "GSM-01",
+      "coordinateErrorDegrees": 0.0
+    },
+    {
+      "sample": "stress10-zoom",
+      "vehicle": "GSM-02",
+      "coordinateErrorDegrees": 0.0
+    },
+    {
+      "sample": "stress10-zoom",
+      "vehicle": "GSM-03",
+      "coordinateErrorDegrees": 0.0
+    },
+    {
+      "sample": "stress10-zoom",
+      "vehicle": "GSM-04",
+      "coordinateErrorDegrees": 1.4210854715202004e-14
+    },
+    {
+      "sample": "stress10-zoom",
+      "vehicle": "GSM-05",
+      "coordinateErrorDegrees": 0.0
+    },
+    {
+      "sample": "stress10-zoom",
+      "vehicle": "GSM-06",
+      "coordinateErrorDegrees": 0.0
+    },
+    {
+      "sample": "stress10-zoom",
+      "vehicle": "GSM-07",
+      "coordinateErrorDegrees": 0.0
+    },
+    {
+      "sample": "stress10-zoom",
+      "vehicle": "GSM-08",
+      "coordinateErrorDegrees": 0.0
+    },
+    {
+      "sample": "stress10-zoom",
+      "vehicle": "GSM-09",
+      "coordinateErrorDegrees": 0.0
+    },
+    {
+      "sample": "stress10-zoom",
+      "vehicle": "GSM-10",
+      "coordinateErrorDegrees": 0.0
+    },
+    {
+      "sample": "stress10-pan",
+      "vehicle": "GSM-01",
+      "coordinateErrorDegrees": 0.0
+    },
+    {
+      "sample": "stress10-pan",
+      "vehicle": "GSM-02",
+      "coordinateErrorDegrees": 0.0
+    },
+    {
+      "sample": "stress10-pan",
+      "vehicle": "GSM-03",
+      "coordinateErrorDegrees": 0.0
+    },
+    {
+      "sample": "stress10-pan",
+      "vehicle": "GSM-04",
+      "coordinateErrorDegrees": 1.4210854715202004e-14
+    },
+    {
+      "sample": "stress10-pan",
+      "vehicle": "GSM-05",
+      "coordinateErrorDegrees": 0.0
+    },
+    {
+      "sample": "stress10-pan",
+      "vehicle": "GSM-06",
+      "coordinateErrorDegrees": 0.0
+    },
+    {
+      "sample": "stress10-pan",
+      "vehicle": "GSM-07",
+      "coordinateErrorDegrees": 0.0
+    },
+    {
+      "sample": "stress10-pan",
+      "vehicle": "GSM-08",
+      "coordinateErrorDegrees": 0.0
+    },
+    {
+      "sample": "stress10-pan",
+      "vehicle": "GSM-09",
+      "coordinateErrorDegrees": 0.0
+    },
+    {
+      "sample": "stress10-pan",
+      "vehicle": "GSM-10",
+      "coordinateErrorDegrees": 0.0
+    },
+    {
+      "sample": "seek-500",
+      "vehicle": "GSM-01",
+      "coordinateErrorDegrees": 0.0
+    },
+    {
+      "sample": "seek-500",
+      "vehicle": "GSM-02",
+      "coordinateErrorDegrees": 0.0
+    },
+    {
+      "sample": "seek-500",
+      "vehicle": "GSM-03",
+      "coordinateErrorDegrees": 0.0
+    },
+    {
+      "sample": "seek-500",
+      "vehicle": "GSM-04",
+      "coordinateErrorDegrees": 0.0
+    },
+    {
+      "sample": "seek-500",
+      "vehicle": "GSM-05",
+      "coordinateErrorDegrees": 0.0
+    },
+    {
+      "sample": "seek-500",
+      "vehicle": "GSM-06",
+      "coordinateErrorDegrees": 0.0
+    },
+    {
+      "sample": "seek-500",
+      "vehicle": "GSM-07",
+      "coordinateErrorDegrees": 0.0
+    },
+    {
+      "sample": "seek-500",
+      "vehicle": "GSM-08",
+      "coordinateErrorDegrees": 1.432144669219779e-14
+    },
+    {
+      "sample": "seek-500",
+      "vehicle": "GSM-09",
+      "coordinateErrorDegrees": 1.4210854715202004e-14
+    },
+    {
+      "sample": "seek-500",
+      "vehicle": "GSM-10",
+      "coordinateErrorDegrees": 0.0
+    },
+    {
+      "sample": "mobile-play-start",
+      "vehicle": "GSM-01",
+      "coordinateErrorDegrees": 1.4210854715202004e-14
+    },
+    {
+      "sample": "mobile-play-start",
+      "vehicle": "GSM-02",
+      "coordinateErrorDegrees": 0.0
+    },
+    {
+      "sample": "mobile-play-start",
+      "vehicle": "GSM-03",
+      "coordinateErrorDegrees": 1.4210854715202004e-14
+    },
+    {
+      "sample": "mobile-play-start",
+      "vehicle": "GSM-04",
+      "coordinateErrorDegrees": 0.0
+    },
+    {
+      "sample": "mobile-play-start",
+      "vehicle": "GSM-05",
+      "coordinateErrorDegrees": 0.0
+    },
+    {
+      "sample": "mobile-play-start",
+      "vehicle": "GSM-06",
+      "coordinateErrorDegrees": 0.0
+    },
+    {
+      "sample": "mobile-play-start",
+      "vehicle": "GSM-07",
+      "coordinateErrorDegrees": 1.4210854715202004e-14
+    },
+    {
+      "sample": "mobile-play-start",
+      "vehicle": "GSM-08",
+      "coordinateErrorDegrees": 0.0
+    },
+    {
+      "sample": "mobile-play-start",
+      "vehicle": "GSM-09",
+      "coordinateErrorDegrees": 1.4210854715202004e-14
+    },
+    {
+      "sample": "mobile-play-start",
+      "vehicle": "GSM-10",
+      "coordinateErrorDegrees": 1.4210854715202004e-14
+    },
+    {
+      "sample": "mobile-selected-running",
+      "vehicle": "GSM-01",
+      "coordinateErrorDegrees": 0.0
+    },
+    {
+      "sample": "mobile-selected-running",
+      "vehicle": "GSM-02",
+      "coordinateErrorDegrees": 1.4210854715202004e-14
+    },
+    {
+      "sample": "mobile-selected-running",
+      "vehicle": "GSM-03",
+      "coordinateErrorDegrees": 0.0
+    },
+    {
+      "sample": "mobile-selected-running",
+      "vehicle": "GSM-04",
+      "coordinateErrorDegrees": 0.0
+    },
+    {
+      "sample": "mobile-selected-running",
+      "vehicle": "GSM-05",
+      "coordinateErrorDegrees": 0.0
+    },
+    {
+      "sample": "mobile-selected-running",
+      "vehicle": "GSM-06",
+      "coordinateErrorDegrees": 0.0
+    },
+    {
+      "sample": "mobile-selected-running",
+      "vehicle": "GSM-07",
+      "coordinateErrorDegrees": 0.0
+    },
+    {
+      "sample": "mobile-selected-running",
+      "vehicle": "GSM-08",
+      "coordinateErrorDegrees": 1.4210854715202004e-14
+    },
+    {
+      "sample": "mobile-selected-running",
+      "vehicle": "GSM-09",
+      "coordinateErrorDegrees": 0.0
+    },
+    {
+      "sample": "mobile-selected-running",
+      "vehicle": "GSM-10",
+      "coordinateErrorDegrees": 0.0
+    },
+    {
+      "sample": "mobile-reset",
+      "vehicle": "GSM-01",
+      "coordinateErrorDegrees": 0.0
+    },
+    {
+      "sample": "mobile-reset",
+      "vehicle": "GSM-02",
+      "coordinateErrorDegrees": 0.0
+    },
+    {
+      "sample": "mobile-reset",
+      "vehicle": "GSM-03",
+      "coordinateErrorDegrees": 0.0
+    },
+    {
+      "sample": "mobile-reset",
+      "vehicle": "GSM-04",
+      "coordinateErrorDegrees": 0.0
+    },
+    {
+      "sample": "mobile-reset",
+      "vehicle": "GSM-05",
+      "coordinateErrorDegrees": 0.0
+    },
+    {
+      "sample": "mobile-reset",
+      "vehicle": "GSM-06",
+      "coordinateErrorDegrees": 0.0
+    },
+    {
+      "sample": "mobile-reset",
+      "vehicle": "GSM-07",
+      "coordinateErrorDegrees": 0.0
+    },
+    {
+      "sample": "mobile-reset",
+      "vehicle": "GSM-08",
+      "coordinateErrorDegrees": 0.0
+    },
+    {
+      "sample": "mobile-reset",
+      "vehicle": "GSM-09",
+      "coordinateErrorDegrees": 0.0
+    },
+    {
+      "sample": "mobile-reset",
+      "vehicle": "GSM-10",
+      "coordinateErrorDegrees": 0.0
+    },
+    {
+      "sample": "deadline-unserved-mobile",
+      "vehicle": "GSM-01",
+      "coordinateErrorDegrees": 0.0
+    },
+    {
+      "sample": "seek-500",
+      "vehicle": "GSM-01",
+      "coordinateErrorDegrees": 0.0
+    },
+    {
+      "sample": "seek-500",
+      "vehicle": "GSM-02",
+      "coordinateErrorDegrees": 1.4210854715202004e-14
+    },
+    {
+      "sample": "seek-500",
+      "vehicle": "GSM-03",
+      "coordinateErrorDegrees": 1.7763568394002505e-15
+    },
+    {
+      "sample": "seek-500",
+      "vehicle": "GSM-04",
+      "coordinateErrorDegrees": 1.4210854715202004e-14
+    },
+    {
+      "sample": "seek-500",
+      "vehicle": "GSM-05",
+      "coordinateErrorDegrees": 0.0
+    },
+    {
+      "sample": "seek-1000",
+      "vehicle": "GSM-01",
+      "coordinateErrorDegrees": 0.0
+    },
+    {
+      "sample": "seek-1000",
+      "vehicle": "GSM-02",
+      "coordinateErrorDegrees": 1.4210854715202004e-14
+    },
+    {
+      "sample": "seek-1000",
+      "vehicle": "GSM-03",
+      "coordinateErrorDegrees": 0.0
+    },
+    {
+      "sample": "seek-1000",
+      "vehicle": "GSM-04",
+      "coordinateErrorDegrees": 0.0
+    },
+    {
+      "sample": "seek-1000",
+      "vehicle": "GSM-05",
+      "coordinateErrorDegrees": 0.0
+    },
+    {
+      "sample": "seek-2092.397",
+      "vehicle": "GSM-01",
+      "coordinateErrorDegrees": 0.0
+    },
+    {
+      "sample": "seek-2092.397",
+      "vehicle": "GSM-02",
+      "coordinateErrorDegrees": 0.0
+    },
+    {
+      "sample": "seek-2092.397",
+      "vehicle": "GSM-03",
+      "coordinateErrorDegrees": 0.0
+    },
+    {
+      "sample": "seek-2092.397",
+      "vehicle": "GSM-04",
+      "coordinateErrorDegrees": 0.0
+    },
+    {
+      "sample": "seek-2092.397",
+      "vehicle": "GSM-05",
+      "coordinateErrorDegrees": 0.0
+    },
+    {
+      "sample": "seek-2091.397",
+      "vehicle": "GSM-01",
+      "coordinateErrorDegrees": 0.0
+    },
+    {
+      "sample": "seek-2091.397",
+      "vehicle": "GSM-02",
+      "coordinateErrorDegrees": 0.0
+    },
+    {
+      "sample": "seek-2091.397",
+      "vehicle": "GSM-03",
+      "coordinateErrorDegrees": 0.0
+    },
+    {
+      "sample": "seek-2091.397",
+      "vehicle": "GSM-04",
+      "coordinateErrorDegrees": 0.0
+    },
+    {
+      "sample": "seek-2091.397",
+      "vehicle": "GSM-05",
+      "coordinateErrorDegrees": 0.0
+    },
+    {
+      "sample": "auto-complete-start",
+      "vehicle": "GSM-01",
+      "coordinateErrorDegrees": 0.0
+    },
+    {
+      "sample": "auto-complete-start",
+      "vehicle": "GSM-02",
+      "coordinateErrorDegrees": 0.0
+    },
+    {
+      "sample": "auto-complete-start",
+      "vehicle": "GSM-03",
+      "coordinateErrorDegrees": 0.0
+    },
+    {
+      "sample": "auto-complete-start",
+      "vehicle": "GSM-04",
+      "coordinateErrorDegrees": 0.0
+    },
+    {
+      "sample": "auto-complete-start",
+      "vehicle": "GSM-05",
+      "coordinateErrorDegrees": 0.0
+    },
+    {
+      "sample": "auto-completed",
+      "vehicle": "GSM-01",
+      "coordinateErrorDegrees": 0.0
+    },
+    {
+      "sample": "auto-completed",
+      "vehicle": "GSM-02",
+      "coordinateErrorDegrees": 0.0
+    },
+    {
+      "sample": "auto-completed",
+      "vehicle": "GSM-03",
+      "coordinateErrorDegrees": 0.0
+    },
+    {
+      "sample": "auto-completed",
+      "vehicle": "GSM-04",
+      "coordinateErrorDegrees": 0.0
+    },
+    {
+      "sample": "auto-completed",
+      "vehicle": "GSM-05",
+      "coordinateErrorDegrees": 0.0
+    },
+    {
+      "sample": "handoff-reset",
+      "vehicle": "GSM-01",
+      "coordinateErrorDegrees": 0.0
+    },
+    {
+      "sample": "handoff-reset",
+      "vehicle": "GSM-02",
+      "coordinateErrorDegrees": 0.0
+    },
+    {
+      "sample": "handoff-reset",
+      "vehicle": "GSM-03",
+      "coordinateErrorDegrees": 0.0
+    },
+    {
+      "sample": "handoff-reset",
+      "vehicle": "GSM-04",
+      "coordinateErrorDegrees": 0.0
+    },
+    {
+      "sample": "handoff-reset",
+      "vehicle": "GSM-05",
+      "coordinateErrorDegrees": 0.0
+    },
+    {
+      "sample": "seek-500",
+      "vehicle": "GSM-01",
+      "coordinateErrorDegrees": 0.0
+    },
+    {
+      "sample": "seek-500",
+      "vehicle": "GSM-02",
+      "coordinateErrorDegrees": 1.4210854715202004e-14
+    },
+    {
+      "sample": "seek-500",
+      "vehicle": "GSM-03",
+      "coordinateErrorDegrees": 1.7763568394002505e-15
+    },
+    {
+      "sample": "seek-500",
+      "vehicle": "GSM-04",
+      "coordinateErrorDegrees": 1.4210854715202004e-14
+    },
+    {
+      "sample": "seek-500",
+      "vehicle": "GSM-05",
+      "coordinateErrorDegrees": 0.0
+    }
+  ],
+  "note": "Independent Python projection of actual full OSRM geometries and stored event log; browser DOM telemetry."
+}

@@ -125,6 +125,30 @@ button, a { -webkit-tap-highlight-color: transparent; }
 .fleet-marker.selected { background:#087d55; box-shadow:0 0 0 3px #32ae7377,0 2px 8px #0003; }
 .fleet-marker.scheduled { background:#82948a; }
 .fleet-marker.completed { background:#356980; }
+.mode-tabs button { font-size:10px; }
+.booking-inputs { display:grid; grid-template-columns:1fr 1fr; gap:10px; margin:14px 0; }
+.booking-inputs label,.booking-filter { display:flex; flex-direction:column; gap:5px; font-size:11px; color:#697d70; }
+.booking-inputs .wide { grid-column:1 / -1; }
+.booking-inputs input,.booking-inputs select,.booking-filter select { width:100%; min-width:0; background:white; border:1px solid #dce6df; border-radius:6px; padding:8px; }
+.booking-filter { margin:12px 0; }
+.booking-seek { display:flex; gap:8px; margin-top:12px; }
+.booking-seek input { width:100px; min-width:0; border:1px solid #dce6df; border-radius:6px; padding:6px 8px; font-size:11px; }
+.booking-metrics { display:grid; grid-template-columns:1fr auto; gap:7px; font-size:11px; margin-top:14px; color:#4a715b; }
+.booking-metrics dd { font-variant-numeric:tabular-nums; font-weight:600; }
+.booking-row { display:grid; grid-template-columns:1fr auto; gap:5px; text-align:left; padding:10px; border:1px solid #e3ebe5; border-radius:8px; font-size:11px; cursor:pointer; }
+.booking-row.selected { border-color:#53a17b; background:#f0f9f3; }
+.booking-row small { grid-column:1 / -1; color:#718178; font-size:10px; }
+.booking-row > span { font-size:10px; color:#548368; }
+.booking-events { display:flex; flex-direction:column; gap:10px; margin-top:12px; }
+.booking-events li { display:flex; gap:10px; font-size:9px; color:#4a715b; }
+.booking-events time { flex-shrink:0; min-width:48px; font-variant-numeric:tabular-nums; }
+.booking-events small { display:block; font-size:9px; color:#84988b; }
+.booking-marker { display:flex; gap:2px; align-items:center; background:#f6d596; color:#785521; border:2px solid white; border-radius:50px; padding:4px; box-shadow:0 2px 8px #0002; font-size:9px; cursor:pointer; }
+.booking-marker.completed { background:#d8e9e0; color:#397458; }
+.booking-marker.unserved { background:#f5d9d3; color:#a34e3c; }
+.dispatch-marker.idle { background:#82948a; }
+.dispatch-marker.en_route_to_pickup { background:#b78029; }
+.dispatch-marker.on_trip { background:#087d55; }
 @media (min-width:801px) { .app-shell:has(.fleet-panel) .map-workspace { position:sticky; top:0; height:100vh; } }
 @media (max-width:800px) { .mode-tabs { margin:12px 22px 0; } .fleet-panel .sidebar-section { padding:22px; } }
 @media (min-width: 1600px) { .workspace { grid-template-columns: 365px minmax(0, 1fr); } .map-workspace { padding: 32px; } .waiting-card { width: 500px; } }

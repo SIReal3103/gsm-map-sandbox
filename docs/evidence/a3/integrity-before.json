@@ -1,0 +1,202 @@
+[
+  {
+    "path": "D:\\ThS\\VinAI\\Phase3_VRIC\\gsm-map-sandbox\\data\\raw\\vietnam-latest.osm.pbf",
+    "bytes": 330248138,
+    "sha256": "2FBD2EE6B4DC151EECF04FA6823CDDF584B47423E190118B10FCE8B6115E9D8A"
+  },
+  {
+    "path": "D:\\ThS\\VinAI\\Phase3_VRIC\\gsm-map-sandbox\\data\\processed\\hcm-q1.osm.pbf",
+    "bytes": 1321521,
+    "sha256": "48B3FD8935B55F65D1A7E4296016A62C36D704B77EE1329F2BA0BEB4F978D3DC"
+  },
+  {
+    "path": "D:\\ThS\\VinAI\\Phase3_VRIC\\gsm-map-sandbox\\data\\extracted\\hcm-center.osm.pbf",
+    "bytes": 3290221,
+    "sha256": "3A939D15AC7B775ABA3F5A0324064CEB3D1B19AB0D176F2B10B94448C36AFDA0"
+  },
+  {
+    "path": "D:\\ThS\\VinAI\\Phase3_VRIC\\gsm-map-sandbox\\data\\routing\\.gitkeep",
+    "bytes": 0,
+    "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+  },
+  {
+    "path": "D:\\ThS\\VinAI\\Phase3_VRIC\\gsm-map-sandbox\\data\\routing\\hcm-center.osm.pbf",
+    "bytes": 3290221,
+    "sha256": "3A939D15AC7B775ABA3F5A0324064CEB3D1B19AB0D176F2B10B94448C36AFDA0"
+  },
+  {
+    "path": "D:\\ThS\\VinAI\\Phase3_VRIC\\gsm-map-sandbox\\data\\routing\\hcm-center.osrm.cell_metrics",
+    "bytes": 4721664,
+    "sha256": "75CE41ED8A3DAB7B25BE92DB22A54A9E98C952DEAAF4FF65101FD1D575BC9431"
+  },
+  {
+    "path": "D:\\ThS\\VinAI\\Phase3_VRIC\\gsm-map-sandbox\\data\\routing\\hcm-center.osrm.cells",
+    "bytes": 61952,
+    "sha256": "0A1BE64F2D778CB04E58C68D717B0009F267D6778A30575AD3F9B812F3757E5F"
+  },
+  {
+    "path": "D:\\ThS\\VinAI\\Phase3_VRIC\\gsm-map-sandbox\\data\\routing\\hcm-center.osrm.cnbg",
+    "bytes": 542208,
+    "sha256": "F5536648FE2F485B61640B7B3D2EFF8AA4503118B0CA1BFCDA048CAA32DDB168"
+  },
+  {
+    "path": "D:\\ThS\\VinAI\\Phase3_VRIC\\gsm-map-sandbox\\data\\routing\\hcm-center.osrm.cnbg_to_ebg",
+    "bytes": 543232,
+    "sha256": "535BA8CCD069EA5DA9A6250C13036EB9EF6219762039C23D89A868640F7AE1F1"
+  },
+  {
+    "path": "D:\\ThS\\VinAI\\Phase3_VRIC\\gsm-map-sandbox\\data\\routing\\hcm-center.osrm.datasource_names",
+    "bytes": 69632,
+    "sha256": "346A98A94066D92BB43BD2C3100AEC9AEBB8E9EC49FCDD450ADBCEF9E723484C"
+  },
+  {
+    "path": "D:\\ThS\\VinAI\\Phase3_VRIC\\gsm-map-sandbox\\data\\routing\\hcm-center.osrm.ebg",
+    "bytes": 2718208,
+    "sha256": "873412BA5ABBBA365E03DBA892BF1F3A7AA5B6E6845D0C5DBEE68720371DE029"
+  },
+  {
+    "path": "D:\\ThS\\VinAI\\Phase3_VRIC\\gsm-map-sandbox\\data\\routing\\hcm-center.osrm.ebg_nodes",
+    "bytes": 798208,
+    "sha256": "ED397A5687BF0DE447DA5B6978E0D96B512E95EC732C754C96CF2E298A3F14BD"
+  },
+  {
+    "path": "D:\\ThS\\VinAI\\Phase3_VRIC\\gsm-map-sandbox\\data\\routing\\hcm-center.osrm.edges",
+    "bytes": 803840,
+    "sha256": "834429FDE817EBCB64262A26BC071DE9E8958210F89980EA9314FE2A80EBBB05"
+  },
+  {
+    "path": "D:\\ThS\\VinAI\\Phase3_VRIC\\gsm-map-sandbox\\data\\routing\\hcm-center.osrm.enw",
+    "bytes": 740864,
+    "sha256": "F354E089738D84AEF96799E52868F811C2D8B8164BD97B33CB3967E0FE4BD3D5"
+  },
+  {
+    "path": "D:\\ThS\\VinAI\\Phase3_VRIC\\gsm-map-sandbox\\data\\routing\\hcm-center.osrm.fileIndex",
+    "bytes": 1426160,
+    "sha256": "70DC39545D319AF7690555420A123C721238B07A222254AEE3641B1CE77F8FBF"
+  },
+  {
+    "path": "D:\\ThS\\VinAI\\Phase3_VRIC\\gsm-map-sandbox\\data\\routing\\hcm-center.osrm.geometry",
+    "bytes": 1951232,
+    "sha256": "848363132C4BBCCB36FB2574F386477570090F5C785347C62F10F2030A1E1014"
+  },
+  {
+    "path": "D:\\ThS\\VinAI\\Phase3_VRIC\\gsm-map-sandbox\\data\\routing\\hcm-center.osrm.icd",
+    "bytes": 284672,
+    "sha256": "2C8FBDCCDA324254BF58B7655DE8D984FEE251CAF66F12B8A62AB3FC75E0B595"
+  },
+  {
+    "path": "D:\\ThS\\VinAI\\Phase3_VRIC\\gsm-map-sandbox\\data\\routing\\hcm-center.osrm.maneuver_overrides",
+    "bytes": 5120,
+    "sha256": "CE01CF98B2C75491B05B4D6A246DF759375114F88D3749EE83FDCE07ACB7D5F4"
+  },
+  {
+    "path": "D:\\ThS\\VinAI\\Phase3_VRIC\\gsm-map-sandbox\\data\\routing\\hcm-center.osrm.mldgr",
+    "bytes": 2880512,
+    "sha256": "313F32396A627AA88A364AD5D9D90A2E0A257E27F16F4E0E779D9E11D1176ADD"
+  },
+  {
+    "path": "D:\\ThS\\VinAI\\Phase3_VRIC\\gsm-map-sandbox\\data\\routing\\hcm-center.osrm.names",
+    "bytes": 220672,
+    "sha256": "585EEC8E4A687D5ABEBA636D7C104908274ED67DBA70D4134607074E6D1B23A9"
+  },
+  {
+    "path": "D:\\ThS\\VinAI\\Phase3_VRIC\\gsm-map-sandbox\\data\\routing\\hcm-center.osrm.nbg_nodes",
+    "bytes": 805888,
+    "sha256": "D5A0423C2F78187CC8ACFC7933863BF4E236677AEB4FC17063DBF87B933D0E91"
+  },
+  {
+    "path": "D:\\ThS\\VinAI\\Phase3_VRIC\\gsm-map-sandbox\\data\\routing\\hcm-center.osrm.partition",
+    "bytes": 496640,
+    "sha256": "3E57465AC9C9AA54CE3D9F1D64E3A6203F26D6FD22C02734B55FDCF013F02F9B"
+  },
+  {
+    "path": "D:\\ThS\\VinAI\\Phase3_VRIC\\gsm-map-sandbox\\data\\routing\\hcm-center.osrm.properties",
+    "bytes": 6144,
+    "sha256": "CA6F1F68CC16E470339CE47DD8F0BB23D3D702603B7D2BEDBB1CA9E218773A0E"
+  },
+  {
+    "path": "D:\\ThS\\VinAI\\Phase3_VRIC\\gsm-map-sandbox\\data\\routing\\hcm-center.osrm.ramIndex",
+    "bytes": 11776,
+    "sha256": "EF1ACD98AA3161F197C9C4878B0AE0B3BA35D39972B192AEAE32B552AD05FB9F"
+  },
+  {
+    "path": "D:\\ThS\\VinAI\\Phase3_VRIC\\gsm-map-sandbox\\data\\routing\\hcm-center.osrm.restrictions",
+    "bytes": 4096,
+    "sha256": "6A4EC500BF8EFE04B338A895D3F23B81998480EA972462453F494ECC36BC4EE9"
+  },
+  {
+    "path": "D:\\ThS\\VinAI\\Phase3_VRIC\\gsm-map-sandbox\\data\\routing\\hcm-center.osrm.timestamp",
+    "bytes": 3584,
+    "sha256": "5FF1041DAA89E98FEF75BD3999C6ADA0BEDAA24FC2E89334F0F5A16D75D5C5E3"
+  },
+  {
+    "path": "D:\\ThS\\VinAI\\Phase3_VRIC\\gsm-map-sandbox\\data\\routing\\hcm-center.osrm.tld",
+    "bytes": 4096,
+    "sha256": "D833A14C7F240716D96BE1FD17C7378F0214FC97057A466E114C76521F5935B5"
+  },
+  {
+    "path": "D:\\ThS\\VinAI\\Phase3_VRIC\\gsm-map-sandbox\\data\\routing\\hcm-center.osrm.tls",
+    "bytes": 6144,
+    "sha256": "6FA35B4B74A45B96AFCC837FA92FD84215026063FA9742CE75349678BA8E56D8"
+  },
+  {
+    "path": "D:\\ThS\\VinAI\\Phase3_VRIC\\gsm-map-sandbox\\data\\routing\\hcm-center.osrm.turn_duration_penalties",
+    "bytes": 229888,
+    "sha256": "7BB66AFCC25FD0A3459A6A5E9EB88E8053CC049DC054DC3478FA878B2DB23ADA"
+  },
+  {
+    "path": "D:\\ThS\\VinAI\\Phase3_VRIC\\gsm-map-sandbox\\data\\routing\\hcm-center.osrm.turn_penalties_index",
+    "bytes": 1358848,
+    "sha256": "E6BBEDEAA4D05AEBE08526C3FCC880A144DC58B03403354B16B8AFA6BD6C568C"
+  },
+  {
+    "path": "D:\\ThS\\VinAI\\Phase3_VRIC\\gsm-map-sandbox\\data\\routing\\hcm-center.osrm.turn_weight_penalties",
+    "bytes": 229888,
+    "sha256": "1B16923091DA044C6E49C424C7D5174F06D87BEF010775AB8C24953C6786E79D"
+  },
+  {
+    "path": "D:\\ThS\\VinAI\\Phase3_VRIC\\gsm-map-sandbox\\data\\routing\\manifest.json",
+    "bytes": 2068,
+    "sha256": "B69EE6BEC7B0ED29C70D269813779A4D72EF469E6AC596D88BB7B5C4BAB8785A"
+  },
+  {
+    "path": "D:\\ThS\\VinAI\\Phase3_VRIC\\gsm-map-sandbox\\data\\processed\\render\\buildings.geojson",
+    "bytes": 3642002,
+    "sha256": "52B49177126D332BDA571243D5E998AEE7A6326F4720244D5FC7D7E54A53726E"
+  },
+  {
+    "path": "D:\\ThS\\VinAI\\Phase3_VRIC\\gsm-map-sandbox\\data\\processed\\render\\export.geojson",
+    "bytes": 22923738,
+    "sha256": "9D7E3ABBF38CE4EBF7AE75574D89DCC8005475F250486664CB3A59F5775381EA"
+  },
+  {
+    "path": "D:\\ThS\\VinAI\\Phase3_VRIC\\gsm-map-sandbox\\data\\processed\\render\\green.geojson",
+    "bytes": 256391,
+    "sha256": "7374AE3CB563E0C2E98ED95DD01C59B5F01890CE232890A6812EFA86598172B0"
+  },
+  {
+    "path": "D:\\ThS\\VinAI\\Phase3_VRIC\\gsm-map-sandbox\\data\\processed\\render\\manifest.json",
+    "bytes": 1449,
+    "sha256": "540DC81F978CEEC96829D4FE795DFF44261D6CD51466C81CDDDA25897EDF7B80"
+  },
+  {
+    "path": "D:\\ThS\\VinAI\\Phase3_VRIC\\gsm-map-sandbox\\data\\processed\\render\\places.geojson",
+    "bytes": 16117,
+    "sha256": "5D0B0BC71EFF58AB46854CA3693A7E72F05C48745675714FEDFC2019C77D0343"
+  },
+  {
+    "path": "D:\\ThS\\VinAI\\Phase3_VRIC\\gsm-map-sandbox\\data\\processed\\render\\render-input.osm.pbf",
+    "bytes": 2322921,
+    "sha256": "7E90BF6B0A5C9C428E0EAF1CC39FA5AF7A2BCC23AAC907C169CFD19627AA90F8"
+  },
+  {
+    "path": "D:\\ThS\\VinAI\\Phase3_VRIC\\gsm-map-sandbox\\data\\processed\\render\\streets.geojson",
+    "bytes": 4124871,
+    "sha256": "1B66F9B6876B7F09646F8A5BB893938B993A5556723A21E4C6D2AFD5B2F5D2B6"
+  },
+  {
+    "path": "D:\\ThS\\VinAI\\Phase3_VRIC\\gsm-map-sandbox\\data\\processed\\render\\water.geojson",
+    "bytes": 229554,
+    "sha256": "F03D16E445B9CCC777B47597CCDB07F43F8BA2BD79708821909AC1452FDC1DCD"
+  }
+]

@@ -135,4 +135,28 @@ describe('A0 data waiting UI', () => {
     expect(candidateSignal?.aborted).toBe(true)
     expect(screen.queryByRole('status')).not.toBeInTheDocument()
   })
+  it('booking mode respects dataset readiness and has empty playback controls', async () => {
+    vi.stubGlobal('fetch', vi.fn().mockResolvedValue({ ok: true, json: async () => missing }))
+    render(<App />)
+    fireEvent.click(screen.getByRole('tab', { name: 'Booking & Dispatch' }))
+    expect(screen.getByRole('button', { name: 'Generate Booking Scenario' })).toBeDisabled()
+    expect(screen.getByRole('button', { name: 'Play' })).toBeDisabled()
+    expect(screen.getByRole('combobox', { name: 'Booking count' })).toHaveValue('20')
+  })
+  it('switching away from booking preparation aborts response and removes booking UI', async () => {
+    let prepareSignal: AbortSignal | undefined
+    vi.stubGlobal('fetch', vi.fn().mockImplementation((url, options) => {
+      if (url === '/api/booking-simulation/prepare') { prepareSignal = options.signal; return new Promise(() => {}) }
+      return Promise.resolve({ ok: true, json: async () => ({ ...missing, ready: true, artifacts: { map_ready: true, graph_ready: true } }) })
+    }))
+    render(<App />)
+    await waitFor(() => expect(screen.getByRole('button', { name: 'Fixture A' })).toBeEnabled())
+    fireEvent.click(screen.getByRole('tab', { name: 'Booking & Dispatch' }))
+    fireEvent.click(screen.getByRole('button', { name: 'Generate Booking Scenario' }))
+    await waitFor(() => expect(prepareSignal).toBeDefined())
+    fireEvent.click(screen.getByRole('tab', { name: 'Fleet Simulation' }))
+    expect(prepareSignal?.aborted).toBe(true)
+    expect(document.querySelector('.booking-panel')).not.toBeInTheDocument()
+    expect(screen.getByRole('button', { name: 'Play' })).toBeDisabled()
+  })
 })
