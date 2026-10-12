@@ -1,0 +1,11 @@
+{
+  "status": "PASS",
+  "browser_states": 45,
+  "desktop_layout_samples": 29,
+  "metric_samples": 29,
+  "marker_projections": 165,
+  "maximum_position_error_degrees": 0,
+  "protected_artifacts": 40,
+  "resource_entries": 508,
+  "external_requests": []
+}

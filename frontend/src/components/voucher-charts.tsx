@@ -1,3 +1,4 @@
+import { ChartViewport } from './chart-viewport'
 import { Bar, BarChart, CartesianGrid, Line, LineChart, XAxis, YAxis, ReferenceLine } from 'recharts'
 import { memo } from 'react'
 import { ChartContainer, ChartTooltip, ChartTooltipContent, ChartLegend, ChartLegendContent } from './ui/chart'
@@ -22,5 +23,5 @@ export function historyRows(e: Experiment, time: number) {
 }
 export const DefaultCharts = memo(function DefaultCharts({ experiment, time, baseline, treatment }: { experiment: Experiment; time: number; baseline: ArmMetrics; treatment: ArmMetrics }) {
   const funnel = [['Valid potential','validPotential'],['Accepted','accepted'],['Assigned','assigned'],['Picked up','pickedUp'],['Completed','completed']] as const
-  return <div className="experiment-chart-grid"><ComparisonBar title="Booking Conversion Funnel" data={funnel.map(([label,key]) => ({ label, baseline: baseline[key], treatment: treatment[key] }))}/><ComparisonLine title="Cumulative Completed Trips" time={time} data={historyRows(experiment,time).map(r => ({ timeSeconds: r.timeSeconds, baseline: r.baseline.completed, treatment: r.treatment.completed }))}/></div>
+  return <div className="experiment-chart-grid"><ChartViewport title="Booking Conversion Funnel"><ComparisonBar title="Booking Conversion Funnel" data={funnel.map(([label,key]) => ({ label, baseline: baseline[key], treatment: treatment[key] }))}/></ChartViewport><ChartViewport title="Cumulative Completed Trips"><ComparisonLine title="Cumulative Completed Trips" time={time} data={historyRows(experiment,time).map(r => ({ timeSeconds: r.timeSeconds, baseline: r.baseline.completed, treatment: r.treatment.completed }))}/></ChartViewport></div>
 })

@@ -1,3 +1,4 @@
+import { normalizeSimulationSpeed } from './simulation-speed'
 import type { ClockSnapshot } from './fleet'
 
 /** One RAF for the fleet; positions are projections of absolute simulation time. */
@@ -41,10 +42,11 @@ export class FleetClock {
   seek = (seconds: number) => { this.stop(); const time = Math.max(0, Math.min(this.duration, Number.isFinite(seconds) ? seconds : 0)); this.publish({ simulationTimeSeconds: time, playbackStatus: !this.duration ? 'idle' : time >= this.duration ? 'completed' : 'paused' }) }
   reset = () => this.seek(0)
   setSpeed = (speed: number) => {
-    if (![1, 2, 4].includes(speed)) return
+    const normalized = normalizeSimulationSpeed(speed)
+    if (normalized === null) return
     const now = performance.now(), time = this.snapshot.playbackStatus === 'playing' ? this.time(now) : this.snapshot.simulationTimeSeconds
     this.anchorTime = time; this.anchorWall = now
-    this.publish({ simulationTimeSeconds: time, speedMultiplier: speed })
+    this.publish({ simulationTimeSeconds: time, speedMultiplier: normalized })
   }
   dispose = () => { this.stop(); this.listeners.clear() }
 }

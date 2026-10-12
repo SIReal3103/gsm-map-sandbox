@@ -1,0 +1,14 @@
+[
+  {
+    "level": "warn",
+    "message": "The width(0) and height(0) of chart should be greater than 0,\n       please check the style of container, or the props width(100%) and height(100%),\n       or add a minWidth(0) or minHeight(undefined) or use aspect(undefined) to control the\n       height and width.",
+    "timestamp": "2026-10-12T11:21:52.373Z",
+    "url": "http://127.0.0.1:5173/node_modules/.vite/deps/recharts.js?v=abcd8080"
+  },
+  {
+    "level": "warn",
+    "message": "The width(0) and height(0) of chart should be greater than 0,\n       please check the style of container, or the props width(100%) and height(100%),\n       or add a minWidth(0) or minHeight(undefined) or use aspect(undefined) to control the\n       height and width.",
+    "timestamp": "2026-10-12T11:21:52.374Z",
+    "url": "http://127.0.0.1:5173/node_modules/.vite/deps/recharts.js?v=abcd8080"
+  }
+]
