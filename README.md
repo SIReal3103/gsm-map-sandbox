@@ -4,9 +4,9 @@ PoC mô phỏng hành trình, đội xe và voucher trên bản đồ OSM thật
 
 ## Video demo
 
-<video src="docs/media/gsm-map-sandbox-demo.mp4" controls width="100%"></video>
+![GSM Map Sandbox demo preview](docs/media/gsm-map-sandbox-demo.gif)
 
-[Mở hoặc tải video demo](docs/media/gsm-map-sandbox-demo.mp4) nếu trình xem README không phát video trực tiếp.
+GIF là bản xem trước 10 giây để GitHub hiển thị trực tiếp. [Mở hoặc tải video đầy đủ (MP4)](docs/media/gsm-map-sandbox-demo.mp4).
 
 ## Chạy ứng dụng Live trên Windows
 
