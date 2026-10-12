@@ -79,11 +79,11 @@ export function bookingProjection(plan: BookingPlan, simulationTime: number) {
   return { time, bookings, vehicles, events: visibleEvents, metrics }
 }
 
-export function validateBookingPlan(plan: BookingPlan) {
+export function validateBookingPlan(plan: BookingPlan, filteredDemand = false) {
   const fail = () => { throw new Error('INVALID_SCENARIO_PLAN: plan, lifecycle hoặc route không hợp lệ.') }
-  if (!plan || !Array.isArray(plan.vehicles) || !Array.isArray(plan.demand) || !Array.isArray(plan.assignments) || !Array.isArray(plan.events) || !Number.isFinite(plan.simulationDurationSeconds) || plan.simulationDurationSeconds <= 0) fail()
+  if (!plan || !Array.isArray(plan.vehicles) || !Array.isArray(plan.demand) || !Array.isArray(plan.assignments) || !Array.isArray(plan.events) || !Number.isFinite(plan.simulationDurationSeconds) || (filteredDemand ? plan.simulationDurationSeconds < 0 : plan.simulationDurationSeconds <= 0)) fail()
   const vehicleIds = new Set(plan.vehicles.map(v => v.id)), bookingIds = new Set(plan.demand.map(b => b.id))
-  if (vehicleIds.size !== plan.vehicles.length || bookingIds.size !== plan.demand.length || plan.vehicles.length !== plan.config.fleetSize || plan.demand.length !== plan.config.bookingCount || plan.vehicles.length > 10 || plan.demand.length > 30) fail()
+  if (vehicleIds.size !== plan.vehicles.length || bookingIds.size !== plan.demand.length || plan.vehicles.length !== plan.config.fleetSize || (!filteredDemand && plan.demand.length !== plan.config.bookingCount) || plan.vehicles.length > 10 || plan.demand.length > 30) fail()
   const catalog = { provenance: plan.provenance } as CandidateCatalog
   const assigned = new Set<string>(), ends = new Map<string, number>()
   for (const a of plan.assignments) {

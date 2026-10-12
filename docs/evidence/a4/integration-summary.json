@@ -1,0 +1,492 @@
+[
+  {
+    "case": "default",
+    "status": "PASS",
+    "baseline": {
+      "validPotential": 30,
+      "accepted": 13,
+      "completed": 13,
+      "unserved": 0,
+      "grossFareVnd": 464928,
+      "riderPaymentsVnd": 464928,
+      "voucherSpendVnd": 0,
+      "budget": {
+        "total": 0,
+        "reserved": 0,
+        "spent": 0,
+        "available": 0
+      },
+      "voucherCounts": {
+        "OFFERED": 0,
+        "RESERVED": 0,
+        "SETTLED": 0,
+        "RELEASED": 0
+      }
+    },
+    "treatment": {
+      "validPotential": 30,
+      "accepted": 16,
+      "completed": 16,
+      "unserved": 0,
+      "grossFareVnd": 633058,
+      "riderPaymentsVnd": 433058,
+      "voucherSpendVnd": 200000,
+      "budget": {
+        "total": 200000,
+        "reserved": 0,
+        "spent": 200000,
+        "available": 0
+      },
+      "voucherCounts": {
+        "OFFERED": 15,
+        "RESERVED": 10,
+        "SETTLED": 10,
+        "RELEASED": 0
+      }
+    },
+    "comparison": {
+      "bookingUplift": 3,
+      "incrementalCompleted": 3,
+      "costPerIncrementalCompletionVnd": 66666.66666666667
+    },
+    "durationSeconds": 2115.1910000000003,
+    "preparationMilliseconds": 3033.5222999565303,
+    "routingRequests": {
+      "nearest": 10,
+      "table": 29,
+      "route": 51,
+      "routeCacheHits": 35,
+      "tableCacheHits": 1
+    },
+    "jsonBytes": 412469
+  },
+  {
+    "case": "repeat",
+    "status": "PASS",
+    "baseline": {
+      "validPotential": 30,
+      "accepted": 13,
+      "completed": 13,
+      "unserved": 0,
+      "grossFareVnd": 464928,
+      "riderPaymentsVnd": 464928,
+      "voucherSpendVnd": 0,
+      "budget": {
+        "total": 0,
+        "reserved": 0,
+        "spent": 0,
+        "available": 0
+      },
+      "voucherCounts": {
+        "OFFERED": 0,
+        "RESERVED": 0,
+        "SETTLED": 0,
+        "RELEASED": 0
+      }
+    },
+    "treatment": {
+      "validPotential": 30,
+      "accepted": 16,
+      "completed": 16,
+      "unserved": 0,
+      "grossFareVnd": 633058,
+      "riderPaymentsVnd": 433058,
+      "voucherSpendVnd": 200000,
+      "budget": {
+        "total": 200000,
+        "reserved": 0,
+        "spent": 200000,
+        "available": 0
+      },
+      "voucherCounts": {
+        "OFFERED": 15,
+        "RESERVED": 10,
+        "SETTLED": 10,
+        "RELEASED": 0
+      }
+    },
+    "comparison": {
+      "bookingUplift": 3,
+      "incrementalCompleted": 3,
+      "costPerIncrementalCompletionVnd": 66666.66666666667
+    },
+    "durationSeconds": 2115.1910000000003,
+    "preparationMilliseconds": 3854.647400090471,
+    "routingRequests": {
+      "nearest": 10,
+      "table": 29,
+      "route": 51,
+      "routeCacheHits": 35,
+      "tableCacheHits": 1
+    },
+    "jsonBytes": 412471,
+    "determinism": "PASS"
+  },
+  {
+    "case": "percentage",
+    "status": "PASS",
+    "baseline": {
+      "validPotential": 30,
+      "accepted": 13,
+      "completed": 13,
+      "unserved": 0,
+      "grossFareVnd": 464928,
+      "riderPaymentsVnd": 464928,
+      "voucherSpendVnd": 0,
+      "budget": {
+        "total": 0,
+        "reserved": 0,
+        "spent": 0,
+        "available": 0
+      },
+      "voucherCounts": {
+        "OFFERED": 0,
+        "RESERVED": 0,
+        "SETTLED": 0,
+        "RELEASED": 0
+      }
+    },
+    "treatment": {
+      "validPotential": 30,
+      "accepted": 17,
+      "completed": 16,
+      "unserved": 1,
+      "grossFareVnd": 643963,
+      "riderPaymentsVnd": 450772,
+      "voucherSpendVnd": 193191,
+      "budget": {
+        "total": 200000,
+        "reserved": 0,
+        "spent": 193191,
+        "available": 6809
+      },
+      "voucherCounts": {
+        "OFFERED": 28,
+        "RESERVED": 17,
+        "SETTLED": 16,
+        "RELEASED": 1
+      }
+    },
+    "comparison": {
+      "bookingUplift": 4,
+      "incrementalCompleted": 3,
+      "costPerIncrementalCompletionVnd": 64397.0
+    },
+    "durationSeconds": 2115.1910000000003,
+    "preparationMilliseconds": 3276.910200016573,
+    "routingRequests": {
+      "nearest": 10,
+      "table": 33,
+      "route": 51,
+      "routeCacheHits": 61,
+      "tableCacheHits": 23
+    },
+    "jsonBytes": 417247
+  },
+  {
+    "case": "zero",
+    "status": "PASS",
+    "baseline": {
+      "validPotential": 30,
+      "accepted": 13,
+      "completed": 13,
+      "unserved": 0,
+      "grossFareVnd": 464928,
+      "riderPaymentsVnd": 464928,
+      "voucherSpendVnd": 0,
+      "budget": {
+        "total": 0,
+        "reserved": 0,
+        "spent": 0,
+        "available": 0
+      },
+      "voucherCounts": {
+        "OFFERED": 0,
+        "RESERVED": 0,
+        "SETTLED": 0,
+        "RELEASED": 0
+      }
+    },
+    "treatment": {
+      "validPotential": 30,
+      "accepted": 13,
+      "completed": 13,
+      "unserved": 0,
+      "grossFareVnd": 464928,
+      "riderPaymentsVnd": 464928,
+      "voucherSpendVnd": 0,
+      "budget": {
+        "total": 200000,
+        "reserved": 0,
+        "spent": 0,
+        "available": 200000
+      },
+      "voucherCounts": {
+        "OFFERED": 0,
+        "RESERVED": 0,
+        "SETTLED": 0,
+        "RELEASED": 0
+      }
+    },
+    "comparison": {
+      "bookingUplift": 0,
+      "incrementalCompleted": 0,
+      "costPerIncrementalCompletionVnd": null
+    },
+    "durationSeconds": 2115.1910000000003,
+    "preparationMilliseconds": 2039.3763999454677,
+    "routingRequests": {
+      "nearest": 10,
+      "table": 13,
+      "route": 41,
+      "routeCacheHits": 39,
+      "tableCacheHits": 13
+    },
+    "jsonBytes": 355750,
+    "zeroParity": "PASS"
+  },
+  {
+    "case": "exhaustion",
+    "status": "PASS",
+    "baseline": {
+      "validPotential": 30,
+      "accepted": 13,
+      "completed": 13,
+      "unserved": 0,
+      "grossFareVnd": 464928,
+      "riderPaymentsVnd": 464928,
+      "voucherSpendVnd": 0,
+      "budget": {
+        "total": 0,
+        "reserved": 0,
+        "spent": 0,
+        "available": 0
+      },
+      "voucherCounts": {
+        "OFFERED": 0,
+        "RESERVED": 0,
+        "SETTLED": 0,
+        "RELEASED": 0
+      }
+    },
+    "treatment": {
+      "validPotential": 30,
+      "accepted": 14,
+      "completed": 14,
+      "unserved": 0,
+      "grossFareVnd": 503774,
+      "riderPaymentsVnd": 483774,
+      "voucherSpendVnd": 20000,
+      "budget": {
+        "total": 20000,
+        "reserved": 0,
+        "spent": 20000,
+        "available": 0
+      },
+      "voucherCounts": {
+        "OFFERED": 2,
+        "RESERVED": 1,
+        "SETTLED": 1,
+        "RELEASED": 0
+      }
+    },
+    "comparison": {
+      "bookingUplift": 1,
+      "incrementalCompleted": 1,
+      "costPerIncrementalCompletionVnd": 20000.0
+    },
+    "durationSeconds": 2115.1910000000003,
+    "preparationMilliseconds": 5890.590300085023,
+    "routingRequests": {
+      "nearest": 10,
+      "table": 19,
+      "route": 43,
+      "routeCacheHits": 40,
+      "tableCacheHits": 8
+    },
+    "jsonBytes": 370926
+  },
+  {
+    "case": "capacity",
+    "status": "PASS",
+    "baseline": {
+      "validPotential": 30,
+      "accepted": 13,
+      "completed": 1,
+      "unserved": 12,
+      "grossFareVnd": 39435,
+      "riderPaymentsVnd": 39435,
+      "voucherSpendVnd": 0,
+      "budget": {
+        "total": 0,
+        "reserved": 0,
+        "spent": 0,
+        "available": 0
+      },
+      "voucherCounts": {
+        "OFFERED": 0,
+        "RESERVED": 0,
+        "SETTLED": 0,
+        "RELEASED": 0
+      }
+    },
+    "treatment": {
+      "validPotential": 30,
+      "accepted": 18,
+      "completed": 1,
+      "unserved": 17,
+      "grossFareVnd": 39435,
+      "riderPaymentsVnd": 19435,
+      "voucherSpendVnd": 20000,
+      "budget": {
+        "total": 1000000,
+        "reserved": 0,
+        "spent": 20000,
+        "available": 980000
+      },
+      "voucherCounts": {
+        "OFFERED": 30,
+        "RESERVED": 18,
+        "SETTLED": 1,
+        "RELEASED": 17
+      }
+    },
+    "comparison": {
+      "bookingUplift": 5,
+      "incrementalCompleted": 0,
+      "costPerIncrementalCompletionVnd": null
+    },
+    "durationSeconds": 230.403,
+    "preparationMilliseconds": 2475.045599974692,
+    "routingRequests": {
+      "nearest": 2,
+      "table": 8,
+      "route": 30,
+      "routeCacheHits": 255,
+      "tableCacheHits": 247
+    },
+    "jsonBytes": 199987
+  },
+  {
+    "case": "no-increment",
+    "status": "PASS",
+    "baseline": {
+      "validPotential": 30,
+      "accepted": 30,
+      "completed": 23,
+      "unserved": 7,
+      "grossFareVnd": 961834,
+      "riderPaymentsVnd": 961834,
+      "voucherSpendVnd": 0,
+      "budget": {
+        "total": 0,
+        "reserved": 0,
+        "spent": 0,
+        "available": 0
+      },
+      "voucherCounts": {
+        "OFFERED": 0,
+        "RESERVED": 0,
+        "SETTLED": 0,
+        "RELEASED": 0
+      }
+    },
+    "treatment": {
+      "validPotential": 30,
+      "accepted": 30,
+      "completed": 23,
+      "unserved": 7,
+      "grossFareVnd": 961834,
+      "riderPaymentsVnd": 502846,
+      "voucherSpendVnd": 458988,
+      "budget": {
+        "total": 1000000,
+        "reserved": 0,
+        "spent": 458988,
+        "available": 541012
+      },
+      "voucherCounts": {
+        "OFFERED": 30,
+        "RESERVED": 30,
+        "SETTLED": 23,
+        "RELEASED": 7
+      }
+    },
+    "comparison": {
+      "bookingUplift": 0,
+      "incrementalCompleted": 0,
+      "costPerIncrementalCompletionVnd": null
+    },
+    "durationSeconds": 2354.8540000000003,
+    "preparationMilliseconds": 3421.5003999415785,
+    "routingRequests": {
+      "nearest": 10,
+      "table": 52,
+      "route": 51,
+      "routeCacheHits": 353,
+      "tableCacheHits": 280
+    },
+    "jsonBytes": 536824
+  },
+  {
+    "case": "stress",
+    "status": "PASS",
+    "baseline": {
+      "validPotential": 30,
+      "accepted": 13,
+      "completed": 13,
+      "unserved": 0,
+      "grossFareVnd": 464928,
+      "riderPaymentsVnd": 464928,
+      "voucherSpendVnd": 0,
+      "budget": {
+        "total": 0,
+        "reserved": 0,
+        "spent": 0,
+        "available": 0
+      },
+      "voucherCounts": {
+        "OFFERED": 0,
+        "RESERVED": 0,
+        "SETTLED": 0,
+        "RELEASED": 0
+      }
+    },
+    "treatment": {
+      "validPotential": 30,
+      "accepted": 16,
+      "completed": 16,
+      "unserved": 0,
+      "grossFareVnd": 633058,
+      "riderPaymentsVnd": 433058,
+      "voucherSpendVnd": 200000,
+      "budget": {
+        "total": 200000,
+        "reserved": 0,
+        "spent": 200000,
+        "available": 0
+      },
+      "voucherCounts": {
+        "OFFERED": 15,
+        "RESERVED": 10,
+        "SETTLED": 10,
+        "RELEASED": 0
+      }
+    },
+    "comparison": {
+      "bookingUplift": 3,
+      "incrementalCompleted": 3,
+      "costPerIncrementalCompletionVnd": 66666.66666666667
+    },
+    "durationSeconds": 2079.2599999999998,
+    "preparationMilliseconds": 2936.7161000845954,
+    "routingRequests": {
+      "nearest": 20,
+      "table": 28,
+      "route": 43,
+      "routeCacheHits": 33,
+      "tableCacheHits": 1
+    },
+    "jsonBytes": 380605
+  }
+]

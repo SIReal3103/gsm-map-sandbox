@@ -7,8 +7,7 @@ import type { Coordinate, DatasetStatus, Route } from '@/lib/api'
 import type { FleetSession } from '@/lib/use-fleet'
 import type { FleetFocus } from './fleet-panel'
 import { FleetMap } from './fleet-map'
-import { BookingMap } from './booking-map'
-import type { BookingSession } from '@/lib/use-booking'
+import { BookingMap, type BookingMapSession } from './booking-map'
 import type { BookingFocus } from './booking-panel'
 
 const blankStyles = { light: emptyStyle, dark: emptyStyle }
@@ -37,7 +36,7 @@ export function SandboxMap({ dataset, start, end, route, progress, enabled, onSe
   dataset: DatasetStatus | null; start: Coordinate | null; end: Coordinate | null; route: Route | null;
   progress: number; enabled: boolean; onSelect: (point: Coordinate) => void; onError: (message: string) => void
   fleet?: FleetSession; fleetFocus?: FleetFocus | null
-  booking?: BookingSession; bookingFocus?: BookingFocus | null
+  booking?: BookingMapSession; bookingFocus?: BookingFocus | null
 }) {
   const box = dataset?.region.display_bbox ?? [106.675, 10.750, 106.725, 10.795]
   return <Map theme="light" styles={dataset?.artifacts.map_ready ? readyStyles : blankStyles} center={[(box[0] + box[2]) / 2, (box[1] + box[3]) / 2]} zoom={14.2} attributionControl={{ customAttribution: '© OpenStreetMap contributors', compact: false }}>

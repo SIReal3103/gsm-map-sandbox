@@ -1,0 +1,15 @@
+{
+  "status": "PASS",
+  "vehicleProjections": 224,
+  "metricSnapshots": 42,
+  "maxCoordinateErrorDegrees": 1.432144669219779e-14,
+  "csvRows": {
+    "summary": 39,
+    "decisions": 60,
+    "bookings": 29,
+    "ledger": 35,
+    "series": 232
+  },
+  "externalResourceRequests": [],
+  "note": "Positions independently calculated in Python over full OSRM geometry; KPI cross-check against backend; real UI downloads."
+}

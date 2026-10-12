@@ -6,7 +6,8 @@ import { bookingProjection } from '@/lib/booking'
 import type { BookingSession } from '@/lib/use-booking'
 import type { BookingFocus } from './booking-panel'
 
-export function BookingMap({ session, focus }: { session: BookingSession; focus: BookingFocus | null }) {
+export type BookingMapSession = Pick<BookingSession, 'clock' | 'plan' | 'selectedBookingId' | 'selectedVehicleId' | 'setSelectedBookingId' | 'setSelectedVehicleId'>
+export function BookingMap({ session, focus }: { session: BookingMapSession; focus: BookingFocus | null }) {
   const { map, isLoaded } = useMap(), clock = useFleetClock(session.clock), plan = session.plan
   const view = useMemo(() => plan ? bookingProjection(plan, clock.simulationTimeSeconds) : null, [plan, clock.simulationTimeSeconds])
   const selectedBooking = view?.bookings.find(b => b.id === session.selectedBookingId)

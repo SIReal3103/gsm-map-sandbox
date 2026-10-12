@@ -1,0 +1,123 @@
+{
+  "preparationMilliseconds": {
+    "min": 2039.3763999454677,
+    "median": 3155.2162499865517,
+    "max": 5890.590300085023
+  },
+  "cases": [
+    {
+      "case": "default",
+      "preparationMilliseconds": 3033.5222999565303,
+      "jsonBytes": 412469,
+      "routingRequests": {
+        "nearest": 10,
+        "table": 29,
+        "route": 51,
+        "routeCacheHits": 35,
+        "tableCacheHits": 1
+      }
+    },
+    {
+      "case": "repeat",
+      "preparationMilliseconds": 3854.647400090471,
+      "jsonBytes": 412471,
+      "routingRequests": {
+        "nearest": 10,
+        "table": 29,
+        "route": 51,
+        "routeCacheHits": 35,
+        "tableCacheHits": 1
+      }
+    },
+    {
+      "case": "percentage",
+      "preparationMilliseconds": 3276.910200016573,
+      "jsonBytes": 417247,
+      "routingRequests": {
+        "nearest": 10,
+        "table": 33,
+        "route": 51,
+        "routeCacheHits": 61,
+        "tableCacheHits": 23
+      }
+    },
+    {
+      "case": "zero",
+      "preparationMilliseconds": 2039.3763999454677,
+      "jsonBytes": 355750,
+      "routingRequests": {
+        "nearest": 10,
+        "table": 13,
+        "route": 41,
+        "routeCacheHits": 39,
+        "tableCacheHits": 13
+      }
+    },
+    {
+      "case": "exhaustion",
+      "preparationMilliseconds": 5890.590300085023,
+      "jsonBytes": 370926,
+      "routingRequests": {
+        "nearest": 10,
+        "table": 19,
+        "route": 43,
+        "routeCacheHits": 40,
+        "tableCacheHits": 8
+      }
+    },
+    {
+      "case": "capacity",
+      "preparationMilliseconds": 2475.045599974692,
+      "jsonBytes": 199987,
+      "routingRequests": {
+        "nearest": 2,
+        "table": 8,
+        "route": 30,
+        "routeCacheHits": 255,
+        "tableCacheHits": 247
+      }
+    },
+    {
+      "case": "no-increment",
+      "preparationMilliseconds": 3421.5003999415785,
+      "jsonBytes": 536824,
+      "routingRequests": {
+        "nearest": 10,
+        "table": 52,
+        "route": 51,
+        "routeCacheHits": 353,
+        "tableCacheHits": 280
+      }
+    },
+    {
+      "case": "stress",
+      "preparationMilliseconds": 2936.7161000845954,
+      "jsonBytes": 380605,
+      "routingRequests": {
+        "nearest": 20,
+        "table": 28,
+        "route": 43,
+        "routeCacheHits": 33,
+        "tableCacheHits": 1
+      }
+    }
+  ],
+  "bundleKB": {
+    "baseline": {
+      "main": 1407.79,
+      "mainGzip": 399.64,
+      "css": 138.08,
+      "cssGzip": 21.95
+    },
+    "a4": {
+      "main": 1428.49,
+      "mainGzip": 405.2,
+      "dashboard": 374.39,
+      "dashboardGzip": 110.08,
+      "analytics": 4.26,
+      "analyticsGzip": 1.5,
+      "css": 144.69,
+      "cssGzip": 23.24
+    }
+  }
+}

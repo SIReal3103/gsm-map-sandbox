@@ -11,6 +11,7 @@ from .dataset import dataset_status, artifact_status, pbf_status
 from .schemas import RouteRequest, RouteResponse, SnapPoint
 from .fleet import candidate_catalog
 from .booking import PrepareRequest, ScenarioPlan, LocalTravel, build_plan
+from .voucher import ExperimentRequest, prepare_experiment
 
 
 def api_error(code, message, status=503):
@@ -36,6 +37,8 @@ def create_app(settings: Settings | None = None):
 
     @app.exception_handler(RequestValidationError)
     async def validation_error(request, exc):
+        if request.url.path == "/api/voucher-experiment/prepare":
+            return JSONResponse(status_code=422, content={"error": {"code": "INVALID_EXPERIMENT_CONFIG", "message": "Config fare, behavior, voucher hoặc scenario ngoài giới hạn PoC."}})
         if request.url.path == "/api/booking-simulation/prepare":
             return JSONResponse(status_code=422, content={"error": {"code": "INVALID_SCENARIO_CONFIG", "message": "Cần seed, 1–10 xe, 10–30 bookings, horizon 60–3600 s, maxWait 10–900 s và preset hợp lệ."}})
         return JSONResponse(status_code=422, content={"error": {"code": "INVALID_COORDINATES", "message": "Expected start/end as finite WGS84 [longitude, latitude], with no extra fields."}})
@@ -136,6 +139,20 @@ def create_app(settings: Settings | None = None):
                     return await build_plan(catalog, config, LocalTravel(settings, fetch_route, meters, client), request.is_disconnected)
             except (OSError, KeyError, ValueError, TypeError):
                 api_error("INVALID_SCENARIO_PLAN", "Không xác minh được candidate, ETA hoặc scenario plan.", 502)
+
+    @app.post("/api/voucher-experiment/prepare")
+    async def prepare_voucher(config: ExperimentRequest, request: Request):
+        if not (await dataset_status(settings))["ready"]:
+            api_error("DATASET_NOT_READY", "Cần dữ liệu bản đồ và OSRM local sẵn sàng.")
+        async with preparation_lock:
+            try:
+                catalog = candidate_catalog(settings)
+                async with httpx.AsyncClient(timeout=settings.osrm_timeout_seconds, trust_env=False) as client:
+                    async def fetch_route(route_request):
+                        return await calculate_route(route_request, client)
+                    return await prepare_experiment(catalog, config, LocalTravel(settings, fetch_route, meters, client), request.is_disconnected)
+            except (OSError, KeyError, ValueError, TypeError):
+                api_error("INVALID_EXPERIMENT_PLAN", "Không xác minh được paired experiment hoặc ledger.", 502)
 
     return app
 
