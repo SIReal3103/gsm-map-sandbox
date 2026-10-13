@@ -5,7 +5,7 @@ export interface DatasetStatus {
   pbf: { state: string; path: string; size_bytes: number | null; format_verified: boolean; osmium_available: boolean }
   artifacts: { map_ready: boolean; graph_ready: boolean; extracted_ready: boolean }
   osrm: { state: string; url: string }
-  region: { name: string; display_bbox: [number, number, number, number]; routing_bbox: [number, number, number, number]; source: string; attribution: string; boundary_note: string }
+  region: { name: string; display_bbox: [number, number, number, number]; simulation_bbox?: [number, number, number, number] | null; routing_bbox: [number, number, number, number]; source: string; attribution: string; boundary_note: string }
 }
 export interface Route {
   coordinates: Coordinate[]
@@ -13,6 +13,9 @@ export interface Route {
   duration: number
   snap_points: { location: Coordinate; distance: number; name: string }[]
   duration_source: string
+  segment_durations?: number[] | null
+  segment_distances?: number[] | null
+  segment_time_source?: string
 }
 export async function api<T>(path: string, options: RequestInit = {}): Promise<T> {
   const response = await fetch(path, options)

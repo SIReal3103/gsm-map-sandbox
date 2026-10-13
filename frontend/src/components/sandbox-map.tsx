@@ -1,4 +1,4 @@
-import { useEffect } from 'react'
+import { useEffect, type ReactNode } from 'react'
 import { Car } from 'lucide-react'
 import { Map, MapControls, MapMarker, MarkerContent, MapRoute, RouteProgress, RouteMarker, useMap } from '@/components/ui/map'
 import { emptyStyle, localStyle } from '@/lib/map-style'
@@ -34,6 +34,15 @@ function FitRoute({ route }: { route: Route | null }) {
   }, [map, isLoaded, route])
   return null
 }
+function FitStudyArea({ bounds }: { bounds?: [number, number, number, number] | null }) {
+  const { map, isLoaded } = useMap()
+  const [w, s, e, n] = bounds ?? []
+  useEffect(() => {
+    if (!map || !isLoaded || w === undefined || s === undefined || e === undefined || n === undefined) return
+    map.fitBounds([[w, s], [e, n]], { padding: 50, maxZoom: 16, duration: 0 })
+  }, [map, isLoaded, w, s, e, n])
+  return null
+}
 function MapEvents({ enabled, onSelect, onError }: { enabled: boolean; onSelect: (point: Coordinate) => void; onError: (message: string) => void }) {
   const { map, isLoaded } = useMap()
   useEffect(() => {
@@ -45,19 +54,22 @@ function MapEvents({ enabled, onSelect, onError }: { enabled: boolean; onSelect:
   }, [map, isLoaded, enabled, onSelect, onError])
   return null
 }
-export function SandboxMap({ dataset, start, end, route, progress, enabled, onSelect, onError, fleet, fleetFocus, booking, bookingFocus }: {
+export function SandboxMap({ dataset, start, end, route, progress, enabled, onSelect, onError, fleet, fleetFocus, booking, bookingFocus, children, studyBounds }: {
   dataset: DatasetStatus | null; start: Coordinate | null; end: Coordinate | null; route: Route | null;
   progress: number; enabled: boolean; onSelect: (point: Coordinate) => void; onError: (message: string) => void
   fleet?: FleetSession; fleetFocus?: FleetFocus | null
   booking?: BookingMapSession; bookingFocus?: BookingFocus | null
+  children?: ReactNode; studyBounds?: [number, number, number, number] | null
 }) {
   const box = dataset?.region.display_bbox ?? [106.675, 10.750, 106.725, 10.795]
-  return <Map theme="light" styles={dataset?.artifacts.map_ready ? readyStyles : blankStyles} center={[(box[0] + box[2]) / 2, (box[1] + box[3]) / 2]} zoom={14.2} attributionControl={{ customAttribution: '© OpenStreetMap contributors', compact: false }}>
+  return <Map theme="light" styles={dataset?.artifacts.map_ready ? readyStyles : blankStyles} center={[(box[0] + box[2]) / 2, (box[1] + box[3]) / 2]} zoom={14.2} attributionControl={{ customAttribution: '<a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noreferrer">© OpenStreetMap contributors</a>', compact: false }}>
     <MapControls position="top-right" showCompass />
     <ResizeMap />
     <MapEvents enabled={enabled} onSelect={onSelect} onError={onError} />
+    <FitStudyArea bounds={studyBounds} />
     {fleet && <FleetMap fleet={fleet} focus={fleetFocus ?? null} />}
     {booking && <BookingMap session={booking} focus={bookingFocus ?? null} />}
+    {children}
     <FitRoute route={route} />
     {[start, end].map((point, i) => point && <MapMarker key={i} longitude={point[0]} latitude={point[1]}><MarkerContent><div className={`point-marker ${i ? 'destination' : ''}`}>{i ? 'B' : 'A'}</div></MarkerContent></MapMarker>)}
     {route && <MapRoute coordinates={route.coordinates} progress={progress} color="#397f9b" width={6} opacity={1}>

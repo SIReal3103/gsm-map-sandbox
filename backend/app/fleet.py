@@ -30,12 +30,16 @@ def _read_candidates(path, mtime_ns, size, bbox):
     return select_candidates(json.loads(raw), bbox), hashlib.sha256(raw).hexdigest()
 
 
-def candidate_catalog(settings):
+def candidate_catalog(settings, sampling_bbox=None):
     stat = settings.map_path.stat()
     w, s, e, n = settings.region.display_bbox
     # Keep demo OD points away from the extraction/render edge. This does not
     # change the display/routing bbox and does not assert graph connectivity.
-    sampling_bbox = (w+(e-w)*.2, s+(n-s)*.2, e-(e-w)*.2, n-(n-s)*.2)
+    if sampling_bbox is None:
+        sampling_bbox = (w+(e-w)*.2, s+(n-s)*.2, e-(e-w)*.2, n-(n-s)*.2)
+    sw, ss, se, sn = sampling_bbox
+    if not (w <= sw < se <= e and s <= ss < sn <= n):
+        raise ValueError("Sampling bbox must be inside display coverage")
     candidates, streets_hash = _read_candidates(settings.map_path, stat.st_mtime_ns, stat.st_size,
                                                sampling_bbox)
     manifest = json.loads((settings.routing_dir / "manifest.json").read_text(encoding="utf-8"))

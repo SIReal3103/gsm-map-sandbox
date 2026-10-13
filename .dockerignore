@@ -1,0 +1,13 @@
+**/.git
+**/.venv*
+**/.python-deps
+**/node_modules
+**/dist
+**/__pycache__
+**/.env
+**/*.log
+**/*.tsbuildinfo
+frontend/public/maplibre-gl-worker*
+data
+docs/evidence
+plans

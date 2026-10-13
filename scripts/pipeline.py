@@ -7,6 +7,7 @@ import subprocess
 import sys
 from datetime import datetime, timezone
 from pathlib import Path
+from urllib.parse import urlsplit
 
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT))
@@ -178,6 +179,7 @@ def main(argv=None):
                 "artifact_sizes": {p.name: p.stat().st_size for p in settings.routing_dir.glob("hcm-center.osrm*")}})
             incomplete.unlink()
     else:
+        port = urlsplit(settings.osrm_base_url).port or 80
         if not dry and (incomplete.exists() or not manifest_path.is_file() or not all((settings.routing_dir / p).is_file() for p in GRAPH_FILES)):
             raise RuntimeError("Thiếu manifest/graph MLD hoặc pipeline dở dang.")
         if not dry:
@@ -194,13 +196,13 @@ def main(argv=None):
                 owned = (container["Config"].get("Labels", {}).get("gsm-map-sandbox") == "true"
                          and container["Config"].get("Image") == image
                          and any(Path(m["Source"]).resolve() == settings.routing_dir.resolve() and m["Destination"] == "/data" and not m["RW"] for m in mounts)
-                         and container["HostConfig"]["PortBindings"].get("5000/tcp") == [{"HostIp": "127.0.0.1", "HostPort": "5000"}])
+                         and container["HostConfig"]["PortBindings"].get("5000/tcp") == [{"HostIp": "127.0.0.1", "HostPort": str(port)}])
                 if owned and container["State"]["Running"]:
                     print("REUSE running local sandbox router; HTTP readiness is checked by backend/audit")
                     return 0
                 raise RuntimeError("Tên container đã được dùng hoặc cấu hình không khớp; không tự dừng container khác.")
         execute(["docker", "run", "--rm", *(["--detach"] if args.detach else []), "--name", "gsm-map-osrm",
-                 "--label", "gsm-map-sandbox=true", "--memory", "1g", "--cpus", "2", "-p", "127.0.0.1:5000:5000",
+                 "--label", "gsm-map-sandbox=true", "--memory", "1g", "--cpus", "2", "-p", f"127.0.0.1:{port}:5000",
                  "--mount", mount + ",readonly", image, "osrm-routed", "--algorithm", "mld", "/data/hcm-center.osrm"], dry)
     return 0
 

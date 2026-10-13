@@ -41,6 +41,8 @@ def create_app(settings: Settings | None = None):
             return JSONResponse(status_code=422, content={"error": {"code": "INVALID_EXPERIMENT_CONFIG", "message": "Config fare, behavior, voucher hoặc scenario ngoài giới hạn PoC."}})
         if request.url.path == "/api/booking-simulation/prepare":
             return JSONResponse(status_code=422, content={"error": {"code": "INVALID_SCENARIO_CONFIG", "message": "Cần seed, 1–10 xe, 10–30 bookings, horizon 60–3600 s, maxWait 10–900 s và preset hợp lệ."}})
+        if request.url.path.startswith("/api/wp3/"):
+            return JSONResponse(status_code=422, content={"error": {"code": "INVALID_SCENARIO", "message": "Kiểm tra giới hạn seed, fleet, quotes, ngân sách và tham số scenario."}})
         return JSONResponse(status_code=422, content={"error": {"code": "INVALID_COORDINATES", "message": "Expected start/end as finite WGS84 [longitude, latitude], with no extra fields."}})
 
     @app.get("/api/health")
@@ -78,7 +80,7 @@ def create_app(settings: Settings | None = None):
             api_error("DATASET_NOT_READY", "Lớp GeoJSON chưa sẵn sàng.")
         return FileResponse(path, media_type="application/geo+json")
 
-    async def calculate_route(request: RouteRequest, router_client=None):
+    async def calculate_route(request: RouteRequest, router_client=None, hints: str | None = None):
         w, s, e, n = settings.region.routing_bbox
         if any(not (w <= lon <= e and s <= lat <= n) for lon, lat in (request.start, request.end)):
             api_error("OUTSIDE_ROUTING_REGION", "Điểm nằm ngoài vùng routing đã cấu hình.", 422)
@@ -87,9 +89,12 @@ def create_app(settings: Settings | None = None):
         if not pbf_status(settings)["format_verified"] or not artifact_status(settings)["graph_ready"]:
             api_error("DATASET_NOT_READY", "Chưa có PBF đọc được và OSRM graph MLD đã chuẩn bị.")
         coords = ";".join(f"{lon},{lat}" for lon, lat in (request.start, request.end))
+        params = {"geometries": "geojson", "overview": "full", "steps": "false", "annotations": "duration,distance", "radiuses": f"{settings.max_snap_meters};{settings.max_snap_meters}"}
+        if hints is not None:
+            params["hints"] = hints
         try:
             async def query(client):
-                return await client.get(f"{settings.osrm_base_url}/route/v1/driving/{coords}", params={"geometries": "geojson", "overview": "full", "steps": "false", "radiuses": f"{settings.max_snap_meters};{settings.max_snap_meters}"})
+                return await client.get(f"{settings.osrm_base_url}/route/v1/driving/{coords}", params=params)
             if router_client is not None:
                 response = await query(router_client)
             else:
@@ -107,7 +112,12 @@ def create_app(settings: Settings | None = None):
             snaps = [SnapPoint(**point) for point in data["waypoints"]]
             if any(point.distance > settings.max_snap_meters for point in snaps):
                 api_error("SNAP_TOO_FAR", "Điểm snap quá xa vị trí đã chọn.", 422)
-            validated = RouteResponse(coordinates=result["geometry"]["coordinates"], distance=result["distance"], duration=result["duration"], snap_points=snaps)
+            annotations = [leg.get("annotation") for leg in result.get("legs", [])]
+            timing = {}
+            if annotations:
+                timing = {"segment_durations": [v for a in annotations for v in a["duration"]],
+                          "segment_distances": [v for a in annotations for v in a["distance"]]}
+            validated = RouteResponse(coordinates=result["geometry"]["coordinates"], distance=result["distance"], duration=result["duration"], snap_points=snaps, **timing)
             if len(set(validated.coordinates)) < 2 or any(meters(p, snap.location) > 5 for p, snap in zip([validated.coordinates[0], validated.coordinates[-1]], snaps)):
                 api_error("ROUTER_BAD_RESPONSE", "Geometry không khớp điểm snap hoặc không có độ dài.", 502)
             if any(meters(p, snap.location) > settings.max_snap_meters + 1 for p, snap in zip([request.start, request.end], snaps)):
@@ -154,6 +164,11 @@ def create_app(settings: Settings | None = None):
             except (OSError, KeyError, ValueError, TypeError):
                 api_error("INVALID_EXPERIMENT_PLAN", "Không xác minh được paired experiment hoặc ledger.", 502)
 
+    async def resolve_route(request: RouteRequest, hints: str | None = None):
+        return await calculate_route(request, hints=hints)
+
+    from .wp3 import register_wp3
+    register_wp3(app, settings, resolve_route)
     return app
 
 

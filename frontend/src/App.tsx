@@ -12,12 +12,21 @@ import './App.css'
 import { useFleet } from '@/lib/use-fleet'
 import { FleetPanel, type FleetFocus } from '@/components/fleet-panel'
 import { RuntimeAudit } from '@/components/runtime-audit'
+import { DemoHome } from '@/components/demo-home'
+import { Wp3Workspace } from '@/components/wp3-workspace'
 import { useBooking } from '@/lib/use-booking'
 import { BookingPanel, type BookingFocus } from '@/components/booking-panel'
 
 import { useVoucher } from '@/lib/use-voucher'
 import { VoucherPanel } from '@/components/voucher-panel'
 const VoucherDashboard = lazy(() => import('@/components/voucher-dashboard'))
+
+type Mode = 'demo' | 'single' | 'fleet' | 'booking' | 'voucher' | 'wp3'
+const modeNames = { demo: 'Luồng demo', single: 'Một hành trình', fleet: 'Đội xe', booking: 'Đặt và điều xe', voucher: 'Thí nghiệm voucher', wp3: 'WP3 · Mô phỏng Quận 1' }
+function initialMode(): Mode {
+  const mode = new URLSearchParams(window.location.search).get('mode')
+  return mode && Object.hasOwn(modeNames, mode) ? mode as Mode : 'demo'
+}
 
 const coordinateText = (point: Coordinate | null) => point ? point.map(v => v.toFixed(6)).join(', ') : 'Chưa chọn trên bản đồ'
 const pbfLabels: Record<string, string> = { missing_pbf: 'Chưa có file PBF', present_unverified: 'Đã có file · chưa xác minh', invalid_extension: 'Sai phần mở rộng', unreadable_pbf: 'Không đọc được file', empty_pbf: 'File PBF rỗng' }
@@ -32,7 +41,7 @@ export default function App() {
   const [route, setRoute] = useState<Route | null>(null)
   const [routing, setRouting] = useState(false)
   const [refreshKey, setRefreshKey] = useState(0)
-  const [mode, setMode] = useState<'single' | 'fleet' | 'booking' | 'voucher'>('single')
+  const [mode, setMode] = useState<Mode>(initialMode)
   const [navigationSize, setNavigationSize] = useState<'expanded' | 'collapsed' | 'hidden'>('expanded')
   const [mobileMenu, setMobileMenu] = useState(false)
   const [inspectorOpen, setInspectorOpen] = useState(true)
@@ -46,7 +55,7 @@ export default function App() {
   const booking = useBooking(mode === 'booking', ready)
   const voucher = useVoucher(mode === 'voucher', ready)
   const focusVehicle = (id: string, kind: FleetFocus['kind']) => { fleet.setSelectedVehicleId(id); setFleetFocus({ id, kind, sequence: performance.now() }) }
-  const changeMode = (next: 'single' | 'fleet' | 'booking' | 'voucher') => { if (next === mode) return; playback.pause(); clear(); fleet.clear(); booking.clear(); voucher.clear(); setFleetFocus(null); setBookingFocus(null); setMode(next) }
+  const changeMode = (next: Mode) => { if (next === mode) return; playback.pause(); clear(); fleet.clear(); booking.clear(); voucher.clear(); setFleetFocus(null); setBookingFocus(null); setMode(next); const url = new URL(window.location.href); if (next === 'demo') url.searchParams.delete('mode'); else url.searchParams.set('mode', next); window.history.replaceState(null, '', url) }
   const mapReady = !!dataset?.artifacts.map_ready
   const pbfPresent = ['present_unverified', 'present_verified'].includes(dataset?.pbf.state ?? '')
 
@@ -93,20 +102,22 @@ export default function App() {
   const waitTitle = connectionError ? 'Kết nối backend để bắt đầu' : !dataset ? 'Đang kiểm tra dữ liệu local' : !pbfPresent ? 'Thêm dữ liệu để mở bản đồ' : 'PBF đã có. Chờ chuẩn bị bản đồ.'
   const waitDescription = connectionError || (!dataset ? 'Đang đọc cấu hình và tình trạng artifact.' : !pbfPresent ? 'Sao chép file Geofabrik đã tải vào đường dẫn bên dưới. Ứng dụng sẽ tự kiểm tra lại.' : 'Chưa có artifact GeoJSON hợp lệ. Chạy pipeline local theo README rồi kiểm tra lại.')
 
+  if (mode === 'demo') return <DemoHome onMode={changeMode} ready={ready} />
+  if (mode === 'wp3') return <Wp3Workspace onHome={() => changeMode('demo')} dataset={dataset} ready={ready} onExplore={() => changeMode('single')} onMapError={setMapError} onRefresh={refresh} mapRevision={refreshKey} readinessError={mapError || connectionError} />
   return <div className={`app-shell nav-${navigationSize} ${inspectorOpen ? "inspector-open" : "inspector-closed"} mode-${mode} view-${mobileView}`}>
     {import.meta.env.DEV && <RuntimeAudit />}
     <header className="app-header">
       <Button variant="outline" aria-label="Open main menu" onClick={() => { if (window.matchMedia('(max-width: 900px)').matches) setMobileMenu(true); else setNavigationSize(navigationSize === 'hidden' ? 'expanded' : 'hidden') }}><Navigation size={18}/></Button>
-      <div className="brand"><span className="brand-icon"><Navigation size={24} /></span><div><h1>GSM Map Sandbox</h1><span className="brand-subtitle">{mode === 'voucher' ? 'Voucher Experiment Studio' : mode === 'booking' ? 'Booking & Dispatch' : mode === 'fleet' ? 'Fleet Simulation' : 'Single Trip'}</span></div></div>
-      <Button variant="outline" aria-label="Toggle inspector" aria-expanded={inspectorOpen} onClick={() => setInspectorOpen(!inspectorOpen)}>Inspector</Button>
-      {mode === 'voucher' && <div className="workspace-view" role="group" aria-label="Workspace view"><Button size="sm" variant={mobileView === 'map' ? 'secondary' : 'outline'} onClick={() => setMobileView('map')}>Map</Button><Button size="sm" variant={mobileView === 'analytics' ? 'secondary' : 'outline'} onClick={() => setMobileView('analytics')}>Analytics</Button></div>}
-      <Badge variant="outline" className="local-badge"><span className="status-dot green" />Local Simulation</Badge>
+      <div className="brand"><span className="brand-icon"><Navigation size={24} /></span><div><h1>GSM Map Sandbox</h1><span className="brand-subtitle">{modeNames[mode]}</span></div></div>
+      <Button variant="outline" aria-label="Toggle inspector" aria-expanded={inspectorOpen} onClick={() => setInspectorOpen(!inspectorOpen)}>Cấu hình</Button>
+      {mode === 'voucher' && <div className="workspace-view" role="group" aria-label="Workspace view"><Button size="sm" variant={mobileView === 'map' ? 'secondary' : 'outline'} onClick={() => setMobileView('map')}>Bản đồ</Button><Button size="sm" variant={mobileView === 'analytics' ? 'secondary' : 'outline'} onClick={() => setMobileView('analytics')}>Phân tích</Button></div>}
+      <Badge variant="outline" className="local-badge"><span className="status-dot green" />Mô phỏng local</Badge>
       <div className="header-status"><span><span className={mapReady && !connectionError ? 'status-dot green' : 'status-dot amber'} />{mapReady ? 'Bản đồ local' : 'Chờ dữ liệu bản đồ'}</span><span><span className={dataset?.osrm.state === 'connected' && !connectionError ? 'status-dot green' : 'status-dot'} />OSRM {dataset?.osrm.state === 'connected' && !connectionError ? 'kết nối' : 'chưa kết nối'}</span></div>
     </header>
     <main className="workspace">
       <PrimaryNavigation mode={mode} size={navigationSize} onMode={changeMode} onSize={setNavigationSize} mobileOpen={mobileMenu} onMobileOpen={setMobileMenu}/>
-      <aside className="sidebar inspector" hidden={!inspectorOpen} aria-label="Cấu hình mô phỏng"><div className="inspector-toolbar"><strong>Contextual Inspector</strong><Button variant="ghost" size="sm" aria-label="Close inspector" onClick={() => setInspectorOpen(false)}>×</Button></div>
-        <InspectorSection title="Map Data"><div className="section-heading"><Database size={17} /><h2>Dữ liệu bản đồ</h2></div>
+      <aside className="sidebar inspector" hidden={!inspectorOpen} aria-label="Cấu hình mô phỏng"><div className="inspector-toolbar"><strong>Cấu hình chế độ</strong><Button variant="ghost" size="sm" aria-label="Close inspector" onClick={() => setInspectorOpen(false)}>×</Button></div>
+        <InspectorSection title="Dữ liệu bản đồ"><div className="section-heading"><Database size={17} /><h2>Dữ liệu bản đồ</h2></div>
           <div className="source-card"><div className="source-icon"><FileBox size={22} /></div><div><strong>Geofabrik Vietnam</strong><p>OpenStreetMap · nguồn PBF local</p></div><a href="https://download.geofabrik.de/asia/vietnam.html" target="_blank" rel="noreferrer" aria-label="Thông tin nguồn Geofabrik"><ArrowUpRight size={17} /></a></div>
           <div className="data-state"><span className={pbfPresent ? 'status-dot green' : 'status-dot amber'} /><span>{dataset?.pbf.format_verified ? 'PBF đã xác minh bằng Osmium' : dataset ? pbfLabels[dataset.pbf.state] ?? dataset.pbf.state : 'Đang kiểm tra file PBF…'}</span></div>
           <div className="data-detail">{dataset?.pbf.size_bytes ? (dataset.pbf.size_bytes / 1024 / 1024).toFixed(1) + (dataset.pbf.format_verified ? ' MiB · nguồn Geofabrik local đã kiểm tra' : ' MiB · định dạng chưa xác minh bằng Osmium') : 'Đọc từ ổ đĩa · không upload qua trình duyệt'}</div>
@@ -114,7 +125,7 @@ export default function App() {
           <div className="bbox-row">{(dataset?.region.display_bbox ?? [106.675, 10.750, 106.725, 10.795]).map(v => v.toFixed(3)).join(' / ')}</div>
           <p className="small-note">Vùng kỹ thuật thử nghiệm, không phải ranh giới hành chính.</p>
         </InspectorSection>
-        {mode === 'voucher' ? <VoucherPanel docked session={voucher} ready={ready} onFocus={setBookingFocus} /> : mode === 'booking' ? <BookingPanel docked session={booking} ready={ready} onFocus={setBookingFocus} /> : mode === 'fleet' ? <FleetPanel docked fleet={fleet} ready={ready} onFocus={focusVehicle} /> : <><InspectorSection title="Trip Configuration" defaultOpen><div className="section-heading"><RouteIcon size={17} /><h2>Thiết lập hành trình</h2><span className="section-number">01</span></div>
+        {mode === 'voucher' ? <VoucherPanel docked session={voucher} ready={ready} onFocus={setBookingFocus} /> : mode === 'booking' ? <BookingPanel docked session={booking} ready={ready} onFocus={setBookingFocus} /> : mode === 'fleet' ? <FleetPanel docked fleet={fleet} ready={ready} onFocus={focusVehicle} /> : <><InspectorSection title="Thiết lập hành trình" defaultOpen><div className="section-heading"><RouteIcon size={17} /><h2>Thiết lập hành trình</h2><span className="section-number">01</span></div>
           <p className="section-description">Nhấp trên bản đồ để chọn A, sau đó chọn B.</p>
           <div className="endpoint"><span className="endpoint-label">A</span><div><label>Điểm xuất phát</label><p>{coordinateText(start)}</p></div></div>
           <div className="endpoint"><span className="endpoint-label end">B</span><div><label>Điểm đến</label><p>{coordinateText(end)}</p></div></div>
@@ -136,7 +147,7 @@ export default function App() {
           <SandboxMap dataset={dataset} start={mode === 'single' ? start : null} end={mode === 'single' ? end : null} route={mode === 'single' ? route : null} progress={playback.progress} enabled={ready && mode === 'single'} onSelect={select} onError={setMapError} fleet={mode === 'fleet' ? fleet : undefined} fleetFocus={fleetFocus} booking={mode === 'voucher' ? voucher.mapSession : mode === 'booking' ? booking : undefined} bookingFocus={bookingFocus} />
           <div className="map-chip"><Layers size={15} />{mapReady ? 'GeoJSON local · OSM' : 'Local empty style'}<span className="chip-divider" />{mapReady ? 'Dữ liệu đường phố' : 'Chưa có lớp đường phố'}</div>
           {(!mapReady || mapError || connectionError) && <div className="waiting-overlay"><div className="waiting-card"><div className="waiting-icon"><FolderOpen size={32} /><span>{pbfPresent ? <Check size={13} /> : <Database size={13} />}</span></div><Badge variant="outline">{pbfPresent ? 'CHỜ ARTIFACT A1' : 'CHỜ DỮ LIỆU LOCAL'}</Badge><h2>{waitTitle}</h2><p>{mapError || waitDescription}</p><div className="file-path"><FolderOpen size={16} /><code>{dataset?.pbf.path ?? 'data/raw/vietnam-latest.osm.pbf'}</code></div><div className="readiness-list"><div className={pbfPresent ? 'done' : ''}><span>{pbfPresent ? <Check size={12} /> : '1'}</span>File PBF local</div><ChevronRight size={13} /><div><span>2</span>GeoJSON bản đồ</div><ChevronRight size={13} /><div><span>3</span>OSRM MLD</div></div><Button variant="outline" onClick={refresh}><RefreshCw size={15} />Kiểm tra dữ liệu</Button><p className="waiting-footnote">Chỉ hiển thị đường phố sau khi xử lý dữ liệu OSM thật.</p></div></div>}
-          <div className="map-bottom-note"><span className={ready ? 'status-dot green' : 'status-dot amber'} />{mode === 'voucher' ? `Voucher experiment · ${voucher.arm} · giả định PoC` : mode === 'booking' ? 'Booking mô phỏng · màu vàng: đến đón · xanh: chở khách · xám: rảnh' : mode === 'fleet' ? 'Simulated fleet — not live GPS · chọn marker để quan sát' : ready ? start ? end ? 'Nhấp để bắt đầu hành trình mới' : 'Chọn điểm B trên bản đồ' : 'Chọn điểm A trên bản đồ' : 'Chọn A/B đang khóa · dữ liệu hoặc router chưa sẵn sàng'}</div>
+          <div className="map-bottom-note"><span className={ready ? 'status-dot green' : 'status-dot amber'} />{mode === 'voucher' ? `Voucher experiment · ${voucher.arm} · giả định PoC` : mode === 'booking' ? 'Booking mô phỏng · màu vàng: đến đón · xanh: chở khách · xám: rảnh' : mode === 'fleet' ? 'Đội xe mô phỏng · chọn xe để quan sát' : ready ? start ? end ? 'Nhấp để bắt đầu hành trình mới' : 'Chọn điểm B trên bản đồ' : 'Chọn điểm A trên bản đồ' : 'Chọn A/B đang khóa · dữ liệu hoặc router chưa sẵn sàng'}</div>
         </div>
         <footer className="map-footer"><span>© OpenStreetMap contributors · Geofabrik</span><span>Sandbox nghiên cứu · {mode === 'single' ? 'một xe mô phỏng' : 'đội xe mô phỏng'}</span></footer>
       </section>

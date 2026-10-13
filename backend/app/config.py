@@ -11,6 +11,7 @@ PROJECT_ROOT = Path(__file__).resolve().parents[2]
 class Region(BaseModel):
     name: str
     display_bbox: tuple[float, float, float, float]
+    simulation_bbox: tuple[float, float, float, float] | None = None
     routing_buffer_degrees: float = Field(ge=0, le=0.1)
     extract_strategy: str
     complete_relation_types: str
@@ -27,6 +28,10 @@ class Region(BaseModel):
             raise ValueError("Invalid WGS84 bbox")
         if self.extract_strategy not in {"smart", "complete_ways"}:
             raise ValueError("Use smart or complete_ways")
+        if self.simulation_bbox is not None:
+            sw, ss, se, sn = self.simulation_bbox
+            if not (w <= sw < se <= e and s <= ss < sn <= n):
+                raise ValueError("Simulation bbox must be inside display coverage")
         return self
 
     @property

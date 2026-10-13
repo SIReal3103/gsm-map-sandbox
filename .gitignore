@@ -2,6 +2,9 @@
 .env.*
 !.env.example
 .venv/
+.venv-codex/
+.python-deps/
+node_modules.partial-*/
 **/__pycache__/
 .pytest_cache/
 *.pyc

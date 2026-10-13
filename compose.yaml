@@ -1,0 +1,31 @@
+name: gsm-map-wp3
+services:
+  osrm:
+    image: ghcr.io/project-osrm/osrm-backend@sha256:855614a38f464b0558a2ad6eaa7cb8c139f39887da9b38b485ce453c6e6e6124
+    command: ["osrm-routed", "--algorithm", "mld", "/data/hcm-center.osrm"]
+    ports: ["127.0.0.1:5001:5000", "127.0.0.1:8000:8000"]
+    volumes: ["./data/routing:/data:ro"]
+    mem_limit: 1g
+    cpus: 2
+  backend:
+    build:
+      context: .
+      dockerfile: Dockerfile.backend
+    image: gsm-map-wp3-backend:local
+    network_mode: service:osrm
+    working_dir: ${WP3_PROJECT_ROOT:?Run scripts/start-local.sh or export the absolute project path}
+    volumes: ["${WP3_PROJECT_ROOT}:${WP3_PROJECT_ROOT}:ro"]
+    environment:
+      OSRM_BASE_URL: http://127.0.0.1:5000
+    depends_on: [osrm]
+    mem_limit: 512m
+    cpus: 2
+  frontend:
+    image: gsm-map-wp3-frontend:local
+    build:
+      context: .
+      dockerfile: Dockerfile.frontend
+    ports: ["127.0.0.1:5173:80"]
+    depends_on: [backend]
+    mem_limit: 128m
+    cpus: 1

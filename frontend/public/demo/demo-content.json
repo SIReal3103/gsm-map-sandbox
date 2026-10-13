@@ -1,0 +1,381 @@
+{
+  "version": "p06-demo-content/v1",
+  "generated_at": "2026-10-12T18:49:28.829579+00:00",
+  "model": {
+    "selected_wp2": "P_joint",
+    "sha256": "c0e1ae4ed27f51ef64bd8c7c72f99092a7cb20a24b1e1543def2e24ed08da009",
+    "examples_scope": "Stored readings from the same fitted model currently used on the map; never live inference"
+  },
+  "examples": [
+    {
+      "id": "example-1",
+      "label": "Chuyến mẫu 1",
+      "origin": "Nguyễn Thị Minh Khai",
+      "destination": "Pasteur",
+      "distance_km": 1.513,
+      "eta_minutes": 3.56,
+      "factual_payable_vnd": 29000,
+      "base_fare_vnd": 31000,
+      "fee_vnd": 3000,
+      "background_discount_vnd": 0,
+      "history_quotes": 1.0,
+      "history_requests": 1.0,
+      "history_missing": true,
+      "context_probability": 0.8179909020755343,
+      "history_probability": 0.86070075884771,
+      "offers": [
+        {
+          "id": "none",
+          "kind": "none",
+          "fixed_vnd": 0,
+          "percent": 0.0,
+          "cap_vnd": 0,
+          "minimum_vnd": 0,
+          "payable_vnd": 34000,
+          "discount_vnd": 0,
+          "status": "supported",
+          "probability": 0.8418549417514204,
+          "delta": 0.0
+        },
+        {
+          "id": "fixed5000",
+          "kind": "fixed",
+          "fixed_vnd": 5000,
+          "percent": 0.0,
+          "cap_vnd": 5000,
+          "minimum_vnd": 30000,
+          "payable_vnd": 29000,
+          "discount_vnd": 5000,
+          "status": "supported",
+          "probability": 0.8610733959603515,
+          "delta": 0.01921845420893109
+        },
+        {
+          "id": "fixed10000",
+          "kind": "fixed",
+          "fixed_vnd": 10000,
+          "percent": 0.0,
+          "cap_vnd": 10000,
+          "minimum_vnd": 40000,
+          "payable_vnd": 34000,
+          "discount_vnd": 0,
+          "status": "ineligible",
+          "probability": null,
+          "delta": null
+        },
+        {
+          "id": "fixed20000",
+          "kind": "fixed",
+          "fixed_vnd": 20000,
+          "percent": 0.0,
+          "cap_vnd": 20000,
+          "minimum_vnd": 70000,
+          "payable_vnd": 34000,
+          "discount_vnd": 0,
+          "status": "ineligible",
+          "probability": null,
+          "delta": null
+        },
+        {
+          "id": "pct10cap15000",
+          "kind": "percent",
+          "fixed_vnd": 0,
+          "percent": 0.1,
+          "cap_vnd": 15000,
+          "minimum_vnd": 30000,
+          "payable_vnd": 30900,
+          "discount_vnd": 3100,
+          "status": "supported",
+          "probability": 0.8536520554180016,
+          "delta": 0.011797113666581205
+        },
+        {
+          "id": "pct20cap30000",
+          "kind": "percent",
+          "fixed_vnd": 0,
+          "percent": 0.2,
+          "cap_vnd": 30000,
+          "minimum_vnd": 50000,
+          "payable_vnd": 34000,
+          "discount_vnd": 0,
+          "status": "ineligible",
+          "probability": null,
+          "delta": null
+        }
+      ],
+      "source_profile_index": 0,
+      "interpretation": "Train-only illustrative model reading; no observed outcome or performance scoring here"
+    },
+    {
+      "id": "example-2",
+      "label": "Chuyến mẫu 2",
+      "origin": "Phạm Ngọc Thạch",
+      "destination": "Phạm Ngũ Lão",
+      "distance_km": 2.241,
+      "eta_minutes": 1.56,
+      "factual_payable_vnd": 34000,
+      "base_fare_vnd": 36000,
+      "fee_vnd": 3000,
+      "background_discount_vnd": 0,
+      "history_quotes": 0.0,
+      "history_requests": 0.0,
+      "history_missing": false,
+      "context_probability": 0.8416560312362521,
+      "history_probability": 0.7750873003889899,
+      "offers": [
+        {
+          "id": "none",
+          "kind": "none",
+          "fixed_vnd": 0,
+          "percent": 0.0,
+          "cap_vnd": 0,
+          "minimum_vnd": 0,
+          "payable_vnd": 39000,
+          "discount_vnd": 0,
+          "status": "supported",
+          "probability": 0.7227617826523248,
+          "delta": 0.0
+        },
+        {
+          "id": "fixed5000",
+          "kind": "fixed",
+          "fixed_vnd": 5000,
+          "percent": 0.0,
+          "cap_vnd": 5000,
+          "minimum_vnd": 30000,
+          "payable_vnd": 34000,
+          "discount_vnd": 5000,
+          "status": "supported",
+          "probability": 0.7630359409506504,
+          "delta": 0.04027415829832559
+        },
+        {
+          "id": "fixed10000",
+          "kind": "fixed",
+          "fixed_vnd": 10000,
+          "percent": 0.0,
+          "cap_vnd": 10000,
+          "minimum_vnd": 40000,
+          "payable_vnd": 39000,
+          "discount_vnd": 0,
+          "status": "ineligible",
+          "probability": null,
+          "delta": null
+        },
+        {
+          "id": "fixed20000",
+          "kind": "fixed",
+          "fixed_vnd": 20000,
+          "percent": 0.0,
+          "cap_vnd": 20000,
+          "minimum_vnd": 70000,
+          "payable_vnd": 39000,
+          "discount_vnd": 0,
+          "status": "ineligible",
+          "probability": null,
+          "delta": null
+        },
+        {
+          "id": "pct10cap15000",
+          "kind": "percent",
+          "fixed_vnd": 0,
+          "percent": 0.1,
+          "cap_vnd": 15000,
+          "minimum_vnd": 30000,
+          "payable_vnd": 35400,
+          "discount_vnd": 3600,
+          "status": "supported",
+          "probability": 0.7516223781809813,
+          "delta": 0.028860595528656496
+        },
+        {
+          "id": "pct20cap30000",
+          "kind": "percent",
+          "fixed_vnd": 0,
+          "percent": 0.2,
+          "cap_vnd": 30000,
+          "minimum_vnd": 50000,
+          "payable_vnd": 39000,
+          "discount_vnd": 0,
+          "status": "ineligible",
+          "probability": null,
+          "delta": null
+        }
+      ],
+      "source_profile_index": 4,
+      "interpretation": "Train-only illustrative model reading; no observed outcome or performance scoring here"
+    },
+    {
+      "id": "example-3",
+      "label": "Chuyến mẫu 3",
+      "origin": "Công trường Quách Thị Trang",
+      "destination": "Phạm Ngọc Thạch",
+      "distance_km": 1.379,
+      "eta_minutes": 2.12,
+      "factual_payable_vnd": 39000,
+      "base_fare_vnd": 36000,
+      "fee_vnd": 3000,
+      "background_discount_vnd": 0,
+      "history_quotes": 6.0,
+      "history_requests": 3.0,
+      "history_missing": false,
+      "context_probability": 0.7670920491721955,
+      "history_probability": 0.6827625248650316,
+      "offers": [
+        {
+          "id": "none",
+          "kind": "none",
+          "fixed_vnd": 0,
+          "percent": 0.0,
+          "cap_vnd": 0,
+          "minimum_vnd": 0,
+          "payable_vnd": 39000,
+          "discount_vnd": 0,
+          "status": "supported",
+          "probability": 0.663819242303354,
+          "delta": 0.0
+        },
+        {
+          "id": "fixed5000",
+          "kind": "fixed",
+          "fixed_vnd": 5000,
+          "percent": 0.0,
+          "cap_vnd": 5000,
+          "minimum_vnd": 30000,
+          "payable_vnd": 34000,
+          "discount_vnd": 5000,
+          "status": "supported",
+          "probability": 0.7045394646748135,
+          "delta": 0.04072022237145956
+        },
+        {
+          "id": "fixed10000",
+          "kind": "fixed",
+          "fixed_vnd": 10000,
+          "percent": 0.0,
+          "cap_vnd": 10000,
+          "minimum_vnd": 40000,
+          "payable_vnd": 39000,
+          "discount_vnd": 0,
+          "status": "ineligible",
+          "probability": null,
+          "delta": null
+        },
+        {
+          "id": "fixed20000",
+          "kind": "fixed",
+          "fixed_vnd": 20000,
+          "percent": 0.0,
+          "cap_vnd": 20000,
+          "minimum_vnd": 70000,
+          "payable_vnd": 39000,
+          "discount_vnd": 0,
+          "status": "ineligible",
+          "probability": null,
+          "delta": null
+        },
+        {
+          "id": "pct10cap15000",
+          "kind": "percent",
+          "fixed_vnd": 0,
+          "percent": 0.1,
+          "cap_vnd": 15000,
+          "minimum_vnd": 30000,
+          "payable_vnd": 35400,
+          "discount_vnd": 3600,
+          "status": "supported",
+          "probability": 0.6928605838584031,
+          "delta": 0.029041341555049116
+        },
+        {
+          "id": "pct20cap30000",
+          "kind": "percent",
+          "fixed_vnd": 0,
+          "percent": 0.2,
+          "cap_vnd": 30000,
+          "minimum_vnd": 50000,
+          "payable_vnd": 39000,
+          "discount_vnd": 0,
+          "status": "ineligible",
+          "probability": null,
+          "delta": null
+        }
+      ],
+      "source_profile_index": 25,
+      "interpretation": "Train-only illustrative model reading; no observed outcome or performance scoring here"
+    }
+  ],
+  "wp1": {
+    "relative_improvement": 0.015560320139510303,
+    "target": 0.02,
+    "passed": false,
+    "days": 36,
+    "comparison": "M1 context versus M2 context+history, matched logistic",
+    "scope": "OSM-aligned synthetic cohort used by the current map model"
+  },
+  "wp3": {
+    "response_completed": 1536,
+    "fleet_completed": 1537,
+    "relative_gain": 0.0006510416666666666,
+    "target": 0.05,
+    "worlds": 36,
+    "oracle_ceiling": 1545,
+    "required_completed": 1613,
+    "ceiling_gain": 0.005859375,
+    "scope": "Locked36tapes; perfect-information relaxation is a diagnostic, not a serving policy or field theorem"
+  },
+  "later_studies": [
+    {
+      "id": "operational",
+      "name": "Fleet liên tục, 180 ngày",
+      "relative_improvement": 0.011334294457967362,
+      "passed": false,
+      "scope": "Separate operational model/cohort; not the current map model"
+    },
+    {
+      "id": "public-price",
+      "name": "Giá công khai, transfer 365 ngày",
+      "relative_improvement": 0.016467430636039674,
+      "passed": false,
+      "scope": "Separate public-price candidate; not activated in map"
+    }
+  ],
+  "truth": {
+    "roads": "Đường OSM thật, tuyến ô tô từ OSRM.",
+    "behavior": "Báo giá, khách và phản ứng voucher được mô phỏng; chưa đo trên khách Green SM.",
+    "driver": "Xe rảnh phù hợp gần nhất luôn nhận booking; khách vẫn có thể không đặt.",
+    "validation": "Kiểm được code, đường, vòng đời và tiền; các mục tiêu 2%/5% chưa đạt.",
+    "foundation": "OASIS/MiroFish và kiểm định bằng dữ liệu vận hành Green SM chưa hoàn tất."
+  },
+  "sources": {
+    "map_model": {
+      "name": "q1-campaign.json",
+      "sha256": "c0e1ae4ed27f51ef64bd8c7c72f99092a7cb20a24b1e1543def2e24ed08da009"
+    },
+    "original_h3": {
+      "name": "summary.json",
+      "sha256": "33b3c0edf4289b1cfed035ab1d2d288db59f9e3f96a62654a2bfbae01401c49b"
+    },
+    "locked_bound": {
+      "name": "report.json",
+      "sha256": "8bab8ade26d227a4c6c736cd74a59803f30eb7180e1d5592d20fabcff7afbc73"
+    },
+    "operational_test": {
+      "name": "heldout-report.json",
+      "sha256": "704e0f76e821f979e10efe179b8c8eb4bb5c3f8fa99a6cd22ee8b6112d22e1ca"
+    },
+    "public_price_transfer": {
+      "name": "report.json",
+      "sha256": "3d2090c068b32b43ed6cf76a678ce5792e5896467a8dbb35f47e7bd7b94f4fb8"
+    },
+    "public_price_campaign": {
+      "name": "development-summary.json",
+      "sha256": "ba6355d3d40cf975b6d63624b4b9158bd8efb3d64b1e42870e3e5faeaa1d2b55"
+    }
+  },
+  "artifacts": {
+    "report": "/demo/p06-demo-report-vi.pdf",
+    "guide": "/demo/demo-guide-vi.md",
+    "report_ready": true
+  }
+}

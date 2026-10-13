@@ -24,7 +24,7 @@ describe('shared speed normalization', () => {
     for (const speed of [16,32,64]) { const requests=raf.mock.calls.length, before=clock.getSnapshot().simulationTimeSeconds; clock.setSpeed(speed); expect(raf).toHaveBeenCalledTimes(requests); expect(clock.getSnapshot().simulationTimeSeconds).toBe(before); now+=1000; callback(now); expect(clock.getSnapshot().simulationTimeSeconds).toBe(before+speed) }
     clock.pause(); const time=clock.getSnapshot().simulationTimeSeconds; clock.setSpeed(17); expect(clock.getSnapshot()).toMatchObject({simulationTimeSeconds:time,speedMultiplier:32,playbackStatus:'paused'}); clock.setSpeed(NaN); expect(clock.getSnapshot().speedMultiplier).toBe(32); clock.dispose()
   })
-  it('Single Trip applies the same speeds and consumes elapsed old-speed time without a second RAF', () => {
+  it('Một hành trình applies the same speeds and consumes elapsed old-speed time without a second RAF', () => {
     let now = 0, callback: FrameRequestCallback = () => {}
     const raf = vi.fn((fn: FrameRequestCallback) => { callback=fn; return 1 })
     vi.stubGlobal('requestAnimationFrame',raf); vi.stubGlobal('cancelAnimationFrame',vi.fn()); vi.spyOn(performance,'now').mockImplementation(() => now)
@@ -49,10 +49,12 @@ describe('workspace presentation preserves mounted state', () => {
     rerender(<InspectorSection title="Configuration" prepared selection=""><input aria-label="Retained seed" defaultValue="seed"/></InspectorSection>); expect(screen.getByRole('button',{name:'Configuration'})).toHaveAttribute('aria-expanded','false')
     rerender(<InspectorSection title="Configuration" prepared selection="GSM-01"><input aria-label="Retained seed" defaultValue="seed"/></InspectorSection>); expect(screen.getByRole('button',{name:'Configuration'})).toHaveAttribute('aria-expanded','true'); expect(screen.getByLabelText('Retained seed')).toHaveValue('edited')
   })
-  it('all four navigation items share one menu; expanded/collapsed/hidden are layout callbacks', () => {
+  it('upstream modes and the learned campaign share navigation; layout callbacks preserve mode', () => {
     const mode=vi.fn(),size=vi.fn(); const {rerender}=render(<PrimaryNavigation mode="voucher" size="expanded" onMode={mode} onSize={size} mobileOpen={false} onMobileOpen={vi.fn()}/>)
-    expect(screen.getByRole('navigation',{name:'Main menu'}).querySelectorAll('button')).toHaveLength(4); expect(screen.getByRole('button',{name:'Voucher Experiment Studio'})).toHaveAttribute('aria-current','page')
-    fireEvent.click(screen.getByRole('button',{name:'Collapse navigation'})); expect(size).toHaveBeenCalledWith('collapsed'); fireEvent.click(screen.getByRole('button',{name:'Hide navigation'})); expect(size).toHaveBeenCalledWith('hidden'); fireEvent.click(screen.getByRole('button',{name:'Booking & Dispatch'})); expect(mode).toHaveBeenCalledWith('booking')
+    expect(screen.getByRole('navigation',{name:'Main menu'}).querySelectorAll('button')).toHaveLength(6); expect(screen.getByRole('button',{name:'Thí nghiệm voucher'})).toHaveAttribute('aria-current','page')
+    for (const label of ['Luồng demo', 'Một hành trình', 'Đội xe', 'Đặt và điều xe', 'Thí nghiệm voucher', 'WP3 · Mô phỏng Quận 1']) expect(screen.getByRole('button', { name: label })).toBeInTheDocument()
+    fireEvent.click(screen.getByRole('button', { name: 'WP3 · Mô phỏng Quận 1' })); expect(mode).toHaveBeenCalledWith('wp3')
+    fireEvent.click(screen.getByRole('button',{name:'Collapse navigation'})); expect(size).toHaveBeenCalledWith('collapsed'); fireEvent.click(screen.getByRole('button',{name:'Hide navigation'})); expect(size).toHaveBeenCalledWith('hidden'); fireEvent.click(screen.getByRole('button',{name:'Đặt và điều xe'})); expect(mode).toHaveBeenCalledWith('booking')
     rerender(<PrimaryNavigation mode="voucher" size="hidden" onMode={mode} onSize={size} mobileOpen={false} onMobileOpen={vi.fn()}/>); expect(screen.queryByRole('navigation',{name:'Main menu'})).toBeNull()
   })
   it('custom input 17 applies 32 and negative/empty/Infinity input preserves clock', () => {

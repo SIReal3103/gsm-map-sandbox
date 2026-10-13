@@ -1,6 +1,7 @@
 {
   "name": "Trung tâm TP.HCM · Quận 1 cũ",
   "display_bbox": [106.675, 10.750, 106.725, 10.795],
+  "simulation_bbox": [106.6935, 10.768, 106.7075, 10.782],
   "routing_buffer_degrees": 0.015,
   "extract_strategy": "smart",
   "complete_relation_types": "multipolygon,restriction",

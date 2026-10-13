@@ -22,7 +22,9 @@ import { X, Minus, Plus, Locate, Maximize, Loader2 } from "lucide-react";
 
 import { cn } from "@/lib/utils";
 
-if (typeof window !== "undefined" && !MapLibreGL.getWorkerUrl()) {
+// Bundled import.meta.url points at the app bundle, so v6's auto-detected
+// worker URL must be overridden with the separately served local worker.
+if (typeof window !== "undefined") {
   MapLibreGL.setWorkerUrl(
     "/maplibre-gl-worker.mjs",
   );

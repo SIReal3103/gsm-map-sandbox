@@ -2,6 +2,13 @@ import { describe, it, expect, vi } from 'vitest'
 import { render, screen, fireEvent, waitFor, act } from '@testing-library/react'
 import App from '../src/App'
 
+// Explorer regressions explicitly leave the default learned campaign workspace.
+function renderExplorer() {
+  window.history.replaceState(null, '', '/?mode=single')
+  render(<App />)
+  window.history.replaceState(null, '', '/')
+}
+
 // WebGL is intentionally mocked in component unit tests; browser QA is separate.
 vi.mock('../src/components/sandbox-map', () => ({ SandboxMap: ({ enabled, onSelect }: { enabled: boolean; onSelect: (point: [number, number]) => void }) => <div data-testid="map-host">
   <button disabled={!enabled} onClick={() => onSelect([106.69, 10.77])}>Fixture A</button>
@@ -12,8 +19,8 @@ const missing = { state: 'missing_pbf', ready: false, pbf: { state: 'missing_pbf
 describe('A0 data waiting UI', () => {
   it('navigation and inspector changes preserve inputs and map DOM without preparing new routes', async () => {
     const fetcher=vi.fn().mockResolvedValue({ok:true,json:async()=>({...missing,ready:true,artifacts:{map_ready:true,graph_ready:true}})})
-    vi.stubGlobal('fetch',fetcher); render(<App/>); await waitFor(()=>expect(screen.getByRole('button',{name:'Fixture A'})).toBeEnabled())
-    fireEvent.click(screen.getByRole('button',{name:'Fleet Simulation'})); fireEvent.change(screen.getByLabelText('Scenario seed'),{target:{value:'retained-seed'}})
+    vi.stubGlobal('fetch',fetcher); renderExplorer(); await waitFor(()=>expect(screen.getByRole('button',{name:'Fixture A'})).toBeEnabled())
+    fireEvent.click(screen.getByRole('button',{name:'Đội xe'})); fireEvent.change(screen.getByLabelText('Scenario seed'),{target:{value:'retained-seed'}})
     const map=screen.getByTestId('map-host'); fireEvent.click(screen.getByRole('button',{name:'Collapse navigation'})); fireEvent.click(screen.getByRole('button',{name:'Hide navigation'})); fireEvent.click(screen.getByRole('button',{name:'Toggle inspector'}))
     expect(screen.getByTestId('map-host')).toBe(map); expect(screen.getByLabelText('Scenario seed')).toHaveValue('retained-seed')
     fireEvent.click(screen.getByRole('button',{name:'Toggle inspector'})); fireEvent.click(screen.getByRole('button',{name:'Fleet Configuration'})); fireEvent.click(screen.getByRole('button',{name:'Fleet Configuration'})); expect(screen.getByLabelText('Scenario seed')).toHaveValue('retained-seed'); expect(fetcher).toHaveBeenCalledTimes(1)
@@ -21,7 +28,7 @@ describe('A0 data waiting UI', () => {
   it('shows missing PBF instructions and disables route controls', async () => {
     const fetch = vi.fn().mockResolvedValue({ ok: true, json: async () => missing })
     vi.stubGlobal('fetch', fetch)
-    render(<App />)
+    renderExplorer()
     expect(await screen.findByText('Thêm dữ liệu để mở bản đồ')).toBeInTheDocument()
     expect(screen.getByText(missing.pbf.path)).toBeInTheDocument()
     for (const label of ['Play', 'Pause', 'Reset', '1x', '2x', '4x', 'Xóa điểm A/B và chọn lại']) {
@@ -33,19 +40,19 @@ describe('A0 data waiting UI', () => {
   })
   it('distinguishes a present unverified PBF from a prepared map', async () => {
     vi.stubGlobal('fetch', vi.fn().mockResolvedValue({ ok: true, json: async () => ({ ...missing, state: 'artifacts_pending', pbf: { ...missing.pbf, state: 'present_unverified', size_bytes: 12345 } }) }))
-    render(<App />)
+    renderExplorer()
     expect(await screen.findByText('PBF đã có. Chờ chuẩn bị bản đồ.')).toBeInTheDocument()
     expect(screen.getByRole('button', { name: 'Play' })).toBeDisabled()
   })
   it('explains backend connection failure', async () => {
     vi.stubGlobal('fetch', vi.fn().mockRejectedValue(new Error('offline fixture')))
-    render(<App />)
+    renderExplorer()
     expect(await screen.findByText('Kết nối backend để bắt đầu')).toBeInTheDocument()
   })
   it('resets route and playback on new endpoint selection', async () => {
     const routeFixture = { coordinates: [[106.69, 10.77], [106.695, 10.78], [106.70, 10.78]], duration: 100, distance: 1200, snap_points: [{ distance: 1 }, { distance: 2 }] }
     vi.stubGlobal('fetch', vi.fn().mockImplementation(async url => ({ ok: true, json: async () => url === '/api/route' ? routeFixture : { ...missing, ready: true, artifacts: { map_ready: true, graph_ready: true }, pbf: { ...missing.pbf, state: 'present_unverified' } } })))
-    render(<App />)
+    renderExplorer()
     await waitFor(() => expect(screen.getByRole('button', { name: 'Fixture A' })).toBeEnabled())
     fireEvent.click(screen.getByRole('button', { name: 'Fixture A' }))
     fireEvent.click(screen.getByRole('button', { name: 'Fixture B' }))
@@ -63,7 +70,7 @@ describe('A0 data waiting UI', () => {
       return Promise.resolve({ ok: true, json: async () => ({ ...missing, ready: true, artifacts: { map_ready: true, graph_ready: true }, pbf: { ...missing.pbf, state: 'present_unverified' } }) })
     })
     vi.stubGlobal('fetch', fetch)
-    render(<App />)
+    renderExplorer()
     await waitFor(() => expect(screen.getByRole('button', { name: 'Fixture A' })).toBeEnabled())
     fireEvent.click(screen.getByRole('button', { name: 'Fixture A' }))
     fireEvent.click(screen.getByRole('button', { name: 'Fixture B' }))
@@ -76,7 +83,7 @@ describe('A0 data waiting UI', () => {
   it('ignores an old successful response after a new A/B request', async () => {
     const resolves: ((value: unknown) => void)[] = []
     vi.stubGlobal('fetch', vi.fn().mockImplementation(url => url === '/api/route' ? new Promise(resolve => resolves.push(resolve)) : Promise.resolve({ ok: true, json: async () => ({ ...missing, ready: true, artifacts: { map_ready: true, graph_ready: true } }) })))
-    render(<App />)
+    renderExplorer()
     await waitFor(() => expect(screen.getByRole('button', { name: 'Fixture A' })).toBeEnabled())
     fireEvent.click(screen.getByRole('button', { name: 'Fixture A' }))
     fireEvent.click(screen.getByRole('button', { name: 'Fixture B' }))
@@ -94,7 +101,7 @@ describe('A0 data waiting UI', () => {
   it('shows loading and a structured route error without enabling playback', async () => {
     let rejectRoute: (value: unknown) => void = () => {}
     vi.stubGlobal('fetch', vi.fn().mockImplementation(url => url === '/api/route' ? new Promise(resolve => { rejectRoute = resolve }) : Promise.resolve({ ok: true, json: async () => ({ ...missing, ready: true, artifacts: { map_ready: true, graph_ready: true } }) })))
-    render(<App />)
+    renderExplorer()
     await waitFor(() => expect(screen.getByRole('button', { name: 'Fixture A' })).toBeEnabled())
     fireEvent.click(screen.getByRole('button', { name: 'Fixture A' }))
     fireEvent.click(screen.getByRole('button', { name: 'Fixture B' }))
@@ -108,9 +115,9 @@ describe('A0 data waiting UI', () => {
     const catalog = { candidates: Array.from({ length: 5 }, (_, i) => ({ id: `test-${i}`, osm_id: `test-${i}`, name: 'explicit fixture', coordinate: [106.69 + i*.001, 10.77] })), datasetFingerprint: 'ui-fixture', routingSource: 'fixture', provenance: { display_bbox: [106.675, 10.75, 106.725, 10.795] } }
     const fixtureRoute = { coordinates: [[106.69, 10.77], [106.70, 10.78]], duration: 100, distance: 1200, snap_points: [{ location: [106.69, 10.77], distance: 0 }, { location: [106.70, 10.78], distance: 0 }] }
     vi.stubGlobal('fetch', vi.fn().mockImplementation(async url => ({ ok: true, json: async () => url === '/api/route' ? fixtureRoute : url === '/api/fleet/candidates' ? catalog : { ...missing, ready: true, artifacts: { map_ready: true, graph_ready: true } } })))
-    render(<App />)
+    renderExplorer()
     await waitFor(() => expect(screen.getByRole('button', { name: 'Fixture A' })).toBeEnabled())
-    fireEvent.click(screen.getByRole('button', { name: 'Fleet Simulation' }))
+    fireEvent.click(screen.getByRole('button', { name: 'Đội xe' }))
     expect(screen.getByRole('button', { name: 'Play' })).toBeDisabled()
     fireEvent.click(screen.getByRole('button', { name: 'Generate Scenario' }))
     expect(await screen.findByRole('status')).toHaveTextContent('Đang chuẩn bị routes')
@@ -124,7 +131,7 @@ describe('A0 data waiting UI', () => {
     fireEvent.click(screen.getByRole('button', { name: 'Pause' }))
     fireEvent.click(screen.getByRole('button', { name: 'Reset' }))
     expect(document.querySelector('.fleet-panel')).toHaveAttribute('data-simulation-time', '0')
-    fireEvent.click(screen.getByRole('button', { name: 'Single Trip' }))
+    fireEvent.click(screen.getByRole('button', { name: 'Một hành trình' }))
     expect(document.querySelectorAll('[data-vehicle-row]')).toHaveLength(0)
     expect(screen.getByRole('button', { name: 'Play' })).toBeDisabled()
   })
@@ -134,19 +141,19 @@ describe('A0 data waiting UI', () => {
       if (url === '/api/fleet/candidates') { candidateSignal = options.signal; return new Promise(() => {}) }
       return Promise.resolve({ ok: true, json: async () => ({ ...missing, ready: true, artifacts: { map_ready: true, graph_ready: true } }) })
     }))
-    render(<App />)
+    renderExplorer()
     await waitFor(() => expect(screen.getByRole('button', { name: 'Fixture A' })).toBeEnabled())
-    fireEvent.click(screen.getByRole('button', { name: 'Fleet Simulation' }))
+    fireEvent.click(screen.getByRole('button', { name: 'Đội xe' }))
     fireEvent.click(screen.getByRole('button', { name: 'Generate Scenario' }))
     await waitFor(() => expect(candidateSignal).toBeDefined())
-    fireEvent.click(screen.getByRole('button', { name: 'Single Trip' }))
+    fireEvent.click(screen.getByRole('button', { name: 'Một hành trình' }))
     expect(candidateSignal?.aborted).toBe(true)
     expect(screen.queryByRole('status')).not.toBeInTheDocument()
   })
   it('booking mode respects dataset readiness and has empty playback controls', async () => {
     vi.stubGlobal('fetch', vi.fn().mockResolvedValue({ ok: true, json: async () => missing }))
-    render(<App />)
-    fireEvent.click(screen.getByRole('button', { name: 'Booking & Dispatch' }))
+    renderExplorer()
+    fireEvent.click(screen.getByRole('button', { name: 'Đặt và điều xe' }))
     expect(screen.getByRole('button', { name: 'Generate Booking Scenario' })).toBeDisabled()
     expect(screen.getByRole('button', { name: 'Play' })).toBeDisabled()
     expect(screen.getByRole('combobox', { name: 'Booking count' })).toHaveValue('20')
@@ -157,14 +164,32 @@ describe('A0 data waiting UI', () => {
       if (url === '/api/booking-simulation/prepare') { prepareSignal = options.signal; return new Promise(() => {}) }
       return Promise.resolve({ ok: true, json: async () => ({ ...missing, ready: true, artifacts: { map_ready: true, graph_ready: true } }) })
     }))
-    render(<App />)
+    renderExplorer()
     await waitFor(() => expect(screen.getByRole('button', { name: 'Fixture A' })).toBeEnabled())
-    fireEvent.click(screen.getByRole('button', { name: 'Booking & Dispatch' }))
+    fireEvent.click(screen.getByRole('button', { name: 'Đặt và điều xe' }))
     fireEvent.click(screen.getByRole('button', { name: 'Generate Booking Scenario' }))
     await waitFor(() => expect(prepareSignal).toBeDefined())
-    fireEvent.click(screen.getByRole('button', { name: 'Fleet Simulation' }))
+    fireEvent.click(screen.getByRole('button', { name: 'Đội xe' }))
     expect(prepareSignal?.aborted).toBe(true)
     expect(document.querySelector('.booking-panel')).not.toBeInTheDocument()
     expect(screen.getByRole('button', { name: 'Play' })).toBeDisabled()
+  })
+  it('opens upstream simulation modes and returns to the learned campaign workspace', async () => {
+    window.history.replaceState(null, '', '/')
+    vi.stubGlobal('fetch', vi.fn().mockResolvedValue({ ok: true, json: async () => ({ ...missing, ready: true, artifacts: { map_ready: true, graph_ready: true } }) }))
+    render(<App />)
+    fireEvent.click(screen.getByRole('button', { name: 'Mở bản đồ' }))
+    expect(screen.getAllByRole('button', { name: 'Chạy mô phỏng' })).toHaveLength(2)
+    fireEvent.click(screen.getByRole('button', { name: 'Khám phá tuyến' }))
+    await waitFor(() => expect(screen.getByRole('button', { name: 'Fixture A' })).toBeEnabled())
+    fireEvent.click(screen.getByRole('button', { name: 'Đặt và điều xe' }))
+    expect(screen.getByRole('button', { name: 'Generate Booking Scenario' })).toBeEnabled()
+    fireEvent.click(screen.getByRole('button', { name: 'Thí nghiệm voucher' }))
+    expect(screen.getByRole('button', { name: 'Prepare Experiment' })).toBeEnabled()
+    fireEvent.click(screen.getByRole('button', { name: 'Đội xe' }))
+    expect(screen.getByRole('button', { name: 'Generate Scenario' })).toBeEnabled()
+    fireEvent.click(screen.getByRole('button', { name: 'WP3 · Mô phỏng Quận 1' }))
+    for (const button of screen.getAllByRole('button', { name: 'Chạy mô phỏng' })) expect(button).toBeEnabled()
+    expect(screen.queryByRole('button', { name: 'Generate Scenario' })).not.toBeInTheDocument()
   })
 })

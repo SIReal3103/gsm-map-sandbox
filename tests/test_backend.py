@@ -125,7 +125,34 @@ def test_route_contract_and_local_parameters(settings, monkeypatch):
     assert calls[0].url.host == "127.0.0.1"
     assert calls[0].url.params["overview"] == "full"
     assert calls[0].url.params["geometries"] == "geojson"
+    assert calls[0].url.params["annotations"] == "duration,distance"
     assert [float(value) for value in calls[0].url.params["radiuses"].split(";")] == [100, 100]
+
+
+def test_segment_annotations_are_returned_and_misalignment_rejected(settings, monkeypatch):
+    fixture_graph(settings)
+    body = {"code": "Ok", "routes": [{"geometry": {"type": "LineString", "coordinates": [[106.69, 10.77], [106.695, 10.77], [106.70, 10.77]]}, "distance": 1000, "duration": 110,
+        "legs": [{"annotation": {"duration": [10, 90], "distance": [500, 500]}}]}],
+        "waypoints": [{"location": [106.69, 10.77], "distance": 0}, {"location": [106.70, 10.77], "distance": 0}]}
+    mock_osrm(monkeypatch, body)
+    client = TestClient(create_app(settings))
+    request = {"start": [106.69, 10.77], "end": [106.70, 10.77]}
+    response = client.post('/api/route', json=request)
+    assert response.status_code == 200
+    assert response.json()['segment_durations'] == [10, 90]
+    assert response.json()['duration'] == 110  # Total retains turn costs.
+    body['routes'][0]['legs'][0]['annotation']['duration'] = [10]
+    response = client.post('/api/route', json=request)
+    assert response.status_code == 502
+    assert response.json()['error']['code'] == 'ROUTER_BAD_RESPONSE'
+
+
+def test_simulation_bbox_inside_verified_display(settings):
+    values = settings.region.model_dump()
+    assert values['simulation_bbox'] == [106.6935, 10.768, 106.7075, 10.782] or values['simulation_bbox'] == (106.6935, 10.768, 106.7075, 10.782)
+    values['simulation_bbox'] = [106.65, 10.76, 106.70, 10.78]
+    with pytest.raises(ValidationError, match='inside display coverage'):
+        Region(**values)
 
 
 @pytest.mark.parametrize("body,unavailable,status,code", [({"code": "NoRoute"}, False, 200, "NOROUTE"), ({"code": "NoSegment"}, False, 400, "NOSEGMENT"), ({"code": "Ok", "routes": []}, False, 200, "ROUTER_BAD_RESPONSE"), ({}, True, 200, "ROUTER_UNAVAILABLE")])
@@ -155,6 +182,7 @@ def test_bbox_buffer_and_invalid_region(settings):
 
 
 def test_pipeline_dry_run_never_executes(monkeypatch, capsys):
+    monkeypatch.setenv("OSRM_BASE_URL", "http://127.0.0.1:5000")
     def forbidden(*args, **kwargs):
         raise AssertionError("dry-run executed subprocess")
     monkeypatch.setattr("subprocess.run", forbidden)

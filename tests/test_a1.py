@@ -2,6 +2,7 @@
 import copy
 import json
 import os
+from pathlib import Path, PureWindowsPath
 import httpx
 import pytest
 from fastapi.testclient import TestClient
@@ -118,8 +119,12 @@ real = pytest.mark.skipif(os.environ.get("RUN_REAL_DATA") != "1", reason="Explic
 def test_real_geojson_and_protected_inputs():
     s = Settings()
     before = json.loads((PROJECT_ROOT / "docs/evidence/a1/preflight.json").read_text(encoding="utf-8"))
-    for entry in before["inputs"]:
-        assert sha256(s.resolve(entry["path"])).upper() == entry["sha256"].upper()
+    # The original national snapshot is still protected. Resolve its path in
+    # this checkout without changing the independently recorded checksum.
+    entry = before['inputs'][0]
+    assert sha256(s.pbf_path).upper() == entry['sha256'].upper()
+    source = pbf_status(s)['verification']
+    assert source['format_verified'] and sha256(s.pbf_path) == source['sha256']
     manifest = json.loads((s.map_path.parent / "manifest.json").read_text(encoding="utf-8"))
     for filename, entry in manifest["layers"].items():
         path = s.map_path.parent / filename
@@ -130,6 +135,20 @@ def test_real_geojson_and_protected_inputs():
             validate_geometry(f["geometry"])
     graph = artifact_status(s)["routing_manifest"]
     assert sha256(s.resolve(graph["input_path"])) == graph["extract_sha256"] == sha256(s.resolve(graph["extract_path"]))
+    extract = json.loads((s.routing_dir.parent / 'extracted/hcm-center.osm.metadata.json').read_text())
+    assert extract['source_sha256'] == source['sha256']
+    assert extract['extract_sha256'] == graph['extract_sha256']
+
+
+@real
+def test_archived_manual_input_checksum():
+    before = json.loads((PROJECT_ROOT / 'docs/evidence/a1/preflight.json').read_text())
+    entry = before['inputs'][1]
+    parts = PureWindowsPath(entry['path']).parts
+    path = PROJECT_ROOT / Path(*parts[parts.index('data'):])
+    if not path.is_file():
+        pytest.skip('Archived Windows A1 manual PBF is not installed; active smart extract is checked separately')
+    assert sha256(path).upper() == entry['sha256'].upper()
 
 
 @real

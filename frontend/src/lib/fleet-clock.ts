@@ -42,7 +42,9 @@ export class FleetClock {
   seek = (seconds: number) => { this.stop(); const time = Math.max(0, Math.min(this.duration, Number.isFinite(seconds) ? seconds : 0)); this.publish({ simulationTimeSeconds: time, playbackStatus: !this.duration ? 'idle' : time >= this.duration ? 'completed' : 'paused' }) }
   reset = () => this.seek(0)
   setSpeed = (speed: number) => {
-    const normalized = normalizeSimulationSpeed(speed)
+    // WP3 retains its existing exact 20x/60x menu; the shared dock normalizes
+    // its custom input before calling this clock.
+    const normalized = speed === 20 || speed === 60 ? speed : normalizeSimulationSpeed(speed)
     if (normalized === null) return
     const now = performance.now(), time = this.snapshot.playbackStatus === 'playing' ? this.time(now) : this.snapshot.simulationTimeSeconds
     this.anchorTime = time; this.anchorWall = now

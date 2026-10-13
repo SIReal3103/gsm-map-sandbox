@@ -19,6 +19,23 @@ export function positionAt(coordinates: Coordinate[], progress: number): Coordin
   }
   return coordinates[coordinates.length - 1]
 }
+export function positionAtTime(coordinates: Coordinate[], progress: number, durations?: number[] | null): Coordinate | null {
+  if (!durations) return positionAt(coordinates, progress)
+  if (!coordinates.length || durations.length !== coordinates.length - 1 || durations.some(v => !Number.isFinite(v) || v < 0)) return null
+  const total = durations.reduce((sum, value) => sum + value, 0)
+  if (total <= 0) return null
+  if (progress <= 0) return coordinates[0]
+  if (progress >= 1) return coordinates[coordinates.length - 1]
+  let remaining = total * progress
+  for (let i = 0; i < durations.length; i++) {
+    if (durations[i] > 0 && remaining < durations[i]) {
+      const t = remaining / durations[i], a = coordinates[i], b = coordinates[i + 1]
+      return [a[0] + (b[0] - a[0]) * t, a[1] + (b[1] - a[1]) * t]
+    }
+    remaining -= durations[i]
+  }
+  return coordinates[coordinates.length - 1]
+}
 export function advanceProgress(progress: number, elapsedSeconds: number, duration: number, speed: number) {
   if (duration <= 0 || !Number.isFinite(duration)) return 0
   return Math.max(0, Math.min(1, progress + Math.max(0, elapsedSeconds) * speed / duration))
