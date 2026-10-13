@@ -27,6 +27,7 @@ const modeNames = { demo: 'Luồng demo', single: 'Một hành trình', fleet: '
 function initialMode(): Mode {
   const mode = new URLSearchParams(window.location.search).get('mode')
   if (import.meta.env.VITE_PUBLIC_REPLAY === '1') return mode === 'wp3' ? 'wp3' : 'demo'
+  if (!mode && new URLSearchParams(window.location.search).get('runtime') === 'saved') return 'voucher'
   return mode && Object.hasOwn(modeNames, mode) ? mode as Mode : 'demo'
 }
 
