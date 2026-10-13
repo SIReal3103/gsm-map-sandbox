@@ -27,4 +27,6 @@ coverage/
 frontend/public/maplibre-gl-worker.mjs
 frontend/public/maplibre-gl-shared.mjs
 build/
+frontend/public/replay/
+frontend/.replay-tools/
 config/*.local.*

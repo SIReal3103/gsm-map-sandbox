@@ -1,6 +1,7 @@
 import type { StyleSpecification, ExpressionSpecification } from 'maplibre-gl'
 import latin from '@fontsource-variable/geist/files/geist-latin-wght-normal.woff2?url'
 import vietnamese from '@fontsource-variable/geist/files/geist-vietnamese-wght-normal.woff2?url'
+import type { ReplayAssets } from './replay-assets'
 
 export const emptyStyle: StyleSpecification = { version: 8, sources: {}, layers: [{ id: 'background', type: 'background', paint: { 'background-color': '#f4f1e9' } }] }
 const major: ExpressionSpecification = ['in', ['get', 'highway'], ['literal', ['motorway', 'trunk', 'primary', 'secondary', 'tertiary', 'motorway_link', 'trunk_link', 'primary_link', 'secondary_link']]]
@@ -11,7 +12,7 @@ export const localStyle: StyleSpecification = {
     { url: vietnamese, 'unicode-range': ['U+0102-0103', 'U+0110-0111', 'U+0128-0129', 'U+0168-0169', 'U+01A0-01A1', 'U+01AF-01B0', 'U+0300-0301', 'U+0303-0304', 'U+0308-0309', 'U+0323', 'U+0329', 'U+1EA0-1EF9', 'U+20AB'] },
     { url: latin, 'unicode-range': ['U+0000-00FF', 'U+2000-206F'] },
   ] },
-  sources: Object.fromEntries(['streets', 'water', 'green', 'buildings', 'places'].map(name => [name, { type: 'geojson' as const, data: `/api/map/${name}` }])),
+  sources: Object.fromEntries(['streets', 'water', 'green', 'buildings', 'places'].map(name => [name, { type: 'geojson' as const, data: import.meta.env.VITE_PUBLIC_REPLAY === '1' ? `/map-runtime/${name}.json` : `/api/map/${name}` }])),
   layers: [
     ...emptyStyle.layers,
     { id: 'water-area', type: 'fill', source: 'water', filter: ['==', ['geometry-type'], 'Polygon'], paint: { 'fill-color': '#b8d9db' } },
@@ -26,4 +27,12 @@ export const localStyle: StyleSpecification = {
     { id: 'road-names', type: 'symbol', source: 'streets', minzoom: 15, filter: ['has', 'name'], layout: { 'symbol-placement': 'line', 'text-field': ['get', 'name'], 'text-font': ['Geist'], 'text-size': ['interpolate', ['linear'], ['zoom'], 14, 10, 18, 13], 'symbol-spacing': 250 }, paint: { 'text-color': '#66746c', 'text-halo-color': '#fffef9', 'text-halo-width': 1.5 } },
     { id: 'place-names', type: 'symbol', source: 'places', minzoom: 16, layout: { 'text-field': ['get', 'name'], 'text-font': ['Geist'], 'text-size': 11, 'text-max-width': 10, 'text-optional': true }, paint: { 'text-color': '#488176', 'text-halo-color': '#ffffff', 'text-halo-width': 2 } },
   ],
+}
+
+export function savedMapStyle(assets: ReplayAssets): StyleSpecification {
+  const base=import.meta.env.BASE_URL
+  const faces=localStyle['font-faces']!.Geist
+  if(!Array.isArray(faces)) throw new Error('LOCAL_FONT_FACES_REQUIRED')
+  return {...localStyle, sources:Object.fromEntries(Object.entries(assets.layers).map(([name,data])=>[name,{type:'geojson',data}])),
+    'font-faces':{Geist:faces.map((face,i)=>({...face,url:base+`replay/fonts/geist-${i===0?'vietnamese':'latin'}.woff2`}))}}
 }

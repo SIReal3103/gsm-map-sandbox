@@ -1,0 +1,109 @@
+{
+  "method": "Production static build, browser WebGL, FleetClock RAF intervals; each run resets metrics on play. Mean is interval, not guaranteed FPS; panels use viewport chart gating.",
+  "samples": [
+    {
+      "vehicles": 5,
+      "speed": 1,
+      "advanced": false,
+      "canvas": 1,
+      "clock": {
+        "frameSamples": 1257,
+        "maxFrameMilliseconds": 33.29999999998836,
+        "meanFrameMilliseconds": 16.695067621282664
+      },
+      "markers": 5,
+      "time": "20.998299999952316"
+    },
+    {
+      "vehicles": 5,
+      "speed": 4,
+      "advanced": false,
+      "canvas": 1,
+      "clock": {
+        "frameSamples": 8606,
+        "maxFrameMilliseconds": 50.09999999997672,
+        "meanFrameMilliseconds": 16.93121078316899
+      },
+      "markers": 5,
+      "time": "582.8651999998093"
+    },
+    {
+      "vehicles": 5,
+      "speed": 32,
+      "advanced": true,
+      "canvas": 1,
+      "clock": {
+        "frameSamples": 3948,
+        "maxFrameMilliseconds": 66.70000000001164,
+        "meanFrameMilliseconds": 16.745339412348606
+      },
+      "markers": 5,
+      "time": "2115.1910000000003"
+    },
+    {
+      "vehicles": 5,
+      "speed": 64,
+      "advanced": true,
+      "canvas": 1,
+      "clock": {
+        "frameSamples": 1878,
+        "maxFrameMilliseconds": 83.59999999997672,
+        "meanFrameMilliseconds": 17.628966986142814
+      },
+      "markers": 5,
+      "time": "2115.1910000000003"
+    },
+    {
+      "vehicles": 10,
+      "speed": 1,
+      "advanced": false,
+      "canvas": 1,
+      "clock": {
+        "frameSamples": 5138,
+        "maxFrameMilliseconds": 266.70000000006985,
+        "meanFrameMilliseconds": 17.148637602165916
+      },
+      "markers": 10,
+      "time": "88.11459999990463"
+    },
+    {
+      "vehicles": 10,
+      "speed": 4,
+      "advanced": false,
+      "canvas": 1,
+      "clock": {
+        "frameSamples": 1333,
+        "maxFrameMilliseconds": 50.20000000006985,
+        "meanFrameMilliseconds": 17.747036759154025
+      },
+      "markers": 10,
+      "time": "94.65519999980927"
+    },
+    {
+      "vehicles": 10,
+      "speed": 32,
+      "advanced": true,
+      "canvas": 1,
+      "clock": {
+        "frameSamples": 3008,
+        "maxFrameMilliseconds": 99.90000000002328,
+        "meanFrameMilliseconds": 18.127194148944096
+      },
+      "markers": 10,
+      "time": "1745.3376000022888"
+    },
+    {
+      "vehicles": 10,
+      "speed": 64,
+      "advanced": true,
+      "canvas": 1,
+      "clock": {
+        "frameSamples": 1553,
+        "maxFrameMilliseconds": 83.40000000002328,
+        "meanFrameMilliseconds": 17.680489375402477
+      },
+      "markers": 10,
+      "time": "1757.664"
+    }
+  ]
+}

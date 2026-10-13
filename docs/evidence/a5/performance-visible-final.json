@@ -1,0 +1,14 @@
+{
+  "vehicles": 10,
+  "speed": 64,
+  "advanced": true,
+  "visibility": "browser presented",
+  "canvas": 1,
+  "clock": {
+    "frameSamples": 1143,
+    "maxFrameMilliseconds": 50,
+    "meanFrameMilliseconds": 17.00384951887273
+  },
+  "markers": 10,
+  "time": "1244.2368000030517"
+}

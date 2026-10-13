@@ -1,0 +1,107 @@
+[
+  {
+    "name": "http://127.0.0.1:4174/assets/geist-vietnamese-wght-normal-6IgcOCM7.woff2",
+    "initiatorType": "css",
+    "startTime": 217782.89999997616,
+    "duration": 0,
+    "transferSize": 0
+  },
+  {
+    "name": "http://127.0.0.1:4174/assets/geist-latin-wght-normal-BgDaEnEv.woff2",
+    "initiatorType": "css",
+    "startTime": 217782.89999997616,
+    "duration": 0,
+    "transferSize": 0
+  },
+  {
+    "name": "http://127.0.0.1:4174/replay/demo-experiment.json",
+    "initiatorType": "fetch",
+    "startTime": 218076.79999995232,
+    "duration": 9.400000095367432,
+    "transferSize": 56303
+  },
+  {
+    "name": "http://127.0.0.1:4174/replay/manifest.json",
+    "initiatorType": "fetch",
+    "startTime": 218135.39999997616,
+    "duration": 3.600000023841858,
+    "transferSize": 1215
+  },
+  {
+    "name": "http://127.0.0.1:4174/replay/map/streets.geojson",
+    "initiatorType": "fetch",
+    "startTime": 218140.70000004768,
+    "duration": 17.799999952316284,
+    "transferSize": 4125171
+  },
+  {
+    "name": "http://127.0.0.1:4174/replay/map/water.geojson",
+    "initiatorType": "fetch",
+    "startTime": 218188.60000002384,
+    "duration": 9.899999976158142,
+    "transferSize": 229854
+  },
+  {
+    "name": "http://127.0.0.1:4174/replay/map/green.geojson",
+    "initiatorType": "fetch",
+    "startTime": 218205.29999995232,
+    "duration": 4.300000071525574,
+    "transferSize": 256691
+  },
+  {
+    "name": "http://127.0.0.1:4174/replay/map/buildings.geojson",
+    "initiatorType": "fetch",
+    "startTime": 218212.29999995232,
+    "duration": 30,
+    "transferSize": 3642302
+  },
+  {
+    "name": "http://127.0.0.1:4174/replay/map/places.geojson",
+    "initiatorType": "fetch",
+    "startTime": 218266.39999997616,
+    "duration": 4.600000023841858,
+    "transferSize": 16417
+  },
+  {
+    "name": "http://127.0.0.1:4174/replay/fonts/geist-latin.woff2",
+    "initiatorType": "fetch",
+    "startTime": 218272.10000002384,
+    "duration": 3.600000023841858,
+    "transferSize": 29700
+  },
+  {
+    "name": "http://127.0.0.1:4174/replay/fonts/geist-vietnamese.woff2",
+    "initiatorType": "fetch",
+    "startTime": 218276.79999995232,
+    "duration": 3.100000023841858,
+    "transferSize": 8304
+  },
+  {
+    "name": "http://127.0.0.1:4174/maplibre-gl-worker.mjs",
+    "initiatorType": "fetch",
+    "startTime": 218280.89999997616,
+    "duration": 4,
+    "transferSize": 300
+  },
+  {
+    "name": "http://127.0.0.1:4174/maplibre-gl-shared.mjs",
+    "initiatorType": "fetch",
+    "startTime": 218286,
+    "duration": 2.600000023841858,
+    "transferSize": 300
+  },
+  {
+    "name": "http://127.0.0.1:4174/replay/fonts/geist-latin.woff2",
+    "initiatorType": "fetch",
+    "startTime": 218915.89999997616,
+    "duration": 13.5,
+    "transferSize": 300
+  },
+  {
+    "name": "http://127.0.0.1:4174/replay/fonts/geist-vietnamese.woff2",
+    "initiatorType": "fetch",
+    "startTime": 218916,
+    "duration": 14.299999952316284,
+    "transferSize": 300
+  }
+]

@@ -55,10 +55,24 @@ function ChartContainer({
 }) {
   const uniqueId = React.useId()
   const chartId = `chart-${id ?? uniqueId.replace(/:/g, "")}`
+  const host = React.useRef<HTMLDivElement>(null)
+  const [dimension, setDimension] = React.useState(initialDimension)
+  React.useLayoutEffect(() => {
+    if (!host.current || typeof ResizeObserver === 'undefined') return
+    // Retain the last positive size when mobile Map hides Analytics. Recharts'
+    // own percentage observer otherwise receives 0x0 before viewport unmount.
+    const observer = new ResizeObserver(([entry]) => {
+      const {width,height} = entry.contentRect
+      if(width>0 && height>0) setDimension(previous=>previous.width===width && previous.height===height ? previous : {width,height})
+    })
+    observer.observe(host.current)
+    return ()=>observer.disconnect()
+  }, [])
 
   return (
     <ChartContext.Provider value={{ config }}>
       <div
+        ref={host}
         data-slot="chart"
         data-chart={chartId}
         className={cn(
@@ -70,6 +84,8 @@ function ChartContainer({
         <ChartStyle id={chartId} config={config} />
         <RechartsPrimitive.ResponsiveContainer
           initialDimension={initialDimension}
+          width={dimension.width}
+          height={dimension.height}
         >
           {children}
         </RechartsPrimitive.ResponsiveContainer>

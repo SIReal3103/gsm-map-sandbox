@@ -26,7 +26,7 @@ import { cn } from "@/lib/utils";
 // worker URL must be overridden with the separately served local worker.
 if (typeof window !== "undefined") {
   MapLibreGL.setWorkerUrl(
-    "/maplibre-gl-worker.mjs",
+    import.meta.env.BASE_URL + "maplibre-gl-worker.mjs",
   );
 }
 
